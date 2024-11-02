@@ -1,0 +1,13 @@
+loop finished sleeping 1 seconds before exit 2024-11-02 13:45:01.528542
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-02 14:00:02.060423
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-02 14:15:01.524551
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-02 14:30:02.234614
+branch update No. 5
+14:45:01.680 - INFO - detected new pair XRPUSDT at Nov 2, 2024, 2:50PM 2024-11-02 14:45:01.680094 - main
+14:45:01.680 - INFO - client initialized 2024-11-02 14:45:01.680639 - main
+14:45:01.681 - INFO - Release time and date: 02-11-2024 14:50:00.000 - get_price_websocket
+14:45:02.101 - INFO - WebSocket initialized and subscribed to XRP-USDT ticker - initialize_websocket
+14:45:02.101 - INFO -  Waiting 297.90 seconds until token release time - wait_until_listing

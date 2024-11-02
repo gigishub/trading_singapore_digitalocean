@@ -60,20 +60,20 @@ def main():
 
         # Check if listing is close to start
         if 0 < datetime_to_listing_seconds < 1200 :
-            try:
-                logger.info(f'detected new pair {new_pair_dict["pair"]} at {new_pair_dict["date_time_string"]} {datetime.now()}')
-            except Exception as e:
-                logger.error(f"Error when logging new pair: {e}")
+            logger.info(f'detected new pair {new_pair_dict["pair"]} at {new_pair_dict["date_time_string"]}')
                 
             try:
-                # API credentials
-                api_key = '66ba4dd1d3e67a000108330f'
-                api_secret = 'c5465410-7eca-43a4-86ac-c63c0e9b8da5'
-                api_passphrase = 'buhyabuhna'
+                with open('/root/trading_systems/kucoin_dir/config_api.json') as config_file:
+                    config = json.load(config_file)
+
+                # Api credentials
+                api_key = config['api_key']
+                api_secret = config['api_secret']
+                api_passphrase = config['api_passphrase']
 
                 # Initialize the client
                 client = Client(api_key, api_secret, api_passphrase)
-                logger.info(f'client initialized {datetime.now()}')
+                logger.info(f'client initialized')
 
                 #trading_rules_for_token(trading_rules,pair=new_pair_dict['pair'])
 
