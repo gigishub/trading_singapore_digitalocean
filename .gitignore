@@ -1,0 +1,9 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment directories
+tradingvenv/
+
+# Ignore specific files
+secret_config.py

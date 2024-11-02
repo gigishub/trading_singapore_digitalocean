@@ -10,7 +10,7 @@ from kucoin.exceptions import KucoinAPIException
 import logging
 
 import sys
-sys.path.append('/root/1.code_on_server')
+#sys.path.append('/root/1.code_on_server')
 from update_kucoinclass import KucoinWebSocketScraper
 
 
@@ -20,7 +20,7 @@ from update_kucoinclass import KucoinWebSocketScraper
 
 logging.basicConfig(
     level=logging.INFO,
-    format='%(asctime)s.%(msecs)03d - %(funcName)s - %(levelname)s - %(message)s',
+    format='%(asctime)s.%(msecs)03d - %(levelname)s - %(message)s - %(funcName)s',
     datefmt='%H:%M:%S'
 )
 logger = logging.getLogger(__name__)
@@ -28,10 +28,10 @@ logger.setLevel(logging.INFO)  # Explicitly set logger level
 
 
 def main():
-    os.chdir('/root/1.code_on_server')
-    directory = '/root/new_pair_data_kucoin'
+
+    directory = '/root/trading_systems/new_pair_data_kucoin'
     #xpath_to_find = "//*[@id='trade4-xl-container']/section[1]/div/div[1]/div[3]/div[1]/div[1]/span"
-    percent_of_price_buy = 0.2 # setting limit order to buy n% above the retrived price
+    percent_of_price_buy = 0.5 # setting limit order to buy n% above the retrived price
     percent_of_price_sell = 1.2 # setting limit order to sell n% above the ACTUAL buy price NOT the retrived price
 
     # Loop through announced pairs 
@@ -463,22 +463,22 @@ def order_size_and_rounding(token_price):
         size = ''
         dezimal_to_round = 0
         if token_price < 0.000009:
-            dezimal_to_round = 10
+            dezimal_to_round = 9
             size = '1000100'
         elif token_price < 0.00009:
-            dezimal_to_round = 9
+            dezimal_to_round = 8
             size = '100100'
         elif token_price < 0.0009:
-            dezimal_to_round = 8
+            dezimal_to_round = 7
             size = '10100'
         elif token_price < 0.009:
-            dezimal_to_round = 7
+            dezimal_to_round = 6
             size = '1010'
         elif token_price < 0.09:
-            dezimal_to_round = 6
+            dezimal_to_round = 5
             size = '110'
         elif token_price < 0.9:
-            dezimal_to_round = 5
+            dezimal_to_round = 4
             size ='11'
         elif token_price < 9:
             dezimal_to_round = 2

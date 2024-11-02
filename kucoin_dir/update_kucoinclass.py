@@ -11,7 +11,7 @@ import traceback
 # Configure logging with microsecond precision and function names
 logging.basicConfig(
     level=logging.INFO,
-    format='%(asctime)s.%(msecs)03d - %(funcName)s - %(levelname)s - %(message)s',
+    format='%(asctime)s.%(msecs)03d - %(levelname)s - %(message)s - %(funcName)s',
     datefmt='%H:%M:%S'
 )
 logger = logging.getLogger(__name__)
@@ -146,7 +146,7 @@ class KucoinWebSocketScraper:
         await self.wait_until_listing(release_time)
 
         while datetime.now() < release_time:
-            await asyncio.sleep(0.001)
+            await asyncio.sleep(0.0001)
 
         try:
             # while datetime.now() < end_time:
@@ -200,27 +200,27 @@ class KucoinWebSocketScraper:
 
 
 
-# Example usage
-async def main():
+# # Example usage
+# async def main():
 
-    from datetime import timedelta
+#     from datetime import timedelta
 
-    symbol = "BTC"  # Example symbol
-    scraper = KucoinWebSocketScraper()
-    #release_time = datetime(2024, 11, 1, 13, 30, 0)  # Example fixed datetime
+#     symbol = "BTC"  # Example symbol
+#     scraper = KucoinWebSocketScraper()
+#     #release_time = datetime(2024, 11, 1, 13, 30, 0)  # Example fixed datetime
 
-    release_time = datetime.now() + timedelta(seconds=10)  # Example release time
-
-
-    try:
-        price = await scraper.get_price_websocket(symbol, max_wait_time=2, release_time =release_time)
-        if price:
-            print(f"Successfully retrieved {symbol} price: {price}")
-        else:
-            print("No price found after all retry attempts")
-    finally:
-        await scraper.cleanup()
+#     release_time = datetime.now() + timedelta(seconds=10)  # Example release time
 
 
-if __name__ == "__main__":
-    asyncio.run(main())
+#     try:
+#         price = await scraper.get_price_websocket(symbol, max_wait_time=2, release_time =release_time)
+#         if price:
+#             print(f"Successfully retrieved {symbol} price: {price}")
+#         else:
+#             print("No price found after all retry attempts")
+#     finally:
+#         await scraper.cleanup()
+
+
+# if __name__ == "__main__":
+#     asyncio.run(main())
