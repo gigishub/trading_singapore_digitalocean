@@ -16,7 +16,7 @@ from update_kucoinclass import KucoinWebSocketScraper
 
 
 
-#update5 branch 01.11.24
+#update5 branch 02.11.24
 
 logging.basicConfig(
     level=logging.INFO,

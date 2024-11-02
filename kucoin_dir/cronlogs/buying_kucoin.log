@@ -11,3 +11,20 @@ branch update No. 5
 14:45:01.681 - INFO - Release time and date: 02-11-2024 14:50:00.000 - get_price_websocket
 14:45:02.101 - INFO - WebSocket initialized and subscribed to XRP-USDT ticker - initialize_websocket
 14:45:02.101 - INFO -  Waiting 297.90 seconds until token release time - wait_until_listing
+14:49:47.263 - INFO - 15 seconds left until token release - wait_until_listing
+14:50:00.017 - INFO - Price found via WebSocket: 0.50863 at 14:50:00.017 - get_price_websocket
+14:50:00.017 - INFO - get_release_price function returned: 0.50863 - scraper
+14:50:00.017 - INFO - Buying price: 0.2543 at 14:50:00.017 - price_execute_order_logger
+14:50:00.230 - INFO - Buy order executed at: 14:50:00.230: {'orderId': '67263c1895973e00072160e8'} - price_execute_order_logger
+14:50:00.230 - INFO - limitbuy order price: 0.2543 - price_execute_order_logger
+14:50:00.382 - ERROR - KucoinAPIException occurred: KucoinAPIException 200004: Balance insufficient! - price_execute_order_logger
+14:50:00.382 - ERROR - Error message: Balance insufficient! - price_execute_order_logger
+14:50:00.382 - ERROR - Error code: 200004 - price_execute_order_logger
+14:50:00.382 - ERROR - Insufficient balance - price_execute_order_logger
+loop finished sleeping 1 seconds before exit 2024-11-02 14:50:00.457986
+branch update No. 5
+15:00:02.072 - INFO - detected new pair XRPUSDT at Nov 02, 2024, 03:15PM - main
+15:00:02.073 - INFO - client initialized - main
+15:00:02.073 - INFO - Release time and date: 02-11-2024 15:15:00.000 - get_price_websocket
+15:00:02.528 - INFO - WebSocket initialized and subscribed to XRP-USDT ticker - initialize_websocket
+15:00:02.529 - INFO -  Waiting 897.47 seconds until token release time - wait_until_listing
