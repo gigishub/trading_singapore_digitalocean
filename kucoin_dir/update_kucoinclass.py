@@ -170,7 +170,7 @@ class KucoinWebSocketScraper:
                         except (KeyError, ValueError) as e:
                             logger.debug(f"Failed to parse price: {e}")
                             continue
-                    await asyncio.sleep(0.001)
+                    await asyncio.sleep(0.0001)
             
         except Exception as e:
             logger.error(f"Error in retriving price loop {e}")

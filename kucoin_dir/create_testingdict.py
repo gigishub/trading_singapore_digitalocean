@@ -23,16 +23,17 @@ base_data = {
 }
 
 # Starting time
-start_time = datetime.strptime("Nov 2, 2024, 3:00PM", "%b %d, %Y, %I:%M%p")
+start_time = datetime.strptime("Nov 3, 2024, 8:15PM", "%b %d, %Y, %I:%M%p")
 # INITALIZE COUNTER
 minute_counter = 0
 
 # Increment time by minutes
-minute_increment = 15
+minute_increment = 45
 
 # Number of files to generate
 amount_of_files = 10
 
+directory_for_testing_files = "/root/trading_systems/kucoin_dir/new_pair_data_kucoin"
 
 # Generate 15 JSON files
 for i in range(amount_of_files):
@@ -42,9 +43,10 @@ for i in range(amount_of_files):
     # Update the date_time_string in the base data
     base_data["date_time_string"] = current_time.strftime("%b %d, %Y, %I:%M%p")
     
-    os.makedirs("/root/trading_systems/new_pair_data_kucoin", exist_ok=True)
+
+    os.makedirs(directory_for_testing_files, exist_ok=True)
     # Save to a new JSON file
-    filename = os.path.join("/root/trading_systems/new_pair_data_kucoin", f"file_{i+1}.json")
+    filename = os.path.join(directory_for_testing_files, f"file_{i+1}.json")
     with open(filename, 'w') as json_file:
         json.dump(base_data, json_file, indent=4)
     minute_counter += minute_increment

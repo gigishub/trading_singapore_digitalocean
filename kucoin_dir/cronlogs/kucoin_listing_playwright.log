@@ -1,0 +1,39 @@
+/root/trading_systems/tradingvenv/bin/python: can't open file '/root/trading_systems/kucoin_dir/kucoin_dir/kucoin_listing_playwright.py': [Errno 2] No such file or directory
+DEBUG - Using selector: EpollSelector - __init__
+DEBUG - printing retrived element for debugging: 
+
+ PiggyPiggyCoin (PGC) Gets Listed on KuCoin! World Premiere!
+
+Trading: 12:00 on November 12, 2024 (UTC)
+
+11/02/2024, 12:00:02
+ - create_announcement_dict
+DEBUG - PGCUSDT has been updated. - save_and_update_announcement
+DEBUG - printing retrived element for debugging: 
+
+ Legend of Arcadia (ARCA) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on November 4, 2024 (UTC)
+
+11/01/2024, 10:03:02
+ - create_announcement_dict
+DEBUG - ARCAUSDT has been updated. - save_and_update_announcement
+DEBUG - printing retrived element for debugging: 
+
+ RoOLZ (GODL) Gets Listed on KuCoin! World Premiere!
+
+Trading: 12:00 on November 7, 2024 (UTC)
+
+10/31/2024, 02:55:00
+ - create_announcement_dict
+DEBUG - GODLUSDT has been updated. - save_and_update_announcement
+DEBUG - printing retrived element for debugging: 
+
+ Exciting Update From The GemVote Event Phase 4: Goatseus Maximus (GOAT) Gets Listed on KuCoin!
+
+Trading: 12:00 on October 25, 2024 (UTC)
+
+10/25/2024, 07:40:36
+ - create_announcement_dict
+DEBUG - GOATUSDT has been updated. - save_and_update_announcement
+DEBUG - Finished kucoin listing script - main

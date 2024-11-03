@@ -1,0 +1,414 @@
+DEBUG - Using selector: EpollSelector - __init__
+DEBUG - Section 2 is new listing - main
+DEBUG - Section 3 is new listing - main
+DEBUG - Section 4 is new listing - main
+DEBUG - Section 5 is new listing - main
+DEBUG - Section 6 is new listing - main
+DEBUG - Section 7 is new listing - main
+DEBUG - Section 8 is new listing - main
+DEBUG - Section 9 is new listing - main
+DEBUG - Section 13 is new listing - main
+DEBUG - Section 15 is new listing - main
+DEBUG - Section 18 is new listing - main
+DEBUG - Extracted date and time: Nov 06, 2024, 10AM - get_info_from_page
+DEBUG - Extracted pair: SMILEUSDT - get_info_from_page
+DEBUG - finished extracting info for SMILEUSDT - main
+DEBUG - SMILEUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Nov 04, 2024, 10AM - get_info_from_page
+DEBUG - Non usdt pair: WEETHETH - get_info_from_page
+DEBUG - finished extracting info for None - main
+DEBUG - None has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Nov 04, 2024, 11AM - get_info_from_page
+DEBUG - Extracted pair: ARCAUSDT - get_info_from_page
+DEBUG - finished extracting info for ARCAUSDT - main
+DEBUG - ARCAUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 31, 2024, 1PM - get_info_from_page
+DEBUG - Extracted pair: LUCEUSDT - get_info_from_page
+DEBUG - finished extracting info for LUCEUSDT - main
+DEBUG - LUCEUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 29, 2024, 2PM - get_info_from_page
+DEBUG - Extracted pair: BANUSDT - get_info_from_page
+DEBUG - finished extracting info for BANUSDT - main
+DEBUG - BANUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 29, 2024, 1PM - get_info_from_page
+DEBUG - Extracted pair: ACTUSDT - get_info_from_page
+DEBUG - finished extracting info for ACTUSDT - main
+DEBUG - ACTUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 30, 2024, 11AM - get_info_from_page
+DEBUG - Extracted pair: FUSEUSDT - get_info_from_page
+DEBUG - finished extracting info for FUSEUSDT - main
+DEBUG - FUSEUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 28, 2024, 2PM - get_info_from_page
+DEBUG - Extracted pair: GRASSUSDT - get_info_from_page
+DEBUG - finished extracting info for GRASSUSDT - main
+DEBUG - GRASSUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 19, 2024, 5AM - get_info_from_page
+DEBUG - Extracted pair: GOATUSDT - get_info_from_page
+DEBUG - finished extracting info for GOATUSDT - main
+DEBUG - GOATUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 22, 2024, 8AM - get_info_from_page
+DEBUG - Extracted pair: SCRUSDT - get_info_from_page
+DEBUG - Extracted date and time: Oct 22, 2024, 8AM - get_info_from_page
+DEBUG - Non usdt pair: SCREUR - get_info_from_page
+DEBUG - finished extracting info for SCRUSDT - main
+DEBUG - SCRUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 23, 2024, 11AM - get_info_from_page
+DEBUG - Extracted pair: CROSUSDT - get_info_from_page
+DEBUG - finished extracting info for CROSUSDT - main
+DEBUG - CROSUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Using selector: EpollSelector - __init__
+DEBUG - Section 2 is new listing - main
+DEBUG - Section 3 is new listing - main
+DEBUG - Section 4 is new listing - main
+DEBUG - Section 5 is new listing - main
+DEBUG - Section 6 is new listing - main
+DEBUG - Section 7 is new listing - main
+DEBUG - Section 8 is new listing - main
+DEBUG - Section 9 is new listing - main
+DEBUG - Section 13 is new listing - main
+DEBUG - Section 15 is new listing - main
+DEBUG - Section 18 is new listing - main
+DEBUG - Extracted date and time: Nov 06, 2024, 10AM - get_info_from_page
+DEBUG - Extracted pair: SMILEUSDT - get_info_from_page
+DEBUG - finished extracting info for SMILEUSDT - main
+DEBUG - SMILEUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Nov 04, 2024, 10AM - get_info_from_page
+DEBUG - Non usdt pair: WEETHETH - get_info_from_page
+DEBUG - finished extracting info for None - main
+DEBUG - None has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Nov 04, 2024, 11AM - get_info_from_page
+DEBUG - Extracted pair: ARCAUSDT - get_info_from_page
+DEBUG - finished extracting info for ARCAUSDT - main
+DEBUG - ARCAUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 31, 2024, 1PM - get_info_from_page
+DEBUG - Extracted pair: LUCEUSDT - get_info_from_page
+DEBUG - finished extracting info for LUCEUSDT - main
+DEBUG - LUCEUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 29, 2024, 2PM - get_info_from_page
+DEBUG - Extracted pair: BANUSDT - get_info_from_page
+DEBUG - finished extracting info for BANUSDT - main
+DEBUG - BANUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 29, 2024, 1PM - get_info_from_page
+DEBUG - Extracted pair: ACTUSDT - get_info_from_page
+DEBUG - finished extracting info for ACTUSDT - main
+DEBUG - ACTUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 30, 2024, 11AM - get_info_from_page
+DEBUG - Extracted pair: FUSEUSDT - get_info_from_page
+DEBUG - finished extracting info for FUSEUSDT - main
+DEBUG - FUSEUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 28, 2024, 2PM - get_info_from_page
+DEBUG - Extracted pair: GRASSUSDT - get_info_from_page
+DEBUG - finished extracting info for GRASSUSDT - main
+DEBUG - GRASSUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 19, 2024, 5AM - get_info_from_page
+DEBUG - Extracted pair: GOATUSDT - get_info_from_page
+DEBUG - finished extracting info for GOATUSDT - main
+DEBUG - GOATUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 22, 2024, 8AM - get_info_from_page
+DEBUG - Extracted pair: SCRUSDT - get_info_from_page
+DEBUG - Extracted date and time: Oct 22, 2024, 8AM - get_info_from_page
+DEBUG - Non usdt pair: SCREUR - get_info_from_page
+DEBUG - finished extracting info for SCRUSDT - main
+DEBUG - SCRUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 23, 2024, 11AM - get_info_from_page
+DEBUG - Extracted pair: CROSUSDT - get_info_from_page
+DEBUG - finished extracting info for CROSUSDT - main
+DEBUG - CROSUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Using selector: EpollSelector - __init__
+DEBUG - Section 2 is new listing - main
+DEBUG - Section 3 is new listing - main
+DEBUG - Section 4 is new listing - main
+DEBUG - Section 5 is new listing - main
+DEBUG - Section 6 is new listing - main
+DEBUG - Section 7 is new listing - main
+DEBUG - Section 8 is new listing - main
+DEBUG - Section 9 is new listing - main
+DEBUG - Section 13 is new listing - main
+DEBUG - Section 15 is new listing - main
+DEBUG - Section 18 is new listing - main
+DEBUG - Extracted date and time: Nov 06, 2024, 10AM - get_info_from_page
+DEBUG - Extracted pair: SMILEUSDT - get_info_from_page
+DEBUG - finished extracting info for SMILEUSDT - main
+DEBUG - SMILEUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Nov 04, 2024, 10AM - get_info_from_page
+DEBUG - Non usdt pair: WEETHETH - get_info_from_page
+DEBUG - finished extracting info for None - main
+DEBUG - None has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Nov 04, 2024, 11AM - get_info_from_page
+DEBUG - Extracted pair: ARCAUSDT - get_info_from_page
+DEBUG - finished extracting info for ARCAUSDT - main
+DEBUG - ARCAUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 31, 2024, 1PM - get_info_from_page
+DEBUG - Extracted pair: LUCEUSDT - get_info_from_page
+DEBUG - finished extracting info for LUCEUSDT - main
+DEBUG - LUCEUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 29, 2024, 2PM - get_info_from_page
+DEBUG - Extracted pair: BANUSDT - get_info_from_page
+DEBUG - finished extracting info for BANUSDT - main
+DEBUG - BANUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 29, 2024, 1PM - get_info_from_page
+DEBUG - Extracted pair: ACTUSDT - get_info_from_page
+DEBUG - finished extracting info for ACTUSDT - main
+DEBUG - ACTUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 30, 2024, 11AM - get_info_from_page
+DEBUG - Extracted pair: FUSEUSDT - get_info_from_page
+DEBUG - finished extracting info for FUSEUSDT - main
+DEBUG - FUSEUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 28, 2024, 2PM - get_info_from_page
+DEBUG - Extracted pair: GRASSUSDT - get_info_from_page
+DEBUG - finished extracting info for GRASSUSDT - main
+DEBUG - GRASSUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 19, 2024, 5AM - get_info_from_page
+DEBUG - Extracted pair: GOATUSDT - get_info_from_page
+DEBUG - finished extracting info for GOATUSDT - main
+DEBUG - GOATUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 22, 2024, 8AM - get_info_from_page
+DEBUG - Extracted pair: SCRUSDT - get_info_from_page
+DEBUG - Extracted date and time: Oct 22, 2024, 8AM - get_info_from_page
+DEBUG - Non usdt pair: SCREUR - get_info_from_page
+DEBUG - finished extracting info for SCRUSDT - main
+DEBUG - SCRUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 23, 2024, 11AM - get_info_from_page
+DEBUG - Extracted pair: CROSUSDT - get_info_from_page
+DEBUG - finished extracting info for CROSUSDT - main
+DEBUG - CROSUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Using selector: EpollSelector - __init__
+DEBUG - Section 2 is new listing - main
+DEBUG - Section 3 is new listing - main
+DEBUG - Section 4 is new listing - main
+DEBUG - Section 5 is new listing - main
+DEBUG - Section 6 is new listing - main
+DEBUG - Section 7 is new listing - main
+DEBUG - Section 8 is new listing - main
+DEBUG - Section 9 is new listing - main
+DEBUG - Section 13 is new listing - main
+DEBUG - Section 15 is new listing - main
+DEBUG - Section 18 is new listing - main
+DEBUG - Extracted date and time: Nov 06, 2024, 10AM - get_info_from_page
+DEBUG - Extracted pair: SMILEUSDT - get_info_from_page
+DEBUG - finished extracting info for SMILEUSDT - main
+DEBUG - SMILEUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Nov 04, 2024, 10AM - get_info_from_page
+DEBUG - Non usdt pair: WEETHETH - get_info_from_page
+DEBUG - finished extracting info for None - main
+DEBUG - None has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Nov 04, 2024, 11AM - get_info_from_page
+DEBUG - Extracted pair: ARCAUSDT - get_info_from_page
+DEBUG - finished extracting info for ARCAUSDT - main
+DEBUG - ARCAUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 31, 2024, 1PM - get_info_from_page
+DEBUG - Extracted pair: LUCEUSDT - get_info_from_page
+DEBUG - finished extracting info for LUCEUSDT - main
+DEBUG - LUCEUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 29, 2024, 2PM - get_info_from_page
+DEBUG - Extracted pair: BANUSDT - get_info_from_page
+DEBUG - finished extracting info for BANUSDT - main
+DEBUG - BANUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 29, 2024, 1PM - get_info_from_page
+DEBUG - Extracted pair: ACTUSDT - get_info_from_page
+DEBUG - finished extracting info for ACTUSDT - main
+DEBUG - ACTUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 30, 2024, 11AM - get_info_from_page
+DEBUG - Extracted pair: FUSEUSDT - get_info_from_page
+DEBUG - finished extracting info for FUSEUSDT - main
+DEBUG - FUSEUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 28, 2024, 2PM - get_info_from_page
+DEBUG - Extracted pair: GRASSUSDT - get_info_from_page
+DEBUG - finished extracting info for GRASSUSDT - main
+DEBUG - GRASSUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 19, 2024, 5AM - get_info_from_page
+DEBUG - Extracted pair: GOATUSDT - get_info_from_page
+DEBUG - finished extracting info for GOATUSDT - main
+DEBUG - GOATUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 22, 2024, 8AM - get_info_from_page
+DEBUG - Extracted pair: SCRUSDT - get_info_from_page
+DEBUG - Extracted date and time: Oct 22, 2024, 8AM - get_info_from_page
+DEBUG - Non usdt pair: SCREUR - get_info_from_page
+DEBUG - finished extracting info for SCRUSDT - main
+DEBUG - SCRUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 23, 2024, 11AM - get_info_from_page
+DEBUG - Extracted pair: CROSUSDT - get_info_from_page
+DEBUG - finished extracting info for CROSUSDT - main
+DEBUG - CROSUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Using selector: EpollSelector - __init__
+DEBUG - Section 2 is new listing - main
+DEBUG - Section 3 is new listing - main
+DEBUG - Section 4 is new listing - main
+DEBUG - Section 5 is new listing - main
+DEBUG - Section 6 is new listing - main
+DEBUG - Section 7 is new listing - main
+DEBUG - Section 8 is new listing - main
+DEBUG - Section 9 is new listing - main
+DEBUG - Section 13 is new listing - main
+DEBUG - Section 15 is new listing - main
+DEBUG - Section 18 is new listing - main
+DEBUG - Extracted date and time: Nov 06, 2024, 10AM - get_info_from_page
+DEBUG - Extracted pair: SMILEUSDT - get_info_from_page
+DEBUG - finished extracting info for SMILEUSDT - main
+DEBUG - SMILEUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Nov 04, 2024, 10AM - get_info_from_page
+DEBUG - Non usdt pair: WEETHETH - get_info_from_page
+DEBUG - finished extracting info for None - main
+DEBUG - None has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Nov 04, 2024, 11AM - get_info_from_page
+DEBUG - Extracted pair: ARCAUSDT - get_info_from_page
+DEBUG - finished extracting info for ARCAUSDT - main
+DEBUG - ARCAUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 31, 2024, 1PM - get_info_from_page
+DEBUG - Extracted pair: LUCEUSDT - get_info_from_page
+DEBUG - finished extracting info for LUCEUSDT - main
+DEBUG - LUCEUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 29, 2024, 2PM - get_info_from_page
+DEBUG - Extracted pair: BANUSDT - get_info_from_page
+DEBUG - finished extracting info for BANUSDT - main
+DEBUG - BANUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 29, 2024, 1PM - get_info_from_page
+DEBUG - Extracted pair: ACTUSDT - get_info_from_page
+DEBUG - finished extracting info for ACTUSDT - main
+DEBUG - ACTUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 30, 2024, 11AM - get_info_from_page
+DEBUG - Extracted pair: FUSEUSDT - get_info_from_page
+DEBUG - finished extracting info for FUSEUSDT - main
+DEBUG - FUSEUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 28, 2024, 2PM - get_info_from_page
+DEBUG - Extracted pair: GRASSUSDT - get_info_from_page
+DEBUG - finished extracting info for GRASSUSDT - main
+DEBUG - GRASSUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 19, 2024, 5AM - get_info_from_page
+DEBUG - Extracted pair: GOATUSDT - get_info_from_page
+DEBUG - finished extracting info for GOATUSDT - main
+DEBUG - GOATUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 22, 2024, 8AM - get_info_from_page
+DEBUG - Extracted pair: SCRUSDT - get_info_from_page
+DEBUG - Extracted date and time: Oct 22, 2024, 8AM - get_info_from_page
+DEBUG - Non usdt pair: SCREUR - get_info_from_page
+DEBUG - finished extracting info for SCRUSDT - main
+DEBUG - SCRUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 23, 2024, 11AM - get_info_from_page
+DEBUG - Extracted pair: CROSUSDT - get_info_from_page
+DEBUG - finished extracting info for CROSUSDT - main
+DEBUG - CROSUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Using selector: EpollSelector - __init__
+DEBUG - Section 2 is new listing - main
+DEBUG - Section 3 is new listing - main
+DEBUG - Section 4 is new listing - main
+DEBUG - Section 5 is new listing - main
+DEBUG - Section 6 is new listing - main
+DEBUG - Section 7 is new listing - main
+DEBUG - Section 8 is new listing - main
+DEBUG - Section 9 is new listing - main
+DEBUG - Section 13 is new listing - main
+DEBUG - Section 15 is new listing - main
+DEBUG - Section 18 is new listing - main
+DEBUG - Extracted date and time: Nov 06, 2024, 10AM - get_info_from_page
+DEBUG - Extracted pair: SMILEUSDT - get_info_from_page
+DEBUG - finished extracting info for SMILEUSDT - main
+DEBUG - SMILEUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Nov 04, 2024, 10AM - get_info_from_page
+DEBUG - Non usdt pair: WEETHETH - get_info_from_page
+DEBUG - finished extracting info for None - main
+DEBUG - None has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Nov 04, 2024, 11AM - get_info_from_page
+DEBUG - Extracted pair: ARCAUSDT - get_info_from_page
+DEBUG - finished extracting info for ARCAUSDT - main
+DEBUG - ARCAUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 31, 2024, 1PM - get_info_from_page
+DEBUG - Extracted pair: LUCEUSDT - get_info_from_page
+DEBUG - finished extracting info for LUCEUSDT - main
+DEBUG - LUCEUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 29, 2024, 2PM - get_info_from_page
+DEBUG - Extracted pair: BANUSDT - get_info_from_page
+DEBUG - finished extracting info for BANUSDT - main
+DEBUG - BANUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 29, 2024, 1PM - get_info_from_page
+DEBUG - Extracted pair: ACTUSDT - get_info_from_page
+DEBUG - finished extracting info for ACTUSDT - main
+DEBUG - ACTUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 30, 2024, 11AM - get_info_from_page
+DEBUG - Extracted pair: FUSEUSDT - get_info_from_page
+DEBUG - finished extracting info for FUSEUSDT - main
+DEBUG - FUSEUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 28, 2024, 2PM - get_info_from_page
+DEBUG - Extracted pair: GRASSUSDT - get_info_from_page
+DEBUG - finished extracting info for GRASSUSDT - main
+DEBUG - GRASSUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 19, 2024, 5AM - get_info_from_page
+DEBUG - Extracted pair: GOATUSDT - get_info_from_page
+DEBUG - finished extracting info for GOATUSDT - main
+DEBUG - GOATUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 22, 2024, 8AM - get_info_from_page
+DEBUG - Extracted pair: SCRUSDT - get_info_from_page
+DEBUG - Extracted date and time: Oct 22, 2024, 8AM - get_info_from_page
+DEBUG - Non usdt pair: SCREUR - get_info_from_page
+DEBUG - finished extracting info for SCRUSDT - main
+DEBUG - SCRUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main
+DEBUG - Extracted date and time: Oct 23, 2024, 11AM - get_info_from_page
+DEBUG - Extracted pair: CROSUSDT - get_info_from_page
+DEBUG - finished extracting info for CROSUSDT - main
+DEBUG - CROSUSDT has been updated. - save_and_updae_data_to_file
+DEBUG - ------------------------------------ - main

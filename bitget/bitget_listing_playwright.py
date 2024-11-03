@@ -39,6 +39,7 @@ def main():
                         logging.debug(f"Section {counter} is new listing")
                         full_url = f"https://www.bitget.com{href}"
                         full_url_list.append(full_url)
+
                 except Exception as e:
                     logging.error(f'Error processing section {counter}: {e}')
                     logging.error(section.inner_text())
@@ -49,9 +50,9 @@ def main():
                     annpuncement_dict = get_info_from_page(page, full_url)
                     #logging.debug(annpuncement_dict)
                     logging.debug(f'finished extracting info for {annpuncement_dict["pair"]}')
-                    logging.debug('------------------------------------')
                     # Save the information to a file
-                    saving_data_to_file(path_found_pairs_saved, annpuncement_dict)  
+                    save_and_updae_data_to_file(path_found_pairs_saved, annpuncement_dict)
+                    logging.debug('------------------------------------')
             except Exception as e:
                 logging.error(f"when extracting or saving listing info: {e}")
 
@@ -110,13 +111,13 @@ def get_info_from_page(page, full_url):
     return listing_info
 
 
-def saving_data_to_file(path_found_pairs_saved, listing_info):
+def save_and_updae_data_to_file(path_found_pairs_saved, listing_info):
     # Create a directory to store the data
     os.makedirs(path_found_pairs_saved, exist_ok=True)
 
     # Create the file name
     date_time_obj = datetime.strptime(listing_info['date_time_string'], "%b %d, %Y, %I%p")
-    formatted_date_str = date_time_obj.strftime("%d-%m-%y") 
+    formatted_date_str = date_time_obj.strftime("%y-%m-%d") 
 
     file_name = f"{formatted_date_str}_{listing_info['pair']}.json"
     if listing_info['pair'] is None:
@@ -138,29 +139,36 @@ def saving_data_to_file(path_found_pairs_saved, listing_info):
         with open(file_path, 'w') as f:
             json.dump(existing_pair_dict, f, indent=4)
         logging.debug(f"{listing_info['pair']} has been updated.")
-    else:
+
+    elif file_name not in os.listdir(path_found_pairs_saved):
         # Create a new dictionary for the pair
         with open(file_path, 'w') as f:
             json.dump(listing_info, f, indent=4)
         logging.debug(f"New listing: {listing_info['pair']} has been added.")
-
-
-
+    else:
+        logging.debug(f'No changes made to {listing_info["pair"]}')
+    
 
 def extract_date_time_string(text):
     # Use a regular expression to extract the date and time
-    match = re.search(r'Trading Available: (\d{1,2} \w+ \d{4}), (\d{2}:\d{2}) \(UTC\)', text)
-    if match:
-        date_str = match.group(1)
-        time_str = match.group(2)
+    try:
+        #match = re.search(r'Trading Available: (\d{1,2} \w+ \d{4}), (\d{2}:\d{2}) \(UTC\)', text)
+        match = re.search(r'Trading Available:\s*(\d{1,2}\s+\w+\s+\d{4}),\s*(\d{1,2}:\d{2})\s*(?:\(UTC\))?', text, re.IGNORECASE)
+        if match:
+            date_str = match.group(1)
+            time_str = match.group(2)
 
-        # Parse the extracted date and time
-        date_time_obj = datetime.strptime(f"{date_str} {time_str}", "%d %B %Y %H:%M")
+            # Parse the extracted date and time
+            date_time_obj = datetime.strptime(f"{date_str} {time_str}", "%d %B %Y %H:%M")
 
-        # Format the date and time as required
-        date_time_string = date_time_obj.strftime("%b %d, %Y, %-I%p")
-        return date_time_string
-    return None
+            # Format the date and time as required
+            date_time_string = date_time_obj.strftime("%b %d, %Y, %-I%p")
+            return date_time_string
+        return None
+    except Exception as e:
+        logging.error(f"extracting date and time (check if regex still applies) \n searched string: {text} \nError message: {e}")
+        traceback.print_exc()
+        return None
 
 
 if __name__ == "__main__":

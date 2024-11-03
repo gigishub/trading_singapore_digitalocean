@@ -13,11 +13,6 @@ import sys
 #sys.path.append('/root/1.code_on_server')
 from update_kucoinclass import KucoinWebSocketScraper
 
-
-
-
-#update5 branch 02.11.24
-
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s.%(msecs)03d - %(levelname)s - %(message)s - %(funcName)s',
@@ -29,8 +24,7 @@ logger.setLevel(logging.INFO)  # Explicitly set logger level
 
 def main():
 
-    directory = '/root/trading_systems/new_pair_data_kucoin'
-    #xpath_to_find = "//*[@id='trade4-xl-container']/section[1]/div/div[1]/div[3]/div[1]/div[1]/span"
+    directory = '/root/trading_systems/kucoin_dir/new_pair_data_kucoin'
     percent_of_price_buy = 0.5 # setting limit order to buy n% above the retrived price
     percent_of_price_sell = 1.2 # setting limit order to sell n% above the ACTUAL buy price NOT the retrived price
 
@@ -80,14 +74,13 @@ def main():
                 # does not connect to client need print statements to debug
 
             except Exception as e:
-                logger.info(f"Error when initialising kucoain:\n {e}")
+                logger.error(f"when initialising kucoain:\n {e}")
 
         # Example usage
             async def scraper(client               = client,
                             basecoin               = basecoin,
                             percent_of_price_buy   = percent_of_price_buy, 
                             percent_of_price_sell  = percent_of_price_sell):
-                
 
                 symbol = basecoin
                 scraper = KucoinWebSocketScraper()
@@ -101,19 +94,12 @@ def main():
                                         percent_of_price_buy= percent_of_price_buy, 
                                         percent_of_price_sell=percent_of_price_sell)
 
-
                 finally:
                     await scraper.cleanup()
-
-            
             
             
             # Run the asynchronous scraper
             asyncio.run(scraper())
-
-
-
-            
 
     print(f'loop finished sleeping 1 seconds before exit {datetime.now()}')
     print('branch update No. 5')

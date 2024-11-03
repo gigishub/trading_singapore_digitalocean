@@ -6,8 +6,6 @@ from datetime import datetime, timedelta
 import orjson
 import logging
 from typing import Optional, Tuple
-import time
-import json
 import websockets.exceptions
 
 logging.basicConfig(
@@ -203,29 +201,32 @@ class FastKucoinWebSocket:
             logger.error(f"Cleanup error: {e}")
         
 
+############################################################################################################
+# EXAMPLE USAGE
+############################################################################################################
 
 
-async def main():
-    try:
-        # Get current time and set release time 10 seconds in the future for testing
-        now = datetime.now()
-        release_time = now + timedelta(seconds=10)
+# async def main():
+#     try:
+#         # Get current time and set release time 10 seconds in the future for testing
+#         now = datetime.now()
+#         release_time = now + timedelta(seconds=10)
         
-        logger.info(f"Current time: {now.strftime('%H:%M:%S.%f')[:-3]}")
-        logger.info(f"Target time: {release_time.strftime('%H:%M:%S.%f')[:-3]}")
+#         logger.info(f"Current time: {now.strftime('%H:%M:%S.%f')[:-3]}")
+#         logger.info(f"Target time: {release_time.strftime('%H:%M:%S.%f')[:-3]}")
         
-        fetcher = FastKucoinWebSocket()
-        price, status = await fetcher.get_price("BTC", release_time)
-        logger.info(f"Final result - Price: {price}, Status: {status}")
+#         fetcher = FastKucoinWebSocket()
+#         price, status = await fetcher.get_price("BTC", release_time)
+#         logger.info(f"Final result - Price: {price}, Status: {status}")
             
-    except KeyboardInterrupt:
-        logger.info("Script stopped by user")
-    except Exception as e:
-        logger.error(f"Script error: {e}")
-    finally:
-        await fetcher.cleanup()
+#     except KeyboardInterrupt:
+#         logger.info("Script stopped by user")
+#     except Exception as e:
+#         logger.error(f"Script error: {e}")
+#     finally:
+#         await fetcher.cleanup()
 
 
-if __name__ == "__main__":
-    asyncio.run(main())
+# if __name__ == "__main__":
+#     asyncio.run(main())
 
