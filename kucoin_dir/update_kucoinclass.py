@@ -149,10 +149,7 @@ class KucoinWebSocketScraper:
             await asyncio.sleep(0.0001)
 
         try:
-            # while datetime.now() < end_time:
-            #     loopcount += 1
-            #     logger.info(f"Loopcount: {loopcount}")
-                
+
             async for msg in self.ws_connection:
                 if datetime.now() > end_time:
                     break
