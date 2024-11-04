@@ -8,10 +8,9 @@ from datetime import datetime, timedelta
 import asyncio
 from kucoin.exceptions import KucoinAPIException
 import logging
-
 import sys
-#sys.path.append('/root/1.code_on_server')
-from update_kucoinclass import KucoinWebSocketScraper
+#from update_kucoinclass import KucoinWebSocketScraper
+from Kucoin_websocket_speed_update import KucoinWebSocketScraper
 
 logging.basicConfig(
     level=logging.INFO,
@@ -25,7 +24,7 @@ logger.setLevel(logging.INFO)  # Explicitly set logger level
 def main():
 
     directory = '/root/trading_systems/kucoin_dir/new_pair_data_kucoin'
-    percent_of_price_buy = 0.5 # setting limit order to buy n% above the retrived price
+    percent_of_price_buy = 1.7 # setting limit order to buy n% above the retrived price
     percent_of_price_sell = 1.2 # setting limit order to sell n% above the ACTUAL buy price NOT the retrived price
 
     # Loop through announced pairs 
@@ -68,10 +67,6 @@ def main():
                 # Initialize the client
                 client = Client(api_key, api_secret, api_passphrase)
                 logger.info(f'client initialized')
-
-                #trading_rules_for_token(trading_rules,pair=new_pair_dict['pair'])
-
-                # does not connect to client need print statements to debug
 
             except Exception as e:
                 logger.error(f"when initialising kucoain:\n {e}")
@@ -231,56 +226,31 @@ def price_execute_order_logger(token_price, client, basecoin,percent_of_price_bu
                 logger.error(f'Failed to execute buy order: {e}')
                 errorcount += 1
 
-        # # Wait to sell 
-        # wait_time = 2
-        # logger.info(f'Waiting {wait_time} seconds before selling')
-        # time.sleep(wait_time)
-
         # Create own sell function
         try:
-            sell_qty = float(size) * 0.99
+            sell_qty = round(float(size),1)
+             # * 0.99
             price_sell = round((price_buy * percent_of_price_sell), dezimal_to_round)
             order_sell = client.create_limit_order(symbol, 'sell', price_sell, str(sell_qty))
             logger.info(f'Sell order executed at {datetime.now().strftime("%H:%M:%S.%f")[:-3]}: {order_sell}')
             logger.info(f'limitsell order price : {price_sell}')
 
         except KucoinAPIException as e:
-            logger.error(f"KucoinAPIException occurred: {str(e)}")
-            # If the exception has specific attributes, you can access them directly
-            if hasattr(e, 'message'):
-                logger.error(f"Error message: {e.message}")
-            if hasattr(e, 'code'):
-                logger.error(f"Error code: {e.code}")
+            logger.error(f"KucoinAPIException Selling: {str(e)}")
+            # If the exception has specific attributes, you can access them directly byturing into string
+            # if hasattr(e, 'message'):
+            #     logger.error(f"Error message: {e.message}")
+            # if hasattr(e, 'code'):
+            #     logger.error(f"Error code: {e.code}")
 
-            # Error handling with error code 
-            if '200004' in e.code:
-                logger.error('Insufficient balance')
+            # # Error handling with error code 
+            # if '200004' in e.code:
+            #     logger.error('Insufficient balance')
             # traceback.print_exc()
         
     except Exception as e:
         logger.error(f"Error in price execution function:\n {e}")
         traceback.print_exc()
-
-def trading_rules_for_token(trading_rules,pair):
-    # Retrieve trading rules for all trading pairs
-
-    # Find the trading rules for a specific symbol
-    symbol = pair
-    for rule in trading_rules:
-        if rule['symbol'] == symbol:
-            min_size = float(rule['baseMinSize'])
-            size_increment = float(rule['baseIncrement'])
-            min_price = float(rule['quoteMinSize'])
-            price_increment = float(rule['quoteIncrement'])
-            return  
-        print() 
-        print(f"Trading rules for {symbol} at {datetime.now().strftime('%H:%M:%S.%f')[:-3]}")
-        print(f"Minimum size: {min_size}")
-        print(f"Size increment: {size_increment}")
-        print(f"Minimum price: {min_price}")
-        print(f"Price increment: {price_increment}")
-        print()
-            
 
 
 
@@ -475,39 +445,3 @@ def order_size_and_rounding(token_price):
 
 if __name__ == "__main__":
     main()
-
-
-
-
-
-
-            # # create scraper function to run asyncronatically
-            # async def scraper2(client=client,basecoin=basecoin,
-            #                     percent_of_price_buy=percent_of_price_buy,
-            #                     percent_of_price_sell=percent_of_price_sell,
-            #                     offset_release_time=offset_release_time):
-            #     try:
-            #         # Time of token release
-            #         release_time = release_date_time - timedelta(seconds=offset_release_time)
-            #         #logger.info(f'Release time: {release_time}')
-                    
-            #         # Initiate scraping object
-            #         scraper = FastKucoinWebSocket()
-            #         price, status = await scraper.get_price(basecoin, release_time)
-            #         logger.info(f'get_release_price function returned: {price} at {datetime.now().strftime("%H:%M:%S.%f")[:-3]}')
-                    
-            #         price_execute_order_logger(token_price=price,
-            #                                 client=client,basecoin=basecoin,
-            #                                 percent_of_price_buy= percent_of_price_buy, 
-            #                                 percent_of_price_sell=percent_of_price_sell)
-                    
-            #     except KeyboardInterrupt:
-            #         logger.info("Script stopped by user")
-            #     except Exception as e:
-            #         logger.error(f"Script error: {e}")
-            #     finally:
-            #         #ensure cleanup happens
-            #         await scraper.cleanup()
-
-            # # Run the asynchronous scraper
-            #asyncio.run(scraper2())

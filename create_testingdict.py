@@ -23,7 +23,7 @@ base_data = {
 }
 
 # Starting time
-start_time = datetime.strptime("Nov 3, 2024, 8:15PM", "%b %d, %Y, %I:%M%p")
+start_time = datetime.strptime("Nov 4, 2024, 8:00AM", "%b %d, %Y, %I:%M%p")
 # INITALIZE COUNTER
 minute_counter = 0
 
