@@ -1,0 +1,85 @@
+08:00:01.969 - INFO - loaded WEETHETH copy.json - main
+08:00:01.973 - INFO - detected new pair FUSEUSDT at Nov 05, 2024, 8:15AM - main
+08:00:01.984 - INFO - Release time and date: 05-11-2024 08:15:00.000 - get_price_websocket
+08:00:02.465 - INFO - Subscription request sent for FUSEUSDT - initialize_websocket
+08:00:02.547 - INFO - Successfully subscribed to FUSEUSDT - initialize_websocket
+08:00:02.547 - INFO -  Waiting 897.45 seconds until token release time - wait_until_listing
+08:14:38.173 - INFO - 25 seconds left until token release - wait_until_listing
+08:15:00.001 - INFO - Price found via WebSocket: 0.02715 at 08:15:00.001 - get_price_websocket
+08:15:00.001 - INFO - price retrived: 0.02715 - main
+08:15:00.001 - INFO - buy price: 0.01358 - main
+08:15:00.191 - INFO - Order placed in 0.189679 seconds - place_limit_order_session
+08:15:00.192 - INFO - placed buy order :{'code': '00000', 'msg': 'success', 'requestTime': 1730794500105, 'data': {'orderId': '1237607323071320073', 'clientOid': '593961c8-409d-497d-9508-529a92fdd114'}} - main
+08:15:00.192 - INFO - {'code': '00000', 'msg': 'success', 'requestTime': 1730794500105, 'data': {'orderId': '1237607323071320073', 'clientOid': '593961c8-409d-497d-9508-529a92fdd114'}} - main
+08:15:00.197 - INFO - loaded 24-10-23_CROSUSDT.json - main
+08:15:00.199 - INFO - loaded 24-10-22_SCRUSDT.json - main
+08:15:00.199 - INFO - loaded 24-10-31_LUCEUSDT.json - main
+08:15:00.199 - INFO - loaded 24-10-28_GRASSUSDT.json - main
+08:15:00.199 - INFO - loaded 24-10-30_FUSEUSDT.json - main
+08:15:00.200 - INFO - loaded 24-11-06_SMILEUSDT.json - main
+08:15:00.200 - INFO - loaded 24-10-29_ACTUSDT.json - main
+08:15:00.200 - INFO - loaded 24-10-19_GOATUSDT.json - main
+08:15:00.200 - INFO - loaded 24-10-29_BANUSDT.json - main
+08:15:00.200 - INFO - loaded WEETHETH.json - main
+Traceback (most recent call last):
+  File "/root/trading_systems/bitget/bitget_buying.py", line 35, in main
+    basecoin = new_pair_dict['pair'].split('USDT')[0]
+AttributeError: 'NoneType' object has no attribute 'split'
+08:15:00.201 - INFO - loaded 24-11-04_ARCAUSDT.json - main
+08:15:00.201 - INFO - finshed main loop - main
+Error when parsing date time string:
+ 'NoneType' object has no attribute 'split'
+08:15:00.491 - INFO - loaded WEETHETH copy.json - main
+08:15:00.494 - INFO - loaded 24-10-23_CROSUSDT.json - main
+08:15:00.495 - INFO - loaded 24-10-22_SCRUSDT.json - main
+08:15:00.495 - INFO - loaded 24-10-31_LUCEUSDT.json - main
+08:15:00.495 - INFO - loaded 24-10-28_GRASSUSDT.json - main
+08:15:00.496 - INFO - loaded 24-10-30_FUSEUSDT.json - main
+08:15:00.496 - INFO - loaded 24-11-06_SMILEUSDT.json - main
+08:15:00.496 - INFO - loaded 24-10-29_ACTUSDT.json - main
+08:15:00.496 - INFO - loaded 24-10-19_GOATUSDT.json - main
+08:15:00.497 - INFO - loaded 24-10-29_BANUSDT.json - main
+08:15:00.497 - INFO - loaded WEETHETH.json - main
+Traceback (most recent call last):
+  File "/root/trading_systems/bitget/bitget_buying.py", line 35, in main
+    basecoin = new_pair_dict['pair'].split('USDT')[0]
+AttributeError: 'NoneType' object has no attribute 'split'
+08:15:00.497 - INFO - loaded 24-11-04_ARCAUSDT.json - main
+08:15:00.497 - INFO - finshed main loop - main
+Error when parsing date time string:
+ 'NoneType' object has no attribute 'split'
+08:30:02.197 - INFO - loaded WEETHETH copy.json - main
+08:30:02.200 - INFO - loaded 24-10-23_CROSUSDT.json - main
+08:30:02.202 - INFO - loaded 24-10-22_SCRUSDT.json - main
+08:30:02.202 - INFO - loaded 24-10-31_LUCEUSDT.json - main
+08:30:02.202 - INFO - loaded 24-10-28_GRASSUSDT.json - main
+08:30:02.203 - INFO - loaded 24-10-30_FUSEUSDT.json - main
+08:30:02.203 - INFO - loaded 24-11-06_SMILEUSDT.json - main
+08:30:02.203 - INFO - loaded 24-10-29_ACTUSDT.json - main
+08:30:02.203 - INFO - loaded 24-10-19_GOATUSDT.json - main
+08:30:02.204 - INFO - loaded 24-10-29_BANUSDT.json - main
+08:30:02.204 - INFO - loaded WEETHETH.json - main
+Traceback (most recent call last):
+  File "/root/trading_systems/bitget/bitget_buying.py", line 35, in main
+    basecoin = new_pair_dict['pair'].split('USDT')[0]
+AttributeError: 'NoneType' object has no attribute 'split'
+08:30:02.205 - INFO - loaded 24-11-04_ARCAUSDT.json - main
+08:30:02.205 - INFO - finshed main loop - main
+Error when parsing date time string:
+ 'NoneType' object has no attribute 'split'
+  File "/root/trading_systems/bitget/bitget_buying.py", line 92
+    logger.info(f'placed buy order :{order_response['requestTime']}')
+                                                     ^^^^^^^^^^^
+SyntaxError: f-string: unmatched '['
+09:00:02.052 - INFO - finshed main loop - main
+09:15:01.504 - INFO - finshed main loop - main
+09:30:02.234 - INFO - finshed main loop - main
+09:45:02.304 - INFO - finshed main loop - main
+10:00:02.299 - INFO - finshed main loop - main
+10:15:01.871 - INFO - finshed main loop - main
+10:30:02.024 - INFO - finshed main loop - main
+10:45:02.117 - INFO - finshed main loop - main
+11:00:01.663 - INFO - finshed main loop - main
+11:15:01.919 - INFO - finshed main loop - main
+11:30:01.714 - INFO - finshed main loop - main
+11:45:01.334 - INFO - finshed main loop - main

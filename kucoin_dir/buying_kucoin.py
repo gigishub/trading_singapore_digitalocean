@@ -228,8 +228,7 @@ def price_execute_order_logger(token_price, client, basecoin,percent_of_price_bu
 
         # Create own sell function
         try:
-            sell_qty = round(float(size),1)
-             # * 0.99
+            sell_qty = round(float(size),1)# * 0.99
             price_sell = round((price_buy * percent_of_price_sell), dezimal_to_round)
             order_sell = client.create_limit_order(symbol, 'sell', price_sell, str(sell_qty))
             logger.info(f'Sell order executed at {datetime.now().strftime("%H:%M:%S.%f")[:-3]}: {order_sell}')

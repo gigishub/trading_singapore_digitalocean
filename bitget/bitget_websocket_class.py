@@ -110,7 +110,7 @@ class BitgetWebSocketScraper:
                 logger.info(f'25 seconds left until token release')
                 break
 
-    async def get_price_websocket(self, symbol: str, max_wait_time: int = 2, release_time: datetime = None) -> Optional[float]:
+    async def get_price_by_release_time(self, symbol: str, max_wait_time: int = 2, release_time: datetime = None) -> Optional[float]:
         """
         Get price through WebSocket connection
         Args:
@@ -168,6 +168,42 @@ class BitgetWebSocketScraper:
 
         return None
 
+
+    async def get_current_price(self, symbol: str) -> Optional[float]:
+        """
+        Get current price through WebSocket connection
+        Args:
+            symbol: Trading pair symbol
+        Returns:
+            Optional[float]: Price if found, None otherwise
+        """
+
+        try:
+            async for msg in self.ws_connection:
+                if msg.type == aiohttp.WSMsgType.TEXT:
+                    data = orjson.loads(msg.data)
+                    
+                    # Extract price from the message
+                    if 'data' in data:
+                        try:
+                            price_data = data['data'][0]
+                            if 'last' in price_data:
+                                price = float(price_data['last'])
+                                if price > 0:
+                                    logger.info(
+                                        f"Price found via WebSocket: {price} at "
+                                    )
+                                    return price
+                        except (KeyError, ValueError, IndexError) as e:
+                            logger.debug(f"Failed to parse price: {str(e)}")
+                            continue
+
+                await asyncio.sleep(0.0001)
+            
+        except Exception as e:
+            logger.error(f"Error in retrieving price loop: {str(e)}")
+            traceback.print_exc()
+
     async def cleanup(self):
         """Clean up WebSocket resources and connections"""
         if self.ping_task and not self.ping_task.done():
@@ -189,17 +225,26 @@ async def main():
 
     symbol = "ARCA"  # Example symbol
     scraper = BitgetWebSocketScraper()
-    release_time = datetime(2024, 11, 4, 12, 37, 0)  # Example fixed datetime
-    release_time = datetime.now() + timedelta(seconds=10)  # Example release time
 
-    try:
-        price = await scraper.get_price_websocket(symbol, max_wait_time=2, release_time=release_time)
-        if price:
-            print(f"Successfully retrieved {symbol} price: {price}")
-        else:
-            print("No price found after all retry attempts")
-    finally:
-        await scraper.cleanup()
+
+    await scraper.initialize_websocket(symbol)
+    await asyncio.sleep(1)
+    for _ in range(5):
+        await scraper.get_current_price(symbol)
+    
+    await scraper.cleanup()
+
+    # release_time = datetime(2024, 11, 4, 12, 37, 0)  # Example fixed datetime
+    # release_time = datetime.now() + timedelta(seconds=10)  # Example release time
+
+    # try:
+    #     price = await scraper.get_price_by_release_time(symbol, max_wait_time=2, release_time=release_time)
+    #     if price:
+    #         print(f"Successfully retrieved {symbol} price: {price}")
+    #     else:
+    #         print("No price found after all retry attempts")
+    # finally:
+    #     await scraper.cleanup()
 
 
 if __name__ == "__main__":

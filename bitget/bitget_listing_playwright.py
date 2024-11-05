@@ -9,7 +9,7 @@ import json
 
 # Configure logging
 
-logging.basicConfig(level=logging.DEBUG, format='%(levelname)s - %(message)s - %(funcName)s')
+logging.basicConfig(level=logging.INFO, format='%(levelname)s - %(message)s - %(funcName)s')
 
 def main():
 
