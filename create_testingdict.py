@@ -3,35 +3,24 @@ from datetime import datetime, timedelta
 import os
 # Base data template
 base_data = {
-    "day_of_week": "fri",
-    "hour": 10,
-    "minute": 0,
-    "second": 0,
+    "exchange": "KuCoin",
     "url": "https://announcements.bybit.com/en-US/article/new-listing-mcg-usdt-grab-a-share-of-the-26-000-000-mcg-prize-pool-bltc105113c043f09d5/",
-    "date_time_string": "Aug 2, 2024, 8:30PM",
+    "date_time_string": "Aug 2, 2024, 7:30PM",
     "pair": "XRPUSDT",
-    "published_datetime": [
-        2024,
-        6,
-        28,
-        1,
-        27,
-        45
-    ],    
-    "min_buying_qty": 4,
-    "buying_qty": 5
 }
 
 # Starting time
-start_time = datetime.strptime("Nov 4, 2024, 8:00AM", "%b %d, %Y, %I:%M%p")
+start_time = datetime.strptime("Nov 6, 2024, 10:30AM", "%b %d, %Y, %I:%M%p")
 # INITALIZE COUNTER
 minute_counter = 0
 
 # Increment time by minutes
-minute_increment = 45
+minute_increment = 15
 
 # Number of files to generate
-amount_of_files = 10
+amount_of_files = 3
+
+#directory_for_testing_files = "/root/trading_systems/bitget/new_pair_data_bitget"
 
 directory_for_testing_files = "/root/trading_systems/kucoin_dir/new_pair_data_kucoin"
 

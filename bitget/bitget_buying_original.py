@@ -22,8 +22,8 @@ logger.setLevel(logging.DEBUG)
 
 async def main():
     directory = '/root/trading_systems/bitget/new_pair_data_bitget'
-    percent_of_price_buy = 0.5 # setting limit order to buy n% below bid price
-    percent_of_price_sell = 0.90 # setting limit order to sell n% below bid price
+    percent_of_price_buy = 1.10 # setting limit order to buy n% above the retrived price
+    percent_of_price_sell = 0.91 # setting limit order to sell n% above the Current price
 
     # Loop through announced pairs 
     for filename in os.listdir(directory):
@@ -74,68 +74,50 @@ async def main():
                     symbol = basecoin
                     websocket_object = BitgetWebSocketScraper()
                     timing_formart = '%H:%M:%S.%f'
-                    # websocket_price_release = await websocket_object.get_price_by_release_time(symbol, max_wait_time=2, release_time=release_date_time)
-                    
-                    # returns the highest price at realease time
-                    websocket_best_bid_price = await websocket_object.get_bid_ask_price_by_release_time(symbol, max_wait_time=2, release_time=release_date_time)
-
-                    #saving time for logging and debugging
+                    websocket_price_release = await websocket_object.get_price_by_release_time(symbol, max_wait_time=2, release_time=release_date_time)
                     price_first_retrived_time = datetime.now().strftime(timing_formart)
-                    logger.debug(f'Price retrived after release: {websocket_best_bid_price}')
+                    logger.debug(f'Price retrived after release: {websocket_price_release}')
 
                 except Exception as e:
                     logger.error(f'when using websocketclass:\n {e}')
                     traceback.print_exc()
 
                 try:
-                    if websocket_best_bid_price:
-                        buy_qty ,decimal_to_round_prcie,decimal_to_round_qty = order_size_and_rounding(websocket_best_bid_price)
-                        
-                        # returns the highest price
-                        buy_price = round(websocket_best_bid_price * percent_of_price_buy, decimal_to_round_prcie)
+                    if websocket_price_release:
+                        buy_qty ,decimal_to_round_prcie,decimal_to_round_qty = order_size_and_rounding(websocket_price_release)
+                        buy_price = round(websocket_price_release * percent_of_price_buy, decimal_to_round_prcie)
                         pair = new_pair_dict['pair']
                         async with aiohttp.ClientSession() as session:
                 
                             # buy order
-                            buy_order_loop_count = 0
-
-                            try:
-                                while buy_order_loop_count <= 10:
-                                    before_buy_time = datetime.now().strftime(timing_formart)
-                                    order_response_buy  = await place_buy_limit_order(session, base_url, api_key, secret_key, passphrase, pair,buy_price, buy_qty)
-                                    after_buy_execution_time = datetime.now().strftime(timing_formart)
-                                    logger.debug(f'buy order response: {order_response_buy[0]}')
-                                    buy_order_loop_count += 1   
-                                    if 'success' in order_response_buy[0]["msg"]:
-                                        logger.debug(f'successfully placed order')
-                                        break
-                                    asyncio.sleep(0.02)
-
-                            except Exception as e:
-                                buy_order_loop_count += 1 
-                                logger.error(f'while placing buy order:\n {order_response_buy[0]}')
-                                continue
-
-                            try:
-                                # sell order
-                                sell_price = round(websocket_best_bid_price * percent_of_price_sell, decimal_to_round_prcie)
-                                sell_qty = round(float(buy_qty)*0.998, decimal_to_round_qty)
-                                logger.debug(f'before execution of selllimit (order price: {sell_price})')
-                                before_sell_time = datetime.now().strftime(timing_formart)
-                                order_response_sell = await place_sell_limit_order(session, base_url, api_key, secret_key, passphrase, pair,sell_price, sell_qty)
-                                after_sell_execution_time = datetime.now().strftime(timing_formart)
-                            except Exception as e:
-                                logger.error(f'while placing sell order response msg:\n {order_response_sell[0]}')
+                            before_buy_time = datetime.now().strftime(timing_formart)
+                            logger.debug(f'before execution of buylimit (order price: {buy_price})')
+                            order_response_buy = await place_buy_limit_order(session, base_url, api_key, secret_key, passphrase, pair,buy_price, buy_qty)
+                            after_buy_execution_time = datetime.now().strftime(timing_formart)
+                            logger.debug(f'buy order: -{order_response_buy[0]["msg"]} -request time: {order_response_buy[0]["requestTime"]} -order ID: {order_response_buy[0]["data"]["orderId"]}')
+                            
+                            # sell order
+                            websocketprice = await websocket_object.get_current_price(symbol)
+                            sell_price = round(websocketprice * percent_of_price_sell, decimal_to_round_prcie)
+                            
+                            
+                            sell_qty = round(float(buy_qty)*0.998, decimal_to_round_qty)
+                            logger.debug(f'before execution of selllimit (order price: {sell_price})')
+                            before_sell_time = datetime.now().strftime(timing_formart)
+                            order_response_sell = await place_sell_limit_order(session, base_url, api_key, secret_key, passphrase, pair,sell_price, sell_qty)
+                            after_sell_execution_time = datetime.now().strftime(timing_formart)
+                            logger.debug(f'sell order: -{order_response_sell[0]["msg"]} -request time: {order_response_sell[0]["requestTime"]} -order ID: {order_response_sell[0]["data"]["orderId"]}')
 
                 except Exception as e:
-                    logger.error(f'when placing buy and sell order:\n')
+                    logger.error(f'while initialsing buying session or buying / selling execution :\n {e}')
+
 
             finally:
                 try:
                     logger.info('--------------------------------------------------------------')
                     logger.info(        'execution finished moving to logging')
                     logger.info('--------------------------------------------------------------')
-                    logger.info(f'{price_first_retrived_time[:-3]} time price retrived after release /price: {websocket_best_bid_price}')
+                    logger.info(f'{price_first_retrived_time[:-3]} time price retrived after release /price: {websocket_price_release}')
                     logger.info(f'{before_buy_time[:-3]} time just before buying / buylimit order price:{buy_price}')
                     logger.info(f'{after_buy_execution_time[:-3]} time after buy execution')
                     logger.info(f'{order_response_buy[1]:.3f} time needed for buy execution')
@@ -150,8 +132,7 @@ async def main():
                 await websocket_object.cleanup()
 
 
-    print(f'{datetime.now().strftime('%H:%M:%S.%f')[:-3]} finshed main loop')
-    print('Update bid price to buy and sell')
+    logger.info('finshed main loop')
             
 
 def parse_date_time_string(date_time_string):
@@ -277,15 +258,13 @@ async def place_buy_limit_order(session, base_url, api_key, secret_key, passphra
     async with session.post(url, headers=headers, data=body_json) as response:
         end_time = time.time()
         execution_time = end_time - start_time
-        logger.debug(f'order response time {execution_time:.3f} seconds')
+        logger.debug(f'Buy order placed in {execution_time:.6f} seconds')
         
-        return await response.json(), execution_time
-    
-        # if response.status == 200:
-        #     return await response.json(), execution_time
-        # else:
-        #     return await response.json(), execution_time
-
+        if response.status == 200:
+            return await response.json(), execution_time
+        else:
+            logger.error(f'placing buy order: {await response.text()}')
+            return None
 
 async def place_sell_limit_order(session, base_url, api_key, secret_key, passphrase, pair, price, quantity):
     timestamp = str(int(time.time() * 1000))

@@ -579,3 +579,1067 @@ loop finished sleeping 1 seconds before exit 2024-11-05 11:30:01.890353
 branch update No. 5
 loop finished sleeping 1 seconds before exit 2024-11-05 11:45:01.501692
 branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 12:00:03.027888
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 12:15:01.716885
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 12:30:02.451762
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 12:45:01.575575
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 13:00:02.703230
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 13:15:02.325271
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 13:30:00.623179
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 13:45:00.890244
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 14:00:02.394809
+branch update No. 5
+14:15:00.599 - INFO - detected new pair XRPUSDT at Nov 05, 2024, 02:30PM - main
+14:15:00.600 - INFO - Release time and date: 05-11-2024 14:30:00.000 - get_price_websocket
+14:15:01.028 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+14:15:01.100 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+14:15:01.201 - INFO - Waiting 898.80 seconds until token release time - wait_until_listing
+14:29:36.826 - INFO - 25 seconds left until token release - wait_until_listing
+14:30:00.000 - INFO - Price found via WebSocket: 0.50869 at 14:30:00.000 - get_price_websocket
+14:30:00.000 - INFO - Buying price: 0.407 at 14:30:00.000 - place_buy_limit_order
+14:30:00.197 - INFO - Buy order executed at: 14:30:00.197: {'success': True, 'order_id': '672a2be8ab0f0a000797b5ff', 'client_oid': 'e485ab8f-1802-48a1-aff9-6b77be6f548e', 'execution_time': 0.1964021730236709, 'response': {'code': '200000', 'data': {'orderId': '672a2be8ab0f0a000797b5ff', 'clientOid': 'e485ab8f-1802-48a1-aff9-6b77be6f548e'}}} - place_buy_limit_order
+14:30:00.197 - INFO - Limit buy order price: 0.407 - place_buy_limit_order
+14:30:00.371 - INFO - Sell order executed at 14:30:00.371: {'success': True, 'order_id': '672a2be898326e00079ae2da', 'client_oid': 'e2b17dca-ec1b-4e3d-a2e0-27eb75f41873', 'execution_time': 0.17329563898965716, 'response': {'code': '200000', 'data': {'orderId': '672a2be898326e00079ae2da', 'clientOid': 'e2b17dca-ec1b-4e3d-a2e0-27eb75f41873'}}} - place_sell_limit_order
+14:30:00.371 - INFO - Limit sell order price: 0.4884 - place_sell_limit_order
+14:30:00.686 - INFO - detected new pair XRPUSDT at Nov 05, 2024, 02:45PM - main
+14:30:00.687 - INFO - Release time and date: 05-11-2024 14:45:00.000 - get_price_websocket
+14:30:01.287 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+14:30:01.360 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+14:30:01.461 - INFO - Waiting 898.54 seconds until token release time - wait_until_listing
+loop finished sleeping 1 seconds before exit 2024-11-05 14:30:00.614020
+branch update No. 5
+14:44:37.120 - INFO - 25 seconds left until token release - wait_until_listing
+14:45:00.001 - INFO - Price found via WebSocket: 0.50987 at 14:45:00.001 - get_price_websocket
+14:45:00.001 - INFO - Buying price: 0.4079 at 14:45:00.001 - place_buy_limit_order
+14:45:00.198 - INFO - Buy order executed at: 14:45:00.198: {'success': True, 'order_id': '672a2f6c3cda6500076ab481', 'client_oid': '3bfe154a-83b4-46b4-a909-43f22788fa3b', 'execution_time': 0.19695356400916353, 'response': {'code': '200000', 'data': {'orderId': '672a2f6c3cda6500076ab481', 'clientOid': '3bfe154a-83b4-46b4-a909-43f22788fa3b'}}} - place_buy_limit_order
+14:45:00.198 - INFO - Limit buy order price: 0.4079 - place_buy_limit_order
+14:45:00.312 - INFO - Sell order executed at 14:45:00.312: {'success': False, 'order_id': None, 'client_oid': 'dbd4cc17-e8d4-4954-98f9-1cb5bde80cce', 'execution_time': 0.11365671799285337, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+14:45:00.313 - INFO - Limit sell order price: 0.48948 - place_sell_limit_order
+loop finished sleeping 1 seconds before exit 2024-11-05 14:45:00.487159
+branch update No. 5
+14:45:01.550 - INFO - detected new pair XRPUSDT at Nov 05, 2024, 03:00PM - main
+14:45:01.551 - INFO - Release time and date: 05-11-2024 15:00:00.000 - get_price_websocket
+14:45:02.040 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+14:45:02.111 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+14:45:02.212 - INFO - Waiting 897.79 seconds until token release time - wait_until_listing
+14:59:37.873 - INFO - 25 seconds left until token release - wait_until_listing
+15:00:00.001 - INFO - Price found via WebSocket: 0.51265 at 15:00:00.001 - get_price_websocket
+15:00:00.001 - INFO - Buying price: 0.4101 at 15:00:00.001 - place_buy_limit_order
+15:00:00.199 - INFO - Buy order executed at: 15:00:00.199: {'success': True, 'order_id': '672a32f0adc21200070405cc', 'client_oid': 'cd760476-986b-4a41-9630-805f8c661d07', 'execution_time': 0.1982949790544808, 'response': {'code': '200000', 'data': {'orderId': '672a32f0adc21200070405cc', 'clientOid': 'cd760476-986b-4a41-9630-805f8c661d07'}}} - place_buy_limit_order
+15:00:00.200 - INFO - Limit buy order price: 0.4101 - place_buy_limit_order
+15:00:00.328 - INFO - Sell order executed at 15:00:00.328: {'success': False, 'order_id': None, 'client_oid': '506bf8b1-b769-4c52-825b-9792e0af7bf0', 'execution_time': 0.12835025804815814, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+15:00:00.328 - INFO - Limit sell order price: 0.49212 - place_sell_limit_order
+15:00:00.503 - INFO - detected new pair XRPUSDT at Nov 05, 2024, 03:15PM - main
+15:00:00.504 - INFO - Release time and date: 05-11-2024 15:15:00.000 - get_price_websocket
+15:00:00.870 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+15:00:00.942 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+15:00:01.044 - INFO - Waiting 898.96 seconds until token release time - wait_until_listing
+15:00:02.154 - INFO - detected new pair XRPUSDT at Nov 05, 2024, 03:15PM - main
+15:00:02.156 - INFO - Release time and date: 05-11-2024 15:15:00.000 - get_price_websocket
+15:00:02.810 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+15:00:02.881 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+15:00:02.982 - INFO - Waiting 897.02 seconds until token release time - wait_until_listing
+15:14:36.701 - INFO - 25 seconds left until token release - wait_until_listing
+15:14:38.644 - INFO - 25 seconds left until token release - wait_until_listing
+15:15:00.000 - INFO - Price found via WebSocket: 0.51251 at 15:15:00.000 - get_price_websocket
+15:15:00.001 - INFO - Price found via WebSocket: 0.51255 at 15:15:00.001 - get_price_websocket
+15:15:00.001 - INFO - Buying price: 0.41 at 15:15:00.001 - place_buy_limit_order
+15:15:00.001 - INFO - Buying price: 0.41 at 15:15:00.001 - place_buy_limit_order
+15:15:00.208 - INFO - Buy order executed at: 15:15:00.208: {'success': True, 'order_id': '672a3674ae43c40007daab69', 'client_oid': 'ddbe749f-a1f5-497c-b226-6d7ff19e635c', 'execution_time': 0.20635655900696293, 'response': {'code': '200000', 'data': {'orderId': '672a3674ae43c40007daab69', 'clientOid': 'ddbe749f-a1f5-497c-b226-6d7ff19e635c'}}} - place_buy_limit_order
+15:15:00.208 - INFO - Limit buy order price: 0.41 - place_buy_limit_order
+15:15:00.214 - INFO - Buy order executed at: 15:15:00.214: {'success': True, 'order_id': '672a36741d47600007bcc7cd', 'client_oid': '65fd535f-9dbf-4fca-b715-e38a35b88622', 'execution_time': 0.2125700559699908, 'response': {'code': '200000', 'data': {'orderId': '672a36741d47600007bcc7cd', 'clientOid': '65fd535f-9dbf-4fca-b715-e38a35b88622'}}} - place_buy_limit_order
+15:15:00.214 - INFO - Limit buy order price: 0.41 - place_buy_limit_order
+15:15:00.326 - INFO - Sell order executed at 15:15:00.326: {'success': False, 'order_id': None, 'client_oid': 'fb5b9605-7f42-49ce-8c39-9abc9a779851', 'execution_time': 0.11156868998659775, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+15:15:00.326 - INFO - Limit sell order price: 0.492 - place_sell_limit_order
+15:15:00.345 - INFO - Sell order executed at 15:15:00.345: {'success': False, 'order_id': None, 'client_oid': '3e860b1b-2f1f-4f72-b796-dbb8989a5eb3', 'execution_time': 0.13645737897604704, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+15:15:00.345 - INFO - Limit sell order price: 0.492 - place_sell_limit_order
+loop finished sleeping 1 seconds before exit 2024-11-05 15:15:00.539215
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 15:15:00.569694
+branch update No. 5
+15:15:01.935 - INFO - detected new pair XRPUSDT at Nov 05, 2024, 03:30PM - main
+15:15:01.937 - INFO - Release time and date: 05-11-2024 15:30:00.000 - get_price_websocket
+15:15:02.413 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+15:15:02.485 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+15:15:02.586 - INFO - Waiting 897.41 seconds until token release time - wait_until_listing
+15:29:38.252 - INFO - 25 seconds left until token release - wait_until_listing
+15:30:00.001 - INFO - Price found via WebSocket: 0.51204 at 15:30:00.000 - get_price_websocket
+15:30:00.003 - INFO - Buying price: 0.4096 at 15:30:00.003 - place_buy_limit_order
+15:30:00.220 - INFO - Buy order executed at: 15:30:00.220: {'success': True, 'order_id': '672a39f8355a360007cb8490', 'client_oid': '1f495310-0add-41f0-9b94-f237693da1d5', 'execution_time': 0.2170223190332763, 'response': {'code': '200000', 'data': {'orderId': '672a39f8355a360007cb8490', 'clientOid': '1f495310-0add-41f0-9b94-f237693da1d5'}}} - place_buy_limit_order
+15:30:00.220 - INFO - Limit buy order price: 0.4096 - place_buy_limit_order
+15:30:00.337 - INFO - Sell order executed at 15:30:00.337: {'success': False, 'order_id': None, 'client_oid': 'f20ff4c8-6a62-425d-81bd-e50ea43e5a94', 'execution_time': 0.1165852720150724, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+15:30:00.337 - INFO - Limit sell order price: 0.49152 - place_sell_limit_order
+15:30:01.481 - INFO - detected new pair XRPUSDT at Nov 05, 2024, 03:45PM - main
+15:30:01.482 - INFO - Release time and date: 05-11-2024 15:45:00.000 - get_price_websocket
+loop finished sleeping 1 seconds before exit 2024-11-05 15:30:00.516365
+branch update No. 5
+15:30:01.916 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+15:30:01.988 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+15:30:02.089 - INFO - Waiting 897.91 seconds until token release time - wait_until_listing
+15:44:37.744 - INFO - 25 seconds left until token release - wait_until_listing
+15:45:00.000 - INFO - Price found via WebSocket: 0.50848 at 15:45:00.000 - get_price_websocket
+15:45:00.002 - INFO - Buying price: 0.4068 at 15:45:00.002 - place_buy_limit_order
+15:45:00.187 - INFO - Buy order executed at: 15:45:00.187: {'success': True, 'order_id': '672a3d7cc95c3100077a6f9c', 'client_oid': 'c33ef0bd-b971-473f-9802-3491d1866137', 'execution_time': 0.18438585399417207, 'response': {'code': '200000', 'data': {'orderId': '672a3d7cc95c3100077a6f9c', 'clientOid': 'c33ef0bd-b971-473f-9802-3491d1866137'}}} - place_buy_limit_order
+15:45:00.187 - INFO - Limit buy order price: 0.4068 - place_buy_limit_order
+15:45:00.303 - INFO - Sell order executed at 15:45:00.303: {'success': False, 'order_id': None, 'client_oid': '144d3b20-69ad-4780-8621-ab23c656e0ba', 'execution_time': 0.11570067104185, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+15:45:00.303 - INFO - Limit sell order price: 0.48816 - place_sell_limit_order
+15:45:00.461 - INFO - detected new pair XRPUSDT at Nov 05, 2024, 04:00PM - main
+15:45:00.462 - INFO - Release time and date: 05-11-2024 16:00:00.000 - get_price_websocket
+15:45:00.883 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+15:45:00.956 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+15:45:01.057 - INFO - Waiting 898.94 seconds until token release time - wait_until_listing
+15:45:02.305 - INFO - detected new pair XRPUSDT at Nov 05, 2024, 04:00PM - main
+15:45:02.306 - INFO - Release time and date: 05-11-2024 16:00:00.000 - get_price_websocket
+15:45:02.727 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+15:45:02.797 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+15:45:02.898 - INFO - Waiting 897.10 seconds until token release time - wait_until_listing
+15:59:36.700 - INFO - 25 seconds left until token release - wait_until_listing
+15:59:38.556 - INFO - 25 seconds left until token release - wait_until_listing
+16:00:00.000 - INFO - Price found via WebSocket: 0.51036 at 16:00:00.000 - get_price_websocket
+16:00:00.001 - INFO - Buying price: 0.4083 at 16:00:00.001 - place_buy_limit_order
+16:00:00.004 - INFO - Price found via WebSocket: 0.51036 at 16:00:00.003 - get_price_websocket
+16:00:00.004 - INFO - Buying price: 0.4083 at 16:00:00.004 - place_buy_limit_order
+16:00:00.163 - INFO - Buy order executed at: 16:00:00.163: {'success': True, 'order_id': '672a41003cda650007d8baa8', 'client_oid': 'd1d111e4-677c-4cc2-92c9-e08fbc6d9dba', 'execution_time': 0.1589649340021424, 'response': {'code': '200000', 'data': {'orderId': '672a41003cda650007d8baa8', 'clientOid': 'd1d111e4-677c-4cc2-92c9-e08fbc6d9dba'}}} - place_buy_limit_order
+16:00:00.163 - INFO - Limit buy order price: 0.4083 - place_buy_limit_order
+16:00:00.186 - INFO - Buy order executed at: 16:00:00.186: {'success': True, 'order_id': '672a4100cf1a8700074890b6', 'client_oid': 'ba343170-a546-4a07-90d7-5ca5c6b762cd', 'execution_time': 0.18549484497634694, 'response': {'code': '200000', 'data': {'orderId': '672a4100cf1a8700074890b6', 'clientOid': 'ba343170-a546-4a07-90d7-5ca5c6b762cd'}}} - place_buy_limit_order
+16:00:00.186 - INFO - Limit buy order price: 0.4083 - place_buy_limit_order
+16:00:00.282 - INFO - Sell order executed at 16:00:00.282: {'success': False, 'order_id': None, 'client_oid': 'a2f541e3-0fa9-48f3-b153-cd495b4bc451', 'execution_time': 0.11830735200783238, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+16:00:00.282 - INFO - Limit sell order price: 0.48996 - place_sell_limit_order
+16:00:00.310 - INFO - Sell order executed at 16:00:00.310: {'success': False, 'order_id': None, 'client_oid': '62141864-18fe-4114-9c96-5adeaa6a23c7', 'execution_time': 0.12298192601883784, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+16:00:00.310 - INFO - Limit sell order price: 0.48996 - place_sell_limit_order
+loop finished sleeping 1 seconds before exit 2024-11-05 16:00:00.444568
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 16:00:00.495063
+branch update No. 5
+16:00:02.629 - INFO - detected new pair XRPUSDT at Nov 05, 2024, 04:15PM - main
+16:00:02.630 - INFO - Release time and date: 05-11-2024 16:15:00.000 - get_price_websocket
+16:00:03.070 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+16:00:03.146 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+16:00:03.247 - INFO - Waiting 896.75 seconds until token release time - wait_until_listing
+16:14:38.885 - INFO - 25 seconds left until token release - wait_until_listing
+16:15:00.001 - INFO - Price found via WebSocket: 0.50969 at 16:15:00.001 - get_price_websocket
+16:15:00.001 - INFO - Buying price: 0.4078 at 16:15:00.001 - place_buy_limit_order
+16:15:00.170 - INFO - Buy order executed at: 16:15:00.170: {'success': True, 'order_id': '672a448457d33600071034b6', 'client_oid': '662441ee-bf0d-4ed2-986c-3bc6d5363cb4', 'execution_time': 0.1689572519971989, 'response': {'code': '200000', 'data': {'orderId': '672a448457d33600071034b6', 'clientOid': '662441ee-bf0d-4ed2-986c-3bc6d5363cb4'}}} - place_buy_limit_order
+16:15:00.170 - INFO - Limit buy order price: 0.4078 - place_buy_limit_order
+16:15:00.295 - INFO - Sell order executed at 16:15:00.295: {'success': False, 'order_id': None, 'client_oid': 'cf68014a-026b-4209-9ad0-73e70ab3a15c', 'execution_time': 0.12462015904020518, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+16:15:00.295 - INFO - Limit sell order price: 0.48936 - place_sell_limit_order
+16:15:00.456 - INFO - detected new pair XRPUSDT at Nov 05, 2024, 04:30PM - main
+16:15:00.457 - INFO - Release time and date: 05-11-2024 16:30:00.000 - get_price_websocket
+16:15:00.810 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+16:15:00.881 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+16:15:00.983 - INFO - Waiting 899.02 seconds until token release time - wait_until_listing
+16:15:01.734 - INFO - detected new pair XRPUSDT at Nov 05, 2024, 04:30PM - main
+16:15:01.735 - INFO - Release time and date: 05-11-2024 16:30:00.000 - get_price_websocket
+16:15:02.151 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+16:15:02.223 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+16:15:02.324 - INFO - Waiting 897.68 seconds until token release time - wait_until_listing
+16:29:36.621 - INFO - 25 seconds left until token release - wait_until_listing
+16:29:37.961 - INFO - 25 seconds left until token release - wait_until_listing
+16:30:00.000 - INFO - Price found via WebSocket: 0.5104 at 16:30:00.000 - get_price_websocket
+16:30:00.001 - INFO - Price found via WebSocket: 0.51043 at 16:30:00.001 - get_price_websocket
+16:30:00.001 - INFO - Buying price: 0.4083 at 16:30:00.001 - place_buy_limit_order
+16:30:00.002 - INFO - Buying price: 0.4083 at 16:30:00.001 - place_buy_limit_order
+16:30:00.136 - INFO - Buy order executed at: 16:30:00.136: {'success': True, 'order_id': '672a480857d3360007204cd1', 'client_oid': '9c880a40-930a-4308-a971-e530c4e60dcf', 'execution_time': 0.13424642698373646, 'response': {'code': '200000', 'data': {'orderId': '672a480857d3360007204cd1', 'clientOid': '9c880a40-930a-4308-a971-e530c4e60dcf'}}} - place_buy_limit_order
+16:30:00.136 - INFO - Limit buy order price: 0.4083 - place_buy_limit_order
+16:30:00.145 - INFO - Buy order executed at: 16:30:00.145: {'success': True, 'order_id': '672a4808ae43c4000738bd95', 'client_oid': '88f2e1ca-3f10-4f33-ad1c-b903bf456507', 'execution_time': 0.14366172498557717, 'response': {'code': '200000', 'data': {'orderId': '672a4808ae43c4000738bd95', 'clientOid': '88f2e1ca-3f10-4f33-ad1c-b903bf456507'}}} - place_buy_limit_order
+16:30:00.145 - INFO - Limit buy order price: 0.4083 - place_buy_limit_order
+16:30:00.256 - INFO - Sell order executed at 16:30:00.255: {'success': False, 'order_id': None, 'client_oid': 'f4875e86-6249-412c-86cf-9908bd9dc111', 'execution_time': 0.11043315596180037, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+16:30:00.256 - INFO - Limit sell order price: 0.48996 - place_sell_limit_order
+16:30:00.273 - INFO - Sell order executed at 16:30:00.273: {'success': False, 'order_id': None, 'client_oid': '186c41e3-d049-4fca-a8c6-6dd41c4b5a34', 'execution_time': 0.13683170801959932, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+16:30:00.280 - INFO - Limit sell order price: 0.48996 - place_sell_limit_order
+loop finished sleeping 1 seconds before exit 2024-11-05 16:30:00.415653
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 16:30:00.423473
+branch update No. 5
+16:30:01.921 - INFO - detected new pair XRPUSDT at Nov 05, 2024, 04:45PM - main
+16:30:01.922 - INFO - Release time and date: 05-11-2024 16:45:00.000 - get_price_websocket
+16:30:02.358 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+16:30:02.428 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+16:30:02.529 - INFO - Waiting 897.47 seconds until token release time - wait_until_listing
+16:44:38.162 - INFO - 25 seconds left until token release - wait_until_listing
+16:45:00.000 - INFO - Price found via WebSocket: 0.5116 at 16:45:00.000 - get_price_websocket
+16:45:00.001 - INFO - Buying price: 0.4093 at 16:45:00.001 - place_buy_limit_order
+16:45:00.162 - INFO - Buy order executed at: 16:45:00.162: {'success': True, 'order_id': '672a4b8cae43c400074c8e1e', 'client_oid': 'f1d224c2-1053-49ae-a18f-0ddfc4c16679', 'execution_time': 0.16048526199301705, 'response': {'code': '200000', 'data': {'orderId': '672a4b8cae43c400074c8e1e', 'clientOid': 'f1d224c2-1053-49ae-a18f-0ddfc4c16679'}}} - place_buy_limit_order
+16:45:00.162 - INFO - Limit buy order price: 0.4093 - place_buy_limit_order
+16:45:00.307 - INFO - Sell order executed at 16:45:00.307: {'success': False, 'order_id': None, 'client_oid': '1c9bcc6f-98c6-464a-ae57-b6a3b156d8a7', 'execution_time': 0.14496510999742895, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+16:45:00.307 - INFO - Limit sell order price: 0.49116 - place_sell_limit_order
+loop finished sleeping 1 seconds before exit 2024-11-05 16:45:00.448699
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 16:45:01.951565
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 17:00:02.873398
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 17:15:01.620970
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 17:30:02.324169
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 17:45:01.407082
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 18:00:02.744141
+branch update No. 5
+18:15:01.665 - INFO - detected new pair XRPUSDT at Nov 05, 2024, 06:30PM - main
+18:15:01.665 - INFO - Release time and date: 05-11-2024 18:30:00.000 - get_price_websocket
+18:15:02.021 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+18:15:02.090 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+18:15:02.193 - INFO - Waiting 897.81 seconds until token release time - wait_until_listing
+18:29:37.825 - INFO - 25 seconds left until token release - wait_until_listing
+18:30:00.001 - INFO - Price found via WebSocket: 0.5128 at 18:30:00.001 - get_price_websocket
+18:30:00.001 - INFO - Buying price: 0.4102 at 18:30:00.001 - place_buy_limit_order
+18:30:00.149 - INFO - Buy order executed at: 18:30:00.149: {'success': True, 'order_id': '672a6428ae43c40007b83a21', 'client_oid': 'e17c286f-a9d1-4c62-95fe-06c8dc2be835', 'execution_time': 0.14779917401028797, 'response': {'code': '200000', 'data': {'orderId': '672a6428ae43c40007b83a21', 'clientOid': 'e17c286f-a9d1-4c62-95fe-06c8dc2be835'}}} - place_buy_limit_order
+18:30:00.149 - INFO - Limit buy order price: 0.4102 - place_buy_limit_order
+18:30:00.255 - INFO - Sell order executed at 18:30:00.255: {'success': False, 'order_id': None, 'client_oid': '306aa50b-8d9d-4662-9a4b-090f2e588d40', 'execution_time': 0.10560330504085869, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+18:30:00.255 - INFO - Limit sell order price: 0.49224 - place_sell_limit_order
+loop finished sleeping 1 seconds before exit 2024-11-05 18:30:00.447130
+branch update No. 5
+18:30:02.263 - INFO - detected new pair XRPUSDT at Nov 05, 2024, 06:45PM - main
+18:30:02.264 - INFO - Release time and date: 05-11-2024 18:45:00.000 - get_price_websocket
+18:30:02.597 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+18:30:02.672 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+18:30:02.773 - INFO - Waiting 897.23 seconds until token release time - wait_until_listing
+18:44:38.400 - INFO - 25 seconds left until token release - wait_until_listing
+18:45:00.000 - INFO - Price found via WebSocket: 0.51401 at 18:45:00.000 - get_price_websocket
+18:45:00.000 - INFO - Buying price: 0.4112 at 18:45:00.000 - place_buy_limit_order
+18:45:00.188 - INFO - Buy order executed at: 18:45:00.188: {'success': True, 'order_id': '672a67acadc2120007078cd6', 'client_oid': '6b4e02d0-a37b-4c45-a35e-543fdf20a5a1', 'execution_time': 0.1875542409834452, 'response': {'code': '200000', 'data': {'orderId': '672a67acadc2120007078cd6', 'clientOid': '6b4e02d0-a37b-4c45-a35e-543fdf20a5a1'}}} - place_buy_limit_order
+18:45:00.188 - INFO - Limit buy order price: 0.4112 - place_buy_limit_order
+18:45:00.304 - INFO - Sell order executed at 18:45:00.304: {'success': False, 'order_id': None, 'client_oid': '3d3566ad-6f4b-4ae9-bd70-e6fb8f5d5ffb', 'execution_time': 0.11595013999613002, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+18:45:00.304 - INFO - Limit sell order price: 0.49344 - place_sell_limit_order
+loop finished sleeping 1 seconds before exit 2024-11-05 18:45:00.417984
+branch update No. 5
+18:45:01.880 - INFO - detected new pair XRPUSDT at Nov 05, 2024, 07:00PM - main
+18:45:01.881 - INFO - Release time and date: 05-11-2024 19:00:00.000 - get_price_websocket
+18:45:02.300 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+18:45:02.372 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+18:45:02.473 - INFO - Waiting 897.53 seconds until token release time - wait_until_listing
+18:59:38.112 - INFO - 25 seconds left until token release - wait_until_listing
+19:00:00.003 - INFO - Price found via WebSocket: 0.51388 at 19:00:00.002 - get_price_websocket
+19:00:00.003 - INFO - Buying price: 0.4111 at 19:00:00.003 - place_buy_limit_order
+19:00:00.240 - INFO - Buying price: 0.4111 at 19:00:00.240 - place_buy_limit_order
+19:00:00.393 - INFO - Buying price: 0.4111 at 19:00:00.393 - place_buy_limit_order
+19:00:00.499 - INFO - Buying price: 0.4111 at 19:00:00.499 - place_buy_limit_order
+19:00:00.643 - INFO - Buying price: 0.4111 at 19:00:00.643 - place_buy_limit_order
+19:00:00.777 - INFO - Buying price: 0.4111 at 19:00:00.777 - place_buy_limit_order
+19:00:00.912 - INFO - Buying price: 0.4111 at 19:00:00.912 - place_buy_limit_order
+19:00:01.034 - INFO - Buying price: 0.4111 at 19:00:01.034 - place_buy_limit_order
+19:00:01.183 - INFO - Buying price: 0.4111 at 19:00:01.183 - place_buy_limit_order
+19:00:01.285 - INFO - Buying price: 0.4111 at 19:00:01.285 - place_buy_limit_order
+19:00:01.383 - INFO - Buying price: 0.4111 at 19:00:01.383 - place_buy_limit_order
+19:00:01.535 - INFO - Buying price: 0.4111 at 19:00:01.535 - place_buy_limit_order
+19:00:01.650 - INFO - Buying price: 0.4111 at 19:00:01.650 - place_buy_limit_order
+19:00:01.755 - INFO - Buying price: 0.4111 at 19:00:01.755 - place_buy_limit_order
+19:00:01.878 - INFO - Buying price: 0.4111 at 19:00:01.878 - place_buy_limit_order
+19:00:01.984 - INFO - Buying price: 0.4111 at 19:00:01.984 - place_buy_limit_order
+19:00:02.103 - INFO - Buying price: 0.4111 at 19:00:02.103 - place_buy_limit_order
+19:00:02.258 - INFO - Buying price: 0.4111 at 19:00:02.258 - place_buy_limit_order
+19:00:02.362 - INFO - Buying price: 0.4111 at 19:00:02.362 - place_buy_limit_order
+19:00:02.498 - INFO - Buying price: 0.4111 at 19:00:02.498 - place_buy_limit_order
+19:00:02.655 - INFO - Buying price: 0.4111 at 19:00:02.655 - place_buy_limit_order
+19:00:02.757 - INFO - Buying price: 0.4111 at 19:00:02.757 - place_buy_limit_order
+19:00:02.857 - INFO - Buying price: 0.4111 at 19:00:02.857 - place_buy_limit_order
+19:00:02.982 - INFO - Buying price: 0.4111 at 19:00:02.982 - place_buy_limit_order
+19:00:03.053 - INFO - Script is already running. Exiting. - main
+19:00:03.110 - INFO - Buying price: 0.4111 at 19:00:03.110 - place_buy_limit_order
+19:00:03.214 - INFO - Buying price: 0.4111 at 19:00:03.214 - place_buy_limit_order
+19:00:03.345 - INFO - Buying price: 0.4111 at 19:00:03.345 - place_buy_limit_order
+19:00:03.451 - INFO - Buying price: 0.4111 at 19:00:03.451 - place_buy_limit_order
+19:00:03.566 - INFO - Buying price: 0.4111 at 19:00:03.566 - place_buy_limit_order
+19:00:03.701 - INFO - Buying price: 0.4111 at 19:00:03.701 - place_buy_limit_order
+19:00:03.803 - INFO - Buying price: 0.4111 at 19:00:03.803 - place_buy_limit_order
+19:00:03.908 - INFO - Buying price: 0.4111 at 19:00:03.908 - place_buy_limit_order
+19:00:04.016 - INFO - Buying price: 0.4111 at 19:00:04.016 - place_buy_limit_order
+19:00:04.125 - INFO - Buying price: 0.4111 at 19:00:04.125 - place_buy_limit_order
+19:00:04.228 - INFO - Buying price: 0.4111 at 19:00:04.228 - place_buy_limit_order
+19:00:04.370 - INFO - Buying price: 0.4111 at 19:00:04.370 - place_buy_limit_order
+19:00:04.483 - INFO - Buying price: 0.4111 at 19:00:04.483 - place_buy_limit_order
+19:00:04.622 - INFO - Buying price: 0.4111 at 19:00:04.622 - place_buy_limit_order
+19:00:04.732 - INFO - Buying price: 0.4111 at 19:00:04.731 - place_buy_limit_order
+19:00:04.861 - INFO - Buying price: 0.4111 at 19:00:04.861 - place_buy_limit_order
+19:00:04.970 - INFO - Buying price: 0.4111 at 19:00:04.970 - place_buy_limit_order
+19:00:05.077 - INFO - Buying price: 0.4111 at 19:00:05.077 - place_buy_limit_order
+19:00:05.179 - INFO - Buying price: 0.4111 at 19:00:05.179 - place_buy_limit_order
+19:00:05.289 - INFO - Buying price: 0.4111 at 19:00:05.289 - place_buy_limit_order
+19:00:05.394 - INFO - Buying price: 0.4111 at 19:00:05.394 - place_buy_limit_order
+19:00:05.498 - INFO - Buying price: 0.4111 at 19:00:05.498 - place_buy_limit_order
+19:00:05.604 - INFO - Buying price: 0.4111 at 19:00:05.604 - place_buy_limit_order
+19:00:05.706 - INFO - Buying price: 0.4111 at 19:00:05.706 - place_buy_limit_order
+19:00:05.808 - INFO - Buying price: 0.4111 at 19:00:05.808 - place_buy_limit_order
+19:00:05.934 - INFO - Buying price: 0.4111 at 19:00:05.934 - place_buy_limit_order
+19:00:06.043 - INFO - Buying price: 0.4111 at 19:00:06.043 - place_buy_limit_order
+19:00:06.159 - INFO - Buying price: 0.4111 at 19:00:06.159 - place_buy_limit_order
+19:00:06.309 - INFO - Buying price: 0.4111 at 19:00:06.308 - place_buy_limit_order
+19:00:06.427 - INFO - Buying price: 0.4111 at 19:00:06.427 - place_buy_limit_order
+19:00:06.564 - INFO - Buying price: 0.4111 at 19:00:06.564 - place_buy_limit_order
+19:00:06.669 - INFO - Buying price: 0.4111 at 19:00:06.669 - place_buy_limit_order
+19:00:06.772 - INFO - Buying price: 0.4111 at 19:00:06.772 - place_buy_limit_order
+19:00:06.887 - INFO - Buying price: 0.4111 at 19:00:06.887 - place_buy_limit_order
+19:00:06.995 - INFO - Buying price: 0.4111 at 19:00:06.995 - place_buy_limit_order
+19:00:07.096 - INFO - Buying price: 0.4111 at 19:00:07.096 - place_buy_limit_order
+19:00:07.197 - INFO - Buying price: 0.4111 at 19:00:07.197 - place_buy_limit_order
+19:00:07.308 - INFO - Buying price: 0.4111 at 19:00:07.308 - place_buy_limit_order
+19:00:07.424 - INFO - Buying price: 0.4111 at 19:00:07.424 - place_buy_limit_order
+19:00:07.528 - INFO - Buying price: 0.4111 at 19:00:07.528 - place_buy_limit_order
+19:00:07.628 - INFO - Buying price: 0.4111 at 19:00:07.628 - place_buy_limit_order
+19:00:07.729 - INFO - Buying price: 0.4111 at 19:00:07.729 - place_buy_limit_order
+19:00:07.837 - INFO - Buying price: 0.4111 at 19:00:07.837 - place_buy_limit_order
+19:00:07.936 - INFO - Buying price: 0.4111 at 19:00:07.936 - place_buy_limit_order
+19:00:08.038 - INFO - Buying price: 0.4111 at 19:00:08.038 - place_buy_limit_order
+19:00:08.141 - INFO - Buying price: 0.4111 at 19:00:08.141 - place_buy_limit_order
+19:00:08.247 - INFO - Buying price: 0.4111 at 19:00:08.247 - place_buy_limit_order
+19:00:08.347 - INFO - Buying price: 0.4111 at 19:00:08.347 - place_buy_limit_order
+19:00:08.451 - INFO - Buying price: 0.4111 at 19:00:08.451 - place_buy_limit_order
+19:00:08.553 - INFO - Buying price: 0.4111 at 19:00:08.553 - place_buy_limit_order
+19:00:08.654 - INFO - Buying price: 0.4111 at 19:00:08.653 - place_buy_limit_order
+19:00:08.757 - INFO - Buying price: 0.4111 at 19:00:08.757 - place_buy_limit_order
+19:15:01.916 - INFO - Script is already running. Exiting. - main
+loop finished sleeping 1 seconds before exit 2024-11-05 19:30:01.595943
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 19:45:01.897832
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 20:00:01.107888
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 20:15:01.965880
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 20:30:00.820511
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 20:45:01.574295
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 21:00:02.515428
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 21:15:02.023924
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 21:30:01.664008
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 21:45:02.072440
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 22:00:03.017198
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 22:15:02.157018
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 22:30:01.896217
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 22:45:01.585274
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 23:00:02.055538
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 23:15:02.374385
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 23:30:02.224832
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-05 23:45:02.130188
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 00:00:02.162050
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 00:15:02.130875
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 00:30:02.177851
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 00:45:02.356496
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 01:00:02.839622
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 01:15:01.843604
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 01:30:01.491631
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 01:45:02.091273
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 02:00:02.736813
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 02:15:02.118921
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 02:30:01.803867
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 02:45:02.251467
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 03:00:02.716175
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 03:15:02.185749
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 03:30:01.905545
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 03:45:01.778774
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 04:00:01.911155
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 04:15:01.580893
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 04:30:01.685966
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 04:45:02.165463
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 05:00:02.585483
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 05:15:01.832656
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 05:30:01.425976
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 05:45:01.552239
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 06:00:02.573320
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 06:15:01.747255
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 06:30:01.438337
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 06:45:01.545499
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 07:00:02.049819
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 07:15:01.989987
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 07:30:01.673211
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 07:45:01.745391
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 08:00:02.151511
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 08:15:02.212830
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 08:30:01.827400
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 08:45:02.125216
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 09:00:01.208212
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 09:15:01.491803
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 09:30:00.557297
+branch update No. 5
+loop finished sleeping 1 seconds before exit 2024-11-06 09:45:01.897925
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+10:15:01.931 - INFO - detected new pair XRPUSDT at Nov 06, 2024, 10:30AM - main
+10:15:01.932 - INFO - Release time and date: 06-11-2024 10:30:00.000 - get_price_websocket
+10:15:02.403 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+10:15:02.477 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+10:15:02.578 - INFO - Waiting 897.42 seconds until token release time - wait_until_listing
+10:29:38.213 - INFO - 25 seconds left until token release - wait_until_listing
+10:30:00.001 - INFO - Price found via WebSocket: 0.53191 at 10:30:00.001 - get_price_websocket
+10:30:00.001 - INFO - Buying price: 0.4255 at 10:30:00.001 - place_buy_limit_order
+10:30:00.185 - INFO - Buy order executed at: 10:30:00.185: {'success': True, 'order_id': '672b4528355a360007768ea5', 'client_oid': '6f16167c-7c02-4bae-98e8-d7ca5e1c3b4c', 'execution_time': 0.18408737500431016, 'response': {'code': '200000', 'data': {'orderId': '672b4528355a360007768ea5', 'clientOid': '6f16167c-7c02-4bae-98e8-d7ca5e1c3b4c'}}} - place_buy_limit_order
+10:30:00.186 - INFO - Limit buy order price: 0.4255 - place_buy_limit_order
+10:30:00.319 - INFO - Sell order executed at 10:30:00.319: {'success': False, 'order_id': None, 'client_oid': 'f2488843-dd4f-4e8b-a1e0-c34760cb7362', 'execution_time': 0.13364690798334777, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+10:30:00.320 - INFO - Limit sell order price: 0.5106 - place_sell_limit_order
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+10:30:02.348 - INFO - detected new pair XRPUSDT at Nov 06, 2024, 10:45AM - main
+10:30:02.350 - INFO - Release time and date: 06-11-2024 10:45:00.000 - get_price_websocket
+10:30:03.005 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+10:30:03.079 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+10:30:03.181 - INFO - Waiting 896.82 seconds until token release time - wait_until_listing
+10:44:38.808 - INFO - 25 seconds left until token release - wait_until_listing
+10:45:00.000 - INFO - Price found via WebSocket: 0.53272 at 10:45:00.000 - get_price_websocket
+10:45:00.000 - INFO - Buying price: 0.4262 at 10:45:00.000 - place_buy_limit_order
+10:45:00.147 - INFO - Buy order executed at: 10:45:00.147: {'success': True, 'order_id': '672b48ac355a3600078690e5', 'client_oid': 'e8101a57-fe61-4e0c-8223-786d1b46129e', 'execution_time': 0.14681984297931194, 'response': {'code': '200000', 'data': {'orderId': '672b48ac355a3600078690e5', 'clientOid': 'e8101a57-fe61-4e0c-8223-786d1b46129e'}}} - place_buy_limit_order
+10:45:00.148 - INFO - Limit buy order price: 0.4262 - place_buy_limit_order
+10:45:00.268 - INFO - Sell order executed at 10:45:00.268: {'success': False, 'order_id': None, 'client_oid': 'b5f4993f-6093-4478-b01a-8f60cd9db973', 'execution_time': 0.12029707100009546, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+10:45:00.268 - INFO - Limit sell order price: 0.51144 - place_sell_limit_order
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+10:45:01.866 - INFO - detected new pair XRPUSDT at Nov 06, 2024, 11:00AM - main
+10:45:01.867 - INFO - Release time and date: 06-11-2024 11:00:00.000 - get_price_websocket
+10:45:02.338 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+10:45:02.411 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+10:45:02.512 - INFO - Waiting 897.49 seconds until token release time - wait_until_listing
+10:59:38.148 - INFO - 25 seconds left until token release - wait_until_listing
+11:00:00.001 - INFO - Price found via WebSocket: 0.53513 at 11:00:00.001 - get_price_websocket
+11:00:00.001 - INFO - Buying price: 0.4281 at 11:00:00.001 - place_buy_limit_order
+11:00:00.190 - INFO - Buy order executed at: 11:00:00.190: {'success': True, 'order_id': '672b4c30cf1a870007eb4abf', 'client_oid': '2b0a9696-c59b-428a-b2f6-4ca8a5d6fdfa', 'execution_time': 0.1885743579478003, 'response': {'code': '200000', 'data': {'orderId': '672b4c30cf1a870007eb4abf', 'clientOid': '2b0a9696-c59b-428a-b2f6-4ca8a5d6fdfa'}}} - place_buy_limit_order
+11:00:00.190 - INFO - Limit buy order price: 0.4281 - place_buy_limit_order
+11:00:00.326 - INFO - Sell order executed at 11:00:00.326: {'success': False, 'order_id': None, 'client_oid': '909c8e5e-07ff-4425-86f4-c2c8215b8ef7', 'execution_time': 0.13575959199806675, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+11:00:00.326 - INFO - Limit sell order price: 0.51372 - place_sell_limit_order
+11:00:01.391 - INFO - Script is running. Exiting. - main
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+11:45:01.927 - INFO - detected new pair COWUSDT at Nov 06, 2024, 12PM - main
+11:45:01.928 - INFO - Release time and date: 06-11-2024 12:00:00.000 - get_price_websocket
+11:45:02.361 - INFO - Subscription request sent for COW-USDT - initialize_websocket
+11:45:02.435 - INFO - Successfully subscribed to COW-USDT - wait_for_subscription
+11:45:02.536 - INFO - Waiting 897.46 seconds until token release time - wait_until_listing
+11:59:38.219 - INFO - 25 seconds left until token release - wait_until_listing
+12:00:00.165 - INFO - Price found via WebSocket: 0.25 at 12:00:00.165 - get_price_websocket
+12:00:00.165 - INFO - Buying price: 0.2 at 12:00:00.165 - place_buy_limit_order
+12:00:00.375 - INFO - Buy order executed at: 12:00:00.375: {'success': True, 'order_id': '672b5a40429d8b0007a115d5', 'client_oid': '0d3506fa-5d63-4ebe-b096-400703bd58c4', 'execution_time': 0.2097778239985928, 'response': {'code': '200000', 'data': {'orderId': '672b5a40429d8b0007a115d5', 'clientOid': '0d3506fa-5d63-4ebe-b096-400703bd58c4'}}} - place_buy_limit_order
+12:00:00.376 - INFO - Limit buy order price: 0.2 - place_buy_limit_order
+12:00:00.497 - INFO - Sell order executed at 12:00:00.497: {'success': False, 'order_id': None, 'client_oid': 'bac0e596-85ec-45e0-87f0-1e3b2abf5ca6', 'execution_time': 0.12141456501558423, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+12:00:00.497 - INFO - Limit sell order price: 0.24 - place_sell_limit_order
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+08:42:02.390 - INFO - detected new pair XRPUSDT at Nov 07, 2024, 8:44AM - main
+08:42:02.391 - INFO - Release time and date: 07-11-2024 08:44:00.000 - get_price_websocket
+08:42:02.837 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+08:42:02.909 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+08:42:02.909 - INFO - Waiting 117.09 seconds until token release time - wait_until_listing
+08:43:37.937 - INFO - 25 seconds left until token release - wait_until_listing
+08:44:00.000 - DEBUG - Received data: {'id': '1730968922837', 'type': 'pong'} - get_price_websocket
+08:44:00.001 - DEBUG - Received data: {'topic': '/market/ticker:XRP-USDT', 'type': 'message', 'subject': 'trade.ticker', 'data': {'bestAsk': '0.55491', 'bestAskSize': '2250.1447', 'bestBid': '0.5549', 'bestBidSize': '3721.1816', 'price': '0.55498', 'sequence': '4695204276', 'size': '16.419', 'time': 1730968920960}} - get_price_websocket
+08:44:00.001 - INFO - Price found via WebSocket: 0.55498 at  - get_price_websocket
+08:44:00.001 - INFO - Buying price: 0.444 at 08:44:00.001 - place_buy_limit_order
+08:44:00.202 - INFO - Buy order executed at: 08:44:00.202: {'success': True, 'order_id': '672c7dd0f53c5a0007d21e91', 'client_oid': 'fb6fcf44-eded-4505-837d-5cfb55fdaaad', 'execution_time': 0.20112904900452122, 'response': {'code': '200000', 'data': {'orderId': '672c7dd0f53c5a0007d21e91', 'clientOid': 'fb6fcf44-eded-4505-837d-5cfb55fdaaad'}}} - place_buy_limit_order
+08:44:00.202 - INFO - Limit buy order price: 0.444 - place_buy_limit_order
+08:44:00.322 - INFO - Sell order executed at 08:44:00.321: {'success': False, 'order_id': None, 'client_oid': '88f22792-3e3b-4aaa-881a-9550f84b3ee9', 'execution_time': 0.11919353302801028, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+08:44:00.322 - INFO - Limit sell order price: 0.5328 - place_sell_limit_order
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+loop finished sleeping 1 seconds before exit
+branch update No. 5
+  File "/root/trading_systems/kucoin_dir/buying_kucoin.py", line 126
+    print(f'{datetime.now().strftime('%H:%M:%S')}loop finished sleeping 1 seconds before exit')
+                                      ^
+SyntaxError: f-string: unmatched '('
+08:50:02loop finished sleeping 1 seconds before exit
+branch update No. 5
+08:52:01loop finished sleeping 1 seconds before exit
+branch update No. 5
+08:54:01loop finished sleeping 1 seconds before exit
+branch update No. 5
+08:56:01loop finished sleeping 1 seconds before exit
+branch update No. 5
+08:58:01loop finished sleeping 1 seconds before exit
+branch update No. 5
+09:00:03loop finished sleeping 1 seconds before exit
+branch update No. 5
+09:02:02loop finished sleeping 1 seconds before exit
+branch update No. 5
+09:04:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+09:06:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+09:08:01.682 - INFO - detected new pair XRPUSDT at Nov 07, 2024, 9:10AM - main
+09:08:01.683 - INFO - Release time and date: 07-11-2024 09:10:00.000 - get_price_websocket
+09:08:02.110 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+09:08:02.182 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+09:08:02.182 - INFO - Waiting 117.82 seconds until token release time - wait_until_listing
+09:09:37.211 - INFO - 25 seconds left until token release - wait_until_listing
+09:10:00.000 - DEBUG - Received data: {'id': '1730970482111', 'type': 'pong'} - get_price_websocket
+09:10:00.001 - DEBUG - Received data: {'topic': '/market/ticker:XRP-USDT', 'type': 'message', 'subject': 'trade.ticker', 'data': {'bestAsk': '0.55366', 'bestAskSize': '3315.9326', 'bestBid': '0.55365', 'bestBidSize': '305.5731', 'price': '0.55364', 'sequence': '4695290879', 'size': '412.6798', 'time': 1730970467679}} - get_price_websocket
+09:10:00.001 - INFO - Price found via WebSocket: 0.55364 at  - get_price_websocket
+09:10:00.001 - INFO - Buying price: 0.4429 at 09:10:00.001 - place_buy_limit_order
+09:10:00.247 - INFO - Buy order executed at: 09:10:00.247: {'success': True, 'order_id': '672c83e8c95c310007095a69', 'client_oid': '3ec7e00a-879f-44f4-80dd-d426470f1b7e', 'execution_time': 0.24629642500076443, 'response': {'code': '200000', 'data': {'orderId': '672c83e8c95c310007095a69', 'clientOid': '3ec7e00a-879f-44f4-80dd-d426470f1b7e'}}} - place_buy_limit_order
+09:10:00.247 - INFO - Limit buy order price: 0.4429 - place_buy_limit_order
+09:10:00.382 - INFO - Sell order executed at 09:10:00.382: {'success': False, 'order_id': None, 'client_oid': '582c97b6-16b4-4aff-9570-dd1c7143f4da', 'execution_time': 0.13429712201468647, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+09:10:00.382 - INFO - Limit sell order price: 0.53148 - place_sell_limit_order
+09:10:00 loop finished sleeping 1 seconds before exit
+branch update No. 5
+09:10:01.703 - INFO - detected new pair XRPUSDT at Nov 07, 2024, 9:14AM - main
+09:10:01.704 - INFO - Release time and date: 07-11-2024 09:14:00.000 - get_price_websocket
+09:10:02.114 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+09:10:02.186 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+09:10:02.186 - INFO - Waiting 237.81 seconds until token release time - wait_until_listing
+09:12:01.870 - INFO - detected new pair XRPUSDT at Nov 07, 2024, 9:14AM - main
+09:12:01.871 - INFO - Release time and date: 07-11-2024 09:14:00.000 - get_price_websocket
+09:12:02.229 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+09:12:02.300 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+09:12:02.305 - INFO - Waiting 117.69 seconds until token release time - wait_until_listing
+09:13:37.313 - INFO - 25 seconds left until token release - wait_until_listing
+09:13:37.328 - INFO - 25 seconds left until token release - wait_until_listing
+09:14:00.001 - DEBUG - Received data: {'id': '1730970722229', 'type': 'pong'} - get_price_websocket
+09:14:00.001 - DEBUG - Received data: {'id': '1730970602115', 'type': 'pong'} - get_price_websocket
+09:14:00.001 - DEBUG - Received data: {'topic': '/market/ticker:XRP-USDT', 'type': 'message', 'subject': 'trade.ticker', 'data': {'bestAsk': '0.55371', 'bestAskSize': '6528.3857', 'bestBid': '0.5537', 'bestBidSize': '243.9913', 'price': '0.55372', 'sequence': '4695298103', 'size': '21.822', 'time': 1730970602206}} - get_price_websocket
+09:14:00.001 - DEBUG - Received data: {'topic': '/market/ticker:XRP-USDT', 'type': 'message', 'subject': 'trade.ticker', 'data': {'bestAsk': '0.55351', 'bestAskSize': '2970.1059', 'bestBid': '0.5535', 'bestBidSize': '2230.7956', 'price': '0.55351', 'sequence': '4695304663', 'size': '121.7', 'time': 1730970719664}} - get_price_websocket
+09:14:00.002 - INFO - Price found via WebSocket: 0.55351 at  - get_price_websocket
+09:14:00.002 - INFO - Buying price: 0.7749 at 09:14:00.002 - place_buy_limit_order
+09:14:00.002 - INFO - Price found via WebSocket: 0.55372 at  - get_price_websocket
+09:14:00.002 - INFO - Buying price: 0.7752 at 09:14:00.002 - place_buy_limit_order
+09:14:00.197 - INFO - Buy order executed at: 09:14:00.197: {'success': True, 'order_id': '672c84d8ab0f0a00079f61f8', 'client_oid': 'da5d41ff-0389-4e49-a9c4-db1a91f4e41b', 'execution_time': 0.1951517469715327, 'response': {'code': '200000', 'data': {'orderId': '672c84d8ab0f0a00079f61f8', 'clientOid': 'da5d41ff-0389-4e49-a9c4-db1a91f4e41b'}}} - place_buy_limit_order
+09:14:00.197 - INFO - Limit buy order price: 0.7749 - place_buy_limit_order
+09:14:00.214 - INFO - Buy order executed at: 09:14:00.214: {'success': True, 'order_id': '672c84d8ae43c4000797ba8b', 'client_oid': 'f996cac1-a31d-411c-b1fa-e09c0af6bcd8', 'execution_time': 0.21191216295119375, 'response': {'code': '200000', 'data': {'orderId': '672c84d8ae43c4000797ba8b', 'clientOid': 'f996cac1-a31d-411c-b1fa-e09c0af6bcd8'}}} - place_buy_limit_order
+09:14:00.215 - INFO - Limit buy order price: 0.7752 - place_buy_limit_order
+09:14:00.344 - INFO - Sell order executed at 09:14:00.343: {'success': True, 'order_id': '672c84d83cda65000759585a', 'client_oid': '50ca69f4-2996-423c-960e-dcf204b5167c', 'execution_time': 0.145905917044729, 'response': {'code': '200000', 'data': {'orderId': '672c84d83cda65000759585a', 'clientOid': '50ca69f4-2996-423c-960e-dcf204b5167c'}}} - place_sell_limit_order
+09:14:00.344 - INFO - Sell order executed at 09:14:00.344: {'success': True, 'order_id': '672c84d8d181be000775b184', 'client_oid': 'e1ac91e0-a932-48c0-9a89-d352c7a27b52', 'execution_time': 0.1289380620000884, 'response': {'code': '200000', 'data': {'orderId': '672c84d8d181be000775b184', 'clientOid': 'e1ac91e0-a932-48c0-9a89-d352c7a27b52'}}} - place_sell_limit_order
+09:14:00.344 - INFO - Limit sell order price: 0.93024 - place_sell_limit_order
+09:14:00.344 - INFO - Limit sell order price: 0.92988 - place_sell_limit_order
+09:14:00 loop finished sleeping 1 seconds before exit
+branch update No. 5
+09:14:00 loop finished sleeping 1 seconds before exit
+branch update No. 5
+09:14:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+09:16:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+09:18:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+09:30:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+09:45:02.182 - INFO - detected new pair SWELLUSDT at Nov 07, 2024, 10AM - main
+09:45:02.182 - INFO - Release time and date: 07-11-2024 10:00:00.000 - get_price_websocket
+09:45:02.555 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+09:45:02.628 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+09:45:02.628 - INFO - Waiting 897.37 seconds until token release time - wait_until_listing
+09:59:38.319 - INFO - 25 seconds left until token release - wait_until_listing
+10:00:00.000 - DEBUG - Received data: {'id': '1730972702555', 'type': 'pong'} - get_price_websocket
+10:00:00.000 - DEBUG - Received data: {'id': '1730972722561', 'type': 'pong'} - get_price_websocket
+10:00:00.000 - DEBUG - Received data: {'id': '1730972742564', 'type': 'pong'} - get_price_websocket
+10:00:00.000 - DEBUG - Received data: {'id': '1730972762570', 'type': 'pong'} - get_price_websocket
+10:00:00.000 - DEBUG - Received data: {'id': '1730972782572', 'type': 'pong'} - get_price_websocket
+10:00:00.000 - DEBUG - Received data: {'id': '1730972802578', 'type': 'pong'} - get_price_websocket
+10:00:00.000 - DEBUG - Received data: {'id': '1730972822585', 'type': 'pong'} - get_price_websocket
+10:00:00.000 - DEBUG - Received data: {'id': '1730972842591', 'type': 'pong'} - get_price_websocket
+10:00:00.000 - DEBUG - Received data: {'id': '1730972862597', 'type': 'pong'} - get_price_websocket
+10:00:00.000 - DEBUG - Received data: {'id': '1730972882604', 'type': 'pong'} - get_price_websocket
+10:00:00.000 - DEBUG - Received data: {'id': '1730972902610', 'type': 'pong'} - get_price_websocket
+10:00:00.000 - DEBUG - Received data: {'id': '1730972922615', 'type': 'pong'} - get_price_websocket
+10:00:00.000 - DEBUG - Received data: {'id': '1730972942621', 'type': 'pong'} - get_price_websocket
+10:00:00.000 - DEBUG - Received data: {'id': '1730972962626', 'type': 'pong'} - get_price_websocket
+10:00:00.000 - DEBUG - Received data: {'id': '1730972982632', 'type': 'pong'} - get_price_websocket
+10:00:00.000 - DEBUG - Received data: {'id': '1730973002638', 'type': 'pong'} - get_price_websocket
+10:00:00.000 - DEBUG - Received data: {'id': '1730973022639', 'type': 'pong'} - get_price_websocket
+10:00:00.001 - DEBUG - Received data: {'id': '1730973042645', 'type': 'pong'} - get_price_websocket
+10:00:00.001 - DEBUG - Received data: {'id': '1730973062651', 'type': 'pong'} - get_price_websocket
+10:00:00.001 - DEBUG - Received data: {'id': '1730973082658', 'type': 'pong'} - get_price_websocket
+10:00:00.001 - DEBUG - Received data: {'id': '1730973102663', 'type': 'pong'} - get_price_websocket
+10:00:00.001 - DEBUG - Received data: {'id': '1730973122668', 'type': 'pong'} - get_price_websocket
+10:00:00.001 - DEBUG - Received data: {'id': '1730973142674', 'type': 'pong'} - get_price_websocket
+10:00:00.001 - DEBUG - Received data: {'id': '1730973162680', 'type': 'pong'} - get_price_websocket
+10:00:00.001 - DEBUG - Received data: {'id': '1730973182684', 'type': 'pong'} - get_price_websocket
+10:00:00.001 - DEBUG - Received data: {'id': '1730973202689', 'type': 'pong'} - get_price_websocket
+10:00:00.001 - DEBUG - Received data: {'id': '1730973222692', 'type': 'pong'} - get_price_websocket
+10:00:00.001 - DEBUG - Received data: {'id': '1730973242697', 'type': 'pong'} - get_price_websocket
+10:00:00.001 - DEBUG - Received data: {'id': '1730973262707', 'type': 'pong'} - get_price_websocket
+10:00:00.001 - DEBUG - Received data: {'id': '1730973282713', 'type': 'pong'} - get_price_websocket
+10:00:00.001 - DEBUG - Received data: {'id': '1730973302719', 'type': 'pong'} - get_price_websocket
+10:00:00.001 - DEBUG - Received data: {'id': '1730973322725', 'type': 'pong'} - get_price_websocket
+10:00:00.001 - DEBUG - Received data: {'id': '1730973342730', 'type': 'pong'} - get_price_websocket
+10:00:00.001 - DEBUG - Received data: {'id': '1730973362735', 'type': 'pong'} - get_price_websocket
+10:00:00.001 - DEBUG - Received data: {'id': '1730973382742', 'type': 'pong'} - get_price_websocket
+10:00:00.001 - DEBUG - Received data: {'id': '1730973402748', 'type': 'pong'} - get_price_websocket
+10:00:00.001 - DEBUG - Received data: {'id': '1730973422752', 'type': 'pong'} - get_price_websocket
+10:00:00.001 - DEBUG - Received data: {'id': '1730973442759', 'type': 'pong'} - get_price_websocket
+10:00:00.001 - DEBUG - Received data: {'id': '1730973462765', 'type': 'pong'} - get_price_websocket
+10:00:00.001 - DEBUG - Received data: {'id': '1730973482770', 'type': 'pong'} - get_price_websocket
+10:00:00.001 - DEBUG - Received data: {'id': '1730973502775', 'type': 'pong'} - get_price_websocket
+10:00:00.002 - DEBUG - Received data: {'id': '1730973522780', 'type': 'pong'} - get_price_websocket
+10:00:00.002 - DEBUG - Received data: {'id': '1730973542786', 'type': 'pong'} - get_price_websocket
+10:00:00.002 - DEBUG - Received data: {'id': '1730973562791', 'type': 'pong'} - get_price_websocket
+10:00:00.002 - DEBUG - Received data: {'id': '1730973582793', 'type': 'pong'} - get_price_websocket
+10:00:00.102 - DEBUG - Received data: {'topic': '/market/ticker:SWELL-USDT', 'type': 'message', 'subject': 'trade.ticker', 'data': {'bestAsk': '0.0253', 'bestAskSize': '15721', 'bestBid': '0.025', 'bestBidSize': '1498620', 'price': '0.025', 'sequence': '184', 'size': '16466', 'time': 1730973600026}} - get_price_websocket
+10:00:00.102 - INFO - Price found via WebSocket: 0.025 at  - get_price_websocket
+10:00:00.102 - INFO - Buying price: 0.035 at 10:00:00.102 - place_buy_limit_order
+10:00:00.292 - INFO - Buy order executed at: 10:00:00.292: {'success': True, 'order_id': '672c8fa0429d8b00076b3934', 'client_oid': '8b3dba39-820e-4f19-923a-e51f5e4331e3', 'execution_time': 0.19017249398166314, 'response': {'code': '200000', 'data': {'orderId': '672c8fa0429d8b00076b3934', 'clientOid': '8b3dba39-820e-4f19-923a-e51f5e4331e3'}}} - place_buy_limit_order
+10:00:00.292 - INFO - Limit buy order price: 0.035 - place_buy_limit_order
+10:00:00.429 - INFO - Sell order executed at 10:00:00.429: {'success': True, 'order_id': '672c8fa02ab0100007e2816d', 'client_oid': '010656b4-2b14-4aec-a84c-d59031623d0a', 'execution_time': 0.13644643599400297, 'response': {'code': '200000', 'data': {'orderId': '672c8fa02ab0100007e2816d', 'clientOid': '010656b4-2b14-4aec-a84c-d59031623d0a'}}} - place_sell_limit_order
+10:00:00.429 - INFO - Limit sell order price: 0.042 - place_sell_limit_order
+10:00:00 loop finished sleeping 1 seconds before exit
+branch update No. 5
+10:00:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+10:15:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+10:30:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+10:45:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+11:00:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+11:15:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+11:30:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+11:45:02.150 - INFO - detected new pair GODLUSDT at Nov 07, 2024, 12PM - main
+11:45:02.151 - INFO - Release time and date: 07-11-2024 12:00:00.000 - get_price_websocket
+11:45:02.813 - INFO - Subscription request sent for GODL-USDT - initialize_websocket
+11:45:02.887 - INFO - Successfully subscribed to GODL-USDT - wait_for_subscription
+11:45:02.888 - INFO - Waiting 897.11 seconds until token release time - wait_until_listing
+11:59:38.577 - INFO - 25 seconds left until token release - wait_until_listing
+12:00:00.000 - DEBUG - Received data: {'id': '1730979902813', 'type': 'pong'} - get_price_websocket
+12:00:00.000 - DEBUG - Received data: {'id': '1730979922818', 'type': 'pong'} - get_price_websocket
+12:00:00.000 - DEBUG - Received data: {'id': '1730979942821', 'type': 'pong'} - get_price_websocket
+12:00:00.000 - DEBUG - Received data: {'id': '1730979962828', 'type': 'pong'} - get_price_websocket
+12:00:00.000 - DEBUG - Received data: {'id': '1730979982834', 'type': 'pong'} - get_price_websocket
+12:00:00.000 - DEBUG - Received data: {'id': '1730980002840', 'type': 'pong'} - get_price_websocket
+12:00:00.000 - DEBUG - Received data: {'id': '1730980022844', 'type': 'pong'} - get_price_websocket
+12:00:00.001 - DEBUG - Received data: {'id': '1730980042850', 'type': 'pong'} - get_price_websocket
+12:00:00.001 - DEBUG - Received data: {'id': '1730980062856', 'type': 'pong'} - get_price_websocket
+12:00:00.001 - DEBUG - Received data: {'id': '1730980082857', 'type': 'pong'} - get_price_websocket
+12:00:00.001 - DEBUG - Received data: {'id': '1730980102863', 'type': 'pong'} - get_price_websocket
+12:00:00.001 - DEBUG - Received data: {'id': '1730980122867', 'type': 'pong'} - get_price_websocket
+12:00:00.002 - DEBUG - Received data: {'id': '1730980142873', 'type': 'pong'} - get_price_websocket
+12:00:00.002 - DEBUG - Received data: {'id': '1730980162874', 'type': 'pong'} - get_price_websocket
+12:00:00.002 - DEBUG - Received data: {'id': '1730980182880', 'type': 'pong'} - get_price_websocket
+12:00:00.002 - DEBUG - Received data: {'id': '1730980202884', 'type': 'pong'} - get_price_websocket
+12:00:00.002 - DEBUG - Received data: {'id': '1730980222888', 'type': 'pong'} - get_price_websocket
+12:00:00.002 - DEBUG - Received data: {'id': '1730980242895', 'type': 'pong'} - get_price_websocket
+12:00:00.002 - DEBUG - Received data: {'id': '1730980262900', 'type': 'pong'} - get_price_websocket
+12:00:00.002 - DEBUG - Received data: {'id': '1730980282906', 'type': 'pong'} - get_price_websocket
+12:00:00.002 - DEBUG - Received data: {'id': '1730980302912', 'type': 'pong'} - get_price_websocket
+12:00:00.002 - DEBUG - Received data: {'id': '1730980322918', 'type': 'pong'} - get_price_websocket
+12:00:00.002 - DEBUG - Received data: {'id': '1730980342925', 'type': 'pong'} - get_price_websocket
+12:00:00.002 - DEBUG - Received data: {'id': '1730980362931', 'type': 'pong'} - get_price_websocket
+12:00:00.002 - DEBUG - Received data: {'id': '1730980382937', 'type': 'pong'} - get_price_websocket
+12:00:00.002 - DEBUG - Received data: {'id': '1730980402942', 'type': 'pong'} - get_price_websocket
+12:00:00.003 - DEBUG - Received data: {'id': '1730980422948', 'type': 'pong'} - get_price_websocket
+12:00:00.003 - DEBUG - Received data: {'id': '1730980442954', 'type': 'pong'} - get_price_websocket
+12:00:00.003 - DEBUG - Received data: {'id': '1730980462956', 'type': 'pong'} - get_price_websocket
+12:00:00.003 - DEBUG - Received data: {'id': '1730980482957', 'type': 'pong'} - get_price_websocket
+12:00:00.003 - DEBUG - Received data: {'id': '1730980502962', 'type': 'pong'} - get_price_websocket
+12:00:00.003 - DEBUG - Received data: {'id': '1730980522964', 'type': 'pong'} - get_price_websocket
+12:00:00.003 - DEBUG - Received data: {'id': '1730980542969', 'type': 'pong'} - get_price_websocket
+12:00:00.003 - DEBUG - Received data: {'id': '1730980562976', 'type': 'pong'} - get_price_websocket
+12:00:00.003 - DEBUG - Received data: {'id': '1730980582978', 'type': 'pong'} - get_price_websocket
+12:00:00.003 - DEBUG - Received data: {'id': '1730980602983', 'type': 'pong'} - get_price_websocket
+12:00:00.003 - DEBUG - Received data: {'id': '1730980622988', 'type': 'pong'} - get_price_websocket
+12:00:00.003 - DEBUG - Received data: {'id': '1730980642993', 'type': 'pong'} - get_price_websocket
+12:00:00.003 - DEBUG - Received data: {'id': '1730980662997', 'type': 'pong'} - get_price_websocket
+12:00:00.003 - DEBUG - Received data: {'id': '1730980683002', 'type': 'pong'} - get_price_websocket
+12:00:00.003 - DEBUG - Received data: {'id': '1730980703008', 'type': 'pong'} - get_price_websocket
+12:00:00.003 - DEBUG - Received data: {'id': '1730980723014', 'type': 'pong'} - get_price_websocket
+12:00:00.003 - DEBUG - Received data: {'id': '1730980743016', 'type': 'pong'} - get_price_websocket
+12:00:00.003 - DEBUG - Received data: {'id': '1730980763022', 'type': 'pong'} - get_price_websocket
+12:00:00.003 - DEBUG - Received data: {'id': '1730980783023', 'type': 'pong'} - get_price_websocket
+12:00:00.710 - DEBUG - Received data: {'topic': '/market/ticker:GODL-USDT', 'type': 'message', 'subject': 'trade.ticker', 'data': {'bestAsk': '0.0309', 'bestAskSize': '8588', 'bestBid': '0.03', 'bestBidSize': '85903', 'price': '0.0309', 'sequence': '240', 'size': '129', 'time': 1730980800554}} - get_price_websocket
+12:00:00.710 - INFO - Price found via WebSocket: 0.0309 at  - get_price_websocket
+12:00:00.710 - INFO - Buying price: 0.04326 at 12:00:00.710 - place_buy_limit_order
+12:00:00.920 - INFO - Buy order executed at: 12:00:00.920: {'success': True, 'order_id': '672cabc0355a36000711c0ac', 'client_oid': '00061fb6-9e94-42ef-8a7c-c55012b1033f', 'execution_time': 0.2096058629686013, 'response': {'code': '200000', 'data': {'orderId': '672cabc0355a36000711c0ac', 'clientOid': '00061fb6-9e94-42ef-8a7c-c55012b1033f'}}} - place_buy_limit_order
+12:00:00.920 - INFO - Limit buy order price: 0.04326 - place_buy_limit_order
+12:00:01.069 - INFO - Sell order executed at 12:00:01.069: {'success': True, 'order_id': '672cabc0429d8b0007dfa910', 'client_oid': '4551b059-d340-44f3-acf5-3547618bc0e7', 'execution_time': 0.1481696720002219, 'response': {'code': '200000', 'data': {'orderId': '672cabc0429d8b0007dfa910', 'clientOid': '4551b059-d340-44f3-acf5-3547618bc0e7'}}} - place_sell_limit_order
+12:00:01.069 - INFO - Limit sell order price: 0.034608 - place_sell_limit_order
+12:00:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+12:00:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+12:15:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+12:30:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+12:45:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+13:00:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+13:15:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+13:30:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+13:45:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+14:00:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+14:15:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+14:30:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+14:45:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+15:00:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+15:15:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+15:30:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+15:45:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+16:00:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+16:15:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+16:30:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+16:45:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+17:00:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+17:15:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+17:30:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+17:45:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+18:00:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+18:15:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+18:30:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+18:45:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+19:00:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+19:15:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+19:30:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+19:45:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+20:00:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+20:15:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+20:30:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+20:45:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+21:00:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+21:15:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+21:30:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+21:45:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+22:00:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+22:15:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+22:30:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+22:45:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+23:00:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+23:15:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+23:30:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+23:45:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+00:00:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+00:15:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+00:30:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+00:45:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+01:00:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+01:15:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+01:30:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+01:45:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+02:00:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+02:15:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+02:30:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+02:45:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+03:00:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+03:15:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+03:30:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+03:45:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+04:00:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+04:15:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+04:30:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+04:45:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+05:00:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+05:15:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+05:30:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+05:45:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+06:00:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+06:15:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+06:30:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+06:45:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+07:00:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+07:15:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+07:30:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+07:45:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+08:00:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+08:15:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+08:30:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+08:45:02 loop finished sleeping 1 seconds before exit
+branch update No. 5

@@ -35,12 +35,18 @@ async def main():
     # API endpoint
     base_url = 'https://api.bitget.com'
 
+
+############ for testing
     release_time = datetime.now() + timedelta(seconds=4)  # Example release time
 
     logger.info(f'Release time: {release_time}')
     async with aiohttp.ClientSession() as session:
         while datetime.now() < release_time:
             await asyncio.sleep(0.00001)
+
+
+############ for testing
+
 
         logger.info('Placing order...')
         order_response = await place_limit_order_session(session, base_url, api_key, secret_key, passphrase, symbol, side, price, quantity)

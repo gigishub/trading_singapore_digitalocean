@@ -9,5 +9,5 @@ tradingvenv/
 secret_config.py
 
 # ignore api key files
-kucoin_dir/config_api.json
 bitget/api_creds.json
+kucoin_dir/config_api.json

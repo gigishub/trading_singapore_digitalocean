@@ -67,3 +67,26 @@ DEBUG - Extracted pair: CROSUSDT - get_info_from_page
 DEBUG - finished extracting info for CROSUSDT - main
 DEBUG - CROSUSDT has been updated. - save_and_updae_data_to_file
 DEBUG - ------------------------------------ - main
+ERROR - main function error: Page.goto: Timeout 30000ms exceeded.
+Call log:
+navigating to "https://www.bitget.com/support/sections/5955813039257", waiting until "load"
+ - main
+Traceback (most recent call last):
+  File "/root/trading_systems/bitget/bitget_listing_playwright.py", line 24, in main
+    page.goto("https://www.bitget.com/support/sections/5955813039257")
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/sync_api/_generated.py", line 9002, in goto
+    self._sync(
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_page.py", line 553, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_frame.py", line 145, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.goto: Timeout 30000ms exceeded.
+Call log:
+navigating to "https://www.bitget.com/support/sections/5955813039257", waiting until "load"
+

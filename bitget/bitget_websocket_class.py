@@ -9,11 +9,12 @@ from datetime import timedelta
 import traceback
 
 logging.basicConfig(
-    level=logging.INFO,
+    level=logging.DEBUG,
     format='%(asctime)s.%(msecs)03d - %(levelname)s - %(message)s - %(funcName)s',
     datefmt='%H:%M:%S'
 )
 logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG) 
 
 class BitgetWebSocketScraper:
     def __init__(self):
@@ -84,6 +85,7 @@ class BitgetWebSocketScraper:
             while True:
                 # Just send ping without waiting for pong
                 ping_data = orjson.dumps({"op": "ping"}).decode('utf-8')
+                ping_string = "ping"
                 await ws.send_str(ping_data)
                 await asyncio.sleep(20)
         except Exception as e:
@@ -134,39 +136,54 @@ class BitgetWebSocketScraper:
             await asyncio.sleep(0.0001)
 
         try:
-            async for msg in self.ws_connection:
-                if datetime.now() > end_time:
-                    logger.info("Reached max wait time")
+            whileloopcount = 0
+            while datetime.now() < end_time:
+                whileloopcount += 1
+                if whileloopcount > 20:
+                    logger.info("While loop count exceeded")
                     break
-                
-                if msg.type == aiohttp.WSMsgType.TEXT:
-                    data = orjson.loads(msg.data)
-                    
-                    # Extract price from the message
-                    if 'data' in data:
-                        try:
-                            price_data = data['data'][0]
-                            if 'last' in price_data:
-                                price = float(price_data['last'])
-                                if price > 0:
-                                    logger.info(
-                                        f"Price found via WebSocket: {price} at "
-                                        f"{datetime.now().strftime('%H:%M:%S.%f')[:-3]}"
-                                    )
-                                    self.final_price = price
-                                    self.price_found.set()
-                                    return price
-                        except (KeyError, ValueError, IndexError) as e:
-                            logger.debug(f"Failed to parse price: {str(e)}")
-                            continue
+                logger.debug(f'while loop count: {whileloopcount}')
+                logger.debug('starting async for loop')
 
-                await asyncio.sleep(0.0001)
-            
+                async for msg in self.ws_connection:
+                    if datetime.now() > end_time:
+                        logger.info("Reached max wait time")
+                        break
+
+                    if msg.type == aiohttp.WSMsgType.TEXT:
+                        data = orjson.loads(msg.data)
+                        try:
+                            logger.debug(f'message orjson data: {str(data)}')
+                        except Exception as e:
+                            logger.error(f"debug message data error: {str(e)}")
+
+                        # Extract price from the message
+                        try:
+                            if 'data' in data:
+                                price_data = data['data'][0]
+                                if 'last' in price_data:
+                                    price = float(price_data['last'])
+                                    if price > 0 and price:
+                                        logger.info(f"Price found via WebSocket: {price} ")
+                                        self.final_price = price
+                                        self.price_found.set()
+                                        return price
+                                    elif price == 0:
+                                        logger.info(f"Price is zero")
+                                        logger.debug(f"bestbid prcie: {price_data['bestBid']}, bestask price: {price_data['bestAsk']}")
+                        
+                        except (KeyError, ValueError, IndexError) as e:
+                            logger.error(f"Failed to parse price: {str(e)}")
+
+
+                    await asyncio.sleep(0.0001)
+                logger.debug('async for loop ended')
+
+            logger.debug("No price found after all retry attempts")
         except Exception as e:
             logger.error(f"Error in retrieving price loop: {str(e)}")
             traceback.print_exc()
-
-        return None
+            
 
 
     async def get_current_price(self, symbol: str) -> Optional[float]:
@@ -195,7 +212,7 @@ class BitgetWebSocketScraper:
                                     )
                                     return price
                         except (KeyError, ValueError, IndexError) as e:
-                            logger.debug(f"Failed to parse price: {str(e)}")
+                            logger.error(f"Failed to parse price: {str(e)}")
                             continue
 
                 await asyncio.sleep(0.0001)
@@ -203,6 +220,82 @@ class BitgetWebSocketScraper:
         except Exception as e:
             logger.error(f"Error in retrieving price loop: {str(e)}")
             traceback.print_exc()
+
+
+    async def get_bid_ask_price_by_release_time(self, symbol: str, max_wait_time: int = 2, release_time: datetime = None) -> Optional[float]:
+        """
+        Get price through WebSocket connection
+        Args:
+            symbol: Trading pair symbol
+            max_wait_time: Maximum time to wait for price in seconds
+            release_time: DateTime object for when to start monitoring price
+        Returns:
+            Optional[float]: Price if found, None otherwise
+        """
+        logger.info('Release time and date: ' + release_time.strftime('%d-%m-%Y %H:%M:%S.%f')[:-3])
+        success = await self.initialize_websocket(symbol)
+        
+        if not success:
+            logger.error("Failed to initialize WebSocket")
+            return None
+
+        end_time = release_time + timedelta(seconds=max_wait_time)
+        await self.wait_until_listing(release_time)
+
+        while datetime.now() < release_time:
+            await asyncio.sleep(0.0001)
+
+        try:
+            whileloopcount = 0
+            while datetime.now() < end_time:
+                whileloopcount += 1
+                if whileloopcount > 20:
+                    logger.info("While loop count exceeded")
+                    break
+
+                logger.debug(f'while loop count: {whileloopcount}')
+                logger.debug('starting async for loop')
+
+                async for msg in self.ws_connection:
+                    if datetime.now() > end_time:
+                        logger.info("Reached max wait time")
+                        break
+
+                    if msg.type == aiohttp.WSMsgType.TEXT:
+                        data = orjson.loads(msg.data)
+                        try:
+                            logger.debug(f'message orjson data: {str(data)}')
+                        except Exception as e:
+                            logger.error(f"debug message data error: {str(e)}")
+
+                        # Extract price from the message
+                        try:
+                            if 'data' in data:
+                                price_data = data['data'][0]
+                                if 'bestBid' in price_data:
+                                    price_bestBid = float(price_data['bestBid'])
+                                    if price_bestBid > 0:
+                                        logger.info(f"bestbid price found: {price_bestBid} ")
+                                        self.final_price = price_bestBid
+                                        self.price_found.set()
+                                        return price_bestBid
+
+                        
+                        except (KeyError, ValueError, IndexError) as e:
+                            logger.error(f"Failed to parse price: {str(e)}")
+
+
+                    await asyncio.sleep(0.0001)
+                logger.debug('async for loop ended')
+
+            logger.debug("No price found after all retry attempts")
+        except Exception as e:
+            logger.error(f"Error in retrieving price loop: {str(e)}")
+            traceback.print_exc()
+            
+
+
+
 
     async def cleanup(self):
         """Clean up WebSocket resources and connections"""

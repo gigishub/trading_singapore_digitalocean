@@ -15,6 +15,7 @@ logging.basicConfig(
     datefmt='%H:%M:%S'
 )
 logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG) 
 
 class KucoinWebSocketScraper:
     def __init__(self):
@@ -175,9 +176,7 @@ class KucoinWebSocketScraper:
             logger.error("Failed to initialize WebSocket")
             return None
 
-        # Give a small delay to ensure connection is stable
-        await asyncio.sleep(0.1)
-        
+        # Wait until near the token listing time
         end_time = release_time + timedelta(seconds=max_wait_time)
         await self.wait_until_listing(release_time)
 
@@ -193,19 +192,17 @@ class KucoinWebSocketScraper:
                 
                 if msg.type == aiohttp.WSMsgType.TEXT:
                     data = orjson.loads(msg.data)
+                    logger.debug(f"Received data: {data}")
                     if data.get('type') == 'message' and 'data' in data:
                         try:
                             price = float(data['data']['price'])
                             if price > 0:
-                                logger.info(
-                                    f"Price found via WebSocket: {price} at "
-                                    f"{datetime.now().strftime('%H:%M:%S.%f')[:-3]}"
-                                )
+                                logger.info(f"Price found via WebSocket: {price} at ")
                                 self.final_price = price
                                 self.price_found.set()
                                 return price
                         except (KeyError, ValueError) as e:
-                            logger.debug(f"Failed to parse price: {e}")
+                            logger.error(f"Failed to parse price: {e}")
                             continue
 
         except Exception as e:
@@ -230,26 +227,26 @@ class KucoinWebSocketScraper:
             await self.ws_session.close()
 
 
-# async def main():
-#     from datetime import timedelta
+async def main():
+    from datetime import timedelta
 
-#     symbol = "BTC"  # Example symbol
-#     scraper = KucoinWebSocketScraper()
-#     release_time = datetime(2024, 11, 4, 8, 58, 0)  # Example fixed datetime
-#     #release_time = datetime.now() + timedelta(seconds=10)  # Example release time
+    symbol = "BTC"  # Example symbol
+    scraper = KucoinWebSocketScraper()
+    release_time = datetime(2024, 11, 4, 8, 58, 0)  # Example fixed datetime
+    release_time = datetime.now() + timedelta(seconds=10)  # Example release time
 
-#     try:
-#         price = await scraper.get_price_websocket(symbol, max_wait_time=2, release_time=release_time)
-#         if price:
-#             print(f"Successfully retrieved {symbol} price: {price}")
-#         else:
-#             print("No price found after all retry attempts")
-#     finally:
-#         await scraper.cleanup()
+    try:
+        price = await scraper.get_price_websocket(symbol, max_wait_time=2, release_time=release_time)
+        if price:
+            print(f"Successfully retrieved {symbol} price: {price}")
+        else:
+            print("No price found after all retry attempts")
+    finally:
+        await scraper.cleanup()
 
 
-# if __name__ == "__main__":
-#     asyncio.run(main())
+if __name__ == "__main__":
+    asyncio.run(main())
 
 
 
