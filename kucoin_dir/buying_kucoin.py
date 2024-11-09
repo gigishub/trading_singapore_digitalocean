@@ -11,6 +11,7 @@ import logging
 from Kucoin_websocket_speed_update import KucoinWebSocketScraper
 from hf_kucoin_order import KucoinHFTrading
 import sys
+import fcntl  # Import fcntl for file locking
 
 logging.basicConfig(
     level=logging.INFO,
@@ -23,128 +24,142 @@ logger.setLevel(logging.INFO)  # Explicitly set logger level
 LOCK_FILE = '/tmp/buying_kucoin.lock'
 
 def main():
-    # if is_running():
-    #     logger.info("Script is running. Exiting.")
-    #     sys.exit(0)
+    lock_file = acquire_lock()
+    try:
+        directory = '/root/trading_systems/kucoin_dir/new_pair_data_kucoin'
+        percent_of_price_buy = 0.4 # setting limit order to buy n% above the retrived price
+        percent_of_price_sell = 0.8 # setting limit order to sell n% above the ACTUAL buy price NOT the retrived price
+        max_wait_time_for_execution = 0.5 # time to wait for price if passed no order execution but continues to retrive price
+        # Loop through announced pairs 
+        for filename in os.listdir(directory):
+            if filename.endswith(".json"):
+                with open(os.path.join(directory, filename)) as f:
+                    new_pair_dict = json.load(f)
 
-    # create_lock()
-
-    #try:
-
-    directory = '/root/trading_systems/kucoin_dir/new_pair_data_kucoin'
-    percent_of_price_buy = 1.4 # setting limit order to buy n% above the retrived price
-    percent_of_price_sell = 0.8 # setting limit order to sell n% above the ACTUAL buy price NOT the retrived price
-    max_wait_time_for_execution = 1 # time to wait for price if passed no order execution but continues to retrive price
-    # Loop through announced pairs 
-    for filename in os.listdir(directory):
-        if filename.endswith(".json"):
-            with open(os.path.join(directory, filename)) as f:
-                new_pair_dict = json.load(f)
-
-        try:
-            #create URL to scrape price data
-            basecoin = new_pair_dict['pair'].split('USDT')[0]
-
-            # get the time remaining to listing in secodns 
-            # !!!can be combined to just input dicted and output remaining seconds!!!
-            date_time_dict = parse_date_time_string(new_pair_dict['date_time_string'])
-            #datetime_to_listing_seconds = time_until_listing_seconds(date_time_dict)
-            release_date_time_str  = date_time_dict['formatted_string'] 
-            release_date_time = datetime.strptime(release_date_time_str, '%Y-%m-%d %H:%M:%S') 
-            datetime_to_listing_seconds = (release_date_time - datetime.now()).total_seconds()
-
-        except Exception as e:
-            print(f"Error when parsing date time string:\n {e}")
-            traceback.print_exc()
-            continue
-
-
-        # Check if listing is close to start
-        if 0 < datetime_to_listing_seconds < 1200 :
             try:
-                if datetime.now() > release_date_time:
-                    logger.info('release time has passed')
-                    break
-            except Exception as e:
-                logger.error(f"checking release time:\n {e}")
+                #create URL to scrape price data
+                basecoin = new_pair_dict['pair'].split('USDT')[0]
 
-            logger.info(f'detected new pair {new_pair_dict["pair"]} at {new_pair_dict["date_time_string"]}')
-                
-            try:
-                with open('/root/trading_systems/kucoin_dir/config_api.json') as config_file:
-                    config = json.load(config_file)
-
-                client = KucoinHFTrading(
-                    api_key=config['api_key'],
-                    api_secret=config['api_secret'],
-                    api_passphrase=config['api_passphrase'],
-                    debug=False  # Set to False for production
-        )
-                #logger.info(f'client initialized')
+                # get the time remaining to listing in secodns 
+                # !!!can be combined to just input dicted and output remaining seconds!!!
+                date_time_dict = parse_date_time_string(new_pair_dict['date_time_string'])
+                #datetime_to_listing_seconds = time_until_listing_seconds(date_time_dict)
+                release_date_time_str  = date_time_dict['formatted_string'] 
+                release_date_time = datetime.strptime(release_date_time_str, '%Y-%m-%d %H:%M:%S') 
+                datetime_to_listing_seconds = (release_date_time - datetime.now()).total_seconds()
 
             except Exception as e:
-                logger.error(f"when initialising KuCoin HF trading Class:\n {e}")
+                print(f"Error when parsing date time string:\n {e}")
+                traceback.print_exc()
+                continue
 
-        # Example usage
-            async def scraper(client               = client,
-                            basecoin               = basecoin,
-                            percent_of_price_buy   = percent_of_price_buy, 
-                            percent_of_price_sell  = percent_of_price_sell):
 
-                symbol = basecoin
-                scraper = KucoinWebSocketScraper()
+            # Check if listing is close to start
+            if 0 < datetime_to_listing_seconds < 1200 :
                 try:
-                    websocket_release_price = await scraper.get_price_websocket(symbol, max_wait_time=2,release_time=release_date_time)
+                    if datetime.now() > release_date_time:
+                        logger.info('release time has passed')
+                        break
+                except Exception as e:
+                    logger.error(f"checking release time:\n {e}")
+
+                logger.info(f'detected new pair {new_pair_dict["pair"]} at {new_pair_dict["date_time_string"]}')
                     
+                try:
+                    with open('/root/trading_systems/kucoin_dir/config_api.json') as config_file:
+                        config = json.load(config_file)
+
+                    client = KucoinHFTrading(
+                        api_key=config['api_key'],
+                        api_secret=config['api_secret'],
+                        api_passphrase=config['api_passphrase'],
+                        debug=False  # Set to False for production
+            )
+                    #logger.info(f'client initialized')
+
+                except Exception as e:
+                    logger.error(f"when initialising KuCoin HF trading Class:\n {e}")
+
+            # Example usage
+                async def scraper(client               = client,
+                                basecoin               = basecoin,
+                                percent_of_price_buy   = percent_of_price_buy, 
+                                percent_of_price_sell  = percent_of_price_sell):
+
+                    symbol = basecoin
+                    scraper = KucoinWebSocketScraper()
+                    try:
+                        websocket_release_price = await scraper.get_price_websocket(symbol, max_wait_time=2,release_time=release_date_time)
+                        
+                        
+                        if websocket_release_price and datetime.now() < release_date_time + timedelta(seconds= max_wait_time_for_execution):
+                            #buying execution 
+                            try:
+                                size, decimal_to_round = order_size_and_rounding(websocket_release_price)
+                                response_buy_order = await place_buy_limit_order(websocket_release_price, decimal_to_round, size, client, basecoin, percent_of_price_buy)
+                                logger.debug(f'Buy order response: {response_buy_order[0]}')
+                                limit_order_buy_price = response_buy_order[1]
+                                logger.debug(f'Buy order price: {limit_order_buy_price}')
+                            except Exception as e:
+                                logger.error(f'Error in buying execution: {e}')
+
+                            try:
+                                # using limit order buy price as referce to sell
+                                response_sell_order = await place_sell_limit_order(limit_order_buy_price, size, client, basecoin, percent_of_price_sell)
+                                logger.debug(f'Sell order response: {response_sell_order}')
+                            except Exception as e:
+                                logger.error(f'Error in selling execution: {e}')
                     
-                    if websocket_release_price and datetime.now() < release_date_time + timedelta(seconds= max_wait_time_for_execution):
-                        #buying execution 
-                        try:
-                            size, decimal_to_round = order_size_and_rounding(websocket_release_price)
-                            response_buy_order = await place_buy_limit_order(websocket_release_price, decimal_to_round, size, client, basecoin, percent_of_price_buy)
-                            logger.debug(f'Buy order response: {response_buy_order[0]}')
-                            limit_order_buy_price = response_buy_order[1]
-                            logger.debug(f'Buy order price: {limit_order_buy_price}')
-                        except Exception as e:
-                            logger.error(f'Error in buying execution: {e}')
+                        else:
+                            logger.info(f'Price retrived to slow /price: {websocket_release_price}')
 
-                        try:
-                            # using limit order buy price as referce to sell
-                            response_sell_order = await place_sell_limit_order(limit_order_buy_price, size, client, basecoin, percent_of_price_sell)
-                            logger.debug(f'Sell order response: {response_sell_order}')
-                        except Exception as e:
-                            logger.error(f'Error in selling execution: {e}')
-                
-                    else:
-                        logger.warning('Price not found or timed out')
-                
-                finally:
-                    await scraper.cleanup()
+                    
+                    finally:
+                        await scraper.cleanup()
 
-            # Run the asynchronous scraper
-            asyncio.run(scraper())
+                # Run the asynchronous scraper
+                asyncio.run(scraper())
 
-    print(f'{datetime.now().strftime("%H:%M:%S")} loop finished sleeping 1 seconds before exit')
-    print('branch update No. 5')
-    time.sleep(1)
+                # if loop has detected pair break and wait fornext cronjob
+                logger.debug('break for after detecting pair loop')
+                break
+
+        print(f'{datetime.now().strftime("%H:%M:%S")} loop finished sleeping 1 seconds before exit')
+        print('branch update No. 5')
+        time.sleep(1)
 
     
-    # finally:
-    #     remove_lock()  
+    finally:
+         release_lock(lock_file)  
 
-def is_running():
-    """Check if the script is already running by checking the lock file."""
-    return os.path.exists(LOCK_FILE)
-
-def create_lock():
-    """Create a lock file to indicate the script is running."""
-    with open(LOCK_FILE, 'w') as lock_file:
+def acquire_lock():
+    """Acquire a file lock to prevent multiple instances from running."""
+    try:
+        lock_file = open(LOCK_FILE, 'w')
+        fcntl.flock(lock_file, fcntl.LOCK_EX | fcntl.LOCK_NB)
         lock_file.write(str(os.getpid()))
+        lock_file.flush()
+        logger.info("Lock acquired.")
+        return lock_file
+    
+    except BlockingIOError:
+        logger.warning("Another instance is running. Exiting.")
+        sys.exit(0)
+    except Exception as e:
+        logger.warning(f"Unexpected error acquiring lock: {e}")
+        sys.exit(1)
 
-def remove_lock():
-    """Remove the lock file to indicate the script has finished running."""
-    if os.path.exists(LOCK_FILE):
-        os.remove(LOCK_FILE)
+
+def release_lock(lock_file):
+    """Release the file lock."""
+    try:
+        fcntl.flock(lock_file, fcntl.LOCK_UN)
+        lock_file.close()
+        logger.info("Lock released.")
+    except Exception as e:
+        logger.error(f"Unexpected error releasing lock: {e}")
+
+
 
 
 async def place_buy_limit_order(token_price, decimal_to_round,size,client: KucoinHFTrading, basecoin: str,
