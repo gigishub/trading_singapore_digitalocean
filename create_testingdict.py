@@ -10,7 +10,7 @@ base_data = {
 }
 
 # Starting time
-start_time = datetime.strptime("Nov 6, 2024, 10:30AM", "%b %d, %Y, %I:%M%p")
+start_time = datetime.strptime("Nov 9, 2024, 7:00AM", "%b %d, %Y, %I:%M%p")
 # INITALIZE COUNTER
 minute_counter = 0
 
@@ -18,7 +18,7 @@ minute_counter = 0
 minute_increment = 15
 
 # Number of files to generate
-amount_of_files = 3
+amount_of_files = 9
 
 #directory_for_testing_files = "/root/trading_systems/bitget/new_pair_data_bitget"
 

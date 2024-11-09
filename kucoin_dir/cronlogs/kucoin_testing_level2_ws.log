@@ -1,0 +1,670 @@
+18:11:01.284 - INFO - Release time and date: 08-11-2024 18:11:11.284 - get_price_websocket_match_level3
+18:11:01.922 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+18:11:01.994 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+18:11:01.995 - INFO - 25 seconds left until token release - wait_until_listing
+18:11:11.284 - DEBUG - Received data: {'id': '1731089461922', 'type': 'pong'} - get_price_websocket_match_level3
+18:11:11.284 - DEBUG - Received data: {'topic': '/market/match:SWELL-USDT', 'type': 'message', 'subject': 'trade.l3match', 'data': {'makerOrderId': '672e543757d33600070a4ddd', 'price': '0.049119', 'sequence': '5152159496157185', 'side': 'buy', 'size': '11178', 'symbol': 'SWELL-USDT', 'takerOrderId': '672e5437cf1a870007553094', 'time': '1731089463745000000', 'tradeId': '5152159496157185', 'type': 'match'}} - get_price_websocket_match_level3
+18:11:11.284 - INFO - data from WebSocket: {'makerOrderId': '672e543757d33600070a4ddd', 'price': '0.049119', 'sequence': '5152159496157185', 'side': 'buy', 'size': '11178', 'symbol': 'SWELL-USDT', 'takerOrderId': '672e5437cf1a870007553094', 'time': '1731089463745000000', 'tradeId': '5152159496157185', 'type': 'match'}  - get_price_websocket_match_level3
+18:11:11.284 - DEBUG - Data from socket: {'makerOrderId': '672e543757d33600070a4ddd', 'price': '0.049119', 'sequence': '5152159496157185', 'side': 'buy', 'size': '11178', 'symbol': 'SWELL-USDT', 'takerOrderId': '672e5437cf1a870007553094', 'time': '1731089463745000000', 'tradeId': '5152159496157185', 'type': 'match'} - get_price_websocket_match_level3
+Successfully retrieved SWELL price: {'makerOrderId': '672e543757d33600070a4ddd', 'price': '0.049119', 'sequence': '5152159496157185', 'side': 'buy', 'size': '11178', 'symbol': 'SWELL-USDT', 'takerOrderId': '672e5437cf1a870007553094', 'time': '1731089463745000000', 'tradeId': '5152159496157185', 'type': 'match'}
+done
+18:12:01.629 - INFO - Release time and date: 08-11-2024 18:12:11.629 - get_price_websocket_level2
+18:12:02.074 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+18:12:02.146 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+18:12:02.147 - INFO - 25 seconds left until token release - wait_until_listing
+18:12:11.630 - DEBUG - Received data: {'id': '1731089522075', 'type': 'pong'} - get_price_websocket_level2
+18:12:11.631 - DEBUG - Received data: {'topic': '/market/level2:SWELL-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [], 'bids': [['0.049115', '1830', '12467575']]}, 'sequenceEnd': 12467575, 'sequenceStart': 12467575, 'symbol': 'SWELL-USDT', 'time': 1731089522110}} - get_price_websocket_level2
+18:12:11.631 - INFO - data from WebSocket: {'asks': [], 'bids': [['0.049115', '1830', '12467575']]}  - get_price_websocket_level2
+18:12:11.631 - DEBUG - Data from socket: {'asks': [], 'bids': [['0.049115', '1830', '12467575']]} - get_price_websocket_level2
+Successfully retrieved SWELL price: {'asks': [], 'bids': [['0.049115', '1830', '12467575']]}
+done
+18:13:01.998 - INFO - Release time and date: 08-11-2024 18:13:11.998 - get_price_websocket_level2
+18:13:02.414 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+18:13:02.485 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+18:13:02.486 - INFO - 25 seconds left until token release - wait_until_listing
+18:13:11.998 - DEBUG - Received data: {'id': '1731089582415', 'type': 'pong'} - get_price_websocket_level2
+18:13:11.998 - DEBUG - Received data: {'topic': '/market/level2:SWELL-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [], 'bids': [['0.009001', '258447', '12479014']]}, 'sequenceEnd': 12479014, 'sequenceStart': 12479014, 'symbol': 'SWELL-USDT', 'time': 1731089582464}} - get_price_websocket_level2
+18:13:11.998 - INFO - data from WebSocket: {'asks': [], 'bids': [['0.009001', '258447', '12479014']]}  - get_price_websocket_level2
+18:13:11.998 - DEBUG - Data from socket: {'asks': [], 'bids': [['0.009001', '258447', '12479014']]} - get_price_websocket_level2
+Successfully retrieved SWELL price: {'asks': [], 'bids': [['0.009001', '258447', '12479014']]}
+done
+18:14:01.353 - INFO - Release time and date: 08-11-2024 18:14:11.353 - get_price_websocket_level2
+18:14:01.793 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+18:14:01.865 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+18:14:01.865 - INFO - 25 seconds left until token release - wait_until_listing
+18:14:11.354 - DEBUG - Received data: {'id': '1731089641794', 'type': 'pong'} - get_price_websocket_level2
+18:14:11.354 - DEBUG - Received data: {'topic': '/market/level2:SWELL-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [], 'bids': [['0.009041', '110273', '12487876']]}, 'sequenceEnd': 12487876, 'sequenceStart': 12487876, 'symbol': 'SWELL-USDT', 'time': 1731089641845}} - get_price_websocket_level2
+18:14:11.354 - INFO - data from WebSocket: {'asks': [], 'bids': [['0.009041', '110273', '12487876']]}  - get_price_websocket_level2
+18:14:11.354 - DEBUG - Data from socket: {'asks': [], 'bids': [['0.009041', '110273', '12487876']]} - get_price_websocket_level2
+Successfully retrieved SWELL price: {'asks': [], 'bids': [['0.009041', '110273', '12487876']]}
+done
+18:15:01.698 - INFO - Release time and date: 08-11-2024 18:15:11.698 - get_price_websocket_level2
+18:15:02.368 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+18:15:02.441 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+18:15:02.441 - INFO - 25 seconds left until token release - wait_until_listing
+18:15:11.699 - DEBUG - Received data: {'id': '1731089702369', 'type': 'pong'} - get_price_websocket_level2
+18:15:11.699 - DEBUG - Received data: {'topic': '/market/level2:SWELL-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [], 'bids': [['0.048434', '2920', '12498900']]}, 'sequenceEnd': 12498900, 'sequenceStart': 12498900, 'symbol': 'SWELL-USDT', 'time': 1731089702405}} - get_price_websocket_level2
+18:15:11.699 - INFO - data from WebSocket: {'asks': [], 'bids': [['0.048434', '2920', '12498900']]}  - get_price_websocket_level2
+18:15:11.699 - DEBUG - Data from socket: {'asks': [], 'bids': [['0.048434', '2920', '12498900']]} - get_price_websocket_level2
+Successfully retrieved SWELL price: {'asks': [], 'bids': [['0.048434', '2920', '12498900']]}
+done
+18:16:02.083 - INFO - Release time and date: 08-11-2024 18:16:12.083 - get_price_websocket_level2
+18:16:02.535 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+18:16:02.607 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+18:16:02.608 - INFO - 25 seconds left until token release - wait_until_listing
+18:16:12.083 - DEBUG - Received data: {'id': '1731089762536', 'type': 'pong'} - get_price_websocket_level2
+18:16:12.083 - DEBUG - Received data: {'topic': '/market/level2:SWELL-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [['0.049816', '2048', '12509814']], 'bids': []}, 'sequenceEnd': 12509814, 'sequenceStart': 12509814, 'symbol': 'SWELL-USDT', 'time': 1731089762571}} - get_price_websocket_level2
+18:16:12.083 - INFO - data from WebSocket: {'asks': [['0.049816', '2048', '12509814']], 'bids': []}  - get_price_websocket_level2
+18:16:12.084 - DEBUG - Data from socket: {'asks': [['0.049816', '2048', '12509814']], 'bids': []} - get_price_websocket_level2
+Successfully retrieved SWELL price: {'asks': [['0.049816', '2048', '12509814']], 'bids': []}
+done
+18:17:01.421 - INFO - Release time and date: 08-11-2024 18:17:11.421 - get_price_websocket_level2
+18:17:02.066 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+18:17:02.138 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+18:17:02.138 - INFO - 25 seconds left until token release - wait_until_listing
+18:17:11.421 - DEBUG - Received data: {'id': '1731089822067', 'type': 'pong'} - get_price_websocket_level2
+18:17:11.422 - DEBUG - Received data: {'topic': '/market/level2:SWELL-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [], 'bids': [['0.048391', '0', '12520838']]}, 'sequenceEnd': 12520838, 'sequenceStart': 12520838, 'symbol': 'SWELL-USDT', 'time': 1731089822115}} - get_price_websocket_level2
+18:17:11.422 - INFO - data from WebSocket: {'asks': [], 'bids': [['0.048391', '0', '12520838']]}  - get_price_websocket_level2
+18:17:11.422 - DEBUG - Data from socket: {'asks': [], 'bids': [['0.048391', '0', '12520838']]} - get_price_websocket_level2
+Successfully retrieved SWELL price: {'asks': [], 'bids': [['0.048391', '0', '12520838']]}
+done
+18:18:01.982 - INFO - Release time and date: 08-11-2024 18:18:11.982 - get_price_websocket_level2
+18:18:02.411 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+18:18:02.482 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+18:18:02.482 - INFO - 25 seconds left until token release - wait_until_listing
+18:18:11.993 - DEBUG - Received data: {'id': '1731089882411', 'type': 'pong'} - get_price_websocket_level2
+18:18:11.995 - DEBUG - Received data: {'topic': '/market/level2:SWELL-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [], 'bids': [['0.049143', '0', '12530275']]}, 'sequenceEnd': 12530275, 'sequenceStart': 12530275, 'symbol': 'SWELL-USDT', 'time': 1731089882447}} - get_price_websocket_level2
+18:18:11.995 - INFO - data from WebSocket: {'asks': [], 'bids': [['0.049143', '0', '12530275']]}  - get_price_websocket_level2
+18:18:11.996 - DEBUG - Data from socket: {'asks': [], 'bids': [['0.049143', '0', '12530275']]} - get_price_websocket_level2
+Successfully retrieved SWELL price: {'asks': [], 'bids': [['0.049143', '0', '12530275']]}
+2024-11-08 18:18:12.099710done
+2024-11-08 18:19:02.172436 done
+2024-11-08 18:20:01.461307 done
+2024-11-08 18:21:01.758098 done
+2024-11-08 18:22:02.023845 done
+2024-11-08 18:23:01.292821 done
+2024-11-08 18:24:01.592571 done
+2024-11-08 18:25:01.907575 done
+2024-11-08 18:26:02.174578 done
+2024-11-08 18:27:01.589579 done
+2024-11-08 18:28:01.823055 done
+2024-11-08 18:29:02.082237 done
+2024-11-08 18:30:01.376933 done
+2024-11-08 18:31:01.836350 done
+2024-11-08 18:32:02.151346 done
+2024-11-08 18:33:01.453835 done
+2024-11-08 18:34:01.745281 done
+18:35:02.015 - INFO - Starting script - main
+18:35:02.016 - INFO - Release time and date: 08-11-2024 18:36:42.016 - get_price_websocket_level2
+18:35:02.440 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+18:35:02.512 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+18:35:02.513 - INFO - Waiting 99.50 seconds until token release time - wait_until_listing
+18:36:02.045 - INFO - ------------------------------
+Script is running. Exiting.
+------------------------------ - main
+18:36:17.565 - INFO - 25 seconds left until token release - wait_until_listing
+18:36:42.016 - DEBUG - Received data: {'id': '1731090902440', 'type': 'pong'} - get_price_websocket_level2
+18:36:42.016 - DEBUG - Received data: {'topic': '/market/level2:SWELL-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [], 'bids': [['0.049025', '1981', '12673833']]}, 'sequenceEnd': 12673833, 'sequenceStart': 12673833, 'symbol': 'SWELL-USDT', 'time': 1731090902476}} - get_price_websocket_level2
+18:36:42.016 - INFO - data from WebSocket: {'asks': [], 'bids': [['0.049025', '1981', '12673833']]}  - get_price_websocket_level2
+18:36:42.016 - DEBUG - Data from socket: {'asks': [], 'bids': [['0.049025', '1981', '12673833']]} - get_price_websocket_level2
+Successfully retrieved SWELL price: {'asks': [], 'bids': [['0.049025', '1981', '12673833']]}
+2024-11-08 18:36:42.282055 done
+18:37:01.508 - INFO - Starting script - main
+18:37:01.509 - INFO - Release time and date: 08-11-2024 18:38:41.509 - get_price_websocket_level2
+18:37:01.919 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+18:37:01.988 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+18:37:01.989 - INFO - Waiting 99.52 seconds until token release time - wait_until_listing
+18:38:01.577 - INFO - 
+------------------------------
+Script is running. Exiting.
+------------------------------ - main
+18:38:17.042 - INFO - 25 seconds left until token release - wait_until_listing
+18:38:41.509 - DEBUG - Received data: {'id': '1731091021920', 'type': 'pong'} - get_price_websocket_level2
+18:38:41.510 - DEBUG - Received data: {'topic': '/market/level2:SWELL-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [['0.050576', '36400', '12685827']], 'bids': []}, 'sequenceEnd': 12685827, 'sequenceStart': 12685827, 'symbol': 'SWELL-USDT', 'time': 1731091021953}} - get_price_websocket_level2
+18:38:41.510 - INFO - data from WebSocket: {'asks': [['0.050576', '36400', '12685827']], 'bids': []}  - get_price_websocket_level2
+18:38:41.510 - DEBUG - Data from socket: {'asks': [['0.050576', '36400', '12685827']], 'bids': []} - get_price_websocket_level2
+Successfully retrieved SWELL price: {'asks': [['0.050576', '36400', '12685827']], 'bids': []}
+2024-11-08 18:38:41.721141 script finished
+18:39:02.038 - INFO - Starting script - main
+18:39:02.038 - INFO - Release time and date: 08-11-2024 18:47:22.038 - get_price_websocket_level2
+18:39:02.454 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+18:39:02.525 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+18:39:02.525 - INFO - Waiting 499.51 seconds until token release time - wait_until_listing
+18:40:02.012 - INFO - 
+------------------------------
+Script is running. Exiting.
+------------------------------ - main
+18:41:01.280 - INFO - 
+------------------------------
+Script is running. Exiting.
+------------------------------ - main
+18:42:01.570 - INFO - 
+------------------------------
+Script is running. Exiting.
+------------------------------ - main
+18:43:01.853 - INFO - 
+------------------------------
+Script is running. Exiting.
+------------------------------ - main
+18:44:02.113 - INFO - 
+------------------------------
+Script is running. Exiting.
+------------------------------ - main
+18:45:01.467 - INFO - 
+------------------------------
+Script is running. Exiting.
+------------------------------ - main
+18:46:01.891 - INFO - Lock acquired. - acquire_lock
+18:46:01.891 - INFO - Starting script - main
+18:46:01.891 - INFO - Release time and date: 08-11-2024 18:54:21.891 - get_price_websocket_level2
+18:46:02.299 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+18:46:02.368 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+18:46:02.369 - INFO - Waiting 499.52 seconds until token release time - wait_until_listing
+18:46:57.911 - INFO - 25 seconds left until token release - wait_until_listing
+18:47:01.883 - ERROR - Another instance is running. Exiting. - acquire_lock
+18:47:22.040 - DEBUG - Received data: {'id': '1731091142455', 'type': 'pong'} - get_price_websocket_level2
+18:47:22.040 - DEBUG - Received data: {'topic': '/market/level2:SWELL-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [], 'bids': [['0.049373', '0', '12698296']]}, 'sequenceEnd': 12698296, 'sequenceStart': 12698296, 'symbol': 'SWELL-USDT', 'time': 1731091142487}} - get_price_websocket_level2
+18:47:22.040 - INFO - data from WebSocket: {'asks': [], 'bids': [['0.049373', '0', '12698296']]}  - get_price_websocket_level2
+18:47:22.040 - DEBUG - Data from socket: {'asks': [], 'bids': [['0.049373', '0', '12698296']]} - get_price_websocket_level2
+Successfully retrieved SWELL price: {'asks': [], 'bids': [['0.049373', '0', '12698296']]}
+2024-11-08 18:47:22.048933 script finished
+18:48:01.301 - INFO - Lock acquired. - acquire_lock
+18:48:01.301 - INFO - Starting script - main
+18:48:01.301 - INFO - Release time and date: 08-11-2024 18:56:21.301 - get_price_websocket_level2
+18:48:01.753 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+18:48:01.825 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+18:48:01.825 - INFO - Waiting 499.48 seconds until token release time - wait_until_listing
+18:49:01.296 - ERROR - Another instance is running. Exiting. - acquire_lock
+18:50:01.592 - ERROR - Another instance is running. Exiting. - acquire_lock
+18:51:01.909 - ERROR - Another instance is running. Exiting. - acquire_lock
+18:52:02.188 - WARNING - Another instance is running. Exiting. - acquire_lock
+18:53:01.476 - WARNING - Another instance is running. Exiting. - acquire_lock
+18:53:57.731 - INFO - 25 seconds left until token release - wait_until_listing
+18:54:01.800 - WARNING - Another instance is running. Exiting. - acquire_lock
+18:54:21.892 - DEBUG - Received data: {'id': '1731091562299', 'type': 'pong'} - get_price_websocket_level2
+18:54:21.893 - DEBUG - Received data: {'topic': '/market/level2:SWELL-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [], 'bids': [['0.041626', '9434', '12753798']]}, 'sequenceEnd': 12753798, 'sequenceStart': 12753798, 'symbol': 'SWELL-USDT', 'time': 1731091562366}} - get_price_websocket_level2
+18:54:21.893 - INFO - data from WebSocket: {'asks': [], 'bids': [['0.041626', '9434', '12753798']]}  - get_price_websocket_level2
+18:54:21.893 - DEBUG - Data from socket: {'asks': [], 'bids': [['0.041626', '9434', '12753798']]} - get_price_websocket_level2
+18:54:21.903 - INFO - Lock released. - release_lock
+Successfully retrieved SWELL price: {'asks': [], 'bids': [['0.041626', '9434', '12753798']]}
+2024-11-08 18:54:21.902992 script finished
+18:55:01.299 - WARNING - Another instance is running. Exiting. - acquire_lock
+18:55:57.189 - INFO - 25 seconds left until token release - wait_until_listing
+18:56:01.549 - WARNING - Another instance is running. Exiting. - acquire_lock
+18:56:21.301 - DEBUG - Received data: {'id': '1731091681753', 'type': 'pong'} - get_price_websocket_level2
+18:56:21.302 - DEBUG - Received data: {'topic': '/market/level2:SWELL-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [], 'bids': [['0.047553', '549', '12764862']]}, 'sequenceEnd': 12764862, 'sequenceStart': 12764862, 'symbol': 'SWELL-USDT', 'time': 1731091681795}} - get_price_websocket_level2
+18:56:21.302 - INFO - data from WebSocket: {'asks': [], 'bids': [['0.047553', '549', '12764862']]}  - get_price_websocket_level2
+18:56:21.302 - DEBUG - Data from socket: {'asks': [], 'bids': [['0.047553', '549', '12764862']]} - get_price_websocket_level2
+18:56:21.309 - INFO - Lock released. - release_lock
+Successfully retrieved SWELL price: {'asks': [], 'bids': [['0.047553', '549', '12764862']]}
+2024-11-08 18:56:21.308941 script finished
+18:57:01.631 - INFO - Lock acquired. - acquire_lock
+18:57:01.632 - INFO - Starting script - main
+18:57:01.641 - INFO - Lock released. - release_lock
+2024-11-08 18:57:01.641360 script finished
+18:58:01.910 - INFO - Lock acquired. - acquire_lock
+18:58:01.910 - INFO - Starting script - main
+18:58:01.917 - INFO - Lock released. - release_lock
+2024-11-08 18:58:01.917680 script finished
+18:59:02.181 - INFO - Lock acquired. - acquire_lock
+18:59:02.181 - INFO - Starting script - main
+18:59:02.187 - INFO - Lock released. - release_lock
+2024-11-08 18:59:02.187784 script finished
+19:00:01.768 - INFO - Lock acquired. - acquire_lock
+19:00:01.768 - INFO - Starting script - main
+19:00:01.785 - INFO - Lock released. - release_lock
+2024-11-08 19:00:01.785607 script finished
+19:01:01.975 - INFO - Lock acquired. - acquire_lock
+19:01:01.975 - INFO - Starting script - main
+19:01:01.982 - INFO - Lock released. - release_lock
+2024-11-08 19:01:01.982181 script finished
+19:02:01.226 - INFO - Lock acquired. - acquire_lock
+19:02:01.226 - INFO - Starting script - main
+19:02:01.231 - INFO - Lock released. - release_lock
+2024-11-08 19:02:01.231014 script finished
+19:03:01.500 - INFO - Lock acquired. - acquire_lock
+19:03:01.500 - INFO - Starting script - main
+19:03:01.506 - INFO - Lock released. - release_lock
+2024-11-08 19:03:01.506859 script finished
+19:04:01.779 - INFO - Lock acquired. - acquire_lock
+19:04:01.780 - INFO - Starting script - main
+19:04:01.785 - INFO - Detected new pair XRPUSDT at Nov 08, 2024, 7:08PM - main
+19:04:01.786 - INFO - Lock released. - release_lock
+2024-11-08 19:04:01.786618 script finished
+19:05:02.079 - INFO - Lock acquired. - acquire_lock
+19:05:02.079 - INFO - Starting script - main
+19:05:02.085 - INFO - Detected new pair XRPUSDT at Nov 08, 2024, 7:08PM - main
+19:05:02.085 - INFO - Lock released. - release_lock
+2024-11-08 19:05:02.085734 script finished
+19:06:01.340 - INFO - Lock acquired. - acquire_lock
+19:06:01.340 - INFO - Starting script - main
+19:06:01.345 - INFO - Detected new pair XRPUSDT at Nov 08, 2024, 7:08PM - main
+19:06:01.345 - INFO - Release time and date: 08-11-2024 19:08:00.000 - get_price_websocket_level2
+19:06:01.689 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+19:06:01.759 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+19:06:01.760 - INFO - Waiting 118.24 seconds until token release time - wait_until_listing
+19:07:01.324 - WARNING - Another instance is running. Exiting. - acquire_lock
+19:07:36.822 - INFO - 25 seconds left until token release - wait_until_listing
+19:08:00.001 - DEBUG - Received data: {'id': '1731092761689', 'type': 'pong'} - get_price_websocket_level2
+19:08:00.001 - DEBUG - Received data: {'topic': '/market/level2:XRP-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [['0.54998', '707.5314', '4702980911']], 'bids': []}, 'sequenceEnd': 4702980911, 'sequenceStart': 4702980911, 'symbol': 'XRP-USDT', 'time': 1731092761826}} - get_price_websocket_level2
+19:08:00.001 - INFO - data from WebSocket: {'asks': [['0.54998', '707.5314', '4702980911']], 'bids': []}  - get_price_websocket_level2
+19:08:00.001 - DEBUG - Data from socket: {'asks': [['0.54998', '707.5314', '4702980911']], 'bids': []} - get_price_websocket_level2
+19:08:00.001 - INFO - Successfully retrieved XRP price: {'asks': [['0.54998', '707.5314', '4702980911']], 'bids': []} - main
+19:08:00.149 - INFO - Lock released. - release_lock
+2024-11-08 19:08:00.149484 script finished
+19:08:00.380 - INFO - Lock acquired. - acquire_lock
+19:08:00.380 - INFO - Starting script - main
+19:08:00.385 - INFO - Lock released. - release_lock
+2024-11-08 19:08:00.385134 script finished
+19:09:01.641 - INFO - Lock acquired. - acquire_lock
+19:09:01.641 - INFO - Starting script - main
+19:09:01.647 - INFO - Lock released. - release_lock
+2024-11-08 19:09:01.647491 script finished
+19:10:01.953 - INFO - Lock acquired. - acquire_lock
+19:10:01.953 - INFO - Starting script - main
+19:10:01.961 - INFO - Lock released. - release_lock
+2024-11-08 19:10:01.961504 script finished
+19:11:01.225 - INFO - Lock acquired. - acquire_lock
+19:11:01.225 - INFO - Starting script - main
+19:11:01.230 - INFO - Lock released. - release_lock
+2024-11-08 19:11:01.230843 script finished
+19:12:01.465 - INFO - Lock acquired. - acquire_lock
+19:12:01.466 - INFO - Starting script - main
+19:12:01.472 - INFO - Lock released. - release_lock
+2024-11-08 19:12:01.472544 script finished
+19:13:01.713 - INFO - Lock acquired. - acquire_lock
+19:13:01.713 - INFO - Starting script - main
+19:13:01.719 - INFO - Lock released. - release_lock
+2024-11-08 19:13:01.719041 script finished
+19:14:01.972 - INFO - Lock acquired. - acquire_lock
+19:14:01.972 - INFO - Starting script - main
+19:14:01.977 - INFO - Lock released. - release_lock
+2024-11-08 19:14:01.977779 script finished
+19:15:01.346 - INFO - Lock acquired. - acquire_lock
+19:15:01.346 - INFO - Starting script - main
+19:15:01.354 - INFO - Lock released. - release_lock
+2024-11-08 19:15:01.354361 script finished
+19:16:01.700 - INFO - Lock acquired. - acquire_lock
+19:16:01.700 - INFO - Starting script - main
+19:16:01.705 - INFO - Lock released. - release_lock
+2024-11-08 19:16:01.705317 script finished
+19:17:01.946 - INFO - Lock acquired. - acquire_lock
+19:17:01.946 - INFO - Starting script - main
+19:17:01.953 - INFO - Lock released. - release_lock
+2024-11-08 19:17:01.953574 script finished
+19:18:01.255 - INFO - Lock acquired. - acquire_lock
+19:18:01.256 - INFO - Starting script - main
+19:18:01.262 - INFO - Lock released. - release_lock
+2024-11-08 19:18:01.261697 script finished
+19:19:01.961 - INFO - Lock acquired. - acquire_lock
+19:19:01.962 - INFO - Starting script - main
+19:19:01.969 - INFO - Lock released. - release_lock
+2024-11-08 19:19:01.969266 script finished
+19:20:01.571 - INFO - Lock acquired. - acquire_lock
+19:20:01.571 - INFO - Starting script - main
+19:20:01.581 - INFO - Lock released. - release_lock
+2024-11-08 19:20:01.580617 script finished
+19:21:02.214 - INFO - Lock acquired. - acquire_lock
+19:21:02.214 - INFO - Starting script - main
+19:21:02.221 - INFO - Lock released. - release_lock
+2024-11-08 19:21:02.221702 script finished
+19:22:01.476 - INFO - Lock acquired. - acquire_lock
+19:22:01.477 - INFO - Starting script - main
+19:22:01.483 - INFO - Lock released. - release_lock
+2024-11-08 19:22:01.483103 script finished
+19:23:01.732 - INFO - Lock acquired. - acquire_lock
+19:23:01.732 - INFO - Starting script - main
+19:23:01.738 - INFO - Lock released. - release_lock
+2024-11-08 19:23:01.738609 script finished
+19:24:02.066 - INFO - Lock acquired. - acquire_lock
+19:24:02.066 - INFO - Starting script - main
+19:24:02.071 - INFO - Lock released. - release_lock
+2024-11-08 19:24:02.071742 script finished
+19:25:01.361 - INFO - Lock acquired. - acquire_lock
+19:25:01.361 - INFO - Starting script - main
+19:25:01.367 - INFO - Lock released. - release_lock
+2024-11-08 19:25:01.367359 script finished
+19:26:01.630 - INFO - Lock acquired. - acquire_lock
+19:26:01.631 - INFO - Starting script - main
+19:26:01.636 - INFO - Lock released. - release_lock
+2024-11-08 19:26:01.636241 script finished
+19:27:01.972 - INFO - Lock acquired. - acquire_lock
+19:27:01.972 - INFO - Starting script - main
+19:27:01.980 - INFO - Lock released. - release_lock
+2024-11-08 19:27:01.980475 script finished
+19:28:01.502 - INFO - Lock acquired. - acquire_lock
+19:28:01.502 - INFO - Starting script - main
+19:28:01.508 - INFO - Lock released. - release_lock
+2024-11-08 19:28:01.508778 script finished
+19:29:01.753 - INFO - Lock acquired. - acquire_lock
+19:29:01.753 - INFO - Starting script - main
+19:29:01.762 - INFO - Lock released. - release_lock
+2024-11-08 19:29:01.762228 script finished
+19:30:02.118 - INFO - Lock acquired. - acquire_lock
+19:30:02.118 - INFO - Starting script - main
+19:30:02.124 - INFO - Lock released. - release_lock
+2024-11-08 19:30:02.124613 script finished
+19:31:02.127 - INFO - Lock acquired. - acquire_lock
+19:31:02.128 - INFO - Starting script - main
+19:31:02.133 - INFO - Lock released. - release_lock
+2024-11-08 19:31:02.133482 script finished
+19:32:01.398 - INFO - Lock acquired. - acquire_lock
+19:32:01.398 - INFO - Starting script - main
+19:32:01.404 - INFO - Lock released. - release_lock
+2024-11-08 19:32:01.403972 script finished
+19:33:01.440 - INFO - Lock acquired. - acquire_lock
+19:33:01.440 - INFO - Starting script - main
+19:33:01.446 - INFO - Lock released. - release_lock
+2024-11-08 19:33:01.446016 script finished
+19:34:01.756 - INFO - Lock acquired. - acquire_lock
+19:34:01.756 - INFO - Starting script - main
+19:34:01.761 - INFO - Lock released. - release_lock
+2024-11-08 19:34:01.761655 script finished
+19:42:02.049 - INFO - Lock acquired. - acquire_lock
+19:42:02.049 - INFO - Starting script - main
+19:42:02.065 - INFO - Detected new pair XRPUSDT at Nov 08, 2024, 8PM - main
+19:42:02.065 - INFO - Release time and date: 08-11-2024 20:00:00.000 - get_price_websocket_level2
+19:42:02.479 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+19:42:02.552 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+19:42:02.552 - INFO - Waiting 1077.45 seconds until token release time - wait_until_listing
+19:56:01.864 - WARNING - Another instance is running. Exiting. - acquire_lock
+19:59:38.382 - INFO - 25 seconds left until token release - wait_until_listing
+20:00:00.000 - DEBUG - Received data: {'id': '1731094922480', 'type': 'pong'} - get_price_websocket_level2
+20:00:00.000 - DEBUG - Received data: {'topic': '/market/level2:XRP-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [], 'bids': [['0.5508', '72.6218', '4703112650']]}, 'sequenceEnd': 4703112650, 'sequenceStart': 4703112650, 'symbol': 'XRP-USDT', 'time': 1731094922572}} - get_price_websocket_level2
+20:00:00.001 - INFO - data from WebSocket: {'asks': [], 'bids': [['0.5508', '72.6218', '4703112650']]}  - get_price_websocket_level2
+20:00:00.001 - DEBUG - Data from socket: {'asks': [], 'bids': [['0.5508', '72.6218', '4703112650']]} - get_price_websocket_level2
+20:00:00.001 - INFO - Successfully retrieved XRP price: {'asks': [], 'bids': [['0.5508', '72.6218', '4703112650']]} - main
+20:00:00.018 - INFO - Lock released. - release_lock
+2024-11-08 20:00:00.018455 script finished
+20:00:00.814 - INFO - Lock acquired. - acquire_lock
+20:00:00.828 - INFO - Starting script - main
+20:00:00.847 - INFO - Lock released. - release_lock
+2024-11-08 20:00:00.847775 script finished
+20:14:02.088 - INFO - Lock acquired. - acquire_lock
+20:14:02.089 - INFO - Starting script - main
+20:14:02.095 - INFO - Lock released. - release_lock
+2024-11-08 20:14:02.095190 script finished
+20:28:01.832 - INFO - Lock acquired. - acquire_lock
+20:28:01.832 - INFO - Starting script - main
+20:28:01.837 - INFO - Detected new pair XRPUSDT at Nov 08, 2024, 08:45PM - main
+20:28:01.837 - INFO - Release time and date: 08-11-2024 20:45:00.000 - get_price_websocket_level2
+20:28:02.177 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+20:28:02.249 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+20:28:02.250 - INFO - Waiting 1017.75 seconds until token release time - wait_until_listing
+20:42:02.172 - WARNING - Another instance is running. Exiting. - acquire_lock
+20:44:38.038 - INFO - 25 seconds left until token release - wait_until_listing
+20:45:00.000 - DEBUG - Received data: {'id': '1731097682178', 'type': 'pong'} - get_price_websocket_level2
+20:45:00.002 - DEBUG - Received data: {'topic': '/market/level2:XRP-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [], 'bids': [['0.54819', '0', '4703273278']]}, 'sequenceEnd': 4703273278, 'sequenceStart': 4703273278, 'symbol': 'XRP-USDT', 'time': 1731097682340}} - get_price_websocket_level2
+20:45:00.002 - INFO - data from WebSocket: {'asks': [], 'bids': [['0.54819', '0', '4703273278']]}  - get_price_websocket_level2
+20:45:00.002 - DEBUG - Data from socket: {'asks': [], 'bids': [['0.54819', '0', '4703273278']]} - get_price_websocket_level2
+20:45:00.002 - INFO - Successfully retrieved XRP price: {'asks': [], 'bids': [['0.54819', '0', '4703273278']]} - main
+20:45:00.012 - INFO - Lock released. - release_lock
+2024-11-08 20:45:00.012674 script finished
+20:56:01.445 - INFO - Lock acquired. - acquire_lock
+20:56:01.445 - INFO - Starting script - main
+20:56:01.454 - INFO - Detected new pair XRPUSDT at Nov 08, 2024, 09:00PM - main
+20:56:01.456 - INFO - Release time and date: 08-11-2024 21:00:00.000 - get_price_websocket_level2
+20:56:01.873 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+20:56:01.944 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+20:56:01.944 - INFO - Waiting 238.06 seconds until token release time - wait_until_listing
+20:59:37.080 - INFO - 25 seconds left until token release - wait_until_listing
+21:00:00.000 - DEBUG - Received data: {'id': '1731099361873', 'type': 'pong'} - get_price_websocket_level2
+21:00:00.001 - DEBUG - Received data: {'topic': '/market/level2:XRP-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [['0.54916', '0', '4703361976']], 'bids': []}, 'sequenceEnd': 4703361976, 'sequenceStart': 4703361976, 'symbol': 'XRP-USDT', 'time': 1731099361930}} - get_price_websocket_level2
+21:00:00.001 - INFO - data from WebSocket: {'asks': [['0.54916', '0', '4703361976']], 'bids': []}  - get_price_websocket_level2
+21:00:00.001 - DEBUG - Data from socket: {'asks': [['0.54916', '0', '4703361976']], 'bids': []} - get_price_websocket_level2
+21:00:00.001 - INFO - Successfully retrieved XRP price: {'asks': [['0.54916', '0', '4703361976']], 'bids': []} - main
+21:00:00.328 - INFO - Detected new pair XRPUSDT at Nov 08, 2024, 09:15PM - main
+21:00:00.329 - INFO - Release time and date: 08-11-2024 21:15:00.000 - get_price_websocket_level2
+21:00:00.727 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+21:00:00.798 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+21:00:00.798 - INFO - Waiting 899.20 seconds until token release time - wait_until_listing
+21:00:01.974 - WARNING - Another instance is running. Exiting. - acquire_lock
+21:14:01.714 - WARNING - Another instance is running. Exiting. - acquire_lock
+21:14:36.479 - INFO - 25 seconds left until token release - wait_until_listing
+21:15:00.001 - DEBUG - Received data: {'id': '1731099600728', 'type': 'pong'} - get_price_websocket_level2
+21:15:00.002 - DEBUG - Received data: {'topic': '/market/level2:XRP-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [], 'bids': [['0.54852', '1092.2993', '4703372993']]}, 'sequenceEnd': 4703372993, 'sequenceStart': 4703372993, 'symbol': 'XRP-USDT', 'time': 1731099600764}} - get_price_websocket_level2
+21:15:00.002 - INFO - data from WebSocket: {'asks': [], 'bids': [['0.54852', '1092.2993', '4703372993']]}  - get_price_websocket_level2
+21:15:00.003 - DEBUG - Data from socket: {'asks': [], 'bids': [['0.54852', '1092.2993', '4703372993']]} - get_price_websocket_level2
+21:15:00.003 - INFO - Successfully retrieved XRP price: {'asks': [], 'bids': [['0.54852', '1092.2993', '4703372993']]} - main
+21:15:00.015 - INFO - Lock released. - release_lock
+2024-11-08 21:15:00.014935 script finished
+21:28:02.290 - INFO - Lock acquired. - acquire_lock
+21:28:02.291 - INFO - Starting script - main
+21:28:02.297 - INFO - Detected new pair XRPUSDT at Nov 08, 2024, 09:45PM - main
+21:28:02.298 - INFO - Release time and date: 08-11-2024 21:45:00.000 - get_price_websocket_level2
+21:28:02.725 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+21:28:02.798 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+21:28:02.798 - INFO - Waiting 1017.20 seconds until token release time - wait_until_listing
+21:42:01.640 - WARNING - Another instance is running. Exiting. - acquire_lock
+21:44:38.548 - INFO - 25 seconds left until token release - wait_until_listing
+21:45:00.000 - DEBUG - Received data: {'id': '1731101282725', 'type': 'pong'} - get_price_websocket_level2
+21:45:00.000 - DEBUG - Received data: {'topic': '/market/level2:XRP-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [], 'bids': [['0.54594', '563.4203', '4703459814']]}, 'sequenceEnd': 4703459814, 'sequenceStart': 4703459814, 'symbol': 'XRP-USDT', 'time': 1731101282869}} - get_price_websocket_level2
+21:45:00.000 - INFO - data from WebSocket: {'asks': [], 'bids': [['0.54594', '563.4203', '4703459814']]}  - get_price_websocket_level2
+21:45:00.000 - DEBUG - Data from socket: {'asks': [], 'bids': [['0.54594', '563.4203', '4703459814']]} - get_price_websocket_level2
+21:45:00.000 - INFO - Successfully retrieved XRP price: {'asks': [], 'bids': [['0.54594', '563.4203', '4703459814']]} - main
+21:45:00.008 - INFO - Detected new pair XRPUSDT at Nov 08, 2024, 10:00PM - main
+21:45:00.008 - INFO - Release time and date: 08-11-2024 22:00:00.000 - get_price_websocket_level2
+21:45:00.422 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+21:45:00.494 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+21:45:00.494 - INFO - Waiting 899.51 seconds until token release time - wait_until_listing
+21:56:02.216 - WARNING - Another instance is running. Exiting. - acquire_lock
+21:59:36.184 - INFO - 25 seconds left until token release - wait_until_listing
+22:00:00.000 - DEBUG - Received data: {'id': '1731102300422', 'type': 'pong', 'timestamp': 1731102300467656} - get_price_websocket_level2
+22:00:00.000 - DEBUG - Received data: {'topic': '/market/level2:XRP-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [], 'bids': [['0.54726', '0', '4703505322']]}, 'sequenceEnd': 4703505322, 'sequenceStart': 4703505322, 'symbol': 'XRP-USDT', 'time': 1731102300794}} - get_price_websocket_level2
+22:00:00.000 - INFO - data from WebSocket: {'asks': [], 'bids': [['0.54726', '0', '4703505322']]}  - get_price_websocket_level2
+22:00:00.000 - DEBUG - Data from socket: {'asks': [], 'bids': [['0.54726', '0', '4703505322']]} - get_price_websocket_level2
+22:00:00.001 - INFO - Successfully retrieved XRP price: {'asks': [], 'bids': [['0.54726', '0', '4703505322']]} - main
+22:00:00.013 - INFO - Lock released. - release_lock
+2024-11-08 22:00:00.013040 script finished
+22:00:00.911 - INFO - Lock acquired. - acquire_lock
+22:00:00.912 - INFO - Starting script - main
+22:00:00.935 - INFO - Detected new pair XRPUSDT at Nov 08, 2024, 10:15PM - main
+22:00:00.935 - INFO - Release time and date: 08-11-2024 22:15:00.000 - get_price_websocket_level2
+22:00:01.298 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+22:00:01.370 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+22:00:01.370 - INFO - Waiting 898.63 seconds until token release time - wait_until_listing
+22:14:01.825 - WARNING - Another instance is running. Exiting. - acquire_lock
+22:14:37.069 - INFO - 25 seconds left until token release - wait_until_listing
+22:15:00.001 - DEBUG - Received data: {'id': '1731103201299', 'type': 'pong'} - get_price_websocket_level2
+22:15:00.001 - DEBUG - Received data: {'topic': '/market/level2:XRP-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [['0.55231', '1896.3713', '4703555137']], 'bids': []}, 'sequenceEnd': 4703555137, 'sequenceStart': 4703555137, 'symbol': 'XRP-USDT', 'time': 1731103201356}} - get_price_websocket_level2
+22:15:00.002 - INFO - data from WebSocket: {'asks': [['0.55231', '1896.3713', '4703555137']], 'bids': []}  - get_price_websocket_level2
+22:15:00.002 - DEBUG - Data from socket: {'asks': [['0.55231', '1896.3713', '4703555137']], 'bids': []} - get_price_websocket_level2
+22:15:00.002 - INFO - Successfully retrieved XRP price: {'asks': [['0.55231', '1896.3713', '4703555137']], 'bids': []} - main
+22:15:00.011 - INFO - Detected new pair XRPUSDT at Nov 08, 2024, 10:30PM - main
+22:15:00.012 - INFO - Release time and date: 08-11-2024 22:30:00.000 - get_price_websocket_level2
+22:15:00.568 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+22:15:00.640 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+22:15:00.640 - INFO - Waiting 899.36 seconds until token release time - wait_until_listing
+22:28:01.440 - WARNING - Another instance is running. Exiting. - acquire_lock
+22:29:36.297 - INFO - 25 seconds left until token release - wait_until_listing
+22:30:00.000 - DEBUG - Received data: {'id': '1731104100568', 'type': 'pong', 'timestamp': 1731104100617505} - get_price_websocket_level2
+22:30:00.000 - DEBUG - Received data: {'topic': '/market/level2:XRP-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [], 'bids': [['0.55026', '18.2897', '4703600384']]}, 'sequenceEnd': 4703600384, 'sequenceStart': 4703600384, 'symbol': 'XRP-USDT', 'time': 1731104100794}} - get_price_websocket_level2
+22:30:00.000 - INFO - data from WebSocket: {'asks': [], 'bids': [['0.55026', '18.2897', '4703600384']]}  - get_price_websocket_level2
+22:30:00.000 - DEBUG - Data from socket: {'asks': [], 'bids': [['0.55026', '18.2897', '4703600384']]} - get_price_websocket_level2
+22:30:00.000 - INFO - Successfully retrieved XRP price: {'asks': [], 'bids': [['0.55026', '18.2897', '4703600384']]} - main
+22:30:00.016 - INFO - Lock released. - release_lock
+2024-11-08 22:30:00.016212 script finished
+22:42:02.448 - INFO - Lock acquired. - acquire_lock
+22:42:02.449 - INFO - Starting script - main
+22:42:02.455 - INFO - Lock released. - release_lock
+2024-11-08 22:42:02.455020 script finished
+22:56:02.271 - INFO - Lock acquired. - acquire_lock
+22:56:02.277 - INFO - Starting script - main
+22:56:02.286 - INFO - Lock released. - release_lock
+2024-11-08 22:56:02.286655 script finished
+23:00:02.294 - INFO - Lock acquired. - acquire_lock
+23:00:02.295 - INFO - Starting script - main
+23:00:02.320 - INFO - Lock released. - release_lock
+2024-11-08 23:00:02.312245 script finished
+23:14:01.351 - INFO - Lock acquired. - acquire_lock
+23:14:01.351 - INFO - Starting script - main
+23:14:01.357 - INFO - Lock released. - release_lock
+2024-11-08 23:14:01.357607 script finished
+23:28:02.182 - INFO - Lock acquired. - acquire_lock
+23:28:02.182 - INFO - Starting script - main
+23:28:02.190 - INFO - Lock released. - release_lock
+2024-11-08 23:28:02.189840 script finished
+23:42:01.435 - INFO - Lock acquired. - acquire_lock
+23:42:01.435 - INFO - Starting script - main
+23:42:01.441 - INFO - Lock released. - release_lock
+2024-11-08 23:42:01.441297 script finished
+23:56:02.044 - INFO - Lock acquired. - acquire_lock
+23:56:02.044 - INFO - Starting script - main
+23:56:02.051 - INFO - Lock released. - release_lock
+2024-11-08 23:56:02.050940 script finished
+00:00:02.371 - INFO - Lock acquired. - acquire_lock
+00:00:02.371 - INFO - Starting script - main
+00:00:02.383 - INFO - Lock released. - release_lock
+2024-11-09 00:00:02.383205 script finished
+00:14:01.585 - INFO - Lock acquired. - acquire_lock
+00:14:01.586 - INFO - Starting script - main
+00:14:01.601 - INFO - Lock released. - release_lock
+2024-11-09 00:14:01.601601 script finished
+00:28:01.923 - INFO - Lock acquired. - acquire_lock
+00:28:01.924 - INFO - Starting script - main
+00:28:01.940 - INFO - Lock released. - release_lock
+2024-11-09 00:28:01.939825 script finished
+00:42:01.413 - INFO - Lock acquired. - acquire_lock
+00:42:01.413 - INFO - Starting script - main
+00:42:01.427 - INFO - Lock released. - release_lock
+2024-11-09 00:42:01.427687 script finished
+00:56:01.337 - INFO - Lock acquired. - acquire_lock
+00:56:01.337 - INFO - Starting script - main
+00:56:01.343 - INFO - Lock released. - release_lock
+2024-11-09 00:56:01.343431 script finished
+01:00:02.593 - INFO - Lock acquired. - acquire_lock
+01:00:02.596 - INFO - Starting script - main
+01:00:02.619 - INFO - Lock released. - release_lock
+2024-11-09 01:00:02.619690 script finished
+01:14:01.380 - INFO - Lock acquired. - acquire_lock
+01:14:01.380 - INFO - Starting script - main
+01:14:01.397 - INFO - Lock released. - release_lock
+2024-11-09 01:14:01.397003 script finished
+01:28:02.123 - INFO - Lock acquired. - acquire_lock
+01:28:02.124 - INFO - Starting script - main
+01:28:02.131 - INFO - Lock released. - release_lock
+2024-11-09 01:28:02.130854 script finished
+01:42:01.485 - INFO - Lock acquired. - acquire_lock
+01:42:01.485 - INFO - Starting script - main
+01:42:01.493 - INFO - Lock released. - release_lock
+2024-11-09 01:42:01.493441 script finished
+01:56:01.926 - INFO - Lock acquired. - acquire_lock
+01:56:01.926 - INFO - Starting script - main
+01:56:01.934 - INFO - Lock released. - release_lock
+2024-11-09 01:56:01.934328 script finished
+02:00:02.154 - INFO - Lock acquired. - acquire_lock
+02:00:02.154 - INFO - Starting script - main
+02:00:02.161 - INFO - Lock released. - release_lock
+2024-11-09 02:00:02.161286 script finished
+02:14:02.107 - INFO - Lock acquired. - acquire_lock
+02:14:02.108 - INFO - Starting script - main
+02:14:02.122 - INFO - Lock released. - release_lock
+2024-11-09 02:14:02.121855 script finished
+02:28:01.407 - INFO - Lock acquired. - acquire_lock
+02:28:01.407 - INFO - Starting script - main
+02:28:01.421 - INFO - Lock released. - release_lock
+2024-11-09 02:28:01.421212 script finished
+02:42:01.963 - INFO - Lock acquired. - acquire_lock
+02:42:01.963 - INFO - Starting script - main
+02:42:01.970 - INFO - Lock released. - release_lock
+2024-11-09 02:42:01.970034 script finished
+02:56:01.919 - INFO - Lock acquired. - acquire_lock
+02:56:01.919 - INFO - Starting script - main
+02:56:01.926 - INFO - Lock released. - release_lock
+2024-11-09 02:56:01.926759 script finished
+03:00:02.558 - INFO - Lock acquired. - acquire_lock
+03:00:02.558 - INFO - Starting script - main
+03:00:02.580 - INFO - Lock released. - release_lock
+2024-11-09 03:00:02.579893 script finished
+03:14:02.017 - INFO - Lock acquired. - acquire_lock
+03:14:02.017 - INFO - Starting script - main
+03:14:02.035 - INFO - Lock released. - release_lock
+2024-11-09 03:14:02.034677 script finished
+03:28:01.974 - INFO - Lock acquired. - acquire_lock
+03:28:01.974 - INFO - Starting script - main
+03:28:01.989 - INFO - Lock released. - release_lock
+2024-11-09 03:28:01.989783 script finished
+03:42:02.239 - INFO - Lock acquired. - acquire_lock
+03:42:02.240 - INFO - Starting script - main
+03:42:02.247 - INFO - Lock released. - release_lock
+2024-11-09 03:42:02.247366 script finished
+03:56:02.004 - INFO - Lock acquired. - acquire_lock
+03:56:02.004 - INFO - Starting script - main
+03:56:02.011 - INFO - Lock released. - release_lock
+2024-11-09 03:56:02.010967 script finished
+04:00:02.304 - INFO - Lock acquired. - acquire_lock
+04:00:02.304 - INFO - Starting script - main
+04:00:02.320 - INFO - Lock released. - release_lock
+2024-11-09 04:00:02.320505 script finished
+04:14:01.945 - INFO - Lock acquired. - acquire_lock
+04:14:01.945 - INFO - Starting script - main
+04:14:01.957 - INFO - Lock released. - release_lock
+2024-11-09 04:14:01.957149 script finished
+04:28:01.729 - INFO - Lock acquired. - acquire_lock
+04:28:01.729 - INFO - Starting script - main
+04:28:01.736 - INFO - Lock released. - release_lock
+2024-11-09 04:28:01.736407 script finished
+04:42:02.046 - INFO - Lock acquired. - acquire_lock
+04:42:02.046 - INFO - Starting script - main
+04:42:02.062 - INFO - Lock released. - release_lock
+2024-11-09 04:42:02.062771 script finished
+04:56:01.757 - INFO - Lock acquired. - acquire_lock
+04:56:01.757 - INFO - Starting script - main
+04:56:01.766 - INFO - Lock released. - release_lock
+2024-11-09 04:56:01.766312 script finished
+05:00:01.971 - INFO - Lock acquired. - acquire_lock
+05:00:01.971 - INFO - Starting script - main
+05:00:01.999 - INFO - Lock released. - release_lock
+2024-11-09 05:00:01.998958 script finished
+05:14:01.486 - INFO - Lock acquired. - acquire_lock
+05:14:01.487 - INFO - Starting script - main
+05:14:01.503 - INFO - Lock released. - release_lock
+2024-11-09 05:14:01.502976 script finished
+05:28:02.147 - INFO - Lock acquired. - acquire_lock
+05:28:02.147 - INFO - Starting script - main
+05:28:02.162 - INFO - Lock released. - release_lock
+2024-11-09 05:28:02.162134 script finished
+05:42:01.858 - INFO - Lock acquired. - acquire_lock
+05:42:01.858 - INFO - Starting script - main
+05:42:01.866 - INFO - Lock released. - release_lock
+2024-11-09 05:42:01.866209 script finished
+05:56:02.204 - INFO - Lock acquired. - acquire_lock
+05:56:02.204 - INFO - Starting script - main
+05:56:02.211 - INFO - Lock released. - release_lock
+2024-11-09 05:56:02.210887 script finished
+06:00:02.210 - INFO - Lock acquired. - acquire_lock
+06:00:02.210 - INFO - Starting script - main
+06:00:02.227 - INFO - Lock released. - release_lock
+2024-11-09 06:00:02.226866 script finished
+06:14:02.113 - INFO - Lock acquired. - acquire_lock
+06:14:02.113 - INFO - Starting script - main
+06:14:02.128 - INFO - Lock released. - release_lock
+2024-11-09 06:14:02.120266 script finished
+06:28:01.879 - INFO - Lock acquired. - acquire_lock
+06:28:01.879 - INFO - Starting script - main
+06:28:01.886 - INFO - Lock released. - release_lock
+2024-11-09 06:28:01.886305 script finished
+06:42:01.392 - INFO - Lock acquired. - acquire_lock
+06:42:01.392 - INFO - Starting script - main
+06:42:01.399 - INFO - Detected new pair XRPUSDT at Nov 09, 2024, 7AM - main
+06:42:01.399 - INFO - Release time and date: 09-11-2024 07:00:00.000 - get_price_websocket_level2
+06:42:01.818 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+06:42:01.887 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+06:42:01.888 - INFO - Waiting 1078.11 seconds until token release time - wait_until_listing
+06:56:01.713 - WARNING - Another instance is running. Exiting. - acquire_lock
+06:59:37.663 - INFO - 25 seconds left until token release - wait_until_listing
+07:00:00.001 - DEBUG - Received data: {'id': '1731134521818', 'type': 'pong'} - get_price_websocket_level2
+07:00:00.001 - DEBUG - Received data: {'topic': '/market/level2:XRP-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [['0.55476', '1090.6182', '4705038407']], 'bids': []}, 'sequenceEnd': 4705038407, 'sequenceStart': 4705038407, 'symbol': 'XRP-USDT', 'time': 1731134521877}} - get_price_websocket_level2
+07:00:00.001 - INFO - data from WebSocket: {'asks': [['0.55476', '1090.6182', '4705038407']], 'bids': []}  - get_price_websocket_level2
+07:00:00.001 - DEBUG - Data from socket: {'asks': [['0.55476', '1090.6182', '4705038407']], 'bids': []} - get_price_websocket_level2
+07:00:00.001 - INFO - Successfully retrieved XRP price: {'asks': [['0.55476', '1090.6182', '4705038407']], 'bids': []} - main
+07:00:00.012 - DEBUG - break for after detecting pair loop - main
+07:00:00.012 - INFO - Lock released. - release_lock
+2024-11-09 07:00:00.012765 script finished
+07:00:00.856 - INFO - Lock acquired. - acquire_lock
+07:00:00.867 - INFO - Starting script - main
+07:00:00.877 - INFO - Detected new pair XRPUSDT at Nov 09, 2024, 07:15AM - main
+07:00:00.881 - INFO - Release time and date: 09-11-2024 07:15:00.000 - get_price_websocket_level2
+07:00:01.336 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+07:00:01.417 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+07:00:01.418 - INFO - Waiting 898.58 seconds until token release time - wait_until_listing
