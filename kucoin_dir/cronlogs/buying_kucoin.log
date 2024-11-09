@@ -2064,3 +2064,177 @@ branch update No. 5
 07:00:00 loop finished sleeping 1 seconds before exit
 >>>>>>> update_ws_kucoin
 branch update No. 5
+07:28:01.823 - INFO - Lock acquired. - acquire_lock
+07:28:01.826 - INFO - detected new pair XRPUSDT at Nov 09, 2024, 07:30AM - main
+07:28:01.826 - INFO - Release time and date: 09-11-2024 07:30:00.000 - get_price_websocket
+07:28:02.281 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+07:28:02.351 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+07:28:02.352 - INFO - Waiting 117.65 seconds until token release time - wait_until_listing
+07:29:37.377 - INFO - 25 seconds left until token release - wait_until_listing
+07:30:00.002 - DEBUG - Received data: {'id': '1731137282282', 'type': 'pong'} - get_price_websocket
+07:30:00.002 - DEBUG - Received data: {'topic': '/market/ticker:XRP-USDT', 'type': 'message', 'subject': 'trade.ticker', 'data': {'bestAsk': '0.55117', 'bestAskSize': '684.945', 'bestBid': '0.55116', 'bestBidSize': '4710.4913', 'price': '0.55117', 'sequence': '4705167652', 'size': '5.4705', 'time': 1731137263518}} - get_price_websocket
+07:30:00.003 - INFO - Price found via WebSocket: 0.55117 at  - get_price_websocket
+07:30:00.003 - INFO - Buying price: 0.2205 at 07:30:00.003 - place_buy_limit_order
+07:30:00.207 - INFO - Buy order executed at: 07:30:00.207: {'success': True, 'order_id': '672f0f78fc90220007ac618b', 'client_oid': '23ce9551-ff07-4ca1-b22c-21abf8e70da3', 'execution_time': 0.20292857801541686, 'response': {'code': '200000', 'data': {'orderId': '672f0f78fc90220007ac618b', 'clientOid': '23ce9551-ff07-4ca1-b22c-21abf8e70da3'}}} - place_buy_limit_order
+07:30:00.207 - INFO - Limit buy order price: 0.2205 - place_buy_limit_order
+07:30:00.341 - INFO - Sell order executed at 07:30:00.341: {'success': False, 'order_id': None, 'client_oid': 'ab89d4bc-96ba-4315-9bfa-d561c6643543', 'execution_time': 0.1337503920076415, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+07:30:00.341 - INFO - Limit sell order price: 0.1764 - place_sell_limit_order
+07:30:01.417 - INFO - Lock released. - release_lock
+07:30:00 loop finished sleeping 1 seconds before exit
+branch update No. 5
+07:42:01.747 - INFO - Lock acquired. - acquire_lock
+07:42:01.753 - INFO - detected new pair XRPUSDT at Nov 09, 2024, 08:00AM - main
+07:42:01.754 - INFO - Release time and date: 09-11-2024 08:00:00.000 - get_price_websocket
+07:42:02.180 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+07:42:02.249 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+07:42:02.250 - INFO - Waiting 1077.75 seconds until token release time - wait_until_listing
+07:56:02.087 - WARNING - Another instance is running. Exiting. - acquire_lock
+07:59:37.997 - INFO - 25 seconds left until token release - wait_until_listing
+08:00:00.008 - DEBUG - Received data: {'id': '1731138122180', 'type': 'pong'} - get_price_websocket
+08:00:00.009 - DEBUG - Received data: {'topic': '/market/ticker:XRP-USDT', 'type': 'message', 'subject': 'trade.ticker', 'data': {'bestAsk': '0.55156', 'bestAskSize': '224.5726', 'bestBid': '0.55155', 'bestBidSize': '3221.1695', 'price': '0.55156', 'sequence': '4705203841', 'size': '20.7799', 'time': 1731138120227}} - get_price_websocket
+08:00:00.009 - INFO - Price found via WebSocket: 0.55156 at  - get_price_websocket
+08:00:00.009 - INFO - Buying price: 0.2206 at 08:00:00.009 - place_buy_limit_order
+08:00:00.197 - INFO - Buy order executed at: 08:00:00.197: {'success': True, 'order_id': '672f1680858fce0007bff539', 'client_oid': '8bf546c7-fe07-4e23-9499-f080f20dcd45', 'execution_time': 0.1873441020725295, 'response': {'code': '200000', 'data': {'orderId': '672f1680858fce0007bff539', 'clientOid': '8bf546c7-fe07-4e23-9499-f080f20dcd45'}}} - place_buy_limit_order
+08:00:00.197 - INFO - Limit buy order price: 0.2206 - place_buy_limit_order
+08:00:00.323 - INFO - Sell order executed at 08:00:00.322: {'success': False, 'order_id': None, 'client_oid': '04afed8d-c211-4cf4-ba94-1a410e09230d', 'execution_time': 0.12527955300174654, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+08:00:00.323 - INFO - Limit sell order price: 0.17648 - place_sell_limit_order
+08:00:01.489 - WARNING - Another instance is running. Exiting. - acquire_lock
+08:00:01.970 - INFO - Lock released. - release_lock
+08:00:00 loop finished sleeping 1 seconds before exit
+branch update No. 5
+08:14:01.987 - INFO - Lock acquired. - acquire_lock
+08:14:01.992 - INFO - detected new pair XRPUSDT at Nov 09, 2024, 08:15AM - main
+08:14:01.993 - INFO - Release time and date: 09-11-2024 08:15:00.000 - get_price_websocket
+08:14:02.644 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+08:14:02.715 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+08:14:02.715 - INFO - Waiting 57.28 seconds until token release time - wait_until_listing
+08:14:37.723 - INFO - 25 seconds left until token release - wait_until_listing
+08:15:00.000 - DEBUG - Received data: {'id': '1731140042644', 'type': 'pong'} - get_price_websocket
+08:15:00.001 - DEBUG - Received data: {'topic': '/market/ticker:XRP-USDT', 'type': 'message', 'subject': 'trade.ticker', 'data': {'bestAsk': '0.5538', 'bestAskSize': '514.5879', 'bestBid': '0.55379', 'bestBidSize': '8743.8943', 'price': '0.5538', 'sequence': '4705295463', 'size': '359.6824', 'time': 1731140040016}} - get_price_websocket
+08:15:00.001 - INFO - Price found via WebSocket: 0.5538 at  - get_price_websocket
+08:15:00.002 - INFO - Buying price: 0.2215 at 08:15:00.001 - place_buy_limit_order
+08:15:00.199 - INFO - Buy order executed at: 08:15:00.199: {'success': True, 'order_id': '672f1a04ab0f0a000785c1f1', 'client_oid': '133c0b59-6846-4b96-bc4e-458e0d12941b', 'execution_time': 0.19685612304601818, 'response': {'code': '200000', 'data': {'orderId': '672f1a04ab0f0a000785c1f1', 'clientOid': '133c0b59-6846-4b96-bc4e-458e0d12941b'}}} - place_buy_limit_order
+08:15:00.199 - INFO - Limit buy order price: 0.2215 - place_buy_limit_order
+08:15:00.323 - INFO - Sell order executed at 08:15:00.323: {'success': False, 'order_id': None, 'client_oid': 'a414d594-c067-452a-9aa9-8b0008bab78f', 'execution_time': 0.12446308310609311, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+08:15:00.324 - INFO - Limit sell order price: 0.1772 - place_sell_limit_order
+08:15:01.397 - INFO - Lock released. - release_lock
+08:15:00 loop finished sleeping 1 seconds before exit
+branch update No. 5
+08:28:02.447 - INFO - Lock acquired. - acquire_lock
+08:28:02.453 - INFO - detected new pair XRPUSDT at Nov 09, 2024, 08:45AM - main
+08:28:02.454 - INFO - Release time and date: 09-11-2024 08:45:00.000 - get_price_websocket
+08:28:02.870 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+08:28:02.938 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+08:28:02.938 - INFO - Waiting 1017.06 seconds until token release time - wait_until_listing
+08:42:02.838 - WARNING - Another instance is running. Exiting. - acquire_lock
+08:44:38.637 - INFO - 25 seconds left until token release - wait_until_listing
+08:45:00.001 - DEBUG - Received data: {'id': '1731140882870', 'type': 'pong'} - get_price_websocket
+08:45:00.001 - DEBUG - Received data: {'topic': '/market/ticker:XRP-USDT', 'type': 'message', 'subject': 'trade.ticker', 'data': {'bestAsk': '0.55576', 'bestAskSize': '5095.5231', 'bestBid': '0.55575', 'bestBidSize': '234.9892', 'price': '0.55582', 'sequence': '4705336718', 'size': '9.4107', 'time': 1731140875868}} - get_price_websocket
+08:45:00.001 - INFO - Price found via WebSocket: 0.55582 at  - get_price_websocket
+08:45:00.002 - INFO - Buying price: 0.2223 at 08:45:00.002 - place_buy_limit_order
+08:45:00.141 - INFO - Buy order executed at: 08:45:00.141: {'success': True, 'order_id': '672f210cc95c3100071383f2', 'client_oid': '2f61af1d-41a3-4bf4-bd5f-245b1e51b151', 'execution_time': 0.13878939906135201, 'response': {'code': '200000', 'data': {'orderId': '672f210cc95c3100071383f2', 'clientOid': '2f61af1d-41a3-4bf4-bd5f-245b1e51b151'}}} - place_buy_limit_order
+08:45:00.141 - INFO - Limit buy order price: 0.2223 - place_buy_limit_order
+08:45:00.265 - INFO - Sell order executed at 08:45:00.265: {'success': False, 'order_id': None, 'client_oid': '63a60dbb-d956-4770-b7c3-2b82a5fff0c5', 'execution_time': 0.12375958496704698, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+08:45:00.265 - INFO - Limit sell order price: 0.17784 - place_sell_limit_order
+08:45:01.423 - INFO - Lock released. - release_lock
+08:45:00 loop finished sleeping 1 seconds before exit
+branch update No. 5
+08:56:02.874 - INFO - Lock acquired. - acquire_lock
+08:56:02.880 - INFO - detected new pair XRPUSDT at Nov 09, 2024, 09:00AM - main
+08:56:02.881 - INFO - Release time and date: 09-11-2024 09:00:00.000 - get_price_websocket
+08:56:03.293 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+08:56:03.363 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+08:56:03.363 - INFO - Waiting 236.64 seconds until token release time - wait_until_listing
+08:59:38.484 - INFO - 25 seconds left until token release - wait_until_listing
+09:00:00.000 - DEBUG - Received data: {'id': '1731142563293', 'type': 'pong'} - get_price_websocket
+09:00:00.003 - DEBUG - Received data: {'topic': '/market/ticker:XRP-USDT', 'type': 'message', 'subject': 'trade.ticker', 'data': {'bestAsk': '0.55454', 'bestAskSize': '3348.5314', 'bestBid': '0.55453', 'bestBidSize': '51.4582', 'price': '0.55453', 'sequence': '4705448060', 'size': '19.0276', 'time': 1731142560868}} - get_price_websocket
+09:00:00.003 - INFO - Price found via WebSocket: 0.55453 at  - get_price_websocket
+09:00:00.003 - INFO - Buying price: 0.2218 at 09:00:00.003 - place_buy_limit_order
+09:00:00.193 - INFO - Buy order executed at: 09:00:00.193: {'success': True, 'order_id': '672f24902ab0100007ce0190', 'client_oid': '2e1ec951-9e03-4e66-87db-fcef6aff667d', 'execution_time': 0.18984721298329532, 'response': {'code': '200000', 'data': {'orderId': '672f24902ab0100007ce0190', 'clientOid': '2e1ec951-9e03-4e66-87db-fcef6aff667d'}}} - place_buy_limit_order
+09:00:00.193 - INFO - Limit buy order price: 0.2218 - place_buy_limit_order
+09:00:00.310 - INFO - Sell order executed at 09:00:00.310: {'success': False, 'order_id': None, 'client_oid': '4ffbe8ae-fc82-4435-8a2e-552a0b23eab9', 'execution_time': 0.11615792301017791, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+09:00:00.310 - INFO - Limit sell order price: 0.17744 - place_sell_limit_order
+09:00:01.482 - INFO - Lock released. - release_lock
+09:00:00 loop finished sleeping 1 seconds before exit
+branch update No. 5
+09:00:01.568 - INFO - Lock acquired. - acquire_lock
+09:00:02.588 - INFO - Lock released. - release_lock
+09:00:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+09:14:02.361 - INFO - Lock acquired. - acquire_lock
+09:14:03.370 - INFO - Lock released. - release_lock
+09:14:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+09:28:02.071 - INFO - Lock acquired. - acquire_lock
+09:28:03.079 - INFO - Lock released. - release_lock
+09:28:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+09:42:02.802 - INFO - Lock acquired. - acquire_lock
+09:42:03.809 - INFO - Lock released. - release_lock
+09:42:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+09:56:01.864 - INFO - Lock acquired. - acquire_lock
+09:56:02.870 - INFO - Lock released. - release_lock
+09:56:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+10:00:03.401 - INFO - Lock acquired. - acquire_lock
+10:00:04.419 - INFO - Lock released. - release_lock
+10:00:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+10:14:02.553 - INFO - Lock acquired. - acquire_lock
+10:14:03.558 - INFO - Lock released. - release_lock
+10:14:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+10:28:02.399 - INFO - Lock acquired. - acquire_lock
+10:28:03.405 - INFO - Lock released. - release_lock
+10:28:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+10:42:02.705 - INFO - Lock acquired. - acquire_lock
+10:42:03.713 - INFO - Lock released. - release_lock
+10:42:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+10:56:01.979 - INFO - Lock acquired. - acquire_lock
+10:56:02.986 - INFO - Lock released. - release_lock
+10:56:01 loop finished sleeping 1 seconds before exit
+branch update No. 5
+11:00:02.629 - INFO - Lock acquired. - acquire_lock
+11:00:03.636 - INFO - Lock released. - release_lock
+11:00:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+11:14:02.043 - INFO - Lock acquired. - acquire_lock
+11:14:03.050 - INFO - Lock released. - release_lock
+11:14:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+11:28:02.335 - INFO - Lock acquired. - acquire_lock
+11:28:03.343 - INFO - Lock released. - release_lock
+11:28:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+11:42:03.406 - INFO - Lock acquired. - acquire_lock
+11:42:04.412 - INFO - Lock released. - release_lock
+11:42:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+11:56:02.877 - INFO - Lock acquired. - acquire_lock
+11:56:02.881 - INFO - detected new pair XRPUSDT at Nov 09, 2024, 12:15PM - main
+11:56:02.881 - INFO - Release time and date: 09-11-2024 12:15:00.000 - get_price_websocket
+11:56:03.297 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+11:56:03.370 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+11:56:03.370 - INFO - Waiting 1136.63 seconds until token release time - wait_until_listing
+12:00:03.683 - WARNING - Another instance is running. Exiting. - acquire_lock
+12:14:39.163 - INFO - 25 seconds left until token release - wait_until_listing
+12:15:00.004 - DEBUG - Received data: {'id': '1731153363298', 'type': 'pong'} - get_price_websocket
+12:15:00.004 - DEBUG - Received data: {'topic': '/market/ticker:XRP-USDT', 'type': 'message', 'subject': 'trade.ticker', 'data': {'bestAsk': '0.55263', 'bestAskSize': '3414.273', 'bestBid': '0.55262', 'bestBidSize': '937.5903', 'price': '0.55269', 'sequence': '4705933058', 'size': '407.108', 'time': 1731153362154}} - get_price_websocket
+12:15:00.004 - INFO - Price found via WebSocket: 0.55269 at  - get_price_websocket
+12:15:00.005 - INFO - Buying price: 0.2211 at 12:15:00.005 - place_buy_limit_order
+12:15:00.208 - INFO - Buy order executed at: 12:15:00.208: {'success': True, 'order_id': '672f524408e10c000710c35f', 'client_oid': '820c5473-859b-4064-92b1-46fd79ba4cfa', 'execution_time': 0.20281904202420264, 'response': {'code': '200000', 'data': {'orderId': '672f524408e10c000710c35f', 'clientOid': '820c5473-859b-4064-92b1-46fd79ba4cfa'}}} - place_buy_limit_order
+12:15:00.208 - INFO - Limit buy order price: 0.2211 - place_buy_limit_order
+12:15:00.364 - INFO - Sell order executed at 12:15:00.364: {'success': False, 'order_id': None, 'client_oid': 'ffa8aab5-b1fa-4539-91aa-8011f0d96688', 'execution_time': 0.15587483893614262, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+12:15:00.364 - INFO - Limit sell order price: 0.17688 - place_sell_limit_order
+12:15:01.519 - INFO - Lock released. - release_lock
+12:15:00 loop finished sleeping 1 seconds before exit
+branch update No. 5
+12:16:02.863 - INFO - Lock acquired. - acquire_lock
+12:16:02.866 - INFO - detected new pair XRPUSDT at Nov 09, 2024, 12:30PM - main
+12:16:02.867 - INFO - Release time and date: 09-11-2024 12:30:00.000 - get_price_websocket
+12:16:03.225 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+12:16:03.296 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+12:16:03.296 - INFO - Waiting 836.70 seconds until token release time - wait_until_listing

@@ -1,1 +1,324 @@
 /root/trading_systems/tradingvenv/bin/python: can't open file '/root/trading_systems/kucoin_dir/kucoin_testing_best_bid_ask_ws.py': [Errno 2] No such file or directory
+  File "/root/trading_systems/kucoin_dir/kucoin_testing_best_bid_ask_ws.py", line 16
+    */14 * * * * /root/trading_systems/tradingvenv/bin/python /root/trading_systems/kucoin_dir/kucoin_testing_best_bid_ask_ws.py >> /root/trading_systems/kucoin_dir/cronlogs/kucoin_testing_best_bid_ask_ws.log 2>&1
+     ^
+SyntaxError: invalid syntax
+07:42:01.583 - INFO - Lock acquired. - acquire_lock
+07:42:01.592 - INFO - Starting script - main
+07:42:01.592 - INFO - Release time and date: 09-11-2024 07:42:11.592 - get_price_websocket_best_ask_bid
+07:42:02.016 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+07:42:02.086 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+07:42:02.087 - INFO - 25 seconds left until token release - wait_until_listing
+07:42:11.593 - DEBUG - Received data: {'id': '1731138122016', 'type': 'pong'} - get_price_websocket_best_ask_bid
+07:42:11.593 - DEBUG - Received data: {'topic': '/spotMarket/level2Depth5:SWELL-USDT', 'type': 'message', 'subject': 'level2', 'data': {'asks': [['0.064251', '1058'], ['0.064252', '313'], ['0.064255', '7663'], ['0.064319', '2979'], ['0.06432', '7663']], 'bids': [['0.064211', '1'], ['0.063996', '14090'], ['0.063905', '7663'], ['0.063892', '124'], ['0.06384', '2454']], 'timestamp': 1731138122092}} - get_price_websocket_best_ask_bid
+07:42:11.593 - INFO - data from WebSocket: {'asks': [['0.064251', '1058'], ['0.064252', '313'], ['0.064255', '7663'], ['0.064319', '2979'], ['0.06432', '7663']], 'bids': [['0.064211', '1'], ['0.063996', '14090'], ['0.063905', '7663'], ['0.063892', '124'], ['0.06384', '2454']], 'timestamp': 1731138122092}  - get_price_websocket_best_ask_bid
+07:42:11.593 - DEBUG - Data from socket: {'asks': [['0.064251', '1058'], ['0.064252', '313'], ['0.064255', '7663'], ['0.064319', '2979'], ['0.06432', '7663']], 'bids': [['0.064211', '1'], ['0.063996', '14090'], ['0.063905', '7663'], ['0.063892', '124'], ['0.06384', '2454']], 'timestamp': 1731138122092} - get_price_websocket_best_ask_bid
+07:42:11.664 - INFO - Lock released. - release_lock
+Successfully retrieved SWELL price: {'asks': [['0.064251', '1058'], ['0.064252', '313'], ['0.064255', '7663'], ['0.064319', '2979'], ['0.06432', '7663']], 'bids': [['0.064211', '1'], ['0.063996', '14090'], ['0.063905', '7663'], ['0.063892', '124'], ['0.06384', '2454']], 'timestamp': 1731138122092}
+2024-11-09 07:42:11.664671 script finished
+======================================
+07:56:01.948 - INFO - Lock acquired. - acquire_lock
+07:56:01.949 - INFO - Starting script - main
+07:56:01.949 - INFO - Release time and date: 09-11-2024 07:56:11.949 - get_price_websocket_best_ask_bid
+07:56:02.361 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+07:56:02.434 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+07:56:02.435 - INFO - 25 seconds left until token release - wait_until_listing
+07:56:11.950 - DEBUG - Received data: {'id': '1731138962362', 'type': 'pong'} - get_price_websocket_best_ask_bid
+07:56:11.950 - DEBUG - Received data: {'topic': '/spotMarket/level2Depth5:SWELL-USDT', 'type': 'message', 'subject': 'level2', 'data': {'asks': [['0.063104', '680'], ['0.063171', '7663'], ['0.063238', '7663'], ['0.063274', '50574'], ['0.063306', '14250']], 'bids': [['0.063005', '16406'], ['0.062917', '14210'], ['0.062856', '7663'], ['0.062814', '1319'], ['0.062802', '2420']], 'timestamp': 1731138962420}} - get_price_websocket_best_ask_bid
+07:56:11.950 - INFO - data from WebSocket: {'asks': [['0.063104', '680'], ['0.063171', '7663'], ['0.063238', '7663'], ['0.063274', '50574'], ['0.063306', '14250']], 'bids': [['0.063005', '16406'], ['0.062917', '14210'], ['0.062856', '7663'], ['0.062814', '1319'], ['0.062802', '2420']], 'timestamp': 1731138962420}  - get_price_websocket_best_ask_bid
+07:56:11.950 - DEBUG - Data from socket: {'asks': [['0.063104', '680'], ['0.063171', '7663'], ['0.063238', '7663'], ['0.063274', '50574'], ['0.063306', '14250']], 'bids': [['0.063005', '16406'], ['0.062917', '14210'], ['0.062856', '7663'], ['0.062814', '1319'], ['0.062802', '2420']], 'timestamp': 1731138962420} - get_price_websocket_best_ask_bid
+07:56:12.020 - INFO - Lock released. - release_lock
+Successfully retrieved SWELL price: {'asks': [['0.063104', '680'], ['0.063171', '7663'], ['0.063238', '7663'], ['0.063274', '50574'], ['0.063306', '14250']], 'bids': [['0.063005', '16406'], ['0.062917', '14210'], ['0.062856', '7663'], ['0.062814', '1319'], ['0.062802', '2420']], 'timestamp': 1731138962420}
+2024-11-09 07:56:12.020453 script finished
+======================================
+08:00:01.104 - INFO - Lock acquired. - acquire_lock
+08:00:01.109 - INFO - Starting script - main
+08:00:01.109 - INFO - Release time and date: 09-11-2024 08:00:11.109 - get_price_websocket_best_ask_bid
+08:00:01.908 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+08:00:02.330 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+08:00:02.331 - INFO - 25 seconds left until token release - wait_until_listing
+08:00:11.111 - DEBUG - Received data: {'id': '1731139201909', 'type': 'pong'} - get_price_websocket_best_ask_bid
+08:00:11.111 - DEBUG - Received data: {'topic': '/spotMarket/level2Depth5:SWELL-USDT', 'type': 'message', 'subject': 'level2', 'data': {'asks': [['0.063599', '7663'], ['0.063651', '14220'], ['0.063667', '7663'], ['0.063706', '50231'], ['0.063707', '175']], 'bids': [['0.063278', '7663'], ['0.063203', '104'], ['0.063202', '7663'], ['0.063198', '14230'], ['0.063137', '4221']], 'timestamp': 1731139202176}} - get_price_websocket_best_ask_bid
+08:00:11.111 - INFO - data from WebSocket: {'asks': [['0.063599', '7663'], ['0.063651', '14220'], ['0.063667', '7663'], ['0.063706', '50231'], ['0.063707', '175']], 'bids': [['0.063278', '7663'], ['0.063203', '104'], ['0.063202', '7663'], ['0.063198', '14230'], ['0.063137', '4221']], 'timestamp': 1731139202176}  - get_price_websocket_best_ask_bid
+08:00:11.111 - DEBUG - Data from socket: {'asks': [['0.063599', '7663'], ['0.063651', '14220'], ['0.063667', '7663'], ['0.063706', '50231'], ['0.063707', '175']], 'bids': [['0.063278', '7663'], ['0.063203', '104'], ['0.063202', '7663'], ['0.063198', '14230'], ['0.063137', '4221']], 'timestamp': 1731139202176} - get_price_websocket_best_ask_bid
+08:00:11.356 - INFO - Lock released. - release_lock
+Successfully retrieved SWELL price: {'asks': [['0.063599', '7663'], ['0.063651', '14220'], ['0.063667', '7663'], ['0.063706', '50231'], ['0.063707', '175']], 'bids': [['0.063278', '7663'], ['0.063203', '104'], ['0.063202', '7663'], ['0.063198', '14230'], ['0.063137', '4221']], 'timestamp': 1731139202176}
+2024-11-09 08:00:11.356131 script finished
+======================================
+08:14:01.914 - INFO - Lock acquired. - acquire_lock
+08:14:01.914 - INFO - Starting script - main
+08:14:01.914 - INFO - Release time and date: 09-11-2024 08:14:11.914 - get_price_websocket_best_ask_bid
+08:14:02.370 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+08:14:02.441 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+08:14:02.442 - INFO - 25 seconds left until token release - wait_until_listing
+08:14:11.915 - DEBUG - Received data: {'id': '1731140042370', 'type': 'pong'} - get_price_websocket_best_ask_bid
+08:14:11.915 - DEBUG - Received data: {'topic': '/spotMarket/level2Depth5:SWELL-USDT', 'type': 'message', 'subject': 'level2', 'data': {'asks': [['0.062396', '2702'], ['0.062397', '8072'], ['0.062398', '2842'], ['0.062466', '8072'], ['0.062491', '51208']], 'bids': [['0.062227', '14440'], ['0.0622', '250'], ['0.062161', '8072'], ['0.062127', '1204'], ['0.062064', '2511']], 'timestamp': 1731140042529}} - get_price_websocket_best_ask_bid
+08:14:11.915 - INFO - data from WebSocket: {'asks': [['0.062396', '2702'], ['0.062397', '8072'], ['0.062398', '2842'], ['0.062466', '8072'], ['0.062491', '51208']], 'bids': [['0.062227', '14440'], ['0.0622', '250'], ['0.062161', '8072'], ['0.062127', '1204'], ['0.062064', '2511']], 'timestamp': 1731140042529}  - get_price_websocket_best_ask_bid
+08:14:11.915 - DEBUG - Data from socket: {'asks': [['0.062396', '2702'], ['0.062397', '8072'], ['0.062398', '2842'], ['0.062466', '8072'], ['0.062491', '51208']], 'bids': [['0.062227', '14440'], ['0.0622', '250'], ['0.062161', '8072'], ['0.062127', '1204'], ['0.062064', '2511']], 'timestamp': 1731140042529} - get_price_websocket_best_ask_bid
+08:14:11.992 - INFO - Lock released. - release_lock
+Successfully retrieved SWELL price: {'asks': [['0.062396', '2702'], ['0.062397', '8072'], ['0.062398', '2842'], ['0.062466', '8072'], ['0.062491', '51208']], 'bids': [['0.062227', '14440'], ['0.0622', '250'], ['0.062161', '8072'], ['0.062127', '1204'], ['0.062064', '2511']], 'timestamp': 1731140042529}
+2024-11-09 08:14:11.992579 script finished
+======================================
+08:28:02.214 - INFO - Lock acquired. - acquire_lock
+08:28:02.220 - INFO - Starting script - main
+08:28:02.221 - INFO - Release time and date: 09-11-2024 08:28:12.221 - get_price_websocket_best_ask_bid
+08:28:02.682 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+08:28:02.754 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+08:28:02.755 - INFO - 25 seconds left until token release - wait_until_listing
+08:28:12.221 - DEBUG - Received data: {'id': '1731140882682', 'type': 'pong'} - get_price_websocket_best_ask_bid
+08:28:12.221 - DEBUG - Received data: {'topic': '/spotMarket/level2Depth5:SWELL-USDT', 'type': 'message', 'subject': 'level2', 'data': {'asks': [['0.062614', '14440'], ['0.062625', '8072'], ['0.06269', '8072'], ['0.062701', '2511'], ['0.062702', '51035']], 'bids': [['0.062383', '2702'], ['0.062283', '2702'], ['0.062282', '8072'], ['0.062231', '2702'], ['0.06223', '2902']], 'timestamp': 1731140882824}} - get_price_websocket_best_ask_bid
+08:28:12.221 - INFO - data from WebSocket: {'asks': [['0.062614', '14440'], ['0.062625', '8072'], ['0.06269', '8072'], ['0.062701', '2511'], ['0.062702', '51035']], 'bids': [['0.062383', '2702'], ['0.062283', '2702'], ['0.062282', '8072'], ['0.062231', '2702'], ['0.06223', '2902']], 'timestamp': 1731140882824}  - get_price_websocket_best_ask_bid
+08:28:12.221 - DEBUG - Data from socket: {'asks': [['0.062614', '14440'], ['0.062625', '8072'], ['0.06269', '8072'], ['0.062701', '2511'], ['0.062702', '51035']], 'bids': [['0.062383', '2702'], ['0.062283', '2702'], ['0.062282', '8072'], ['0.062231', '2702'], ['0.06223', '2902']], 'timestamp': 1731140882824} - get_price_websocket_best_ask_bid
+08:28:12.293 - INFO - Lock released. - release_lock
+Successfully retrieved SWELL price: {'asks': [['0.062614', '14440'], ['0.062625', '8072'], ['0.06269', '8072'], ['0.062701', '2511'], ['0.062702', '51035']], 'bids': [['0.062383', '2702'], ['0.062283', '2702'], ['0.062282', '8072'], ['0.062231', '2702'], ['0.06223', '2902']], 'timestamp': 1731140882824}
+2024-11-09 08:28:12.293112 script finished
+======================================
+08:42:02.698 - INFO - Lock acquired. - acquire_lock
+08:42:02.699 - INFO - Starting script - main
+08:42:02.699 - INFO - Release time and date: 09-11-2024 08:42:12.699 - get_price_websocket_best_ask_bid
+08:42:03.132 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+08:42:03.202 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+08:42:03.203 - INFO - 25 seconds left until token release - wait_until_listing
+08:42:12.700 - DEBUG - Received data: {'id': '1731141723132', 'type': 'pong'} - get_price_websocket_best_ask_bid
+08:42:12.700 - DEBUG - Received data: {'topic': '/spotMarket/level2Depth5:SWELL-USDT', 'type': 'message', 'subject': 'level2', 'data': {'asks': [['0.059901', '908'], ['0.059902', '2702'], ['0.05991', '15030'], ['0.059918', '8072'], ['0.059981', '53350']], 'bids': [['0.059701', '2702'], ['0.0597', '2702'], ['0.059637', '8072'], ['0.059636', '15000'], ['0.059603', '1813']], 'timestamp': 1731141723194}} - get_price_websocket_best_ask_bid
+08:42:12.700 - INFO - data from WebSocket: {'asks': [['0.059901', '908'], ['0.059902', '2702'], ['0.05991', '15030'], ['0.059918', '8072'], ['0.059981', '53350']], 'bids': [['0.059701', '2702'], ['0.0597', '2702'], ['0.059637', '8072'], ['0.059636', '15000'], ['0.059603', '1813']], 'timestamp': 1731141723194}  - get_price_websocket_best_ask_bid
+08:42:12.700 - DEBUG - Data from socket: {'asks': [['0.059901', '908'], ['0.059902', '2702'], ['0.05991', '15030'], ['0.059918', '8072'], ['0.059981', '53350']], 'bids': [['0.059701', '2702'], ['0.0597', '2702'], ['0.059637', '8072'], ['0.059636', '15000'], ['0.059603', '1813']], 'timestamp': 1731141723194} - get_price_websocket_best_ask_bid
+08:42:12.771 - INFO - Lock released. - release_lock
+Successfully retrieved SWELL price: {'asks': [['0.059901', '908'], ['0.059902', '2702'], ['0.05991', '15030'], ['0.059918', '8072'], ['0.059981', '53350']], 'bids': [['0.059701', '2702'], ['0.0597', '2702'], ['0.059637', '8072'], ['0.059636', '15000'], ['0.059603', '1813']], 'timestamp': 1731141723194}
+2024-11-09 08:42:12.771698 script finished
+======================================
+08:56:02.570 - INFO - Lock acquired. - acquire_lock
+08:56:02.570 - INFO - Starting script - main
+08:56:02.570 - INFO - Release time and date: 09-11-2024 08:56:12.570 - get_price_websocket_best_ask_bid
+08:56:03.041 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+08:56:03.112 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+08:56:03.112 - INFO - 25 seconds left until token release - wait_until_listing
+08:56:12.571 - DEBUG - Received data: {'id': '1731142563042', 'type': 'pong'} - get_price_websocket_best_ask_bid
+08:56:12.571 - DEBUG - Received data: {'topic': '/spotMarket/level2Depth5:SWELL-USDT', 'type': 'message', 'subject': 'level2', 'data': {'asks': [['0.05912', '8507'], ['0.059168', '1311'], ['0.059169', '15300'], ['0.05918', '8507'], ['0.059216', '1252']], 'bids': [['0.058885', '2702'], ['0.058884', '8507'], ['0.058883', '2702'], ['0.058819', '8507'], ['0.058808', '15300']], 'timestamp': 1731142563156}} - get_price_websocket_best_ask_bid
+08:56:12.571 - INFO - data from WebSocket: {'asks': [['0.05912', '8507'], ['0.059168', '1311'], ['0.059169', '15300'], ['0.05918', '8507'], ['0.059216', '1252']], 'bids': [['0.058885', '2702'], ['0.058884', '8507'], ['0.058883', '2702'], ['0.058819', '8507'], ['0.058808', '15300']], 'timestamp': 1731142563156}  - get_price_websocket_best_ask_bid
+08:56:12.571 - DEBUG - Data from socket: {'asks': [['0.05912', '8507'], ['0.059168', '1311'], ['0.059169', '15300'], ['0.05918', '8507'], ['0.059216', '1252']], 'bids': [['0.058885', '2702'], ['0.058884', '8507'], ['0.058883', '2702'], ['0.058819', '8507'], ['0.058808', '15300']], 'timestamp': 1731142563156} - get_price_websocket_best_ask_bid
+08:56:12.643 - INFO - Lock released. - release_lock
+Successfully retrieved SWELL price: {'asks': [['0.05912', '8507'], ['0.059168', '1311'], ['0.059169', '15300'], ['0.05918', '8507'], ['0.059216', '1252']], 'bids': [['0.058885', '2702'], ['0.058884', '8507'], ['0.058883', '2702'], ['0.058819', '8507'], ['0.058808', '15300']], 'timestamp': 1731142563156}
+2024-11-09 08:56:12.643176 script finished
+======================================
+09:00:01.056 - INFO - Lock acquired. - acquire_lock
+09:00:01.063 - INFO - Starting script - main
+09:00:01.066 - INFO - Release time and date: 09-11-2024 09:00:11.066 - get_price_websocket_best_ask_bid
+09:00:01.572 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+09:00:01.644 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+09:00:01.645 - INFO - 25 seconds left until token release - wait_until_listing
+09:00:11.067 - DEBUG - Received data: {'id': '1731142801572', 'type': 'pong'} - get_price_websocket_best_ask_bid
+09:00:11.067 - DEBUG - Received data: {'topic': '/spotMarket/level2Depth5:SWELL-USDT', 'type': 'message', 'subject': 'level2', 'data': {'asks': [['0.059733', '102'], ['0.059734', '2702'], ['0.059764', '8507'], ['0.059766', '15090'], ['0.059863', '2563']], 'bids': [['0.059568', '2702'], ['0.059563', '2702'], ['0.059469', '2702'], ['0.059468', '8507'], ['0.059413', '2916']], 'timestamp': 1731142801679}} - get_price_websocket_best_ask_bid
+09:00:11.067 - INFO - data from WebSocket: {'asks': [['0.059733', '102'], ['0.059734', '2702'], ['0.059764', '8507'], ['0.059766', '15090'], ['0.059863', '2563']], 'bids': [['0.059568', '2702'], ['0.059563', '2702'], ['0.059469', '2702'], ['0.059468', '8507'], ['0.059413', '2916']], 'timestamp': 1731142801679}  - get_price_websocket_best_ask_bid
+09:00:11.067 - DEBUG - Data from socket: {'asks': [['0.059733', '102'], ['0.059734', '2702'], ['0.059764', '8507'], ['0.059766', '15090'], ['0.059863', '2563']], 'bids': [['0.059568', '2702'], ['0.059563', '2702'], ['0.059469', '2702'], ['0.059468', '8507'], ['0.059413', '2916']], 'timestamp': 1731142801679} - get_price_websocket_best_ask_bid
+09:00:11.144 - INFO - Lock released. - release_lock
+Successfully retrieved SWELL price: {'asks': [['0.059733', '102'], ['0.059734', '2702'], ['0.059764', '8507'], ['0.059766', '15090'], ['0.059863', '2563']], 'bids': [['0.059568', '2702'], ['0.059563', '2702'], ['0.059469', '2702'], ['0.059468', '8507'], ['0.059413', '2916']], 'timestamp': 1731142801679}
+2024-11-09 09:00:11.144052 script finished
+======================================
+09:14:02.125 - INFO - Lock acquired. - acquire_lock
+09:14:02.125 - INFO - Starting script - main
+09:14:02.125 - INFO - Release time and date: 09-11-2024 09:14:12.125 - get_price_websocket_best_ask_bid
+09:14:02.499 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+09:14:02.570 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+09:14:02.570 - INFO - 25 seconds left until token release - wait_until_listing
+09:14:12.125 - DEBUG - Received data: {'id': '1731143642499', 'type': 'pong'} - get_price_websocket_best_ask_bid
+09:14:12.126 - DEBUG - Received data: {'topic': '/spotMarket/level2Depth5:SWELL-USDT', 'type': 'message', 'subject': 'level2', 'data': {'asks': [['0.058577', '346'], ['0.058624', '1161'], ['0.058625', '8507'], ['0.058674', '4570'], ['0.058675', '54537']], 'bids': [['0.058367', '7410'], ['0.058356', '8507'], ['0.058355', '15430'], ['0.058296', '8507'], ['0.058215', '1864']], 'timestamp': 1731143642609}} - get_price_websocket_best_ask_bid
+09:14:12.126 - INFO - data from WebSocket: {'asks': [['0.058577', '346'], ['0.058624', '1161'], ['0.058625', '8507'], ['0.058674', '4570'], ['0.058675', '54537']], 'bids': [['0.058367', '7410'], ['0.058356', '8507'], ['0.058355', '15430'], ['0.058296', '8507'], ['0.058215', '1864']], 'timestamp': 1731143642609}  - get_price_websocket_best_ask_bid
+09:14:12.126 - DEBUG - Data from socket: {'asks': [['0.058577', '346'], ['0.058624', '1161'], ['0.058625', '8507'], ['0.058674', '4570'], ['0.058675', '54537']], 'bids': [['0.058367', '7410'], ['0.058356', '8507'], ['0.058355', '15430'], ['0.058296', '8507'], ['0.058215', '1864']], 'timestamp': 1731143642609} - get_price_websocket_best_ask_bid
+09:14:12.200 - INFO - Lock released. - release_lock
+Successfully retrieved SWELL price: {'asks': [['0.058577', '346'], ['0.058624', '1161'], ['0.058625', '8507'], ['0.058674', '4570'], ['0.058675', '54537']], 'bids': [['0.058367', '7410'], ['0.058356', '8507'], ['0.058355', '15430'], ['0.058296', '8507'], ['0.058215', '1864']], 'timestamp': 1731143642609}
+2024-11-09 09:14:12.200402 script finished
+======================================
+09:28:01.896 - INFO - Lock acquired. - acquire_lock
+09:28:01.900 - INFO - Starting script - main
+09:28:01.900 - INFO - Release time and date: 09-11-2024 09:28:11.900 - get_price_websocket_best_ask_bid
+09:28:02.354 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+09:28:02.472 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+09:28:02.472 - INFO - 25 seconds left until token release - wait_until_listing
+09:28:11.901 - DEBUG - Received data: {'id': '1731144482354', 'type': 'pong'} - get_price_websocket_best_ask_bid
+09:28:11.901 - DEBUG - Received data: {'topic': '/spotMarket/level2Depth5:SWELL-USDT', 'type': 'message', 'subject': 'level2', 'data': {'asks': [['0.057734', '6476'], ['0.057739', '3224'], ['0.057782', '7501'], ['0.057814', '2702'], ['0.057816', '1398']], 'bids': [['0.057612', '2702'], ['0.057609', '2702'], ['0.057549', '8507'], ['0.057539', '7500'], ['0.0575', '15620']], 'timestamp': 1731144482411}} - get_price_websocket_best_ask_bid
+09:28:11.901 - INFO - data from WebSocket: {'asks': [['0.057734', '6476'], ['0.057739', '3224'], ['0.057782', '7501'], ['0.057814', '2702'], ['0.057816', '1398']], 'bids': [['0.057612', '2702'], ['0.057609', '2702'], ['0.057549', '8507'], ['0.057539', '7500'], ['0.0575', '15620']], 'timestamp': 1731144482411}  - get_price_websocket_best_ask_bid
+09:28:11.901 - DEBUG - Data from socket: {'asks': [['0.057734', '6476'], ['0.057739', '3224'], ['0.057782', '7501'], ['0.057814', '2702'], ['0.057816', '1398']], 'bids': [['0.057612', '2702'], ['0.057609', '2702'], ['0.057549', '8507'], ['0.057539', '7500'], ['0.0575', '15620']], 'timestamp': 1731144482411} - get_price_websocket_best_ask_bid
+09:28:11.974 - INFO - Lock released. - release_lock
+Successfully retrieved SWELL price: {'asks': [['0.057734', '6476'], ['0.057739', '3224'], ['0.057782', '7501'], ['0.057814', '2702'], ['0.057816', '1398']], 'bids': [['0.057612', '2702'], ['0.057609', '2702'], ['0.057549', '8507'], ['0.057539', '7500'], ['0.0575', '15620']], 'timestamp': 1731144482411}
+2024-11-09 09:28:11.973978 script finished
+======================================
+09:42:02.618 - INFO - Lock acquired. - acquire_lock
+09:42:02.618 - INFO - Starting script - main
+09:42:02.618 - INFO - Release time and date: 09-11-2024 09:42:12.618 - get_price_websocket_best_ask_bid
+09:42:03.047 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+09:42:03.118 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+09:42:03.118 - INFO - 25 seconds left until token release - wait_until_listing
+09:42:12.619 - DEBUG - Received data: {'id': '1731145323047', 'type': 'pong'} - get_price_websocket_best_ask_bid
+09:42:12.619 - DEBUG - Received data: {'topic': '/spotMarket/level2Depth5:SWELL-USDT', 'type': 'message', 'subject': 'level2', 'data': {'asks': [['0.060576', '2702'], ['0.060577', '8507'], ['0.060578', '2702'], ['0.060596', '2702'], ['0.060664', '2702']], 'bids': [['0.060359', '14619'], ['0.060284', '8507'], ['0.060225', '1914'], ['0.060222', '8507'], ['0.06018', '1205']], 'timestamp': 1731145323103}} - get_price_websocket_best_ask_bid
+09:42:12.620 - INFO - data from WebSocket: {'asks': [['0.060576', '2702'], ['0.060577', '8507'], ['0.060578', '2702'], ['0.060596', '2702'], ['0.060664', '2702']], 'bids': [['0.060359', '14619'], ['0.060284', '8507'], ['0.060225', '1914'], ['0.060222', '8507'], ['0.06018', '1205']], 'timestamp': 1731145323103}  - get_price_websocket_best_ask_bid
+09:42:12.620 - DEBUG - Data from socket: {'asks': [['0.060576', '2702'], ['0.060577', '8507'], ['0.060578', '2702'], ['0.060596', '2702'], ['0.060664', '2702']], 'bids': [['0.060359', '14619'], ['0.060284', '8507'], ['0.060225', '1914'], ['0.060222', '8507'], ['0.06018', '1205']], 'timestamp': 1731145323103} - get_price_websocket_best_ask_bid
+09:42:12.691 - INFO - Lock released. - release_lock
+Successfully retrieved SWELL price: {'asks': [['0.060576', '2702'], ['0.060577', '8507'], ['0.060578', '2702'], ['0.060596', '2702'], ['0.060664', '2702']], 'bids': [['0.060359', '14619'], ['0.060284', '8507'], ['0.060225', '1914'], ['0.060222', '8507'], ['0.06018', '1205']], 'timestamp': 1731145323103}
+2024-11-09 09:42:12.691114 script finished
+======================================
+09:56:01.695 - INFO - Lock acquired. - acquire_lock
+09:56:01.700 - INFO - Starting script - main
+09:56:01.700 - INFO - Release time and date: 09-11-2024 09:56:11.700 - get_price_websocket_best_ask_bid
+09:56:02.137 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+09:56:02.207 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+09:56:02.207 - INFO - 25 seconds left until token release - wait_until_listing
+09:56:11.701 - DEBUG - Received data: {'id': '1731146162137', 'type': 'pong'} - get_price_websocket_best_ask_bid
+09:56:11.701 - DEBUG - Received data: {'topic': '/spotMarket/level2Depth5:SWELL-USDT', 'type': 'message', 'subject': 'level2', 'data': {'asks': [['0.061807', '2702'], ['0.061808', '8101'], ['0.061827', '2702'], ['0.061828', '14560'], ['0.061885', '2702']], 'bids': [['0.061532', '8101'], ['0.06153', '180'], ['0.061528', '230'], ['0.061527', '180'], ['0.06146', '14560']], 'timestamp': 1731146162189}} - get_price_websocket_best_ask_bid
+09:56:11.702 - INFO - data from WebSocket: {'asks': [['0.061807', '2702'], ['0.061808', '8101'], ['0.061827', '2702'], ['0.061828', '14560'], ['0.061885', '2702']], 'bids': [['0.061532', '8101'], ['0.06153', '180'], ['0.061528', '230'], ['0.061527', '180'], ['0.06146', '14560']], 'timestamp': 1731146162189}  - get_price_websocket_best_ask_bid
+09:56:11.702 - DEBUG - Data from socket: {'asks': [['0.061807', '2702'], ['0.061808', '8101'], ['0.061827', '2702'], ['0.061828', '14560'], ['0.061885', '2702']], 'bids': [['0.061532', '8101'], ['0.06153', '180'], ['0.061528', '230'], ['0.061527', '180'], ['0.06146', '14560']], 'timestamp': 1731146162189} - get_price_websocket_best_ask_bid
+09:56:11.772 - INFO - Lock released. - release_lock
+Successfully retrieved SWELL price: {'asks': [['0.061807', '2702'], ['0.061808', '8101'], ['0.061827', '2702'], ['0.061828', '14560'], ['0.061885', '2702']], 'bids': [['0.061532', '8101'], ['0.06153', '180'], ['0.061528', '230'], ['0.061527', '180'], ['0.06146', '14560']], 'timestamp': 1731146162189}
+2024-11-09 09:56:11.772115 script finished
+======================================
+10:00:02.956 - INFO - Lock acquired. - acquire_lock
+10:00:02.972 - INFO - Starting script - main
+10:00:02.973 - INFO - Release time and date: 09-11-2024 10:00:12.973 - get_price_websocket_best_ask_bid
+10:00:03.431 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+10:00:03.500 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+10:00:03.501 - INFO - 25 seconds left until token release - wait_until_listing
+10:00:12.973 - DEBUG - Received data: {'id': '1731146403432', 'type': 'pong'} - get_price_websocket_best_ask_bid
+10:00:12.973 - DEBUG - Received data: {'topic': '/spotMarket/level2Depth5:SWELL-USDT', 'type': 'message', 'subject': 'level2', 'data': {'asks': [['0.063059', '8101'], ['0.063067', '2702'], ['0.063069', '2702'], ['0.063093', '1584'], ['0.063142', '464']], 'bids': [['0.06281', '2702'], ['0.062695', '1239'], ['0.062694', '14320'], ['0.062684', '1872'], ['0.062683', '8101']], 'timestamp': 1731146403531}} - get_price_websocket_best_ask_bid
+10:00:12.974 - INFO - data from WebSocket: {'asks': [['0.063059', '8101'], ['0.063067', '2702'], ['0.063069', '2702'], ['0.063093', '1584'], ['0.063142', '464']], 'bids': [['0.06281', '2702'], ['0.062695', '1239'], ['0.062694', '14320'], ['0.062684', '1872'], ['0.062683', '8101']], 'timestamp': 1731146403531}  - get_price_websocket_best_ask_bid
+10:00:12.974 - DEBUG - Data from socket: {'asks': [['0.063059', '8101'], ['0.063067', '2702'], ['0.063069', '2702'], ['0.063093', '1584'], ['0.063142', '464']], 'bids': [['0.06281', '2702'], ['0.062695', '1239'], ['0.062694', '14320'], ['0.062684', '1872'], ['0.062683', '8101']], 'timestamp': 1731146403531} - get_price_websocket_best_ask_bid
+10:00:13.044 - INFO - Lock released. - release_lock
+Successfully retrieved SWELL price: {'asks': [['0.063059', '8101'], ['0.063067', '2702'], ['0.063069', '2702'], ['0.063093', '1584'], ['0.063142', '464']], 'bids': [['0.06281', '2702'], ['0.062695', '1239'], ['0.062694', '14320'], ['0.062684', '1872'], ['0.062683', '8101']], 'timestamp': 1731146403531}
+2024-11-09 10:00:13.044418 script finished
+======================================
+10:14:02.376 - INFO - Lock acquired. - acquire_lock
+10:14:02.377 - INFO - Starting script - main
+10:14:02.377 - INFO - Release time and date: 09-11-2024 10:14:12.377 - get_price_websocket_best_ask_bid
+10:14:02.821 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+10:14:02.893 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+10:14:02.894 - INFO - 25 seconds left until token release - wait_until_listing
+10:14:12.378 - DEBUG - Received data: {'id': '1731147242822', 'type': 'pong'} - get_price_websocket_best_ask_bid
+10:14:12.378 - DEBUG - Received data: {'topic': '/spotMarket/level2Depth5:SWELL-USDT', 'type': 'message', 'subject': 'level2', 'data': {'asks': [['0.065537', '7658'], ['0.0656', '113'], ['0.065611', '255'], ['0.065615', '7658'], ['0.065681', '346']], 'bids': [['0.065356', '2702'], ['0.065355', '146'], ['0.065354', '2702'], ['0.065353', '1254'], ['0.065352', '2702']], 'timestamp': 1731147242874}} - get_price_websocket_best_ask_bid
+10:14:12.378 - INFO - data from WebSocket: {'asks': [['0.065537', '7658'], ['0.0656', '113'], ['0.065611', '255'], ['0.065615', '7658'], ['0.065681', '346']], 'bids': [['0.065356', '2702'], ['0.065355', '146'], ['0.065354', '2702'], ['0.065353', '1254'], ['0.065352', '2702']], 'timestamp': 1731147242874}  - get_price_websocket_best_ask_bid
+10:14:12.378 - DEBUG - Data from socket: {'asks': [['0.065537', '7658'], ['0.0656', '113'], ['0.065611', '255'], ['0.065615', '7658'], ['0.065681', '346']], 'bids': [['0.065356', '2702'], ['0.065355', '146'], ['0.065354', '2702'], ['0.065353', '1254'], ['0.065352', '2702']], 'timestamp': 1731147242874} - get_price_websocket_best_ask_bid
+10:14:12.451 - INFO - Lock released. - release_lock
+Successfully retrieved SWELL price: {'asks': [['0.065537', '7658'], ['0.0656', '113'], ['0.065611', '255'], ['0.065615', '7658'], ['0.065681', '346']], 'bids': [['0.065356', '2702'], ['0.065355', '146'], ['0.065354', '2702'], ['0.065353', '1254'], ['0.065352', '2702']], 'timestamp': 1731147242874}
+2024-11-09 10:14:12.451230 script finished
+======================================
+10:28:02.264 - INFO - Lock acquired. - acquire_lock
+10:28:02.272 - INFO - Starting script - main
+10:28:02.272 - INFO - Release time and date: 09-11-2024 10:28:12.272 - get_price_websocket_best_ask_bid
+10:28:03.088 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+10:28:03.160 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+10:28:03.160 - INFO - 25 seconds left until token release - wait_until_listing
+10:28:12.272 - DEBUG - Received data: {'id': '1731148083088', 'type': 'pong'} - get_price_websocket_best_ask_bid
+10:28:12.273 - DEBUG - Received data: {'topic': '/spotMarket/level2Depth5:SWELL-USDT', 'type': 'message', 'subject': 'level2', 'data': {'asks': [['0.067982', '555'], ['0.068074', '13250'], ['0.068109', '7658'], ['0.068172', '3452'], ['0.068173', '4976']], 'bids': [['0.067865', '2702'], ['0.067864', '2947'], ['0.067801', '2702'], ['0.0678', '7658'], ['0.067796', '2950']], 'timestamp': 1731148083148}} - get_price_websocket_best_ask_bid
+10:28:12.273 - INFO - data from WebSocket: {'asks': [['0.067982', '555'], ['0.068074', '13250'], ['0.068109', '7658'], ['0.068172', '3452'], ['0.068173', '4976']], 'bids': [['0.067865', '2702'], ['0.067864', '2947'], ['0.067801', '2702'], ['0.0678', '7658'], ['0.067796', '2950']], 'timestamp': 1731148083148}  - get_price_websocket_best_ask_bid
+10:28:12.273 - DEBUG - Data from socket: {'asks': [['0.067982', '555'], ['0.068074', '13250'], ['0.068109', '7658'], ['0.068172', '3452'], ['0.068173', '4976']], 'bids': [['0.067865', '2702'], ['0.067864', '2947'], ['0.067801', '2702'], ['0.0678', '7658'], ['0.067796', '2950']], 'timestamp': 1731148083148} - get_price_websocket_best_ask_bid
+10:28:12.345 - INFO - Lock released. - release_lock
+Successfully retrieved SWELL price: {'asks': [['0.067982', '555'], ['0.068074', '13250'], ['0.068109', '7658'], ['0.068172', '3452'], ['0.068173', '4976']], 'bids': [['0.067865', '2702'], ['0.067864', '2947'], ['0.067801', '2702'], ['0.0678', '7658'], ['0.067796', '2950']], 'timestamp': 1731148083148}
+2024-11-09 10:28:12.345152 script finished
+======================================
+10:42:02.501 - INFO - Lock acquired. - acquire_lock
+10:42:02.501 - INFO - Starting script - main
+10:42:02.502 - INFO - Release time and date: 09-11-2024 10:42:12.502 - get_price_websocket_best_ask_bid
+10:42:02.943 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+10:42:03.012 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+10:42:03.014 - INFO - 25 seconds left until token release - wait_until_listing
+10:42:12.503 - DEBUG - Received data: {'id': '1731148922944', 'type': 'pong'} - get_price_websocket_best_ask_bid
+10:42:12.503 - DEBUG - Received data: {'topic': '/spotMarket/level2Depth5:SWELL-USDT', 'type': 'message', 'subject': 'level2', 'data': {'asks': [['0.068258', '745'], ['0.068313', '1482'], ['0.06839', '1113'], ['0.068391', '7250'], ['0.068459', '1024']], 'bids': [['0.068053', '2702'], ['0.068052', '7250'], ['0.068012', '1627'], ['0.068011', '13170'], ['0.067983', '7250']], 'timestamp': 1731148922995}} - get_price_websocket_best_ask_bid
+10:42:12.503 - INFO - data from WebSocket: {'asks': [['0.068258', '745'], ['0.068313', '1482'], ['0.06839', '1113'], ['0.068391', '7250'], ['0.068459', '1024']], 'bids': [['0.068053', '2702'], ['0.068052', '7250'], ['0.068012', '1627'], ['0.068011', '13170'], ['0.067983', '7250']], 'timestamp': 1731148922995}  - get_price_websocket_best_ask_bid
+10:42:12.503 - DEBUG - Data from socket: {'asks': [['0.068258', '745'], ['0.068313', '1482'], ['0.06839', '1113'], ['0.068391', '7250'], ['0.068459', '1024']], 'bids': [['0.068053', '2702'], ['0.068052', '7250'], ['0.068012', '1627'], ['0.068011', '13170'], ['0.067983', '7250']], 'timestamp': 1731148922995} - get_price_websocket_best_ask_bid
+10:42:12.573 - INFO - Lock released. - release_lock
+Successfully retrieved SWELL price: {'asks': [['0.068258', '745'], ['0.068313', '1482'], ['0.06839', '1113'], ['0.068391', '7250'], ['0.068459', '1024']], 'bids': [['0.068053', '2702'], ['0.068052', '7250'], ['0.068012', '1627'], ['0.068011', '13170'], ['0.067983', '7250']], 'timestamp': 1731148922995}
+2024-11-09 10:42:12.573040 script finished
+======================================
+10:56:01.834 - INFO - Lock acquired. - acquire_lock
+10:56:01.834 - INFO - Starting script - main
+10:56:01.834 - INFO - Release time and date: 09-11-2024 10:56:11.834 - get_price_websocket_best_ask_bid
+10:56:02.283 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+10:56:02.354 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+10:56:02.355 - INFO - 25 seconds left until token release - wait_until_listing
+10:56:11.835 - DEBUG - Received data: {'id': '1731149762283', 'type': 'pong'} - get_price_websocket_best_ask_bid
+10:56:11.836 - DEBUG - Received data: {'topic': '/spotMarket/level2Depth5:SWELL-USDT', 'type': 'message', 'subject': 'level2', 'data': {'asks': [['0.069744', '2702'], ['0.069745', '1399'], ['0.069746', '2702'], ['0.069747', '7250'], ['0.069777', '2702']], 'bids': [['0.069464', '12910'], ['0.069369', '7250'], ['0.0693', '1437'], ['0.069299', '7250'], ['0.069218', '3068']], 'timestamp': 1731149762376}} - get_price_websocket_best_ask_bid
+10:56:11.836 - INFO - data from WebSocket: {'asks': [['0.069744', '2702'], ['0.069745', '1399'], ['0.069746', '2702'], ['0.069747', '7250'], ['0.069777', '2702']], 'bids': [['0.069464', '12910'], ['0.069369', '7250'], ['0.0693', '1437'], ['0.069299', '7250'], ['0.069218', '3068']], 'timestamp': 1731149762376}  - get_price_websocket_best_ask_bid
+10:56:11.836 - DEBUG - Data from socket: {'asks': [['0.069744', '2702'], ['0.069745', '1399'], ['0.069746', '2702'], ['0.069747', '7250'], ['0.069777', '2702']], 'bids': [['0.069464', '12910'], ['0.069369', '7250'], ['0.0693', '1437'], ['0.069299', '7250'], ['0.069218', '3068']], 'timestamp': 1731149762376} - get_price_websocket_best_ask_bid
+10:56:11.908 - INFO - Lock released. - release_lock
+Successfully retrieved SWELL price: {'asks': [['0.069744', '2702'], ['0.069745', '1399'], ['0.069746', '2702'], ['0.069747', '7250'], ['0.069777', '2702']], 'bids': [['0.069464', '12910'], ['0.069369', '7250'], ['0.0693', '1437'], ['0.069299', '7250'], ['0.069218', '3068']], 'timestamp': 1731149762376}
+2024-11-09 10:56:11.907900 script finished
+======================================
+11:00:02.289 - INFO - Lock acquired. - acquire_lock
+11:00:02.289 - INFO - Starting script - main
+11:00:02.289 - INFO - Release time and date: 09-11-2024 11:00:12.289 - get_price_websocket_best_ask_bid
+11:00:02.750 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+11:00:02.820 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+11:00:02.821 - INFO - 25 seconds left until token release - wait_until_listing
+11:00:12.291 - DEBUG - Received data: {'id': '1731150002751', 'type': 'pong'} - get_price_websocket_best_ask_bid
+11:00:12.292 - DEBUG - Received data: {'topic': '/spotMarket/level2Depth5:SWELL-USDT', 'type': 'message', 'subject': 'level2', 'data': {'asks': [['0.068169', '101'], ['0.068253', '1081'], ['0.068254', '1437'], ['0.068255', '1669'], ['0.068278', '1620']], 'bids': [['0.067969', '2702'], ['0.067968', '2702'], ['0.067967', '7250'], ['0.067966', '2702'], ['0.067965', '13180']], 'timestamp': 1731150002882}} - get_price_websocket_best_ask_bid
+11:00:12.292 - INFO - data from WebSocket: {'asks': [['0.068169', '101'], ['0.068253', '1081'], ['0.068254', '1437'], ['0.068255', '1669'], ['0.068278', '1620']], 'bids': [['0.067969', '2702'], ['0.067968', '2702'], ['0.067967', '7250'], ['0.067966', '2702'], ['0.067965', '13180']], 'timestamp': 1731150002882}  - get_price_websocket_best_ask_bid
+11:00:12.295 - DEBUG - Data from socket: {'asks': [['0.068169', '101'], ['0.068253', '1081'], ['0.068254', '1437'], ['0.068255', '1669'], ['0.068278', '1620']], 'bids': [['0.067969', '2702'], ['0.067968', '2702'], ['0.067967', '7250'], ['0.067966', '2702'], ['0.067965', '13180']], 'timestamp': 1731150002882} - get_price_websocket_best_ask_bid
+11:00:12.365 - INFO - Lock released. - release_lock
+Successfully retrieved SWELL price: {'asks': [['0.068169', '101'], ['0.068253', '1081'], ['0.068254', '1437'], ['0.068255', '1669'], ['0.068278', '1620']], 'bids': [['0.067969', '2702'], ['0.067968', '2702'], ['0.067967', '7250'], ['0.067966', '2702'], ['0.067965', '13180']], 'timestamp': 1731150002882}
+2024-11-09 11:00:12.365786 script finished
+======================================
+11:14:01.734 - INFO - Lock acquired. - acquire_lock
+11:14:01.740 - INFO - Starting script - main
+11:14:01.740 - INFO - Release time and date: 09-11-2024 11:14:11.740 - get_price_websocket_best_ask_bid
+11:14:02.211 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+11:14:02.283 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+11:14:02.283 - INFO - 25 seconds left until token release - wait_until_listing
+11:14:11.742 - DEBUG - Received data: {'id': '1731150842211', 'type': 'pong'} - get_price_websocket_best_ask_bid
+11:14:11.742 - DEBUG - Received data: {'topic': '/spotMarket/level2Depth5:SWELL-USDT', 'type': 'message', 'subject': 'level2', 'data': {'asks': [['0.067548', '7250'], ['0.067581', '1419'], ['0.067582', '13330'], ['0.067616', '1869'], ['0.067618', '7250']], 'bids': [['0.067313', '2702'], ['0.067312', '167'], ['0.067311', '3476'], ['0.06731', '13330'], ['0.067256', '2702']], 'timestamp': 1731150842329}} - get_price_websocket_best_ask_bid
+11:14:11.742 - INFO - data from WebSocket: {'asks': [['0.067548', '7250'], ['0.067581', '1419'], ['0.067582', '13330'], ['0.067616', '1869'], ['0.067618', '7250']], 'bids': [['0.067313', '2702'], ['0.067312', '167'], ['0.067311', '3476'], ['0.06731', '13330'], ['0.067256', '2702']], 'timestamp': 1731150842329}  - get_price_websocket_best_ask_bid
+11:14:11.742 - DEBUG - Data from socket: {'asks': [['0.067548', '7250'], ['0.067581', '1419'], ['0.067582', '13330'], ['0.067616', '1869'], ['0.067618', '7250']], 'bids': [['0.067313', '2702'], ['0.067312', '167'], ['0.067311', '3476'], ['0.06731', '13330'], ['0.067256', '2702']], 'timestamp': 1731150842329} - get_price_websocket_best_ask_bid
+11:14:11.814 - INFO - Lock released. - release_lock
+Successfully retrieved SWELL price: {'asks': [['0.067548', '7250'], ['0.067581', '1419'], ['0.067582', '13330'], ['0.067616', '1869'], ['0.067618', '7250']], 'bids': [['0.067313', '2702'], ['0.067312', '167'], ['0.067311', '3476'], ['0.06731', '13330'], ['0.067256', '2702']], 'timestamp': 1731150842329}
+2024-11-09 11:14:11.814494 script finished
+======================================
+11:28:02.107 - INFO - Lock acquired. - acquire_lock
+11:28:02.117 - INFO - Starting script - main
+11:28:02.117 - INFO - Release time and date: 09-11-2024 11:28:12.117 - get_price_websocket_best_ask_bid
+11:28:02.577 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+11:28:02.647 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+11:28:02.647 - INFO - 25 seconds left until token release - wait_until_listing
+11:28:12.118 - DEBUG - Received data: {'id': '1731151682577', 'type': 'pong'} - get_price_websocket_best_ask_bid
+11:28:12.118 - DEBUG - Received data: {'topic': '/spotMarket/level2Depth5:SWELL-USDT', 'type': 'message', 'subject': 'level2', 'data': {'asks': [['0.067115', '2702'], ['0.067116', '7250'], ['0.067178', '2702'], ['0.067179', '1478'], ['0.06718', '2702']], 'bids': [['0.066995', '741'], ['0.066847', '8540'], ['0.066846', '185'], ['0.066841', '7250'], ['0.06684', '391']], 'timestamp': 1731151682624}} - get_price_websocket_best_ask_bid
+11:28:12.118 - INFO - data from WebSocket: {'asks': [['0.067115', '2702'], ['0.067116', '7250'], ['0.067178', '2702'], ['0.067179', '1478'], ['0.06718', '2702']], 'bids': [['0.066995', '741'], ['0.066847', '8540'], ['0.066846', '185'], ['0.066841', '7250'], ['0.06684', '391']], 'timestamp': 1731151682624}  - get_price_websocket_best_ask_bid
+11:28:12.119 - DEBUG - Data from socket: {'asks': [['0.067115', '2702'], ['0.067116', '7250'], ['0.067178', '2702'], ['0.067179', '1478'], ['0.06718', '2702']], 'bids': [['0.066995', '741'], ['0.066847', '8540'], ['0.066846', '185'], ['0.066841', '7250'], ['0.06684', '391']], 'timestamp': 1731151682624} - get_price_websocket_best_ask_bid
+11:28:12.190 - INFO - Lock released. - release_lock
+Successfully retrieved SWELL price: {'asks': [['0.067115', '2702'], ['0.067116', '7250'], ['0.067178', '2702'], ['0.067179', '1478'], ['0.06718', '2702']], 'bids': [['0.066995', '741'], ['0.066847', '8540'], ['0.066846', '185'], ['0.066841', '7250'], ['0.06684', '391']], 'timestamp': 1731151682624}
+2024-11-09 11:28:12.190594 script finished
+======================================
+11:42:03.040 - INFO - Lock acquired. - acquire_lock
+11:42:03.040 - INFO - Starting script - main
+11:42:03.040 - INFO - Release time and date: 09-11-2024 11:42:13.040 - get_price_websocket_best_ask_bid
+11:42:03.520 - INFO - Subscription request sent for SWELL-USDT - initialize_websocket
+11:42:03.591 - INFO - Successfully subscribed to SWELL-USDT - wait_for_subscription
+11:42:03.592 - INFO - 25 seconds left until token release - wait_until_listing
+11:42:13.041 - DEBUG - Received data: {'id': '1731152523521', 'type': 'pong'} - get_price_websocket_best_ask_bid
+11:42:13.042 - DEBUG - Received data: {'topic': '/spotMarket/level2Depth5:SWELL-USDT', 'type': 'message', 'subject': 'level2', 'data': {'asks': [['0.064848', '2702'], ['0.06485', '2702'], ['0.064852', '2702'], ['0.064945', '922'], ['0.064991', '3154']], 'bids': [['0.064693', '382'], ['0.064692', '7634'], ['0.064661', '13870'], ['0.064628', '2702'], ['0.064627', '14131']], 'timestamp': 1731152523617}} - get_price_websocket_best_ask_bid
+11:42:13.042 - INFO - data from WebSocket: {'asks': [['0.064848', '2702'], ['0.06485', '2702'], ['0.064852', '2702'], ['0.064945', '922'], ['0.064991', '3154']], 'bids': [['0.064693', '382'], ['0.064692', '7634'], ['0.064661', '13870'], ['0.064628', '2702'], ['0.064627', '14131']], 'timestamp': 1731152523617}  - get_price_websocket_best_ask_bid
+11:42:13.042 - DEBUG - Data from socket: {'asks': [['0.064848', '2702'], ['0.06485', '2702'], ['0.064852', '2702'], ['0.064945', '922'], ['0.064991', '3154']], 'bids': [['0.064693', '382'], ['0.064692', '7634'], ['0.064661', '13870'], ['0.064628', '2702'], ['0.064627', '14131']], 'timestamp': 1731152523617} - get_price_websocket_best_ask_bid
+11:42:13.114 - INFO - Lock released. - release_lock
+Successfully retrieved SWELL price: {'asks': [['0.064848', '2702'], ['0.06485', '2702'], ['0.064852', '2702'], ['0.064945', '922'], ['0.064991', '3154']], 'bids': [['0.064693', '382'], ['0.064692', '7634'], ['0.064661', '13870'], ['0.064628', '2702'], ['0.064627', '14131']], 'timestamp': 1731152523617}
+2024-11-09 11:42:13.114243 script finished
+======================================
+11:56:02.659 - INFO - Lock acquired. - acquire_lock
+11:56:02.668 - INFO - Starting script - main
+11:56:02.673 - INFO - Detected new pair XRPUSDT at Nov 09, 2024, 12:15PM - main
+11:56:02.688 - INFO - Release time and date: 09-11-2024 12:15:00.000 - get_price_websocket_best_ask_bid
+11:56:03.099 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+11:56:03.173 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+11:56:03.174 - INFO - Waiting 1136.83 seconds until token release time - wait_until_listing
+12:00:03.198 - WARNING - Another instance is running. Exiting. - acquire_lock
+12:14:38.991 - INFO - 25 seconds left until token release - wait_until_listing
+12:15:00.001 - DEBUG - Received data: {'id': '1731153363099', 'type': 'pong'} - get_price_websocket_best_ask_bid
+12:15:00.002 - DEBUG - Received data: {'topic': '/spotMarket/level2Depth5:XRP-USDT', 'type': 'message', 'subject': 'level2', 'data': {'asks': [['0.55263', '3414.273'], ['0.55268', '1042.4607'], ['0.55269', '2754.8691'], ['0.55272', '75.0001'], ['0.55273', '1095.8']], 'bids': [['0.55262', '937.5903'], ['0.55254', '1095.8'], ['0.5525', '18.099'], ['0.55249', '833.4509'], ['0.55248', '4074.0336']], 'timestamp': 1731153363169}} - get_price_websocket_best_ask_bid
+12:15:00.003 - INFO - data from WebSocket: {'asks': [['0.55263', '3414.273'], ['0.55268', '1042.4607'], ['0.55269', '2754.8691'], ['0.55272', '75.0001'], ['0.55273', '1095.8']], 'bids': [['0.55262', '937.5903'], ['0.55254', '1095.8'], ['0.5525', '18.099'], ['0.55249', '833.4509'], ['0.55248', '4074.0336']], 'timestamp': 1731153363169}  - get_price_websocket_best_ask_bid
+12:15:00.005 - DEBUG - Data from socket: {'asks': [['0.55263', '3414.273'], ['0.55268', '1042.4607'], ['0.55269', '2754.8691'], ['0.55272', '75.0001'], ['0.55273', '1095.8']], 'bids': [['0.55262', '937.5903'], ['0.55254', '1095.8'], ['0.5525', '18.099'], ['0.55249', '833.4509'], ['0.55248', '4074.0336']], 'timestamp': 1731153363169} - get_price_websocket_best_ask_bid
+12:15:00.005 - INFO - Successfully retrieved XRP price: {'asks': [['0.55263', '3414.273'], ['0.55268', '1042.4607'], ['0.55269', '2754.8691'], ['0.55272', '75.0001'], ['0.55273', '1095.8']], 'bids': [['0.55262', '937.5903'], ['0.55254', '1095.8'], ['0.5525', '18.099'], ['0.55249', '833.4509'], ['0.55248', '4074.0336']], 'timestamp': 1731153363169} - main
+12:15:00.403 - DEBUG - break for after detecting pair loop - main
+12:15:00.403 - INFO - Lock released. - release_lock
+2024-11-09 12:15:00.403706 script finished
+======================================
+12:16:02.472 - INFO - Lock acquired. - acquire_lock
+12:16:02.473 - INFO - Starting script - main
+12:16:02.489 - INFO - Detected new pair XRPUSDT at Nov 09, 2024, 12:30PM - main
+12:16:02.489 - INFO - Release time and date: 09-11-2024 12:30:00.000 - get_price_websocket_best_ask_bid
+12:16:02.955 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+12:16:03.027 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+12:16:03.028 - INFO - Waiting 836.97 seconds until token release time - wait_until_listing

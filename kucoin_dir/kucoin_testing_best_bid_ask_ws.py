@@ -13,7 +13,7 @@ import os
 import fcntl  # Import fcntl for file locking
 import json
 
-*/14 * * * * /root/trading_systems/tradingvenv/bin/python /root/trading_systems/kucoin_dir/kucoin_testing_best_bid_ask_ws.py >> /root/trading_systems/kucoin_dir/cronlogs/kucoin_testing_best_bid_ask_ws.log 2>&1
+# */14 * * * * /root/trading_systems/tradingvenv/bin/python /root/trading_systems/kucoin_dir/kucoin_testing_best_bid_ask_ws.py >> /root/trading_systems/kucoin_dir/cronlogs/kucoin_testing_best_bid_ask_ws.log 2>&1
 
 # Configure logging with microsecond precision and function names
 logging.basicConfig(
@@ -34,7 +34,7 @@ async def main():
         logger.info("Starting script")
 
         directory = '/root/trading_systems/kucoin_dir/new_pair_data_kucoin'
-        testing = True
+        testing = False
         testing_time = 10
         if testing:
             symbol = 'SWELL'
@@ -99,10 +99,11 @@ async def main():
                     logger.debug('break for after detecting pair loop')
                     break
                 
-        print(f'{datetime.now()} script finished')
-        print('======================================')
+
     finally:
         release_lock(lock_file)
+        print(f'{datetime.now()} script finished')
+        print('======================================')
 
 
 def acquire_lock():

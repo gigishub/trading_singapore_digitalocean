@@ -400,3 +400,167 @@ NameError: name 'asyncio' is not defined
 07:00:01.498 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
 07:00:01.499 - INFO - Waiting 898.50 seconds until token release time - wait_until_listing
 >>>>>>> update_ws_kucoin
+07:28:01.418 - INFO - Lock acquired. - acquire_lock
+07:28:01.655 - INFO - Starting script - main
+07:28:01.661 - INFO - Detected new pair XRPUSDT at Nov 09, 2024, 07:30AM - main
+07:28:01.661 - INFO - Release time and date: 09-11-2024 07:30:00.000 - get_price_websocket_match_level3
+07:28:02.094 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+07:28:02.164 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+07:28:02.164 - INFO - Waiting 117.84 seconds until token release time - wait_until_listing
+07:29:37.222 - INFO - 25 seconds left until token release - wait_until_listing
+07:30:00.000 - DEBUG - Received data: {'id': '1731137282094', 'type': 'pong'} - get_price_websocket_match_level3
+07:30:00.001 - DEBUG - Received data: {'topic': '/market/match:XRP-USDT', 'type': 'message', 'subject': 'trade.l3match', 'data': {'makerOrderId': '672f0ed81d476000072fc045', 'price': '0.55116', 'sequence': '10427324560852993', 'side': 'sell', 'size': '1478.1967', 'symbol': 'XRP-USDT', 'takerOrderId': '672f0f09ab0f0a00075598f1', 'time': '1731137289147000000', 'tradeId': '10427324560852993', 'type': 'match'}} - get_price_websocket_match_level3
+07:30:00.001 - INFO - data from WebSocket: {'makerOrderId': '672f0ed81d476000072fc045', 'price': '0.55116', 'sequence': '10427324560852993', 'side': 'sell', 'size': '1478.1967', 'symbol': 'XRP-USDT', 'takerOrderId': '672f0f09ab0f0a00075598f1', 'time': '1731137289147000000', 'tradeId': '10427324560852993', 'type': 'match'}  - get_price_websocket_match_level3
+07:30:00.001 - DEBUG - Data from socket: {'makerOrderId': '672f0ed81d476000072fc045', 'price': '0.55116', 'sequence': '10427324560852993', 'side': 'sell', 'size': '1478.1967', 'symbol': 'XRP-USDT', 'takerOrderId': '672f0f09ab0f0a00075598f1', 'time': '1731137289147000000', 'tradeId': '10427324560852993', 'type': 'match'} - get_price_websocket_match_level3
+07:30:00.001 - INFO - Successfully retrieved XRP price: {'makerOrderId': '672f0ed81d476000072fc045', 'price': '0.55116', 'sequence': '10427324560852993', 'side': 'sell', 'size': '1478.1967', 'symbol': 'XRP-USDT', 'takerOrderId': '672f0f09ab0f0a00075598f1', 'time': '1731137289147000000', 'tradeId': '10427324560852993', 'type': 'match'} - main
+07:30:00.072 - DEBUG - break for after detecting pair loop - main
+07:30:00.072 - INFO - 2024-11-09 07:30:00.072397 script finished - main
+07:30:00.072 - INFO - Lock released. - release_lock
+07:42:01.214 - INFO - Lock acquired. - acquire_lock
+07:42:01.588 - INFO - Starting script - main
+07:42:01.598 - INFO - Detected new pair XRPUSDT at Nov 09, 2024, 08:00AM - main
+07:42:01.599 - INFO - Release time and date: 09-11-2024 08:00:00.000 - get_price_websocket_match_level3
+07:42:02.045 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+07:42:02.119 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+07:42:02.119 - INFO - Waiting 1077.88 seconds until token release time - wait_until_listing
+07:56:01.682 - WARNING - Another instance is running. Exiting. - acquire_lock
+07:59:37.773 - INFO - 25 seconds left until token release - wait_until_listing
+08:00:00.000 - DEBUG - Received data: {'id': '1731138122045', 'type': 'pong'} - get_price_websocket_match_level3
+08:00:00.000 - DEBUG - Received data: {'topic': '/market/match:XRP-USDT', 'type': 'message', 'subject': 'trade.l3match', 'data': {'makerOrderId': '672f1243c95c310007d0eb91', 'price': '0.55154', 'sequence': '10427431122388993', 'side': 'sell', 'size': '22.6899', 'symbol': 'XRP-USDT', 'takerOrderId': '672f1254cf1a8700078da267', 'time': '1731138132834000000', 'tradeId': '10427431122388993', 'type': 'match'}} - get_price_websocket_match_level3
+08:00:00.000 - INFO - data from WebSocket: {'makerOrderId': '672f1243c95c310007d0eb91', 'price': '0.55154', 'sequence': '10427431122388993', 'side': 'sell', 'size': '22.6899', 'symbol': 'XRP-USDT', 'takerOrderId': '672f1254cf1a8700078da267', 'time': '1731138132834000000', 'tradeId': '10427431122388993', 'type': 'match'}  - get_price_websocket_match_level3
+08:00:00.000 - DEBUG - Data from socket: {'makerOrderId': '672f1243c95c310007d0eb91', 'price': '0.55154', 'sequence': '10427431122388993', 'side': 'sell', 'size': '22.6899', 'symbol': 'XRP-USDT', 'takerOrderId': '672f1254cf1a8700078da267', 'time': '1731138132834000000', 'tradeId': '10427431122388993', 'type': 'match'} - get_price_websocket_match_level3
+08:00:00.000 - INFO - Successfully retrieved XRP price: {'makerOrderId': '672f1243c95c310007d0eb91', 'price': '0.55154', 'sequence': '10427431122388993', 'side': 'sell', 'size': '22.6899', 'symbol': 'XRP-USDT', 'takerOrderId': '672f1254cf1a8700078da267', 'time': '1731138132834000000', 'tradeId': '10427431122388993', 'type': 'match'} - main
+08:00:00.075 - DEBUG - break for after detecting pair loop - main
+08:00:00.075 - INFO - 2024-11-09 08:00:00.075255 script finished - main
+08:00:00.075 - INFO - Lock released. - release_lock
+08:00:00.383 - INFO - Lock acquired. - acquire_lock
+08:00:00.956 - INFO - Starting script - main
+08:00:00.970 - INFO - Detected new pair XRPUSDT at Nov 09, 2024, 08:15AM - main
+08:00:00.970 - INFO - Release time and date: 09-11-2024 08:15:00.000 - get_price_websocket_match_level3
+08:00:02.376 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+08:00:02.504 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+08:00:02.514 - INFO - Waiting 897.49 seconds until token release time - wait_until_listing
+08:14:01.606 - WARNING - Another instance is running. Exiting. - acquire_lock
+08:14:38.120 - INFO - 25 seconds left until token release - wait_until_listing
+08:15:00.007 - DEBUG - Received data: {'id': '1731139202380', 'type': 'pong'} - get_price_websocket_match_level3
+08:15:00.007 - DEBUG - Received data: {'topic': '/market/match:XRP-USDT', 'type': 'message', 'subject': 'trade.l3match', 'data': {'makerOrderId': '672f16801adc4d00074c76e9', 'price': '0.55308', 'sequence': '10427594947840001', 'side': 'buy', 'size': '3.0452', 'symbol': 'XRP-USDT', 'takerOrderId': '672f16821d47600007511414', 'time': '1731139202601000000', 'tradeId': '10427594947840001', 'type': 'match'}} - get_price_websocket_match_level3
+08:15:00.007 - INFO - data from WebSocket: {'makerOrderId': '672f16801adc4d00074c76e9', 'price': '0.55308', 'sequence': '10427594947840001', 'side': 'buy', 'size': '3.0452', 'symbol': 'XRP-USDT', 'takerOrderId': '672f16821d47600007511414', 'time': '1731139202601000000', 'tradeId': '10427594947840001', 'type': 'match'}  - get_price_websocket_match_level3
+08:15:00.008 - DEBUG - Data from socket: {'makerOrderId': '672f16801adc4d00074c76e9', 'price': '0.55308', 'sequence': '10427594947840001', 'side': 'buy', 'size': '3.0452', 'symbol': 'XRP-USDT', 'takerOrderId': '672f16821d47600007511414', 'time': '1731139202601000000', 'tradeId': '10427594947840001', 'type': 'match'} - get_price_websocket_match_level3
+08:15:00.008 - INFO - Successfully retrieved XRP price: {'makerOrderId': '672f16801adc4d00074c76e9', 'price': '0.55308', 'sequence': '10427594947840001', 'side': 'buy', 'size': '3.0452', 'symbol': 'XRP-USDT', 'takerOrderId': '672f16821d47600007511414', 'time': '1731139202601000000', 'tradeId': '10427594947840001', 'type': 'match'} - main
+08:15:00.084 - DEBUG - break for after detecting pair loop - main
+08:15:00.085 - INFO - 2024-11-09 08:15:00.085085 script finished - main
+08:15:00.085 - INFO - Lock released. - release_lock
+08:28:01.883 - INFO - Lock acquired. - acquire_lock
+08:28:02.231 - INFO - Starting script - main
+08:28:02.243 - INFO - Detected new pair XRPUSDT at Nov 09, 2024, 08:45AM - main
+08:28:02.247 - INFO - Release time and date: 09-11-2024 08:45:00.000 - get_price_websocket_match_level3
+08:28:02.688 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+08:28:02.759 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+08:28:02.760 - INFO - Waiting 1017.24 seconds until token release time - wait_until_listing
+08:42:02.228 - WARNING - Another instance is running. Exiting. - acquire_lock
+08:44:38.472 - INFO - 25 seconds left until token release - wait_until_listing
+08:45:00.000 - DEBUG - Received data: {'id': '1731140882689', 'type': 'pong'} - get_price_websocket_match_level3
+08:45:00.000 - DEBUG - Received data: {'topic': '/market/match:XRP-USDT', 'type': 'message', 'subject': 'trade.l3match', 'data': {'makerOrderId': '672f1d0fab0f0a000793c81b', 'price': '0.55578', 'sequence': '10427848947943425', 'side': 'buy', 'size': '61.6198', 'symbol': 'XRP-USDT', 'takerOrderId': '672f1d17355a3600076787ed', 'time': '1731140887532000000', 'tradeId': '10427848947943425', 'type': 'match'}} - get_price_websocket_match_level3
+08:45:00.000 - INFO - data from WebSocket: {'makerOrderId': '672f1d0fab0f0a000793c81b', 'price': '0.55578', 'sequence': '10427848947943425', 'side': 'buy', 'size': '61.6198', 'symbol': 'XRP-USDT', 'takerOrderId': '672f1d17355a3600076787ed', 'time': '1731140887532000000', 'tradeId': '10427848947943425', 'type': 'match'}  - get_price_websocket_match_level3
+08:45:00.000 - DEBUG - Data from socket: {'makerOrderId': '672f1d0fab0f0a000793c81b', 'price': '0.55578', 'sequence': '10427848947943425', 'side': 'buy', 'size': '61.6198', 'symbol': 'XRP-USDT', 'takerOrderId': '672f1d17355a3600076787ed', 'time': '1731140887532000000', 'tradeId': '10427848947943425', 'type': 'match'} - get_price_websocket_match_level3
+08:45:00.000 - INFO - Successfully retrieved XRP price: {'makerOrderId': '672f1d0fab0f0a000793c81b', 'price': '0.55578', 'sequence': '10427848947943425', 'side': 'buy', 'size': '61.6198', 'symbol': 'XRP-USDT', 'takerOrderId': '672f1d17355a3600076787ed', 'time': '1731140887532000000', 'tradeId': '10427848947943425', 'type': 'match'} - main
+08:45:00.072 - DEBUG - break for after detecting pair loop - main
+08:45:00.072 - INFO - 2024-11-09 08:45:00.072677 script finished - main
+08:45:00.072 - INFO - Lock released. - release_lock
+08:56:02.272 - INFO - Lock acquired. - acquire_lock
+08:56:02.733 - INFO - Starting script - main
+08:56:02.746 - INFO - Detected new pair XRPUSDT at Nov 09, 2024, 09:00AM - main
+08:56:02.746 - INFO - Release time and date: 09-11-2024 09:00:00.000 - get_price_websocket_match_level3
+08:56:03.181 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+08:56:03.251 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+08:56:03.251 - INFO - Waiting 236.75 seconds until token release time - wait_until_listing
+08:59:38.376 - INFO - 25 seconds left until token release - wait_until_listing
+09:00:00.001 - DEBUG - Received data: {'id': '1731142563181', 'type': 'pong'} - get_price_websocket_match_level3
+09:00:00.001 - DEBUG - Received data: {'topic': '/market/match:XRP-USDT', 'type': 'message', 'subject': 'trade.l3match', 'data': {'makerOrderId': '672f238e392ff70007d37135', 'price': '0.55453', 'sequence': '10428103405094913', 'side': 'sell', 'size': '22.3523', 'symbol': 'XRP-USDT', 'takerOrderId': '672f23a4429d8b0007536972', 'time': '1731142564442000000', 'tradeId': '10428103405094913', 'type': 'match'}} - get_price_websocket_match_level3
+09:00:00.001 - INFO - data from WebSocket: {'makerOrderId': '672f238e392ff70007d37135', 'price': '0.55453', 'sequence': '10428103405094913', 'side': 'sell', 'size': '22.3523', 'symbol': 'XRP-USDT', 'takerOrderId': '672f23a4429d8b0007536972', 'time': '1731142564442000000', 'tradeId': '10428103405094913', 'type': 'match'}  - get_price_websocket_match_level3
+09:00:00.001 - DEBUG - Data from socket: {'makerOrderId': '672f238e392ff70007d37135', 'price': '0.55453', 'sequence': '10428103405094913', 'side': 'sell', 'size': '22.3523', 'symbol': 'XRP-USDT', 'takerOrderId': '672f23a4429d8b0007536972', 'time': '1731142564442000000', 'tradeId': '10428103405094913', 'type': 'match'} - get_price_websocket_match_level3
+09:00:00.001 - INFO - Successfully retrieved XRP price: {'makerOrderId': '672f238e392ff70007d37135', 'price': '0.55453', 'sequence': '10428103405094913', 'side': 'sell', 'size': '22.3523', 'symbol': 'XRP-USDT', 'takerOrderId': '672f23a4429d8b0007536972', 'time': '1731142564442000000', 'tradeId': '10428103405094913', 'type': 'match'} - main
+09:00:00.071 - DEBUG - break for after detecting pair loop - main
+09:00:00.072 - INFO - 2024-11-09 09:00:00.072420 script finished - main
+09:00:00.072 - INFO - Lock released. - release_lock
+09:00:00.547 - INFO - Lock acquired. - acquire_lock
+09:00:01.124 - INFO - Starting script - main
+09:00:01.139 - INFO - 2024-11-09 09:00:01.139106 script finished - main
+09:00:01.148 - INFO - Lock released. - release_lock
+09:14:01.425 - INFO - Lock acquired. - acquire_lock
+09:14:02.064 - INFO - Starting script - main
+09:14:02.084 - INFO - 2024-11-09 09:14:02.084210 script finished - main
+09:14:02.096 - INFO - Lock released. - release_lock
+09:28:01.601 - INFO - Lock acquired. - acquire_lock
+09:28:01.869 - INFO - Starting script - main
+09:28:01.886 - INFO - 2024-11-09 09:28:01.885966 script finished - main
+09:28:01.888 - INFO - Lock released. - release_lock
+09:42:02.237 - INFO - Lock acquired. - acquire_lock
+09:42:02.654 - INFO - Starting script - main
+09:42:02.679 - INFO - 2024-11-09 09:42:02.679253 script finished - main
+09:42:02.679 - INFO - Lock released. - release_lock
+09:56:01.370 - INFO - Lock acquired. - acquire_lock
+09:56:01.712 - INFO - Starting script - main
+09:56:01.734 - INFO - 2024-11-09 09:56:01.734530 script finished - main
+09:56:01.744 - INFO - Lock released. - release_lock
+10:00:02.317 - INFO - Lock acquired. - acquire_lock
+10:00:03.016 - INFO - Starting script - main
+10:00:03.037 - INFO - 2024-11-09 10:00:03.037813 script finished - main
+10:00:03.038 - INFO - Lock released. - release_lock
+10:14:02.132 - INFO - Lock acquired. - acquire_lock
+10:14:02.427 - INFO - Starting script - main
+10:14:02.442 - INFO - 2024-11-09 10:14:02.442088 script finished - main
+10:14:02.442 - INFO - Lock released. - release_lock
+10:28:01.923 - INFO - Lock acquired. - acquire_lock
+10:28:02.245 - INFO - Starting script - main
+10:28:02.272 - INFO - 2024-11-09 10:28:02.272923 script finished - main
+10:28:02.273 - INFO - Lock released. - release_lock
+10:42:02.105 - INFO - Lock acquired. - acquire_lock
+10:42:02.445 - INFO - Starting script - main
+10:42:02.459 - INFO - 2024-11-09 10:42:02.459231 script finished - main
+10:42:02.467 - INFO - Lock released. - release_lock
+10:56:01.542 - INFO - Lock acquired. - acquire_lock
+10:56:01.823 - INFO - Starting script - main
+10:56:01.840 - INFO - 2024-11-09 10:56:01.840222 script finished - main
+10:56:01.844 - INFO - Lock released. - release_lock
+11:00:01.638 - INFO - Lock acquired. - acquire_lock
+11:00:02.233 - INFO - Starting script - main
+11:00:02.248 - INFO - 2024-11-09 11:00:02.248211 script finished - main
+11:00:02.275 - INFO - Lock released. - release_lock
+11:14:01.377 - INFO - Lock acquired. - acquire_lock
+11:14:01.822 - INFO - Starting script - main
+11:14:01.845 - INFO - 2024-11-09 11:14:01.845721 script finished - main
+11:14:01.846 - INFO - Lock released. - release_lock
+11:28:01.592 - INFO - Lock acquired. - acquire_lock
+11:28:02.052 - INFO - Starting script - main
+11:28:02.066 - INFO - 2024-11-09 11:28:02.066511 script finished - main
+11:28:02.080 - INFO - Lock released. - release_lock
+11:42:02.443 - INFO - Lock acquired. - acquire_lock
+11:42:03.167 - INFO - Starting script - main
+11:42:03.220 - INFO - 2024-11-09 11:42:03.220910 script finished - main
+11:42:03.221 - INFO - Lock released. - release_lock
+11:56:02.687 - INFO - Lock acquired. - acquire_lock
+11:56:02.697 - INFO - Starting script - main
+11:56:02.703 - INFO - Detected new pair XRPUSDT at Nov 09, 2024, 12:15PM - main
+11:56:02.720 - INFO - Release time and date: 09-11-2024 12:15:00.000 - get_price_websocket_match_level3
+11:56:03.152 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+11:56:03.224 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+11:56:03.225 - INFO - Waiting 1136.77 seconds until token release time - wait_until_listing
+12:00:03.129 - WARNING - Another instance is running. Exiting. - acquire_lock
+12:14:38.975 - INFO - 25 seconds left until token release - wait_until_listing
+12:15:00.012 - DEBUG - Received data: {'id': '1731153363153', 'type': 'pong'} - get_price_websocket_match_level3
+12:15:00.013 - DEBUG - Received data: {'topic': '/market/match:XRP-USDT', 'type': 'message', 'subject': 'trade.l3match', 'data': {'makerOrderId': '672f4d9198326e0007667fc1', 'price': '0.55262', 'sequence': '10429541976786945', 'side': 'sell', 'size': '12.5905', 'symbol': 'XRP-USDT', 'takerOrderId': '672f4ddf54d62a00079c3b05', 'time': '1731153375168000000', 'tradeId': '10429541976786945', 'type': 'match'}} - get_price_websocket_match_level3
+12:15:00.013 - INFO - data from WebSocket: {'makerOrderId': '672f4d9198326e0007667fc1', 'price': '0.55262', 'sequence': '10429541976786945', 'side': 'sell', 'size': '12.5905', 'symbol': 'XRP-USDT', 'takerOrderId': '672f4ddf54d62a00079c3b05', 'time': '1731153375168000000', 'tradeId': '10429541976786945', 'type': 'match'}  - get_price_websocket_match_level3
+12:15:00.013 - DEBUG - Data from socket: {'makerOrderId': '672f4d9198326e0007667fc1', 'price': '0.55262', 'sequence': '10429541976786945', 'side': 'sell', 'size': '12.5905', 'symbol': 'XRP-USDT', 'takerOrderId': '672f4ddf54d62a00079c3b05', 'time': '1731153375168000000', 'tradeId': '10429541976786945', 'type': 'match'} - get_price_websocket_match_level3
+12:15:00.013 - INFO - Successfully retrieved XRP price: {'makerOrderId': '672f4d9198326e0007667fc1', 'price': '0.55262', 'sequence': '10429541976786945', 'side': 'sell', 'size': '12.5905', 'symbol': 'XRP-USDT', 'takerOrderId': '672f4ddf54d62a00079c3b05', 'time': '1731153375168000000', 'tradeId': '10429541976786945', 'type': 'match'} - main
+12:15:00.089 - DEBUG - break for after detecting pair loop - main
+12:15:00.089 - INFO - Lock released. - release_lock
+2024-11-09 12:15:00.089801 script finished
+======================================
+12:16:02.578 - INFO - Lock acquired. - acquire_lock
+12:16:02.596 - INFO - Starting script - main
+12:16:02.603 - INFO - Detected new pair XRPUSDT at Nov 09, 2024, 12:30PM - main
+12:16:02.606 - INFO - Release time and date: 09-11-2024 12:30:00.000 - get_price_websocket_match_level3
+12:16:03.146 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+12:16:03.217 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+12:16:03.217 - INFO - Waiting 836.78 seconds until token release time - wait_until_listing

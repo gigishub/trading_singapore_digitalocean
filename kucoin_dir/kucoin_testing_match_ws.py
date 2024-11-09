@@ -3,6 +3,15 @@ import os
 import fcntl  # Import fcntl for file locking
 import logging
 import asyncio
+import aiohttp
+import time
+import orjson
+from datetime import datetime, timedelta
+from typing import Optional
+import traceback
+from kucoin_websocket_collection import Kucoin_websocket_collection
+import json
+
 
 # Configure logging with microsecond precision and function names
 logging.basicConfig(
@@ -15,99 +24,9 @@ logger.setLevel(logging.DEBUG)
 
 LOCK_FILE = '/tmp/kucoin_testing_match_ws.lock'
 
-def acquire_lock():
-    """Acquire a file lock to prevent multiple instances from running."""
-    try:
-        lock_file = open(LOCK_FILE, 'w')
-        # Acquire an exclusive non-blocking lock
-        fcntl.flock(lock_file, fcntl.LOCK_EX | fcntl.LOCK_NB)
-        lock_file.write(str(os.getpid()))
-        lock_file.flush()
-        logger.info("Lock acquired.")
-        return lock_file
-    except BlockingIOError:
-        logger.warning("Another instance is running. Exiting.")
-        sys.exit(0)
-    except Exception as e:
-        logger.error(f"Unexpected error acquiring lock: {e}")
-        sys.exit(1)
-
-def release_lock(lock_file):
-    """Release the file lock."""
-    try:
-        fcntl.flock(lock_file, fcntl.LOCK_UN)
-        lock_file.close()
-        logger.info("Lock released.")
-    except Exception as e:
-        logger.error(f"Unexpected error releasing lock: {e}")
-
-def parse_date_time_string(date_time_string):
-    """
-    Parses a date-time string into a dictionary containing its components.
-
-    The function preprocesses the input string to remove commas and extra spaces.
-    It then attempts to parse the string using a simplified list of datetime formats.
-    If successful, it returns a dictionary with date-time components.
-
-    Args:
-        date_time_string (str): The date-time string to parse.
-
-    Returns:
-        dict: A dictionary containing the parsed date-time components or an error message.
-    """
-    import re
-    from datetime import datetime
-
-    # Preprocess the input string: remove commas and extra spaces
-    date_time_string = date_time_string.replace(',', '')
-    date_time_string = re.sub(r'\s+', ' ', date_time_string.strip())
-
-    # List of possible datetime formats
-    formats = [
-        "%b %d %Y %I:%M:%S%p",  # e.g., "Jan 21 2027 12:09:09PM"
-        "%b %d %Y %I:%M%p",     # e.g., "Jan 1 2027 12:09PM"
-        "%b %d %Y %I%p",        # e.g., "Jan 1 2027 12PM"
-        "%B %d %Y %I:%M:%S%p",  # e.g., "January 21 2027 12:09:09PM"
-        "%B %d %Y %I:%M%p",     # e.g., "January 1 2027 12:09PM"
-        "%B %d %Y %I%p",        # e.g., "January 1 2027 12PM"
-    ]
-
-    for fmt in formats:
-        try:
-            target_datetime = datetime.strptime(date_time_string, fmt)
-            # Create the result dictionary
-            result = {
-                'year': target_datetime.year,
-                'month': target_datetime.month,
-                'day': target_datetime.day,
-                'hour': target_datetime.hour,
-                'minute': target_datetime.minute,
-                'second': target_datetime.second,
-                'day_of_week': target_datetime.strftime('%a').lower(),
-                'formatted_string': target_datetime.strftime('%Y-%m-%d %H:%M:%S')
-            }
-            return result
-        except ValueError:
-            continue
-
-    # If none of the formats work, return an error message
-    return {'error': f"Date time string '{date_time_string}' does not match any known formats"}
-
-
 async def main():
-    # Acquire the lock before importing heavy modules
     lock_file = acquire_lock()
     try:
-        import aiohttp
-        import asyncio
-        import time
-        import orjson
-        from datetime import datetime, timedelta
-        from typing import Optional
-        import traceback
-        from kucoin_websocket_collection import Kucoin_websocket_collection
-        import json
-
         logger.info("Starting script")
 
         directory = '/root/trading_systems/kucoin_dir/new_pair_data_kucoin'
@@ -181,18 +100,93 @@ async def main():
                             logger.info(f"Successfully retrieved {symbol} price: {change_data}")
                     finally:
                         await scraper.cleanup()
-                    #break if pair has been dettected and wait for next cronjob
+                    #break if pair has been detected and wait for next cronjob
                     logger.debug('break for after detecting pair loop')
                     break
-        logger.info(f'{datetime.now()} script finished')
+
+
     finally:
         release_lock(lock_file)
+        print(f'{datetime.now()} script finished')
+        print('======================================')
+
+def acquire_lock():
+    """Acquire a file lock to prevent multiple instances from running."""
+    try:
+        lock_file = open(LOCK_FILE, 'w')
+        fcntl.flock(lock_file, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        lock_file.write(str(os.getpid()))
+        lock_file.flush()
+        logger.info("Lock acquired.")
+        return lock_file
+    
+    except BlockingIOError:
+        logger.warning("Another instance is running. Exiting.")
+        sys.exit(0)
+    except Exception as e:
+        logger.warning(f"Unexpected error acquiring lock: {e}")
+        sys.exit(1)
+
+def release_lock(lock_file):
+    """Release the file lock."""
+    try:
+        fcntl.flock(lock_file, fcntl.LOCK_UN)
+        lock_file.close()
+        logger.info("Lock released.")
+    except Exception as e:
+        logger.error(f"Unexpected error releasing lock: {e}")
+
+def parse_date_time_string(date_time_string):
+    """
+    Parses a date-time string into a dictionary containing its components.
+
+    The function preprocesses the input string to remove commas and extra spaces.
+    It then attempts to parse the string using a simplified list of datetime formats.
+    If successful, it returns a dictionary with date-time components.
+
+    Args:
+        date_time_string (str): The date-time string to parse.
+
+    Returns:
+        dict: A dictionary containing the parsed date-time components or an error message.
+    """
+    import re
+    from datetime import datetime
+
+    # Preprocess the input string: remove commas and extra spaces
+    date_time_string = date_time_string.replace(',', '')
+    date_time_string = re.sub(r'\s+', ' ', date_time_string.strip())
+
+    # List of possible datetime formats
+    formats = [
+        "%b %d %Y %I:%M:%S%p",  # e.g., "Jan 21 2027 12:09:09PM"
+        "%b %d %Y %I:%M%p",     # e.g., "Jan 1 2027 12:09PM"
+        "%b %d %Y %I%p",        # e.g., "Jan 1 2027 12PM"
+        "%B %d %Y %I:%M:%S%p",  # e.g., "January 21 2027 12:09:09PM"
+        "%B %d %Y %I:%M%p",     # e.g., "January 1 2027 12:09PM"
+        "%B %d %Y %I%p",        # e.g., "January 1 2027 12PM"
+    ]
+
+    for fmt in formats:
+        try:
+            target_datetime = datetime.strptime(date_time_string, fmt)
+            # Create the result dictionary
+            result = {
+                'year': target_datetime.year,
+                'month': target_datetime.month,
+                'day': target_datetime.day,
+                'hour': target_datetime.hour,
+                'minute': target_datetime.minute,
+                'second': target_datetime.second,
+                'day_of_week': target_datetime.strftime('%a').lower(),
+                'formatted_string': target_datetime.strftime('%Y-%m-%d %H:%M:%S')
+            }
+            return result
+        except ValueError:
+            continue
+
+    # If none of the formats work, return an error message
+    return {'error': f"Date time string '{date_time_string}' does not match any known formats"}
 
 if __name__ == "__main__":
-
-    # Use asyncio.run() if available, else use event loop
-    if sys.version_info >= (3, 7):
-        asyncio.run(main())
-    else:
-        loop = asyncio.get_event_loop()
-        loop.run_until_complete(main())
+    asyncio.run(main())

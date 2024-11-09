@@ -10727,3 +10727,83 @@ SyntaxError: f-string: unmatched '('
                                       ^
 SyntaxError: f-string: unmatched '('
 >>>>>>> update_ws_kucoin
+  File "/root/trading_systems/bitget/bitget_buying.py", line 153
+    print(f'{datetime.now().strftime('%H:%M:%S.%f')[:-3]} finshed main loop')
+                                      ^
+SyntaxError: f-string: unmatched '('
+  File "/root/trading_systems/bitget/bitget_buying.py", line 153
+    print(f'{datetime.now().strftime('%H:%M:%S.%f')[:-3]} finshed main loop')
+                                      ^
+SyntaxError: f-string: unmatched '('
+  File "/root/trading_systems/bitget/bitget_buying.py", line 153
+    print(f'{datetime.now().strftime('%H:%M:%S.%f')[:-3]} finshed main loop')
+                                      ^
+SyntaxError: f-string: unmatched '('
+  File "/root/trading_systems/bitget/bitget_buying.py", line 153
+    print(f'{datetime.now().strftime('%H:%M:%S.%f')[:-3]} finshed main loop')
+                                      ^
+SyntaxError: f-string: unmatched '('
+  File "/root/trading_systems/bitget/bitget_buying.py", line 153
+    print(f'{datetime.now().strftime('%H:%M:%S.%f')[:-3]} finshed main loop')
+                                      ^
+SyntaxError: f-string: unmatched '('
+  File "/root/trading_systems/bitget/bitget_buying.py", line 153
+    print(f'{datetime.now().strftime('%H:%M:%S.%f')[:-3]} finshed main loop')
+                                      ^
+SyntaxError: f-string: unmatched '('
+  File "/root/trading_systems/bitget/bitget_buying.py", line 153
+    print(f'{datetime.now().strftime('%H:%M:%S.%f')[:-3]} finshed main loop')
+                                      ^
+SyntaxError: f-string: unmatched '('
+  File "/root/trading_systems/bitget/bitget_buying.py", line 153
+    print(f'{datetime.now().strftime('%H:%M:%S.%f')[:-3]} finshed main loop')
+                                      ^
+SyntaxError: f-string: unmatched '('
+  File "/root/trading_systems/bitget/bitget_buying.py", line 153
+    print(f'{datetime.now().strftime('%H:%M:%S.%f')[:-3]} finshed main loop')
+                                      ^
+SyntaxError: f-string: unmatched '('
+  File "/root/trading_systems/bitget/bitget_buying.py", line 153
+    print(f'{datetime.now().strftime('%H:%M:%S.%f')[:-3]} finshed main loop')
+                                      ^
+SyntaxError: f-string: unmatched '('
+  File "/root/trading_systems/bitget/bitget_buying.py", line 153
+    print(f'{datetime.now().strftime('%H:%M:%S.%f')[:-3]} finshed main loop')
+                                      ^
+SyntaxError: f-string: unmatched '('
+  File "/root/trading_systems/bitget/bitget_buying.py", line 153
+    print(f'{datetime.now().strftime('%H:%M:%S.%f')[:-3]} finshed main loop')
+                                      ^
+SyntaxError: f-string: unmatched '('
+  File "/root/trading_systems/bitget/bitget_buying.py", line 153
+    print(f'{datetime.now().strftime('%H:%M:%S.%f')[:-3]} finshed main loop')
+                                      ^
+SyntaxError: f-string: unmatched '('
+  File "/root/trading_systems/bitget/bitget_buying.py", line 153
+    print(f'{datetime.now().strftime('%H:%M:%S.%f')[:-3]} finshed main loop')
+                                      ^
+SyntaxError: f-string: unmatched '('
+  File "/root/trading_systems/bitget/bitget_buying.py", line 153
+    print(f'{datetime.now().strftime('%H:%M:%S.%f')[:-3]} finshed main loop')
+                                      ^
+SyntaxError: f-string: unmatched '('
+  File "/root/trading_systems/bitget/bitget_buying.py", line 153
+    print(f'{datetime.now().strftime('%H:%M:%S.%f')[:-3]} finshed main loop')
+                                      ^
+SyntaxError: f-string: unmatched '('
+  File "/root/trading_systems/bitget/bitget_buying.py", line 153
+    print(f'{datetime.now().strftime('%H:%M:%S.%f')[:-3]} finshed main loop')
+                                      ^
+SyntaxError: f-string: unmatched '('
+  File "/root/trading_systems/bitget/bitget_buying.py", line 153
+    print(f'{datetime.now().strftime('%H:%M:%S.%f')[:-3]} finshed main loop')
+                                      ^
+SyntaxError: f-string: unmatched '('
+  File "/root/trading_systems/bitget/bitget_buying.py", line 153
+    print(f'{datetime.now().strftime('%H:%M:%S.%f')[:-3]} finshed main loop')
+                                      ^
+SyntaxError: f-string: unmatched '('
+  File "/root/trading_systems/bitget/bitget_buying.py", line 153
+    print(f'{datetime.now().strftime('%H:%M:%S.%f')[:-3]} finshed main loop')
+                                      ^
+SyntaxError: f-string: unmatched '('

@@ -7,13 +7,13 @@ from datetime import datetime
 from typing import Optional
 from datetime import timedelta
 import traceback
-from kucoin_websocket_collection import Kucoin_websocket_collection
+from bitget_websocket_V2 import Bitget_websocket_collection
 import sys
 import os
 import fcntl  # Import fcntl for file locking
 import json
 
-# */15 * * * * /root/trading_systems/tradingvenv/bin/python /root/trading_systems/kucoin_dir/kucoin_testing_level2_ws.py >> /root/trading_systems/kucoin_dir/cronlogs/kucoin_testing_level2_ws.log 2>&1
+# */1 * * * * /root/trading_systems/tradingvenv/bin/python /root/trading_systems/bitget/bitget_ws_depth.py >> /root/trading_systems/bitget/cronlogs/bitget_ws_depth.log 2>&1
 
 # Configure logging with microsecond precision and function names
 logging.basicConfig(
@@ -24,7 +24,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
-LOCK_FILE = '/tmp/kucoin_testing_level2_ws.lock'
+LOCK_FILE = '/tmp/bitget_ws_depth.lock'
 
 async def main():
 
@@ -33,16 +33,16 @@ async def main():
     try:
         logger.info("Starting script")
 
-        directory = '/root/trading_systems/kucoin_dir/new_pair_data_kucoin'
+        directory = '/root/trading_systems/bitget/new_pair_data_bitget'
         testing = False
-        testing_time = 10
+        testing_time = 90
         if testing:
             symbol = 'SWELL'
-            scraper = Kucoin_websocket_collection()
+            scraper = Bitget_websocket_collection()
             release_date_time = datetime.now() + timedelta(seconds=testing_time)  # Example release time
 
             try:
-                change_data = await scraper.get_price_websocket_level2(symbol, max_wait_time=10, release_time=release_date_time)
+                change_data = await scraper.get_price_by_release_time_depth(symbol, max_wait_time=10, release_time=release_date_time)
                 if change_data:
                     print(f"Successfully retrieved {symbol} price: {change_data}")
             finally:
@@ -52,59 +52,64 @@ async def main():
         # Testing with dictionary and retrieved time
         ###################################################################
 
+
         else:
 
+            # Loop through announced pairs 
             for filename in os.listdir(directory):
                 if filename.endswith(".json"):
                     with open(os.path.join(directory, filename)) as f:
                         new_pair_dict = json.load(f)
-
+                        #logger.debug(f'loaded {filename}')
+                
                 try:
-                    # Create symbol from pair
-                    symbol = new_pair_dict['pair'].split('USDT')[0]
+                    if new_pair_dict['pair']:
+                        basecoin = new_pair_dict['pair'].split('USDT')[0]
 
-                    # Get the time remaining to listing in seconds
-                    date_time_dict = parse_date_time_string(new_pair_dict['date_time_string'])
-                    release_date_time_str = date_time_dict['formatted_string']
-                    release_date_time = datetime.strptime(release_date_time_str, '%Y-%m-%d %H:%M:%S')
-                    datetime_to_listing_seconds = (release_date_time - datetime.now()).total_seconds()
+                        # get the time remaining to listing in secodns 
+                        # !!!can be combined to just input dicted and output remaining seconds!!!
+                    
+                        date_time_dict = parse_date_time_string(new_pair_dict['date_time_string'])
+                        #datetime_to_listing_seconds = time_until_listing_seconds(date_time_dict)
+                        release_date_time_str  = date_time_dict['formatted_string'] 
+                        release_date_time = datetime.strptime(release_date_time_str, '%Y-%m-%d %H:%M:%S') 
+                        datetime_to_listing_seconds = (release_date_time - datetime.now()).total_seconds()
 
                 except Exception as e:
-                    logger.error(f"Error when parsing date time string:\n {e}")
+                    print(f"Error when parsing date time string:\n {e}")
                     traceback.print_exc()
                     continue
 
+
                 # Check if listing is close to start
-                if 0 < datetime_to_listing_seconds < 1200:
+                if 0 < datetime_to_listing_seconds < 1200 :
+                    logger.info(f'detected new pair {new_pair_dict["pair"]} at {new_pair_dict["date_time_string"]}')
+
                     try:
-                        if datetime.now() > release_date_time:
-                            logger.info('Release time has passed')
-                            break
+                        # create object to retrive price data
+                        symbol = basecoin
+                        websocket_object = Bitget_websocket_collection()
+
+                        # returns the highest price at realease time
+                        websocket_best_bid_price = await websocket_object.get_price_by_release_time_depth(symbol, max_wait_time=2, release_time=release_date_time)
+                        logger.info(f'result: {websocket_best_bid_price}')
+
+
                     except Exception as e:
-                        logger.error(f"Checking release time:\n {e}")
-
-                    logger.info(f'Detected new pair {new_pair_dict["pair"]} at {new_pair_dict["date_time_string"]}')
-
-                    scraper = Kucoin_websocket_collection()
-
-                    try:
-                        # Execution code here
-                        change_data = await scraper.get_price_websocket_level2(symbol, max_wait_time=10, release_time=release_date_time)
-                        if change_data:
-                            logger.info(f"Successfully retrieved {symbol} price: {change_data}")
+                        logger.error(f'when logging final information:\n {e}')
                     finally:
-                        await scraper.cleanup()
-
-                    #break if pair has been dettected and wait for next cronjob
-                    logger.debug('break for after detecting pair loop')
+                        await websocket_object.cleanup()
+                    
+                    logger.info('breaking loop after finding pair ')
                     break
-                
 
 
     finally:
         release_lock(lock_file)
         print(f'{datetime.now()} script finished')
         print('======================================')
+
+
 
 
 def acquire_lock():
