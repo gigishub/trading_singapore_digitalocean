@@ -11,7 +11,9 @@ secret_config.py
 # ignore api key files
 bitget/api_creds.json
 kucoin_dir/config_api.json
+MEXC_dir/api_creds.json
 
 # cronlogs
 kucoin_dir/cronlogs
 bitget/cronlogs
+MEXC_dir/cronlogs

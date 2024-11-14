@@ -2238,3 +2238,1285 @@ branch update No. 5
 12:16:03.225 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
 12:16:03.296 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
 12:16:03.296 - INFO - Waiting 836.70 seconds until token release time - wait_until_listing
+12:29:38.849 - INFO - 25 seconds left until token release - wait_until_listing
+12:30:00.016 - DEBUG - Received data: {'id': '1731154563225', 'type': 'pong'} - get_price_websocket
+12:30:00.017 - DEBUG - Received data: {'topic': '/market/ticker:XRP-USDT', 'type': 'message', 'subject': 'trade.ticker', 'data': {'bestAsk': '0.55147', 'bestAskSize': '477.5119', 'bestBid': '0.55146', 'bestBidSize': '6077.0435', 'price': '0.55139', 'sequence': '4705988484', 'size': '362.5271', 'time': 1731154556546}} - get_price_websocket
+12:30:00.017 - INFO - Price found via WebSocket: 0.55139 at  - get_price_websocket
+12:30:00.017 - INFO - Buying price: 0.2206 at 12:30:00.017 - place_buy_limit_order
+12:30:00.199 - INFO - Buy order executed at: 12:30:00.199: {'success': True, 'order_id': '672f55c8ae43c40007818dd9', 'client_oid': '990b20a5-95db-4443-ba28-b58d01c6ae03', 'execution_time': 0.18209759204182774, 'response': {'code': '200000', 'data': {'orderId': '672f55c8ae43c40007818dd9', 'clientOid': '990b20a5-95db-4443-ba28-b58d01c6ae03'}}} - place_buy_limit_order
+12:30:00.199 - INFO - Limit buy order price: 0.2206 - place_buy_limit_order
+12:30:00.353 - INFO - Sell order executed at 12:30:00.353: {'success': False, 'order_id': None, 'client_oid': 'a1ea87bb-a01b-4aa3-b8f3-b12e07c57fe7', 'execution_time': 0.15375439100898802, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+12:30:00.353 - INFO - Limit sell order price: 0.17648 - place_sell_limit_order
+12:30:01.570 - INFO - Lock released. - release_lock
+12:30:00 loop finished sleeping 1 seconds before exit
+branch update No. 5
+12:31:02.757 - INFO - Lock acquired. - acquire_lock
+12:31:02.761 - INFO - detected new pair XRPUSDT at Nov 09, 2024, 12:45PM - main
+12:31:02.762 - INFO - Release time and date: 09-11-2024 12:45:00.000 - get_price_websocket
+12:31:03.103 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+12:31:03.172 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+12:31:03.173 - INFO - Waiting 836.83 seconds until token release time - wait_until_listing
+12:44:38.740 - INFO - 25 seconds left until token release - wait_until_listing
+12:45:00.000 - DEBUG - Received data: {'id': '1731155463103', 'type': 'pong'} - get_price_websocket
+12:45:00.002 - DEBUG - Received data: {'topic': '/market/ticker:XRP-USDT', 'type': 'message', 'subject': 'trade.ticker', 'data': {'bestAsk': '0.5508', 'bestAskSize': '2281.4962', 'bestBid': '0.55079', 'bestBidSize': '4114.0664', 'price': '0.5509', 'sequence': '4706041030', 'size': '26.6031', 'time': 1731155458108}} - get_price_websocket
+12:45:00.003 - INFO - Price found via WebSocket: 0.5509 at  - get_price_websocket
+12:45:00.005 - INFO - Buying price: 0.2204 at 12:45:00.005 - place_buy_limit_order
+12:45:00.201 - INFO - Buy order executed at: 12:45:00.201: {'success': True, 'order_id': '672f594cab0f0a0007987ff3', 'client_oid': '0c0680c0-cc61-4ebd-be13-33556dc1cbf0', 'execution_time': 0.19522881205193698, 'response': {'code': '200000', 'data': {'orderId': '672f594cab0f0a0007987ff3', 'clientOid': '0c0680c0-cc61-4ebd-be13-33556dc1cbf0'}}} - place_buy_limit_order
+12:45:00.201 - INFO - Limit buy order price: 0.2204 - place_buy_limit_order
+12:45:00.350 - INFO - Sell order executed at 12:45:00.350: {'success': False, 'order_id': None, 'client_oid': '901f1788-9674-4cf5-823e-2ffd487df85f', 'execution_time': 0.14860714203678071, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+12:45:00.350 - INFO - Limit sell order price: 0.17632 - place_sell_limit_order
+12:45:01.502 - INFO - Lock released. - release_lock
+12:45:00 loop finished sleeping 1 seconds before exit
+branch update No. 5
+12:46:02.709 - INFO - Lock acquired. - acquire_lock
+12:46:02.713 - INFO - detected new pair XRPUSDT at Nov 09, 2024, 01:00PM - main
+12:46:02.714 - INFO - Release time and date: 09-11-2024 13:00:00.000 - get_price_websocket
+12:46:03.152 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+12:46:03.224 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+12:46:03.226 - INFO - Waiting 836.77 seconds until token release time - wait_until_listing
+12:59:38.813 - INFO - 25 seconds left until token release - wait_until_listing
+13:00:00.005 - DEBUG - Received data: {'id': '1731156363152', 'type': 'pong'} - get_price_websocket
+13:00:00.006 - DEBUG - Received data: {'topic': '/market/ticker:XRP-USDT', 'type': 'message', 'subject': 'trade.ticker', 'data': {'bestAsk': '0.55021', 'bestAskSize': '1816.3254', 'bestBid': '0.5502', 'bestBidSize': '5544.9922', 'price': '0.55029', 'sequence': '4706084860', 'size': '363.5216', 'time': 1731156357358}} - get_price_websocket
+13:00:00.006 - INFO - Price found via WebSocket: 0.55029 at  - get_price_websocket
+13:00:00.006 - INFO - Buying price: 0.2201 at 13:00:00.006 - place_buy_limit_order
+13:00:00.468 - INFO - Buy order executed at: 13:00:00.468: {'success': True, 'order_id': '672f5cd0d181be00077de5af', 'client_oid': '459d5dd4-e401-4cd9-bf8d-79dffefe5bb5', 'execution_time': 0.46220845996867865, 'response': {'code': '200000', 'data': {'orderId': '672f5cd0d181be00077de5af', 'clientOid': '459d5dd4-e401-4cd9-bf8d-79dffefe5bb5'}}} - place_buy_limit_order
+13:00:00.468 - INFO - Limit buy order price: 0.2201 - place_buy_limit_order
+13:00:00.583 - INFO - Sell order executed at 13:00:00.583: {'success': False, 'order_id': None, 'client_oid': '54be9a79-143d-4fcc-a7f7-468a84142b95', 'execution_time': 0.11417116899974644, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+13:00:00.583 - INFO - Limit sell order price: 0.17608 - place_sell_limit_order
+13:00:01.697 - INFO - Lock released. - release_lock
+13:00:00 loop finished sleeping 1 seconds before exit
+branch update No. 5
+13:01:02.851 - INFO - Lock acquired. - acquire_lock
+13:01:02.854 - INFO - detected new pair XRPUSDT at Nov 09, 2024, 01:15PM - main
+13:01:02.855 - INFO - Release time and date: 09-11-2024 13:15:00.000 - get_price_websocket
+13:01:03.290 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+13:01:03.361 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+13:01:03.362 - INFO - Waiting 836.64 seconds until token release time - wait_until_listing
+13:14:38.936 - INFO - 25 seconds left until token release - wait_until_listing
+13:15:00.000 - DEBUG - Received data: {'id': '1731157263291', 'type': 'pong'} - get_price_websocket
+13:15:00.000 - DEBUG - Received data: {'topic': '/market/ticker:XRP-USDT', 'type': 'message', 'subject': 'trade.ticker', 'data': {'bestAsk': '0.54892', 'bestAskSize': '2404.2593', 'bestBid': '0.54891', 'bestBidSize': '6361.307', 'price': '0.54891', 'sequence': '4706131825', 'size': '8.2658', 'time': 1731157262216}} - get_price_websocket
+13:15:00.001 - INFO - Price found via WebSocket: 0.54891 at  - get_price_websocket
+13:15:00.001 - INFO - Buying price: 0.2196 at 13:15:00.001 - place_buy_limit_order
+13:15:00.222 - INFO - Buy order executed at: 13:15:00.222: {'success': True, 'order_id': '672f605408e10c00074eee13', 'client_oid': '1cc84ac2-84cd-4b10-be76-f506147a51e7', 'execution_time': 0.22129506093915552, 'response': {'code': '200000', 'data': {'orderId': '672f605408e10c00074eee13', 'clientOid': '1cc84ac2-84cd-4b10-be76-f506147a51e7'}}} - place_buy_limit_order
+13:15:00.223 - INFO - Limit buy order price: 0.2196 - place_buy_limit_order
+13:15:00.381 - INFO - Sell order executed at 13:15:00.381: {'success': False, 'order_id': None, 'client_oid': 'bb08888e-ba23-430a-be3d-5cc1e74540ec', 'execution_time': 0.15849566203542054, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+13:15:00.382 - INFO - Limit sell order price: 0.17568 - place_sell_limit_order
+13:15:01.513 - INFO - Lock released. - release_lock
+13:15:00 loop finished sleeping 1 seconds before exit
+branch update No. 5
+13:16:03.261 - INFO - Lock acquired. - acquire_lock
+13:16:03.267 - INFO - detected new pair XRPUSDT at Nov 09, 2024, 01:30PM - main
+13:16:03.268 - INFO - Release time and date: 09-11-2024 13:30:00.000 - get_price_websocket
+13:16:03.699 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+13:16:03.771 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+13:16:03.771 - INFO - Waiting 836.23 seconds until token release time - wait_until_listing
+13:29:39.348 - INFO - 25 seconds left until token release - wait_until_listing
+13:30:00.008 - DEBUG - Received data: {'id': '1731158163700', 'type': 'pong'} - get_price_websocket
+13:30:00.009 - DEBUG - Received data: {'topic': '/market/ticker:XRP-USDT', 'type': 'message', 'subject': 'trade.ticker', 'data': {'bestAsk': '0.54917', 'bestAskSize': '1686.2137', 'bestBid': '0.54916', 'bestBidSize': '5138.4033', 'price': '0.54917', 'sequence': '4706170426', 'size': '133.7145', 'time': 1731158146845}} - get_price_websocket
+13:30:00.009 - INFO - Price found via WebSocket: 0.54917 at  - get_price_websocket
+13:30:00.009 - INFO - Buying price: 0.2197 at 13:30:00.009 - place_buy_limit_order
+13:30:00.250 - INFO - Buy order executed at: 13:30:00.250: {'success': True, 'order_id': '672f63d8429d8b000766c0ca', 'client_oid': '3fd4e0f9-4731-4267-b8da-33cc9262dde2', 'execution_time': 0.2413727450184524, 'response': {'code': '200000', 'data': {'orderId': '672f63d8429d8b000766c0ca', 'clientOid': '3fd4e0f9-4731-4267-b8da-33cc9262dde2'}}} - place_buy_limit_order
+13:30:00.250 - INFO - Limit buy order price: 0.2197 - place_buy_limit_order
+13:30:00.399 - INFO - Sell order executed at 13:30:00.398: {'success': False, 'order_id': None, 'client_oid': '0f16b8ef-87aa-48d0-adc4-48ec2701d951', 'execution_time': 0.14790287893265486, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+13:30:00.399 - INFO - Limit sell order price: 0.17576 - place_sell_limit_order
+13:30:01.517 - INFO - Lock released. - release_lock
+13:30:00 loop finished sleeping 1 seconds before exit
+branch update No. 5
+13:31:02.586 - INFO - Lock acquired. - acquire_lock
+13:31:02.591 - INFO - detected new pair XRPUSDT at Nov 09, 2024, 01:45PM - main
+13:31:02.593 - INFO - Release time and date: 09-11-2024 13:45:00.000 - get_price_websocket
+13:31:03.018 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+13:31:03.089 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+13:31:03.090 - INFO - Waiting 836.91 seconds until token release time - wait_until_listing
+13:44:38.665 - INFO - 25 seconds left until token release - wait_until_listing
+13:45:00.001 - DEBUG - Received data: {'id': '1731159063018', 'type': 'pong'} - get_price_websocket
+13:45:00.001 - DEBUG - Received data: {'topic': '/market/ticker:XRP-USDT', 'type': 'message', 'subject': 'trade.ticker', 'data': {'bestAsk': '0.5481', 'bestAskSize': '211.7334', 'bestBid': '0.54809', 'bestBidSize': '974.2104', 'price': '0.54804', 'sequence': '4706217724', 'size': '346.7046', 'time': 1731159061128}} - get_price_websocket
+13:45:00.001 - INFO - Price found via WebSocket: 0.54804 at  - get_price_websocket
+13:45:00.001 - INFO - Buying price: 0.2192 at 13:45:00.001 - place_buy_limit_order
+13:45:00.160 - INFO - Buy order executed at: 13:45:00.160: {'success': True, 'order_id': '672f675cfc90220007291464', 'client_oid': '0f6b85fb-08ba-415f-b7ec-053a5375027a', 'execution_time': 0.15866515296511352, 'response': {'code': '200000', 'data': {'orderId': '672f675cfc90220007291464', 'clientOid': '0f6b85fb-08ba-415f-b7ec-053a5375027a'}}} - place_buy_limit_order
+13:45:00.160 - INFO - Limit buy order price: 0.2192 - place_buy_limit_order
+13:45:00.301 - INFO - Sell order executed at 13:45:00.301: {'success': False, 'order_id': None, 'client_oid': '2ca4d44e-9c48-4224-ac6c-91c977bbf8a7', 'execution_time': 0.1403706530109048, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+13:45:00.301 - INFO - Limit sell order price: 0.17536 - place_sell_limit_order
+13:45:01.472 - INFO - Lock released. - release_lock
+13:45:00 loop finished sleeping 1 seconds before exit
+branch update No. 5
+13:46:02.573 - INFO - Lock acquired. - acquire_lock
+13:46:02.577 - INFO - detected new pair XRPUSDT at Nov 09, 2024, 02:00PM - main
+13:46:02.578 - INFO - Release time and date: 09-11-2024 14:00:00.000 - get_price_websocket
+13:46:03.023 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+13:46:03.095 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+13:46:03.096 - INFO - Waiting 836.90 seconds until token release time - wait_until_listing
+13:59:38.657 - INFO - 25 seconds left until token release - wait_until_listing
+14:00:00.012 - DEBUG - Received data: {'id': '1731159963024', 'type': 'pong'} - get_price_websocket
+14:00:00.013 - DEBUG - Received data: {'topic': '/market/ticker:XRP-USDT', 'type': 'message', 'subject': 'trade.ticker', 'data': {'bestAsk': '0.5485', 'bestAskSize': '2496.9201', 'bestBid': '0.54849', 'bestBidSize': '3222.7972', 'price': '0.54844', 'sequence': '4706260842', 'size': '2.9267', 'time': 1731159956871}} - get_price_websocket
+14:00:00.013 - INFO - Price found via WebSocket: 0.54844 at  - get_price_websocket
+14:00:00.013 - INFO - Buying price: 0.2194 at 14:00:00.013 - place_buy_limit_order
+14:00:00.200 - INFO - Buy order executed at: 14:00:00.199: {'success': True, 'order_id': '672f6ae0d181be0007b992fa', 'client_oid': '43c9e39e-394d-40f3-8691-e9bbbdc98305', 'execution_time': 0.18634698202367872, 'response': {'code': '200000', 'data': {'orderId': '672f6ae0d181be0007b992fa', 'clientOid': '43c9e39e-394d-40f3-8691-e9bbbdc98305'}}} - place_buy_limit_order
+14:00:00.200 - INFO - Limit buy order price: 0.2194 - place_buy_limit_order
+14:00:00.348 - INFO - Sell order executed at 14:00:00.348: {'success': False, 'order_id': None, 'client_oid': 'aa6ecad3-dc3c-47ab-acc6-89e584ab7afe', 'execution_time': 0.14856311003677547, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+14:00:00.349 - INFO - Limit sell order price: 0.17552 - place_sell_limit_order
+14:00:01.533 - INFO - Lock released. - release_lock
+14:00:00 loop finished sleeping 1 seconds before exit
+branch update No. 5
+14:01:02.757 - INFO - Lock acquired. - acquire_lock
+14:01:03.763 - INFO - Lock released. - release_lock
+14:01:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+14:16:02.788 - INFO - Lock acquired. - acquire_lock
+14:16:03.797 - INFO - Lock released. - release_lock
+14:16:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+14:31:02.302 - INFO - Lock acquired. - acquire_lock
+14:31:03.309 - INFO - Lock released. - release_lock
+14:31:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+14:46:02.790 - INFO - Lock acquired. - acquire_lock
+14:46:03.797 - INFO - Lock released. - release_lock
+14:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+15:01:03.079 - INFO - Lock acquired. - acquire_lock
+15:01:04.087 - INFO - Lock released. - release_lock
+15:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+15:16:03.080 - INFO - Lock acquired. - acquire_lock
+15:16:04.087 - INFO - Lock released. - release_lock
+15:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+15:31:02.615 - INFO - Lock acquired. - acquire_lock
+15:31:03.622 - INFO - Lock released. - release_lock
+15:31:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+15:46:02.977 - INFO - Lock acquired. - acquire_lock
+15:46:03.983 - INFO - Lock released. - release_lock
+15:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+16:01:02.997 - INFO - Lock acquired. - acquire_lock
+16:01:04.004 - INFO - Lock released. - release_lock
+16:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+16:16:02.367 - INFO - Lock acquired. - acquire_lock
+16:16:03.375 - INFO - Lock released. - release_lock
+16:16:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+16:31:02.921 - INFO - Lock acquired. - acquire_lock
+16:31:03.928 - INFO - Lock released. - release_lock
+16:31:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+16:46:02.538 - INFO - Lock acquired. - acquire_lock
+16:46:03.545 - INFO - Lock released. - release_lock
+16:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+17:01:02.722 - INFO - Lock acquired. - acquire_lock
+17:01:03.728 - INFO - Lock released. - release_lock
+17:01:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+17:16:02.245 - INFO - Lock acquired. - acquire_lock
+17:16:03.251 - INFO - Lock released. - release_lock
+17:16:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+17:31:02.696 - INFO - Lock acquired. - acquire_lock
+17:31:03.702 - INFO - Lock released. - release_lock
+17:31:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+17:46:02.233 - INFO - Lock acquired. - acquire_lock
+17:46:03.239 - INFO - Lock released. - release_lock
+17:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+18:01:02.198 - INFO - Lock acquired. - acquire_lock
+18:01:03.206 - INFO - Lock released. - release_lock
+18:01:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+18:16:02.180 - INFO - Lock acquired. - acquire_lock
+18:16:03.187 - INFO - Lock released. - release_lock
+18:16:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+18:31:02.689 - INFO - Lock acquired. - acquire_lock
+18:31:03.695 - INFO - Lock released. - release_lock
+18:31:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+18:46:02.362 - INFO - Lock acquired. - acquire_lock
+18:46:03.369 - INFO - Lock released. - release_lock
+18:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+19:01:02.945 - INFO - Lock acquired. - acquire_lock
+19:01:03.952 - INFO - Lock released. - release_lock
+19:01:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+19:16:02.424 - INFO - Lock acquired. - acquire_lock
+19:16:03.431 - INFO - Lock released. - release_lock
+19:16:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+19:31:02.840 - INFO - Lock acquired. - acquire_lock
+19:31:03.848 - INFO - Lock released. - release_lock
+19:31:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+19:46:02.999 - INFO - Lock acquired. - acquire_lock
+19:46:04.007 - INFO - Lock released. - release_lock
+19:46:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+20:01:03.222 - INFO - Lock acquired. - acquire_lock
+20:01:04.230 - INFO - Lock released. - release_lock
+20:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+20:16:02.309 - INFO - Lock acquired. - acquire_lock
+20:16:03.316 - INFO - Lock released. - release_lock
+20:16:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+20:31:02.743 - INFO - Lock acquired. - acquire_lock
+20:31:03.750 - INFO - Lock released. - release_lock
+20:31:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+20:46:02.283 - INFO - Lock acquired. - acquire_lock
+20:46:03.289 - INFO - Lock released. - release_lock
+20:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+21:01:03.020 - INFO - Lock acquired. - acquire_lock
+21:01:04.027 - INFO - Lock released. - release_lock
+21:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+21:16:02.741 - INFO - Lock acquired. - acquire_lock
+21:16:03.747 - INFO - Lock released. - release_lock
+21:16:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+21:31:03.080 - INFO - Lock acquired. - acquire_lock
+21:31:04.087 - INFO - Lock released. - release_lock
+21:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+21:46:02.897 - INFO - Lock acquired. - acquire_lock
+21:46:03.904 - INFO - Lock released. - release_lock
+21:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+22:01:03.035 - INFO - Lock acquired. - acquire_lock
+22:01:04.041 - INFO - Lock released. - release_lock
+22:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+22:16:03.014 - INFO - Lock acquired. - acquire_lock
+22:16:04.020 - INFO - Lock released. - release_lock
+22:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+22:31:02.637 - INFO - Lock acquired. - acquire_lock
+22:31:03.645 - INFO - Lock released. - release_lock
+22:31:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+22:46:02.589 - INFO - Lock acquired. - acquire_lock
+22:46:03.594 - INFO - Lock released. - release_lock
+22:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+23:01:02.573 - INFO - Lock acquired. - acquire_lock
+23:01:03.579 - INFO - Lock released. - release_lock
+23:01:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+23:16:02.513 - INFO - Lock acquired. - acquire_lock
+23:16:03.519 - INFO - Lock released. - release_lock
+23:16:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+23:31:02.931 - INFO - Lock acquired. - acquire_lock
+23:31:03.936 - INFO - Lock released. - release_lock
+23:31:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+23:46:02.770 - INFO - Lock acquired. - acquire_lock
+23:46:03.776 - INFO - Lock released. - release_lock
+23:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+00:01:02.310 - INFO - Lock acquired. - acquire_lock
+00:01:03.317 - INFO - Lock released. - release_lock
+00:01:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+00:16:02.919 - INFO - Lock acquired. - acquire_lock
+00:16:03.926 - INFO - Lock released. - release_lock
+00:16:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+00:31:02.975 - INFO - Lock acquired. - acquire_lock
+00:31:03.982 - INFO - Lock released. - release_lock
+00:31:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+00:46:02.685 - INFO - Lock acquired. - acquire_lock
+00:46:03.693 - INFO - Lock released. - release_lock
+00:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+01:01:02.991 - INFO - Lock acquired. - acquire_lock
+01:01:03.997 - INFO - Lock released. - release_lock
+01:01:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+01:16:02.629 - INFO - Lock acquired. - acquire_lock
+01:16:03.636 - INFO - Lock released. - release_lock
+01:16:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+01:31:03.072 - INFO - Lock acquired. - acquire_lock
+01:31:04.079 - INFO - Lock released. - release_lock
+01:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+01:46:02.855 - INFO - Lock acquired. - acquire_lock
+01:46:03.861 - INFO - Lock released. - release_lock
+01:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+02:01:02.194 - INFO - Lock acquired. - acquire_lock
+02:01:03.200 - INFO - Lock released. - release_lock
+02:01:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+02:16:02.789 - INFO - Lock acquired. - acquire_lock
+02:16:03.796 - INFO - Lock released. - release_lock
+02:16:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+02:31:02.153 - INFO - Lock acquired. - acquire_lock
+02:31:03.159 - INFO - Lock released. - release_lock
+02:31:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+02:46:02.537 - INFO - Lock acquired. - acquire_lock
+02:46:03.543 - INFO - Lock released. - release_lock
+02:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+03:01:02.975 - INFO - Lock acquired. - acquire_lock
+03:01:03.982 - INFO - Lock released. - release_lock
+03:01:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+03:16:03.202 - INFO - Lock acquired. - acquire_lock
+03:16:04.210 - INFO - Lock released. - release_lock
+03:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+03:31:02.667 - INFO - Lock acquired. - acquire_lock
+03:31:03.673 - INFO - Lock released. - release_lock
+03:31:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+03:46:02.649 - INFO - Lock acquired. - acquire_lock
+03:46:03.656 - INFO - Lock released. - release_lock
+03:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+04:01:02.337 - INFO - Lock acquired. - acquire_lock
+04:01:03.343 - INFO - Lock released. - release_lock
+04:01:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+04:16:02.355 - INFO - Lock acquired. - acquire_lock
+04:16:03.363 - INFO - Lock released. - release_lock
+04:16:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+04:31:02.782 - INFO - Lock acquired. - acquire_lock
+04:31:03.789 - INFO - Lock released. - release_lock
+04:31:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+04:46:02.503 - INFO - Lock acquired. - acquire_lock
+04:46:03.510 - INFO - Lock released. - release_lock
+04:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+05:01:03.196 - INFO - Lock acquired. - acquire_lock
+05:01:04.204 - INFO - Lock released. - release_lock
+05:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+05:16:02.362 - INFO - Lock acquired. - acquire_lock
+05:16:03.371 - INFO - Lock released. - release_lock
+05:16:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+05:31:02.866 - INFO - Lock acquired. - acquire_lock
+05:31:03.872 - INFO - Lock released. - release_lock
+05:31:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+05:46:02.733 - INFO - Lock acquired. - acquire_lock
+05:46:03.739 - INFO - Lock released. - release_lock
+05:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+06:01:02.460 - INFO - Lock acquired. - acquire_lock
+06:01:03.468 - INFO - Lock released. - release_lock
+06:01:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+06:16:02.619 - INFO - Lock acquired. - acquire_lock
+06:16:03.626 - INFO - Lock released. - release_lock
+06:16:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+06:31:03.028 - INFO - Lock acquired. - acquire_lock
+06:31:04.034 - INFO - Lock released. - release_lock
+06:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+06:46:02.544 - INFO - Lock acquired. - acquire_lock
+06:46:03.551 - INFO - Lock released. - release_lock
+06:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+07:01:02.381 - INFO - Lock acquired. - acquire_lock
+07:01:03.389 - INFO - Lock released. - release_lock
+07:01:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+07:16:02.465 - INFO - Lock acquired. - acquire_lock
+07:16:03.473 - INFO - Lock released. - release_lock
+07:16:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+07:31:02.835 - INFO - Lock acquired. - acquire_lock
+07:31:03.841 - INFO - Lock released. - release_lock
+07:31:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+07:46:02.404 - INFO - Lock acquired. - acquire_lock
+07:46:03.410 - INFO - Lock released. - release_lock
+07:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+08:01:02.651 - INFO - Lock acquired. - acquire_lock
+08:01:03.659 - INFO - Lock released. - release_lock
+08:01:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+08:16:02.169 - INFO - Lock acquired. - acquire_lock
+08:16:03.176 - INFO - Lock released. - release_lock
+08:16:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+08:31:02.730 - INFO - Lock acquired. - acquire_lock
+08:31:03.738 - INFO - Lock released. - release_lock
+08:31:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+08:46:02.591 - INFO - Lock acquired. - acquire_lock
+08:46:03.598 - INFO - Lock released. - release_lock
+08:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+09:01:03.028 - INFO - Lock acquired. - acquire_lock
+09:01:04.034 - INFO - Lock released. - release_lock
+09:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+09:16:03.080 - INFO - Lock acquired. - acquire_lock
+09:16:04.086 - INFO - Lock released. - release_lock
+09:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+09:31:02.465 - INFO - Lock acquired. - acquire_lock
+09:31:03.471 - INFO - Lock released. - release_lock
+09:31:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+09:46:03.008 - INFO - Lock acquired. - acquire_lock
+09:46:04.015 - INFO - Lock released. - release_lock
+09:46:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+10:01:02.966 - INFO - Lock acquired. - acquire_lock
+10:01:03.972 - INFO - Lock released. - release_lock
+10:01:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+10:16:03.337 - INFO - Lock acquired. - acquire_lock
+10:16:04.344 - INFO - Lock released. - release_lock
+10:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+10:31:02.674 - INFO - Lock acquired. - acquire_lock
+10:31:03.682 - INFO - Lock released. - release_lock
+10:31:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+10:46:02.632 - INFO - Lock acquired. - acquire_lock
+10:46:03.637 - INFO - Lock released. - release_lock
+10:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+11:01:03.470 - INFO - Lock acquired. - acquire_lock
+11:01:04.476 - INFO - Lock released. - release_lock
+11:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+11:16:02.715 - INFO - Lock acquired. - acquire_lock
+11:16:03.722 - INFO - Lock released. - release_lock
+11:16:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+11:31:03.665 - INFO - Lock acquired. - acquire_lock
+11:31:04.673 - INFO - Lock released. - release_lock
+11:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+11:46:03.601 - INFO - Lock acquired. - acquire_lock
+11:46:04.607 - INFO - Lock released. - release_lock
+11:46:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+12:01:03.268 - INFO - Lock acquired. - acquire_lock
+12:01:04.275 - INFO - Lock released. - release_lock
+12:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+12:16:02.697 - INFO - Lock acquired. - acquire_lock
+12:16:03.704 - INFO - Lock released. - release_lock
+12:16:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+12:31:03.549 - INFO - Lock acquired. - acquire_lock
+12:31:04.555 - INFO - Lock released. - release_lock
+12:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+12:46:03.034 - INFO - Lock acquired. - acquire_lock
+12:46:04.041 - INFO - Lock released. - release_lock
+12:46:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+13:01:03.133 - INFO - Lock acquired. - acquire_lock
+13:01:04.139 - INFO - Lock released. - release_lock
+13:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+13:16:02.610 - INFO - Lock acquired. - acquire_lock
+13:16:03.618 - INFO - Lock released. - release_lock
+13:16:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+13:31:03.626 - INFO - Lock acquired. - acquire_lock
+13:31:04.634 - INFO - Lock released. - release_lock
+13:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+13:46:03.468 - INFO - Lock acquired. - acquire_lock
+13:46:04.474 - INFO - Lock released. - release_lock
+13:46:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+14:01:03.161 - INFO - Lock acquired. - acquire_lock
+14:01:04.169 - INFO - Lock released. - release_lock
+14:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+14:16:03.060 - INFO - Lock acquired. - acquire_lock
+14:16:04.066 - INFO - Lock released. - release_lock
+14:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+14:31:03.034 - INFO - Lock acquired. - acquire_lock
+14:31:04.041 - INFO - Lock released. - release_lock
+14:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+14:46:03.366 - INFO - Lock acquired. - acquire_lock
+14:46:04.372 - INFO - Lock released. - release_lock
+14:46:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+15:01:03.627 - INFO - Lock acquired. - acquire_lock
+15:01:04.634 - INFO - Lock released. - release_lock
+15:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+15:16:03.480 - INFO - Lock acquired. - acquire_lock
+15:16:04.486 - INFO - Lock released. - release_lock
+15:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+15:31:03.368 - INFO - Lock acquired. - acquire_lock
+15:31:04.373 - INFO - Lock released. - release_lock
+15:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+15:46:02.734 - INFO - Lock acquired. - acquire_lock
+15:46:03.740 - INFO - Lock released. - release_lock
+15:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+16:01:03.143 - INFO - Lock acquired. - acquire_lock
+16:01:04.149 - INFO - Lock released. - release_lock
+16:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+16:16:02.594 - INFO - Lock acquired. - acquire_lock
+16:16:03.601 - INFO - Lock released. - release_lock
+16:16:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+16:31:03.346 - INFO - Lock acquired. - acquire_lock
+16:31:04.352 - INFO - Lock released. - release_lock
+16:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+16:46:02.837 - INFO - Lock acquired. - acquire_lock
+16:46:03.845 - INFO - Lock released. - release_lock
+16:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+17:01:03.001 - INFO - Lock acquired. - acquire_lock
+17:01:04.007 - INFO - Lock released. - release_lock
+17:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+17:16:03.052 - INFO - Lock acquired. - acquire_lock
+17:16:04.058 - INFO - Lock released. - release_lock
+17:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+17:31:03.136 - INFO - Lock acquired. - acquire_lock
+17:31:04.144 - INFO - Lock released. - release_lock
+17:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+17:46:02.588 - INFO - Lock acquired. - acquire_lock
+17:46:03.594 - INFO - Lock released. - release_lock
+17:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+18:01:04.482 - INFO - Lock acquired. - acquire_lock
+18:01:05.488 - INFO - Lock released. - release_lock
+18:01:04 loop finished sleeping 1 seconds before exit
+branch update No. 5
+18:16:03.327 - INFO - Lock acquired. - acquire_lock
+18:16:04.333 - INFO - Lock released. - release_lock
+18:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+18:31:03.146 - INFO - Lock acquired. - acquire_lock
+18:31:04.152 - INFO - Lock released. - release_lock
+18:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+18:46:03.434 - INFO - Lock acquired. - acquire_lock
+18:46:04.440 - INFO - Lock released. - release_lock
+18:46:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+19:01:03.368 - INFO - Lock acquired. - acquire_lock
+19:01:04.373 - INFO - Lock released. - release_lock
+19:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+19:16:03.328 - INFO - Lock acquired. - acquire_lock
+19:16:04.334 - INFO - Lock released. - release_lock
+19:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+19:31:03.334 - INFO - Lock acquired. - acquire_lock
+19:31:04.360 - INFO - Lock released. - release_lock
+19:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+19:46:03.051 - INFO - Lock acquired. - acquire_lock
+19:46:04.058 - INFO - Lock released. - release_lock
+19:46:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+20:01:03.016 - INFO - Lock acquired. - acquire_lock
+20:01:04.022 - INFO - Lock released. - release_lock
+20:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+20:16:03.288 - INFO - Lock acquired. - acquire_lock
+20:16:04.295 - INFO - Lock released. - release_lock
+20:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+20:31:03.358 - INFO - Lock acquired. - acquire_lock
+20:31:04.364 - INFO - Lock released. - release_lock
+20:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+20:46:03.418 - INFO - Lock acquired. - acquire_lock
+20:46:04.426 - INFO - Lock released. - release_lock
+20:46:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+21:01:03.035 - INFO - Lock acquired. - acquire_lock
+21:01:04.042 - INFO - Lock released. - release_lock
+21:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+21:16:03.447 - INFO - Lock acquired. - acquire_lock
+21:16:04.453 - INFO - Lock released. - release_lock
+21:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+21:31:03.502 - INFO - Lock acquired. - acquire_lock
+21:31:04.508 - INFO - Lock released. - release_lock
+21:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+21:46:02.781 - INFO - Lock acquired. - acquire_lock
+21:46:03.787 - INFO - Lock released. - release_lock
+21:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+22:01:02.997 - INFO - Lock acquired. - acquire_lock
+22:01:04.003 - INFO - Lock released. - release_lock
+22:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+22:16:02.781 - INFO - Lock acquired. - acquire_lock
+22:16:03.787 - INFO - Lock released. - release_lock
+22:16:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+22:31:02.716 - INFO - Lock acquired. - acquire_lock
+22:31:03.722 - INFO - Lock released. - release_lock
+22:31:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+22:46:03.081 - INFO - Lock acquired. - acquire_lock
+22:46:04.087 - INFO - Lock released. - release_lock
+22:46:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+23:01:03.327 - INFO - Lock acquired. - acquire_lock
+23:01:04.334 - INFO - Lock released. - release_lock
+23:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+23:16:02.990 - INFO - Lock acquired. - acquire_lock
+23:16:03.996 - INFO - Lock released. - release_lock
+23:16:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+23:31:02.784 - INFO - Lock acquired. - acquire_lock
+23:31:03.791 - INFO - Lock released. - release_lock
+23:31:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+23:46:03.041 - INFO - Lock acquired. - acquire_lock
+23:46:04.047 - INFO - Lock released. - release_lock
+23:46:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+00:01:02.678 - INFO - Lock acquired. - acquire_lock
+00:01:03.685 - INFO - Lock released. - release_lock
+00:01:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+00:16:03.047 - INFO - Lock acquired. - acquire_lock
+00:16:04.055 - INFO - Lock released. - release_lock
+00:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+00:31:03.003 - INFO - Lock acquired. - acquire_lock
+00:31:04.010 - INFO - Lock released. - release_lock
+00:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+00:46:02.767 - INFO - Lock acquired. - acquire_lock
+00:46:03.775 - INFO - Lock released. - release_lock
+00:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+01:01:03.297 - INFO - Lock acquired. - acquire_lock
+01:01:04.303 - INFO - Lock released. - release_lock
+01:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+01:16:03.173 - INFO - Lock acquired. - acquire_lock
+01:16:04.179 - INFO - Lock released. - release_lock
+01:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+01:31:03.182 - INFO - Lock acquired. - acquire_lock
+01:31:04.190 - INFO - Lock released. - release_lock
+01:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+01:46:03.245 - INFO - Lock acquired. - acquire_lock
+01:46:04.253 - INFO - Lock released. - release_lock
+01:46:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+02:01:02.916 - INFO - Lock acquired. - acquire_lock
+02:01:03.925 - INFO - Lock released. - release_lock
+02:01:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+02:16:03.548 - INFO - Lock acquired. - acquire_lock
+02:16:04.556 - INFO - Lock released. - release_lock
+02:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+02:31:02.934 - INFO - Lock acquired. - acquire_lock
+02:31:03.941 - INFO - Lock released. - release_lock
+02:31:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+02:46:03.495 - INFO - Lock acquired. - acquire_lock
+02:46:04.501 - INFO - Lock released. - release_lock
+02:46:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+03:01:03.017 - INFO - Lock acquired. - acquire_lock
+03:01:04.023 - INFO - Lock released. - release_lock
+03:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+03:16:03.617 - INFO - Lock acquired. - acquire_lock
+03:16:04.624 - INFO - Lock released. - release_lock
+03:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+03:31:02.753 - INFO - Lock acquired. - acquire_lock
+03:31:03.760 - INFO - Lock released. - release_lock
+03:31:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+03:46:02.791 - INFO - Lock acquired. - acquire_lock
+03:46:03.797 - INFO - Lock released. - release_lock
+03:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+04:01:02.876 - INFO - Lock acquired. - acquire_lock
+04:01:03.882 - INFO - Lock released. - release_lock
+04:01:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+04:16:03.195 - INFO - Lock acquired. - acquire_lock
+04:16:04.201 - INFO - Lock released. - release_lock
+04:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+04:31:03.088 - INFO - Lock acquired. - acquire_lock
+04:31:04.095 - INFO - Lock released. - release_lock
+04:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+04:46:03.043 - INFO - Lock acquired. - acquire_lock
+04:46:04.049 - INFO - Lock released. - release_lock
+04:46:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+05:01:02.789 - INFO - Lock acquired. - acquire_lock
+05:01:03.796 - INFO - Lock released. - release_lock
+05:01:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+05:16:02.943 - INFO - Lock acquired. - acquire_lock
+05:16:03.951 - INFO - Lock released. - release_lock
+05:16:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+05:31:02.850 - INFO - Lock acquired. - acquire_lock
+05:31:03.856 - INFO - Lock released. - release_lock
+05:31:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+05:46:03.559 - INFO - Lock acquired. - acquire_lock
+05:46:04.565 - INFO - Lock released. - release_lock
+05:46:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+06:01:02.866 - INFO - Lock acquired. - acquire_lock
+06:01:03.872 - INFO - Lock released. - release_lock
+06:01:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+06:16:02.509 - INFO - Lock acquired. - acquire_lock
+06:16:03.515 - INFO - Lock released. - release_lock
+06:16:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+06:31:03.441 - INFO - Lock acquired. - acquire_lock
+06:31:04.447 - INFO - Lock released. - release_lock
+06:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+06:46:03.086 - INFO - Lock acquired. - acquire_lock
+06:46:04.093 - INFO - Lock released. - release_lock
+06:46:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+07:01:03.479 - INFO - Lock acquired. - acquire_lock
+07:01:04.486 - INFO - Lock released. - release_lock
+07:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+07:16:02.961 - INFO - Lock acquired. - acquire_lock
+07:16:03.967 - INFO - Lock released. - release_lock
+07:16:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+07:31:03.040 - INFO - Lock acquired. - acquire_lock
+07:31:04.047 - INFO - Lock released. - release_lock
+07:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+07:46:03.284 - INFO - Lock acquired. - acquire_lock
+07:46:04.291 - INFO - Lock released. - release_lock
+07:46:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+08:01:04.470 - INFO - Lock acquired. - acquire_lock
+08:01:05.478 - INFO - Lock released. - release_lock
+08:01:04 loop finished sleeping 1 seconds before exit
+branch update No. 5
+08:16:03.378 - INFO - Lock acquired. - acquire_lock
+08:16:04.386 - INFO - Lock released. - release_lock
+08:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+08:31:05.176 - INFO - Lock acquired. - acquire_lock
+08:31:06.183 - INFO - Lock released. - release_lock
+08:31:05 loop finished sleeping 1 seconds before exit
+branch update No. 5
+08:46:03.579 - INFO - Lock acquired. - acquire_lock
+08:46:04.587 - INFO - Lock released. - release_lock
+08:46:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+09:01:03.398 - INFO - Lock acquired. - acquire_lock
+09:01:04.406 - INFO - Lock released. - release_lock
+09:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+09:16:03.614 - INFO - Lock acquired. - acquire_lock
+09:16:04.622 - INFO - Lock released. - release_lock
+09:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+09:31:03.533 - INFO - Lock acquired. - acquire_lock
+09:31:04.540 - INFO - Lock released. - release_lock
+09:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+09:46:03.468 - INFO - Lock acquired. - acquire_lock
+09:46:03.475 - INFO - detected new pair LUCEUSDT at Nov 11, 2024, 10AM - main
+09:46:03.476 - INFO - Release time and date: 11-11-2024 10:00:00.000 - get_price_websocket
+09:46:03.906 - INFO - Subscription request sent for LUCE-USDT - initialize_websocket
+09:46:03.977 - INFO - Successfully subscribed to LUCE-USDT - wait_for_subscription
+09:46:03.978 - INFO - Waiting 836.02 seconds until token release time - wait_until_listing
+09:59:39.600 - INFO - 25 seconds left until token release - wait_until_listing
+10:00:00.003 - DEBUG - Received data: {'id': '1731318363907', 'type': 'pong', 'timestamp': 1731318363951075} - get_price_websocket
+10:00:00.003 - DEBUG - Received data: {'id': '1731318383912', 'type': 'pong', 'timestamp': 1731318383956646} - get_price_websocket
+10:00:00.003 - DEBUG - Received data: {'id': '1731318403916', 'type': 'pong', 'timestamp': 1731318403961381} - get_price_websocket
+10:00:00.003 - DEBUG - Received data: {'id': '1731318423920', 'type': 'pong', 'timestamp': 1731318424002247} - get_price_websocket
+10:00:00.003 - DEBUG - Received data: {'id': '1731318443924', 'type': 'pong', 'timestamp': 1731318443968649} - get_price_websocket
+10:00:00.003 - DEBUG - Received data: {'id': '1731318463928', 'type': 'pong', 'timestamp': 1731318463972895} - get_price_websocket
+10:00:00.004 - DEBUG - Received data: {'id': '1731318483932', 'type': 'pong', 'timestamp': 1731318483978754} - get_price_websocket
+10:00:00.004 - DEBUG - Received data: {'id': '1731318503940', 'type': 'pong', 'timestamp': 1731318503984637} - get_price_websocket
+10:00:00.004 - DEBUG - Received data: {'id': '1731318523946', 'type': 'pong', 'timestamp': 1731318523990644} - get_price_websocket
+10:00:00.004 - DEBUG - Received data: {'id': '1731318543952', 'type': 'pong', 'timestamp': 1731318543996707} - get_price_websocket
+10:00:00.004 - DEBUG - Received data: {'id': '1731318563956', 'type': 'pong', 'timestamp': 1731318564001136} - get_price_websocket
+10:00:00.004 - DEBUG - Received data: {'id': '1731318583962', 'type': 'pong', 'timestamp': 1731318584006768} - get_price_websocket
+10:00:00.004 - DEBUG - Received data: {'id': '1731318603968', 'type': 'pong', 'timestamp': 1731318604012852} - get_price_websocket
+10:00:00.004 - DEBUG - Received data: {'id': '1731318623974', 'type': 'pong', 'timestamp': 1731318624018786} - get_price_websocket
+10:00:00.004 - DEBUG - Received data: {'id': '1731318643980', 'type': 'pong', 'timestamp': 1731318644024450} - get_price_websocket
+10:00:00.004 - DEBUG - Received data: {'id': '1731318663985', 'type': 'pong', 'timestamp': 1731318664030144} - get_price_websocket
+10:00:00.004 - DEBUG - Received data: {'id': '1731318683991', 'type': 'pong', 'timestamp': 1731318684036287} - get_price_websocket
+10:00:00.004 - DEBUG - Received data: {'id': '1731318703997', 'type': 'pong', 'timestamp': 1731318704042049} - get_price_websocket
+10:00:00.004 - DEBUG - Received data: {'id': '1731318724000', 'type': 'pong', 'timestamp': 1731318724044754} - get_price_websocket
+10:00:00.004 - DEBUG - Received data: {'id': '1731318744006', 'type': 'pong', 'timestamp': 1731318744050772} - get_price_websocket
+10:00:00.004 - DEBUG - Received data: {'id': '1731318764012', 'type': 'pong', 'timestamp': 1731318764056355} - get_price_websocket
+10:00:00.005 - DEBUG - Received data: {'id': '1731318784019', 'type': 'pong', 'timestamp': 1731318784063413} - get_price_websocket
+10:00:00.005 - DEBUG - Received data: {'id': '1731318804020', 'type': 'pong', 'timestamp': 1731318804064221} - get_price_websocket
+10:00:00.005 - DEBUG - Received data: {'id': '1731318824026', 'type': 'pong', 'timestamp': 1731318824070174} - get_price_websocket
+10:00:00.005 - DEBUG - Received data: {'id': '1731318844032', 'type': 'pong', 'timestamp': 1731318844076265} - get_price_websocket
+10:00:00.005 - DEBUG - Received data: {'id': '1731318864038', 'type': 'pong', 'timestamp': 1731318864081822} - get_price_websocket
+10:00:00.005 - DEBUG - Received data: {'id': '1731318884044', 'type': 'pong', 'timestamp': 1731318884087419} - get_price_websocket
+10:00:00.005 - DEBUG - Received data: {'id': '1731318904049', 'type': 'pong', 'timestamp': 1731318904092403} - get_price_websocket
+10:00:00.005 - DEBUG - Received data: {'id': '1731318924055', 'type': 'pong', 'timestamp': 1731318924098367} - get_price_websocket
+10:00:00.005 - DEBUG - Received data: {'id': '1731318944061', 'type': 'pong', 'timestamp': 1731318944104020} - get_price_websocket
+10:00:00.005 - DEBUG - Received data: {'id': '1731318964067', 'type': 'pong', 'timestamp': 1731318964109866} - get_price_websocket
+10:00:00.005 - DEBUG - Received data: {'id': '1731318984073', 'type': 'pong', 'timestamp': 1731318984117221} - get_price_websocket
+10:00:00.005 - DEBUG - Received data: {'id': '1731319004078', 'type': 'pong', 'timestamp': 1731319004120700} - get_price_websocket
+10:00:00.005 - DEBUG - Received data: {'id': '1731319024084', 'type': 'pong', 'timestamp': 1731319024126199} - get_price_websocket
+10:00:00.005 - DEBUG - Received data: {'id': '1731319044090', 'type': 'pong', 'timestamp': 1731319044247921} - get_price_websocket
+10:00:00.005 - DEBUG - Received data: {'id': '1731319064096', 'type': 'pong', 'timestamp': 1731319064138049} - get_price_websocket
+10:00:00.006 - DEBUG - Received data: {'id': '1731319084101', 'type': 'pong', 'timestamp': 1731319084143057} - get_price_websocket
+10:00:00.006 - DEBUG - Received data: {'id': '1731319104106', 'type': 'pong', 'timestamp': 1731319104159622} - get_price_websocket
+10:00:00.006 - DEBUG - Received data: {'id': '1731319124112', 'type': 'pong', 'timestamp': 1731319124153901} - get_price_websocket
+10:00:00.006 - DEBUG - Received data: {'id': '1731319144116', 'type': 'pong', 'timestamp': 1731319144158136} - get_price_websocket
+10:00:00.006 - DEBUG - Received data: {'id': '1731319164122', 'type': 'pong', 'timestamp': 1731319164163657} - get_price_websocket
+10:00:00.006 - DEBUG - Received data: {'id': '1731319184123', 'type': 'pong', 'timestamp': 1731319184164271} - get_price_websocket
+10:00:00.098 - DEBUG - Received data: {'topic': '/market/ticker:LUCE-USDT', 'type': 'message', 'subject': 'trade.ticker', 'data': {'bestAsk': '0.109', 'bestAskSize': '30700', 'bestBid': '0.08', 'bestBidSize': '4354', 'price': '0.068', 'sequence': '8', 'size': '10', 'time': 1731319200000}} - get_price_websocket
+10:00:00.099 - INFO - Price found via WebSocket: 0.068 at  - get_price_websocket
+10:00:00.099 - INFO - Buying price: 0.0952 at 10:00:00.099 - place_buy_limit_order
+10:00:00.315 - INFO - Buy order executed at: 10:00:00.315: {'success': True, 'order_id': '6731d5a054d62a0007db9b29', 'client_oid': 'df03334e-9d68-42ad-9a0b-5eb47a0238f9', 'execution_time': 0.21583049197215587, 'response': {'code': '200000', 'data': {'orderId': '6731d5a054d62a0007db9b29', 'clientOid': 'df03334e-9d68-42ad-9a0b-5eb47a0238f9'}}} - place_buy_limit_order
+10:00:00.315 - INFO - Limit buy order price: 0.0952 - place_buy_limit_order
+10:00:00.449 - INFO - Sell order executed at 10:00:00.449: {'success': False, 'order_id': None, 'client_oid': '50f9ab7a-ed97-445e-944c-523ab464f727', 'execution_time': 0.13356752798426896, 'response': {'msg': 'Balance insufficient!', 'code': '200004'}} - place_sell_limit_order
+10:00:00.449 - INFO - Limit sell order price: 0.07616 - place_sell_limit_order
+10:00:01.524 - INFO - Lock released. - release_lock
+10:00:00 loop finished sleeping 1 seconds before exit
+branch update No. 5
+10:01:03.427 - INFO - Lock acquired. - acquire_lock
+10:01:04.435 - INFO - Lock released. - release_lock
+10:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+10:16:03.284 - INFO - Lock acquired. - acquire_lock
+10:16:04.291 - INFO - Lock released. - release_lock
+10:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+10:31:03.272 - INFO - Lock acquired. - acquire_lock
+10:31:04.281 - INFO - Lock released. - release_lock
+10:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+10:46:03.038 - INFO - Lock acquired. - acquire_lock
+10:46:04.044 - INFO - Lock released. - release_lock
+10:46:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+11:01:02.950 - INFO - Lock acquired. - acquire_lock
+11:01:03.957 - INFO - Lock released. - release_lock
+11:01:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+11:16:03.758 - INFO - Lock acquired. - acquire_lock
+11:16:04.766 - INFO - Lock released. - release_lock
+11:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+11:31:02.751 - INFO - Lock acquired. - acquire_lock
+11:31:03.759 - INFO - Lock released. - release_lock
+11:31:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+11:46:03.567 - INFO - Lock acquired. - acquire_lock
+11:46:03.574 - INFO - detected new pair PNUTUSDT at Nov 11, 2024, 12PM - main
+11:46:03.575 - INFO - Release time and date: 11-11-2024 12:00:00.000 - get_price_websocket
+11:46:04.031 - INFO - Subscription request sent for PNUT-USDT - initialize_websocket
+11:46:04.100 - INFO - Successfully subscribed to PNUT-USDT - wait_for_subscription
+11:46:04.101 - INFO - Waiting 835.90 seconds until token release time - wait_until_listing
+11:59:39.710 - INFO - 25 seconds left until token release - wait_until_listing
+12:00:00.005 - DEBUG - Received data: {'id': '1731325564031', 'type': 'pong', 'timestamp': 1731325564071799} - get_price_websocket
+12:00:00.005 - DEBUG - Received data: {'id': '1731325584037', 'type': 'pong', 'timestamp': 1731325584077517} - get_price_websocket
+12:00:00.005 - DEBUG - Received data: {'id': '1731325604040', 'type': 'pong', 'timestamp': 1731325604080269} - get_price_websocket
+12:00:00.005 - DEBUG - Received data: {'id': '1731325624045', 'type': 'pong', 'timestamp': 1731325624085582} - get_price_websocket
+12:00:00.005 - DEBUG - Received data: {'id': '1731325644052', 'type': 'pong', 'timestamp': 1731325644092225} - get_price_websocket
+12:00:00.005 - DEBUG - Received data: {'id': '1731325664058', 'type': 'pong', 'timestamp': 1731325664097799} - get_price_websocket
+12:00:00.005 - DEBUG - Received data: {'id': '1731325684060', 'type': 'pong', 'timestamp': 1731325684100673} - get_price_websocket
+12:00:00.005 - DEBUG - Received data: {'id': '1731325704066', 'type': 'pong', 'timestamp': 1731325704106216} - get_price_websocket
+12:00:00.005 - DEBUG - Received data: {'id': '1731325724072', 'type': 'pong', 'timestamp': 1731325724112366} - get_price_websocket
+12:00:00.005 - DEBUG - Received data: {'id': '1731325744076', 'type': 'pong', 'timestamp': 1731325744116196} - get_price_websocket
+12:00:00.005 - DEBUG - Received data: {'id': '1731325764080', 'type': 'pong', 'timestamp': 1731325764120152} - get_price_websocket
+12:00:00.006 - DEBUG - Received data: {'id': '1731325784084', 'type': 'pong', 'timestamp': 1731325784124354} - get_price_websocket
+12:00:00.006 - DEBUG - Received data: {'id': '1731325804088', 'type': 'pong', 'timestamp': 1731325804128724} - get_price_websocket
+12:00:00.006 - DEBUG - Received data: {'id': '1731325824094', 'type': 'pong', 'timestamp': 1731325824134480} - get_price_websocket
+12:00:00.006 - DEBUG - Received data: {'id': '1731325844101', 'type': 'pong', 'timestamp': 1731325844141175} - get_price_websocket
+12:00:00.006 - DEBUG - Received data: {'id': '1731325864106', 'type': 'pong', 'timestamp': 1731325864146488} - get_price_websocket
+12:00:00.006 - DEBUG - Received data: {'id': '1731325884112', 'type': 'pong', 'timestamp': 1731325884152236} - get_price_websocket
+12:00:00.006 - DEBUG - Received data: {'id': '1731325904117', 'type': 'pong', 'timestamp': 1731325904157584} - get_price_websocket
+12:00:00.006 - DEBUG - Received data: {'id': '1731325924123', 'type': 'pong', 'timestamp': 1731325924163040} - get_price_websocket
+12:00:00.006 - DEBUG - Received data: {'id': '1731325944129', 'type': 'pong', 'timestamp': 1731325944169213} - get_price_websocket
+12:00:00.006 - DEBUG - Received data: {'id': '1731325964135', 'type': 'pong', 'timestamp': 1731325964175247} - get_price_websocket
+12:00:00.006 - DEBUG - Received data: {'id': '1731325984141', 'type': 'pong', 'timestamp': 1731325984181530} - get_price_websocket
+12:00:00.006 - DEBUG - Received data: {'id': '1731326004144', 'type': 'pong', 'timestamp': 1731326004185133} - get_price_websocket
+12:00:00.006 - DEBUG - Received data: {'id': '1731326024149', 'type': 'pong', 'timestamp': 1731326024191017} - get_price_websocket
+12:00:00.007 - DEBUG - Received data: {'id': '1731326044154', 'type': 'pong', 'timestamp': 1731326044194826} - get_price_websocket
+12:00:00.007 - DEBUG - Received data: {'id': '1731326064160', 'type': 'pong', 'timestamp': 1731326064200843} - get_price_websocket
+12:00:00.007 - DEBUG - Received data: {'id': '1731326084166', 'type': 'pong', 'timestamp': 1731326084206692} - get_price_websocket
+12:00:00.007 - DEBUG - Received data: {'id': '1731326104171', 'type': 'pong', 'timestamp': 1731326104211843} - get_price_websocket
+12:00:00.007 - DEBUG - Received data: {'id': '1731326124177', 'type': 'pong', 'timestamp': 1731326124217546} - get_price_websocket
+12:00:00.007 - DEBUG - Received data: {'id': '1731326144183', 'type': 'pong', 'timestamp': 1731326144223236} - get_price_websocket
+12:00:00.007 - DEBUG - Received data: {'id': '1731326164188', 'type': 'pong', 'timestamp': 1731326164228488} - get_price_websocket
+12:00:00.007 - DEBUG - Received data: {'id': '1731326184194', 'type': 'pong', 'timestamp': 1731326184234392} - get_price_websocket
+12:00:00.008 - DEBUG - Received data: {'id': '1731326204200', 'type': 'pong', 'timestamp': 1731326204241007} - get_price_websocket
+12:00:00.008 - DEBUG - Received data: {'id': '1731326224205', 'type': 'pong', 'timestamp': 1731326224245723} - get_price_websocket
+12:00:00.008 - DEBUG - Received data: {'id': '1731326244211', 'type': 'pong', 'timestamp': 1731326244251499} - get_price_websocket
+12:00:00.008 - DEBUG - Received data: {'id': '1731326264217', 'type': 'pong', 'timestamp': 1731326264257951} - get_price_websocket
+12:00:00.008 - DEBUG - Received data: {'id': '1731326284220', 'type': 'pong', 'timestamp': 1731326284260500} - get_price_websocket
+12:00:00.008 - DEBUG - Received data: {'id': '1731326304226', 'type': 'pong', 'timestamp': 1731326304266466} - get_price_websocket
+12:00:00.008 - DEBUG - Received data: {'id': '1731326324232', 'type': 'pong', 'timestamp': 1731326324272547} - get_price_websocket
+12:00:00.008 - DEBUG - Received data: {'id': '1731326344237', 'type': 'pong', 'timestamp': 1731326344277822} - get_price_websocket
+12:00:00.009 - DEBUG - Received data: {'id': '1731326364243', 'type': 'pong', 'timestamp': 1731326364283778} - get_price_websocket
+12:00:00.009 - DEBUG - Received data: {'id': '1731326384243', 'type': 'pong', 'timestamp': 1731326384284046} - get_price_websocket
+12:00:00.913 - DEBUG - Received data: {'topic': '/market/ticker:PNUT-USDT', 'type': 'message', 'subject': 'trade.ticker', 'data': {'bestAsk': '0.51', 'bestAskSize': '1174', 'bestBid': '0.5', 'bestBidSize': '960', 'price': '0.18', 'sequence': '98', 'size': '2', 'time': 1731326400000}} - get_price_websocket
+12:00:00.913 - INFO - Price found via WebSocket: 0.18 at  - get_price_websocket
+12:00:00.913 - INFO - Price retrived to slow /price: 0.18 - scraper
+12:00:01.985 - INFO - Lock released. - release_lock
+12:00:00 loop finished sleeping 1 seconds before exit
+branch update No. 5
+12:01:02.795 - INFO - Lock acquired. - acquire_lock
+12:01:03.804 - INFO - Lock released. - release_lock
+12:01:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+12:16:03.445 - INFO - Lock acquired. - acquire_lock
+12:16:04.452 - INFO - Lock released. - release_lock
+12:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+12:31:03.475 - INFO - Lock acquired. - acquire_lock
+12:31:04.484 - INFO - Lock released. - release_lock
+12:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+12:46:03.292 - INFO - Lock acquired. - acquire_lock
+12:46:04.300 - INFO - Lock released. - release_lock
+12:46:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+13:01:03.120 - INFO - Lock acquired. - acquire_lock
+13:01:04.129 - INFO - Lock released. - release_lock
+13:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+13:16:03.170 - INFO - Lock acquired. - acquire_lock
+13:16:04.178 - INFO - Lock released. - release_lock
+13:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+13:31:03.200 - INFO - Lock acquired. - acquire_lock
+13:31:04.207 - INFO - Lock released. - release_lock
+13:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+13:46:02.920 - INFO - Lock acquired. - acquire_lock
+13:46:03.929 - INFO - Lock released. - release_lock
+13:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+14:01:03.436 - INFO - Lock acquired. - acquire_lock
+14:01:04.443 - INFO - Lock released. - release_lock
+14:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+14:16:03.493 - INFO - Lock acquired. - acquire_lock
+14:16:04.500 - INFO - Lock released. - release_lock
+14:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+14:31:03.514 - INFO - Lock acquired. - acquire_lock
+14:31:04.522 - INFO - Lock released. - release_lock
+14:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+14:46:03.818 - INFO - Lock acquired. - acquire_lock
+14:46:04.825 - INFO - Lock released. - release_lock
+14:46:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+15:01:03.088 - INFO - Lock acquired. - acquire_lock
+15:01:04.096 - INFO - Lock released. - release_lock
+15:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+15:16:03.161 - INFO - Lock acquired. - acquire_lock
+15:16:04.167 - INFO - Lock released. - release_lock
+15:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+15:31:03.151 - INFO - Lock acquired. - acquire_lock
+15:31:04.158 - INFO - Lock released. - release_lock
+15:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+15:46:02.798 - INFO - Lock acquired. - acquire_lock
+15:46:03.825 - INFO - Lock released. - release_lock
+15:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+16:01:03.184 - INFO - Lock acquired. - acquire_lock
+16:01:04.191 - INFO - Lock released. - release_lock
+16:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+16:16:03.546 - INFO - Lock acquired. - acquire_lock
+16:16:04.553 - INFO - Lock released. - release_lock
+16:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+16:31:03.672 - INFO - Lock acquired. - acquire_lock
+16:31:04.680 - INFO - Lock released. - release_lock
+16:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+16:46:03.506 - INFO - Lock acquired. - acquire_lock
+16:46:04.512 - INFO - Lock released. - release_lock
+16:46:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+17:01:02.891 - INFO - Lock acquired. - acquire_lock
+17:01:03.899 - INFO - Lock released. - release_lock
+17:01:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+17:16:02.917 - INFO - Lock acquired. - acquire_lock
+17:16:03.925 - INFO - Lock released. - release_lock
+17:16:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+17:31:03.319 - INFO - Lock acquired. - acquire_lock
+17:31:04.326 - INFO - Lock released. - release_lock
+17:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+17:46:03.089 - INFO - Lock acquired. - acquire_lock
+17:46:04.096 - INFO - Lock released. - release_lock
+17:46:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+18:01:02.768 - INFO - Lock acquired. - acquire_lock
+18:01:03.774 - INFO - Lock released. - release_lock
+18:01:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+18:16:03.127 - INFO - Lock acquired. - acquire_lock
+18:16:04.135 - INFO - Lock released. - release_lock
+18:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+18:31:02.965 - INFO - Lock acquired. - acquire_lock
+18:31:03.971 - INFO - Lock released. - release_lock
+18:31:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+18:46:03.638 - INFO - Lock acquired. - acquire_lock
+18:46:04.644 - INFO - Lock released. - release_lock
+18:46:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+19:01:03.236 - INFO - Lock acquired. - acquire_lock
+19:01:04.246 - INFO - Lock released. - release_lock
+19:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+19:16:02.917 - INFO - Lock acquired. - acquire_lock
+19:16:03.924 - INFO - Lock released. - release_lock
+19:16:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+19:31:02.881 - INFO - Lock acquired. - acquire_lock
+19:31:03.888 - INFO - Lock released. - release_lock
+19:31:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+19:46:03.580 - INFO - Lock acquired. - acquire_lock
+19:46:04.587 - INFO - Lock released. - release_lock
+19:46:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+20:01:03.563 - INFO - Lock acquired. - acquire_lock
+20:01:04.569 - INFO - Lock released. - release_lock
+20:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+20:16:04.898 - INFO - Lock acquired. - acquire_lock
+20:16:05.906 - INFO - Lock released. - release_lock
+20:16:04 loop finished sleeping 1 seconds before exit
+branch update No. 5
+20:31:02.707 - INFO - Lock acquired. - acquire_lock
+20:31:03.723 - INFO - Lock released. - release_lock
+20:31:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+20:46:02.984 - INFO - Lock acquired. - acquire_lock
+20:46:04.000 - INFO - Lock released. - release_lock
+20:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+21:01:03.571 - INFO - Lock acquired. - acquire_lock
+21:01:04.592 - INFO - Lock released. - release_lock
+21:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+21:16:02.716 - INFO - Lock acquired. - acquire_lock
+21:16:03.733 - INFO - Lock released. - release_lock
+21:16:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+21:31:03.535 - INFO - Lock acquired. - acquire_lock
+21:31:04.552 - INFO - Lock released. - release_lock
+21:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+21:46:02.942 - INFO - Lock acquired. - acquire_lock
+21:46:03.959 - INFO - Lock released. - release_lock
+21:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+22:01:03.226 - INFO - Lock acquired. - acquire_lock
+22:01:04.245 - INFO - Lock released. - release_lock
+22:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+22:16:02.982 - INFO - Lock acquired. - acquire_lock
+22:16:04.003 - INFO - Lock released. - release_lock
+22:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+22:31:02.857 - INFO - Lock acquired. - acquire_lock
+22:31:03.872 - INFO - Lock released. - release_lock
+22:31:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+22:46:02.888 - INFO - Lock acquired. - acquire_lock
+22:46:03.909 - INFO - Lock released. - release_lock
+22:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+23:01:03.102 - INFO - Lock acquired. - acquire_lock
+23:01:04.126 - INFO - Lock released. - release_lock
+23:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+23:16:03.050 - INFO - Lock acquired. - acquire_lock
+23:16:04.067 - INFO - Lock released. - release_lock
+23:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+23:31:03.029 - INFO - Lock acquired. - acquire_lock
+23:31:04.047 - INFO - Lock released. - release_lock
+23:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+23:46:02.737 - INFO - Lock acquired. - acquire_lock
+23:46:03.758 - INFO - Lock released. - release_lock
+23:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+00:01:03.467 - INFO - Lock acquired. - acquire_lock
+00:01:04.484 - INFO - Lock released. - release_lock
+00:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+00:16:03.616 - INFO - Lock acquired. - acquire_lock
+00:16:04.632 - INFO - Lock released. - release_lock
+00:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+00:31:03.444 - INFO - Lock acquired. - acquire_lock
+00:31:04.459 - INFO - Lock released. - release_lock
+00:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+00:46:02.980 - INFO - Lock acquired. - acquire_lock
+00:46:03.997 - INFO - Lock released. - release_lock
+00:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+01:01:03.260 - INFO - Lock acquired. - acquire_lock
+01:01:04.276 - INFO - Lock released. - release_lock
+01:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+01:16:03.411 - INFO - Lock acquired. - acquire_lock
+01:16:04.431 - INFO - Lock released. - release_lock
+01:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+01:31:03.373 - INFO - Lock acquired. - acquire_lock
+01:31:04.390 - INFO - Lock released. - release_lock
+01:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+01:46:02.917 - INFO - Lock acquired. - acquire_lock
+01:46:03.938 - INFO - Lock released. - release_lock
+01:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+02:01:02.918 - INFO - Lock acquired. - acquire_lock
+02:01:03.934 - INFO - Lock released. - release_lock
+02:01:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+02:16:03.154 - INFO - Lock acquired. - acquire_lock
+02:16:04.170 - INFO - Lock released. - release_lock
+02:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+02:31:03.326 - INFO - Lock acquired. - acquire_lock
+02:31:04.343 - INFO - Lock released. - release_lock
+02:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+02:46:02.600 - INFO - Lock acquired. - acquire_lock
+02:46:03.617 - INFO - Lock released. - release_lock
+02:46:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+03:01:02.911 - INFO - Lock acquired. - acquire_lock
+03:01:03.927 - INFO - Lock released. - release_lock
+03:01:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+03:16:03.187 - INFO - Lock acquired. - acquire_lock
+03:16:04.205 - INFO - Lock released. - release_lock
+03:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+03:31:03.102 - INFO - Lock acquired. - acquire_lock
+03:31:04.122 - INFO - Lock released. - release_lock
+03:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+03:46:03.301 - INFO - Lock acquired. - acquire_lock
+03:46:04.316 - INFO - Lock released. - release_lock
+03:46:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+04:01:02.913 - INFO - Lock acquired. - acquire_lock
+04:01:03.934 - INFO - Lock released. - release_lock
+04:01:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+04:16:03.245 - INFO - Lock acquired. - acquire_lock
+04:16:04.268 - INFO - Lock released. - release_lock
+04:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+04:31:03.612 - INFO - Lock acquired. - acquire_lock
+04:31:04.635 - INFO - Lock released. - release_lock
+04:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+04:46:03.023 - INFO - Lock acquired. - acquire_lock
+04:46:04.040 - INFO - Lock released. - release_lock
+04:46:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+05:01:03.467 - INFO - Lock acquired. - acquire_lock
+05:01:04.485 - INFO - Lock released. - release_lock
+05:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+05:16:03.049 - INFO - Lock acquired. - acquire_lock
+05:16:04.066 - INFO - Lock released. - release_lock
+05:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+05:31:03.066 - INFO - Lock acquired. - acquire_lock
+05:31:04.085 - INFO - Lock released. - release_lock
+05:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+05:46:03.000 - INFO - Lock acquired. - acquire_lock
+05:46:04.018 - INFO - Lock released. - release_lock
+05:46:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+06:01:03.460 - INFO - Lock acquired. - acquire_lock
+06:01:04.477 - INFO - Lock released. - release_lock
+06:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+06:16:03.083 - INFO - Lock acquired. - acquire_lock
+06:16:04.107 - INFO - Lock released. - release_lock
+06:16:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+06:31:03.201 - INFO - Lock acquired. - acquire_lock
+06:31:04.218 - INFO - Lock released. - release_lock
+06:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+06:46:03.044 - INFO - Lock acquired. - acquire_lock
+06:46:04.061 - INFO - Lock released. - release_lock
+06:46:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+07:01:03.241 - INFO - Lock acquired. - acquire_lock
+07:01:04.260 - INFO - Lock released. - release_lock
+07:01:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+07:16:02.869 - INFO - Lock acquired. - acquire_lock
+07:16:03.887 - INFO - Lock released. - release_lock
+07:16:02 loop finished sleeping 1 seconds before exit
+branch update No. 5
+07:31:03.024 - INFO - Lock acquired. - acquire_lock
+07:31:04.042 - INFO - Lock released. - release_lock
+07:31:03 loop finished sleeping 1 seconds before exit
+branch update No. 5
+07:46:03.413 - INFO - Lock acquired. - acquire_lock
+07:46:04.435 - INFO - Lock released. - release_lock
+07:46:03 loop finished sleeping 1 seconds before exit
+branch update No. 5

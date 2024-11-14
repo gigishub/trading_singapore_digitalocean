@@ -836,3 +836,2691 @@ Successfully retrieved SWELL price: {'asks': [], 'bids': [['0.047553', '549', '1
 12:16:03.253 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
 12:16:03.324 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
 12:16:03.324 - INFO - Waiting 836.68 seconds until token release time - wait_until_listing
+12:29:38.946 - INFO - 25 seconds left until token release - wait_until_listing
+12:30:00.002 - DEBUG - Received data: {'id': '1731154563253', 'type': 'pong'} - get_price_websocket_level2
+12:30:00.002 - DEBUG - Received data: {'topic': '/market/level2:XRP-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [], 'bids': [['0.55146', '6797.0435', '4705988485']]}, 'sequenceEnd': 4705988485, 'sequenceStart': 4705988485, 'symbol': 'XRP-USDT', 'time': 1731154563542}} - get_price_websocket_level2
+12:30:00.003 - INFO - data from WebSocket: {'asks': [], 'bids': [['0.55146', '6797.0435', '4705988485']]}  - get_price_websocket_level2
+12:30:00.003 - DEBUG - Data from socket: {'asks': [], 'bids': [['0.55146', '6797.0435', '4705988485']]} - get_price_websocket_level2
+12:30:00.003 - INFO - Successfully retrieved XRP price: {'asks': [], 'bids': [['0.55146', '6797.0435', '4705988485']]} - main
+12:30:01.220 - DEBUG - break for after detecting pair loop - main
+12:30:01.220 - INFO - Lock released. - release_lock
+2024-11-09 12:30:01.220515 script finished
+======================================
+12:31:02.444 - INFO - Lock acquired. - acquire_lock
+12:31:02.452 - INFO - Starting script - main
+12:31:02.475 - INFO - Detected new pair XRPUSDT at Nov 09, 2024, 12:45PM - main
+12:31:02.475 - INFO - Release time and date: 09-11-2024 12:45:00.000 - get_price_websocket_level2
+12:31:02.952 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+12:31:03.025 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+12:31:03.025 - INFO - Waiting 836.97 seconds until token release time - wait_until_listing
+12:44:38.642 - INFO - 25 seconds left until token release - wait_until_listing
+12:45:00.012 - DEBUG - Received data: {'id': '1731155462953', 'type': 'pong'} - get_price_websocket_level2
+12:45:00.012 - DEBUG - Received data: {'topic': '/market/level2:XRP-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [], 'bids': [['0.54936', '0', '4706041025']]}, 'sequenceEnd': 4706041025, 'sequenceStart': 4706041025, 'symbol': 'XRP-USDT', 'time': 1731155463005}} - get_price_websocket_level2
+12:45:00.012 - INFO - data from WebSocket: {'asks': [], 'bids': [['0.54936', '0', '4706041025']]}  - get_price_websocket_level2
+12:45:00.012 - DEBUG - Data from socket: {'asks': [], 'bids': [['0.54936', '0', '4706041025']]} - get_price_websocket_level2
+12:45:00.012 - INFO - Successfully retrieved XRP price: {'asks': [], 'bids': [['0.54936', '0', '4706041025']]} - main
+12:45:01.048 - DEBUG - break for after detecting pair loop - main
+12:45:01.048 - INFO - Lock released. - release_lock
+2024-11-09 12:45:01.048977 script finished
+======================================
+12:46:02.497 - INFO - Lock acquired. - acquire_lock
+12:46:02.497 - INFO - Starting script - main
+12:46:02.514 - INFO - Detected new pair XRPUSDT at Nov 09, 2024, 01:00PM - main
+12:46:02.515 - INFO - Release time and date: 09-11-2024 13:00:00.000 - get_price_websocket_level2
+12:46:02.888 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+12:46:02.959 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+12:46:02.959 - INFO - Waiting 837.04 seconds until token release time - wait_until_listing
+12:59:38.586 - INFO - 25 seconds left until token release - wait_until_listing
+13:00:00.003 - DEBUG - Received data: {'id': '1731156362889', 'type': 'pong', 'timestamp': 1731156362932999} - get_price_websocket_level2
+13:00:00.006 - DEBUG - Received data: {'topic': '/market/level2:XRP-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [['0.55084', '2915.3217', '4706084853']], 'bids': []}, 'sequenceEnd': 4706084853, 'sequenceStart': 4706084853, 'symbol': 'XRP-USDT', 'time': 1731156362945}} - get_price_websocket_level2
+13:00:00.007 - INFO - data from WebSocket: {'asks': [['0.55084', '2915.3217', '4706084853']], 'bids': []}  - get_price_websocket_level2
+13:00:00.010 - DEBUG - Data from socket: {'asks': [['0.55084', '2915.3217', '4706084853']], 'bids': []} - get_price_websocket_level2
+13:00:00.010 - INFO - Successfully retrieved XRP price: {'asks': [['0.55084', '2915.3217', '4706084853']], 'bids': []} - main
+13:00:00.037 - DEBUG - break for after detecting pair loop - main
+13:00:00.038 - INFO - Lock released. - release_lock
+2024-11-09 13:00:00.038345 script finished
+======================================
+13:01:02.591 - INFO - Lock acquired. - acquire_lock
+13:01:02.604 - INFO - Starting script - main
+13:01:02.622 - INFO - Detected new pair XRPUSDT at Nov 09, 2024, 01:15PM - main
+13:01:02.625 - INFO - Release time and date: 09-11-2024 13:15:00.000 - get_price_websocket_level2
+13:01:03.260 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+13:01:03.330 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+13:01:03.330 - INFO - Waiting 836.67 seconds until token release time - wait_until_listing
+13:14:38.938 - INFO - 25 seconds left until token release - wait_until_listing
+13:15:00.001 - DEBUG - Received data: {'id': '1731157263261', 'type': 'pong'} - get_price_websocket_level2
+13:15:00.002 - DEBUG - Received data: {'topic': '/market/level2:XRP-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [['0.7149', '2.7472', '4706131824']], 'bids': []}, 'sequenceEnd': 4706131824, 'sequenceStart': 4706131824, 'symbol': 'XRP-USDT', 'time': 1731157263330}} - get_price_websocket_level2
+13:15:00.003 - INFO - data from WebSocket: {'asks': [['0.7149', '2.7472', '4706131824']], 'bids': []}  - get_price_websocket_level2
+13:15:00.003 - DEBUG - Data from socket: {'asks': [['0.7149', '2.7472', '4706131824']], 'bids': []} - get_price_websocket_level2
+13:15:00.004 - INFO - Successfully retrieved XRP price: {'asks': [['0.7149', '2.7472', '4706131824']], 'bids': []} - main
+13:15:00.029 - DEBUG - break for after detecting pair loop - main
+13:15:00.032 - INFO - Lock released. - release_lock
+2024-11-09 13:15:00.032837 script finished
+======================================
+13:16:02.859 - INFO - Lock acquired. - acquire_lock
+13:16:02.864 - INFO - Starting script - main
+13:16:02.874 - INFO - Detected new pair XRPUSDT at Nov 09, 2024, 01:30PM - main
+13:16:02.874 - INFO - Release time and date: 09-11-2024 13:30:00.000 - get_price_websocket_level2
+13:16:03.334 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+13:16:03.405 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+13:16:03.405 - INFO - Waiting 836.59 seconds until token release time - wait_until_listing
+13:29:39.019 - INFO - 25 seconds left until token release - wait_until_listing
+13:30:00.003 - DEBUG - Received data: {'id': '1731158163334', 'type': 'pong'} - get_price_websocket_level2
+13:30:00.003 - DEBUG - Received data: {'topic': '/market/level2:XRP-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [], 'bids': [['0.49781', '168.924', '4706170378']]}, 'sequenceEnd': 4706170378, 'sequenceStart': 4706170378, 'symbol': 'XRP-USDT', 'time': 1731158163378}} - get_price_websocket_level2
+13:30:00.003 - INFO - data from WebSocket: {'asks': [], 'bids': [['0.49781', '168.924', '4706170378']]}  - get_price_websocket_level2
+13:30:00.003 - DEBUG - Data from socket: {'asks': [], 'bids': [['0.49781', '168.924', '4706170378']]} - get_price_websocket_level2
+13:30:00.004 - INFO - Successfully retrieved XRP price: {'asks': [], 'bids': [['0.49781', '168.924', '4706170378']]} - main
+13:30:01.025 - DEBUG - break for after detecting pair loop - main
+13:30:01.026 - INFO - Lock released. - release_lock
+2024-11-09 13:30:01.026218 script finished
+======================================
+13:31:02.435 - INFO - Lock acquired. - acquire_lock
+13:31:02.446 - INFO - Starting script - main
+13:31:02.455 - INFO - Detected new pair XRPUSDT at Nov 09, 2024, 01:45PM - main
+13:31:02.455 - INFO - Release time and date: 09-11-2024 13:45:00.000 - get_price_websocket_level2
+13:31:02.891 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+13:31:02.963 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+13:31:02.963 - INFO - Waiting 837.04 seconds until token release time - wait_until_listing
+13:44:38.607 - INFO - 25 seconds left until token release - wait_until_listing
+13:45:00.000 - DEBUG - Received data: {'id': '1731159062892', 'type': 'pong', 'timestamp': 1731159062936268} - get_price_websocket_level2
+13:45:00.000 - DEBUG - Received data: {'topic': '/market/level2:XRP-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [], 'bids': [['0.54647', '32.8177', '4706217717']]}, 'sequenceEnd': 4706217717, 'sequenceStart': 4706217717, 'symbol': 'XRP-USDT', 'time': 1731159062992}} - get_price_websocket_level2
+13:45:00.003 - INFO - data from WebSocket: {'asks': [], 'bids': [['0.54647', '32.8177', '4706217717']]}  - get_price_websocket_level2
+13:45:00.004 - DEBUG - Data from socket: {'asks': [], 'bids': [['0.54647', '32.8177', '4706217717']]} - get_price_websocket_level2
+13:45:00.004 - INFO - Successfully retrieved XRP price: {'asks': [], 'bids': [['0.54647', '32.8177', '4706217717']]} - main
+13:45:00.028 - DEBUG - break for after detecting pair loop - main
+13:45:00.028 - INFO - Lock released. - release_lock
+2024-11-09 13:45:00.029005 script finished
+======================================
+13:46:02.434 - INFO - Lock acquired. - acquire_lock
+13:46:02.434 - INFO - Starting script - main
+13:46:02.441 - INFO - Detected new pair XRPUSDT at Nov 09, 2024, 02:00PM - main
+13:46:02.442 - INFO - Release time and date: 09-11-2024 14:00:00.000 - get_price_websocket_level2
+13:46:02.908 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+13:46:02.982 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+13:46:02.982 - INFO - Waiting 837.02 seconds until token release time - wait_until_listing
+13:59:38.582 - INFO - 25 seconds left until token release - wait_until_listing
+14:00:00.000 - DEBUG - Received data: {'id': '1731159962908', 'type': 'pong'} - get_price_websocket_level2
+14:00:00.001 - DEBUG - Received data: {'topic': '/market/level2:XRP-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [['0.54904', '0', '4706260837']], 'bids': []}, 'sequenceEnd': 4706260837, 'sequenceStart': 4706260837, 'symbol': 'XRP-USDT', 'time': 1731159962993}} - get_price_websocket_level2
+14:00:00.001 - INFO - data from WebSocket: {'asks': [['0.54904', '0', '4706260837']], 'bids': []}  - get_price_websocket_level2
+14:00:00.001 - DEBUG - Data from socket: {'asks': [['0.54904', '0', '4706260837']], 'bids': []} - get_price_websocket_level2
+14:00:00.001 - INFO - Successfully retrieved XRP price: {'asks': [['0.54904', '0', '4706260837']], 'bids': []} - main
+14:00:01.218 - DEBUG - break for after detecting pair loop - main
+14:00:01.218 - INFO - Lock released. - release_lock
+2024-11-09 14:00:01.218887 script finished
+======================================
+14:01:02.485 - INFO - Lock acquired. - acquire_lock
+14:01:02.492 - INFO - Starting script - main
+14:01:02.504 - INFO - Lock released. - release_lock
+2024-11-09 14:01:02.504173 script finished
+======================================
+14:16:02.479 - INFO - Lock acquired. - acquire_lock
+14:16:02.479 - INFO - Starting script - main
+14:16:02.498 - INFO - Lock released. - release_lock
+2024-11-09 14:16:02.503550 script finished
+======================================
+14:31:01.999 - INFO - Lock acquired. - acquire_lock
+14:31:01.999 - INFO - Starting script - main
+14:31:02.030 - INFO - Lock released. - release_lock
+2024-11-09 14:31:02.030299 script finished
+======================================
+14:46:02.486 - INFO - Lock acquired. - acquire_lock
+14:46:02.486 - INFO - Starting script - main
+14:46:02.518 - INFO - Lock released. - release_lock
+2024-11-09 14:46:02.518390 script finished
+======================================
+15:01:02.724 - INFO - Lock acquired. - acquire_lock
+15:01:02.732 - INFO - Starting script - main
+15:01:02.755 - INFO - Lock released. - release_lock
+2024-11-09 15:01:02.756043 script finished
+======================================
+15:16:02.762 - INFO - Lock acquired. - acquire_lock
+15:16:02.768 - INFO - Starting script - main
+15:16:02.775 - INFO - Lock released. - release_lock
+2024-11-09 15:16:02.796445 script finished
+======================================
+15:31:02.379 - INFO - Lock acquired. - acquire_lock
+15:31:02.396 - INFO - Starting script - main
+15:31:02.417 - INFO - Lock released. - release_lock
+2024-11-09 15:31:02.417594 script finished
+======================================
+15:46:02.770 - INFO - Lock acquired. - acquire_lock
+15:46:02.770 - INFO - Starting script - main
+15:46:02.799 - INFO - Lock released. - release_lock
+2024-11-09 15:46:02.799460 script finished
+======================================
+16:01:02.591 - INFO - Lock acquired. - acquire_lock
+16:01:02.591 - INFO - Starting script - main
+16:01:02.615 - INFO - Lock released. - release_lock
+2024-11-09 16:01:02.626883 script finished
+======================================
+16:16:02.032 - INFO - Lock acquired. - acquire_lock
+16:16:02.048 - INFO - Starting script - main
+16:16:02.063 - INFO - Lock released. - release_lock
+2024-11-09 16:16:02.084433 script finished
+======================================
+16:31:02.555 - INFO - Lock acquired. - acquire_lock
+16:31:02.571 - INFO - Starting script - main
+16:31:02.594 - INFO - Lock released. - release_lock
+2024-11-09 16:31:02.608435 script finished
+======================================
+16:46:02.227 - INFO - Lock acquired. - acquire_lock
+16:46:02.227 - INFO - Starting script - main
+16:46:02.250 - INFO - Lock released. - release_lock
+2024-11-09 16:46:02.250774 script finished
+======================================
+17:01:02.447 - INFO - Lock acquired. - acquire_lock
+17:01:02.447 - INFO - Starting script - main
+17:01:02.467 - INFO - Lock released. - release_lock
+2024-11-09 17:01:02.476222 script finished
+======================================
+17:16:01.929 - INFO - Lock acquired. - acquire_lock
+17:16:01.929 - INFO - Starting script - main
+17:16:01.955 - INFO - Lock released. - release_lock
+2024-11-09 17:16:01.955934 script finished
+======================================
+17:31:02.326 - INFO - Lock acquired. - acquire_lock
+17:31:02.332 - INFO - Starting script - main
+17:31:02.362 - INFO - Lock released. - release_lock
+2024-11-09 17:31:02.363018 script finished
+======================================
+17:46:01.918 - INFO - Lock acquired. - acquire_lock
+17:46:01.918 - INFO - Starting script - main
+17:46:01.937 - INFO - Lock released. - release_lock
+2024-11-09 17:46:01.940466 script finished
+======================================
+18:01:01.842 - INFO - Lock acquired. - acquire_lock
+18:01:01.853 - INFO - Starting script - main
+18:01:01.892 - INFO - Lock released. - release_lock
+2024-11-09 18:01:01.893057 script finished
+======================================
+18:16:01.805 - INFO - Lock acquired. - acquire_lock
+18:16:01.808 - INFO - Starting script - main
+18:16:01.841 - INFO - Lock released. - release_lock
+2024-11-09 18:16:01.848411 script finished
+======================================
+18:31:02.423 - INFO - Lock acquired. - acquire_lock
+18:31:02.423 - INFO - Starting script - main
+18:31:02.454 - INFO - Lock released. - release_lock
+2024-11-09 18:31:02.454478 script finished
+======================================
+18:46:02.006 - INFO - Lock acquired. - acquire_lock
+18:46:02.016 - INFO - Starting script - main
+18:46:02.049 - INFO - Lock released. - release_lock
+2024-11-09 18:46:02.049255 script finished
+======================================
+19:01:02.660 - INFO - Lock acquired. - acquire_lock
+19:01:02.660 - INFO - Starting script - main
+19:01:02.688 - INFO - Lock released. - release_lock
+2024-11-09 19:01:02.696275 script finished
+======================================
+19:16:02.095 - INFO - Lock acquired. - acquire_lock
+19:16:02.104 - INFO - Starting script - main
+19:16:02.135 - INFO - Lock released. - release_lock
+2024-11-09 19:16:02.135854 script finished
+======================================
+19:31:02.562 - INFO - Lock acquired. - acquire_lock
+19:31:02.562 - INFO - Starting script - main
+19:31:02.587 - INFO - Lock released. - release_lock
+2024-11-09 19:31:02.587745 script finished
+======================================
+19:46:02.741 - INFO - Lock acquired. - acquire_lock
+19:46:02.741 - INFO - Starting script - main
+19:46:02.760 - INFO - Lock released. - release_lock
+2024-11-09 19:46:02.760247 script finished
+======================================
+20:01:02.901 - INFO - Lock acquired. - acquire_lock
+20:01:02.901 - INFO - Starting script - main
+20:01:02.920 - INFO - Lock released. - release_lock
+2024-11-09 20:01:02.920867 script finished
+======================================
+20:16:02.085 - INFO - Lock acquired. - acquire_lock
+20:16:02.085 - INFO - Starting script - main
+20:16:02.101 - INFO - Lock released. - release_lock
+2024-11-09 20:16:02.101558 script finished
+======================================
+20:31:02.429 - INFO - Lock acquired. - acquire_lock
+20:31:02.429 - INFO - Starting script - main
+20:31:02.448 - INFO - Lock released. - release_lock
+2024-11-09 20:31:02.456450 script finished
+======================================
+20:46:01.922 - INFO - Lock acquired. - acquire_lock
+20:46:01.922 - INFO - Starting script - main
+20:46:01.953 - INFO - Lock released. - release_lock
+2024-11-09 20:46:01.953429 script finished
+======================================
+21:01:02.761 - INFO - Lock acquired. - acquire_lock
+21:01:02.761 - INFO - Starting script - main
+21:01:02.793 - INFO - Lock released. - release_lock
+2024-11-09 21:01:02.793204 script finished
+======================================
+21:16:02.420 - INFO - Lock acquired. - acquire_lock
+21:16:02.420 - INFO - Starting script - main
+21:16:02.442 - INFO - Lock released. - release_lock
+2024-11-09 21:16:02.442712 script finished
+======================================
+21:31:02.809 - INFO - Lock acquired. - acquire_lock
+21:31:02.809 - INFO - Starting script - main
+21:31:02.849 - INFO - Lock released. - release_lock
+2024-11-09 21:31:02.849699 script finished
+======================================
+21:46:02.500 - INFO - Lock acquired. - acquire_lock
+21:46:02.500 - INFO - Starting script - main
+21:46:02.516 - INFO - Lock released. - release_lock
+2024-11-09 21:46:02.528438 script finished
+======================================
+22:01:02.706 - INFO - Lock acquired. - acquire_lock
+22:01:02.706 - INFO - Starting script - main
+22:01:02.742 - INFO - Lock released. - release_lock
+2024-11-09 22:01:02.748100 script finished
+======================================
+22:16:02.675 - INFO - Lock acquired. - acquire_lock
+22:16:02.681 - INFO - Starting script - main
+22:16:02.711 - INFO - Lock released. - release_lock
+2024-11-09 22:16:02.711197 script finished
+======================================
+22:31:02.307 - INFO - Lock acquired. - acquire_lock
+22:31:02.324 - INFO - Starting script - main
+22:31:02.361 - INFO - Lock released. - release_lock
+2024-11-09 22:31:02.361284 script finished
+======================================
+22:46:02.254 - INFO - Lock acquired. - acquire_lock
+22:46:02.267 - INFO - Starting script - main
+22:46:02.274 - INFO - Lock released. - release_lock
+2024-11-09 22:46:02.289336 script finished
+======================================
+23:01:02.238 - INFO - Lock acquired. - acquire_lock
+23:01:02.248 - INFO - Starting script - main
+23:01:02.284 - INFO - Lock released. - release_lock
+2024-11-09 23:01:02.284774 script finished
+======================================
+23:16:02.225 - INFO - Lock acquired. - acquire_lock
+23:16:02.240 - INFO - Starting script - main
+23:16:02.255 - INFO - Lock released. - release_lock
+2024-11-09 23:16:02.260425 script finished
+======================================
+23:31:02.651 - INFO - Lock acquired. - acquire_lock
+23:31:02.651 - INFO - Starting script - main
+23:31:02.688 - INFO - Lock released. - release_lock
+2024-11-09 23:31:02.688192 script finished
+======================================
+23:46:02.480 - INFO - Lock acquired. - acquire_lock
+23:46:02.496 - INFO - Starting script - main
+23:46:02.510 - INFO - Lock released. - release_lock
+2024-11-09 23:46:02.510394 script finished
+======================================
+00:01:01.974 - INFO - Lock acquired. - acquire_lock
+00:01:01.984 - INFO - Starting script - main
+00:01:02.007 - INFO - Lock released. - release_lock
+2024-11-10 00:01:02.007970 script finished
+======================================
+00:16:02.583 - INFO - Lock acquired. - acquire_lock
+00:16:02.596 - INFO - Starting script - main
+00:16:02.622 - INFO - Lock released. - release_lock
+2024-11-10 00:16:02.624544 script finished
+======================================
+00:31:02.763 - INFO - Lock acquired. - acquire_lock
+00:31:02.763 - INFO - Starting script - main
+00:31:02.790 - INFO - Lock released. - release_lock
+2024-11-10 00:31:02.790721 script finished
+======================================
+00:46:02.239 - INFO - Lock acquired. - acquire_lock
+00:46:02.256 - INFO - Starting script - main
+00:46:02.269 - INFO - Lock released. - release_lock
+2024-11-10 00:46:02.284420 script finished
+======================================
+01:01:02.643 - INFO - Lock acquired. - acquire_lock
+01:01:02.644 - INFO - Starting script - main
+01:01:02.670 - INFO - Lock released. - release_lock
+2024-11-10 01:01:02.671101 script finished
+======================================
+01:16:02.282 - INFO - Lock acquired. - acquire_lock
+01:16:02.296 - INFO - Starting script - main
+01:16:02.318 - INFO - Lock released. - release_lock
+2024-11-10 01:16:02.322621 script finished
+======================================
+01:31:02.874 - INFO - Lock acquired. - acquire_lock
+01:31:02.875 - INFO - Starting script - main
+01:31:02.897 - INFO - Lock released. - release_lock
+2024-11-10 01:31:02.897930 script finished
+======================================
+01:46:02.551 - INFO - Lock acquired. - acquire_lock
+01:46:02.551 - INFO - Starting script - main
+01:46:02.569 - INFO - Lock released. - release_lock
+2024-11-10 01:46:02.569675 script finished
+======================================
+02:01:01.914 - INFO - Lock acquired. - acquire_lock
+02:01:01.914 - INFO - Starting script - main
+02:01:01.938 - INFO - Lock released. - release_lock
+2024-11-10 02:01:01.938667 script finished
+======================================
+02:16:02.545 - INFO - Lock acquired. - acquire_lock
+02:16:02.545 - INFO - Starting script - main
+02:16:02.571 - INFO - Lock released. - release_lock
+2024-11-10 02:16:02.571890 script finished
+======================================
+02:31:01.862 - INFO - Lock acquired. - acquire_lock
+02:31:01.862 - INFO - Starting script - main
+02:31:01.894 - INFO - Lock released. - release_lock
+2024-11-10 02:31:01.894322 script finished
+======================================
+02:46:02.204 - INFO - Lock acquired. - acquire_lock
+02:46:02.204 - INFO - Starting script - main
+02:46:02.231 - INFO - Lock released. - release_lock
+2024-11-10 02:46:02.232091 script finished
+======================================
+03:01:02.698 - INFO - Lock acquired. - acquire_lock
+03:01:02.698 - INFO - Starting script - main
+03:01:02.717 - INFO - Lock released. - release_lock
+2024-11-10 03:01:02.717844 script finished
+======================================
+03:16:02.846 - INFO - Lock acquired. - acquire_lock
+03:16:02.846 - INFO - Starting script - main
+03:16:02.877 - INFO - Lock released. - release_lock
+2024-11-10 03:16:02.878140 script finished
+======================================
+03:31:02.455 - INFO - Lock acquired. - acquire_lock
+03:31:02.455 - INFO - Starting script - main
+03:31:02.474 - INFO - Lock released. - release_lock
+2024-11-10 03:31:02.475124 script finished
+======================================
+03:46:02.361 - INFO - Lock acquired. - acquire_lock
+03:46:02.361 - INFO - Starting script - main
+03:46:02.390 - INFO - Lock released. - release_lock
+2024-11-10 03:46:02.390398 script finished
+======================================
+04:01:01.990 - INFO - Lock acquired. - acquire_lock
+04:01:01.990 - INFO - Starting script - main
+04:01:02.010 - INFO - Lock released. - release_lock
+2024-11-10 04:01:02.010974 script finished
+======================================
+04:16:02.085 - INFO - Lock acquired. - acquire_lock
+04:16:02.085 - INFO - Starting script - main
+04:16:02.092 - INFO - Lock released. - release_lock
+2024-11-10 04:16:02.104503 script finished
+======================================
+04:31:02.602 - INFO - Lock acquired. - acquire_lock
+04:31:02.602 - INFO - Starting script - main
+04:31:02.629 - INFO - Lock released. - release_lock
+2024-11-10 04:31:02.629373 script finished
+======================================
+04:46:02.259 - INFO - Lock acquired. - acquire_lock
+04:46:02.259 - INFO - Starting script - main
+04:46:02.283 - INFO - Lock released. - release_lock
+2024-11-10 04:46:02.284102 script finished
+======================================
+05:01:02.849 - INFO - Lock acquired. - acquire_lock
+05:01:02.849 - INFO - Starting script - main
+05:01:02.882 - INFO - Lock released. - release_lock
+2024-11-10 05:01:02.882696 script finished
+======================================
+05:16:02.057 - INFO - Lock acquired. - acquire_lock
+05:16:02.057 - INFO - Starting script - main
+05:16:02.071 - INFO - Lock released. - release_lock
+2024-11-10 05:16:02.071559 script finished
+======================================
+05:31:02.542 - INFO - Lock acquired. - acquire_lock
+05:31:02.542 - INFO - Starting script - main
+05:31:02.582 - INFO - Lock released. - release_lock
+2024-11-10 05:31:02.582655 script finished
+======================================
+05:46:02.433 - INFO - Lock acquired. - acquire_lock
+05:46:02.433 - INFO - Starting script - main
+05:46:02.456 - INFO - Lock released. - release_lock
+2024-11-10 05:46:02.456726 script finished
+======================================
+06:01:02.144 - INFO - Lock acquired. - acquire_lock
+06:01:02.145 - INFO - Starting script - main
+06:01:02.163 - INFO - Lock released. - release_lock
+2024-11-10 06:01:02.164105 script finished
+======================================
+06:16:02.413 - INFO - Lock acquired. - acquire_lock
+06:16:02.413 - INFO - Starting script - main
+06:16:02.420 - INFO - Lock released. - release_lock
+2024-11-10 06:16:02.436595 script finished
+======================================
+06:31:02.795 - INFO - Lock acquired. - acquire_lock
+06:31:02.795 - INFO - Starting script - main
+06:31:02.817 - INFO - Lock released. - release_lock
+2024-11-10 06:31:02.817452 script finished
+======================================
+06:46:02.277 - INFO - Lock acquired. - acquire_lock
+06:46:02.278 - INFO - Starting script - main
+06:46:02.301 - INFO - Lock released. - release_lock
+2024-11-10 06:46:02.301782 script finished
+======================================
+07:01:02.066 - INFO - Lock acquired. - acquire_lock
+07:01:02.066 - INFO - Starting script - main
+07:01:02.097 - INFO - Lock released. - release_lock
+2024-11-10 07:01:02.098019 script finished
+======================================
+07:16:02.168 - INFO - Lock acquired. - acquire_lock
+07:16:02.169 - INFO - Starting script - main
+07:16:02.195 - INFO - Lock released. - release_lock
+2024-11-10 07:16:02.196069 script finished
+======================================
+07:31:02.507 - INFO - Lock acquired. - acquire_lock
+07:31:02.507 - INFO - Starting script - main
+07:31:02.536 - INFO - Lock released. - release_lock
+2024-11-10 07:31:02.540854 script finished
+======================================
+07:46:02.117 - INFO - Lock acquired. - acquire_lock
+07:46:02.117 - INFO - Starting script - main
+07:46:02.137 - INFO - Lock released. - release_lock
+2024-11-10 07:46:02.137396 script finished
+======================================
+08:01:02.436 - INFO - Lock acquired. - acquire_lock
+08:01:02.436 - INFO - Starting script - main
+08:01:02.453 - INFO - Lock released. - release_lock
+2024-11-10 08:01:02.453665 script finished
+======================================
+08:16:01.803 - INFO - Lock acquired. - acquire_lock
+08:16:01.803 - INFO - Starting script - main
+08:16:01.838 - INFO - Lock released. - release_lock
+2024-11-10 08:16:01.838985 script finished
+======================================
+08:31:02.395 - INFO - Lock acquired. - acquire_lock
+08:31:02.395 - INFO - Starting script - main
+08:31:02.427 - INFO - Lock released. - release_lock
+2024-11-10 08:31:02.427532 script finished
+======================================
+08:46:02.254 - INFO - Lock acquired. - acquire_lock
+08:46:02.263 - INFO - Starting script - main
+08:46:02.289 - INFO - Lock released. - release_lock
+2024-11-10 08:46:02.289374 script finished
+======================================
+09:01:02.679 - INFO - Lock acquired. - acquire_lock
+09:01:02.679 - INFO - Starting script - main
+09:01:02.695 - INFO - Lock released. - release_lock
+2024-11-10 09:01:02.700400 script finished
+======================================
+09:16:02.851 - INFO - Lock acquired. - acquire_lock
+09:16:02.851 - INFO - Starting script - main
+09:16:02.882 - INFO - Lock released. - release_lock
+2024-11-10 09:16:02.888422 script finished
+======================================
+09:31:02.214 - INFO - Lock acquired. - acquire_lock
+09:31:02.214 - INFO - Starting script - main
+09:31:02.228 - INFO - Lock released. - release_lock
+2024-11-10 09:31:02.228258 script finished
+======================================
+09:46:02.698 - INFO - Lock acquired. - acquire_lock
+09:46:02.698 - INFO - Starting script - main
+09:46:02.731 - INFO - Lock released. - release_lock
+2024-11-10 09:46:02.731789 script finished
+======================================
+10:01:02.741 - INFO - Lock acquired. - acquire_lock
+10:01:02.742 - INFO - Starting script - main
+10:01:02.773 - INFO - Lock released. - release_lock
+2024-11-10 10:01:02.773157 script finished
+======================================
+10:16:02.932 - INFO - Lock acquired. - acquire_lock
+10:16:02.948 - INFO - Starting script - main
+10:16:02.977 - INFO - Lock released. - release_lock
+2024-11-10 10:16:02.984405 script finished
+======================================
+10:31:02.351 - INFO - Lock acquired. - acquire_lock
+10:31:02.364 - INFO - Starting script - main
+10:31:02.393 - INFO - Lock released. - release_lock
+2024-11-10 10:31:02.412438 script finished
+======================================
+10:46:02.198 - INFO - Lock acquired. - acquire_lock
+10:46:02.208 - INFO - Starting script - main
+10:46:02.239 - INFO - Lock released. - release_lock
+2024-11-10 10:46:02.245163 script finished
+======================================
+11:01:03.114 - INFO - Lock acquired. - acquire_lock
+11:01:03.128 - INFO - Starting script - main
+11:01:03.147 - INFO - Lock released. - release_lock
+2024-11-10 11:01:03.147604 script finished
+======================================
+11:16:02.363 - INFO - Lock acquired. - acquire_lock
+11:16:02.370 - INFO - Starting script - main
+11:16:02.405 - INFO - Lock released. - release_lock
+2024-11-10 11:16:02.405645 script finished
+======================================
+11:31:03.207 - INFO - Lock acquired. - acquire_lock
+11:31:03.216 - INFO - Starting script - main
+11:31:03.266 - INFO - Lock released. - release_lock
+2024-11-10 11:31:03.268439 script finished
+======================================
+11:46:03.175 - INFO - Lock acquired. - acquire_lock
+11:46:03.178 - INFO - Starting script - main
+11:46:03.213 - INFO - Lock released. - release_lock
+2024-11-10 11:46:03.216413 script finished
+======================================
+12:01:02.834 - INFO - Lock acquired. - acquire_lock
+12:01:02.852 - INFO - Starting script - main
+12:01:02.878 - INFO - Lock released. - release_lock
+2024-11-10 12:01:02.878495 script finished
+======================================
+12:16:02.271 - INFO - Lock acquired. - acquire_lock
+12:16:02.292 - INFO - Starting script - main
+12:16:02.338 - INFO - Lock released. - release_lock
+2024-11-10 12:16:02.339085 script finished
+======================================
+12:31:03.145 - INFO - Lock acquired. - acquire_lock
+12:31:03.151 - INFO - Starting script - main
+12:31:03.179 - INFO - Lock released. - release_lock
+2024-11-10 12:31:03.192440 script finished
+======================================
+12:46:02.594 - INFO - Lock acquired. - acquire_lock
+12:46:02.594 - INFO - Starting script - main
+12:46:02.635 - INFO - Lock released. - release_lock
+2024-11-10 12:46:02.635186 script finished
+======================================
+13:01:02.719 - INFO - Lock acquired. - acquire_lock
+13:01:02.735 - INFO - Starting script - main
+13:01:02.777 - INFO - Lock released. - release_lock
+2024-11-10 13:01:02.777161 script finished
+======================================
+13:16:02.189 - INFO - Lock acquired. - acquire_lock
+13:16:02.192 - INFO - Starting script - main
+13:16:02.218 - INFO - Lock released. - release_lock
+2024-11-10 13:16:02.232425 script finished
+======================================
+13:31:03.053 - INFO - Lock acquired. - acquire_lock
+13:31:03.058 - INFO - Starting script - main
+13:31:03.081 - INFO - Lock released. - release_lock
+2024-11-10 13:31:03.082144 script finished
+======================================
+13:46:03.014 - INFO - Lock acquired. - acquire_lock
+13:46:03.023 - INFO - Starting script - main
+13:46:03.043 - INFO - Lock released. - release_lock
+2024-11-10 13:46:03.058758 script finished
+======================================
+14:01:02.745 - INFO - Lock acquired. - acquire_lock
+14:01:02.756 - INFO - Starting script - main
+14:01:02.779 - INFO - Lock released. - release_lock
+2024-11-10 14:01:02.790170 script finished
+======================================
+14:16:02.688 - INFO - Lock acquired. - acquire_lock
+14:16:02.699 - INFO - Starting script - main
+14:16:02.741 - INFO - Lock released. - release_lock
+2024-11-10 14:16:02.747097 script finished
+======================================
+14:31:02.654 - INFO - Lock acquired. - acquire_lock
+14:31:02.661 - INFO - Starting script - main
+14:31:02.694 - INFO - Lock released. - release_lock
+2024-11-10 14:31:02.696379 script finished
+======================================
+14:46:02.979 - INFO - Lock acquired. - acquire_lock
+14:46:02.985 - INFO - Starting script - main
+14:46:03.015 - INFO - Lock released. - release_lock
+2024-11-10 14:46:03.032435 script finished
+======================================
+15:01:03.246 - INFO - Lock acquired. - acquire_lock
+15:01:03.252 - INFO - Starting script - main
+15:01:03.270 - INFO - Lock released. - release_lock
+2024-11-10 15:01:03.288453 script finished
+======================================
+15:16:03.141 - INFO - Lock acquired. - acquire_lock
+15:16:03.156 - INFO - Starting script - main
+15:16:03.171 - INFO - Lock released. - release_lock
+2024-11-10 15:16:03.184426 script finished
+======================================
+15:31:02.919 - INFO - Lock acquired. - acquire_lock
+15:31:02.919 - INFO - Starting script - main
+15:31:02.959 - INFO - Lock released. - release_lock
+2024-11-10 15:31:02.972623 script finished
+======================================
+15:46:02.378 - INFO - Lock acquired. - acquire_lock
+15:46:02.392 - INFO - Starting script - main
+15:46:02.412 - INFO - Lock released. - release_lock
+2024-11-10 15:46:02.440454 script finished
+======================================
+16:01:02.818 - INFO - Lock acquired. - acquire_lock
+16:01:02.828 - INFO - Starting script - main
+16:01:02.842 - INFO - Lock released. - release_lock
+2024-11-10 16:01:02.857175 script finished
+======================================
+16:16:02.171 - INFO - Lock acquired. - acquire_lock
+16:16:02.172 - INFO - Starting script - main
+16:16:02.198 - INFO - Lock released. - release_lock
+2024-11-10 16:16:02.216403 script finished
+======================================
+16:31:02.971 - INFO - Lock acquired. - acquire_lock
+16:31:02.971 - INFO - Starting script - main
+16:31:03.010 - INFO - Lock released. - release_lock
+2024-11-10 16:31:03.010415 script finished
+======================================
+16:46:02.288 - INFO - Lock acquired. - acquire_lock
+16:46:02.291 - INFO - Starting script - main
+16:46:02.331 - INFO - Lock released. - release_lock
+2024-11-10 16:46:02.331602 script finished
+======================================
+17:01:02.661 - INFO - Lock acquired. - acquire_lock
+17:01:02.661 - INFO - Starting script - main
+17:01:02.689 - INFO - Lock released. - release_lock
+2024-11-10 17:01:02.689211 script finished
+======================================
+17:16:02.656 - INFO - Lock acquired. - acquire_lock
+17:16:02.662 - INFO - Starting script - main
+17:16:02.690 - INFO - Lock released. - release_lock
+2024-11-10 17:16:02.698342 script finished
+======================================
+17:31:02.540 - INFO - Lock acquired. - acquire_lock
+17:31:02.544 - INFO - Starting script - main
+17:31:02.582 - INFO - Lock released. - release_lock
+2024-11-10 17:31:02.592417 script finished
+======================================
+17:46:02.232 - INFO - Lock acquired. - acquire_lock
+17:46:02.256 - INFO - Starting script - main
+17:46:02.295 - INFO - Lock released. - release_lock
+2024-11-10 17:46:02.304413 script finished
+======================================
+18:01:03.993 - INFO - Lock acquired. - acquire_lock
+18:01:03.994 - INFO - Starting script - main
+18:01:04.043 - INFO - Lock released. - release_lock
+2024-11-10 18:01:04.054345 script finished
+======================================
+18:16:02.983 - INFO - Lock acquired. - acquire_lock
+18:16:02.996 - INFO - Starting script - main
+18:16:03.032 - INFO - Lock released. - release_lock
+2024-11-10 18:16:03.065912 script finished
+======================================
+18:31:02.763 - INFO - Lock acquired. - acquire_lock
+18:31:02.770 - INFO - Starting script - main
+18:31:02.806 - INFO - Lock released. - release_lock
+2024-11-10 18:31:02.812356 script finished
+======================================
+18:46:03.056 - INFO - Lock acquired. - acquire_lock
+18:46:03.060 - INFO - Starting script - main
+18:46:03.092 - INFO - Lock released. - release_lock
+2024-11-10 18:46:03.093124 script finished
+======================================
+19:01:03.026 - INFO - Lock acquired. - acquire_lock
+19:01:03.026 - INFO - Starting script - main
+19:01:03.064 - INFO - Lock released. - release_lock
+2024-11-10 19:01:03.064650 script finished
+======================================
+19:16:02.986 - INFO - Lock acquired. - acquire_lock
+19:16:02.986 - INFO - Starting script - main
+19:16:03.030 - INFO - Lock released. - release_lock
+2024-11-10 19:16:03.030313 script finished
+======================================
+19:31:03.185 - INFO - Lock acquired. - acquire_lock
+19:31:03.188 - INFO - Starting script - main
+19:31:03.195 - INFO - Lock released. - release_lock
+2024-11-10 19:31:03.222161 script finished
+======================================
+19:46:02.657 - INFO - Lock acquired. - acquire_lock
+19:46:02.664 - INFO - Starting script - main
+19:46:02.702 - INFO - Lock released. - release_lock
+2024-11-10 19:46:02.702452 script finished
+======================================
+20:01:02.761 - INFO - Lock acquired. - acquire_lock
+20:01:02.770 - INFO - Starting script - main
+20:01:02.810 - INFO - Lock released. - release_lock
+2024-11-10 20:01:02.810451 script finished
+======================================
+20:16:02.883 - INFO - Lock acquired. - acquire_lock
+20:16:02.895 - INFO - Starting script - main
+20:16:02.926 - INFO - Lock released. - release_lock
+2024-11-10 20:16:02.936826 script finished
+======================================
+20:31:02.915 - INFO - Lock acquired. - acquire_lock
+20:31:02.915 - INFO - Starting script - main
+20:31:02.958 - INFO - Lock released. - release_lock
+2024-11-10 20:31:02.964412 script finished
+======================================
+20:46:02.987 - INFO - Lock acquired. - acquire_lock
+20:46:02.994 - INFO - Starting script - main
+20:46:03.019 - INFO - Lock released. - release_lock
+2024-11-10 20:46:03.032591 script finished
+======================================
+21:01:02.670 - INFO - Lock acquired. - acquire_lock
+21:01:02.688 - INFO - Starting script - main
+21:01:02.708 - INFO - Lock released. - release_lock
+2024-11-10 21:01:02.720443 script finished
+======================================
+21:16:03.098 - INFO - Lock acquired. - acquire_lock
+21:16:03.105 - INFO - Starting script - main
+21:16:03.140 - INFO - Lock released. - release_lock
+2024-11-10 21:16:03.141954 script finished
+======================================
+21:31:03.190 - INFO - Lock acquired. - acquire_lock
+21:31:03.204 - INFO - Starting script - main
+21:31:03.239 - INFO - Lock released. - release_lock
+2024-11-10 21:31:03.240201 script finished
+======================================
+21:46:02.476 - INFO - Lock acquired. - acquire_lock
+21:46:02.477 - INFO - Starting script - main
+21:46:02.491 - INFO - Lock released. - release_lock
+2024-11-10 21:46:02.504428 script finished
+======================================
+22:01:02.539 - INFO - Lock acquired. - acquire_lock
+22:01:02.559 - INFO - Starting script - main
+22:01:02.598 - INFO - Lock released. - release_lock
+2024-11-10 22:01:02.616409 script finished
+======================================
+22:16:02.358 - INFO - Lock acquired. - acquire_lock
+22:16:02.359 - INFO - Starting script - main
+22:16:02.390 - INFO - Lock released. - release_lock
+2024-11-10 22:16:02.400905 script finished
+======================================
+22:31:02.138 - INFO - Lock acquired. - acquire_lock
+22:31:02.148 - INFO - Starting script - main
+22:31:02.179 - INFO - Lock released. - release_lock
+2024-11-10 22:31:02.188397 script finished
+======================================
+22:46:02.783 - INFO - Lock acquired. - acquire_lock
+22:46:02.800 - INFO - Starting script - main
+22:46:02.827 - INFO - Lock released. - release_lock
+2024-11-10 22:46:02.833650 script finished
+======================================
+23:01:02.693 - INFO - Lock acquired. - acquire_lock
+23:01:02.700 - INFO - Starting script - main
+23:01:02.719 - INFO - Lock released. - release_lock
+2024-11-10 23:01:02.740399 script finished
+======================================
+23:16:02.706 - INFO - Lock acquired. - acquire_lock
+23:16:02.720 - INFO - Starting script - main
+23:16:02.739 - INFO - Lock released. - release_lock
+2024-11-10 23:16:02.756420 script finished
+======================================
+23:31:02.475 - INFO - Lock acquired. - acquire_lock
+23:31:02.488 - INFO - Starting script - main
+23:31:02.511 - INFO - Lock released. - release_lock
+2024-11-10 23:31:02.524442 script finished
+======================================
+23:46:02.749 - INFO - Lock acquired. - acquire_lock
+23:46:02.750 - INFO - Starting script - main
+23:46:02.788 - INFO - Lock released. - release_lock
+2024-11-10 23:46:02.789175 script finished
+======================================
+00:01:02.239 - INFO - Lock acquired. - acquire_lock
+00:01:02.256 - INFO - Starting script - main
+00:01:02.296 - INFO - Lock released. - release_lock
+2024-11-11 00:01:02.297318 script finished
+======================================
+00:16:02.540 - INFO - Lock acquired. - acquire_lock
+00:16:02.542 - INFO - Starting script - main
+00:16:02.579 - INFO - Lock released. - release_lock
+2024-11-11 00:16:02.584416 script finished
+======================================
+00:31:02.699 - INFO - Lock acquired. - acquire_lock
+00:31:02.707 - INFO - Starting script - main
+00:31:02.745 - INFO - Lock released. - release_lock
+2024-11-11 00:31:02.752462 script finished
+======================================
+00:46:02.335 - INFO - Lock acquired. - acquire_lock
+00:46:02.342 - INFO - Starting script - main
+00:46:02.371 - INFO - Lock released. - release_lock
+2024-11-11 00:46:02.387429 script finished
+======================================
+01:01:03.003 - INFO - Lock acquired. - acquire_lock
+01:01:03.003 - INFO - Starting script - main
+01:01:03.042 - INFO - Lock released. - release_lock
+2024-11-11 01:01:03.042459 script finished
+======================================
+01:16:02.818 - INFO - Lock acquired. - acquire_lock
+01:16:02.818 - INFO - Starting script - main
+01:16:02.858 - INFO - Lock released. - release_lock
+2024-11-11 01:16:02.858599 script finished
+======================================
+01:31:02.634 - INFO - Lock acquired. - acquire_lock
+01:31:02.640 - INFO - Starting script - main
+01:31:02.660 - INFO - Lock released. - release_lock
+2024-11-11 01:31:02.680447 script finished
+======================================
+01:46:02.855 - INFO - Lock acquired. - acquire_lock
+01:46:02.860 - INFO - Starting script - main
+01:46:02.894 - INFO - Lock released. - release_lock
+2024-11-11 01:46:02.903313 script finished
+======================================
+02:01:02.434 - INFO - Lock acquired. - acquire_lock
+02:01:02.434 - INFO - Starting script - main
+02:01:02.485 - INFO - Lock released. - release_lock
+2024-11-11 02:01:02.485968 script finished
+======================================
+02:16:03.119 - INFO - Lock acquired. - acquire_lock
+02:16:03.132 - INFO - Starting script - main
+02:16:03.154 - INFO - Lock released. - release_lock
+2024-11-11 02:16:03.168431 script finished
+======================================
+02:31:02.424 - INFO - Lock acquired. - acquire_lock
+02:31:02.436 - INFO - Starting script - main
+02:31:02.485 - INFO - Lock released. - release_lock
+2024-11-11 02:31:02.488578 script finished
+======================================
+02:46:03.094 - INFO - Lock acquired. - acquire_lock
+02:46:03.094 - INFO - Starting script - main
+02:46:03.125 - INFO - Lock released. - release_lock
+2024-11-11 02:46:03.125514 script finished
+======================================
+03:01:02.680 - INFO - Lock acquired. - acquire_lock
+03:01:02.680 - INFO - Starting script - main
+03:01:02.714 - INFO - Lock released. - release_lock
+2024-11-11 03:01:02.714548 script finished
+======================================
+03:16:02.982 - INFO - Lock acquired. - acquire_lock
+03:16:02.983 - INFO - Starting script - main
+03:16:03.023 - INFO - Lock released. - release_lock
+2024-11-11 03:16:03.023244 script finished
+======================================
+03:31:02.333 - INFO - Lock acquired. - acquire_lock
+03:31:02.334 - INFO - Starting script - main
+03:31:02.381 - INFO - Lock released. - release_lock
+2024-11-11 03:31:02.381225 script finished
+======================================
+03:46:02.352 - INFO - Lock acquired. - acquire_lock
+03:46:02.352 - INFO - Starting script - main
+03:46:02.390 - INFO - Lock released. - release_lock
+2024-11-11 03:46:02.390639 script finished
+======================================
+04:01:02.525 - INFO - Lock acquired. - acquire_lock
+04:01:02.525 - INFO - Starting script - main
+04:01:02.564 - INFO - Lock released. - release_lock
+2024-11-11 04:01:02.564666 script finished
+======================================
+04:16:02.802 - INFO - Lock acquired. - acquire_lock
+04:16:02.802 - INFO - Starting script - main
+04:16:02.838 - INFO - Lock released. - release_lock
+2024-11-11 04:16:02.838198 script finished
+======================================
+04:31:02.691 - INFO - Lock acquired. - acquire_lock
+04:31:02.691 - INFO - Starting script - main
+04:31:02.735 - INFO - Lock released. - release_lock
+2024-11-11 04:31:02.735897 script finished
+======================================
+04:46:02.653 - INFO - Lock acquired. - acquire_lock
+04:46:02.653 - INFO - Starting script - main
+04:46:02.693 - INFO - Lock released. - release_lock
+2024-11-11 04:46:02.693300 script finished
+======================================
+05:01:02.507 - INFO - Lock acquired. - acquire_lock
+05:01:02.507 - INFO - Starting script - main
+05:01:02.556 - INFO - Lock released. - release_lock
+2024-11-11 05:01:02.556245 script finished
+======================================
+05:16:02.526 - INFO - Lock acquired. - acquire_lock
+05:16:02.526 - INFO - Starting script - main
+05:16:02.567 - INFO - Lock released. - release_lock
+2024-11-11 05:16:02.567967 script finished
+======================================
+05:31:02.407 - INFO - Lock acquired. - acquire_lock
+05:31:02.407 - INFO - Starting script - main
+05:31:02.450 - INFO - Lock released. - release_lock
+2024-11-11 05:31:02.450336 script finished
+======================================
+05:46:03.205 - INFO - Lock acquired. - acquire_lock
+05:46:03.205 - INFO - Starting script - main
+05:46:03.244 - INFO - Lock released. - release_lock
+2024-11-11 05:46:03.244632 script finished
+======================================
+06:01:02.380 - INFO - Lock acquired. - acquire_lock
+06:01:02.380 - INFO - Starting script - main
+06:01:02.419 - INFO - Lock released. - release_lock
+2024-11-11 06:01:02.419991 script finished
+======================================
+06:16:01.974 - INFO - Lock acquired. - acquire_lock
+06:16:01.974 - INFO - Starting script - main
+06:16:02.014 - INFO - Lock released. - release_lock
+2024-11-11 06:16:02.014425 script finished
+======================================
+06:31:03.050 - INFO - Lock acquired. - acquire_lock
+06:31:03.050 - INFO - Starting script - main
+06:31:03.086 - INFO - Lock released. - release_lock
+2024-11-11 06:31:03.086457 script finished
+======================================
+06:46:02.740 - INFO - Lock acquired. - acquire_lock
+06:46:02.756 - INFO - Starting script - main
+06:46:02.782 - INFO - Lock released. - release_lock
+2024-11-11 06:46:02.782147 script finished
+======================================
+07:01:03.168 - INFO - Lock acquired. - acquire_lock
+07:01:03.168 - INFO - Starting script - main
+07:01:03.208 - INFO - Lock released. - release_lock
+2024-11-11 07:01:03.208935 script finished
+======================================
+07:16:02.481 - INFO - Lock acquired. - acquire_lock
+07:16:02.482 - INFO - Starting script - main
+07:16:02.500 - INFO - Lock released. - release_lock
+2024-11-11 07:16:02.516489 script finished
+======================================
+07:31:02.580 - INFO - Lock acquired. - acquire_lock
+07:31:02.581 - INFO - Starting script - main
+07:31:02.620 - INFO - Lock released. - release_lock
+2024-11-11 07:31:02.620547 script finished
+======================================
+07:46:02.801 - INFO - Lock acquired. - acquire_lock
+07:46:02.801 - INFO - Starting script - main
+07:46:02.823 - INFO - Lock released. - release_lock
+2024-11-11 07:46:02.824087 script finished
+======================================
+08:01:03.836 - INFO - Lock acquired. - acquire_lock
+08:01:03.836 - INFO - Starting script - main
+08:01:03.913 - INFO - Lock released. - release_lock
+2024-11-11 08:01:03.913922 script finished
+======================================
+08:16:02.910 - INFO - Lock acquired. - acquire_lock
+08:16:02.920 - INFO - Starting script - main
+08:16:02.942 - INFO - Lock released. - release_lock
+2024-11-11 08:16:02.956398 script finished
+======================================
+08:31:04.427 - INFO - Lock acquired. - acquire_lock
+08:31:04.428 - INFO - Starting script - main
+08:31:04.509 - INFO - Lock released. - release_lock
+2024-11-11 08:31:04.509646 script finished
+======================================
+08:46:03.088 - INFO - Lock acquired. - acquire_lock
+08:46:03.100 - INFO - Starting script - main
+08:46:03.136 - INFO - Lock released. - release_lock
+2024-11-11 08:46:03.142513 script finished
+======================================
+09:01:02.769 - INFO - Lock acquired. - acquire_lock
+09:01:02.786 - INFO - Starting script - main
+09:01:02.814 - INFO - Lock released. - release_lock
+2024-11-11 09:01:02.824444 script finished
+======================================
+09:16:03.185 - INFO - Lock acquired. - acquire_lock
+09:16:03.200 - INFO - Starting script - main
+09:16:03.241 - INFO - Lock released. - release_lock
+2024-11-11 09:16:03.241664 script finished
+======================================
+09:31:03.139 - INFO - Lock acquired. - acquire_lock
+09:31:03.139 - INFO - Starting script - main
+09:31:03.163 - INFO - Lock released. - release_lock
+2024-11-11 09:31:03.180400 script finished
+======================================
+09:46:03.162 - INFO - Lock acquired. - acquire_lock
+09:46:03.168 - INFO - Starting script - main
+09:46:03.205 - INFO - Detected new pair LUCEUSDT at Nov 11, 2024, 10AM - main
+09:46:03.206 - INFO - Release time and date: 11-11-2024 10:00:00.000 - get_price_websocket_level2
+09:46:03.605 - INFO - Subscription request sent for LUCE-USDT - initialize_websocket
+09:46:03.675 - INFO - Successfully subscribed to LUCE-USDT - wait_for_subscription
+09:46:03.675 - INFO - Waiting 836.32 seconds until token release time - wait_until_listing
+09:59:39.295 - INFO - 25 seconds left until token release - wait_until_listing
+10:00:00.001 - DEBUG - Received data: {'id': '1731318363605', 'type': 'pong', 'timestamp': 1731318363650218} - get_price_websocket_level2
+10:00:00.003 - DEBUG - Received data: {'id': '1731318383610', 'type': 'pong', 'timestamp': 1731318383656672} - get_price_websocket_level2
+10:00:00.004 - DEBUG - Received data: {'id': '1731318403611', 'type': 'pong', 'timestamp': 1731318403657645} - get_price_websocket_level2
+10:00:00.005 - DEBUG - Received data: {'id': '1731318423616', 'type': 'pong', 'timestamp': 1731318423661237} - get_price_websocket_level2
+10:00:00.005 - DEBUG - Received data: {'id': '1731318443620', 'type': 'pong', 'timestamp': 1731318443665930} - get_price_websocket_level2
+10:00:00.005 - DEBUG - Received data: {'id': '1731318463626', 'type': 'pong', 'timestamp': 1731318463672271} - get_price_websocket_level2
+10:00:00.005 - DEBUG - Received data: {'id': '1731318483632', 'type': 'pong', 'timestamp': 1731318483677107} - get_price_websocket_level2
+10:00:00.005 - DEBUG - Received data: {'id': '1731318503637', 'type': 'pong', 'timestamp': 1731318503682533} - get_price_websocket_level2
+10:00:00.005 - DEBUG - Received data: {'id': '1731318523643', 'type': 'pong', 'timestamp': 1731318523688753} - get_price_websocket_level2
+10:00:00.005 - DEBUG - Received data: {'id': '1731318543648', 'type': 'pong', 'timestamp': 1731318543693457} - get_price_websocket_level2
+10:00:00.005 - DEBUG - Received data: {'id': '1731318563652', 'type': 'pong', 'timestamp': 1731318563697833} - get_price_websocket_level2
+10:00:00.005 - DEBUG - Received data: {'id': '1731318583654', 'type': 'pong', 'timestamp': 1731318583700759} - get_price_websocket_level2
+10:00:00.005 - DEBUG - Received data: {'id': '1731318603660', 'type': 'pong', 'timestamp': 1731318603706616} - get_price_websocket_level2
+10:00:00.005 - DEBUG - Received data: {'id': '1731318623666', 'type': 'pong', 'timestamp': 1731318623712493} - get_price_websocket_level2
+10:00:00.006 - DEBUG - Received data: {'id': '1731318643673', 'type': 'pong', 'timestamp': 1731318643719505} - get_price_websocket_level2
+10:00:00.006 - DEBUG - Received data: {'id': '1731318663679', 'type': 'pong', 'timestamp': 1731318663724916} - get_price_websocket_level2
+10:00:00.006 - DEBUG - Received data: {'id': '1731318683685', 'type': 'pong', 'timestamp': 1731318683731156} - get_price_websocket_level2
+10:00:00.006 - DEBUG - Received data: {'id': '1731318703691', 'type': 'pong', 'timestamp': 1731318703736885} - get_price_websocket_level2
+10:00:00.006 - DEBUG - Received data: {'id': '1731318723696', 'type': 'pong', 'timestamp': 1731318723742601} - get_price_websocket_level2
+10:00:00.006 - DEBUG - Received data: {'id': '1731318743702', 'type': 'pong', 'timestamp': 1731318743748106} - get_price_websocket_level2
+10:00:00.006 - DEBUG - Received data: {'id': '1731318763708', 'type': 'pong', 'timestamp': 1731318763754052} - get_price_websocket_level2
+10:00:00.006 - DEBUG - Received data: {'id': '1731318783712', 'type': 'pong', 'timestamp': 1731318783757797} - get_price_websocket_level2
+10:00:00.006 - DEBUG - Received data: {'id': '1731318803716', 'type': 'pong', 'timestamp': 1731318803761040} - get_price_websocket_level2
+10:00:00.006 - DEBUG - Received data: {'id': '1731318823721', 'type': 'pong', 'timestamp': 1731318823766542} - get_price_websocket_level2
+10:00:00.006 - DEBUG - Received data: {'id': '1731318843724', 'type': 'pong', 'timestamp': 1731318843769472} - get_price_websocket_level2
+10:00:00.006 - DEBUG - Received data: {'id': '1731318863730', 'type': 'pong', 'timestamp': 1731318863776031} - get_price_websocket_level2
+10:00:00.006 - DEBUG - Received data: {'id': '1731318883737', 'type': 'pong', 'timestamp': 1731318883782068} - get_price_websocket_level2
+10:00:00.006 - DEBUG - Received data: {'id': '1731318903743', 'type': 'pong', 'timestamp': 1731318903787796} - get_price_websocket_level2
+10:00:00.006 - DEBUG - Received data: {'id': '1731318923749', 'type': 'pong', 'timestamp': 1731318923793435} - get_price_websocket_level2
+10:00:00.006 - DEBUG - Received data: {'id': '1731318943752', 'type': 'pong', 'timestamp': 1731318943796658} - get_price_websocket_level2
+10:00:00.006 - DEBUG - Received data: {'id': '1731318963758', 'type': 'pong', 'timestamp': 1731318963801854} - get_price_websocket_level2
+10:00:00.006 - DEBUG - Received data: {'id': '1731318983764', 'type': 'pong', 'timestamp': 1731318983808235} - get_price_websocket_level2
+10:00:00.006 - DEBUG - Received data: {'id': '1731319003768', 'type': 'pong', 'timestamp': 1731319003812075} - get_price_websocket_level2
+10:00:00.006 - DEBUG - Received data: {'id': '1731319023773', 'type': 'pong', 'timestamp': 1731319023817211} - get_price_websocket_level2
+10:00:00.006 - DEBUG - Received data: {'id': '1731319043779', 'type': 'pong', 'timestamp': 1731319043822946} - get_price_websocket_level2
+10:00:00.006 - DEBUG - Received data: {'id': '1731319063784', 'type': 'pong', 'timestamp': 1731319063827656} - get_price_websocket_level2
+10:00:00.006 - DEBUG - Received data: {'id': '1731319083789', 'type': 'pong', 'timestamp': 1731319083833046} - get_price_websocket_level2
+10:00:00.006 - DEBUG - Received data: {'id': '1731319103795', 'type': 'pong', 'timestamp': 1731319103838563} - get_price_websocket_level2
+10:00:00.006 - DEBUG - Received data: {'id': '1731319123801', 'type': 'pong', 'timestamp': 1731319123844500} - get_price_websocket_level2
+10:00:00.007 - DEBUG - Received data: {'id': '1731319143806', 'type': 'pong', 'timestamp': 1731319143849522} - get_price_websocket_level2
+10:00:00.007 - DEBUG - Received data: {'id': '1731319163812', 'type': 'pong', 'timestamp': 1731319163855614} - get_price_websocket_level2
+10:00:00.007 - DEBUG - Received data: {'id': '1731319183813', 'type': 'pong', 'timestamp': 1731319183857106} - get_price_websocket_level2
+10:00:00.053 - DEBUG - Received data: {'topic': '/market/level2:LUCE-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [['0.109', '30700', '8']], 'bids': []}, 'sequenceEnd': 8, 'sequenceStart': 8, 'symbol': 'LUCE-USDT', 'time': 1731319200015}} - get_price_websocket_level2
+10:00:00.053 - INFO - data from WebSocket: {'asks': [['0.109', '30700', '8']], 'bids': []}  - get_price_websocket_level2
+10:00:00.053 - DEBUG - Data from socket: {'asks': [['0.109', '30700', '8']], 'bids': []} - get_price_websocket_level2
+10:00:00.053 - INFO - Successfully retrieved LUCE price: {'asks': [['0.109', '30700', '8']], 'bids': []} - main
+10:00:00.123 - DEBUG - break for after detecting pair loop - main
+10:00:00.124 - INFO - Lock released. - release_lock
+2024-11-11 10:00:00.124370 script finished
+======================================
+10:01:02.993 - INFO - Lock acquired. - acquire_lock
+10:01:03.004 - INFO - Starting script - main
+10:01:03.023 - INFO - Lock released. - release_lock
+2024-11-11 10:01:03.033416 script finished
+======================================
+10:16:02.755 - INFO - Lock acquired. - acquire_lock
+10:16:02.772 - INFO - Starting script - main
+10:16:02.830 - INFO - Lock released. - release_lock
+2024-11-11 10:16:02.830248 script finished
+======================================
+10:31:02.738 - INFO - Lock acquired. - acquire_lock
+10:31:02.756 - INFO - Starting script - main
+10:31:02.776 - INFO - Lock released. - release_lock
+2024-11-11 10:31:02.784422 script finished
+======================================
+10:46:02.641 - INFO - Lock acquired. - acquire_lock
+10:46:02.648 - INFO - Starting script - main
+10:46:02.748 - INFO - Lock released. - release_lock
+2024-11-11 10:46:02.748938 script finished
+======================================
+11:01:02.540 - INFO - Lock acquired. - acquire_lock
+11:01:02.541 - INFO - Starting script - main
+11:01:02.592 - INFO - Lock released. - release_lock
+2024-11-11 11:01:02.592790 script finished
+======================================
+11:16:03.234 - INFO - Lock acquired. - acquire_lock
+11:16:03.240 - INFO - Starting script - main
+11:16:03.263 - INFO - Lock released. - release_lock
+2024-11-11 11:16:03.279898 script finished
+======================================
+11:31:02.393 - INFO - Lock acquired. - acquire_lock
+11:31:02.394 - INFO - Starting script - main
+11:31:02.422 - INFO - Lock released. - release_lock
+2024-11-11 11:31:02.440442 script finished
+======================================
+11:46:03.165 - INFO - Lock acquired. - acquire_lock
+11:46:03.166 - INFO - Starting script - main
+11:46:03.210 - INFO - Detected new pair PNUTUSDT at Nov 11, 2024, 12PM - main
+11:46:03.210 - INFO - Release time and date: 11-11-2024 12:00:00.000 - get_price_websocket_level2
+11:46:03.728 - INFO - Subscription request sent for PNUT-USDT - initialize_websocket
+11:46:03.801 - INFO - Successfully subscribed to PNUT-USDT - wait_for_subscription
+11:46:03.801 - INFO - Waiting 836.20 seconds until token release time - wait_until_listing
+11:59:39.400 - INFO - 25 seconds left until token release - wait_until_listing
+12:00:00.000 - DEBUG - Received data: {'id': '1731325563728', 'type': 'pong', 'timestamp': 1731325563771821} - get_price_websocket_level2
+12:00:00.000 - DEBUG - Received data: {'id': '1731325583734', 'type': 'pong', 'timestamp': 1731325583778414} - get_price_websocket_level2
+12:00:00.000 - DEBUG - Received data: {'id': '1731325603740', 'type': 'pong', 'timestamp': 1731325603785263} - get_price_websocket_level2
+12:00:00.001 - DEBUG - Received data: {'id': '1731325623744', 'type': 'pong', 'timestamp': 1731325623787492} - get_price_websocket_level2
+12:00:00.001 - DEBUG - Received data: {'id': '1731325643750', 'type': 'pong', 'timestamp': 1731325643793529} - get_price_websocket_level2
+12:00:00.001 - DEBUG - Received data: {'id': '1731325663756', 'type': 'pong', 'timestamp': 1731325663799913} - get_price_websocket_level2
+12:00:00.001 - DEBUG - Received data: {'id': '1731325683760', 'type': 'pong', 'timestamp': 1731325683803626} - get_price_websocket_level2
+12:00:00.001 - DEBUG - Received data: {'id': '1731325703776', 'type': 'pong', 'timestamp': 1731325703819487} - get_price_websocket_level2
+12:00:00.001 - DEBUG - Received data: {'id': '1731325723780', 'type': 'pong', 'timestamp': 1731325723824395} - get_price_websocket_level2
+12:00:00.001 - DEBUG - Received data: {'id': '1731325743784', 'type': 'pong', 'timestamp': 1731325743827763} - get_price_websocket_level2
+12:00:00.001 - DEBUG - Received data: {'id': '1731325763785', 'type': 'pong', 'timestamp': 1731325763829103} - get_price_websocket_level2
+12:00:00.001 - DEBUG - Received data: {'id': '1731325783792', 'type': 'pong', 'timestamp': 1731325783835541} - get_price_websocket_level2
+12:00:00.001 - DEBUG - Received data: {'id': '1731325803796', 'type': 'pong', 'timestamp': 1731325803839855} - get_price_websocket_level2
+12:00:00.001 - DEBUG - Received data: {'id': '1731325823802', 'type': 'pong', 'timestamp': 1731325823845937} - get_price_websocket_level2
+12:00:00.001 - DEBUG - Received data: {'id': '1731325843808', 'type': 'pong', 'timestamp': 1731325843851844} - get_price_websocket_level2
+12:00:00.002 - DEBUG - Received data: {'id': '1731325863814', 'type': 'pong', 'timestamp': 1731325863858426} - get_price_websocket_level2
+12:00:00.002 - DEBUG - Received data: {'id': '1731325883816', 'type': 'pong', 'timestamp': 1731325883859897} - get_price_websocket_level2
+12:00:00.002 - DEBUG - Received data: {'id': '1731325903821', 'type': 'pong', 'timestamp': 1731325903865359} - get_price_websocket_level2
+12:00:00.002 - DEBUG - Received data: {'id': '1731325923827', 'type': 'pong', 'timestamp': 1731325923870893} - get_price_websocket_level2
+12:00:00.002 - DEBUG - Received data: {'id': '1731325943828', 'type': 'pong', 'timestamp': 1731325943872472} - get_price_websocket_level2
+12:00:00.002 - DEBUG - Received data: {'id': '1731325963832', 'type': 'pong', 'timestamp': 1731325963875919} - get_price_websocket_level2
+12:00:00.002 - DEBUG - Received data: {'id': '1731325983838', 'type': 'pong', 'timestamp': 1731325983883202} - get_price_websocket_level2
+12:00:00.002 - DEBUG - Received data: {'id': '1731326003844', 'type': 'pong', 'timestamp': 1731326003888554} - get_price_websocket_level2
+12:00:00.002 - DEBUG - Received data: {'id': '1731326023849', 'type': 'pong', 'timestamp': 1731326023893086} - get_price_websocket_level2
+12:00:00.002 - DEBUG - Received data: {'id': '1731326043856', 'type': 'pong', 'timestamp': 1731326043900893} - get_price_websocket_level2
+12:00:00.002 - DEBUG - Received data: {'id': '1731326063861', 'type': 'pong', 'timestamp': 1731326063905863} - get_price_websocket_level2
+12:00:00.002 - DEBUG - Received data: {'id': '1731326083863', 'type': 'pong', 'timestamp': 1731326083907027} - get_price_websocket_level2
+12:00:00.002 - DEBUG - Received data: {'id': '1731326103870', 'type': 'pong', 'timestamp': 1731326103913446} - get_price_websocket_level2
+12:00:00.003 - DEBUG - Received data: {'id': '1731326123875', 'type': 'pong', 'timestamp': 1731326123919179} - get_price_websocket_level2
+12:00:00.003 - DEBUG - Received data: {'id': '1731326143881', 'type': 'pong', 'timestamp': 1731326143924787} - get_price_websocket_level2
+12:00:00.003 - DEBUG - Received data: {'id': '1731326163887', 'type': 'pong', 'timestamp': 1731326163932857} - get_price_websocket_level2
+12:00:00.003 - DEBUG - Received data: {'id': '1731326183892', 'type': 'pong', 'timestamp': 1731326183936079} - get_price_websocket_level2
+12:00:00.003 - DEBUG - Received data: {'id': '1731326203898', 'type': 'pong', 'timestamp': 1731326203941905} - get_price_websocket_level2
+12:00:00.003 - DEBUG - Received data: {'id': '1731326223906', 'type': 'pong', 'timestamp': 1731326223950103} - get_price_websocket_level2
+12:00:00.003 - DEBUG - Received data: {'id': '1731326243912', 'type': 'pong', 'timestamp': 1731326243956024} - get_price_websocket_level2
+12:00:00.003 - DEBUG - Received data: {'id': '1731326263918', 'type': 'pong', 'timestamp': 1731326263962130} - get_price_websocket_level2
+12:00:00.003 - DEBUG - Received data: {'id': '1731326283924', 'type': 'pong', 'timestamp': 1731326283967521} - get_price_websocket_level2
+12:00:00.003 - DEBUG - Received data: {'id': '1731326303926', 'type': 'pong', 'timestamp': 1731326303969973} - get_price_websocket_level2
+12:00:00.004 - DEBUG - Received data: {'id': '1731326323932', 'type': 'pong', 'timestamp': 1731326323975852} - get_price_websocket_level2
+12:00:00.004 - DEBUG - Received data: {'id': '1731326343937', 'type': 'pong', 'timestamp': 1731326343981477} - get_price_websocket_level2
+12:00:00.004 - DEBUG - Received data: {'id': '1731326363940', 'type': 'pong', 'timestamp': 1731326363984035} - get_price_websocket_level2
+12:00:00.004 - DEBUG - Received data: {'id': '1731326383941', 'type': 'pong', 'timestamp': 1731326383985077} - get_price_websocket_level2
+12:00:00.168 - DEBUG - Received data: {'topic': '/market/level2:PNUT-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [['0.51', '1174', '1']], 'bids': []}, 'sequenceEnd': 1, 'sequenceStart': 1, 'symbol': 'PNUT-USDT', 'time': 1731326400130}} - get_price_websocket_level2
+12:00:00.168 - INFO - data from WebSocket: {'asks': [['0.51', '1174', '1']], 'bids': []}  - get_price_websocket_level2
+12:00:00.168 - DEBUG - Data from socket: {'asks': [['0.51', '1174', '1']], 'bids': []} - get_price_websocket_level2
+12:00:00.168 - INFO - Successfully retrieved PNUT price: {'asks': [['0.51', '1174', '1']], 'bids': []} - main
+12:00:00.242 - DEBUG - break for after detecting pair loop - main
+12:00:00.242 - INFO - Lock released. - release_lock
+2024-11-11 12:00:00.242576 script finished
+======================================
+12:01:02.321 - INFO - Lock acquired. - acquire_lock
+12:01:02.324 - INFO - Starting script - main
+12:01:02.359 - INFO - Lock released. - release_lock
+2024-11-11 12:01:02.376402 script finished
+======================================
+12:16:02.956 - INFO - Lock acquired. - acquire_lock
+12:16:02.961 - INFO - Starting script - main
+12:16:03.002 - INFO - Lock released. - release_lock
+2024-11-11 12:16:03.003356 script finished
+======================================
+12:31:03.045 - INFO - Lock acquired. - acquire_lock
+12:31:03.045 - INFO - Starting script - main
+12:31:03.067 - INFO - Lock released. - release_lock
+2024-11-11 12:31:03.067802 script finished
+======================================
+12:46:02.892 - INFO - Lock acquired. - acquire_lock
+12:46:02.904 - INFO - Starting script - main
+12:46:02.934 - INFO - Lock released. - release_lock
+2024-11-11 12:46:02.934852 script finished
+======================================
+13:01:02.751 - INFO - Lock acquired. - acquire_lock
+13:01:02.764 - INFO - Starting script - main
+13:01:02.818 - INFO - Lock released. - release_lock
+2024-11-11 13:01:02.832430 script finished
+======================================
+13:16:02.634 - INFO - Lock acquired. - acquire_lock
+13:16:02.636 - INFO - Starting script - main
+13:16:02.662 - INFO - Lock released. - release_lock
+2024-11-11 13:16:02.680406 script finished
+======================================
+13:31:02.778 - INFO - Lock acquired. - acquire_lock
+13:31:02.788 - INFO - Starting script - main
+13:31:02.832 - INFO - Lock released. - release_lock
+2024-11-11 13:31:02.840422 script finished
+======================================
+13:46:02.469 - INFO - Lock acquired. - acquire_lock
+13:46:02.470 - INFO - Starting script - main
+13:46:02.520 - INFO - Lock released. - release_lock
+2024-11-11 13:46:02.559245 script finished
+======================================
+14:01:02.963 - INFO - Lock acquired. - acquire_lock
+14:01:02.972 - INFO - Starting script - main
+14:01:03.014 - INFO - Lock released. - release_lock
+2024-11-11 14:01:03.014925 script finished
+======================================
+14:16:03.025 - INFO - Lock acquired. - acquire_lock
+14:16:03.048 - INFO - Starting script - main
+14:16:03.067 - INFO - Lock released. - release_lock
+2024-11-11 14:16:03.080444 script finished
+======================================
+14:31:02.991 - INFO - Lock acquired. - acquire_lock
+14:31:03.012 - INFO - Starting script - main
+14:31:03.057 - INFO - Lock released. - release_lock
+2024-11-11 14:31:03.060418 script finished
+======================================
+14:46:03.385 - INFO - Lock acquired. - acquire_lock
+14:46:03.393 - INFO - Starting script - main
+14:46:03.435 - INFO - Lock released. - release_lock
+2024-11-11 14:46:03.448535 script finished
+======================================
+15:01:02.756 - INFO - Lock acquired. - acquire_lock
+15:01:02.766 - INFO - Starting script - main
+15:01:02.807 - INFO - Lock released. - release_lock
+2024-11-11 15:01:02.816610 script finished
+======================================
+15:16:02.751 - INFO - Lock acquired. - acquire_lock
+15:16:02.776 - INFO - Starting script - main
+15:16:02.803 - INFO - Lock released. - release_lock
+2024-11-11 15:16:02.816666 script finished
+======================================
+15:31:02.655 - INFO - Lock acquired. - acquire_lock
+15:31:02.671 - INFO - Starting script - main
+15:31:02.715 - INFO - Lock released. - release_lock
+2024-11-11 15:31:02.719836 script finished
+======================================
+15:46:02.436 - INFO - Lock acquired. - acquire_lock
+15:46:02.440 - INFO - Starting script - main
+15:46:02.479 - INFO - Lock released. - release_lock
+2024-11-11 15:46:02.480376 script finished
+======================================
+16:01:02.620 - INFO - Lock acquired. - acquire_lock
+16:01:02.624 - INFO - Starting script - main
+16:01:02.663 - INFO - Lock released. - release_lock
+2024-11-11 16:01:02.672420 script finished
+======================================
+16:16:03.149 - INFO - Lock acquired. - acquire_lock
+16:16:03.152 - INFO - Starting script - main
+16:16:03.186 - INFO - Lock released. - release_lock
+2024-11-11 16:16:03.195481 script finished
+======================================
+16:31:03.094 - INFO - Lock acquired. - acquire_lock
+16:31:03.104 - INFO - Starting script - main
+16:31:03.138 - INFO - Lock released. - release_lock
+2024-11-11 16:31:03.152467 script finished
+======================================
+16:46:03.134 - INFO - Lock acquired. - acquire_lock
+16:46:03.139 - INFO - Starting script - main
+16:46:03.164 - INFO - Lock released. - release_lock
+2024-11-11 16:46:03.180716 script finished
+======================================
+17:01:02.491 - INFO - Lock acquired. - acquire_lock
+17:01:02.491 - INFO - Starting script - main
+17:01:02.519 - INFO - Lock released. - release_lock
+2024-11-11 17:01:02.535576 script finished
+======================================
+17:16:02.565 - INFO - Lock acquired. - acquire_lock
+17:16:02.565 - INFO - Starting script - main
+17:16:02.604 - INFO - Lock released. - release_lock
+2024-11-11 17:16:02.604914 script finished
+======================================
+17:31:02.897 - INFO - Lock acquired. - acquire_lock
+17:31:02.897 - INFO - Starting script - main
+17:31:02.937 - INFO - Lock released. - release_lock
+2024-11-11 17:31:02.937269 script finished
+======================================
+17:46:02.658 - INFO - Lock acquired. - acquire_lock
+17:46:02.658 - INFO - Starting script - main
+17:46:02.696 - INFO - Lock released. - release_lock
+2024-11-11 17:46:02.696927 script finished
+======================================
+18:01:02.325 - INFO - Lock acquired. - acquire_lock
+18:01:02.344 - INFO - Starting script - main
+18:01:02.363 - INFO - Lock released. - release_lock
+2024-11-11 18:01:02.363644 script finished
+======================================
+18:16:02.628 - INFO - Lock acquired. - acquire_lock
+18:16:02.628 - INFO - Starting script - main
+18:16:02.651 - INFO - Lock released. - release_lock
+2024-11-11 18:16:02.670671 script finished
+======================================
+18:31:02.527 - INFO - Lock acquired. - acquire_lock
+18:31:02.550 - INFO - Starting script - main
+18:31:02.578 - INFO - Lock released. - release_lock
+2024-11-11 18:31:02.586405 script finished
+======================================
+18:46:03.167 - INFO - Lock acquired. - acquire_lock
+18:46:03.183 - INFO - Starting script - main
+18:46:03.216 - INFO - Lock released. - release_lock
+2024-11-11 18:46:03.232456 script finished
+======================================
+19:01:02.778 - INFO - Lock acquired. - acquire_lock
+19:01:02.778 - INFO - Starting script - main
+19:01:02.820 - INFO - Lock released. - release_lock
+2024-11-11 19:01:02.833714 script finished
+======================================
+19:16:02.422 - INFO - Lock acquired. - acquire_lock
+19:16:02.424 - INFO - Starting script - main
+19:16:02.447 - INFO - Lock released. - release_lock
+2024-11-11 19:16:02.464461 script finished
+======================================
+19:31:02.538 - INFO - Lock acquired. - acquire_lock
+19:31:02.551 - INFO - Starting script - main
+19:31:02.575 - INFO - Lock released. - release_lock
+2024-11-11 19:31:02.593517 script finished
+======================================
+19:46:03.169 - INFO - Lock acquired. - acquire_lock
+19:46:03.186 - INFO - Starting script - main
+19:46:03.244 - INFO - Lock released. - release_lock
+2024-11-11 19:46:03.244816 script finished
+======================================
+20:01:03.211 - INFO - Lock acquired. - acquire_lock
+20:01:03.228 - INFO - Starting script - main
+20:01:03.251 - INFO - Lock released. - release_lock
+2024-11-11 20:01:03.251586 script finished
+======================================
+20:16:04.258 - INFO - Lock acquired. - acquire_lock
+20:16:04.280 - INFO - Starting script - main
+20:16:04.307 - INFO - Lock released. - release_lock
+2024-11-11 20:16:04.308005 script finished
+======================================
+20:31:02.318 - INFO - Lock acquired. - acquire_lock
+20:31:02.326 - INFO - Starting script - main
+20:31:02.357 - INFO - Lock released. - release_lock
+2024-11-11 20:31:02.359455 script finished
+======================================
+20:46:02.578 - INFO - Lock acquired. - acquire_lock
+20:46:02.583 - INFO - Starting script - main
+20:46:02.599 - INFO - Lock released. - release_lock
+2024-11-11 20:46:02.624095 script finished
+======================================
+21:01:03.192 - INFO - Lock acquired. - acquire_lock
+21:01:03.202 - INFO - Starting script - main
+21:01:03.256 - INFO - Lock released. - release_lock
+2024-11-11 21:01:03.260416 script finished
+======================================
+21:16:02.271 - INFO - Lock acquired. - acquire_lock
+21:16:02.296 - INFO - Starting script - main
+21:16:02.323 - INFO - Lock released. - release_lock
+2024-11-11 21:16:02.333635 script finished
+======================================
+21:31:03.156 - INFO - Lock acquired. - acquire_lock
+21:31:03.156 - INFO - Starting script - main
+21:31:03.179 - INFO - Lock released. - release_lock
+2024-11-11 21:31:03.192422 script finished
+======================================
+21:46:02.571 - INFO - Lock acquired. - acquire_lock
+21:46:02.585 - INFO - Starting script - main
+21:46:02.620 - INFO - Lock released. - release_lock
+2024-11-11 21:46:02.628899 script finished
+======================================
+22:01:02.844 - INFO - Lock acquired. - acquire_lock
+22:01:02.863 - INFO - Starting script - main
+22:01:02.901 - INFO - Lock released. - release_lock
+2024-11-11 22:01:02.901467 script finished
+======================================
+22:16:02.579 - INFO - Lock acquired. - acquire_lock
+22:16:02.596 - INFO - Starting script - main
+22:16:02.633 - INFO - Lock released. - release_lock
+2024-11-11 22:16:02.644423 script finished
+======================================
+22:31:02.462 - INFO - Lock acquired. - acquire_lock
+22:31:02.462 - INFO - Starting script - main
+22:31:02.492 - INFO - Lock released. - release_lock
+2024-11-11 22:31:02.504450 script finished
+======================================
+22:46:02.483 - INFO - Lock acquired. - acquire_lock
+22:46:02.484 - INFO - Starting script - main
+22:46:02.524 - INFO - Lock released. - release_lock
+2024-11-11 22:46:02.524808 script finished
+======================================
+23:01:02.631 - INFO - Lock acquired. - acquire_lock
+23:01:02.644 - INFO - Starting script - main
+23:01:02.680 - INFO - Lock released. - release_lock
+2024-11-11 23:01:02.680233 script finished
+======================================
+23:16:02.661 - INFO - Lock acquired. - acquire_lock
+23:16:02.673 - INFO - Starting script - main
+23:16:02.718 - INFO - Lock released. - release_lock
+2024-11-11 23:16:02.719040 script finished
+======================================
+23:31:02.558 - INFO - Lock acquired. - acquire_lock
+23:31:02.568 - INFO - Starting script - main
+23:31:02.599 - INFO - Lock released. - release_lock
+2024-11-11 23:31:02.608431 script finished
+======================================
+23:46:02.298 - INFO - Lock acquired. - acquire_lock
+23:46:02.304 - INFO - Starting script - main
+23:46:02.327 - INFO - Lock released. - release_lock
+2024-11-11 23:46:02.343031 script finished
+======================================
+00:01:02.971 - INFO - Lock acquired. - acquire_lock
+00:01:02.980 - INFO - Starting script - main
+00:01:02.994 - INFO - Lock released. - release_lock
+2024-11-12 00:01:03.011265 script finished
+======================================
+00:16:03.141 - INFO - Lock acquired. - acquire_lock
+00:16:03.148 - INFO - Starting script - main
+00:16:03.188 - INFO - Lock released. - release_lock
+2024-11-12 00:16:03.192392 script finished
+======================================
+00:31:03.053 - INFO - Lock acquired. - acquire_lock
+00:31:03.068 - INFO - Starting script - main
+00:31:03.103 - INFO - Lock released. - release_lock
+2024-11-12 00:31:03.119467 script finished
+======================================
+00:46:02.668 - INFO - Lock acquired. - acquire_lock
+00:46:02.680 - INFO - Starting script - main
+00:46:02.722 - INFO - Lock released. - release_lock
+2024-11-12 00:46:02.732452 script finished
+======================================
+01:01:02.783 - INFO - Lock acquired. - acquire_lock
+01:01:02.793 - INFO - Starting script - main
+01:01:02.823 - INFO - Lock released. - release_lock
+2024-11-12 01:01:02.848429 script finished
+======================================
+01:16:02.915 - INFO - Lock acquired. - acquire_lock
+01:16:02.931 - INFO - Starting script - main
+01:16:02.957 - INFO - Lock released. - release_lock
+2024-11-12 01:16:02.972438 script finished
+======================================
+01:31:03.003 - INFO - Lock acquired. - acquire_lock
+01:31:03.003 - INFO - Starting script - main
+01:31:03.027 - INFO - Lock released. - release_lock
+2024-11-12 01:31:03.040455 script finished
+======================================
+01:46:02.494 - INFO - Lock acquired. - acquire_lock
+01:46:02.494 - INFO - Starting script - main
+01:46:02.537 - INFO - Lock released. - release_lock
+2024-11-12 01:46:02.537756 script finished
+======================================
+02:01:02.570 - INFO - Lock acquired. - acquire_lock
+02:01:02.570 - INFO - Starting script - main
+02:01:02.608 - INFO - Lock released. - release_lock
+2024-11-12 02:01:02.608130 script finished
+======================================
+02:16:02.787 - INFO - Lock acquired. - acquire_lock
+02:16:02.787 - INFO - Starting script - main
+02:16:02.826 - INFO - Lock released. - release_lock
+2024-11-12 02:16:02.826475 script finished
+======================================
+02:31:02.843 - INFO - Lock acquired. - acquire_lock
+02:31:02.843 - INFO - Starting script - main
+02:31:02.908 - INFO - Lock released. - release_lock
+2024-11-12 02:31:02.908851 script finished
+======================================
+02:46:02.247 - INFO - Lock acquired. - acquire_lock
+02:46:02.247 - INFO - Starting script - main
+02:46:02.303 - INFO - Lock released. - release_lock
+2024-11-12 02:46:02.304064 script finished
+======================================
+03:01:02.540 - INFO - Lock acquired. - acquire_lock
+03:01:02.541 - INFO - Starting script - main
+03:01:02.581 - INFO - Lock released. - release_lock
+2024-11-12 03:01:02.581463 script finished
+======================================
+03:16:02.879 - INFO - Lock acquired. - acquire_lock
+03:16:02.879 - INFO - Starting script - main
+03:16:02.920 - INFO - Lock released. - release_lock
+2024-11-12 03:16:02.920178 script finished
+======================================
+03:31:02.664 - INFO - Lock acquired. - acquire_lock
+03:31:02.665 - INFO - Starting script - main
+03:31:02.709 - INFO - Lock released. - release_lock
+2024-11-12 03:31:02.710075 script finished
+======================================
+03:46:02.849 - INFO - Lock acquired. - acquire_lock
+03:46:02.850 - INFO - Starting script - main
+03:46:02.889 - INFO - Lock released. - release_lock
+2024-11-12 03:46:02.889773 script finished
+======================================
+04:01:02.464 - INFO - Lock acquired. - acquire_lock
+04:01:02.465 - INFO - Starting script - main
+04:01:02.501 - INFO - Lock released. - release_lock
+2024-11-12 04:01:02.501470 script finished
+======================================
+04:16:02.835 - INFO - Lock acquired. - acquire_lock
+04:16:02.835 - INFO - Starting script - main
+04:16:02.845 - INFO - Lock released. - release_lock
+2024-11-12 04:16:02.845496 script finished
+======================================
+04:31:03.316 - INFO - Lock acquired. - acquire_lock
+04:31:03.316 - INFO - Starting script - main
+04:31:03.354 - INFO - Lock released. - release_lock
+2024-11-12 04:31:03.354378 script finished
+======================================
+04:46:02.664 - INFO - Lock acquired. - acquire_lock
+04:46:02.664 - INFO - Starting script - main
+04:46:02.725 - INFO - Lock released. - release_lock
+2024-11-12 04:46:02.725607 script finished
+======================================
+05:01:03.041 - INFO - Lock acquired. - acquire_lock
+05:01:03.041 - INFO - Starting script - main
+05:01:03.072 - INFO - Lock released. - release_lock
+2024-11-12 05:01:03.084541 script finished
+======================================
+05:16:02.635 - INFO - Lock acquired. - acquire_lock
+05:16:02.635 - INFO - Starting script - main
+05:16:02.679 - INFO - Lock released. - release_lock
+2024-11-12 05:16:02.679558 script finished
+======================================
+05:31:02.722 - INFO - Lock acquired. - acquire_lock
+05:31:02.722 - INFO - Starting script - main
+05:31:02.757 - INFO - Lock released. - release_lock
+2024-11-12 05:31:02.757474 script finished
+======================================
+05:46:02.715 - INFO - Lock acquired. - acquire_lock
+05:46:02.715 - INFO - Starting script - main
+05:46:02.774 - INFO - Lock released. - release_lock
+2024-11-12 05:46:02.774344 script finished
+======================================
+06:01:03.068 - INFO - Lock acquired. - acquire_lock
+06:01:03.068 - INFO - Starting script - main
+06:01:03.114 - INFO - Lock released. - release_lock
+2024-11-12 06:01:03.114531 script finished
+======================================
+06:16:02.554 - INFO - Lock acquired. - acquire_lock
+06:16:02.568 - INFO - Starting script - main
+06:16:02.613 - INFO - Lock released. - release_lock
+2024-11-12 06:16:02.613348 script finished
+======================================
+06:31:02.702 - INFO - Lock acquired. - acquire_lock
+06:31:02.702 - INFO - Starting script - main
+06:31:02.757 - INFO - Lock released. - release_lock
+2024-11-12 06:31:02.757974 script finished
+======================================
+06:46:02.642 - INFO - Lock acquired. - acquire_lock
+06:46:02.642 - INFO - Starting script - main
+06:46:02.683 - INFO - Lock released. - release_lock
+2024-11-12 06:46:02.683268 script finished
+======================================
+07:01:02.759 - INFO - Lock acquired. - acquire_lock
+07:01:02.759 - INFO - Starting script - main
+07:01:02.817 - INFO - Lock released. - release_lock
+2024-11-12 07:01:02.817302 script finished
+======================================
+07:16:02.470 - INFO - Lock acquired. - acquire_lock
+07:16:02.470 - INFO - Starting script - main
+07:16:02.523 - INFO - Lock released. - release_lock
+2024-11-12 07:16:02.523779 script finished
+======================================
+07:31:02.626 - INFO - Lock acquired. - acquire_lock
+07:31:02.627 - INFO - Starting script - main
+07:31:02.666 - INFO - Lock released. - release_lock
+2024-11-12 07:31:02.666224 script finished
+======================================
+07:46:02.761 - INFO - Lock acquired. - acquire_lock
+07:46:02.761 - INFO - Starting script - main
+07:46:02.817 - INFO - Lock released. - release_lock
+2024-11-12 07:46:02.817358 script finished
+======================================
+08:01:02.740 - INFO - Lock acquired. - acquire_lock
+08:01:02.741 - INFO - Starting script - main
+08:01:02.766 - INFO - Detected new pair XRPUSDT at Nov 12, 2024, 8:15AM - main
+08:01:02.784 - INFO - Release time and date: 12-11-2024 08:15:00.000 - get_price_websocket_level2
+08:01:03.266 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+08:01:03.337 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+08:01:03.338 - INFO - Waiting 836.66 seconds until token release time - wait_until_listing
+08:14:38.929 - INFO - 25 seconds left until token release - wait_until_listing
+08:15:00.008 - DEBUG - Received data: {'id': '1731398463267', 'type': 'pong', 'timestamp': 1731398463303138} - get_price_websocket_level2
+08:15:00.008 - DEBUG - Received data: {'topic': '/market/level2:XRP-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [['0.6649', '36.0167', '4744036876']], 'bids': []}, 'sequenceEnd': 4744036876, 'sequenceStart': 4744036876, 'symbol': 'XRP-USDT', 'time': 1731398463324}} - get_price_websocket_level2
+08:15:00.008 - INFO - data from WebSocket: {'asks': [['0.6649', '36.0167', '4744036876']], 'bids': []}  - get_price_websocket_level2
+08:15:00.008 - DEBUG - Data from socket: {'asks': [['0.6649', '36.0167', '4744036876']], 'bids': []} - get_price_websocket_level2
+08:15:00.009 - INFO - Successfully retrieved XRP price: {'asks': [['0.6649', '36.0167', '4744036876']], 'bids': []} - main
+08:15:00.015 - DEBUG - break for after detecting pair loop - main
+08:15:00.015 - INFO - Lock released. - release_lock
+2024-11-12 08:15:00.015444 script finished
+======================================
+08:16:02.691 - INFO - Lock acquired. - acquire_lock
+08:16:02.692 - INFO - Starting script - main
+08:16:02.710 - INFO - Detected new pair XRPUSDT at Nov 12, 2024, 8:30AM - main
+08:16:02.710 - INFO - Release time and date: 12-11-2024 08:30:00.000 - get_price_websocket_level2
+08:16:03.129 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+08:16:03.200 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+08:16:03.200 - INFO - Waiting 836.80 seconds until token release time - wait_until_listing
+08:29:38.784 - INFO - 25 seconds left until token release - wait_until_listing
+08:30:00.008 - DEBUG - Received data: {'id': '1731399363129', 'type': 'pong', 'timestamp': 1731399363162875} - get_price_websocket_level2
+08:30:00.008 - DEBUG - Received data: {'topic': '/market/level2:XRP-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [['0.62044', '114.3035', '4744224897']], 'bids': []}, 'sequenceEnd': 4744224897, 'sequenceStart': 4744224897, 'symbol': 'XRP-USDT', 'time': 1731399363162}} - get_price_websocket_level2
+08:30:00.009 - INFO - data from WebSocket: {'asks': [['0.62044', '114.3035', '4744224897']], 'bids': []}  - get_price_websocket_level2
+08:30:00.009 - DEBUG - Data from socket: {'asks': [['0.62044', '114.3035', '4744224897']], 'bids': []} - get_price_websocket_level2
+08:30:00.009 - INFO - Successfully retrieved XRP price: {'asks': [['0.62044', '114.3035', '4744224897']], 'bids': []} - main
+08:30:00.026 - DEBUG - break for after detecting pair loop - main
+08:30:00.026 - INFO - Lock released. - release_lock
+2024-11-12 08:30:00.026315 script finished
+======================================
+08:31:03.228 - INFO - Lock acquired. - acquire_lock
+08:31:03.250 - INFO - Starting script - main
+08:31:03.329 - INFO - Lock released. - release_lock
+2024-11-12 08:31:03.329340 script finished
+======================================
+08:46:03.064 - INFO - Lock acquired. - acquire_lock
+08:46:03.065 - INFO - Starting script - main
+08:46:03.102 - INFO - Detected new pair PEAQUSDT at Nov 12, 2024, 9AM - main
+08:46:03.102 - INFO - Release time and date: 12-11-2024 09:00:00.000 - get_price_websocket_level2
+08:46:03.491 - INFO - Subscription request sent for PEAQ-USDT - initialize_websocket
+08:46:03.562 - INFO - Successfully subscribed to PEAQ-USDT - wait_for_subscription
+08:46:03.562 - INFO - Waiting 836.44 seconds until token release time - wait_until_listing
+08:59:39.174 - INFO - 25 seconds left until token release - wait_until_listing
+09:00:00.000 - DEBUG - Received data: {'id': '1731401163491', 'type': 'pong', 'timestamp': 1731401163527928} - get_price_websocket_level2
+09:00:00.005 - DEBUG - Received data: {'id': '1731401183497', 'type': 'pong', 'timestamp': 1731401183533906} - get_price_websocket_level2
+09:00:00.006 - DEBUG - Received data: {'id': '1731401203503', 'type': 'pong', 'timestamp': 1731401203539911} - get_price_websocket_level2
+09:00:00.007 - DEBUG - Received data: {'id': '1731401223508', 'type': 'pong', 'timestamp': 1731401223545377} - get_price_websocket_level2
+09:00:00.011 - DEBUG - Received data: {'id': '1731401243512', 'type': 'pong', 'timestamp': 1731401243549423} - get_price_websocket_level2
+09:00:00.012 - DEBUG - Received data: {'id': '1731401263517', 'type': 'pong', 'timestamp': 1731401263554364} - get_price_websocket_level2
+09:00:00.013 - DEBUG - Received data: {'id': '1731401283520', 'type': 'pong', 'timestamp': 1731401283558255} - get_price_websocket_level2
+09:00:00.014 - DEBUG - Received data: {'id': '1731401303524', 'type': 'pong', 'timestamp': 1731401303561343} - get_price_websocket_level2
+09:00:00.015 - DEBUG - Received data: {'id': '1731401323528', 'type': 'pong', 'timestamp': 1731401323565478} - get_price_websocket_level2
+09:00:00.016 - DEBUG - Received data: {'id': '1731401343534', 'type': 'pong', 'timestamp': 1731401343571370} - get_price_websocket_level2
+09:00:00.024 - DEBUG - Received data: {'id': '1731401363541', 'type': 'pong', 'timestamp': 1731401363578711} - get_price_websocket_level2
+09:00:00.025 - DEBUG - Received data: {'id': '1731401383544', 'type': 'pong', 'timestamp': 1731401383581521} - get_price_websocket_level2
+09:00:00.025 - DEBUG - Received data: {'id': '1731401403548', 'type': 'pong', 'timestamp': 1731401403585719} - get_price_websocket_level2
+09:00:00.025 - DEBUG - Received data: {'id': '1731401423554', 'type': 'pong', 'timestamp': 1731401423591674} - get_price_websocket_level2
+09:00:00.025 - DEBUG - Received data: {'id': '1731401443561', 'type': 'pong', 'timestamp': 1731401443599137} - get_price_websocket_level2
+09:00:00.026 - DEBUG - Received data: {'id': '1731401463564', 'type': 'pong', 'timestamp': 1731401463601888} - get_price_websocket_level2
+09:00:00.026 - DEBUG - Received data: {'id': '1731401483570', 'type': 'pong', 'timestamp': 1731401483607633} - get_price_websocket_level2
+09:00:00.026 - DEBUG - Received data: {'id': '1731401503576', 'type': 'pong', 'timestamp': 1731401503613518} - get_price_websocket_level2
+09:00:00.026 - DEBUG - Received data: {'id': '1731401523581', 'type': 'pong', 'timestamp': 1731401523619141} - get_price_websocket_level2
+09:00:00.026 - DEBUG - Received data: {'id': '1731401543584', 'type': 'pong', 'timestamp': 1731401543621901} - get_price_websocket_level2
+09:00:00.027 - DEBUG - Received data: {'id': '1731401563588', 'type': 'pong', 'timestamp': 1731401563625969} - get_price_websocket_level2
+09:00:00.027 - DEBUG - Received data: {'id': '1731401583594', 'type': 'pong', 'timestamp': 1731401583632162} - get_price_websocket_level2
+09:00:00.027 - DEBUG - Received data: {'id': '1731401603600', 'type': 'pong', 'timestamp': 1731401603638283} - get_price_websocket_level2
+09:00:00.027 - DEBUG - Received data: {'id': '1731401623604', 'type': 'pong', 'timestamp': 1731401623642317} - get_price_websocket_level2
+09:00:00.028 - DEBUG - Received data: {'id': '1731401643608', 'type': 'pong', 'timestamp': 1731401643646502} - get_price_websocket_level2
+09:00:00.028 - DEBUG - Received data: {'id': '1731401663613', 'type': 'pong', 'timestamp': 1731401663651563} - get_price_websocket_level2
+09:00:00.028 - DEBUG - Received data: {'id': '1731401683620', 'type': 'pong', 'timestamp': 1731401683657680} - get_price_websocket_level2
+09:00:00.031 - DEBUG - Received data: {'id': '1731401703624', 'type': 'pong', 'timestamp': 1731401703662210} - get_price_websocket_level2
+09:00:00.031 - DEBUG - Received data: {'id': '1731401723629', 'type': 'pong', 'timestamp': 1731401723668377} - get_price_websocket_level2
+09:00:00.031 - DEBUG - Received data: {'id': '1731401743635', 'type': 'pong', 'timestamp': 1731401743672948} - get_price_websocket_level2
+09:00:00.031 - DEBUG - Received data: {'id': '1731401763641', 'type': 'pong', 'timestamp': 1731401763678703} - get_price_websocket_level2
+09:00:00.031 - DEBUG - Received data: {'id': '1731401783647', 'type': 'pong', 'timestamp': 1731401783684910} - get_price_websocket_level2
+09:00:00.032 - DEBUG - Received data: {'id': '1731401803652', 'type': 'pong', 'timestamp': 1731401803690076} - get_price_websocket_level2
+09:00:00.032 - DEBUG - Received data: {'id': '1731401823658', 'type': 'pong', 'timestamp': 1731401823695932} - get_price_websocket_level2
+09:00:00.032 - DEBUG - Received data: {'id': '1731401843660', 'type': 'pong', 'timestamp': 1731401843698541} - get_price_websocket_level2
+09:00:00.032 - DEBUG - Received data: {'id': '1731401863665', 'type': 'pong', 'timestamp': 1731401863703641} - get_price_websocket_level2
+09:00:00.033 - DEBUG - Received data: {'id': '1731401883668', 'type': 'pong', 'timestamp': 1731401883706429} - get_price_websocket_level2
+09:00:00.033 - DEBUG - Received data: {'id': '1731401903675', 'type': 'pong', 'timestamp': 1731401903713469} - get_price_websocket_level2
+09:00:00.033 - DEBUG - Received data: {'id': '1731401923681', 'type': 'pong', 'timestamp': 1731401923719606} - get_price_websocket_level2
+09:00:00.033 - DEBUG - Received data: {'id': '1731401943686', 'type': 'pong', 'timestamp': 1731401943724459} - get_price_websocket_level2
+09:00:00.033 - DEBUG - Received data: {'id': '1731401963691', 'type': 'pong', 'timestamp': 1731401963729595} - get_price_websocket_level2
+09:00:00.034 - DEBUG - Received data: {'id': '1731401983692', 'type': 'pong', 'timestamp': 1731401983730110} - get_price_websocket_level2
+09:00:00.088 - DEBUG - Received data: {'topic': '/market/level2:PEAQ-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [], 'bids': [['0.085', '504180', '222']]}, 'sequenceEnd': 222, 'sequenceStart': 222, 'symbol': 'PEAQ-USDT', 'time': 1731402000044}} - get_price_websocket_level2
+09:00:00.089 - INFO - data from WebSocket: {'asks': [], 'bids': [['0.085', '504180', '222']]}  - get_price_websocket_level2
+09:00:00.089 - DEBUG - Data from socket: {'asks': [], 'bids': [['0.085', '504180', '222']]} - get_price_websocket_level2
+09:00:00.090 - INFO - Successfully retrieved PEAQ price: {'asks': [], 'bids': [['0.085', '504180', '222']]} - main
+09:00:00.169 - DEBUG - break for after detecting pair loop - main
+09:00:00.170 - INFO - Lock released. - release_lock
+2024-11-12 09:00:00.171034 script finished
+======================================
+09:01:02.441 - INFO - Lock acquired. - acquire_lock
+09:01:02.441 - INFO - Starting script - main
+09:01:02.467 - INFO - Lock released. - release_lock
+2024-11-12 09:01:02.467870 script finished
+======================================
+09:16:03.387 - INFO - Lock acquired. - acquire_lock
+09:16:03.387 - INFO - Starting script - main
+09:16:03.420 - INFO - Lock released. - release_lock
+2024-11-12 09:16:03.420151 script finished
+======================================
+09:31:03.257 - INFO - Lock acquired. - acquire_lock
+09:31:03.260 - INFO - Starting script - main
+09:31:03.287 - INFO - Lock released. - release_lock
+2024-11-12 09:31:03.304416 script finished
+======================================
+09:46:03.052 - INFO - Lock acquired. - acquire_lock
+09:46:03.072 - INFO - Starting script - main
+09:46:03.096 - INFO - Lock released. - release_lock
+2024-11-12 09:46:03.108430 script finished
+======================================
+10:01:02.336 - INFO - Lock acquired. - acquire_lock
+10:01:02.337 - INFO - Starting script - main
+10:01:02.356 - INFO - Lock released. - release_lock
+2024-11-12 10:01:02.376785 script finished
+======================================
+10:16:03.053 - INFO - Lock acquired. - acquire_lock
+10:16:03.056 - INFO - Starting script - main
+10:16:03.078 - INFO - Lock released. - release_lock
+2024-11-12 10:16:03.096399 script finished
+======================================
+10:31:02.753 - INFO - Lock acquired. - acquire_lock
+10:31:02.760 - INFO - Starting script - main
+10:31:02.787 - INFO - Lock released. - release_lock
+2024-11-12 10:31:02.796410 script finished
+======================================
+10:46:02.860 - INFO - Lock acquired. - acquire_lock
+10:46:02.860 - INFO - Starting script - main
+10:46:02.897 - INFO - Lock released. - release_lock
+2024-11-12 10:46:02.898221 script finished
+======================================
+11:01:02.395 - INFO - Lock acquired. - acquire_lock
+11:01:02.405 - INFO - Starting script - main
+11:01:02.430 - INFO - Lock released. - release_lock
+2024-11-12 11:01:02.440412 script finished
+======================================
+11:16:02.409 - INFO - Lock acquired. - acquire_lock
+11:16:02.424 - INFO - Starting script - main
+11:16:02.443 - INFO - Lock released. - release_lock
+2024-11-12 11:16:02.456407 script finished
+======================================
+11:31:02.447 - INFO - Lock acquired. - acquire_lock
+11:31:02.456 - INFO - Starting script - main
+11:31:02.477 - INFO - Lock released. - release_lock
+2024-11-12 11:31:02.492434 script finished
+======================================
+11:46:03.630 - INFO - Lock acquired. - acquire_lock
+11:46:03.631 - INFO - Starting script - main
+11:46:03.681 - INFO - Detected new pair PGCUSDT at Nov 12, 2024, 12PM - main
+11:46:03.682 - INFO - Release time and date: 12-11-2024 12:00:00.000 - get_price_websocket_level2
+11:46:04.141 - INFO - Subscription request sent for PGC-USDT - initialize_websocket
+11:46:04.213 - INFO - Successfully subscribed to PGC-USDT - wait_for_subscription
+11:46:04.213 - INFO - Waiting 835.79 seconds until token release time - wait_until_listing
+11:59:39.845 - INFO - 25 seconds left until token release - wait_until_listing
+12:00:00.004 - DEBUG - Received data: {'id': '1731411964141', 'type': 'pong', 'timestamp': 1731411964176518} - get_price_websocket_level2
+12:00:00.007 - DEBUG - Received data: {'id': '1731411984147', 'type': 'pong', 'timestamp': 1731411984182734} - get_price_websocket_level2
+12:00:00.020 - DEBUG - Received data: {'id': '1731412004152', 'type': 'pong', 'timestamp': 1731412004187259} - get_price_websocket_level2
+12:00:00.020 - DEBUG - Received data: {'id': '1731412024156', 'type': 'pong', 'timestamp': 1731412024191278} - get_price_websocket_level2
+12:00:00.020 - DEBUG - Received data: {'id': '1731412044160', 'type': 'pong', 'timestamp': 1731412044195326} - get_price_websocket_level2
+12:00:00.020 - DEBUG - Received data: {'id': '1731412064164', 'type': 'pong', 'timestamp': 1731412064199498} - get_price_websocket_level2
+12:00:00.020 - DEBUG - Received data: {'id': '1731412084168', 'type': 'pong', 'timestamp': 1731412084203113} - get_price_websocket_level2
+12:00:00.021 - DEBUG - Received data: {'id': '1731412104172', 'type': 'pong', 'timestamp': 1731412104206896} - get_price_websocket_level2
+12:00:00.021 - DEBUG - Received data: {'id': '1731412124178', 'type': 'pong', 'timestamp': 1731412124212994} - get_price_websocket_level2
+12:00:00.021 - DEBUG - Received data: {'id': '1731412144184', 'type': 'pong', 'timestamp': 1731412144218848} - get_price_websocket_level2
+12:00:00.021 - DEBUG - Received data: {'id': '1731412164188', 'type': 'pong', 'timestamp': 1731412164222876} - get_price_websocket_level2
+12:00:00.021 - DEBUG - Received data: {'id': '1731412184192', 'type': 'pong', 'timestamp': 1731412184226872} - get_price_websocket_level2
+12:00:00.021 - DEBUG - Received data: {'id': '1731412204197', 'type': 'pong', 'timestamp': 1731412204231194} - get_price_websocket_level2
+12:00:00.030 - DEBUG - Received data: {'id': '1731412224202', 'type': 'pong', 'timestamp': 1731412224236680} - get_price_websocket_level2
+12:00:00.032 - DEBUG - Received data: {'id': '1731412244208', 'type': 'pong', 'timestamp': 1731412244242767} - get_price_websocket_level2
+12:00:00.032 - DEBUG - Received data: {'id': '1731412264210', 'type': 'pong', 'timestamp': 1731412264244652} - get_price_websocket_level2
+12:00:00.032 - DEBUG - Received data: {'id': '1731412284215', 'type': 'pong', 'timestamp': 1731412284249593} - get_price_websocket_level2
+12:00:00.032 - DEBUG - Received data: {'id': '1731412304221', 'type': 'pong', 'timestamp': 1731412304255375} - get_price_websocket_level2
+12:00:00.032 - DEBUG - Received data: {'id': '1731412324227', 'type': 'pong', 'timestamp': 1731412324262087} - get_price_websocket_level2
+12:00:00.032 - DEBUG - Received data: {'id': '1731412344233', 'type': 'pong', 'timestamp': 1731412344266856} - get_price_websocket_level2
+12:00:00.032 - DEBUG - Received data: {'id': '1731412364239', 'type': 'pong', 'timestamp': 1731412364287729} - get_price_websocket_level2
+12:00:00.032 - DEBUG - Received data: {'id': '1731412384245', 'type': 'pong', 'timestamp': 1731412384279834} - get_price_websocket_level2
+12:00:00.032 - DEBUG - Received data: {'id': '1731412404249', 'type': 'pong', 'timestamp': 1731412404282844} - get_price_websocket_level2
+12:00:00.032 - DEBUG - Received data: {'id': '1731412424254', 'type': 'pong', 'timestamp': 1731412424288299} - get_price_websocket_level2
+12:00:00.032 - DEBUG - Received data: {'id': '1731412444260', 'type': 'pong', 'timestamp': 1731412444294617} - get_price_websocket_level2
+12:00:00.032 - DEBUG - Received data: {'id': '1731412464264', 'type': 'pong', 'timestamp': 1731412464297923} - get_price_websocket_level2
+12:00:00.032 - DEBUG - Received data: {'id': '1731412484268', 'type': 'pong', 'timestamp': 1731412484301994} - get_price_websocket_level2
+12:00:00.033 - DEBUG - Received data: {'id': '1731412504272', 'type': 'pong', 'timestamp': 1731412504306101} - get_price_websocket_level2
+12:00:00.033 - DEBUG - Received data: {'id': '1731412524276', 'type': 'pong', 'timestamp': 1731412524309959} - get_price_websocket_level2
+12:00:00.033 - DEBUG - Received data: {'id': '1731412544281', 'type': 'pong', 'timestamp': 1731412544315064} - get_price_websocket_level2
+12:00:00.033 - DEBUG - Received data: {'id': '1731412564287', 'type': 'pong', 'timestamp': 1731412564321072} - get_price_websocket_level2
+12:00:00.036 - DEBUG - Received data: {'id': '1731412584293', 'type': 'pong', 'timestamp': 1731412584326712} - get_price_websocket_level2
+12:00:00.036 - DEBUG - Received data: {'id': '1731412604298', 'type': 'pong', 'timestamp': 1731412604332136} - get_price_websocket_level2
+12:00:00.036 - DEBUG - Received data: {'id': '1731412624304', 'type': 'pong', 'timestamp': 1731412624337859} - get_price_websocket_level2
+12:00:00.036 - DEBUG - Received data: {'id': '1731412644308', 'type': 'pong', 'timestamp': 1731412644341673} - get_price_websocket_level2
+12:00:00.037 - DEBUG - Received data: {'id': '1731412664312', 'type': 'pong', 'timestamp': 1731412664350239} - get_price_websocket_level2
+12:00:00.037 - DEBUG - Received data: {'id': '1731412684318', 'type': 'pong', 'timestamp': 1731412684351720} - get_price_websocket_level2
+12:00:00.037 - DEBUG - Received data: {'id': '1731412704324', 'type': 'pong', 'timestamp': 1731412704357548} - get_price_websocket_level2
+12:00:00.037 - DEBUG - Received data: {'id': '1731412724329', 'type': 'pong', 'timestamp': 1731412724362724} - get_price_websocket_level2
+12:00:00.037 - DEBUG - Received data: {'id': '1731412744335', 'type': 'pong', 'timestamp': 1731412744367958} - get_price_websocket_level2
+12:00:00.037 - DEBUG - Received data: {'id': '1731412764339', 'type': 'pong', 'timestamp': 1731412764372277} - get_price_websocket_level2
+12:00:00.037 - DEBUG - Received data: {'id': '1731412784340', 'type': 'pong', 'timestamp': 1731412784373034} - get_price_websocket_level2
+12:00:00.059 - DEBUG - Received data: {'topic': '/market/level2:PGC-USDT', 'type': 'message', 'subject': 'trade.l2update', 'data': {'changes': {'asks': [], 'bids': [['0.01', '103963', '41']]}, 'sequenceEnd': 41, 'sequenceStart': 41, 'symbol': 'PGC-USDT', 'time': 1731412800009}} - get_price_websocket_level2
+12:00:00.059 - INFO - data from WebSocket: {'asks': [], 'bids': [['0.01', '103963', '41']]}  - get_price_websocket_level2
+12:00:00.059 - DEBUG - Data from socket: {'asks': [], 'bids': [['0.01', '103963', '41']]} - get_price_websocket_level2
+12:00:00.059 - INFO - Successfully retrieved PGC price: {'asks': [], 'bids': [['0.01', '103963', '41']]} - main
+12:00:00.136 - DEBUG - break for after detecting pair loop - main
+12:00:00.136 - INFO - Lock released. - release_lock
+2024-11-12 12:00:00.137193 script finished
+======================================
+12:01:02.837 - INFO - Lock acquired. - acquire_lock
+12:01:02.848 - INFO - Starting script - main
+12:01:02.875 - INFO - Lock released. - release_lock
+2024-11-12 12:01:02.892430 script finished
+======================================
+12:16:02.886 - INFO - Lock acquired. - acquire_lock
+12:16:02.894 - INFO - Starting script - main
+12:16:02.934 - INFO - Lock released. - release_lock
+2024-11-12 12:16:02.939083 script finished
+======================================
+12:31:03.568 - INFO - Lock acquired. - acquire_lock
+12:31:03.572 - INFO - Starting script - main
+12:31:03.607 - INFO - Lock released. - release_lock
+2024-11-12 12:31:03.616481 script finished
+======================================
+12:46:03.169 - INFO - Lock acquired. - acquire_lock
+12:46:03.180 - INFO - Starting script - main
+12:46:03.222 - INFO - Lock released. - release_lock
+2024-11-12 12:46:03.244439 script finished
+======================================
+13:01:02.783 - INFO - Lock acquired. - acquire_lock
+13:01:02.800 - INFO - Starting script - main
+13:01:02.823 - INFO - Lock released. - release_lock
+2024-11-12 13:01:02.844436 script finished
+======================================
+13:16:02.741 - INFO - Lock acquired. - acquire_lock
+13:16:02.741 - INFO - Starting script - main
+13:16:02.767 - INFO - Lock released. - release_lock
+2024-11-12 13:16:02.767900 script finished
+======================================
+13:31:03.222 - INFO - Lock acquired. - acquire_lock
+13:31:03.234 - INFO - Starting script - main
+13:31:03.274 - INFO - Lock released. - release_lock
+2024-11-12 13:31:03.285112 script finished
+======================================
+13:46:03.243 - INFO - Lock acquired. - acquire_lock
+13:46:03.268 - INFO - Starting script - main
+13:46:03.295 - INFO - Lock released. - release_lock
+2024-11-12 13:46:03.304437 script finished
+======================================
+14:01:03.431 - INFO - Lock acquired. - acquire_lock
+14:01:03.431 - INFO - Starting script - main
+14:01:03.480 - INFO - Lock released. - release_lock
+2024-11-12 14:01:03.480830 script finished
+======================================
+14:16:03.268 - INFO - Lock acquired. - acquire_lock
+14:16:03.280 - INFO - Starting script - main
+14:16:03.313 - INFO - Lock released. - release_lock
+2024-11-12 14:16:03.316393 script finished
+======================================
+14:31:03.248 - INFO - Lock acquired. - acquire_lock
+14:31:03.256 - INFO - Starting script - main
+14:31:03.262 - INFO - Lock released. - release_lock
+2024-11-12 14:31:03.265447 script finished
+======================================
+14:46:03.344 - INFO - Lock acquired. - acquire_lock
+14:46:03.344 - INFO - Starting script - main
+14:46:03.390 - INFO - Lock released. - release_lock
+2024-11-12 14:46:03.390737 script finished
+======================================
+15:01:03.190 - INFO - Lock acquired. - acquire_lock
+15:01:03.190 - INFO - Starting script - main
+15:01:03.238 - INFO - Lock released. - release_lock
+2024-11-12 15:01:03.238727 script finished
+======================================
+15:16:02.682 - INFO - Lock acquired. - acquire_lock
+15:16:02.682 - INFO - Starting script - main
+15:16:02.733 - INFO - Lock released. - release_lock
+2024-11-12 15:16:02.733298 script finished
+======================================
+15:31:02.864 - INFO - Lock acquired. - acquire_lock
+15:31:02.864 - INFO - Starting script - main
+15:31:02.899 - INFO - Lock released. - release_lock
+2024-11-12 15:31:02.908280 script finished
+======================================
+15:46:02.679 - INFO - Lock acquired. - acquire_lock
+15:46:02.696 - INFO - Starting script - main
+15:46:02.723 - INFO - Lock released. - release_lock
+2024-11-12 15:46:02.731878 script finished
+======================================
+16:01:03.371 - INFO - Lock acquired. - acquire_lock
+16:01:03.384 - INFO - Starting script - main
+16:01:03.407 - INFO - Lock released. - release_lock
+2024-11-12 16:01:03.416399 script finished
+======================================
+16:16:02.886 - INFO - Lock acquired. - acquire_lock
+16:16:02.886 - INFO - Starting script - main
+16:16:02.907 - INFO - Lock released. - release_lock
+2024-11-12 16:16:02.928412 script finished
+======================================
+16:31:02.881 - INFO - Lock acquired. - acquire_lock
+16:31:02.882 - INFO - Starting script - main
+16:31:02.916 - INFO - Lock released. - release_lock
+2024-11-12 16:31:02.924419 script finished
+======================================
+16:46:03.065 - INFO - Lock acquired. - acquire_lock
+16:46:03.068 - INFO - Starting script - main
+16:46:03.086 - INFO - Lock released. - release_lock
+2024-11-12 16:46:03.099730 script finished
+======================================
+17:01:03.135 - INFO - Lock acquired. - acquire_lock
+17:01:03.145 - INFO - Starting script - main
+17:01:03.175 - INFO - Lock released. - release_lock
+2024-11-12 17:01:03.180471 script finished
+======================================
+17:16:03.204 - INFO - Lock acquired. - acquire_lock
+17:16:03.214 - INFO - Starting script - main
+17:16:03.249 - INFO - Lock released. - release_lock
+2024-11-12 17:16:03.252392 script finished
+======================================
+17:31:02.600 - INFO - Lock acquired. - acquire_lock
+17:31:02.604 - INFO - Starting script - main
+17:31:02.627 - INFO - Lock released. - release_lock
+2024-11-12 17:31:02.644403 script finished
+======================================
+17:46:03.146 - INFO - Lock acquired. - acquire_lock
+17:46:03.148 - INFO - Starting script - main
+17:46:03.180 - INFO - Lock released. - release_lock
+2024-11-12 17:46:03.188420 script finished
+======================================
+18:01:02.723 - INFO - Lock acquired. - acquire_lock
+18:01:02.735 - INFO - Starting script - main
+18:01:02.757 - INFO - Lock released. - release_lock
+2024-11-12 18:01:02.768420 script finished
+======================================
+18:16:02.744 - INFO - Lock acquired. - acquire_lock
+18:16:02.748 - INFO - Starting script - main
+18:16:02.780 - INFO - Lock released. - release_lock
+2024-11-12 18:16:02.789267 script finished
+======================================
+18:31:02.904 - INFO - Lock acquired. - acquire_lock
+18:31:02.904 - INFO - Starting script - main
+18:31:02.951 - INFO - Lock released. - release_lock
+2024-11-12 18:31:02.951809 script finished
+======================================
+18:46:02.449 - INFO - Lock acquired. - acquire_lock
+18:46:02.456 - INFO - Starting script - main
+18:46:02.478 - INFO - Lock released. - release_lock
+2024-11-12 18:46:02.488451 script finished
+======================================
+19:01:02.517 - INFO - Lock acquired. - acquire_lock
+19:01:02.518 - INFO - Starting script - main
+19:01:02.523 - INFO - Lock released. - release_lock
+2024-11-12 19:01:02.540423 script finished
+======================================
+19:16:03.373 - INFO - Lock acquired. - acquire_lock
+19:16:03.376 - INFO - Starting script - main
+19:16:03.400 - INFO - Lock released. - release_lock
+2024-11-12 19:16:03.407037 script finished
+======================================
+19:31:03.123 - INFO - Lock acquired. - acquire_lock
+19:31:03.129 - INFO - Starting script - main
+19:31:03.173 - INFO - Lock released. - release_lock
+2024-11-12 19:31:03.173255 script finished
+======================================
+19:46:02.851 - INFO - Lock acquired. - acquire_lock
+19:46:02.857 - INFO - Starting script - main
+19:46:02.898 - INFO - Lock released. - release_lock
+2024-11-12 19:46:02.908494 script finished
+======================================
+20:01:02.643 - INFO - Lock acquired. - acquire_lock
+20:01:02.643 - INFO - Starting script - main
+20:01:02.674 - INFO - Lock released. - release_lock
+2024-11-12 20:01:02.692411 script finished
+======================================
+20:16:02.452 - INFO - Lock acquired. - acquire_lock
+20:16:02.468 - INFO - Starting script - main
+20:16:02.492 - INFO - Lock released. - release_lock
+2024-11-12 20:16:02.512394 script finished
+======================================
+20:31:02.540 - INFO - Lock acquired. - acquire_lock
+20:31:02.556 - INFO - Starting script - main
+20:31:02.579 - INFO - Lock released. - release_lock
+2024-11-12 20:31:02.586972 script finished
+======================================
+20:46:02.738 - INFO - Lock acquired. - acquire_lock
+20:46:02.739 - INFO - Starting script - main
+20:46:02.775 - INFO - Lock released. - release_lock
+2024-11-12 20:46:02.780465 script finished
+======================================
+21:01:03.043 - INFO - Lock acquired. - acquire_lock
+21:01:03.043 - INFO - Starting script - main
+21:01:03.112 - INFO - Lock released. - release_lock
+2024-11-12 21:01:03.112605 script finished
+======================================
+21:16:03.239 - INFO - Lock acquired. - acquire_lock
+21:16:03.256 - INFO - Starting script - main
+21:16:03.304 - INFO - Lock released. - release_lock
+2024-11-12 21:16:03.304951 script finished
+======================================
+21:31:02.459 - INFO - Lock acquired. - acquire_lock
+21:31:02.459 - INFO - Starting script - main
+21:31:02.506 - INFO - Lock released. - release_lock
+2024-11-12 21:31:02.506950 script finished
+======================================
+21:46:03.272 - INFO - Lock acquired. - acquire_lock
+21:46:03.273 - INFO - Starting script - main
+21:46:03.320 - INFO - Lock released. - release_lock
+2024-11-12 21:46:03.321041 script finished
+======================================
+22:01:03.155 - INFO - Lock acquired. - acquire_lock
+22:01:03.167 - INFO - Starting script - main
+22:01:03.180 - INFO - Lock released. - release_lock
+2024-11-12 22:01:03.203506 script finished
+======================================
+22:16:03.127 - INFO - Lock acquired. - acquire_lock
+22:16:03.136 - INFO - Starting script - main
+22:16:03.150 - INFO - Lock released. - release_lock
+2024-11-12 22:16:03.168426 script finished
+======================================
+22:31:02.999 - INFO - Lock acquired. - acquire_lock
+22:31:03.020 - INFO - Starting script - main
+22:31:03.043 - INFO - Lock released. - release_lock
+2024-11-12 22:31:03.056440 script finished
+======================================
+22:46:03.289 - INFO - Lock acquired. - acquire_lock
+22:46:03.289 - INFO - Starting script - main
+22:46:03.315 - INFO - Lock released. - release_lock
+2024-11-12 22:46:03.316041 script finished
+======================================
+23:01:02.500 - INFO - Lock acquired. - acquire_lock
+23:01:02.500 - INFO - Starting script - main
+23:01:02.534 - INFO - Lock released. - release_lock
+2024-11-12 23:01:02.534397 script finished
+======================================
+23:16:02.523 - INFO - Lock acquired. - acquire_lock
+23:16:02.523 - INFO - Starting script - main
+23:16:02.545 - INFO - Lock released. - release_lock
+2024-11-12 23:16:02.545953 script finished
+======================================
+23:31:02.467 - INFO - Lock acquired. - acquire_lock
+23:31:02.467 - INFO - Starting script - main
+23:31:02.518 - INFO - Lock released. - release_lock
+2024-11-12 23:31:02.518927 script finished
+======================================
+23:46:03.163 - INFO - Lock acquired. - acquire_lock
+23:46:03.163 - INFO - Starting script - main
+23:46:03.208 - INFO - Lock released. - release_lock
+2024-11-12 23:46:03.210860 script finished
+======================================
+00:01:03.015 - INFO - Lock acquired. - acquire_lock
+00:01:03.015 - INFO - Starting script - main
+00:01:03.062 - INFO - Lock released. - release_lock
+2024-11-13 00:01:03.062555 script finished
+======================================
+00:16:02.537 - INFO - Lock acquired. - acquire_lock
+00:16:02.537 - INFO - Starting script - main
+00:16:02.563 - INFO - Lock released. - release_lock
+2024-11-13 00:16:02.563256 script finished
+======================================
+00:31:02.578 - INFO - Lock acquired. - acquire_lock
+00:31:02.578 - INFO - Starting script - main
+00:31:02.625 - INFO - Lock released. - release_lock
+2024-11-13 00:31:02.625987 script finished
+======================================
+00:46:02.675 - INFO - Lock acquired. - acquire_lock
+00:46:02.675 - INFO - Starting script - main
+00:46:02.714 - INFO - Lock released. - release_lock
+2024-11-13 00:46:02.714416 script finished
+======================================
+01:01:02.386 - INFO - Lock acquired. - acquire_lock
+01:01:02.386 - INFO - Starting script - main
+01:01:02.432 - INFO - Lock released. - release_lock
+2024-11-13 01:01:02.432780 script finished
+======================================
+01:16:02.684 - INFO - Lock acquired. - acquire_lock
+01:16:02.684 - INFO - Starting script - main
+01:16:02.724 - INFO - Lock released. - release_lock
+2024-11-13 01:16:02.725017 script finished
+======================================
+01:31:02.679 - INFO - Lock acquired. - acquire_lock
+01:31:02.679 - INFO - Starting script - main
+01:31:02.714 - INFO - Lock released. - release_lock
+2024-11-13 01:31:02.714352 script finished
+======================================
+01:46:02.862 - INFO - Lock acquired. - acquire_lock
+01:46:02.863 - INFO - Starting script - main
+01:46:02.912 - INFO - Lock released. - release_lock
+2024-11-13 01:46:02.912814 script finished
+======================================
+02:01:02.781 - INFO - Lock acquired. - acquire_lock
+02:01:02.781 - INFO - Starting script - main
+02:01:02.833 - INFO - Lock released. - release_lock
+2024-11-13 02:01:02.833609 script finished
+======================================
+02:16:03.322 - INFO - Lock acquired. - acquire_lock
+02:16:03.322 - INFO - Starting script - main
+02:16:03.380 - INFO - Lock released. - release_lock
+2024-11-13 02:16:03.380842 script finished
+======================================
+02:31:03.124 - INFO - Lock acquired. - acquire_lock
+02:31:03.124 - INFO - Starting script - main
+02:31:03.154 - INFO - Lock released. - release_lock
+2024-11-13 02:31:03.154678 script finished
+======================================
+02:46:03.205 - INFO - Lock acquired. - acquire_lock
+02:46:03.206 - INFO - Starting script - main
+02:46:03.254 - INFO - Lock released. - release_lock
+2024-11-13 02:46:03.254290 script finished
+======================================
+03:01:02.522 - INFO - Lock acquired. - acquire_lock
+03:01:02.523 - INFO - Starting script - main
+03:01:02.570 - INFO - Lock released. - release_lock
+2024-11-13 03:01:02.570825 script finished
+======================================
+03:16:02.737 - INFO - Lock acquired. - acquire_lock
+03:16:02.737 - INFO - Starting script - main
+03:16:02.775 - INFO - Lock released. - release_lock
+2024-11-13 03:16:02.775933 script finished
+======================================
+03:31:02.653 - INFO - Lock acquired. - acquire_lock
+03:31:02.653 - INFO - Starting script - main
+03:31:02.669 - INFO - Lock released. - release_lock
+2024-11-13 03:31:02.670033 script finished
+======================================
+03:46:03.071 - INFO - Lock acquired. - acquire_lock
+03:46:03.071 - INFO - Starting script - main
+03:46:03.110 - INFO - Lock released. - release_lock
+2024-11-13 03:46:03.110686 script finished
+======================================
+04:01:03.199 - INFO - Lock acquired. - acquire_lock
+04:01:03.199 - INFO - Starting script - main
+04:01:03.243 - INFO - Lock released. - release_lock
+2024-11-13 04:01:03.243752 script finished
+======================================
+04:16:02.725 - INFO - Lock acquired. - acquire_lock
+04:16:02.726 - INFO - Starting script - main
+04:16:02.751 - INFO - Lock released. - release_lock
+2024-11-13 04:16:02.751935 script finished
+======================================
+04:31:02.653 - INFO - Lock acquired. - acquire_lock
+04:31:02.654 - INFO - Starting script - main
+04:31:02.676 - INFO - Lock released. - release_lock
+2024-11-13 04:31:02.696386 script finished
+======================================
+04:46:02.817 - INFO - Lock acquired. - acquire_lock
+04:46:02.817 - INFO - Starting script - main
+04:46:02.847 - INFO - Lock released. - release_lock
+2024-11-13 04:46:02.848093 script finished
+======================================
+05:01:02.991 - INFO - Lock acquired. - acquire_lock
+05:01:02.991 - INFO - Starting script - main
+05:01:03.030 - INFO - Lock released. - release_lock
+2024-11-13 05:01:03.030372 script finished
+======================================
+05:16:02.641 - INFO - Lock acquired. - acquire_lock
+05:16:02.641 - INFO - Starting script - main
+05:16:02.679 - INFO - Lock released. - release_lock
+2024-11-13 05:16:02.679667 script finished
+======================================
+05:31:03.219 - INFO - Lock acquired. - acquire_lock
+05:31:03.220 - INFO - Starting script - main
+05:31:03.263 - INFO - Lock released. - release_lock
+2024-11-13 05:31:03.263458 script finished
+======================================
+05:46:02.866 - INFO - Lock acquired. - acquire_lock
+05:46:02.866 - INFO - Starting script - main
+05:46:02.909 - INFO - Lock released. - release_lock
+2024-11-13 05:46:02.909967 script finished
+======================================
+06:01:03.347 - INFO - Lock acquired. - acquire_lock
+06:01:03.347 - INFO - Starting script - main
+06:01:03.392 - INFO - Lock released. - release_lock
+2024-11-13 06:01:03.392201 script finished
+======================================
+06:16:03.141 - INFO - Lock acquired. - acquire_lock
+06:16:03.142 - INFO - Starting script - main
+06:16:03.164 - INFO - Lock released. - release_lock
+2024-11-13 06:16:03.164278 script finished
+======================================
+06:31:03.576 - INFO - Lock acquired. - acquire_lock
+06:31:03.576 - INFO - Starting script - main
+06:31:03.615 - INFO - Lock released. - release_lock
+2024-11-13 06:31:03.615626 script finished
+======================================
+06:46:03.242 - INFO - Lock acquired. - acquire_lock
+06:46:03.242 - INFO - Starting script - main
+06:46:03.288 - INFO - Lock released. - release_lock
+2024-11-13 06:46:03.288699 script finished
+======================================
+07:01:03.339 - INFO - Lock acquired. - acquire_lock
+07:01:03.340 - INFO - Starting script - main
+07:01:03.385 - INFO - Lock released. - release_lock
+2024-11-13 07:01:03.385951 script finished
+======================================
+07:16:03.312 - INFO - Lock acquired. - acquire_lock
+07:16:03.312 - INFO - Starting script - main
+07:16:03.349 - INFO - Lock released. - release_lock
+2024-11-13 07:16:03.350084 script finished
+======================================
+07:31:02.599 - INFO - Lock acquired. - acquire_lock
+07:31:02.600 - INFO - Starting script - main
+07:31:02.639 - INFO - Lock released. - release_lock
+2024-11-13 07:31:02.639532 script finished
+======================================
+07:46:02.853 - INFO - Lock acquired. - acquire_lock
+07:46:02.853 - INFO - Starting script - main
+07:46:02.880 - INFO - Lock released. - release_lock
+2024-11-13 07:46:02.880156 script finished
+======================================
+08:01:02.569 - INFO - Lock acquired. - acquire_lock
+08:01:02.569 - INFO - Starting script - main
+08:01:02.613 - INFO - Lock released. - release_lock
+2024-11-13 08:01:02.613725 script finished
+======================================
+08:16:03.023 - INFO - Lock acquired. - acquire_lock
+08:16:03.040 - INFO - Starting script - main
+08:16:03.070 - INFO - Lock released. - release_lock
+2024-11-13 08:16:03.070738 script finished
+======================================
+08:31:02.568 - INFO - Lock acquired. - acquire_lock
+08:31:02.592 - INFO - Starting script - main
+08:31:02.611 - INFO - Lock released. - release_lock
+2024-11-13 08:31:02.628440 script finished
+======================================
+08:46:02.801 - INFO - Lock acquired. - acquire_lock
+08:46:02.804 - INFO - Starting script - main
+08:46:02.828 - INFO - Lock released. - release_lock
+2024-11-13 08:46:02.836431 script finished
+======================================
+09:01:02.619 - INFO - Lock acquired. - acquire_lock
+09:01:02.619 - INFO - Starting script - main
+09:01:02.644 - INFO - Lock released. - release_lock
+2024-11-13 09:01:02.644263 script finished
+======================================
+09:16:02.455 - INFO - Lock acquired. - acquire_lock
+09:16:02.455 - INFO - Starting script - main
+09:16:02.506 - INFO - Lock released. - release_lock
+2024-11-13 09:16:02.506646 script finished
+======================================
+09:31:02.517 - INFO - Lock acquired. - acquire_lock
+09:31:02.524 - INFO - Starting script - main
+09:31:02.543 - INFO - Lock released. - release_lock
+2024-11-13 09:31:02.560416 script finished
+======================================
+09:46:03.489 - INFO - Lock acquired. - acquire_lock
+09:46:03.489 - INFO - Starting script - main
+09:46:03.533 - INFO - Lock released. - release_lock
+2024-11-13 09:46:03.537634 script finished
+======================================
+10:01:02.825 - INFO - Lock acquired. - acquire_lock
+10:01:02.825 - INFO - Starting script - main
+10:01:02.888 - INFO - Lock released. - release_lock
+2024-11-13 10:01:02.889117 script finished
+======================================
+10:16:02.864 - INFO - Lock acquired. - acquire_lock
+10:16:02.868 - INFO - Starting script - main
+10:16:02.889 - INFO - Lock released. - release_lock
+2024-11-13 10:16:02.900439 script finished
+======================================
+10:31:03.085 - INFO - Lock acquired. - acquire_lock
+10:31:03.086 - INFO - Starting script - main
+10:31:03.117 - INFO - Lock released. - release_lock
+2024-11-13 10:31:03.124419 script finished
+======================================
+10:46:03.162 - INFO - Lock acquired. - acquire_lock
+10:46:03.176 - INFO - Starting script - main
+10:46:03.213 - INFO - Lock released. - release_lock
+2024-11-13 10:46:03.222851 script finished
+======================================
+11:01:02.830 - INFO - Lock acquired. - acquire_lock
+11:01:02.830 - INFO - Starting script - main
+11:01:02.871 - INFO - Lock released. - release_lock
+2024-11-13 11:01:02.871433 script finished
+======================================
+11:16:02.595 - INFO - Lock acquired. - acquire_lock
+11:16:02.601 - INFO - Starting script - main
+11:16:02.616 - INFO - Lock released. - release_lock
+2024-11-13 11:16:02.631474 script finished
+======================================
+11:31:02.647 - INFO - Lock acquired. - acquire_lock
+11:31:02.660 - INFO - Starting script - main
+11:31:02.702 - INFO - Lock released. - release_lock
+2024-11-13 11:31:02.715560 script finished
+======================================
+11:46:02.765 - INFO - Lock acquired. - acquire_lock
+11:46:02.772 - INFO - Starting script - main
+11:46:02.794 - INFO - Detected new pair NOOBUSDT at Nov 13, 2024, 12PM - main
+11:46:02.798 - INFO - Release time and date: 13-11-2024 12:00:00.000 - get_price_websocket_level2
+11:46:03.234 - INFO - Subscription request sent for NOOB-USDT - initialize_websocket
+11:46:03.304 - INFO - Successfully subscribed to NOOB-USDT - wait_for_subscription
+11:46:03.304 - INFO - Waiting 836.70 seconds until token release time - wait_until_listing
+11:59:38.917 - INFO - 25 seconds left until token release - wait_until_listing
+12:00:00.058 - INFO - data from WebSocket: {'asks': [['0.04976', '20096', '48']], 'bids': []}  - get_price_websocket_level2
+12:00:00.058 - INFO - Successfully retrieved NOOB price: {'asks': [['0.04976', '20096', '48']], 'bids': []} - main
+12:00:00.131 - DEBUG - break for after detecting pair loop - main
+12:00:00.132 - INFO - Lock released. - release_lock
+2024-11-13 12:00:00.132265 script finished
+======================================
+12:01:02.718 - INFO - Lock acquired. - acquire_lock
+12:01:02.724 - INFO - Starting script - main
+12:01:02.752 - INFO - Lock released. - release_lock
+2024-11-13 12:01:02.780853 script finished
+======================================
+12:16:03.096 - INFO - Lock acquired. - acquire_lock
+12:16:03.116 - INFO - Starting script - main
+12:16:03.153 - INFO - Lock released. - release_lock
+2024-11-13 12:16:03.156416 script finished
+======================================
+12:31:02.915 - INFO - Lock acquired. - acquire_lock
+12:31:02.931 - INFO - Starting script - main
+12:31:02.960 - INFO - Lock released. - release_lock
+2024-11-13 12:31:02.972455 script finished
+======================================
+12:46:02.877 - INFO - Lock acquired. - acquire_lock
+12:46:02.884 - INFO - Starting script - main
+12:46:02.920 - INFO - Lock released. - release_lock
+2024-11-13 12:46:02.920269 script finished
+======================================
+13:01:02.666 - INFO - Lock acquired. - acquire_lock
+13:01:02.676 - INFO - Starting script - main
+13:01:02.702 - INFO - Lock released. - release_lock
+2024-11-13 13:01:02.712729 script finished
+======================================
+13:16:02.744 - INFO - Lock acquired. - acquire_lock
+13:16:02.744 - INFO - Starting script - main
+13:16:02.775 - INFO - Lock released. - release_lock
+2024-11-13 13:16:02.775674 script finished
+======================================
+13:31:03.176 - INFO - Lock acquired. - acquire_lock
+13:31:03.196 - INFO - Starting script - main
+13:31:03.245 - INFO - Lock released. - release_lock
+2024-11-13 13:31:03.256470 script finished
+======================================
+13:46:03.186 - INFO - Lock acquired. - acquire_lock
+13:46:03.186 - INFO - Starting script - main
+13:46:03.215 - INFO - Lock released. - release_lock
+2024-11-13 13:46:03.216081 script finished
+======================================
+14:01:02.973 - INFO - Lock acquired. - acquire_lock
+14:01:02.976 - INFO - Starting script - main
+14:01:03.018 - INFO - Lock released. - release_lock
+2024-11-13 14:01:03.026646 script finished
+======================================
+14:16:02.747 - INFO - Lock acquired. - acquire_lock
+14:16:02.760 - INFO - Starting script - main
+14:16:02.795 - INFO - Lock released. - release_lock
+2024-11-13 14:16:02.808477 script finished
+======================================
+14:31:02.887 - INFO - Lock acquired. - acquire_lock
+14:31:02.917 - INFO - Starting script - main
+14:31:02.943 - INFO - Lock released. - release_lock
+2024-11-13 14:31:02.953051 script finished
+======================================
+14:46:03.418 - INFO - Lock acquired. - acquire_lock
+14:46:03.418 - INFO - Starting script - main
+14:46:03.503 - INFO - Lock released. - release_lock
+2024-11-13 14:46:03.504007 script finished
+======================================
+15:01:02.835 - INFO - Lock acquired. - acquire_lock
+15:01:02.852 - INFO - Starting script - main
+15:01:02.905 - INFO - Lock released. - release_lock
+2024-11-13 15:01:02.912423 script finished
+======================================
+15:16:03.414 - INFO - Lock acquired. - acquire_lock
+15:16:03.436 - INFO - Starting script - main
+15:16:03.462 - INFO - Lock released. - release_lock
+2024-11-13 15:16:03.472454 script finished
+======================================
+15:31:02.628 - INFO - Lock acquired. - acquire_lock
+15:31:02.628 - INFO - Starting script - main
+15:31:02.681 - INFO - Lock released. - release_lock
+2024-11-13 15:31:02.681399 script finished
+======================================
+15:46:03.190 - INFO - Lock acquired. - acquire_lock
+15:46:03.200 - INFO - Starting script - main
+15:46:03.238 - INFO - Lock released. - release_lock
+2024-11-13 15:46:03.260446 script finished
+======================================
+16:01:03.442 - INFO - Lock acquired. - acquire_lock
+16:01:03.456 - INFO - Starting script - main
+16:01:03.491 - INFO - Lock released. - release_lock
+2024-11-13 16:01:03.508467 script finished
+======================================
+16:16:03.339 - INFO - Lock acquired. - acquire_lock
+16:16:03.360 - INFO - Starting script - main
+16:16:03.387 - INFO - Lock released. - release_lock
+2024-11-13 16:16:03.399468 script finished
+======================================
+16:31:03.694 - INFO - Lock acquired. - acquire_lock
+16:31:03.695 - INFO - Starting script - main
+16:31:03.742 - INFO - Lock released. - release_lock
+2024-11-13 16:31:03.750396 script finished
+======================================
+16:46:02.960 - INFO - Lock acquired. - acquire_lock
+16:46:02.961 - INFO - Starting script - main
+16:46:02.992 - INFO - Lock released. - release_lock
+2024-11-13 16:46:03.024417 script finished
+======================================
+17:01:03.420 - INFO - Lock acquired. - acquire_lock
+17:01:03.436 - INFO - Starting script - main
+17:01:03.482 - INFO - Lock released. - release_lock
+2024-11-13 17:01:03.483120 script finished
+======================================
+17:16:03.177 - INFO - Lock acquired. - acquire_lock
+17:16:03.177 - INFO - Starting script - main
+17:16:03.228 - INFO - Lock released. - release_lock
+2024-11-13 17:16:03.228896 script finished
+======================================
+17:31:03.246 - INFO - Lock acquired. - acquire_lock
+17:31:03.254 - INFO - Starting script - main
+17:31:03.297 - INFO - Lock released. - release_lock
+2024-11-13 17:31:03.300392 script finished
+======================================
+17:46:03.712 - INFO - Lock acquired. - acquire_lock
+17:46:03.713 - INFO - Starting script - main
+17:46:03.812 - INFO - Lock released. - release_lock
+2024-11-13 17:46:03.812783 script finished
+======================================
+18:01:02.578 - INFO - Lock acquired. - acquire_lock
+18:01:02.592 - INFO - Starting script - main
+18:01:02.600 - INFO - Lock released. - release_lock
+2024-11-13 18:01:02.628438 script finished
+======================================
+18:16:03.448 - INFO - Lock acquired. - acquire_lock
+18:16:03.456 - INFO - Starting script - main
+18:16:03.504 - INFO - Lock released. - release_lock
+2024-11-13 18:16:03.508451 script finished
+======================================
+18:31:02.742 - INFO - Lock acquired. - acquire_lock
+18:31:02.748 - INFO - Starting script - main
+18:31:02.789 - INFO - Lock released. - release_lock
+2024-11-13 18:31:02.796575 script finished
+======================================
+18:46:02.689 - INFO - Lock acquired. - acquire_lock
+18:46:02.689 - INFO - Starting script - main
+18:46:02.722 - INFO - Lock released. - release_lock
+2024-11-13 18:46:02.739276 script finished
+======================================
+19:01:03.324 - INFO - Lock acquired. - acquire_lock
+19:01:03.327 - INFO - Starting script - main
+19:01:03.369 - INFO - Lock released. - release_lock
+2024-11-13 19:01:03.380403 script finished
+======================================
+19:16:02.627 - INFO - Lock acquired. - acquire_lock
+19:16:02.633 - INFO - Starting script - main
+19:16:02.689 - INFO - Lock released. - release_lock
+2024-11-13 19:16:02.690842 script finished
+======================================
+19:31:02.894 - INFO - Lock acquired. - acquire_lock
+19:31:02.900 - INFO - Starting script - main
+19:31:02.923 - INFO - Lock released. - release_lock
+2024-11-13 19:31:02.944425 script finished
+======================================
+19:46:02.993 - INFO - Lock acquired. - acquire_lock
+19:46:02.996 - INFO - Starting script - main
+19:46:03.024 - INFO - Lock released. - release_lock
+2024-11-13 19:46:03.044705 script finished
+======================================
+20:01:02.498 - INFO - Lock acquired. - acquire_lock
+20:01:02.508 - INFO - Starting script - main
+20:01:02.531 - INFO - Lock released. - release_lock
+2024-11-13 20:01:02.544441 script finished
+======================================
+20:16:03.607 - INFO - Lock acquired. - acquire_lock
+20:16:03.658 - INFO - Starting script - main
+20:16:03.753 - INFO - Lock released. - release_lock
+2024-11-13 20:16:03.753740 script finished
+======================================
+20:31:03.011 - INFO - Lock acquired. - acquire_lock
+20:31:03.012 - INFO - Starting script - main
+20:31:03.063 - INFO - Lock released. - release_lock
+2024-11-13 20:31:03.063814 script finished
+======================================
+20:46:03.258 - INFO - Lock acquired. - acquire_lock
+20:46:03.272 - INFO - Starting script - main
+20:46:03.298 - INFO - Lock released. - release_lock
+2024-11-13 20:46:03.314142 script finished
+======================================
+21:01:02.419 - INFO - Lock acquired. - acquire_lock
+21:01:02.436 - INFO - Starting script - main
+21:01:02.458 - INFO - Lock released. - release_lock
+2024-11-13 21:01:02.472405 script finished
+======================================
+21:16:03.121 - INFO - Lock acquired. - acquire_lock
+21:16:03.121 - INFO - Starting script - main
+21:16:03.161 - INFO - Lock released. - release_lock
+2024-11-13 21:16:03.161750 script finished
+======================================
+21:31:03.147 - INFO - Lock acquired. - acquire_lock
+21:31:03.168 - INFO - Starting script - main
+21:31:03.244 - INFO - Lock released. - release_lock
+2024-11-13 21:31:03.245242 script finished
+======================================
+21:46:02.780 - INFO - Lock acquired. - acquire_lock
+21:46:02.781 - INFO - Starting script - main
+21:46:02.819 - INFO - Lock released. - release_lock
+2024-11-13 21:46:02.840447 script finished
+======================================
+22:01:03.459 - INFO - Lock acquired. - acquire_lock
+22:01:03.460 - INFO - Starting script - main
+22:01:03.507 - INFO - Lock released. - release_lock
+2024-11-13 22:01:03.508075 script finished
+======================================
+22:16:02.507 - INFO - Lock acquired. - acquire_lock
+22:16:02.528 - INFO - Starting script - main
+22:16:02.560 - INFO - Lock released. - release_lock
+2024-11-13 22:16:02.580421 script finished
+======================================
+22:31:02.659 - INFO - Lock acquired. - acquire_lock
+22:31:02.672 - INFO - Starting script - main
+22:31:02.702 - INFO - Lock released. - release_lock
+2024-11-13 22:31:02.712415 script finished
+======================================
+22:46:02.801 - INFO - Lock acquired. - acquire_lock
+22:46:02.808 - INFO - Starting script - main
+22:46:02.830 - INFO - Lock released. - release_lock
+2024-11-13 22:46:02.852397 script finished
+======================================
+23:01:02.628 - INFO - Lock acquired. - acquire_lock
+23:01:02.648 - INFO - Starting script - main
+23:01:02.686 - INFO - Lock released. - release_lock
+2024-11-13 23:01:02.692420 script finished
+======================================
+23:16:02.726 - INFO - Lock acquired. - acquire_lock
+23:16:02.748 - INFO - Starting script - main
+23:16:02.775 - INFO - Lock released. - release_lock
+2024-11-13 23:16:02.795568 script finished
+======================================
+23:31:03.021 - INFO - Lock acquired. - acquire_lock
+23:31:03.029 - INFO - Starting script - main
+23:31:03.067 - INFO - Lock released. - release_lock
+2024-11-13 23:31:03.088448 script finished
+======================================
+23:46:02.828 - INFO - Lock acquired. - acquire_lock
+23:46:02.829 - INFO - Starting script - main
+23:46:02.862 - INFO - Lock released. - release_lock
+2024-11-13 23:46:02.872456 script finished
+======================================
+00:01:02.515 - INFO - Lock acquired. - acquire_lock
+00:01:02.536 - INFO - Starting script - main
+00:01:02.584 - INFO - Lock released. - release_lock
+2024-11-14 00:01:02.586266 script finished
+======================================
+00:16:03.262 - INFO - Lock acquired. - acquire_lock
+00:16:03.284 - INFO - Starting script - main
+00:16:03.307 - INFO - Lock released. - release_lock
+2024-11-14 00:16:03.324425 script finished
+======================================
+00:31:03.185 - INFO - Lock acquired. - acquire_lock
+00:31:03.193 - INFO - Starting script - main
+00:31:03.244 - INFO - Lock released. - release_lock
+2024-11-14 00:31:03.246389 script finished
+======================================
+00:46:02.694 - INFO - Lock acquired. - acquire_lock
+00:46:02.704 - INFO - Starting script - main
+00:46:02.723 - INFO - Lock released. - release_lock
+2024-11-14 00:46:02.752405 script finished
+======================================
+01:01:02.643 - INFO - Lock acquired. - acquire_lock
+01:01:02.664 - INFO - Starting script - main
+01:01:02.687 - INFO - Lock released. - release_lock
+2024-11-14 01:01:02.687461 script finished
+======================================
+01:16:02.931 - INFO - Lock acquired. - acquire_lock
+01:16:02.931 - INFO - Starting script - main
+01:16:02.978 - INFO - Lock released. - release_lock
+2024-11-14 01:16:02.978948 script finished
+======================================
+01:31:03.056 - INFO - Lock acquired. - acquire_lock
+01:31:03.076 - INFO - Starting script - main
+01:31:03.124 - INFO - Lock released. - release_lock
+2024-11-14 01:31:03.124685 script finished
+======================================
+01:46:02.543 - INFO - Lock acquired. - acquire_lock
+01:46:02.543 - INFO - Starting script - main
+01:46:02.579 - INFO - Lock released. - release_lock
+2024-11-14 01:46:02.579254 script finished
+======================================
+02:01:03.351 - INFO - Lock acquired. - acquire_lock
+02:01:03.351 - INFO - Starting script - main
+02:01:03.396 - INFO - Lock released. - release_lock
+2024-11-14 02:01:03.396242 script finished
+======================================
+02:16:03.319 - INFO - Lock acquired. - acquire_lock
+02:16:03.319 - INFO - Starting script - main
+02:16:03.366 - INFO - Lock released. - release_lock
+2024-11-14 02:16:03.366764 script finished
+======================================
+02:31:02.755 - INFO - Lock acquired. - acquire_lock
+02:31:02.755 - INFO - Starting script - main
+02:31:02.813 - INFO - Lock released. - release_lock
+2024-11-14 02:31:02.813617 script finished
+======================================
+02:46:02.607 - INFO - Lock acquired. - acquire_lock
+02:46:02.607 - INFO - Starting script - main
+02:46:02.654 - INFO - Lock released. - release_lock
+2024-11-14 02:46:02.654775 script finished
+======================================
+03:01:03.278 - INFO - Lock acquired. - acquire_lock
+03:01:03.278 - INFO - Starting script - main
+03:01:03.325 - INFO - Lock released. - release_lock
+2024-11-14 03:01:03.326020 script finished
+======================================
+03:16:02.667 - INFO - Lock acquired. - acquire_lock
+03:16:02.667 - INFO - Starting script - main
+03:16:02.711 - INFO - Lock released. - release_lock
+2024-11-14 03:16:02.711901 script finished
+======================================
+03:31:02.808 - INFO - Lock acquired. - acquire_lock
+03:31:02.808 - INFO - Starting script - main
+03:31:02.871 - INFO - Lock released. - release_lock
+2024-11-14 03:31:02.871199 script finished
+======================================
+03:46:02.659 - INFO - Lock acquired. - acquire_lock
+03:46:02.659 - INFO - Starting script - main
+03:46:02.706 - INFO - Lock released. - release_lock
+2024-11-14 03:46:02.706962 script finished
+======================================
+04:01:03.207 - INFO - Lock acquired. - acquire_lock
+04:01:03.207 - INFO - Starting script - main
+04:01:03.255 - INFO - Lock released. - release_lock
+2024-11-14 04:01:03.255556 script finished
+======================================
+04:16:02.723 - INFO - Lock acquired. - acquire_lock
+04:16:02.723 - INFO - Starting script - main
+04:16:02.771 - INFO - Lock released. - release_lock
+2024-11-14 04:16:02.771704 script finished
+======================================
+04:31:03.177 - INFO - Lock acquired. - acquire_lock
+04:31:03.177 - INFO - Starting script - main
+04:31:03.200 - INFO - Lock released. - release_lock
+2024-11-14 04:31:03.200157 script finished
+======================================
+04:46:02.640 - INFO - Lock acquired. - acquire_lock
+04:46:02.640 - INFO - Starting script - main
+04:46:02.666 - INFO - Lock released. - release_lock
+2024-11-14 04:46:02.667008 script finished
+======================================
+05:01:03.208 - INFO - Lock acquired. - acquire_lock
+05:01:03.208 - INFO - Starting script - main
+05:01:03.257 - INFO - Lock released. - release_lock
+2024-11-14 05:01:03.257288 script finished
+======================================
+05:16:02.507 - INFO - Lock acquired. - acquire_lock
+05:16:02.507 - INFO - Starting script - main
+05:16:02.557 - INFO - Lock released. - release_lock
+2024-11-14 05:16:02.557905 script finished
+======================================
+05:31:02.836 - INFO - Lock acquired. - acquire_lock
+05:31:02.836 - INFO - Starting script - main
+05:31:02.910 - INFO - Lock released. - release_lock
+2024-11-14 05:31:02.910925 script finished
+======================================
+05:46:03.064 - INFO - Lock acquired. - acquire_lock
+05:46:03.064 - INFO - Starting script - main
+05:46:03.091 - INFO - Lock released. - release_lock
+2024-11-14 05:46:03.092057 script finished
+======================================
+06:01:03.586 - INFO - Lock acquired. - acquire_lock
+06:01:03.586 - INFO - Starting script - main
+06:01:03.637 - INFO - Lock released. - release_lock
+2024-11-14 06:01:03.637167 script finished
+======================================
+06:16:03.264 - INFO - Lock acquired. - acquire_lock
+06:16:03.264 - INFO - Starting script - main
+06:16:03.312 - INFO - Lock released. - release_lock
+2024-11-14 06:16:03.312670 script finished
+======================================
+06:31:02.653 - INFO - Lock acquired. - acquire_lock
+06:31:02.653 - INFO - Starting script - main
+06:31:02.701 - INFO - Lock released. - release_lock
+2024-11-14 06:31:02.701267 script finished
+======================================
+06:46:02.782 - INFO - Lock acquired. - acquire_lock
+06:46:02.782 - INFO - Starting script - main
+06:46:02.827 - INFO - Lock released. - release_lock
+2024-11-14 06:46:02.827359 script finished
+======================================
+07:01:02.874 - INFO - Lock acquired. - acquire_lock
+07:01:02.874 - INFO - Starting script - main
+07:01:02.926 - INFO - Lock released. - release_lock
+2024-11-14 07:01:02.926905 script finished
+======================================
+07:16:03.370 - INFO - Lock acquired. - acquire_lock
+07:16:03.370 - INFO - Starting script - main
+07:16:03.412 - INFO - Lock released. - release_lock
+2024-11-14 07:16:03.413050 script finished
+======================================
+07:31:02.692 - INFO - Lock acquired. - acquire_lock
+07:31:02.692 - INFO - Starting script - main
+07:31:02.733 - INFO - Lock released. - release_lock
+2024-11-14 07:31:02.733651 script finished
+======================================
+07:46:02.746 - INFO - Lock acquired. - acquire_lock
+07:46:02.746 - INFO - Starting script - main
+07:46:02.793 - INFO - Lock released. - release_lock
+2024-11-14 07:46:02.794034 script finished
+======================================
+08:01:02.951 - INFO - Lock acquired. - acquire_lock
+08:01:02.972 - INFO - Starting script - main
+08:01:03.025 - INFO - Lock released. - release_lock
+2024-11-14 08:01:03.028377 script finished
+======================================
+08:16:03.639 - INFO - Lock acquired. - acquire_lock
+08:16:03.656 - INFO - Starting script - main
+08:16:03.698 - INFO - Lock released. - release_lock
+2024-11-14 08:16:03.712581 script finished
+======================================
+08:31:03.345 - INFO - Lock acquired. - acquire_lock
+08:31:03.345 - INFO - Starting script - main
+08:31:03.388 - INFO - Lock released. - release_lock
+2024-11-14 08:31:03.388635 script finished
+======================================
+08:46:03.407 - INFO - Lock acquired. - acquire_lock
+08:46:03.424 - INFO - Starting script - main
+08:46:03.450 - INFO - Lock released. - release_lock
+2024-11-14 08:46:03.464437 script finished
+======================================
+09:01:03.022 - INFO - Lock acquired. - acquire_lock
+09:01:03.036 - INFO - Starting script - main
+09:01:03.085 - INFO - Lock released. - release_lock
+2024-11-14 09:01:03.086591 script finished
+======================================
+09:16:02.767 - INFO - Lock acquired. - acquire_lock
+09:16:02.788 - INFO - Starting script - main
+09:16:02.812 - INFO - Detected new pair XRPUSDT at Nov 14, 2024, 9:30AM - main
+09:16:02.832 - INFO - Release time and date: 14-11-2024 09:30:00.000 - get_price_websocket_level2
+09:16:03.351 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+09:16:03.432 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+09:16:03.432 - INFO - Waiting 836.57 seconds until token release time - wait_until_listing
+09:29:39.024 - INFO - 25 seconds left until token release - wait_until_listing
+09:30:00.008 - INFO - data from WebSocket: {'asks': [['0.70806', '2761.7', '4806017857']], 'bids': []}  - get_price_websocket_level2
+09:30:00.009 - INFO - Successfully retrieved XRP price: {'asks': [['0.70806', '2761.7', '4806017857']], 'bids': []} - main
+09:30:00.015 - DEBUG - break for after detecting pair loop - main
+09:30:00.016 - INFO - Lock released. - release_lock
+2024-11-14 09:30:00.016194 script finished
+======================================
+09:31:03.133 - INFO - Lock acquired. - acquire_lock
+09:31:03.148 - INFO - Starting script - main
+09:31:03.166 - INFO - Lock released. - release_lock
+2024-11-14 09:31:03.181746 script finished
+======================================
+09:46:02.733 - INFO - Lock acquired. - acquire_lock
+09:46:02.736 - INFO - Starting script - main
+09:46:02.758 - INFO - Detected new pair NSUSDT at Nov 14, 2024, 10AM - main
+09:46:02.759 - INFO - Release time and date: 14-11-2024 10:00:00.000 - get_price_websocket_level2
+09:46:03.178 - INFO - Subscription request sent for NS-USDT - initialize_websocket
+09:46:03.248 - INFO - Successfully subscribed to NS-USDT - wait_for_subscription
+09:46:03.249 - INFO - Waiting 836.75 seconds until token release time - wait_until_listing

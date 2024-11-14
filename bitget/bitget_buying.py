@@ -150,7 +150,7 @@ async def main():
                 await websocket_object.cleanup()
 
 
-    print(f'{datetime.now().strftime('%H:%M:%S.%f')[:-3]} finshed main loop')
+    print(f"{datetime.now().strftime('%H:%M:%S.%f')[:-3]} finshed main loop")
     print('Update bid price to buy and sell')
             
 

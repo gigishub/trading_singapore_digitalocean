@@ -64,6 +64,7 @@ class KucoinHFTrading:
         session.headers.update({"Connection": "keep-alive"})
         return session
 
+
     def _generate_signature(self, timestamp: str, method: str, endpoint: str, body: str = "") -> tuple:
         """Generate signature with minimal overhead"""
         try:

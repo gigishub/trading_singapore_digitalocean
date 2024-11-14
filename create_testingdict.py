@@ -6,11 +6,11 @@ base_data = {
     "exchange": "KuCoin",
     "url": "https://announcements.bybit.com/en-US/article/new-listing-mcg-usdt-grab-a-share-of-the-26-000-000-mcg-prize-pool-bltc105113c043f09d5/",
     "date_time_string": "Aug 2, 2024, 7:30PM",
-    "pair": "XRPUSDT",
+    "pair": "KANGOUSDT",
 }
 
 # Starting time
-start_time = datetime.strptime("Nov 9, 2024, 12:00PM", "%b %d, %Y, %I:%M%p")
+start_time = datetime.strptime("Nov 10, 2024, 10:50AM", "%b %d, %Y, %I:%M%p")
 # INITALIZE COUNTER
 minute_counter = 0
 
@@ -18,12 +18,13 @@ minute_counter = 0
 minute_increment = 15
 
 # Number of files to generate
-amount_of_files = 9
+amount_of_files = 3
 
 #directory_for_testing_files = "/root/trading_systems/bitget/new_pair_data_bitget"
 
-directory_for_testing_files = "/root/trading_systems/kucoin_dir/new_pair_data_kucoin"
+#directory_for_testing_files = "/root/trading_systems/kucoin_dir/new_pair_data_kucoin"
 
+directory_for_testing_files = '/root/trading_systems/MEXC_dir/new_pair_dir_mexc'
 # Generate 15 JSON files
 for i in range(amount_of_files):
     add_minutes = timedelta(minutes=minute_counter)

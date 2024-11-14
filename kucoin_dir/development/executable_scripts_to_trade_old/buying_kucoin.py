@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 import asyncio
 from kucoin.exceptions import KucoinAPIException
 import logging
-from Kucoin_websocket_speed_update import KucoinWebSocketScraper
+from kucoin_dir.development.Kucoin_websocket_speed_update import KucoinWebSocketScraper
 from hf_kucoin_order import KucoinHFTrading
 import sys
 import fcntl  # Import fcntl for file locking
@@ -27,7 +27,7 @@ def main():
     lock_file = acquire_lock()
     try:
         directory = '/root/trading_systems/kucoin_dir/new_pair_data_kucoin'
-        percent_of_price_buy = 0.4 # setting limit order to buy n% above the retrived price
+        percent_of_price_buy = 1.4 # setting limit order to buy n% above the retrived price
         percent_of_price_sell = 0.8 # setting limit order to sell n% above the ACTUAL buy price NOT the retrived price
         max_wait_time_for_execution = 0.5 # time to wait for price if passed no order execution but continues to retrive price
         # Loop through announced pairs 

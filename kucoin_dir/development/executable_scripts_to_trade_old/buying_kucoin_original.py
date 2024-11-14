@@ -10,7 +10,7 @@ from kucoin.exceptions import KucoinAPIException
 import logging
 import sys
 #from update_kucoinclass import KucoinWebSocketScraper
-from Kucoin_websocket_speed_update import KucoinWebSocketScraper
+from kucoin_dir.development.Kucoin_websocket_speed_update import KucoinWebSocketScraper
 
 logging.basicConfig(
     level=logging.INFO,

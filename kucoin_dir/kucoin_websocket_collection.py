@@ -15,7 +15,7 @@ logging.basicConfig(
     datefmt='%H:%M:%S'
 )
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG) 
+logger.setLevel(logging.INFO) 
 
 class Kucoin_websocket_collection:
     def __init__(self):
