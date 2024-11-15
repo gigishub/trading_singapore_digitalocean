@@ -14,16 +14,13 @@ import traceback
 
 logging.basicConfig(
     level=logging.INFO,
-    format='%(asctime)s.%(msecs)03d - [Instance %(instance_id)s] - %(levelname)s - %(message)s - %(funcName)s',
+    format='%(asctime)s.%(msecs)03d - %(levelname)s - %(message)s - %(funcName)s ',
     datefmt='%Y-%m-%d %H:%M:%S'
 )
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
-# V5 
 class KucoinStrategyTrader:
-    instance_counter = 0
-
     def __init__(self, api_key: str, api_secret: str, api_passphrase: str):
         self.trading_client = kucoinHForderManager(api_key, api_secret, api_passphrase)
         self.buy_order_tasks = []
@@ -31,9 +28,7 @@ class KucoinStrategyTrader:
         self.all_executed_buy_order_results = []
         self.first_succesful_order = None  
         self.all_sell_order_results = []
-        KucoinStrategyTrader.instance_counter += 1
-        self.instance_id = KucoinStrategyTrader.instance_counter
-        self.log = logging.LoggerAdapter(logger, {'instance_id': self.instance_id})
+
 
     async def execute_staged_orders(self, 
                                     symbol: str,
@@ -44,22 +39,30 @@ class KucoinStrategyTrader:
                                     price_increment: float = None):
         """
         Execute multiple buy orders with time offsets, immediately proceeding after first success
+        return example: 
+        {'success': True, 'order_num': 1, 'price': '0.2', 'order_sent_time': '14:39:06.658', 'execution_time': 0.16934753803070635, 'order_id': '6734ba0a858fce00075bae52'}
         """
         try:
-            # self.log.info(f"Starting staged order execution: {num_orders} orders, {time_offset_ms}ms offset")
+            logger.info(f"Starting staged order execution: {num_orders} orders, {time_offset_ms}ms offset")
 
             async def place_single_order(order_num: int):
                 try:
+
+                    # if i want to adjust the price with increment
+                    #price_str = str(float(base_price) + price_increment * order_num) if price_increment else base_price
                     price_str = str(order_price)
-                    # Apply time offset only for orders after the first one
+                    # Wait for the appropriate time offset
+                            # Apply time offset only for orders after the first one
                     if order_num > 0:
                         await asyncio.sleep(time_offset_ms / 1000 * order_num)
+
+                    #await asyncio.sleep(time_offset_ms / 1000 * order_num)
 
                     if self.should_stop:
                         return None
 
                     order_sent_time = datetime.now().strftime("%H:%M:%S.%f")[:-3]
-                    self.log.info(f"Placing order {order_num + 1}/{num_orders} at {order_sent_time} - Price: {price_str}")
+                    logger.info(f"Placing order {order_num + 1}/{num_orders} at {order_sent_time} - Price: {price_str}")
 
                     try:
                         # Protect the order placement from cancellation
@@ -80,20 +83,25 @@ class KucoinStrategyTrader:
                             "message": result.get("message", "No response") if result else "No response"
                         }
 
+
                         self.all_executed_buy_order_results.append(order_info)
 
                         if result and result.get("success"):
                             exec_time = result.get("execution_time", 0)
-                            self.log.info(f"Buy Order {order_num + 1} succeeded! Price: {price_str}, Execution time: {exec_time:.3f}s")
+                            logger.info(f"Buy Order {order_num + 1} succeeded! Price: {price_str}, Execution time: {exec_time:.3f}s")
                             self.should_stop = True  # Signal other tasks to stop placing orders
                             return order_info
+                        
+                        # when order fails 
+                        # section that executes when order key success from trading_client object (kucoin_order_manager) returns False
                         else:
                             error_msg = result.get('message') if result else 'No response'
-                            self.log.info(f"Order {order_num + 1} failed: {error_msg}")
+                            logger.info(f"Order {order_num + 1} failed: {error_msg}")
                             return order_info
 
+
                     except Exception as e:
-                        self.log.error(f"Error in order {order_num + 1}: {str(e)}")
+                        logger.error(f"Error in order {order_num + 1}: {str(e)}")
                         order_info = {
                             "success": False,
                             "order_num": order_num + 1,
@@ -108,7 +116,7 @@ class KucoinStrategyTrader:
 
                 except asyncio.CancelledError:
                     # If the task is cancelled before placing the order
-                    self.log.info(f"Order {order_num + 1} was cancelled before placement")
+                    logger.info(f"Order {order_num + 1} was cancelled before placement")
                     order_info = {
                         "order_num": order_num + 1,
                         "price": None,
@@ -139,6 +147,7 @@ class KucoinStrategyTrader:
                     if result and result.get("success"):
                         successful_result = result
                         self.first_succesful_order = result
+
                         self.should_stop = True  # Signal other tasks to stop placing orders
                         break
                 if successful_result or not pending:
@@ -148,9 +157,9 @@ class KucoinStrategyTrader:
             return successful_result
 
         except Exception as e:
-            self.log.error(f"Error in staged order execution: {str(e)}")
+            logger.error(f"Error in staged order execution: {str(e)}")
             return None
-            
+        
     async def execute_sell_limit_order(self, symbol: str, price: str, size: str):
         """
         Execute simple sell order 
@@ -164,23 +173,21 @@ class KucoinStrategyTrader:
             )
             if result and result.get("success"):
                 return {
-                    "success": result.get("success", False),
+                    "success": result.get("success", False) if result else False,
                     "price": price,
-                    "order_id": result.get("order_id", "unknown"),
+                    "order_id": result.get("order_id", "unknown") if result else "unknown",
                     "order_sent_time": order_sent_time,
-                    "execution_time": result.get("execution_time", 0),
+                    "execution_time": result.get("execution_time", 0) if result else 0,
                 }
             else:
-                # Message is already correctly prepared in the order manager class
+                # message is already correctly prepared in in order manager class
                 return result
 
         except Exception as e:
-            self.log.error(f"Error in sell order execution: {str(e)}")
-            return {
-                "success": False,
-                "message": str(e)
-            }
-        
+            logger.error(f"Error in sell order execution: {str(e)}")
+            return result
+
+    
     async def close_client(self):
         """Cleanup resources"""
         await self.trading_client.close()
@@ -192,7 +199,7 @@ class KucoinStrategyTrader:
         """
         try:
             # Execute buy orders
-            #self.log.info("Starting buy strategy...")
+            logger.info("Starting buy strategy...")
             buy_result = await self.execute_staged_orders(
                 symbol=symbol,
                 order_price=limit_buy_price,
@@ -203,57 +210,52 @@ class KucoinStrategyTrader:
 
             # If buy was successful, execute sell
             if buy_result:
-                self.log.info(f"Limit buy order successfully placed at price: {buy_result['price']}, fastest: Order {buy_result['order_num']}")
-                self.log.info("Starting sell strategy...")
+                logger.info(f"limit_buy_order successfully placed at price: {buy_result['price']}, fastest: Order {buy_result['order_num']}")
+                logger.info("Starting sell strategy...")
                 sell_result = await self.execute_sell_limit_order(
                     symbol=symbol,
                     size=size,
-                    price=limit_sell_price
-                )
+                    price=limit_sell_price)
                 if sell_result.get('success'):
-                    self.log.info(f"First sell order succeeded! Price: {sell_result.get('price', 'unknown')}, Execution time: {sell_result.get('execution_time', 0):.3f}s")
+                    logger.info(f"First sell order succeeded! at price: {sell_result.get('price', 'unknown')} execution time: {sell_result.get('execution_time', 0):.3f}s")
                 sell_result['sell_buy_order_num'] = buy_result['order_num']
                 self.all_sell_order_results.append(sell_result)
             else:
-                self.log.info("No successful buy orders, strategy complete")
+                logger.info("No successful buy orders, strategy complete")
 
             # Wait for remaining tasks to complete
             if self.buy_order_tasks:
                 await asyncio.gather(*self.buy_order_tasks, return_exceptions=True)
             
-            # Execute sell orders for all buy orders that are not the fastest one
-            for order_response in self.all_executed_buy_order_results:
-                if order_response != self.first_succesful_order and order_response.get('success'):
-                    sell_order_response = await self.execute_sell_limit_order(
-                        symbol=symbol,
-                        size=size,
-                        price=limit_sell_price
-                    )
-                    sell_order_response['sell_buy_order_num'] = order_response['order_num']
-                    self.log.info(f"For placed buy Order {order_response['order_num']}, sell Order placed")
+            # Execute sell orders for all buy order that are not fastes one
+            for order_resposne in self.all_executed_buy_order_results:
+                if order_resposne != self.first_succesful_order:
+                    sell_order_response =await self.execute_sell_limit_order(symbol=symbol, size=size, price=limit_sell_price)
+                    sell_order_response['sell_buy_order_num'] = order_resposne['order_num']
+                    logger.info(f"for placed buy Order {order_resposne['order_num']} sell Order placed ")
                     self.all_sell_order_results.append(sell_order_response)
 
             # Log all order results
-            # self.log.info("All buy order results:")
-            # for order_result in self.all_executed_buy_order_results:
-            #     self.log.info(order_result)
+            logger.info("All buy order results:")
+            for order_result in self.all_executed_buy_order_results:
+                logger.info(order_result)
             
-            # self.log.info("All sell order results:")
-            # for order_result in self.all_sell_order_results:
-            #     self.log.info(order_result)
+            logger.info("All sell order results:")
+            for order_result in self.all_sell_order_results:
+                logger.info(order_result)
 
             return {
                 "all_executed_buy_orders": self.all_executed_buy_order_results, 
                 "all_executed_sell_orders": self.all_sell_order_results
-            }
+                }
+            # Cleanup
         except Exception as e:
-            self.log.error(f"Error in strategy execution: {str(e)}")
+            logger.error(f"Error in strategy execution: {str(e)}")
             traceback.print_exc()
         finally:
             await self.close_client()
 
 async def main():
-
     import json
     try:
         # Load credentials
@@ -269,11 +271,12 @@ async def main():
 
         # Trading parameters
         symbol = "XRP-USDT"
-        limit_buy_price = "0.2"
+        limit_buy_price = "1"
         limit_sell_price = "0.2"
         size = "1"
         num_orders = 4
         time_offset_ms = 10
+
 
         # Run the trading strategy
         await strategy.multiple_buy_order_offset_time(
@@ -287,6 +290,7 @@ async def main():
 
     except Exception as e:
         logger.error(f"Strategy execution error: {str(e)}")
+
 
 if __name__ == "__main__":
     asyncio.run(main())

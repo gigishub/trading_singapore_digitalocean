@@ -11,7 +11,7 @@ import traceback
 import json
 import re
 from kucoin_websocket_collection import Kucoin_websocket_collection
-from kucoin_order_strategy import KucoinStrategyTrader
+from kucoin_order_strategy_DEV_V4 import KucoinStrategyTrader
 from kucoin.exceptions import KucoinAPIException
 
 # Configure logging with microsecond precision and function names
@@ -29,18 +29,17 @@ async def main():
     lock_file = acquire_lock()
     try:
         logger.debug("Starting script")
-        testing = False  
+        testing = True  
         directory = '/root/trading_systems/kucoin_dir/new_pair_data_kucoin'
         testing_time_offset = 2
         max_wait_time_for_execution = 10  # Time to wait for price
-        
-        num_buy_order_to_send = 6    # Number of buy orders to send with offset time
-        time_offset_ms = 10
+        num_buy_order_to_send = 4    # Number of buy orders to send with offset time
+        time_offset_ms = 70
         # Define different parameter sets for percent_of_price_buy and percent_of_price_sell
         parameter_sets = [
-            {'percent_of_price_buy': 3, 'percent_of_price_sell': 1.3},
-            {'percent_of_price_buy': 2, 'percent_of_price_sell': 1.2},
-            {'percent_of_price_buy': 1.5, 'percent_of_price_sell': 1.1}
+            {'percent_of_price_buy': 0.7, 'percent_of_price_sell': 1.3},
+            {'percent_of_price_buy': 0.5, 'percent_of_price_sell': 1.2},
+            {'percent_of_price_buy': 0.3, 'percent_of_price_sell': 0.3}
             # Add more parameter sets as needed
         ]
         strategies = {}
@@ -60,19 +59,6 @@ async def main():
                     if 0 < datetime_to_listing_seconds < 1200:
                         logger.info(f'Detected new pair {new_pair_dict["pair"]} at {new_pair_dict["date_time_string"]}')
                         try:
-                            # Initialize the trading strategies before price retrieval
-                            for params in parameter_sets:
-                                # Initialize the trading strategy
-                                strategy = KucoinStrategyTrader(
-                                    api_key=api_creds_dict['api_key'],
-                                    api_secret=api_creds_dict['api_secret'],
-                                    api_passphrase=api_creds_dict['api_passphrase']
-                                )
-                                strategies[f"strategy_{strategy.instance_id}"] = {
-                                    'strategy': strategy,
-                                    'params': params  # Store params for later use
-                                }
-
                             # Initialize price retrieval from websocket
                             ws = Kucoin_websocket_collection()
                             ws_match_channel_response = await ws.get_price_websocket_match_level3(
@@ -83,15 +69,21 @@ async def main():
                             ws_price = float(ws_match_channel_response['price'])
                             size, decimal_to_round = order_size_and_rounding(ws_price)
 
-                            # Prepare and run strategies after price is retrieved
-                            for strategy_info in strategies.values():
-                                strategy = strategy_info['strategy']
-                                params = strategy_info['params']
+                            # Iterate over parameter sets
+                            for params in parameter_sets:
                                 percent_of_price_buy = params['percent_of_price_buy']
                                 percent_of_price_sell = params['percent_of_price_sell']
 
                                 limit_buy_price = round(ws_price * percent_of_price_buy, decimal_to_round)
                                 limit_sell_price = round(ws_price * percent_of_price_sell, decimal_to_round)
+
+                                # Initialize the trading strategy
+                                strategy = KucoinStrategyTrader(
+                                    api_key=api_creds_dict['api_key'],
+                                    api_secret=api_creds_dict['api_secret'],
+                                    api_passphrase=api_creds_dict['api_passphrase']
+                                )
+                                strategies[f"strategy_{strategy.instance_id}"] = strategy
 
                                 # Prepare input parameters
                                 input_params = {
@@ -107,13 +99,13 @@ async def main():
                                 task = asyncio.create_task(strategy.multiple_buy_order_offset_time(**input_params))
                                 tasks.append(task)
 
+                            # Cleanup websocket
+                            await ws.cleanup()
+
                         except Exception as e:
                             logger.error(f"Strategy execution error: {str(e)}")
                             traceback.print_exc()
                             continue
-                        finally:
-                            # Cleanup websocket
-                            await ws.cleanup()
 
                         logger.debug('Break after detecting pair')
                         break
@@ -123,21 +115,10 @@ async def main():
 
             # Access individual return messages
             for strategy_id, result in zip(strategies.keys(), results):
-                logger.info(f"=========================================")
-                # Print executed buy orders
-                logger.info(f"Executed Buy Orders for {strategy_id}:")
-                for buy_order in result.get("all_executed_buy_orders", []):
-                    logger.info(buy_order)
-                
-                # Print executed sell orders
-                logger.info(f"Executed Sell Orders for {strategy_id}:")
-                for sell_order in result.get("all_executed_sell_orders", []):
-                    logger.info(sell_order)
-                logger.info("=========================================")
+                logger.info(f"Results for {strategy_id}: {result}")
 
             # Cleanup strategies
-            for strategy_info in strategies.values():
-                strategy = strategy_info['strategy']
+            for strategy in strategies.values():
                 await strategy.close_client()
 
         else:
@@ -147,19 +128,6 @@ async def main():
             api_creds_dict = load_credetials()
 
             try:
-                # Initialize the trading strategies before price retrieval
-                for params in parameter_sets:
-                    # Initialize the trading strategy
-                    strategy = KucoinStrategyTrader(
-                        api_key=api_creds_dict['api_key'],
-                        api_secret=api_creds_dict['api_secret'],
-                        api_passphrase=api_creds_dict['api_passphrase']
-                    )
-                    strategies[f"strategy_{strategy.instance_id}"] = {
-                        'strategy': strategy,
-                        'params': params  # Store params for later use
-                    }
-
                 # Initialize price retrieval from websocket
                 ws = Kucoin_websocket_collection()
                 ws_match_channel_response = await ws.get_price_websocket_match_level3(
@@ -170,15 +138,23 @@ async def main():
                 ws_price = float(ws_match_channel_response['price'])
                 size, decimal_to_round = order_size_and_rounding(ws_price)
 
-                # Prepare and run strategies after price is retrieved
-                for strategy_info in strategies.values():
-                    strategy = strategy_info['strategy']
-                    params = strategy_info['params']
+                counter = 0 
+                # Iterate over parameter sets
+                for params in parameter_sets:
+                    counter += 1
                     percent_of_price_buy = params['percent_of_price_buy']
                     percent_of_price_sell = params['percent_of_price_sell']
 
                     limit_buy_price = round(ws_price * percent_of_price_buy, decimal_to_round)
                     limit_sell_price = round(ws_price * percent_of_price_sell, decimal_to_round)
+
+                    # Initialize the trading strategy
+                    strategy = KucoinStrategyTrader(
+                        api_key=api_creds_dict['api_key'],
+                        api_secret=api_creds_dict['api_secret'],
+                        api_passphrase=api_creds_dict['api_passphrase']
+                    )
+                    strategies[f"strategy_{strategy.instance_id}"] = strategy
 
                     # Prepare input parameters
                     input_params = {
@@ -199,21 +175,10 @@ async def main():
 
                 # Access individual return messages
                 for strategy_id, result in zip(strategies.keys(), results):
-                    logger.info("=========================================")
-                    # Print executed buy orders
-                    logger.info(f"Executed Buy Orders for {strategy_id}:")
-                    for buy_order in result.get("all_executed_buy_orders", []):
-                        logger.info(buy_order)
-                    
-                    # Print executed sell orders
-                    logger.info(f"Executed Sell Orders for {strategy_id}:")
-                    for sell_order in result.get("all_executed_sell_orders", []):
-                        logger.info(sell_order)
-                    logger.info("=========================================")
+                    logger.info(f"Results for {strategy_id}: {result}")
 
                 # Cleanup strategies
-                for strategy_info in strategies.values():
-                    strategy = strategy_info['strategy']
+                for strategy in strategies.values():
                     await strategy.close_client()
                 
                 # Cleanup websocket
@@ -225,7 +190,7 @@ async def main():
 
     finally:
         release_lock(lock_file)
-        print(f'{datetime.now()} script finished V5')
+        print(f'{datetime.now()} script finished')
 
 
 def acquire_lock():

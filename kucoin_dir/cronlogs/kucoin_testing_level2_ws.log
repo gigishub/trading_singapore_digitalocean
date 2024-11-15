@@ -3524,3 +3524,667 @@ Successfully retrieved SWELL price: {'asks': [], 'bids': [['0.047553', '549', '1
 09:46:03.178 - INFO - Subscription request sent for NS-USDT - initialize_websocket
 09:46:03.248 - INFO - Successfully subscribed to NS-USDT - wait_for_subscription
 09:46:03.249 - INFO - Waiting 836.75 seconds until token release time - wait_until_listing
+09:59:38.862 - INFO - 25 seconds left until token release - wait_until_listing
+10:00:23.452 - INFO - Reached max wait time - get_price_websocket_level2
+10:00:23.523 - DEBUG - break for after detecting pair loop - main
+10:00:23.523 - INFO - Lock released. - release_lock
+2024-11-14 10:00:23.523913 script finished
+======================================
+10:01:03.138 - INFO - Lock acquired. - acquire_lock
+10:01:03.156 - INFO - Starting script - main
+10:01:03.183 - INFO - Lock released. - release_lock
+2024-11-14 10:01:03.213629 script finished
+======================================
+10:16:03.699 - INFO - Lock acquired. - acquire_lock
+10:16:03.712 - INFO - Starting script - main
+10:16:03.734 - INFO - Detected new pair XRPUSDT at Nov 14, 2024, 10:30AM - main
+10:16:03.735 - INFO - Release time and date: 14-11-2024 10:30:00.000 - get_price_websocket_level2
+10:16:04.250 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+10:16:04.321 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+10:16:04.321 - INFO - Waiting 835.68 seconds until token release time - wait_until_listing
+10:29:39.932 - INFO - 25 seconds left until token release - wait_until_listing
+10:30:00.002 - INFO - data from WebSocket: {'asks': [], 'bids': [['0.71169', '1587.6473', '4806721375']]}  - get_price_websocket_level2
+10:30:00.003 - INFO - Successfully retrieved XRP price: {'asks': [], 'bids': [['0.71169', '1587.6473', '4806721375']]} - main
+10:30:00.037 - DEBUG - break for after detecting pair loop - main
+10:30:00.046 - INFO - Lock released. - release_lock
+2024-11-14 10:30:00.047205 script finished
+======================================
+10:31:03.339 - INFO - Lock acquired. - acquire_lock
+10:31:03.339 - INFO - Starting script - main
+10:31:03.387 - INFO - Lock released. - release_lock
+2024-11-14 10:31:03.388123 script finished
+======================================
+10:46:02.713 - INFO - Lock acquired. - acquire_lock
+10:46:02.713 - INFO - Starting script - main
+10:46:02.741 - INFO - Detected new pair NSUSDT at Nov 14, 2024, 11AM - main
+10:46:02.741 - INFO - Release time and date: 14-11-2024 11:00:00.000 - get_price_websocket_level2
+10:46:03.230 - INFO - Subscription request sent for NS-USDT - initialize_websocket
+10:46:03.324 - INFO - Successfully subscribed to NS-USDT - wait_for_subscription
+10:46:03.325 - INFO - Waiting 836.67 seconds until token release time - wait_until_listing
+10:59:38.930 - INFO - 25 seconds left until token release - wait_until_listing
+11:00:00.095 - INFO - data from WebSocket: {'asks': [['0.09', '0', '100']], 'bids': []}  - get_price_websocket_level2
+11:00:00.095 - INFO - Successfully retrieved NS price: {'asks': [['0.09', '0', '100']], 'bids': []} - main
+11:00:00.164 - DEBUG - break for after detecting pair loop - main
+11:00:00.165 - INFO - Lock released. - release_lock
+2024-11-14 11:00:00.165318 script finished
+======================================
+11:01:02.642 - INFO - Lock acquired. - acquire_lock
+11:01:02.643 - INFO - Starting script - main
+11:01:02.691 - INFO - Lock released. - release_lock
+2024-11-14 11:01:02.701293 script finished
+======================================
+11:16:02.762 - INFO - Lock acquired. - acquire_lock
+11:16:02.766 - INFO - Starting script - main
+11:16:02.820 - INFO - Lock released. - release_lock
+2024-11-14 11:16:02.824397 script finished
+======================================
+11:31:03.421 - INFO - Lock acquired. - acquire_lock
+11:31:03.424 - INFO - Starting script - main
+11:31:03.479 - INFO - Lock released. - release_lock
+2024-11-14 11:31:03.488435 script finished
+======================================
+11:46:02.486 - INFO - Lock acquired. - acquire_lock
+11:46:02.492 - INFO - Starting script - main
+11:46:02.516 - INFO - Lock released. - release_lock
+2024-11-14 11:46:02.540277 script finished
+======================================
+12:01:02.736 - INFO - Lock acquired. - acquire_lock
+12:01:02.744 - INFO - Starting script - main
+12:01:02.772 - INFO - Lock released. - release_lock
+2024-11-14 12:01:02.796821 script finished
+======================================
+12:16:03.248 - INFO - Lock acquired. - acquire_lock
+12:16:03.248 - INFO - Starting script - main
+12:16:03.316 - INFO - Lock released. - release_lock
+2024-11-14 12:16:03.317213 script finished
+======================================
+12:31:02.706 - INFO - Lock acquired. - acquire_lock
+12:31:02.706 - INFO - Starting script - main
+12:31:02.762 - INFO - Lock released. - release_lock
+2024-11-14 12:31:02.762764 script finished
+======================================
+12:46:03.051 - INFO - Lock acquired. - acquire_lock
+12:46:03.052 - INFO - Starting script - main
+12:46:03.114 - INFO - Lock released. - release_lock
+2024-11-14 12:46:03.136416 script finished
+======================================
+13:01:03.002 - INFO - Lock acquired. - acquire_lock
+13:01:03.002 - INFO - Starting script - main
+13:01:03.031 - INFO - Lock released. - release_lock
+2024-11-14 13:01:03.031831 script finished
+======================================
+13:16:02.659 - INFO - Lock acquired. - acquire_lock
+13:16:02.676 - INFO - Starting script - main
+13:16:02.709 - INFO - Lock released. - release_lock
+2024-11-14 13:16:02.720431 script finished
+======================================
+13:31:03.555 - INFO - Lock acquired. - acquire_lock
+13:31:03.555 - INFO - Starting script - main
+13:31:03.610 - INFO - Lock released. - release_lock
+2024-11-14 13:31:03.610928 script finished
+======================================
+13:46:02.583 - INFO - Lock acquired. - acquire_lock
+13:46:02.604 - INFO - Starting script - main
+13:46:02.652 - INFO - Lock released. - release_lock
+2024-11-14 13:46:02.660419 script finished
+======================================
+14:01:02.614 - INFO - Lock acquired. - acquire_lock
+14:01:02.614 - INFO - Starting script - main
+14:01:02.664 - INFO - Lock released. - release_lock
+2024-11-14 14:01:02.665103 script finished
+======================================
+14:16:03.223 - INFO - Lock acquired. - acquire_lock
+14:16:03.244 - INFO - Starting script - main
+14:16:03.270 - INFO - Lock released. - release_lock
+2024-11-14 14:16:03.284513 script finished
+======================================
+14:31:02.787 - INFO - Lock acquired. - acquire_lock
+14:31:02.787 - INFO - Starting script - main
+14:31:02.843 - INFO - Lock released. - release_lock
+2024-11-14 14:31:02.843747 script finished
+======================================
+14:46:03.635 - INFO - Lock acquired. - acquire_lock
+14:46:03.635 - INFO - Starting script - main
+14:46:03.709 - INFO - Lock released. - release_lock
+2024-11-14 14:46:03.710148 script finished
+======================================
+15:01:03.005 - INFO - Lock acquired. - acquire_lock
+15:01:03.005 - INFO - Starting script - main
+15:01:03.046 - INFO - Lock released. - release_lock
+2024-11-14 15:01:03.046851 script finished
+======================================
+15:16:02.423 - INFO - Lock acquired. - acquire_lock
+15:16:02.436 - INFO - Starting script - main
+15:16:02.474 - INFO - Lock released. - release_lock
+2024-11-14 15:16:02.488398 script finished
+======================================
+15:31:02.878 - INFO - Lock acquired. - acquire_lock
+15:31:02.896 - INFO - Starting script - main
+15:31:02.919 - INFO - Lock released. - release_lock
+2024-11-14 15:31:02.942109 script finished
+======================================
+15:46:02.881 - INFO - Lock acquired. - acquire_lock
+15:46:02.881 - INFO - Starting script - main
+15:46:02.911 - INFO - Lock released. - release_lock
+2024-11-14 15:46:02.911761 script finished
+======================================
+16:01:03.019 - INFO - Lock acquired. - acquire_lock
+16:01:03.019 - INFO - Starting script - main
+16:01:03.070 - INFO - Lock released. - release_lock
+2024-11-14 16:01:03.071105 script finished
+======================================
+16:16:02.639 - INFO - Lock acquired. - acquire_lock
+16:16:02.647 - INFO - Starting script - main
+16:16:02.697 - INFO - Lock released. - release_lock
+2024-11-14 16:16:02.700516 script finished
+======================================
+16:31:03.179 - INFO - Lock acquired. - acquire_lock
+16:31:03.179 - INFO - Starting script - main
+16:31:03.251 - INFO - Lock released. - release_lock
+2024-11-14 16:31:03.251290 script finished
+======================================
+16:46:02.872 - INFO - Lock acquired. - acquire_lock
+16:46:02.872 - INFO - Starting script - main
+16:46:02.903 - INFO - Lock released. - release_lock
+2024-11-14 16:46:02.903537 script finished
+======================================
+17:01:03.371 - INFO - Lock acquired. - acquire_lock
+17:01:03.397 - INFO - Starting script - main
+17:01:03.438 - INFO - Lock released. - release_lock
+2024-11-14 17:01:03.440376 script finished
+======================================
+17:16:03.025 - INFO - Lock acquired. - acquire_lock
+17:16:03.025 - INFO - Starting script - main
+17:16:03.077 - INFO - Lock released. - release_lock
+2024-11-14 17:16:03.082697 script finished
+======================================
+17:31:03.440 - INFO - Lock acquired. - acquire_lock
+17:31:03.441 - INFO - Starting script - main
+17:31:03.468 - INFO - Lock released. - release_lock
+2024-11-14 17:31:03.468259 script finished
+======================================
+17:46:03.580 - INFO - Lock acquired. - acquire_lock
+17:46:03.580 - INFO - Starting script - main
+17:46:03.610 - INFO - Lock released. - release_lock
+2024-11-14 17:46:03.611062 script finished
+======================================
+18:01:03.270 - INFO - Lock acquired. - acquire_lock
+18:01:03.270 - INFO - Starting script - main
+18:01:03.323 - INFO - Lock released. - release_lock
+2024-11-14 18:01:03.323681 script finished
+======================================
+18:16:03.349 - INFO - Lock acquired. - acquire_lock
+18:16:03.349 - INFO - Starting script - main
+18:16:03.398 - INFO - Lock released. - release_lock
+2024-11-14 18:16:03.398895 script finished
+======================================
+18:31:02.707 - INFO - Lock acquired. - acquire_lock
+18:31:02.708 - INFO - Starting script - main
+18:31:02.768 - INFO - Lock released. - release_lock
+2024-11-14 18:31:02.788479 script finished
+======================================
+18:46:03.158 - INFO - Lock acquired. - acquire_lock
+18:46:03.158 - INFO - Starting script - main
+18:46:03.215 - INFO - Lock released. - release_lock
+2024-11-14 18:46:03.215423 script finished
+======================================
+19:01:03.148 - INFO - Lock acquired. - acquire_lock
+19:01:03.148 - INFO - Starting script - main
+19:01:03.178 - INFO - Lock released. - release_lock
+2024-11-14 19:01:03.178865 script finished
+======================================
+19:16:03.291 - INFO - Lock acquired. - acquire_lock
+19:16:03.312 - INFO - Starting script - main
+19:16:03.364 - INFO - Lock released. - release_lock
+2024-11-14 19:16:03.364771 script finished
+======================================
+19:31:02.829 - INFO - Lock acquired. - acquire_lock
+19:31:02.844 - INFO - Starting script - main
+19:31:02.869 - INFO - Detected new pair XRPUSDT at Nov 14, 2024, 7:45PM - main
+19:31:02.872 - INFO - Release time and date: 14-11-2024 19:45:00.000 - get_price_websocket_level2
+19:31:03.246 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+19:31:03.316 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+19:31:03.317 - INFO - Waiting 836.68 seconds until token release time - wait_until_listing
+19:44:38.916 - INFO - 25 seconds left until token release - wait_until_listing
+19:45:00.002 - INFO - data from WebSocket: {'asks': [], 'bids': [['0.77945', '640.6955', '4818838496']]}  - get_price_websocket_level2
+19:45:00.009 - INFO - Successfully retrieved XRP price: {'asks': [], 'bids': [['0.77945', '640.6955', '4818838496']]} - main
+19:45:00.027 - DEBUG - break for after detecting pair loop - main
+19:45:00.046 - INFO - Lock released. - release_lock
+2024-11-14 19:45:00.047203 script finished
+======================================
+19:46:03.285 - INFO - Lock acquired. - acquire_lock
+19:46:03.285 - INFO - Starting script - main
+19:46:03.301 - INFO - Detected new pair XRPUSDT at Nov 14, 2024, 8PM - main
+19:46:03.324 - INFO - Release time and date: 14-11-2024 20:00:00.000 - get_price_websocket_level2
+19:46:03.767 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+19:46:03.838 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+19:46:03.838 - INFO - Waiting 836.16 seconds until token release time - wait_until_listing
+19:59:39.422 - INFO - 25 seconds left until token release - wait_until_listing
+20:00:00.004 - INFO - data from WebSocket: {'asks': [['0.79476', '0', '4819218507']], 'bids': []}  - get_price_websocket_level2
+20:00:00.004 - INFO - Successfully retrieved XRP price: {'asks': [['0.79476', '0', '4819218507']], 'bids': []} - main
+20:00:00.042 - DEBUG - break for after detecting pair loop - main
+20:00:00.056 - INFO - Lock released. - release_lock
+2024-11-14 20:00:00.056523 script finished
+======================================
+20:01:03.471 - INFO - Lock acquired. - acquire_lock
+20:01:03.491 - INFO - Starting script - main
+20:01:03.544 - INFO - Lock released. - release_lock
+2024-11-14 20:01:03.545113 script finished
+======================================
+20:16:02.770 - INFO - Lock acquired. - acquire_lock
+20:16:02.789 - INFO - Starting script - main
+20:16:02.833 - INFO - Lock released. - release_lock
+2024-11-14 20:16:02.838572 script finished
+======================================
+20:31:02.839 - INFO - Lock acquired. - acquire_lock
+20:31:02.852 - INFO - Starting script - main
+20:31:02.887 - INFO - Detected new pair XRPUSDT at Nov 14, 2024, 8:32PM - main
+20:31:02.887 - INFO - Release time and date: 14-11-2024 20:32:00.000 - get_price_websocket_level2
+20:31:03.333 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+20:31:03.404 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+20:31:03.404 - INFO - Waiting 56.60 seconds until token release time - wait_until_listing
+20:31:38.426 - INFO - 25 seconds left until token release - wait_until_listing
+20:32:00.002 - INFO - data from WebSocket: {'asks': [], 'bids': [['0.77623', '1.5598', '4820194477']]}  - get_price_websocket_level2
+20:32:00.005 - INFO - Successfully retrieved XRP price: {'asks': [], 'bids': [['0.77623', '1.5598', '4820194477']]} - main
+20:32:00.577 - DEBUG - break for after detecting pair loop - main
+20:32:00.584 - INFO - Lock released. - release_lock
+2024-11-14 20:32:00.584722 script finished
+======================================
+20:46:02.473 - INFO - Lock acquired. - acquire_lock
+20:46:02.476 - INFO - Starting script - main
+20:46:02.501 - INFO - Detected new pair XRPUSDT at Nov 14, 2024, 8:47PM - main
+20:46:02.516 - INFO - Release time and date: 14-11-2024 20:47:00.000 - get_price_websocket_level2
+20:46:02.974 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+20:46:03.044 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+20:46:03.044 - INFO - Waiting 56.96 seconds until token release time - wait_until_listing
+20:46:38.073 - INFO - 25 seconds left until token release - wait_until_listing
+20:47:00.002 - INFO - data from WebSocket: {'asks': [], 'bids': [['0.76612', '1814.3484', '4820487999']]}  - get_price_websocket_level2
+20:47:00.004 - INFO - Successfully retrieved XRP price: {'asks': [], 'bids': [['0.76612', '1814.3484', '4820487999']]} - main
+20:47:00.454 - DEBUG - break for after detecting pair loop - main
+20:47:00.454 - INFO - Lock released. - release_lock
+2024-11-14 20:47:00.454403 script finished
+======================================
+21:01:02.711 - INFO - Lock acquired. - acquire_lock
+21:01:02.711 - INFO - Starting script - main
+21:01:02.767 - INFO - Lock released. - release_lock
+2024-11-14 21:01:02.767360 script finished
+======================================
+21:16:03.189 - INFO - Lock acquired. - acquire_lock
+21:16:03.196 - INFO - Starting script - main
+21:16:03.223 - INFO - Lock released. - release_lock
+2024-11-14 21:16:03.240436 script finished
+======================================
+21:31:03.544 - INFO - Lock acquired. - acquire_lock
+21:31:03.548 - INFO - Starting script - main
+21:31:03.559 - INFO - Detected new pair XRPUSDT at Nov 14, 2024, 9:47PM - main
+21:31:03.578 - INFO - Release time and date: 14-11-2024 21:47:00.000 - get_price_websocket_level2
+21:31:04.018 - INFO - Subscription request sent for XRP-USDT - initialize_websocket
+21:31:04.087 - INFO - Successfully subscribed to XRP-USDT - wait_for_subscription
+21:31:04.088 - INFO - Waiting 955.91 seconds until token release time - wait_until_listing
+21:46:02.767 - WARNING - Another instance is running. Exiting. - acquire_lock
+21:46:39.778 - INFO - 25 seconds left until token release - wait_until_listing
+21:47:00.003 - INFO - data from WebSocket: {'asks': [['0.80676', '1239.4718', '4821422098']], 'bids': []}  - get_price_websocket_level2
+21:47:00.004 - INFO - Successfully retrieved XRP price: {'asks': [['0.80676', '1239.4718', '4821422098']], 'bids': []} - main
+21:47:00.039 - DEBUG - break for after detecting pair loop - main
+21:47:00.048 - INFO - Lock released. - release_lock
+2024-11-14 21:47:00.052531 script finished
+======================================
+22:01:03.534 - INFO - Lock acquired. - acquire_lock
+22:01:03.555 - INFO - Starting script - main
+22:01:03.580 - INFO - Lock released. - release_lock
+2024-11-14 22:01:03.580756 script finished
+======================================
+22:16:02.676 - INFO - Lock acquired. - acquire_lock
+22:16:02.677 - INFO - Starting script - main
+22:16:02.722 - INFO - Lock released. - release_lock
+2024-11-14 22:16:02.724361 script finished
+======================================
+22:31:03.081 - INFO - Lock acquired. - acquire_lock
+22:31:03.081 - INFO - Starting script - main
+22:31:03.136 - INFO - Lock released. - release_lock
+2024-11-14 22:31:03.137137 script finished
+======================================
+22:46:02.706 - INFO - Lock acquired. - acquire_lock
+22:46:02.706 - INFO - Starting script - main
+22:46:02.769 - INFO - Lock released. - release_lock
+2024-11-14 22:46:02.769968 script finished
+======================================
+23:01:03.373 - INFO - Lock acquired. - acquire_lock
+23:01:03.373 - INFO - Starting script - main
+23:01:03.403 - INFO - Lock released. - release_lock
+2024-11-14 23:01:03.403862 script finished
+======================================
+23:16:03.503 - INFO - Lock acquired. - acquire_lock
+23:16:03.503 - INFO - Starting script - main
+23:16:03.571 - INFO - Lock released. - release_lock
+2024-11-14 23:16:03.571951 script finished
+======================================
+23:31:02.828 - INFO - Lock acquired. - acquire_lock
+23:31:02.828 - INFO - Starting script - main
+23:31:02.883 - INFO - Lock released. - release_lock
+2024-11-14 23:31:02.883171 script finished
+======================================
+23:46:03.109 - INFO - Lock acquired. - acquire_lock
+23:46:03.112 - INFO - Starting script - main
+23:46:03.138 - INFO - Lock released. - release_lock
+2024-11-14 23:46:03.156412 script finished
+======================================
+00:01:03.495 - INFO - Lock acquired. - acquire_lock
+00:01:03.495 - INFO - Starting script - main
+00:01:03.547 - INFO - Lock released. - release_lock
+2024-11-15 00:01:03.572409 script finished
+======================================
+00:16:03.213 - INFO - Lock acquired. - acquire_lock
+00:16:03.220 - INFO - Starting script - main
+00:16:03.277 - INFO - Lock released. - release_lock
+2024-11-15 00:16:03.280408 script finished
+======================================
+00:31:03.521 - INFO - Lock acquired. - acquire_lock
+00:31:03.524 - INFO - Starting script - main
+00:31:03.554 - INFO - Lock released. - release_lock
+2024-11-15 00:31:03.564393 script finished
+======================================
+00:46:02.407 - INFO - Lock acquired. - acquire_lock
+00:46:02.407 - INFO - Starting script - main
+00:46:02.462 - INFO - Lock released. - release_lock
+2024-11-15 00:46:02.462660 script finished
+======================================
+01:01:03.099 - INFO - Lock acquired. - acquire_lock
+01:01:03.112 - INFO - Starting script - main
+01:01:03.164 - INFO - Lock released. - release_lock
+2024-11-15 01:01:03.164673 script finished
+======================================
+01:16:02.721 - INFO - Lock acquired. - acquire_lock
+01:16:02.721 - INFO - Starting script - main
+01:16:02.751 - INFO - Lock released. - release_lock
+2024-11-15 01:16:02.751591 script finished
+======================================
+01:31:02.523 - INFO - Lock acquired. - acquire_lock
+01:31:02.541 - INFO - Starting script - main
+01:31:02.571 - INFO - Lock released. - release_lock
+2024-11-15 01:31:02.582923 script finished
+======================================
+01:46:03.518 - INFO - Lock acquired. - acquire_lock
+01:46:03.518 - INFO - Starting script - main
+01:46:03.574 - INFO - Lock released. - release_lock
+2024-11-15 01:46:03.574606 script finished
+======================================
+02:01:02.665 - INFO - Lock acquired. - acquire_lock
+02:01:02.665 - INFO - Starting script - main
+02:01:02.697 - INFO - Lock released. - release_lock
+2024-11-15 02:01:02.697963 script finished
+======================================
+02:16:03.067 - INFO - Lock acquired. - acquire_lock
+02:16:03.067 - INFO - Starting script - main
+02:16:03.122 - INFO - Lock released. - release_lock
+2024-11-15 02:16:03.122243 script finished
+======================================
+02:31:03.447 - INFO - Lock acquired. - acquire_lock
+02:31:03.447 - INFO - Starting script - main
+02:31:03.485 - INFO - Lock released. - release_lock
+2024-11-15 02:31:03.485545 script finished
+======================================
+02:46:03.015 - INFO - Lock acquired. - acquire_lock
+02:46:03.015 - INFO - Starting script - main
+02:46:03.071 - INFO - Lock released. - release_lock
+2024-11-15 02:46:03.071336 script finished
+======================================
+03:01:03.305 - INFO - Lock acquired. - acquire_lock
+03:01:03.305 - INFO - Starting script - main
+03:01:03.335 - INFO - Lock released. - release_lock
+2024-11-15 03:01:03.336098 script finished
+======================================
+03:16:03.310 - INFO - Lock acquired. - acquire_lock
+03:16:03.311 - INFO - Starting script - main
+03:16:03.351 - INFO - Lock released. - release_lock
+2024-11-15 03:16:03.351406 script finished
+======================================
+03:31:02.572 - INFO - Lock acquired. - acquire_lock
+03:31:02.572 - INFO - Starting script - main
+03:31:02.618 - INFO - Lock released. - release_lock
+2024-11-15 03:31:02.618226 script finished
+======================================
+03:46:03.430 - INFO - Lock acquired. - acquire_lock
+03:46:03.430 - INFO - Starting script - main
+03:46:03.462 - INFO - Lock released. - release_lock
+2024-11-15 03:46:03.462136 script finished
+======================================
+04:01:03.531 - INFO - Lock acquired. - acquire_lock
+04:01:03.531 - INFO - Starting script - main
+04:01:03.601 - INFO - Lock released. - release_lock
+2024-11-15 04:01:03.601234 script finished
+======================================
+04:16:03.208 - INFO - Lock acquired. - acquire_lock
+04:16:03.209 - INFO - Starting script - main
+04:16:03.239 - INFO - Lock released. - release_lock
+2024-11-15 04:16:03.239160 script finished
+======================================
+04:31:03.543 - INFO - Lock acquired. - acquire_lock
+04:31:03.543 - INFO - Starting script - main
+04:31:03.590 - INFO - Lock released. - release_lock
+2024-11-15 04:31:03.590962 script finished
+======================================
+04:46:02.976 - INFO - Lock acquired. - acquire_lock
+04:46:02.976 - INFO - Starting script - main
+04:46:03.031 - INFO - Lock released. - release_lock
+2024-11-15 04:46:03.031185 script finished
+======================================
+05:01:03.468 - INFO - Lock acquired. - acquire_lock
+05:01:03.469 - INFO - Starting script - main
+05:01:03.520 - INFO - Lock released. - release_lock
+2024-11-15 05:01:03.520710 script finished
+======================================
+05:16:02.406 - INFO - Lock acquired. - acquire_lock
+05:16:02.407 - INFO - Starting script - main
+05:16:02.447 - INFO - Lock released. - release_lock
+2024-11-15 05:16:02.447341 script finished
+======================================
+05:31:03.107 - INFO - Lock acquired. - acquire_lock
+05:31:03.107 - INFO - Starting script - main
+05:31:03.158 - INFO - Lock released. - release_lock
+2024-11-15 05:31:03.158700 script finished
+======================================
+05:46:02.753 - INFO - Lock acquired. - acquire_lock
+05:46:02.753 - INFO - Starting script - main
+05:46:02.775 - INFO - Lock released. - release_lock
+2024-11-15 05:46:02.775375 script finished
+======================================
+06:01:03.504 - INFO - Lock acquired. - acquire_lock
+06:01:03.524 - INFO - Starting script - main
+06:01:03.581 - INFO - Lock released. - release_lock
+2024-11-15 06:01:03.581575 script finished
+======================================
+06:16:03.119 - INFO - Lock acquired. - acquire_lock
+06:16:03.119 - INFO - Starting script - main
+06:16:03.174 - INFO - Lock released. - release_lock
+2024-11-15 06:16:03.174769 script finished
+======================================
+06:31:03.522 - INFO - Lock acquired. - acquire_lock
+06:31:03.522 - INFO - Starting script - main
+06:31:03.577 - INFO - Lock released. - release_lock
+2024-11-15 06:31:03.577548 script finished
+======================================
+06:46:03.275 - INFO - Lock acquired. - acquire_lock
+06:46:03.275 - INFO - Starting script - main
+06:46:03.322 - INFO - Lock released. - release_lock
+2024-11-15 06:46:03.322481 script finished
+======================================
+07:01:02.768 - INFO - Lock acquired. - acquire_lock
+07:01:02.768 - INFO - Starting script - main
+07:01:02.800 - INFO - Lock released. - release_lock
+2024-11-15 07:01:02.800166 script finished
+======================================
+07:16:03.608 - INFO - Lock acquired. - acquire_lock
+07:16:03.608 - INFO - Starting script - main
+07:16:03.669 - INFO - Lock released. - release_lock
+2024-11-15 07:16:03.669886 script finished
+======================================
+07:31:02.562 - INFO - Lock acquired. - acquire_lock
+07:31:02.562 - INFO - Starting script - main
+07:31:02.609 - INFO - Lock released. - release_lock
+2024-11-15 07:31:02.610040 script finished
+======================================
+07:46:02.623 - INFO - Lock acquired. - acquire_lock
+07:46:02.652 - INFO - Starting script - main
+07:46:02.692 - INFO - Lock released. - release_lock
+2024-11-15 07:46:02.692326 script finished
+======================================
+08:01:03.571 - INFO - Lock acquired. - acquire_lock
+08:01:03.592 - INFO - Starting script - main
+08:01:03.645 - INFO - Lock released. - release_lock
+2024-11-15 08:01:03.650626 script finished
+======================================
+08:16:02.947 - INFO - Lock acquired. - acquire_lock
+08:16:02.968 - INFO - Starting script - main
+08:16:03.024 - INFO - Lock released. - release_lock
+2024-11-15 08:16:03.028437 script finished
+======================================
+08:31:03.141 - INFO - Lock acquired. - acquire_lock
+08:31:03.148 - INFO - Starting script - main
+08:31:03.184 - INFO - Lock released. - release_lock
+2024-11-15 08:31:03.184990 script finished
+======================================
+08:46:03.228 - INFO - Lock acquired. - acquire_lock
+08:46:03.229 - INFO - Starting script - main
+08:46:03.247 - INFO - Lock released. - release_lock
+2024-11-15 08:46:03.272425 script finished
+======================================
+09:01:03.454 - INFO - Lock acquired. - acquire_lock
+09:01:03.472 - INFO - Starting script - main
+09:01:03.507 - INFO - Lock released. - release_lock
+2024-11-15 09:01:03.508002 script finished
+======================================
+09:16:02.832 - INFO - Lock acquired. - acquire_lock
+09:16:02.855 - INFO - Starting script - main
+09:16:02.893 - INFO - Lock released. - release_lock
+2024-11-15 09:16:02.900431 script finished
+======================================
+09:31:02.671 - INFO - Lock acquired. - acquire_lock
+09:31:02.700 - INFO - Starting script - main
+09:31:02.727 - INFO - Lock released. - release_lock
+2024-11-15 09:31:02.744452 script finished
+======================================
+09:46:03.242 - INFO - Lock acquired. - acquire_lock
+09:46:03.242 - INFO - Starting script - main
+09:46:03.271 - INFO - Detected new pair MICHIUSDT at Nov 15, 2024, 10AM - main
+09:46:03.271 - INFO - Release time and date: 15-11-2024 10:00:00.000 - get_price_websocket_level2
+09:46:03.741 - INFO - Subscription request sent for MICHI-USDT - initialize_websocket
+09:46:03.810 - INFO - Successfully subscribed to MICHI-USDT - wait_for_subscription
+09:46:03.811 - INFO - Waiting 836.19 seconds until token release time - wait_until_listing
+09:59:39.393 - INFO - 25 seconds left until token release - wait_until_listing
+10:00:00.159 - INFO - data from WebSocket: {'asks': [['0.6996', '355.84', '268']], 'bids': []}  - get_price_websocket_level2
+10:00:00.159 - INFO - Successfully retrieved MICHI price: {'asks': [['0.6996', '355.84', '268']], 'bids': []} - main
+10:00:00.230 - DEBUG - break for after detecting pair loop - main
+10:00:00.230 - INFO - Lock released. - release_lock
+2024-11-15 10:00:00.230511 script finished
+======================================
+10:01:03.092 - INFO - Lock acquired. - acquire_lock
+10:01:03.092 - INFO - Starting script - main
+10:01:03.119 - INFO - Lock released. - release_lock
+2024-11-15 10:01:03.152442 script finished
+======================================
+10:16:03.184 - INFO - Lock acquired. - acquire_lock
+10:16:03.200 - INFO - Starting script - main
+10:16:03.252 - INFO - Lock released. - release_lock
+2024-11-15 10:16:03.252693 script finished
+======================================
+10:31:04.133 - INFO - Lock acquired. - acquire_lock
+10:31:04.134 - INFO - Starting script - main
+10:31:04.187 - INFO - Lock released. - release_lock
+2024-11-15 10:31:04.187602 script finished
+======================================
+10:46:02.744 - INFO - Lock acquired. - acquire_lock
+10:46:02.764 - INFO - Starting script - main
+10:46:02.806 - INFO - Lock released. - release_lock
+2024-11-15 10:46:02.806506 script finished
+======================================
+11:01:03.454 - INFO - Lock acquired. - acquire_lock
+11:01:03.454 - INFO - Starting script - main
+11:01:03.501 - INFO - Lock released. - release_lock
+2024-11-15 11:01:03.504395 script finished
+======================================
+11:16:03.558 - INFO - Lock acquired. - acquire_lock
+11:16:03.558 - INFO - Starting script - main
+11:16:03.600 - INFO - Lock released. - release_lock
+2024-11-15 11:16:03.600824 script finished
+======================================
+11:31:04.087 - INFO - Lock acquired. - acquire_lock
+11:31:04.087 - INFO - Starting script - main
+11:31:04.138 - INFO - Lock released. - release_lock
+2024-11-15 11:31:04.138702 script finished
+======================================
+11:46:02.691 - INFO - Lock acquired. - acquire_lock
+11:46:02.712 - INFO - Starting script - main
+11:46:02.744 - INFO - Lock released. - release_lock
+2024-11-15 11:46:02.764741 script finished
+======================================
+12:01:02.957 - INFO - Lock acquired. - acquire_lock
+12:01:02.957 - INFO - Starting script - main
+12:01:03.011 - INFO - Lock released. - release_lock
+2024-11-15 12:01:03.012002 script finished
+======================================
+12:16:03.329 - INFO - Lock acquired. - acquire_lock
+12:16:03.332 - INFO - Starting script - main
+12:16:03.379 - INFO - Lock released. - release_lock
+2024-11-15 12:16:03.392596 script finished
+======================================
+12:31:04.596 - INFO - Lock acquired. - acquire_lock
+12:31:04.596 - INFO - Starting script - main
+12:31:04.623 - INFO - Lock released. - release_lock
+2024-11-15 12:31:04.623733 script finished
+======================================
+12:46:02.522 - INFO - Lock acquired. - acquire_lock
+12:46:02.532 - INFO - Starting script - main
+12:46:02.559 - INFO - Lock released. - release_lock
+2024-11-15 12:46:02.559426 script finished
+======================================
+13:01:02.934 - INFO - Lock acquired. - acquire_lock
+13:01:02.944 - INFO - Starting script - main
+13:01:02.979 - INFO - Lock released. - release_lock
+2024-11-15 13:01:02.997957 script finished
+======================================
+13:16:03.057 - INFO - Lock acquired. - acquire_lock
+13:16:03.057 - INFO - Starting script - main
+13:16:03.093 - INFO - Lock released. - release_lock
+2024-11-15 13:16:03.100454 script finished
+======================================
+13:31:02.773 - INFO - Lock acquired. - acquire_lock
+13:31:02.777 - INFO - Starting script - main
+13:31:02.822 - INFO - Lock released. - release_lock
+2024-11-15 13:31:02.836418 script finished
+======================================
+13:46:02.777 - INFO - Lock acquired. - acquire_lock
+13:46:02.780 - INFO - Starting script - main
+13:46:02.818 - INFO - Lock released. - release_lock
+2024-11-15 13:46:02.829008 script finished
+======================================
+14:01:03.080 - INFO - Lock acquired. - acquire_lock
+14:01:03.080 - INFO - Starting script - main
+14:01:03.111 - INFO - Lock released. - release_lock
+2024-11-15 14:01:03.111887 script finished
+======================================
+14:16:03.054 - INFO - Lock acquired. - acquire_lock
+14:16:03.062 - INFO - Starting script - main
+14:16:03.100 - INFO - Lock released. - release_lock
+2024-11-15 14:16:03.128423 script finished
+======================================
+14:31:03.158 - INFO - Lock acquired. - acquire_lock
+14:31:03.158 - INFO - Starting script - main
+14:31:03.205 - INFO - Lock released. - release_lock
+2024-11-15 14:31:03.206172 script finished
+======================================
+14:46:02.671 - INFO - Lock acquired. - acquire_lock
+14:46:02.692 - INFO - Starting script - main
+14:46:02.722 - INFO - Lock released. - release_lock
+2024-11-15 14:46:02.740375 script finished
+======================================
+15:01:02.829 - INFO - Lock acquired. - acquire_lock
+15:01:02.829 - INFO - Starting script - main
+15:01:02.860 - INFO - Lock released. - release_lock
+2024-11-15 15:01:02.860192 script finished
+======================================
+15:16:02.960 - INFO - Lock acquired. - acquire_lock
+15:16:02.964 - INFO - Starting script - main
+15:16:03.016 - INFO - Lock released. - release_lock
+2024-11-15 15:16:03.040429 script finished
+======================================

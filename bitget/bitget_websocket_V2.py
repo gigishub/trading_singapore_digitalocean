@@ -134,7 +134,7 @@ class Bitget_websocket_collection:
                         {
                             "instType": "SPOT",
                             "channel": "trade",
-                            "instId": "BTCUSDT"
+                            "instId": formatted_symbol
                         }
                     ]
                 }
@@ -146,7 +146,7 @@ class Bitget_websocket_collection:
                         {
                             "instType": "SPOT",
                             "channel": "books5",
-                            "instId": "BTCUSDT"
+                            "instId": formatted_symbol
                         }
                     ]
                 }
@@ -206,7 +206,7 @@ class Bitget_websocket_collection:
                 break
 
 
-    async def get_price_by_release_time_ticker(self, symbol: str, max_wait_time: int = 2, release_time: datetime = None) -> Optional[float]:
+    async def get_price_by_release_time_ticker(self, symbol: str, max_wait_time: int = 1, release_time: datetime = None) -> Optional[float]:
         """
         Get price through WebSocket connection at specific release time
         Args:
@@ -243,27 +243,19 @@ class Bitget_websocket_collection:
                         
                     try:
                         data = orjson.loads(msg.data)
-                        logger.debug(f'message orjson data: {str(data)}')
+                        logger.info(f'message orjson data: {str(data)}')
                         
                         # Skip pong messages in JSON format
                         if isinstance(data, dict) and data.get('op') == 'pong':
-                            logger.debug("Received pong message")
                             continue
                             
                         if 'data' in data:
                             price_data = data['data']
-                            if isinstance(price_data, list):
-                                price_data = price_data[0]
-                            if 'lastPr' in price_data:
-                                price = float(price_data['lastPr'])
-                                if price > 0:
-                                    logger.info(f"Price found via WebSocket: {price}")
-                                    self.final_price = price
-                                    self.price_found.set()
-                                    return price
-                                elif price == 0:
-                                    logger.info("Price is zero")
-                                    logger.debug(f"Best bid: {price_data.get('bestBid')}, Best ask: {price_data.get('bestAsk')}")
+                            price_data = price_data[0]
+                            self.final_price = price_data
+                            self.price_found.set()
+                            logger.info(f"bid price: {price_data.get('bidPr')}, ask price: {price_data.get('askPr')}")
+                            return price_data
                     except orjson.JSONDecodeError as e:
                         logger.debug(f"Skipping non-JSON message: {msg.data[:100]}")  # Log first 100 chars of message
                     except (KeyError, ValueError, IndexError) as e:

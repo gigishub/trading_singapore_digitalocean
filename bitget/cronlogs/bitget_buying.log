@@ -13087,3 +13087,491 @@ Update bid price to buy and sell
 09:46:02.638 - DEBUG - Using selector: EpollSelector - __init__
 09:46:02.675 finshed main loop
 Update bid price to buy and sell
+10:01:03.196 - DEBUG - Using selector: EpollSelector - __init__
+10:01:03.251 finshed main loop
+Update bid price to buy and sell
+10:16:03.650 - DEBUG - Using selector: EpollSelector - __init__
+10:16:03.708 finshed main loop
+Update bid price to buy and sell
+10:31:03.377 - DEBUG - Using selector: EpollSelector - __init__
+10:31:03.431 finshed main loop
+Update bid price to buy and sell
+10:46:02.665 - DEBUG - Using selector: EpollSelector - __init__
+10:46:02.695 - INFO - detected new pair NSUSDT at Nov 14, 2024, 11AM - main
+10:46:02.720 - INFO - Release time and date: 14-11-2024 11:00:00.000 - get_bid_ask_price_by_release_time
+10:46:02.990 - INFO - Subscription request sent for NSUSDT - initialize_websocket
+10:46:03.060 - INFO - Successfully subscribed to NSUSDT - initialize_websocket
+10:46:03.061 - INFO -  Waiting 836.94 seconds until token release time - wait_until_listing
+10:59:38.604 - INFO - 25 seconds left until token release - wait_until_listing
+11:00:00.001 - DEBUG - while loop count: 1 - get_bid_ask_price_by_release_time
+11:00:00.001 - DEBUG - starting async for loop - get_bid_ask_price_by_release_time
+11:00:00.002 - DEBUG - message orjson data: {'event': 'error', 'code': 30002, 'msg': 'Unrecognized request:{"op":"ping"}'} - get_bid_ask_price_by_release_time
+11:00:00.008 - DEBUG - message orjson data: {'action': 'snapshot', 'arg': {'instType': 'sp', 'channel': 'ticker', 'instId': 'NSUSDT'}, 'data': [{'instId': 'NSUSDT', 'last': '0', 'open24h': '0', 'high24h': '0', 'low24h': '0', 'bestBid': '0.09', 'bestAsk': '0.10222', 'baseVolume': '0', 'quoteVolume': '0', 'ts': 1731581163283, 'labeId': 0, 'openUtc': '0.00000', 'chgUTC': '0', 'bidSz': '176.89', 'askSz': '171.49'}], 'ts': 1731581163295} - get_bid_ask_price_by_release_time
+11:00:00.008 - INFO - bestbid price found: 0.09  - get_bid_ask_price_by_release_time
+11:00:00.009 - DEBUG - Price retrived after release: 0.09 - main
+11:00:00.157 - DEBUG - order response time 0.148 seconds - place_buy_limit_order
+11:00:00.158 - DEBUG - buy order response: {'code': '45110', 'msg': 'less than the minimum amount 1 USDT', 'requestTime': 1731582000112, 'data': None} - main
+/root/trading_systems/bitget/bitget_buying.py:112: RuntimeWarning: coroutine 'sleep' was never awaited
+  asyncio.sleep(0.02)
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+11:00:00.271 - DEBUG - order response time 0.111 seconds - place_buy_limit_order
+11:00:00.271 - DEBUG - buy order response: {'code': '45110', 'msg': 'less than the minimum amount 1 USDT', 'requestTime': 1731582000222, 'data': None} - main
+11:00:00.390 - DEBUG - order response time 0.118 seconds - place_buy_limit_order
+11:00:00.390 - DEBUG - buy order response: {'code': '45110', 'msg': 'less than the minimum amount 1 USDT', 'requestTime': 1731582000339, 'data': None} - main
+11:00:00.503 - DEBUG - order response time 0.113 seconds - place_buy_limit_order
+11:00:00.503 - DEBUG - buy order response: {'code': '45110', 'msg': 'less than the minimum amount 1 USDT', 'requestTime': 1731582000454, 'data': None} - main
+11:00:00.618 - DEBUG - order response time 0.114 seconds - place_buy_limit_order
+11:00:00.618 - DEBUG - buy order response: {'code': '45110', 'msg': 'less than the minimum amount 1 USDT', 'requestTime': 1731582000572, 'data': None} - main
+11:00:00.746 - DEBUG - order response time 0.127 seconds - place_buy_limit_order
+11:00:00.746 - DEBUG - buy order response: {'code': '45110', 'msg': 'less than the minimum amount 1 USDT', 'requestTime': 1731582000700, 'data': None} - main
+11:00:00.864 - DEBUG - order response time 0.118 seconds - place_buy_limit_order
+11:00:00.865 - DEBUG - buy order response: {'code': '45110', 'msg': 'less than the minimum amount 1 USDT', 'requestTime': 1731582000816, 'data': None} - main
+11:00:00.982 - DEBUG - order response time 0.117 seconds - place_buy_limit_order
+11:00:00.982 - DEBUG - buy order response: {'code': '45110', 'msg': 'less than the minimum amount 1 USDT', 'requestTime': 1731582000936, 'data': None} - main
+11:00:01.104 - DEBUG - order response time 0.122 seconds - place_buy_limit_order
+11:00:01.105 - DEBUG - buy order response: {'code': '45110', 'msg': 'less than the minimum amount 1 USDT', 'requestTime': 1731582001058, 'data': None} - main
+11:00:01.238 - DEBUG - order response time 0.133 seconds - place_buy_limit_order
+11:00:01.239 - DEBUG - buy order response: {'code': '45110', 'msg': 'less than the minimum amount 1 USDT', 'requestTime': 1731582001189, 'data': None} - main
+11:00:01.361 - DEBUG - order response time 0.122 seconds - place_buy_limit_order
+11:00:01.361 - DEBUG - buy order response: {'code': '45110', 'msg': 'less than the minimum amount 1 USDT', 'requestTime': 1731582001311, 'data': None} - main
+11:00:01.361 - DEBUG - before execution of selllimit (order price: 0.081) - main
+11:00:01.508 - DEBUG - Sell order placed in 0.146284 seconds - place_sell_limit_order
+11:00:01.508 - ERROR - placing sell order: {"code":"45110","msg":"less than the minimum amount 1 USDT","requestTime":1731582001452,"data":null} - place_sell_limit_order
+11:00:01.509 - INFO - -------------------------------------------------------------- - main
+11:00:01.509 - INFO - execution finished moving to logging - main
+11:00:01.509 - INFO - -------------------------------------------------------------- - main
+11:00:01.509 - INFO - 11:00:00.008 time price retrived after release /price: 0.09 - main
+11:00:01.509 - INFO - 11:00:01.239 time just before buying / buylimit order price:0.045 - main
+11:00:01.509 - INFO - 11:00:01.361 time after buy execution - main
+11:00:01.509 - INFO - 0.122 time needed for buy execution - main
+11:00:01.509 - INFO - 11:00:01.362 time before sell excution /selllimit order prcie: 0.081 - main
+11:00:01.509 - INFO - 11:00:01.509 time after sell execution - main
+11:00:01.509 - ERROR - when logging final information:
+ 'NoneType' object is not subscriptable - main
+11:00:01.515 - INFO - detected new pair None at Nov 04, 2024, 10AM - main
+11:00:01.516 - INFO - Release time and date: 14-11-2024 11:00:00.000 - get_bid_ask_price_by_release_time
+11:00:01.759 - INFO - Subscription request sent for NSUSDT - initialize_websocket
+11:00:01.831 - INFO - Successfully subscribed to NSUSDT - initialize_websocket
+11:01:02.711 - DEBUG - Using selector: EpollSelector - __init__
+11:01:02.785 finshed main loop
+Update bid price to buy and sell
+11:16:02.932 - DEBUG - Using selector: EpollSelector - __init__
+11:16:03.016 finshed main loop
+Update bid price to buy and sell
+11:31:03.380 - DEBUG - Using selector: EpollSelector - __init__
+11:31:03.464 finshed main loop
+Update bid price to buy and sell
+11:46:02.691 - DEBUG - Using selector: EpollSelector - __init__
+11:46:02.712 - INFO - detected new pair HAPPYUSDT at Nov 14, 2024, 12PM - main
+11:46:02.736 - INFO - Release time and date: 14-11-2024 12:00:00.000 - get_bid_ask_price_by_release_time
+11:46:02.989 - INFO - Subscription request sent for HAPPYUSDT - initialize_websocket
+11:46:03.061 - INFO - Successfully subscribed to HAPPYUSDT - initialize_websocket
+11:46:03.061 - INFO -  Waiting 836.94 seconds until token release time - wait_until_listing
+11:59:38.580 - INFO - 25 seconds left until token release - wait_until_listing
+12:00:00.006 - DEBUG - while loop count: 1 - get_bid_ask_price_by_release_time
+12:00:00.009 - DEBUG - starting async for loop - get_bid_ask_price_by_release_time
+12:00:00.011 - DEBUG - message orjson data: {'event': 'error', 'code': 30002, 'msg': 'Unrecognized request:{"op":"ping"}'} - get_bid_ask_price_by_release_time
+12:00:00.017 - DEBUG - message orjson data: {'action': 'snapshot', 'arg': {'instType': 'sp', 'channel': 'ticker', 'instId': 'HAPPYUSDT'}, 'data': [{'instId': 'HAPPYUSDT', 'last': '0', 'open24h': '0', 'high24h': '0', 'low24h': '0', 'bestBid': '0.039912', 'bestAsk': '0.040029', 'baseVolume': '0', 'quoteVolume': '0', 'ts': 1731584763277, 'labeId': 0, 'openUtc': '0.000000', 'chgUTC': '0', 'bidSz': '2638.24', 'askSz': '785.3'}], 'ts': 1731584763283} - get_bid_ask_price_by_release_time
+12:00:00.025 - INFO - bestbid price found: 0.039912  - get_bid_ask_price_by_release_time
+12:00:00.029 - DEBUG - Price retrived after release: 0.039912 - main
+12:00:00.209 - DEBUG - order response time 0.177 seconds - place_buy_limit_order
+12:00:00.210 - DEBUG - buy order response: {'code': '00000', 'msg': 'success', 'requestTime': 1731585600132, 'data': {'orderId': '1240925437057994752', 'clientOid': 'eb1055bd-43b6-4e2a-b59f-5c8dea3216c0'}} - main
+12:00:00.210 - DEBUG - successfully placed order - main
+12:00:00.210 - DEBUG - before execution of selllimit (order price: 0.03592) - main
+12:00:00.345 - DEBUG - Sell order placed in 0.134481 seconds - place_sell_limit_order
+12:00:00.346 - ERROR - placing sell order: {"code":"43012","msg":"Insufficient balance","requestTime":1731585600297,"data":null} - place_sell_limit_order
+12:00:00.347 - INFO - -------------------------------------------------------------- - main
+12:00:00.347 - INFO - execution finished moving to logging - main
+12:00:00.347 - INFO - -------------------------------------------------------------- - main
+12:00:00.347 - INFO - 12:00:00.029 time price retrived after release /price: 0.039912 - main
+12:00:00.347 - INFO - 12:00:00.032 time just before buying / buylimit order price:0.01996 - main
+12:00:00.348 - INFO - 12:00:00.210 time after buy execution - main
+12:00:00.348 - INFO - 0.177 time needed for buy execution - main
+12:00:00.349 - INFO - 12:00:00.211 time before sell excution /selllimit order prcie: 0.03592 - main
+12:00:00.349 - INFO - 12:00:00.346 time after sell execution - main
+12:00:00.349 - ERROR - when logging final information:
+ 'NoneType' object is not subscriptable - main
+12:00:00.386 finshed main loop
+Update bid price to buy and sell
+12:01:02.714 - DEBUG - Using selector: EpollSelector - __init__
+12:01:02.772 finshed main loop
+Update bid price to buy and sell
+12:16:03.179 - DEBUG - Using selector: EpollSelector - __init__
+12:16:03.231 finshed main loop
+Update bid price to buy and sell
+12:31:02.599 - DEBUG - Using selector: EpollSelector - __init__
+12:31:02.640 finshed main loop
+Update bid price to buy and sell
+12:46:03.046 - DEBUG - Using selector: EpollSelector - __init__
+12:46:03.102 - INFO - detected new pair FREDUSDT at Nov 14, 2024, 1PM - main
+12:46:03.103 - INFO - Release time and date: 14-11-2024 13:00:00.000 - get_bid_ask_price_by_release_time
+12:46:03.389 - INFO - Subscription request sent for FREDUSDT - initialize_websocket
+12:46:03.462 - INFO - Successfully subscribed to FREDUSDT - initialize_websocket
+12:46:03.462 - INFO -  Waiting 836.54 seconds until token release time - wait_until_listing
+12:59:38.976 - INFO - 25 seconds left until token release - wait_until_listing
+13:00:00.004 - DEBUG - while loop count: 1 - get_bid_ask_price_by_release_time
+13:00:00.005 - DEBUG - starting async for loop - get_bid_ask_price_by_release_time
+13:00:00.007 - DEBUG - message orjson data: {'event': 'error', 'code': 30002, 'msg': 'Unrecognized request:{"op":"ping"}'} - get_bid_ask_price_by_release_time
+13:00:00.010 - DEBUG - message orjson data: {'action': 'snapshot', 'arg': {'instType': 'sp', 'channel': 'ticker', 'instId': 'FREDUSDT'}, 'data': [{'instId': 'FREDUSDT', 'last': '0', 'open24h': '0', 'high24h': '0', 'low24h': '0', 'bestBid': '0.1996', 'bestAsk': '0.2001', 'baseVolume': '0', 'quoteVolume': '0', 'ts': 1731588363502, 'labeId': 0, 'openUtc': '0.0000', 'chgUTC': '0', 'bidSz': '982.36', 'askSz': '170.59'}], 'ts': 1731588363509} - get_bid_ask_price_by_release_time
+13:00:00.011 - INFO - bestbid price found: 0.1996  - get_bid_ask_price_by_release_time
+13:00:00.012 - DEBUG - Price retrived after release: 0.1996 - main
+13:00:00.228 - DEBUG - order response time 0.207 seconds - place_buy_limit_order
+13:00:00.229 - DEBUG - buy order response: {'code': '00000', 'msg': 'success', 'requestTime': 1731589200159, 'data': {'orderId': '1240940536648863752', 'clientOid': '785c6a5f-d081-4ffc-acd8-31078b05d84c'}} - main
+13:00:00.229 - DEBUG - successfully placed order - main
+13:00:00.229 - DEBUG - before execution of selllimit (order price: 0.1796) - main
+13:00:00.365 - DEBUG - Sell order placed in 0.134810 seconds - place_sell_limit_order
+13:00:00.365 - ERROR - placing sell order: {"code":"43012","msg":"Insufficient balance","requestTime":1731589200316,"data":null} - place_sell_limit_order
+13:00:00.365 - INFO - -------------------------------------------------------------- - main
+13:00:00.365 - INFO - execution finished moving to logging - main
+13:00:00.365 - INFO - -------------------------------------------------------------- - main
+13:00:00.366 - INFO - 13:00:00.012 time price retrived after release /price: 0.1996 - main
+13:00:00.366 - INFO - 13:00:00.021 time just before buying / buylimit order price:0.0998 - main
+13:00:00.366 - INFO - 13:00:00.229 time after buy execution - main
+13:00:00.366 - INFO - 0.207 time needed for buy execution - main
+13:00:00.366 - INFO - 13:00:00.229 time before sell excution /selllimit order prcie: 0.1796 - main
+13:00:00.366 - INFO - 13:00:00.365 time after sell execution - main
+13:00:00.366 - ERROR - when logging final information:
+ 'NoneType' object is not subscriptable - main
+13:00:00.386 finshed main loop
+Update bid price to buy and sell
+13:01:02.689 - DEBUG - Using selector: EpollSelector - __init__
+13:01:02.723 finshed main loop
+Update bid price to buy and sell
+13:16:02.623 - DEBUG - Using selector: EpollSelector - __init__
+13:16:02.663 finshed main loop
+Update bid price to buy and sell
+13:31:03.535 - DEBUG - Using selector: EpollSelector - __init__
+13:31:03.590 finshed main loop
+Update bid price to buy and sell
+13:46:02.966 - DEBUG - Using selector: EpollSelector - __init__
+13:46:03.012 finshed main loop
+Update bid price to buy and sell
+14:01:02.701 - DEBUG - Using selector: EpollSelector - __init__
+14:01:02.758 finshed main loop
+Update bid price to buy and sell
+14:16:03.257 - DEBUG - Using selector: EpollSelector - __init__
+14:16:03.297 finshed main loop
+Update bid price to buy and sell
+14:31:02.734 - DEBUG - Using selector: EpollSelector - __init__
+14:31:02.797 finshed main loop
+Update bid price to buy and sell
+14:46:03.645 - DEBUG - Using selector: EpollSelector - __init__
+14:46:03.703 finshed main loop
+Update bid price to buy and sell
+15:01:03.142 - DEBUG - Using selector: EpollSelector - __init__
+15:01:03.210 finshed main loop
+Update bid price to buy and sell
+15:16:02.618 - DEBUG - Using selector: EpollSelector - __init__
+15:16:02.663 finshed main loop
+Update bid price to buy and sell
+15:31:02.991 - DEBUG - Using selector: EpollSelector - __init__
+15:31:03.070 finshed main loop
+Update bid price to buy and sell
+15:46:02.752 - DEBUG - Using selector: EpollSelector - __init__
+15:46:02.794 finshed main loop
+Update bid price to buy and sell
+16:01:03.050 - DEBUG - Using selector: EpollSelector - __init__
+16:01:03.106 finshed main loop
+Update bid price to buy and sell
+16:16:02.758 - DEBUG - Using selector: EpollSelector - __init__
+16:16:02.810 finshed main loop
+Update bid price to buy and sell
+16:31:03.026 - DEBUG - Using selector: EpollSelector - __init__
+16:31:03.105 finshed main loop
+Update bid price to buy and sell
+16:46:02.645 - DEBUG - Using selector: EpollSelector - __init__
+16:46:02.697 finshed main loop
+Update bid price to buy and sell
+17:01:03.359 - DEBUG - Using selector: EpollSelector - __init__
+17:01:03.431 finshed main loop
+Update bid price to buy and sell
+17:16:02.741 - DEBUG - Using selector: EpollSelector - __init__
+17:16:02.783 finshed main loop
+Update bid price to buy and sell
+17:31:03.363 - DEBUG - Using selector: EpollSelector - __init__
+17:31:03.417 finshed main loop
+Update bid price to buy and sell
+17:46:03.356 - DEBUG - Using selector: EpollSelector - __init__
+17:46:03.421 finshed main loop
+Update bid price to buy and sell
+18:01:03.231 - DEBUG - Using selector: EpollSelector - __init__
+18:01:03.286 finshed main loop
+Update bid price to buy and sell
+18:16:03.296 - DEBUG - Using selector: EpollSelector - __init__
+18:16:03.362 finshed main loop
+Update bid price to buy and sell
+18:31:02.700 - DEBUG - Using selector: EpollSelector - __init__
+18:31:02.758 finshed main loop
+Update bid price to buy and sell
+18:46:03.201 - DEBUG - Using selector: EpollSelector - __init__
+18:46:03.262 finshed main loop
+Update bid price to buy and sell
+19:01:02.960 - DEBUG - Using selector: EpollSelector - __init__
+19:01:03.009 finshed main loop
+Update bid price to buy and sell
+19:16:03.494 - DEBUG - Using selector: EpollSelector - __init__
+19:16:03.538 finshed main loop
+Update bid price to buy and sell
+19:31:02.842 - DEBUG - Using selector: EpollSelector - __init__
+19:31:02.886 finshed main loop
+Update bid price to buy and sell
+19:46:03.333 - DEBUG - Using selector: EpollSelector - __init__
+19:46:03.381 finshed main loop
+Update bid price to buy and sell
+20:01:03.481 - DEBUG - Using selector: EpollSelector - __init__
+20:01:03.537 finshed main loop
+Update bid price to buy and sell
+20:16:02.788 - DEBUG - Using selector: EpollSelector - __init__
+20:16:02.824 finshed main loop
+Update bid price to buy and sell
+20:31:02.995 - DEBUG - Using selector: EpollSelector - __init__
+20:31:03.077 finshed main loop
+Update bid price to buy and sell
+20:46:02.743 - DEBUG - Using selector: EpollSelector - __init__
+20:46:02.798 finshed main loop
+Update bid price to buy and sell
+21:01:02.895 - DEBUG - Using selector: EpollSelector - __init__
+21:01:02.976 finshed main loop
+Update bid price to buy and sell
+21:16:03.472 - DEBUG - Using selector: EpollSelector - __init__
+21:16:03.515 finshed main loop
+Update bid price to buy and sell
+21:31:03.678 - DEBUG - Using selector: EpollSelector - __init__
+21:31:03.726 finshed main loop
+Update bid price to buy and sell
+21:46:02.786 - DEBUG - Using selector: EpollSelector - __init__
+21:46:02.846 finshed main loop
+Update bid price to buy and sell
+22:01:03.436 - DEBUG - Using selector: EpollSelector - __init__
+22:01:03.501 finshed main loop
+Update bid price to buy and sell
+22:16:02.587 - DEBUG - Using selector: EpollSelector - __init__
+22:16:02.668 finshed main loop
+Update bid price to buy and sell
+22:31:03.030 - DEBUG - Using selector: EpollSelector - __init__
+22:31:03.094 finshed main loop
+Update bid price to buy and sell
+22:46:02.665 - DEBUG - Using selector: EpollSelector - __init__
+22:46:02.704 finshed main loop
+Update bid price to buy and sell
+23:01:03.456 - DEBUG - Using selector: EpollSelector - __init__
+23:01:03.492 finshed main loop
+Update bid price to buy and sell
+23:16:03.237 - DEBUG - Using selector: EpollSelector - __init__
+23:16:03.291 finshed main loop
+Update bid price to buy and sell
+23:31:02.751 - DEBUG - Using selector: EpollSelector - __init__
+23:31:02.807 finshed main loop
+Update bid price to buy and sell
+23:46:03.122 - DEBUG - Using selector: EpollSelector - __init__
+23:46:03.173 finshed main loop
+Update bid price to buy and sell
+00:01:03.538 - DEBUG - Using selector: EpollSelector - __init__
+00:01:03.606 finshed main loop
+Update bid price to buy and sell
+00:16:03.294 - DEBUG - Using selector: EpollSelector - __init__
+00:16:03.339 finshed main loop
+Update bid price to buy and sell
+00:31:03.558 - DEBUG - Using selector: EpollSelector - __init__
+00:31:03.608 finshed main loop
+Update bid price to buy and sell
+00:46:02.440 - DEBUG - Using selector: EpollSelector - __init__
+00:46:02.471 finshed main loop
+Update bid price to buy and sell
+01:01:03.314 - DEBUG - Using selector: EpollSelector - __init__
+01:01:03.370 finshed main loop
+Update bid price to buy and sell
+01:16:02.842 - DEBUG - Using selector: EpollSelector - __init__
+01:16:02.897 finshed main loop
+Update bid price to buy and sell
+01:31:02.561 - DEBUG - Using selector: EpollSelector - __init__
+01:31:02.592 finshed main loop
+Update bid price to buy and sell
+01:46:03.465 - DEBUG - Using selector: EpollSelector - __init__
+01:46:03.514 finshed main loop
+Update bid price to buy and sell
+02:01:02.896 - DEBUG - Using selector: EpollSelector - __init__
+02:01:02.927 finshed main loop
+Update bid price to buy and sell
+02:16:03.123 - DEBUG - Using selector: EpollSelector - __init__
+02:16:03.159 finshed main loop
+Update bid price to buy and sell
+02:31:03.469 - DEBUG - Using selector: EpollSelector - __init__
+02:31:03.479 finshed main loop
+Update bid price to buy and sell
+02:46:02.982 - DEBUG - Using selector: EpollSelector - __init__
+02:46:03.030 finshed main loop
+Update bid price to buy and sell
+03:01:03.343 - DEBUG - Using selector: EpollSelector - __init__
+03:01:03.388 finshed main loop
+Update bid price to buy and sell
+03:16:03.341 - DEBUG - Using selector: EpollSelector - __init__
+03:16:03.374 finshed main loop
+Update bid price to buy and sell
+03:31:02.751 - DEBUG - Using selector: EpollSelector - __init__
+03:31:02.807 finshed main loop
+Update bid price to buy and sell
+03:46:03.265 - DEBUG - Using selector: EpollSelector - __init__
+03:46:03.313 finshed main loop
+Update bid price to buy and sell
+04:01:03.541 - DEBUG - Using selector: EpollSelector - __init__
+04:01:03.590 finshed main loop
+Update bid price to buy and sell
+04:16:03.234 - DEBUG - Using selector: EpollSelector - __init__
+04:16:03.285 finshed main loop
+Update bid price to buy and sell
+04:31:03.555 - DEBUG - Using selector: EpollSelector - __init__
+04:31:03.602 finshed main loop
+Update bid price to buy and sell
+04:46:02.864 - DEBUG - Using selector: EpollSelector - __init__
+04:46:02.909 finshed main loop
+Update bid price to buy and sell
+05:01:03.378 - DEBUG - Using selector: EpollSelector - __init__
+05:01:03.421 finshed main loop
+Update bid price to buy and sell
+05:16:02.431 - DEBUG - Using selector: EpollSelector - __init__
+05:16:02.482 finshed main loop
+Update bid price to buy and sell
+05:31:03.065 - DEBUG - Using selector: EpollSelector - __init__
+05:31:03.114 finshed main loop
+Update bid price to buy and sell
+05:46:02.717 - DEBUG - Using selector: EpollSelector - __init__
+05:46:02.765 finshed main loop
+Update bid price to buy and sell
+06:01:03.379 - DEBUG - Using selector: EpollSelector - __init__
+06:01:03.432 finshed main loop
+Update bid price to buy and sell
+06:16:03.000 - DEBUG - Using selector: EpollSelector - __init__
+06:16:03.074 finshed main loop
+Update bid price to buy and sell
+06:31:03.512 - DEBUG - Using selector: EpollSelector - __init__
+06:31:03.560 finshed main loop
+Update bid price to buy and sell
+06:46:03.535 - DEBUG - Using selector: EpollSelector - __init__
+06:46:03.591 finshed main loop
+Update bid price to buy and sell
+07:01:02.912 - DEBUG - Using selector: EpollSelector - __init__
+07:01:02.962 finshed main loop
+Update bid price to buy and sell
+07:16:03.411 - DEBUG - Using selector: EpollSelector - __init__
+07:16:03.455 finshed main loop
+Update bid price to buy and sell
+07:31:02.571 - DEBUG - Using selector: EpollSelector - __init__
+07:31:02.615 finshed main loop
+Update bid price to buy and sell
+07:46:02.619 - DEBUG - Using selector: EpollSelector - __init__
+07:46:02.666 finshed main loop
+Update bid price to buy and sell
+08:01:03.343 - DEBUG - Using selector: EpollSelector - __init__
+08:01:03.403 finshed main loop
+Update bid price to buy and sell
+08:16:02.977 - DEBUG - Using selector: EpollSelector - __init__
+08:16:03.019 finshed main loop
+Update bid price to buy and sell
+08:31:03.238 - DEBUG - Using selector: EpollSelector - __init__
+08:31:03.295 finshed main loop
+Update bid price to buy and sell
+08:46:03.362 - DEBUG - Using selector: EpollSelector - __init__
+08:46:03.429 finshed main loop
+Update bid price to buy and sell
+09:01:03.208 - DEBUG - Using selector: EpollSelector - __init__
+09:01:03.246 finshed main loop
+Update bid price to buy and sell
+09:16:02.835 - DEBUG - Using selector: EpollSelector - __init__
+09:16:02.883 finshed main loop
+Update bid price to buy and sell
+09:31:03.122 - DEBUG - Using selector: EpollSelector - __init__
+09:31:03.155 finshed main loop
+Update bid price to buy and sell
+09:46:03.258 - DEBUG - Using selector: EpollSelector - __init__
+09:46:03.310 finshed main loop
+Update bid price to buy and sell
+10:01:03.080 - DEBUG - Using selector: EpollSelector - __init__
+10:01:03.129 finshed main loop
+Update bid price to buy and sell
+10:16:03.217 - DEBUG - Using selector: EpollSelector - __init__
+10:16:03.251 finshed main loop
+Update bid price to buy and sell
+10:31:03.763 - DEBUG - Using selector: EpollSelector - __init__
+10:31:03.868 finshed main loop
+Update bid price to buy and sell
+10:46:02.780 - DEBUG - Using selector: EpollSelector - __init__
+10:46:02.852 finshed main loop
+Update bid price to buy and sell
+11:01:03.412 - DEBUG - Using selector: EpollSelector - __init__
+11:01:03.442 finshed main loop
+Update bid price to buy and sell
+11:16:03.552 - DEBUG - Using selector: EpollSelector - __init__
+11:16:03.605 finshed main loop
+Update bid price to buy and sell
+11:31:04.125 - DEBUG - Using selector: EpollSelector - __init__
+11:31:04.185 finshed main loop
+Update bid price to buy and sell
+11:46:02.646 - DEBUG - Using selector: EpollSelector - __init__
+11:46:02.721 finshed main loop
+Update bid price to buy and sell
+12:01:02.715 - DEBUG - Using selector: EpollSelector - __init__
+12:01:02.789 finshed main loop
+Update bid price to buy and sell
+12:16:03.144 - DEBUG - Using selector: EpollSelector - __init__
+12:16:03.204 finshed main loop
+Update bid price to buy and sell
+12:31:04.414 - DEBUG - Using selector: EpollSelector - __init__
+12:31:04.533 finshed main loop
+Update bid price to buy and sell
+12:46:02.627 - DEBUG - Using selector: EpollSelector - __init__
+12:46:02.664 - INFO - detected new pair SHOGGOTHUSDT at Nov 15, 2024, 1PM - main
+12:46:02.666 - ERROR - when loading API credentials:
+ 'secret_key' - main
+12:46:02.666 - INFO - Release time and date: 15-11-2024 13:00:00.000 - get_bid_ask_price_by_release_time
+12:46:03.010 - INFO - Subscription request sent for SHOGGOTHUSDT - initialize_websocket
+12:46:03.082 - INFO - Successfully subscribed to SHOGGOTHUSDT - initialize_websocket
+12:46:03.083 - INFO -  Waiting 836.92 seconds until token release time - wait_until_listing
+12:59:38.612 - INFO - 25 seconds left until token release - wait_until_listing
+13:00:00.001 - DEBUG - while loop count: 1 - get_bid_ask_price_by_release_time
+13:00:00.002 - DEBUG - starting async for loop - get_bid_ask_price_by_release_time
+13:00:00.003 - DEBUG - message orjson data: {'event': 'error', 'code': 30002, 'msg': 'Unrecognized request:{"op":"ping"}'} - get_bid_ask_price_by_release_time
+13:00:00.007 - DEBUG - message orjson data: {'action': 'snapshot', 'arg': {'instType': 'sp', 'channel': 'ticker', 'instId': 'SHOGGOTHUSDT'}, 'data': [{'instId': 'SHOGGOTHUSDT', 'last': '0', 'open24h': '0', 'high24h': '0', 'low24h': '0', 'bestBid': '0.1399', 'bestAsk': '0.1401', 'baseVolume': '0', 'quoteVolume': '0', 'ts': 1731674763186, 'labeId': 0, 'openUtc': '0.0000', 'chgUTC': '0', 'bidSz': '330.26', 'askSz': '224.37'}], 'ts': 1731674763195} - get_bid_ask_price_by_release_time
+13:00:00.007 - INFO - bestbid price found: 0.1399  - get_bid_ask_price_by_release_time
+13:00:00.007 - DEBUG - Price retrived after release: 0.1399 - main
+13:00:00.008 - ERROR - when placing buy and sell order:
+ - main
+13:00:00.008 - INFO - -------------------------------------------------------------- - main
+13:00:00.008 - INFO - execution finished moving to logging - main
+13:00:00.008 - INFO - -------------------------------------------------------------- - main
+13:00:00.008 - INFO - 13:00:00.007 time price retrived after release /price: 0.1399 - main
+13:00:00.008 - INFO - 13:00:00.007 time just before buying / buylimit order price:0.0699 - main
+13:00:00.008 - ERROR - when logging final information:
+ local variable 'after_buy_execution_time' referenced before assignment - main
+13:00:00.016 finshed main loop
+Update bid price to buy and sell
+13:01:02.970 - DEBUG - Using selector: EpollSelector - __init__
+13:01:03.011 finshed main loop
+Update bid price to buy and sell
+13:16:02.993 - DEBUG - Using selector: EpollSelector - __init__
+13:16:03.037 finshed main loop
+Update bid price to buy and sell
+13:31:02.892 - DEBUG - Using selector: EpollSelector - __init__
+13:31:02.947 finshed main loop
+Update bid price to buy and sell
+13:46:02.587 - DEBUG - Using selector: EpollSelector - __init__
+13:46:02.661 finshed main loop
+Update bid price to buy and sell
+14:01:03.046 - DEBUG - Using selector: EpollSelector - __init__
+14:01:03.102 finshed main loop
+Update bid price to buy and sell
+14:16:02.851 - DEBUG - Using selector: EpollSelector - __init__
+14:16:02.925 finshed main loop
+Update bid price to buy and sell
+14:31:03.372 - DEBUG - Using selector: EpollSelector - __init__
+14:31:03.445 finshed main loop
+Update bid price to buy and sell
+14:46:02.663 - DEBUG - Using selector: EpollSelector - __init__
+14:46:02.703 finshed main loop
+Update bid price to buy and sell
+15:01:02.799 - DEBUG - Using selector: EpollSelector - __init__
+15:01:02.855 finshed main loop
+Update bid price to buy and sell
+15:16:03.163 - DEBUG - Using selector: EpollSelector - __init__
+15:16:03.224 finshed main loop
+Update bid price to buy and sell

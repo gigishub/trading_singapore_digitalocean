@@ -13,7 +13,6 @@ import os
 import fcntl  # Import fcntl for file locking
 import json
 
-# */1 * * * * /root/trading_systems/tradingvenv/bin/python /root/trading_systems/bitget/bitget_ws_ticker.py >> /root/trading_systems/bitget/cronlogs/bitget_ws_ticker.log 2>&1
 
 # Configure logging with microsecond precision and function names
 logging.basicConfig(
@@ -31,18 +30,17 @@ async def main():
 
     lock_file = acquire_lock()
     try:
-        logger.info("Starting script")
 
         directory = '/root/trading_systems/bitget/new_pair_data_bitget'
-        testing = False
-        testing_time = 90
+        testing = True
+        testing_time = 2
         if testing:
             symbol = 'SWELL'
             scraper = Bitget_websocket_collection()
             release_date_time = datetime.now() + timedelta(seconds=testing_time)  # Example release time
 
             try:
-                change_data = await scraper.get_price_by_release_time_ticker(symbol, max_wait_time=10, release_time=release_date_time)
+                change_data = await scraper.get_price_by_release_time_ticker(symbol, max_wait_time=1, release_time=release_date_time)
                 if change_data:
                     print(f"Successfully retrieved {symbol} price: {change_data}")
             finally:
@@ -91,7 +89,7 @@ async def main():
                         websocket_object = Bitget_websocket_collection()
 
                         # returns the highest price at realease time
-                        websocket_best_bid_price = await websocket_object.get_price_by_release_time_ticker(symbol, max_wait_time=2, release_time=release_date_time)
+                        websocket_best_bid_price = await websocket_object.get_price_by_release_time_ticker(symbol, max_wait_time=1, release_time=release_date_time)
                         logger.info(f'result: {websocket_best_bid_price}')
 
 
@@ -105,7 +103,6 @@ async def main():
     finally:
         release_lock(lock_file)
         print(f'{datetime.now()} script finished')
-        print('======================================')
 
 
 
@@ -117,7 +114,7 @@ def acquire_lock():
         fcntl.flock(lock_file, fcntl.LOCK_EX | fcntl.LOCK_NB)
         lock_file.write(str(os.getpid()))
         lock_file.flush()
-        logger.info("Lock acquired.")
+        #logger.info("Lock acquired.")
         return lock_file
     
     except BlockingIOError:
@@ -133,7 +130,7 @@ def release_lock(lock_file):
     try:
         fcntl.flock(lock_file, fcntl.LOCK_UN)
         lock_file.close()
-        logger.info("Lock released.")
+        #logger.info("Lock released.")
     except Exception as e:
         logger.error(f"Unexpected error releasing lock: {e}")
 
