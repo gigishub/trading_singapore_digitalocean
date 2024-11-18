@@ -32,7 +32,7 @@ async def main():
     try:
 
         directory = '/root/trading_systems/bitget/new_pair_data_bitget'
-        testing = True
+        testing = False
         testing_time = 2
         if testing:
             symbol = 'SWELL'

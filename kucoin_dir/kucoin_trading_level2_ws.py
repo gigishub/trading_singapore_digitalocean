@@ -35,8 +35,8 @@ async def main():
         directory = '/root/trading_systems/kucoin_dir/new_pair_data_kucoin'
         testing = False
         testing_time = 2
-        adjust_ask_for_limit = 0.7 # if ask price is received Setting limit order to buy n% of the actual ask price
-        adjust_bid_for_limt = 2.5 # if buy price is received Setting limit order to buy n% of the actual bid price
+        adjust_ask_for_limit = 1.3 # if ask price is received Setting limit order to buy n% of the actual ask price
+        adjust_bid_for_limt = 1.3 # if buy price is received Setting limit order to buy n% of the actual bid price
 
         percent_of_price_sell = 0.8  # Setting limit order to sell n% of the limit order buy price the price i set to execute at 
         max_wait_time_for_execution = 10  # Time to wait for price

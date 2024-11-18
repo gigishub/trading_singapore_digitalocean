@@ -41,7 +41,6 @@ class BitgetOrderManager:
         self.executor = ThreadPoolExecutor(max_workers=4)
         self.session = None
 
-
     def _get_formatted_time(self) -> Dict[str, str]:
         """
         Returns current time in human readable format
@@ -137,7 +136,8 @@ class BitgetOrderManager:
                     "limit_buy_price": price,
                     "order_id": response.get('data', {}).get('orderId', 'unknown'),
                     "requestTime": self._format_request_time(response.get('requestTime', 0)),
-                    "order_sent_time": time_info["order_sent_time"]
+                    "order_sent_time": time_info["order_sent_time"],
+                    "order_size": size
                 }    
             else:
                 return {
@@ -145,7 +145,9 @@ class BitgetOrderManager:
                     "message": response.get('msg', 'Unknown error'),
                     "code": response.get('code'),
                     "requestTime": self._format_request_time(response.get('requestTime', 0)),
-                    "order_sent_time": time_info["order_sent_time"]
+                    "order_sent_time": time_info["order_sent_time"],
+                    "price": price,
+                    "order_size": size
                 }
 
         except Exception as e:
@@ -154,7 +156,9 @@ class BitgetOrderManager:
                 "message": str(e),
                 "code": "ERROR",
                 "requestTime": None,
-                "order_sent_time": time_info["order_sent_time"]
+                "order_sent_time": time_info["order_sent_time"],
+                "price": price,
+                "order_size": size
             }
 
     async def place_limit_sell(self, symbol: str, price: str, size: str, 
@@ -184,7 +188,8 @@ class BitgetOrderManager:
                     "limit_sell_price": price,
                     "order_id": response.get('data', {}).get('orderId', 'unknown'),
                     "requestTime": self._format_request_time(response.get('requestTime', 0)),
-                    "order_sent_time": time_info["order_sent_time"]
+                    "order_sent_time": time_info["order_sent_time"],
+                    "order_size": size
                 }
             else:
                 return {
@@ -192,7 +197,9 @@ class BitgetOrderManager:
                     "message": response.get('msg', 'Unknown error'),
                     "code": response.get('code'),
                     "requestTime": self._format_request_time(response.get('requestTime', 0)),
-                    "order_sent_time": time_info["order_sent_time"]
+                    "order_sent_time": time_info["order_sent_time"],
+                    "price": price,
+                    "order_size": size
                 }
 
         except Exception as e:
@@ -201,7 +208,9 @@ class BitgetOrderManager:
                 "message": str(e),
                 "code": "ERROR",
                 "requestTime": None,
-                "order_sent_time": time_info["order_sent_time"]
+                "order_sent_time": time_info["order_sent_time"],
+                "price": price,
+                "order_size": size
             }
 
     async def place_multiple_orders(self, orders: List[Dict]) -> List[Dict]:
@@ -243,7 +252,6 @@ class BitgetOrderManager:
             await self.session.close()
         self.executor.shutdown(wait=False)
 
-
     async def multiple_buy_orders_percent_dif(self, symbol: str, base_price: float, size: str, num_orders: int, percentage_difference: float, time_in_force: str = "gtc") -> List[Dict]:
         """
         Place multiple limit buy orders concurrently with different prices based on a percentage difference.
@@ -274,12 +282,51 @@ class BitgetOrderManager:
             }
             for price in prices
         ]
-        multi_buy_order_resposne = await self.place_multiple_orders(orders)
+        multi_buy_order_response = await self.place_multiple_orders(orders)
 
-        for order in multi_buy_order_resposne:
+        for order in multi_buy_order_response:
             if order["success"]:
                 self.successful_buy_orders.append(order)
 
+        return multi_buy_order_response
+
+    async def multiple_sell_orders_percent_dif(self, symbol: str, base_price: float, size: str, num_orders: int, percentage_difference: float, time_in_force: str = "gtc") -> List[Dict]:
+        """
+        Place multiple limit sell orders concurrently with different prices based on a percentage difference.
+
+        Args:
+            symbol: Trading symbol (e.g., "BTCUSDT").
+            base_price: The base price for the limit sell orders.
+            size: Size of each order.
+            num_orders: Number of orders to place.
+            percentage_difference: Percentage difference between each order price.
+            time_in_force: Time in force for the orders (default is "gtc").
+
+        Returns:
+            List of order results.
+        """
+        prices = [
+            str(base_price * (1 + (i * percentage_difference / 100)))
+            for i in range(num_orders)
+        ]
+
+        orders = [
+            {
+                "symbol": symbol,
+                "side": "sell",
+                "price": price,
+                "size": size,
+                "time_in_force": time_in_force
+            }
+            for price in prices
+        ]
+        multi_sell_order_response = await self.place_multiple_orders(orders)
+
+        for order in multi_sell_order_response:
+            if order["success"]:
+                self.successful_sell_orders.append(order)
+
+        return multi_sell_order_response
 
 # Example usage
 async def main():
@@ -315,45 +362,3 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-
-# # Example usage
-# async def main():
-#     try:
-#         with open('/root/trading_systems/bitget/api_creds.json', 'r') as file:
-#             api_creds = json.load(file)
-
-#         trader = BitgetOrderManager(
-#             api_key=api_creds['api_key'],
-#             api_secret=api_creds['api_secret'],
-#             api_passphrase=api_creds['api_passphrase'],
-#             debug=False
-#         )
-
-#         # Example of placing multiple orders concurrently
-#         orders = [
-#             {
-#                 "symbol": "BTCUSDT",
-#                 "side": "buy",
-#                 "price": "30000",
-#                 "size": "0.0001"
-#             },
-#             {
-#                 "symbol": "BTCUSDT",
-#                 "side": "buy",
-#                 "price": "31000",
-#                 "size": "0.0001"
-#             }
-#         ]
-
-#         # Execute multiple orders concurrently
-#         results = await trader.place_multiple_orders(orders)
-#         module_logger.info(f"Order Results:{json.dumps(results, indent=4)}")
-
-#         # Clean up
-#         await trader.close()
-
-#     except Exception as e:
-#         module_logger.error(f"Main execution error: {str(e)}", exc_info=True)
-
-# if __name__ == "__main__":
-#     asyncio.run(main())

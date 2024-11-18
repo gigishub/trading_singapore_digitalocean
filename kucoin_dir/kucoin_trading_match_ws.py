@@ -38,9 +38,9 @@ async def main():
         time_offset_ms = 10
         # Define different parameter sets for percent_of_price_buy and percent_of_price_sell
         parameter_sets = [
-            {'percent_of_price_buy': 3, 'percent_of_price_sell': 1.3},
-            {'percent_of_price_buy': 2, 'percent_of_price_sell': 1.2},
-            {'percent_of_price_buy': 1.5, 'percent_of_price_sell': 1.1}
+            {'percent_of_price_buy': 1.4, 'percent_of_price_sell': 1},
+            {'percent_of_price_buy': 1.3, 'percent_of_price_sell': 0.9},
+            {'percent_of_price_buy': 1.25, 'percent_of_price_sell': 0.8}
             # Add more parameter sets as needed
         ]
         strategies = {}

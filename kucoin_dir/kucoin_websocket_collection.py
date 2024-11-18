@@ -10,7 +10,7 @@ import traceback
 
 # Configure logging with microsecond precision and function names
 logging.basicConfig(
-    level=logging.INFO,
+    level=logging.DEBUG,
     format='%(asctime)s.%(msecs)03d - %(levelname)s - %(message)s - %(funcName)s',
     datefmt='%H:%M:%S'
 )
@@ -246,9 +246,76 @@ class Kucoin_websocket_collection:
         return None
 
 
+    async def get_price_websocket_level2(self, symbol: str, max_wait_time: int = 2, release_time: datetime = None) -> Optional[float]:
+        """
+        Get price through WebSocket level2 channel with optimized timing.
+        """
+        logger.info('Release time and date: ' + release_time.strftime('%d-%m-%Y %H:%M:%S.%f')[:-3])
+
+        # Initialize WebSocket earlier to establish connection
+        success = await self.initialize_websocket(symbol, ticker_channel=False, level2_channel=True)
+        if not success:
+            logger.error("Failed to initialize WebSocket")
+            return None
+
+        # Calculate time to start monitoring (e.g., 1 second before release)
+        start_monitoring = release_time - timedelta(seconds=1)
+        
+        # Wait until monitoring time
+        current_time = datetime.now()
+        if current_time < start_monitoring:
+            sleep_duration = (start_monitoring - current_time).total_seconds()
+            if sleep_duration > 0:
+                await asyncio.sleep(sleep_duration)
+
+        try:
+            end_time = release_time + timedelta(seconds=max_wait_time)
+            while True:
+                if datetime.now() > end_time:
+                    logger.info("Reached max wait time")
+                    break
+
+                try:
+                    # Use wait_for to implement timeout for each message
+                    msg = await asyncio.wait_for(
+                        self.ws_connection.receive(),
+                        timeout=0.001  # 1ms timeout
+                    )
+
+                    if msg.type == aiohttp.WSMsgType.TEXT:
+                        data = orjson.loads(msg.data)
+                        
+                        # Skip pong messages
+                        if data.get('type') == 'pong':
+                            continue
+                            
+                        if data.get('type') == 'message' and 'data' in data:
+                            try:
+                                data_from_socket = data['data']['changes']
+                                if data_from_socket:
+                                    logger.info(f"data from WebSocket: {data_from_socket} at {datetime.now().strftime('%H:%M:%S.%f')}")
+                                    self.final_price = data_from_socket
+                                    self.price_found.set()
+                                    return data_from_socket
+                            except (KeyError, ValueError) as e:
+                                logger.error(f"Failed to parse price: {e}")
+                                continue
+
+                except asyncio.TimeoutError:
+                    # Check if we're past release time
+                    if datetime.now() >= release_time:
+                        continue
+                    # If not yet release time, sleep for a very short duration
+                    await asyncio.sleep(0.0001)
+
+        except Exception as e:
+            logger.error(f"Error in retrieving price loop: {e}")
+            traceback.print_exc()
+
+        return None
     
 
-    async def get_price_websocket_level2(self, symbol: str, max_wait_time: int = 2, release_time: datetime = None) -> Optional[float]:
+    async def OLD_get_price_websocket_level2(self, symbol: str, max_wait_time: int = 2, release_time: datetime = None) -> Optional[float]:
         """
         Get price through WebSocket level2 channel.
         Args:
@@ -470,7 +537,7 @@ async def main():
     testing = True
 
     if testing:
-        symbol = 'SWELL'
+        symbol = 'BTC'
         scraper = Kucoin_websocket_collection()
         
         #release_date_time = datetime(2024, 11, 8, 11, 35, 0) 
@@ -478,7 +545,7 @@ async def main():
 
         try:
 
-            change_data = await scraper.get_price_websocket_best_ask_bid(symbol, max_wait_time=10, release_time=release_date_time)
+            change_data = await scraper.get_price_websocket_match_level3(symbol, max_wait_time=10, release_time=release_date_time)
             if change_data:
                 print(f"Successfully retrieved {symbol} price: {change_data}")
         finally:

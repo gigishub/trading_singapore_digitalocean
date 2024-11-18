@@ -2,6 +2,7 @@ import asyncio
 import logging
 from typing import Dict, List
 from bitget_order_manager import BitgetOrderManager
+import math
 
 # Create a dedicated logger for this module
 logger = logging.getLogger(__name__)
@@ -288,7 +289,7 @@ class BitgetStrategyTrader:
     
 
 
-    async def multiple_buy_orders_percent_dif(self, symbol: str, base_price: float, size: str, num_orders: int, percentage_difference: float, time_in_force: str = "gtc") -> List[Dict]:
+    async def multiple_buy_orders_percent_dif(self, symbol: str, base_price: float, num_orders: int, percentage_difference: float, size_for_testing :int =0,time_in_force: str = "gtc") -> List[Dict]:
         """
         Place multiple limit buy orders concurrently with different prices based on a percentage difference.
 
@@ -303,17 +304,22 @@ class BitgetStrategyTrader:
         Returns:
             List of order results.
         """
+        size, decimal_to_round = self.order_size_and_rounding(base_price)
+        if size_for_testing != 0:
+            size = size_for_testing
+
+
         prices = [
-            str(base_price * (1 + (i * percentage_difference / 100)))
+            str(float(base_price) * (1 + ((i + 1) * percentage_difference / 100)))
             for i in range(num_orders)
         ]
-
+        
         orders = [
             {
-                "symbol": symbol,
+                "symbol": symbol+"USDT",
                 "side": "buy",
-                "price": price,
-                "size": size,
+                "price": round(float(price), decimal_to_round),
+                "size": str(size),
                 "time_in_force": time_in_force
             }
             for price in prices
@@ -329,7 +335,7 @@ class BitgetStrategyTrader:
 
 
 
-    async def multiple_sell_orders_percent_dif(self, symbol: str, base_price: float, size: str, num_orders: int, percentage_difference: float, time_in_force: str = "gtc") -> List[Dict]:
+    async def multiple_sell_orders_percent_dif(self, symbol: str, base_price: float, num_orders: int, percentage_difference: float,size_for_testing :int =0, time_in_force: str = "gtc") -> List[Dict]:
         """
         Place multiple limit sell orders concurrently with different prices based on a percentage difference.
 
@@ -344,28 +350,78 @@ class BitgetStrategyTrader:
         Returns:
             List of order results.
         """
+        size, decimal_to_round = self.order_size_and_rounding(base_price)
+        if size_for_testing != 0:
+            size = size_for_testing
         prices = [
-            str(base_price * (1 + (i * percentage_difference / 100)))
+            str(float(base_price) * (1 + ((i + 1) * percentage_difference / 100)))
             for i in range(num_orders)
         ]
 
         orders = [
             {
-                "symbol": symbol,
+                "symbol": symbol+"USDT",
                 "side": "sell",
-                "price": price,
-                "size": size,
+                "price": round(float(price),decimal_to_round),
+                "size": str(self.adjust_size_for_fees( float(size),0.1,1)),
                 "time_in_force": time_in_force
             }
             for price in prices
         ]
         multi_sell_order_response = await self.trading_client.place_multiple_orders(orders)
-        self.all_sell_orders.extend(multi_sell_order_response)
         for order in multi_sell_order_response:
             if order["success"]:
                 self.all_executed_sell_order_results.append(order)
         
         return multi_sell_order_response
+
+
+
+    def adjust_size_for_fees(self,order_size: float, fee_in_percent: float, decimal_places: int = 2) -> float:
+        """Adjust the original value by subtracting a percentage of it and round down to the specified decimal places."""
+        adjusted_value = order_size * (1 - (fee_in_percent / 100))
+        
+        if order_size > 100:
+            return int(adjusted_value)
+        
+        factor = 10 ** decimal_places 
+        return math.floor(adjusted_value * factor) / factor  # Round down to the specified decimal places
+
+
+
+
+
+
+    def order_size_and_rounding(self,token_price):
+        """Determine order size and decimal rounding based on token price."""
+        size = ''
+        decimal_to_round = 0
+        token_price = float(token_price)
+        if token_price < 0.000009:
+            decimal_to_round = 9
+            size = '1000100'
+        elif token_price < 0.00009:
+            decimal_to_round = 8
+            size = '100100'
+        elif token_price < 0.0009:
+            decimal_to_round = 7
+            size = '10100'
+        elif token_price < 0.009:
+            decimal_to_round = 6
+            size = '1010'
+        elif token_price < 0.09:
+            decimal_to_round = 5
+            size = '110'
+        elif token_price < 0.9:
+            decimal_to_round = 4
+            size = '11'
+        elif token_price < 9:
+            decimal_to_round = 2
+            size = '3'
+        else:
+            decimal_to_round = 1
+            size = '1'
+        return size, decimal_to_round
 
 async def main():
     import json
@@ -378,17 +434,18 @@ async def main():
     api_passphrase = api_creds['api_passphrase']
 
     strategy = BitgetStrategyTrader(api_key, api_secret, api_passphrase)
-
+    symbol = "XRPUSDT"
+    base_price = 0.0232
     # Place multiple buy orders
-    base_buy_price = 30000
-    percentage_difference = 1  # 1%
-    num_buy_orders = 5
+    base_buy_price = base_price
+    percentage_dif_buy = 7.80
+    percent_diff_sell = 7.60  
+    num_buy_orders = 3
     buy_results = await strategy.multiple_buy_orders_percent_dif(
-        symbol="BTCUSDT",
+        symbol=symbol,
         base_price=base_buy_price,
-        size="0.0001",
         num_orders=num_buy_orders,
-        percentage_difference=percentage_difference
+        percentage_difference=percentage_dif_buy
     )
     logger.info(f"Buy Order Results:{json.dumps(buy_results, indent=4)}")
 
@@ -399,13 +456,12 @@ async def main():
 
     if num_successful_buy_orders > 0:
         # Place multiple sell orders based on the number of successful buy orders
-        base_sell_price = 31000
+        base_sell_price = base_price
         sell_results = await strategy.multiple_sell_orders_percent_dif(
-            symbol="BTCUSDT",
+            symbol=symbol,
             base_price=base_sell_price,
-            size="0.0001",
             num_orders=num_successful_buy_orders,
-            percentage_difference=percentage_difference
+            percentage_difference=percent_diff_sell
         )
         logger.info(f"Sell Order Results:{json.dumps(sell_results, indent=4)}")
     else:

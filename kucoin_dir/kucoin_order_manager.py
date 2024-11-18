@@ -97,10 +97,12 @@ class kucoinHForderManager:
             logger.error(f"Request error: {str(e)}")
             raise
 
+
     async def place_limit_buy(self, symbol: str, price: str, size: str, 
                             time_in_force: str = "GTC") -> Dict:
         """Place an async limit buy order"""
         start_time = time.perf_counter()
+        order_sent_time = datetime.now().strftime('%H:%M:%S.%f')[:-3]
         
         try:
             order_data = {
@@ -115,33 +117,49 @@ class kucoinHForderManager:
 
             response = await self._make_request("POST", "/api/v1/hf/orders", order_data)
             execution_time = time.perf_counter() - start_time
+            order_received_time = datetime.now().strftime('%H:%M:%S.%f')[:-3]
             
             if response.get('code') == '200000':
                 return {
                     "success": True,
-                    "execution_time": execution_time,
+                    "execution_time": round(execution_time,5),
                     "limit_buy_price": price,
                     "order_id": response.get('data', {}).get('orderId', 'unknown'),
-
+                    "order_sent_time": order_sent_time,
+                    "order_received_time": order_received_time,
+                    "currency_pair": symbol,
+                    "order_size": size
                 }
             else:
                 return {
                     "success": False,
                     "message": response.get('msg', 'Unknown error'),
-                    "code": response.get('code')
+                    "code": response.get('code'),
+                    "limit_buy_price": price,
+                    "order_sent_time": order_sent_time,
+                    "order_received_time": order_received_time,
+                    "currency_pair": symbol,
+                    "order_size": size
                 }
 
         except Exception as e:
+            order_received_time = datetime.now().strftime('%H:%M:%S.%f')[:-3]
             return {
                 "success": False,
                 "message": str(e),
-                "code": "ERROR"
+                "code": "ERROR",
+                "limit_buy_price": price,
+                "order_sent_time": order_sent_time,
+                "order_received_time": order_received_time,
+                "currency_pair": symbol,
+                "order_size": size
             }
 
     async def place_limit_sell(self, symbol: str, price: str, size: str, 
-                             time_in_force: str = "GTC") -> Dict:
+                            time_in_force: str = "GTC") -> Dict:
         """Place an async limit sell order"""
         start_time = time.perf_counter()
+        order_sent_time = datetime.now().strftime('%H:%M:%S.%f')[:-3]
         
         try:
             order_data = {
@@ -156,29 +174,44 @@ class kucoinHForderManager:
 
             response = await self._make_request("POST", "/api/v1/hf/orders", order_data)
             execution_time = time.perf_counter() - start_time
+            order_received_time = datetime.now().strftime('%H:%M:%S.%f')[:-3]
             
             if response.get('code') == '200000':
                 return {
                     "success": True,
-                    "execution_time": execution_time,
+                    "execution_time": round(execution_time,5),
                     "limit_sell_price": price,
-                    "order_id": response.get('data', {}).get('orderId', 'unknown')
-
+                    "order_id": response.get('data', {}).get('orderId', 'unknown'),
+                    "order_sent_time": order_sent_time,
+                    "order_received_time": order_received_time,
+                    "currency_pair": symbol,
+                    "order_size": size
                 }
             else:
                 return {
                     "success": False,
                     "message": response.get('msg', 'Unknown error'),
-                    "code": response.get('code')
+                    "code": response.get('code'),
+                    "limit_sell_price": price,
+                    "order_sent_time": order_sent_time,
+                    "order_received_time": order_received_time,
+                    "currency_pair": symbol,
+                    "order_size": size
                 }
 
         except Exception as e:
+            order_received_time = datetime.now().strftime('%H:%M:%S.%f')[:-3]
             return {
                 "success": False,
                 "message": str(e),
-                "code": "ERROR"
+                "code": "ERROR",
+                "limit_sell_price": price,
+                "order_sent_time": order_sent_time,
+                "order_received_time": order_received_time,
+                "currency_pair": symbol,
+                "order_size": size
             }
-
+    
     async def place_multiple_orders(self, orders: List[Dict]) -> List[Dict]:
         """Place multiple orders concurrently
         
@@ -250,7 +283,7 @@ async def main():
 
         # Execute multiple orders concurrently
         results = await trader.place_multiple_orders(orders)
-        print("Order Results:", results)
+        print(f"Order Results: {json.dumps(results,indent=4)} ")
 
         # Clean up
         await trader.close()
