@@ -9,7 +9,14 @@ import json
 
 # Configure logging
 
-logging.basicConfig(level=logging.INFO, format='%(levelname)s - %(message)s - %(funcName)s')
+# Configure logging
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+console_handler = logging.StreamHandler()
+formatter = logging.Formatter('%(asctime)s.%(msecs)03d - %(levelname)s - %(message)s - %(funcName)s', datefmt='%H:%M:%S')
+console_handler.setFormatter(formatter)
+logger.addHandler(console_handler)
+logger.propagate = False
 
 def main():
 
@@ -36,34 +43,35 @@ def main():
                         # Retrieve the href attribute
                         href_element = section.query_selector('a')
                         href = href_element.get_attribute('href') if href_element else None
-                        logging.debug(f"Section {counter} is new listing")
+                        logger.debug(f"Section {counter} is new listing")
                         full_url = f"https://www.bitget.com{href}"
                         full_url_list.append(full_url)
 
                 except Exception as e:
-                    logging.error(f'Error processing section {counter}: {e}')
-                    logging.error(section.inner_text())
+                    logger.error(f'Error processing section {counter}: {e}')
+                    logger.error(section.inner_text())
 
             try:
                 # Go through all new listings and get the information
                 for full_url in full_url_list:
                     annpuncement_dict = get_info_from_page(page, full_url)
                     #logging.debug(annpuncement_dict)
-                    logging.debug(f'finished extracting info for {annpuncement_dict["pair"]}')
+                    logger.debug(f'finished extracting info for {annpuncement_dict["pair"]}')
                     # Save the information to a file
                     save_and_updae_data_to_file(path_found_pairs_saved, annpuncement_dict)
-                    logging.debug('------------------------------------')
+                    logger.debug('------------------------------------')
             except Exception as e:
-                logging.error(f"when extracting or saving listing info: {e}")
+                logger.error(f"when extracting or saving listing info: {e}")
 
 
         except Exception as e:
-            logging.error(f"main function error: {e}")
+            logger.error(f"main function error: {e}")
             traceback.print_exc()
 
         finally:
             browser.close()
 
+logger.info('Bitget listing script has finished successfully')
 
 
 def get_info_from_page(page, full_url):
@@ -82,21 +90,21 @@ def get_info_from_page(page, full_url):
         if text_content:
             if 'trading available' in text_content.lower():
                 date_time_string = extract_date_time_string(text_content)
-                logging.debug(f"Extracted date and time: {date_time_string}")
+                logger.debug(f"Extracted date and time: {date_time_string}")
 
             if '/usdt' in text_content.lower():
                 # Extract the trading pair using regular expression
                 match = re.search(r'(\w+)/USDT', text_content)
                 if match:
                     pair = match.group(1) + "USDT"
-                    logging.debug(f"Extracted pair: {pair}")
+                    logger.debug(f"Extracted pair: {pair}")
             
             if not '/usdt' in text_content.lower() and 'spot trading link' in text_content.lower():
                     #seperate pair from the content
                     non_usdt_pair_found = text_content.split(':')[-1].strip()
                     non_usdt_pair_tuple = non_usdt_pair_found.split('/')
                     non_usdt_pair = non_usdt_pair_tuple[0] + non_usdt_pair_tuple[1]
-                    logging.debug(f"Non usdt pair: {non_usdt_pair}")
+                    logger.debug(f"Non usdt pair: {non_usdt_pair}")
 
 
     # Construct the dictionary
@@ -138,15 +146,15 @@ def save_and_updae_data_to_file(path_found_pairs_saved, listing_info):
         # Write the updated dictionary back to the file
         with open(file_path, 'w') as f:
             json.dump(existing_pair_dict, f, indent=4)
-        logging.debug(f"{listing_info['pair']} has been updated.")
+        logger.debug(f"{listing_info['pair']} has been updated.")
 
     elif file_name not in os.listdir(path_found_pairs_saved):
         # Create a new dictionary for the pair
         with open(file_path, 'w') as f:
             json.dump(listing_info, f, indent=4)
-        logging.debug(f"New listing: {listing_info['pair']} has been added.")
+        logger.debug(f"New listing: {listing_info['pair']} has been added.")
     else:
-        logging.debug(f'No changes made to {listing_info["pair"]}')
+        logger.debug(f'No changes made to {listing_info["pair"]}')
     
 
 def extract_date_time_string(text):
@@ -166,7 +174,7 @@ def extract_date_time_string(text):
             return date_time_string
         return None
     except Exception as e:
-        logging.error(f"extracting date and time (check if regex still applies) \n searched string: {text} \nError message: {e}")
+        logger.error(f"extracting date and time (check if regex still applies) \n searched string: {text} \nError message: {e}")
         traceback.print_exc()
         return None
 

@@ -10,20 +10,24 @@ from datetime import datetime, timedelta
 import traceback
 import json
 import re
-from kucoin_websocket_collection import Kucoin_websocket_collection
-from kucoin_order_strategy import KucoinStrategyTrader
+from kucoin_websocket_collectionV6 import KucoinWebsocketlisten
+from kucoin_order_strategyV5 import KucoinStrategyTrader
 from kucoin.exceptions import KucoinAPIException
 
-# Configure logging with microsecond precision and function names
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s.%(msecs)03d - %(levelname)s - %(message)s - %(funcName)s',
-    datefmt='%H:%M:%S'
-)
+# Configure logging
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
+logger.setLevel(logging.DEBUG)
+console_handler = logging.StreamHandler()
+formatter = logging.Formatter('%(asctime)s.%(msecs)03d - %(levelname)s - %(message)s', datefmt='%H:%M:%S')
+console_handler.setFormatter(formatter)
+logger.addHandler(console_handler)
+logger.propagate = False
+
 
 LOCK_FILE = '/tmp/kucoin_trading_match_ws.lock'
+
+# kucoin trading channel match
+# 1,16,31,46 * * * * /root/trading_systems/tradingvenv/bin/python /root/trading_systems/kucoin_dir/kucoin_trading_match_ws.py >> /root/trading_systems/kucoin_dir/cronlogs/kucoin_trading_match_ws.log 2>&1
 
 async def main():
     lock_file = acquire_lock()
@@ -31,20 +35,12 @@ async def main():
         logger.debug("Starting script")
         testing = False  
         directory = '/root/trading_systems/kucoin_dir/new_pair_data_kucoin'
-        testing_time_offset = 2
-        max_wait_time_for_execution = 10  # Time to wait for price
+        testing_time_offset = 3  # Time offset for testing
+        price_increase_buy = 7
+        price_increase_sell = 4
+
+        number_of_orders = 2
         
-        num_buy_order_to_send = 6    # Number of buy orders to send with offset time
-        time_offset_ms = 10
-        # Define different parameter sets for percent_of_price_buy and percent_of_price_sell
-        parameter_sets = [
-            {'percent_of_price_buy': 1.4, 'percent_of_price_sell': 1},
-            {'percent_of_price_buy': 1.3, 'percent_of_price_sell': 0.9},
-            {'percent_of_price_buy': 1.25, 'percent_of_price_sell': 0.8}
-            # Add more parameter sets as needed
-        ]
-        strategies = {}
-        tasks = []
         api_creds_dict = load_credetials()
 
         if not testing:
@@ -59,173 +55,200 @@ async def main():
 
                     if 0 < datetime_to_listing_seconds < 1200:
                         logger.info(f'Detected new pair {new_pair_dict["pair"]} at {new_pair_dict["date_time_string"]}')
+                        logger.info(f"{datetime_to_listing_seconds} until listing sleep {datetime_to_listing_seconds-30}")
+                        await asyncio.sleep(datetime_to_listing_seconds-30)
                         try:
-                            # Initialize the trading strategies before price retrieval
-                            for params in parameter_sets:
-                                # Initialize the trading strategy
-                                strategy = KucoinStrategyTrader(
-                                    api_key=api_creds_dict['api_key'],
-                                    api_secret=api_creds_dict['api_secret'],
-                                    api_passphrase=api_creds_dict['api_passphrase']
+                            symbol = f'{basecoin}-USDT'
+                            # Initialize websocket and strategy trader to save time on release
+                            ws_match = KucoinWebsocketlisten(basecoin, channel='match')
+                            ws_match_task = asyncio.create_task(ws_match.start_websocket())
+                            strategy_object = KucoinStrategyTrader(
+                                api_creds_dict['api_key'],
+                                api_creds_dict['api_secret'],
+                                api_creds_dict['api_passphrase']
                                 )
-                                strategies[f"strategy_{strategy.instance_id}"] = {
-                                    'strategy': strategy,
-                                    'params': params  # Store params for later use
-                                }
+                            
+                            logger.info('Websocket and strategy trader initiated')
 
-                            # Initialize price retrieval from websocket
-                            ws = Kucoin_websocket_collection()
-                            ws_match_channel_response = await ws.get_price_websocket_match_level3(
-                                basecoin,
-                                max_wait_time=max_wait_time_for_execution,
-                                release_time=release_date_time
-                            )
-                            ws_price = float(ws_match_channel_response['price'])
-                            size, decimal_to_round = order_size_and_rounding(ws_price)
 
-                            # Prepare and run strategies after price is retrieved
-                            for strategy_info in strategies.values():
-                                strategy = strategy_info['strategy']
-                                params = strategy_info['params']
-                                percent_of_price_buy = params['percent_of_price_buy']
-                                percent_of_price_sell = params['percent_of_price_sell']
+                            task_trade1 = None
+                            task_trade2 = None
+                            try:
+                                while True:
+                                    try:
+                                        logger.info('waiting for data')
+                                        data = await asyncio.wait_for(ws_match.queue.get(), timeout=1)
+                                        logger.info(json.dumps(data, indent=4))
 
-                                limit_buy_price = round(ws_price * percent_of_price_buy, decimal_to_round)
-                                limit_sell_price = round(ws_price * percent_of_price_sell, decimal_to_round)
+                                        if float(data['price']) > 0:
+                                            if task_trade1 is None:
+                                                logger.info('Creating task 1')
+                                                logger.info(f'Price: {data["price"]}')
+                                                task_trade1 = asyncio.create_task(trade_match(
+                                                    strategy_object,
+                                                    basecoin,
+                                                    data['price'],
+                                                    number_of_orders,
+                                                    price_increase_buy,
+                                                    price_increase_sell
+                                                )) 
+                                                logger.info(f'Task 1 created on price: {data["price"]}')
+                                            elif task_trade2 is None:
+                                                task_trade2 = asyncio.create_task(trade_match(
+                                                    strategy_object,
+                                                    basecoin,
+                                                    data['price'],
+                                                    number_of_orders,
+                                                    price_increase_buy,
+                                                    price_increase_sell
+                                                ))
+                                                logger.info(f'Task 1 created on price: {data["price"]}')
 
-                                # Prepare input parameters
-                                input_params = {
-                                    'symbol': f"{basecoin}-USDT",
-                                    'limit_buy_price': limit_buy_price,
-                                    'limit_sell_price': limit_sell_price,
-                                    'size': size,
-                                    'num_orders': num_buy_order_to_send,
-                                    'time_offset_ms': time_offset_ms,
-                                }
+                                        if datetime.now() > release_date_time + timedelta(seconds=10):
+                                            logger.info('Time to stop')
+                                            break
 
-                                # Run the trading strategy concurrently
-                                task = asyncio.create_task(strategy.multiple_buy_order_offset_time(**input_params))
-                                tasks.append(task)
+                                        if task_trade1 and task_trade2:
+                                            buy_results1, sell_results1 = await task_trade1
+                                            buy_results2, sell_results2 = await task_trade2
+                                            logger.info(f"Buy Order Results 1:\n{json.dumps(buy_results1, indent=4)}")
+                                            logger.info(f"Sell Order Results 1:\n{json.dumps(sell_results1, indent=4)}")
+                                            logger.info(f"Buy Order Results 2:\n{json.dumps(buy_results2, indent=4)}")
+                                            logger.info(f"Sell Order Results 2:\n{json.dumps(sell_results2, indent=4)}")
+                                            break
+
+                                    except asyncio.TimeoutError:
+                                        logger.info('No data in queue')
+
+                            except Exception as e:
+                                logger.error(f"Strategy execution error: {str(e)}")
+                                traceback.print_exc()
+
+                            finally:
+                                # Perform asynchronous cleanup before exiting the main coroutine
+                                if task_trade1:
+                                    task_trade1.cancel()
+                                if task_trade2:
+                                    task_trade2.cancel()
+                                await strategy_object.close_client()
+                                await ws_match.cleanup()
+                                ws_match_task.cancel()
 
                         except Exception as e:
-                            logger.error(f"Strategy execution error: {str(e)}")
+                            logger.error(f"executing strategy: {str(e)}")
                             traceback.print_exc()
-                            continue
-                        finally:
-                            # Cleanup websocket
-                            await ws.cleanup()
 
                         logger.debug('Break after detecting pair')
                         break
-
-            # Wait for all tasks to complete
-            results = await asyncio.gather(*tasks)
-
-            # Access individual return messages
-            for strategy_id, result in zip(strategies.keys(), results):
-                logger.info(f"=========================================")
-                # Print executed buy orders
-                logger.info(f"Executed Buy Orders for {strategy_id}:")
-                for buy_order in result.get("all_executed_buy_orders", []):
-                    logger.info(buy_order)
-                
-                # Print executed sell orders
-                logger.info(f"Executed Sell Orders for {strategy_id}:")
-                for sell_order in result.get("all_executed_sell_orders", []):
-                    logger.info(sell_order)
-                logger.info("=========================================")
-
-            # Cleanup strategies
-            for strategy_info in strategies.values():
-                strategy = strategy_info['strategy']
-                await strategy.close_client()
-
         else:
             # Testing mode
             basecoin = 'XRP'  # Test symbol
             release_date_time = datetime.now() + timedelta(seconds=testing_time_offset)
-            api_creds_dict = load_credetials()
+            release_date_time = release_date_time.replace(microsecond=0)
+            logger.info(f'relese time: {release_date_time}')
+            logger.info(f'Testing mode: {basecoin} at {release_date_time}')
+            logger.info('Initiating websocket and strategy trader')
 
+            # Initialize websocket and strategy trader to save time on release
+            ws_match = KucoinWebsocketlisten(basecoin, channel='match')
+            ws_match_task = asyncio.create_task(ws_match.start_websocket())
+            strategy_object = KucoinStrategyTrader(
+                api_creds_dict['api_key'],
+                api_creds_dict['api_secret'],
+                api_creds_dict['api_passphrase']
+            )
+            logger.info('Websocket and strategy trader initiated')
+
+            sleep_duration = release_date_time.timestamp() - time.time()
+            logger.info(f'Sleeping for {sleep_duration} seconds')
+            await asyncio.sleep(sleep_duration)
+
+            task_trade1 = None
+            task_trade2 = None
             try:
-                # Initialize the trading strategies before price retrieval
-                for params in parameter_sets:
-                    # Initialize the trading strategy
-                    strategy = KucoinStrategyTrader(
-                        api_key=api_creds_dict['api_key'],
-                        api_secret=api_creds_dict['api_secret'],
-                        api_passphrase=api_creds_dict['api_passphrase']
-                    )
-                    strategies[f"strategy_{strategy.instance_id}"] = {
-                        'strategy': strategy,
-                        'params': params  # Store params for later use
-                    }
+                while True:
+                    try:
+                        logger.info('waiting for data')
+                        data = await asyncio.wait_for(ws_match.queue.get(), timeout=1)
+                        logger.info(json.dumps(data, indent=4))
 
-                # Initialize price retrieval from websocket
-                ws = Kucoin_websocket_collection()
-                ws_match_channel_response = await ws.get_price_websocket_match_level3(
-                    basecoin,
-                    max_wait_time=max_wait_time_for_execution,
-                    release_time=release_date_time
-                )
-                ws_price = float(ws_match_channel_response['price'])
-                size, decimal_to_round = order_size_and_rounding(ws_price)
+                        if float(data['price']) > 0:
+                            if task_trade1 is None:
+                                logger.info('Creating task 1')
+                                logger.info(f'Price: {data["price"]}')
+                                task_trade1 = asyncio.create_task(trade_match(
+                                    strategy_object,
+                                    basecoin,
+                                    data['price'],
+                                    number_of_orders,
+                                    price_increase_buy,
+                                    price_increase_sell
+                                )) 
+                                logger.info(f'Task 1 created on price: {data["price"]}')
+                            elif task_trade2 is None:
+                                task_trade2 = asyncio.create_task(trade_match(
+                                    strategy_object,
+                                    basecoin,
+                                    data['price'],
+                                    number_of_orders,
+                                    price_increase_buy,
+                                    price_increase_sell
+                                ))
+                                logger.info(f'Task 2 created on price: {data["price"]}')
 
-                # Prepare and run strategies after price is retrieved
-                for strategy_info in strategies.values():
-                    strategy = strategy_info['strategy']
-                    params = strategy_info['params']
-                    percent_of_price_buy = params['percent_of_price_buy']
-                    percent_of_price_sell = params['percent_of_price_sell']
+                        if datetime.now() > release_date_time + timedelta(seconds=0.1):
+                            logger.info('Timedout data received to late ')
+                            break
 
-                    limit_buy_price = round(ws_price * percent_of_price_buy, decimal_to_round)
-                    limit_sell_price = round(ws_price * percent_of_price_sell, decimal_to_round)
+                        if task_trade1 and task_trade2:
+                            buy_results1, sell_results1 = await task_trade1
+                            buy_results2, sell_results2 = await task_trade2
+                            logger.info(f"Buy Order Results 1:\n{json.dumps(buy_results1, indent=4)}")
+                            logger.info(f"Sell Order Results 1:\n{json.dumps(sell_results1, indent=4)}")
+                            logger.info(f"Buy Order Results 2:\n{json.dumps(buy_results2, indent=4)}")
+                            logger.info(f"Sell Order Results 2:\n{json.dumps(sell_results2, indent=4)}")
+                            break
 
-                    # Prepare input parameters
-                    input_params = {
-                        'symbol': f"{basecoin}-USDT",
-                        'limit_buy_price': limit_buy_price,
-                        'limit_sell_price': limit_sell_price,
-                        'size': size,
-                        'num_orders': num_buy_order_to_send,
-                        'time_offset_ms': time_offset_ms,
-                    }
-
-                    # Run the trading strategy concurrently
-                    task = asyncio.create_task(strategy.multiple_buy_order_offset_time(**input_params))
-                    tasks.append(task)
-
-                # Wait for all tasks to complete
-                results = await asyncio.gather(*tasks)
-
-                # Access individual return messages
-                for strategy_id, result in zip(strategies.keys(), results):
-                    logger.info("=========================================")
-                    # Print executed buy orders
-                    logger.info(f"Executed Buy Orders for {strategy_id}:")
-                    for buy_order in result.get("all_executed_buy_orders", []):
-                        logger.info(buy_order)
-                    
-                    # Print executed sell orders
-                    logger.info(f"Executed Sell Orders for {strategy_id}:")
-                    for sell_order in result.get("all_executed_sell_orders", []):
-                        logger.info(sell_order)
-                    logger.info("=========================================")
-
-                # Cleanup strategies
-                for strategy_info in strategies.values():
-                    strategy = strategy_info['strategy']
-                    await strategy.close_client()
-                
-                # Cleanup websocket
-                await ws.cleanup()
+                    except asyncio.TimeoutError:
+                        logger.info('No data in queue')
 
             except Exception as e:
                 logger.error(f"Strategy execution error: {str(e)}")
                 traceback.print_exc()
 
+            finally:
+                # Perform asynchronous cleanup before exiting the main coroutine
+                if task_trade1:
+                    task_trade1.cancel()
+                if task_trade2:
+                    task_trade2.cancel()
+                await strategy_object.close_client()
+                await ws_match.cleanup()
+                ws_match_task.cancel()
+
     finally:
+        # Synchronous operations after all async tasks are completed
         release_lock(lock_file)
         print(f'{datetime.now()} script finished V5')
+
+
+async def trade_match(strategy_object, symbol, ask_price, number_of_orders, price_increase_buy, price_increase_sell):
+    buy_results = await strategy_object.multiple_buy_orders_percent_dif(
+        symbol=symbol+ '-USDT',
+        base_price=ask_price,
+        num_orders=number_of_orders,
+        percentage_difference= price_increase_buy
+    )
+    sell_results = await strategy_object.multiple_sell_orders_percent_dif(
+        symbol=symbol+ '-USDT',
+        base_price=ask_price,
+        num_orders=number_of_orders,
+        percentage_difference= price_increase_sell
+    )
+
+    return buy_results, sell_results
+
+
 
 
 def acquire_lock():
@@ -315,37 +338,6 @@ def parse_date_time_string(date_time_string):
         except ValueError:
             continue
     return {'error': f"Date time string '{date_time_string}' does not match any known formats"}
-
-def order_size_and_rounding(token_price):
-    """Determine order size and decimal rounding based on token price."""
-    size = ''
-    decimal_to_round = 0
-    token_price = float(token_price)
-    if token_price < 0.000009:
-        decimal_to_round = 9
-        size = '1000100'
-    elif token_price < 0.00009:
-        decimal_to_round = 8
-        size = '100100'
-    elif token_price < 0.0009:
-        decimal_to_round = 7
-        size = '10100'
-    elif token_price < 0.009:
-        decimal_to_round = 6
-        size = '1010'
-    elif token_price < 0.09:
-        decimal_to_round = 5
-        size = '110'
-    elif token_price < 0.9:
-        decimal_to_round = 4
-        size = '11'
-    elif token_price < 9:
-        decimal_to_round = 2
-        size = '1'
-    else:
-        decimal_to_round = 1
-        size = '1'
-    return size, decimal_to_round
 
 if __name__ == '__main__':
     asyncio.run(main())

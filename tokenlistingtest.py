@@ -174,7 +174,7 @@ def main():
     checker = TokenHistoryChecker()
     
     # Example usage
-    symbol =  "BAN"#input("BTC: ").strip()
+    symbol =  "MIGGLESUSDT"#input("BTC: ").strip()
     result = checker.check_token_history(symbol, '2024-11-14')
     
     if result['error']:

@@ -1,0 +1,5942 @@
+[
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280370573",
+      "time_data_received": "12:59:30.6262"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280370916",
+      "time_data_received": "12:59:30.9601"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280371152",
+      "time_data_received": "12:59:31.2116"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280371465",
+      "time_data_received": "12:59:31.5047"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280371788",
+      "time_data_received": "12:59:31.8409"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280372116",
+      "time_data_received": "12:59:32.1803"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280372374",
+      "time_data_received": "12:59:32.4189"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280372700",
+      "time_data_received": "12:59:32.7386"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280372998",
+      "time_data_received": "12:59:33.0439"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280373258",
+      "time_data_received": "12:59:33.2987"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280373563",
+      "time_data_received": "12:59:33.6046"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280373925",
+      "time_data_received": "12:59:33.9753"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280374168",
+      "time_data_received": "12:59:34.2153"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280374503",
+      "time_data_received": "12:59:34.5551"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280374813",
+      "time_data_received": "12:59:34.9161"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280375150",
+      "time_data_received": "12:59:35.1967"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280375415",
+      "time_data_received": "12:59:35.4714"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280375685",
+      "time_data_received": "12:59:35.7489"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280375985",
+      "time_data_received": "12:59:36.0316"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280376313",
+      "time_data_received": "12:59:36.3629"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280376605",
+      "time_data_received": "12:59:36.6532"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280376957",
+      "time_data_received": "12:59:37.0012"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280377240",
+      "time_data_received": "12:59:37.2975"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280377506",
+      "time_data_received": "12:59:37.5495"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280377811",
+      "time_data_received": "12:59:37.8742"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280378080",
+      "time_data_received": "12:59:38.1252"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280378397",
+      "time_data_received": "12:59:38.4390"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280378726",
+      "time_data_received": "12:59:38.7727"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280379017",
+      "time_data_received": "12:59:39.0856"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280379299",
+      "time_data_received": "12:59:39.3443"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280379679",
+      "time_data_received": "12:59:39.7307"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280379967",
+      "time_data_received": "12:59:40.0102"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280380250",
+      "time_data_received": "12:59:40.2918"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280380520",
+      "time_data_received": "12:59:40.5624"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280380832",
+      "time_data_received": "12:59:40.8891"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280381104",
+      "time_data_received": "12:59:41.1739"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280381435",
+      "time_data_received": "12:59:41.4895"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280381733",
+      "time_data_received": "12:59:41.7772"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280382057",
+      "time_data_received": "12:59:42.1181"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280382307",
+      "time_data_received": "12:59:42.3450"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280382611",
+      "time_data_received": "12:59:42.6604"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280382986",
+      "time_data_received": "12:59:43.0318"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280383302",
+      "time_data_received": "12:59:43.3564"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280383575",
+      "time_data_received": "12:59:43.6191"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280383849",
+      "time_data_received": "12:59:43.8868"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280384188",
+      "time_data_received": "12:59:44.2444"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280384496",
+      "time_data_received": "12:59:44.5406"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280384750",
+      "time_data_received": "12:59:44.7967"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280385021",
+      "time_data_received": "12:59:45.0594"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280385405",
+      "time_data_received": "12:59:45.4549"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280385682",
+      "time_data_received": "12:59:45.7290"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280385964",
+      "time_data_received": "12:59:46.0175"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280386263",
+      "time_data_received": "12:59:46.3080"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280386537",
+      "time_data_received": "12:59:46.5802"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280386910",
+      "time_data_received": "12:59:46.9557"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280387134",
+      "time_data_received": "12:59:47.1753"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280387475",
+      "time_data_received": "12:59:47.5239"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280387741",
+      "time_data_received": "12:59:47.7814"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280388074",
+      "time_data_received": "12:59:48.1269"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280388329",
+      "time_data_received": "12:59:48.3668"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280388681",
+      "time_data_received": "12:59:48.7306"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280389024",
+      "time_data_received": "12:59:49.0839"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280389217",
+      "time_data_received": "12:59:49.2592"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280389613",
+      "time_data_received": "12:59:49.6621"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280389858",
+      "time_data_received": "12:59:49.9044"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280390189",
+      "time_data_received": "12:59:50.2356"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280390529",
+      "time_data_received": "12:59:50.5749"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280390777",
+      "time_data_received": "12:59:50.8252"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280391115",
+      "time_data_received": "12:59:51.1667"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280391363",
+      "time_data_received": "12:59:51.4266"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280391709",
+      "time_data_received": "12:59:51.7532"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280391975",
+      "time_data_received": "12:59:52.0310"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280392275",
+      "time_data_received": "12:59:52.3195"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280392630",
+      "time_data_received": "12:59:52.6874"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280392875",
+      "time_data_received": "12:59:52.9143"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280393163",
+      "time_data_received": "12:59:53.2109"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280393499",
+      "time_data_received": "12:59:53.5384"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280393829",
+      "time_data_received": "12:59:53.8787"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280394081",
+      "time_data_received": "12:59:54.1202"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280394398",
+      "time_data_received": "12:59:54.4485"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280394669",
+      "time_data_received": "12:59:54.7122"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280394970",
+      "time_data_received": "12:59:55.0103"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280395327",
+      "time_data_received": "12:59:55.3730"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280395574",
+      "time_data_received": "12:59:55.6249"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280395936",
+      "time_data_received": "12:59:55.9850"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280396192",
+      "time_data_received": "12:59:56.2347"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280396522",
+      "time_data_received": "12:59:56.5722"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280396790",
+      "time_data_received": "12:59:56.8383"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280397109",
+      "time_data_received": "12:59:57.1568"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280397395",
+      "time_data_received": "12:59:57.4414"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280397707",
+      "time_data_received": "12:59:57.7509"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280397977",
+      "time_data_received": "12:59:58.0167"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280398300",
+      "time_data_received": "12:59:58.3398"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280398658",
+      "time_data_received": "12:59:58.7152"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280398916",
+      "time_data_received": "12:59:58.9581"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280399193",
+      "time_data_received": "12:59:59.2324"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280399531",
+      "time_data_received": "12:59:59.5795"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.119759",
+      "askPr": "0.120241",
+      "bidSz": "583.92",
+      "askSz": "582.76",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.000000",
+      "changeUtc24h": "0",
+      "ts": "1732280399820",
+      "time_data_received": "12:59:59.8623"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.018",
+      "open24h": "0.0005",
+      "high24h": "0.0199",
+      "low24h": "0.0005",
+      "change24h": "35.00000",
+      "bidPr": "0.015",
+      "askPr": "0.016",
+      "bidSz": "629005.9",
+      "askSz": "5730.09",
+      "baseVolume": "49332.12",
+      "quoteVolume": "739.97",
+      "openUtc": "0.000500",
+      "changeUtc24h": "38.80000",
+      "ts": "1732280400408",
+      "time_data_received": "13:00:00.4652"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.02",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "39.00000",
+      "bidPr": "0.0154",
+      "askPr": "0.022",
+      "bidSz": "1489.08",
+      "askSz": "9058.56",
+      "baseVolume": "215235.08",
+      "quoteVolume": "3971.89",
+      "openUtc": "0.000500",
+      "changeUtc24h": "39.00000",
+      "ts": "1732280400527",
+      "time_data_received": "13:00:00.5879"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.022",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "43.00000",
+      "bidPr": "0.015304",
+      "askPr": "0.022",
+      "bidSz": "15683.75",
+      "askSz": "6518.15",
+      "baseVolume": "475031.09",
+      "quoteVolume": "8635.83",
+      "openUtc": "0.000500",
+      "changeUtc24h": "39.00000",
+      "ts": "1732280400727",
+      "time_data_received": "13:00:00.7829"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.015002",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "29.00400",
+      "bidPr": "0.015002",
+      "askPr": "0.016816",
+      "bidSz": "10658.25",
+      "askSz": "892.83",
+      "baseVolume": "475031.09",
+      "quoteVolume": "8635.83",
+      "openUtc": "0.000500",
+      "changeUtc24h": "39.00000",
+      "ts": "1732280401020",
+      "time_data_received": "13:00:01.0653"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.01521",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "29.42000",
+      "bidPr": "0.014001",
+      "askPr": "0.01521",
+      "bidSz": "961.5",
+      "askSz": "271.43",
+      "baseVolume": "2063973.81",
+      "quoteVolume": "32773.64",
+      "openUtc": "0.000500",
+      "changeUtc24h": "27.00200",
+      "ts": "1732280401340",
+      "time_data_received": "13:00:01.3867"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.017412",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "33.82400",
+      "bidPr": "0.016145",
+      "askPr": "0.017412",
+      "bidSz": "927.61",
+      "askSz": "688.16",
+      "baseVolume": "3322461.88",
+      "quoteVolume": "53905.47",
+      "openUtc": "0.000500",
+      "changeUtc24h": "35.33800",
+      "ts": "1732280401675",
+      "time_data_received": "13:00:01.7158"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.016932",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "32.86400",
+      "bidPr": "0.016265",
+      "askPr": "0.016932",
+      "bidSz": "26648.81",
+      "askSz": "688.5",
+      "baseVolume": "4358786.39",
+      "quoteVolume": "71876.91",
+      "openUtc": "0.000500",
+      "changeUtc24h": "33.03400",
+      "ts": "1732280402023",
+      "time_data_received": "13:00:02.0990"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.016796",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "32.59200",
+      "bidPr": "0.016302",
+      "askPr": "0.016796",
+      "bidSz": "4220.49",
+      "askSz": "115.33",
+      "baseVolume": "4358786.39",
+      "quoteVolume": "71876.91",
+      "openUtc": "0.000500",
+      "changeUtc24h": "33.03400",
+      "ts": "1732280402225",
+      "time_data_received": "13:00:02.2806"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.017017",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "33.03400",
+      "bidPr": "0.016299",
+      "askPr": "0.017017",
+      "bidSz": "1598.53",
+      "askSz": "5.68",
+      "baseVolume": "4869990.84",
+      "quoteVolume": "80486.24",
+      "openUtc": "0.000500",
+      "changeUtc24h": "33.03400",
+      "ts": "1732280402580",
+      "time_data_received": "13:00:02.6281"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.016954",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "32.90800",
+      "bidPr": "0.016276",
+      "askPr": "0.016954",
+      "bidSz": "14004.27",
+      "askSz": "1863.22",
+      "baseVolume": "5373307.68",
+      "quoteVolume": "89041.51",
+      "openUtc": "0.000500",
+      "changeUtc24h": "32.63000",
+      "ts": "1732280402849",
+      "time_data_received": "13:00:02.9076"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.018",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "35.00000",
+      "bidPr": "0.016796",
+      "askPr": "0.018",
+      "bidSz": "317.14",
+      "askSz": "16190.33",
+      "baseVolume": "6715348.15",
+      "quoteVolume": "112115.15",
+      "openUtc": "0.000500",
+      "changeUtc24h": "35.00000",
+      "ts": "1732280403221",
+      "time_data_received": "13:00:03.3194"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.017596",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "34.19200",
+      "bidPr": "0.016765",
+      "askPr": "0.017596",
+      "bidSz": "2069.21",
+      "askSz": "36.63",
+      "baseVolume": "7332442.69",
+      "quoteVolume": "122407.82",
+      "openUtc": "0.000500",
+      "changeUtc24h": "33.71600",
+      "ts": "1732280403459",
+      "time_data_received": "13:00:03.5071"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.015001",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "29.00200",
+      "bidPr": "0.014923",
+      "askPr": "0.015001",
+      "bidSz": "9311.25",
+      "askSz": "8471.79",
+      "baseVolume": "8201573.25",
+      "quoteVolume": "137117.2",
+      "openUtc": "0.000500",
+      "changeUtc24h": "29.00200",
+      "ts": "1732280403803",
+      "time_data_received": "13:00:03.8886"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.016",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "31.00000",
+      "bidPr": "0.01521",
+      "askPr": "0.016",
+      "bidSz": "1467.79",
+      "askSz": "2192.71",
+      "baseVolume": "8882240.91",
+      "quoteVolume": "146404.68",
+      "openUtc": "0.000500",
+      "changeUtc24h": "31.00000",
+      "ts": "1732280404051",
+      "time_data_received": "13:00:04.1083"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.016302",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "31.60400",
+      "bidPr": "0.014749",
+      "askPr": "0.016302",
+      "bidSz": "339.02",
+      "askSz": "12704.35",
+      "baseVolume": "8882240.91",
+      "quoteVolume": "146404.68",
+      "openUtc": "0.000500",
+      "changeUtc24h": "31.00000",
+      "ts": "1732280404375",
+      "time_data_received": "13:00:04.4380"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.016767",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "32.53400",
+      "bidPr": "0.015991",
+      "askPr": "0.016767",
+      "bidSz": "2010.97",
+      "askSz": "6774.97",
+      "baseVolume": "9747471.99",
+      "quoteVolume": "159412.75",
+      "openUtc": "0.000500",
+      "changeUtc24h": "30.98200",
+      "ts": "1732280404706",
+      "time_data_received": "13:00:04.7811"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.016767",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "32.53400",
+      "bidPr": "0.015005",
+      "askPr": "0.016767",
+      "bidSz": "811.06",
+      "askSz": "4092.1",
+      "baseVolume": "9747471.99",
+      "quoteVolume": "159412.75",
+      "openUtc": "0.000500",
+      "changeUtc24h": "30.98200",
+      "ts": "1732280404978",
+      "time_data_received": "13:00:05.0368"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.014569",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "28.13800",
+      "bidPr": "0.013302",
+      "askPr": "0.015991",
+      "bidSz": "9036.68",
+      "askSz": "1918.94",
+      "baseVolume": "10942681.57",
+      "quoteVolume": "177471.7",
+      "openUtc": "0.000500",
+      "changeUtc24h": "29.01200",
+      "ts": "1732280405299",
+      "time_data_received": "13:00:05.4947"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.015992",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "30.98400",
+      "bidPr": "0.01552",
+      "askPr": "0.015992",
+      "bidSz": "1778.37",
+      "askSz": "4018.61",
+      "baseVolume": "11547910.73",
+      "quoteVolume": "186630.6",
+      "openUtc": "0.000500",
+      "changeUtc24h": "30.98400",
+      "ts": "1732280405601",
+      "time_data_received": "13:00:05.7743"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.016668",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "32.33600",
+      "bidPr": "0.016249",
+      "askPr": "0.016668",
+      "bidSz": "9841.3",
+      "askSz": "5524.41",
+      "baseVolume": "11547910.73",
+      "quoteVolume": "186630.6",
+      "openUtc": "0.000500",
+      "changeUtc24h": "30.98400",
+      "ts": "1732280405886",
+      "time_data_received": "13:00:05.9777"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.015145",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "29.29000",
+      "bidPr": "0.015001",
+      "askPr": "0.015145",
+      "bidSz": "14188.24",
+      "askSz": "1249.87",
+      "baseVolume": "13076568.49",
+      "quoteVolume": "209479.36",
+      "openUtc": "0.000500",
+      "changeUtc24h": "29.29000",
+      "ts": "1732280406214",
+      "time_data_received": "13:00:06.2820"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.015268",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "29.53600",
+      "bidPr": "0.013792",
+      "askPr": "0.015202",
+      "bidSz": "725.05",
+      "askSz": "5260.71",
+      "baseVolume": "13076568.49",
+      "quoteVolume": "209479.36",
+      "openUtc": "0.000500",
+      "changeUtc24h": "29.29000",
+      "ts": "1732280406440",
+      "time_data_received": "13:00:06.4790"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.014898",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "28.79600",
+      "bidPr": "0.013801",
+      "askPr": "0.014898",
+      "bidSz": "791.11",
+      "askSz": "1180.4",
+      "baseVolume": "14122237.75",
+      "quoteVolume": "224613.51",
+      "openUtc": "0.000500",
+      "changeUtc24h": "28.79600",
+      "ts": "1732280406796",
+      "time_data_received": "13:00:06.8349"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.014235",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "27.47000",
+      "bidPr": "0.013802",
+      "askPr": "0.014235",
+      "bidSz": "724.53",
+      "askSz": "598.09",
+      "baseVolume": "14728531.93",
+      "quoteVolume": "232852.57",
+      "openUtc": "0.000500",
+      "changeUtc24h": "27.45800",
+      "ts": "1732280407063",
+      "time_data_received": "13:00:07.1277"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013503",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "26.00600",
+      "bidPr": "0.013408",
+      "askPr": "0.013503",
+      "bidSz": "14725.37",
+      "askSz": "2148.22",
+      "baseVolume": "15595041.17",
+      "quoteVolume": "244163.99",
+      "openUtc": "0.000500",
+      "changeUtc24h": "26.03600",
+      "ts": "1732280407386",
+      "time_data_received": "13:00:07.4458"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013519",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "26.03800",
+      "bidPr": "0.013503",
+      "askPr": "0.013519",
+      "bidSz": "1119.59",
+      "askSz": "27664.57",
+      "baseVolume": "15595041.17",
+      "quoteVolume": "244163.99",
+      "openUtc": "0.000500",
+      "changeUtc24h": "26.03600",
+      "ts": "1732280407679",
+      "time_data_received": "13:00:07.7256"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013503",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "26.00600",
+      "bidPr": "0.012525",
+      "askPr": "0.013503",
+      "bidSz": "39920.15",
+      "askSz": "13587.79",
+      "baseVolume": "17040961.67",
+      "quoteVolume": "263058.21",
+      "openUtc": "0.000500",
+      "changeUtc24h": "28.13800",
+      "ts": "1732280408037",
+      "time_data_received": "13:00:08.0813"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.01225",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "23.50000",
+      "bidPr": "0.012526",
+      "askPr": "0.01272",
+      "bidSz": "7922.95",
+      "askSz": "40248.96",
+      "baseVolume": "17328403.62",
+      "quoteVolume": "266735.48",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.44000",
+      "ts": "1732280408374",
+      "time_data_received": "13:00:08.4201"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.015",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "29.00000",
+      "bidPr": "0.01385",
+      "askPr": "0.015",
+      "bidSz": "1921.55",
+      "askSz": "6285.84",
+      "baseVolume": "17797716.72",
+      "quoteVolume": "273043.17",
+      "openUtc": "0.000500",
+      "changeUtc24h": "26.41200",
+      "ts": "1732280408606",
+      "time_data_received": "13:00:08.6457"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.0135",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "26.00000",
+      "bidPr": "0.012579",
+      "askPr": "0.0135",
+      "bidSz": "8801.36",
+      "askSz": "124.5",
+      "baseVolume": "18245713",
+      "quoteVolume": "279178.22",
+      "openUtc": "0.000500",
+      "changeUtc24h": "29.30000",
+      "ts": "1732280408968",
+      "time_data_received": "13:00:09.0157"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.015646",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "30.29200",
+      "bidPr": "0.013504",
+      "askPr": "0.015646",
+      "bidSz": "4718.37",
+      "askSz": "860.46",
+      "baseVolume": "18245713",
+      "quoteVolume": "279178.22",
+      "openUtc": "0.000500",
+      "changeUtc24h": "29.30000",
+      "ts": "1732280409231",
+      "time_data_received": "13:00:09.2832"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.014868",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "28.73600",
+      "bidPr": "0.013505",
+      "askPr": "0.014868",
+      "bidSz": "12247.01",
+      "askSz": "536.48",
+      "baseVolume": "18718482.68",
+      "quoteVolume": "285885.15",
+      "openUtc": "0.000500",
+      "changeUtc24h": "29.97400",
+      "ts": "1732280409489",
+      "time_data_received": "13:00:09.5313"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.014175",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "27.35000",
+      "bidPr": "0.0126",
+      "askPr": "0.014175",
+      "bidSz": "3968.25",
+      "askSz": "330219.03",
+      "baseVolume": "19010919.12",
+      "quoteVolume": "289995.01",
+      "openUtc": "0.000500",
+      "changeUtc24h": "26.00000",
+      "ts": "1732280409783",
+      "time_data_received": "13:00:09.8268"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012731",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.46200",
+      "bidPr": "0.012604",
+      "askPr": "0.012731",
+      "bidSz": "15867.97",
+      "askSz": "7353.57",
+      "baseVolume": "19667298.69",
+      "quoteVolume": "299157.19",
+      "openUtc": "0.000500",
+      "changeUtc24h": "27.35400",
+      "ts": "1732280410161",
+      "time_data_received": "13:00:10.2207"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.014214",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "27.42800",
+      "bidPr": "0.012701",
+      "askPr": "0.012732",
+      "bidSz": "7715.92",
+      "askSz": "3045.04",
+      "baseVolume": "20363894.28",
+      "quoteVolume": "309250.39",
+      "openUtc": "0.000500",
+      "changeUtc24h": "29.00400",
+      "ts": "1732280410397",
+      "time_data_received": "13:00:10.4444"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013012",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.02400",
+      "bidPr": "0.013011",
+      "askPr": "0.015647",
+      "bidSz": "821.69",
+      "askSz": "3174.95",
+      "baseVolume": "21168357.21",
+      "quoteVolume": "320768.15",
+      "openUtc": "0.000500",
+      "changeUtc24h": "30.30000",
+      "ts": "1732280410802",
+      "time_data_received": "13:00:10.8442"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013341",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.68200",
+      "bidPr": "0.011777",
+      "askPr": "0.013341",
+      "bidSz": "1676.52",
+      "askSz": "509.15",
+      "baseVolume": "21168357.21",
+      "quoteVolume": "320768.15",
+      "openUtc": "0.000500",
+      "changeUtc24h": "30.30000",
+      "ts": "1732280410951",
+      "time_data_received": "13:00:11.0039"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.010124",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "19.24800",
+      "bidPr": "0.009",
+      "askPr": "0.010124",
+      "bidSz": "86502.59",
+      "askSz": "752.35",
+      "baseVolume": "24396018.74",
+      "quoteVolume": "358101.56",
+      "openUtc": "0.000500",
+      "changeUtc24h": "19.24800",
+      "ts": "1732280411359",
+      "time_data_received": "13:00:11.4076"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.016",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "31.00000",
+      "bidPr": "0.015515",
+      "askPr": "0.016",
+      "bidSz": "958.34",
+      "askSz": "10374.52",
+      "baseVolume": "25035210.37",
+      "quoteVolume": "366057.59",
+      "openUtc": "0.000500",
+      "changeUtc24h": "29.25200",
+      "ts": "1732280411657",
+      "time_data_received": "13:00:11.6992"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.01238",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "23.76000",
+      "bidPr": "0.01238",
+      "askPr": "0.0136",
+      "bidSz": "9442.71",
+      "askSz": "218058.35",
+      "baseVolume": "25035210.37",
+      "quoteVolume": "366057.59",
+      "openUtc": "0.000500",
+      "changeUtc24h": "29.25200",
+      "ts": "1732280411884",
+      "time_data_received": "13:00:11.9366"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.015131",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "29.26200",
+      "bidPr": "0.015131",
+      "askPr": "0.015993",
+      "bidSz": "1181.81",
+      "askSz": "10571.35",
+      "baseVolume": "25937768.17",
+      "quoteVolume": "378239.41",
+      "openUtc": "0.000500",
+      "changeUtc24h": "30.90200",
+      "ts": "1732280412263",
+      "time_data_received": "13:00:12.3270"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.015046",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "29.09200",
+      "bidPr": "0.015046",
+      "askPr": "0.015436",
+      "bidSz": "14965.03",
+      "askSz": "3192.87",
+      "baseVolume": "26066031.73",
+      "quoteVolume": "380173.62",
+      "openUtc": "0.000500",
+      "changeUtc24h": "29.09200",
+      "ts": "1732280412491",
+      "time_data_received": "13:00:12.5449"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.015186",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "29.37200",
+      "bidPr": "0.014804",
+      "askPr": "0.015186",
+      "bidSz": "471.38",
+      "askSz": "5749.05",
+      "baseVolume": "26662907.1",
+      "quoteVolume": "388421.38",
+      "openUtc": "0.000500",
+      "changeUtc24h": "29.30400",
+      "ts": "1732280412842",
+      "time_data_received": "13:00:12.8972"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.01476",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "28.52000",
+      "bidPr": "0.014396",
+      "askPr": "0.01476",
+      "bidSz": "17644.66",
+      "askSz": "40657.34",
+      "baseVolume": "26958088.36",
+      "quoteVolume": "392662.84",
+      "openUtc": "0.000500",
+      "changeUtc24h": "28.52000",
+      "ts": "1732280413152",
+      "time_data_received": "13:00:13.2143"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.014036",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "27.07200",
+      "bidPr": "0.014036",
+      "askPr": "0.014453",
+      "bidSz": "771.62",
+      "askSz": "345.95",
+      "baseVolume": "26958088.36",
+      "quoteVolume": "392662.84",
+      "openUtc": "0.000500",
+      "changeUtc24h": "28.52000",
+      "ts": "1732280413419",
+      "time_data_received": "13:00:13.4647"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.014104",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "27.20800",
+      "bidPr": "0.013519",
+      "askPr": "0.014104",
+      "bidSz": "44587.48",
+      "askSz": "26.72",
+      "baseVolume": "27503170.2",
+      "quoteVolume": "400441.33",
+      "openUtc": "0.000500",
+      "changeUtc24h": "26.65600",
+      "ts": "1732280413708",
+      "time_data_received": "13:00:13.7476"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013338",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.67600",
+      "bidPr": "0.013338",
+      "askPr": "0.014004",
+      "bidSz": "23349.28",
+      "askSz": "11322.35",
+      "baseVolume": "27675473.96",
+      "quoteVolume": "402811.85",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.67600",
+      "ts": "1732280414071",
+      "time_data_received": "13:00:14.1397"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013112",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.22400",
+      "bidPr": "0.013112",
+      "askPr": "0.0134",
+      "bidSz": "6558.29",
+      "askSz": "48513.64",
+      "baseVolume": "28063563.8",
+      "quoteVolume": "408091.38",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.80000",
+      "ts": "1732280414399",
+      "time_data_received": "13:00:14.4479"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.0134",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.80000",
+      "bidPr": "0.01284",
+      "askPr": "0.0134",
+      "bidSz": "21828.59",
+      "askSz": "37881.31",
+      "baseVolume": "28063563.8",
+      "quoteVolume": "408091.38",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.80000",
+      "ts": "1732280414601",
+      "time_data_received": "13:00:14.6426"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.01328",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.56000",
+      "bidPr": "0.01328",
+      "askPr": "0.013339",
+      "bidSz": "10758.07",
+      "askSz": "4870.79",
+      "baseVolume": "28544196.99",
+      "quoteVolume": "414725.51",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.68000",
+      "ts": "1732280414942",
+      "time_data_received": "13:00:14.9831"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.015049",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "29.09800",
+      "bidPr": "0.014848",
+      "askPr": "0.015049",
+      "bidSz": "350816",
+      "askSz": "1919.07",
+      "baseVolume": "28747329.16",
+      "quoteVolume": "417651.31",
+      "openUtc": "0.000500",
+      "changeUtc24h": "29.09800",
+      "ts": "1732280415273",
+      "time_data_received": "13:00:15.3227"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.014205",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "27.41000",
+      "bidPr": "0.0143",
+      "askPr": "0.014618",
+      "bidSz": "873.93",
+      "askSz": "1687.95",
+      "baseVolume": "28921405.48",
+      "quoteVolume": "420187.22",
+      "openUtc": "0.000500",
+      "changeUtc24h": "28.20400",
+      "ts": "1732280415572",
+      "time_data_received": "13:00:15.6164"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.014012",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "27.02400",
+      "bidPr": "0.014012",
+      "askPr": "0.01414",
+      "bidSz": "519.63",
+      "askSz": "15022.55",
+      "baseVolume": "29054792.4",
+      "quoteVolume": "422077.28",
+      "openUtc": "0.000500",
+      "changeUtc24h": "27.28000",
+      "ts": "1732280415884",
+      "time_data_received": "13:00:15.9301"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.014191",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "27.38200",
+      "bidPr": "0.01403",
+      "askPr": "0.014191",
+      "bidSz": "665.11",
+      "askSz": "2146.73",
+      "baseVolume": "29114281.44",
+      "quoteVolume": "422913.07",
+      "openUtc": "0.000500",
+      "changeUtc24h": "27.38400",
+      "ts": "1732280416152",
+      "time_data_received": "13:00:16.1993"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.014",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "27.00000",
+      "bidPr": "0.014",
+      "askPr": "0.014048",
+      "bidSz": "5409.56",
+      "askSz": "1200.61",
+      "baseVolume": "29216534.49",
+      "quoteVolume": "424347.6",
+      "openUtc": "0.000500",
+      "changeUtc24h": "27.38400",
+      "ts": "1732280416423",
+      "time_data_received": "13:00:16.4754"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.014192",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "27.38400",
+      "bidPr": "0.013848",
+      "askPr": "0.014192",
+      "bidSz": "2363.66",
+      "askSz": "19910.33",
+      "baseVolume": "29216534.49",
+      "quoteVolume": "424347.6",
+      "openUtc": "0.000500",
+      "changeUtc24h": "27.38400",
+      "ts": "1732280416726",
+      "time_data_received": "13:00:16.7656"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013645",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "26.29000",
+      "bidPr": "0.013534",
+      "askPr": "0.013645",
+      "bidSz": "1486.94",
+      "askSz": "2311.11",
+      "baseVolume": "29470150.36",
+      "quoteVolume": "427815.88",
+      "openUtc": "0.000500",
+      "changeUtc24h": "26.42600",
+      "ts": "1732280417030",
+      "time_data_received": "13:00:17.1003"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.01352",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "26.04000",
+      "bidPr": "0.01352",
+      "askPr": "0.013669",
+      "bidSz": "341690.77",
+      "askSz": "904.02",
+      "baseVolume": "29470150.36",
+      "quoteVolume": "427815.88",
+      "openUtc": "0.000500",
+      "changeUtc24h": "26.42600",
+      "ts": "1732280417366",
+      "time_data_received": "13:00:17.4074"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013685",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "26.37000",
+      "bidPr": "0.013533",
+      "askPr": "0.013685",
+      "bidSz": "2506.41",
+      "askSz": "16984.2",
+      "baseVolume": "29602128.94",
+      "quoteVolume": "429614.29",
+      "openUtc": "0.000500",
+      "changeUtc24h": "26.04000",
+      "ts": "1732280417633",
+      "time_data_received": "13:00:17.6888"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.01352",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "26.04000",
+      "bidPr": "0.01352",
+      "askPr": "0.01373",
+      "bidSz": "146345.26",
+      "askSz": "27224.78",
+      "baseVolume": "29837918.93",
+      "quoteVolume": "432810.07",
+      "openUtc": "0.000500",
+      "changeUtc24h": "26.04000",
+      "ts": "1732280417989",
+      "time_data_received": "13:00:18.0412"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.01352",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "26.04000",
+      "bidPr": "0.01352",
+      "askPr": "0.013803",
+      "bidSz": "101376.19",
+      "askSz": "15631.05",
+      "baseVolume": "30052864.4",
+      "quoteVolume": "435783.62",
+      "openUtc": "0.000500",
+      "changeUtc24h": "26.04000",
+      "ts": "1732280418241",
+      "time_data_received": "13:00:18.2959"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013522",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "26.04400",
+      "bidPr": "0.013522",
+      "askPr": "0.014",
+      "bidSz": "7787.01",
+      "askSz": "72063.44",
+      "baseVolume": "30286312.29",
+      "quoteVolume": "438939.6",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.47000",
+      "ts": "1732280418531",
+      "time_data_received": "13:00:18.5852"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.01352",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "26.04000",
+      "bidPr": "0.01352",
+      "askPr": "0.01373",
+      "bidSz": "146345.26",
+      "askSz": "27224.78",
+      "baseVolume": "30363508.12",
+      "quoteVolume": "439960.2",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.47200",
+      "ts": "1732280418831",
+      "time_data_received": "13:00:18.8961"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.01256",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.12000",
+      "bidPr": "0.01256",
+      "askPr": "0.014362",
+      "bidSz": "1416.13",
+      "askSz": "6464.12",
+      "baseVolume": "30824130.09",
+      "quoteVolume": "446244.31",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.51200",
+      "ts": "1732280419206",
+      "time_data_received": "13:00:19.2619"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.014363",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "27.72600",
+      "bidPr": "0.013756",
+      "askPr": "0.014363",
+      "bidSz": "77.49",
+      "askSz": "14473.42",
+      "baseVolume": "30855658.45",
+      "quoteVolume": "446677.32",
+      "openUtc": "0.000500",
+      "changeUtc24h": "26.27200",
+      "ts": "1732280419431",
+      "time_data_received": "13:00:19.4856"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013654",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "26.30800",
+      "bidPr": "0.013654",
+      "askPr": "0.013857",
+      "bidSz": "8911.08",
+      "askSz": "281.25",
+      "baseVolume": "30855658.45",
+      "quoteVolume": "446677.32",
+      "openUtc": "0.000500",
+      "changeUtc24h": "26.27200",
+      "ts": "1732280419717",
+      "time_data_received": "13:00:19.7629"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013533",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "26.06600",
+      "bidPr": "0.013533",
+      "askPr": "0.013844",
+      "bidSz": "5322.44",
+      "askSz": "11374.73",
+      "baseVolume": "31077675.21",
+      "quoteVolume": "449783.81",
+      "openUtc": "0.000500",
+      "changeUtc24h": "26.70600",
+      "ts": "1732280420089",
+      "time_data_received": "13:00:20.1377"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013548",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "26.09600",
+      "bidPr": "0.013548",
+      "askPr": "0.014012",
+      "bidSz": "348.08",
+      "askSz": "10577.74",
+      "baseVolume": "31183092.01",
+      "quoteVolume": "451234.15",
+      "openUtc": "0.000500",
+      "changeUtc24h": "26.06800",
+      "ts": "1732280420436",
+      "time_data_received": "13:00:20.4828"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013444",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.88800",
+      "bidPr": "0.013444",
+      "askPr": "0.013858",
+      "bidSz": "11667.19",
+      "askSz": "12183.21",
+      "baseVolume": "31486082.85",
+      "quoteVolume": "455279.58",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.90000",
+      "ts": "1732280420696",
+      "time_data_received": "13:00:20.7474"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012601",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.20200",
+      "bidPr": "0.012952",
+      "askPr": "0.013124",
+      "bidSz": "5951.01",
+      "askSz": "19487.32",
+      "baseVolume": "31486082.85",
+      "quoteVolume": "455279.58",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.90000",
+      "ts": "1732280421105",
+      "time_data_received": "13:00:21.1454"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.00000",
+      "bidPr": "0.013",
+      "askPr": "0.01386",
+      "bidSz": "152299.68",
+      "askSz": "4375",
+      "baseVolume": "31773761.8",
+      "quoteVolume": "459095.49",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.00000",
+      "ts": "1732280421273",
+      "time_data_received": "13:00:21.3293"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.00000",
+      "bidPr": "0.013",
+      "askPr": "0.013049",
+      "bidSz": "35008.59",
+      "askSz": "1671.14",
+      "baseVolume": "31828655.61",
+      "quoteVolume": "459810.4",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.00000",
+      "ts": "1732280421553",
+      "time_data_received": "13:00:21.5956"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.01275",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.50000",
+      "bidPr": "0.012502",
+      "askPr": "0.01275",
+      "bidSz": "3108.72",
+      "askSz": "713.74",
+      "baseVolume": "32497688.78",
+      "quoteVolume": "468503.69",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.13000",
+      "ts": "1732280421862",
+      "time_data_received": "13:00:21.9046"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012638",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.27600",
+      "bidPr": "0.0125",
+      "askPr": "0.012638",
+      "bidSz": "30938.87",
+      "askSz": "19960.64",
+      "baseVolume": "33140329.3",
+      "quoteVolume": "476742.2",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.23600",
+      "ts": "1732280422180",
+      "time_data_received": "13:00:22.2272"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013477",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.95400",
+      "bidPr": "0.012502",
+      "askPr": "0.013477",
+      "bidSz": "25935.97",
+      "askSz": "1652.57",
+      "baseVolume": "33140329.3",
+      "quoteVolume": "476742.2",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.23600",
+      "ts": "1732280422472",
+      "time_data_received": "13:00:22.5236"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013533",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "26.06600",
+      "bidPr": "0.012013",
+      "askPr": "0.013533",
+      "bidSz": "21408.94",
+      "askSz": "5266.17",
+      "baseVolume": "33649125.05",
+      "quoteVolume": "483055.31",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.36800",
+      "ts": "1732280422767",
+      "time_data_received": "13:00:22.8270"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012763",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.52600",
+      "bidPr": "0.012763",
+      "askPr": "0.013654",
+      "bidSz": "45072.73",
+      "askSz": "7379.84",
+      "baseVolume": "33856096.54",
+      "quoteVolume": "485736.65",
+      "openUtc": "0.000500",
+      "changeUtc24h": "26.30800",
+      "ts": "1732280423130",
+      "time_data_received": "13:00:23.2027"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.00000",
+      "bidPr": "0.012764",
+      "askPr": "0.013",
+      "bidSz": "86061.17",
+      "askSz": "1083.42",
+      "baseVolume": "33856096.54",
+      "quoteVolume": "485736.65",
+      "openUtc": "0.000500",
+      "changeUtc24h": "26.30800",
+      "ts": "1732280423337",
+      "time_data_received": "13:00:23.4114"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012765",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.53000",
+      "bidPr": "0.012",
+      "askPr": "0.012765",
+      "bidSz": "68.26",
+      "askSz": "17977.57",
+      "baseVolume": "34579980.35",
+      "quoteVolume": "494665.84",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.53000",
+      "ts": "1732280423681",
+      "time_data_received": "13:00:23.7259"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012333",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "23.66600",
+      "bidPr": "0.0126",
+      "askPr": "0.012601",
+      "bidSz": "21663.82",
+      "askSz": "2926.22",
+      "baseVolume": "34579980.35",
+      "quoteVolume": "494665.84",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.53000",
+      "ts": "1732280423941",
+      "time_data_received": "13:00:23.9855"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012425",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "23.85000",
+      "bidPr": "0.012224",
+      "askPr": "0.012425",
+      "bidSz": "957.84",
+      "askSz": "64.85",
+      "baseVolume": "34820547.14",
+      "quoteVolume": "497598.24",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.00600",
+      "ts": "1732280424288",
+      "time_data_received": "13:00:24.3459"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012426",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "23.85200",
+      "bidPr": "0.012169",
+      "askPr": "0.012426",
+      "bidSz": "206.67",
+      "askSz": "27557.43",
+      "baseVolume": "34854144.4",
+      "quoteVolume": "498010.55",
+      "openUtc": "0.000500",
+      "changeUtc24h": "23.85200",
+      "ts": "1732280424655",
+      "time_data_received": "13:00:24.6961"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.011765",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "22.53000",
+      "bidPr": "0.011652",
+      "askPr": "0.011765",
+      "bidSz": "5853.22",
+      "askSz": "469.53",
+      "baseVolume": "35108034.44",
+      "quoteVolume": "501027.06",
+      "openUtc": "0.000500",
+      "changeUtc24h": "22.30400",
+      "ts": "1732280424929",
+      "time_data_received": "13:00:24.9811"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012064",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "23.12800",
+      "bidPr": "0.011769",
+      "askPr": "0.011896",
+      "bidSz": "10157.21",
+      "askSz": "17366.68",
+      "baseVolume": "35151878.55",
+      "quoteVolume": "501544.4",
+      "openUtc": "0.000500",
+      "changeUtc24h": "22.79200",
+      "ts": "1732280425182",
+      "time_data_received": "13:00:25.2264"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.0115",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "22.00000",
+      "bidPr": "0.0115",
+      "askPr": "0.01191",
+      "bidSz": "15281.83",
+      "askSz": "3392.5",
+      "baseVolume": "35386408.56",
+      "quoteVolume": "504313.25",
+      "openUtc": "0.000500",
+      "changeUtc24h": "22.81600",
+      "ts": "1732280425492",
+      "time_data_received": "13:00:25.5437"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.0124",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "23.80000",
+      "bidPr": "0.012269",
+      "askPr": "0.0124",
+      "bidSz": "904.49",
+      "askSz": "5402.57",
+      "baseVolume": "35577730.49",
+      "quoteVolume": "506657.52",
+      "openUtc": "0.000500",
+      "changeUtc24h": "23.85200",
+      "ts": "1732280425782",
+      "time_data_received": "13:00:25.8331"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.01217",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "23.34000",
+      "bidPr": "0.01217",
+      "askPr": "0.012224",
+      "bidSz": "75.78",
+      "askSz": "19858.67",
+      "baseVolume": "35675973.98",
+      "quoteVolume": "507885.91",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.46000",
+      "ts": "1732280426140",
+      "time_data_received": "13:00:26.1824"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013477",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.95400",
+      "bidPr": "0.013477",
+      "askPr": "0.013478",
+      "bidSz": "321025.27",
+      "askSz": "1199.72",
+      "baseVolume": "35946814.13",
+      "quoteVolume": "511436.62",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.95400",
+      "ts": "1732280426409",
+      "time_data_received": "13:00:26.4497"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.01352",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "26.04000",
+      "bidPr": "0.013477",
+      "askPr": "0.01352",
+      "bidSz": "265511.12",
+      "askSz": "12679.97",
+      "baseVolume": "35946814.13",
+      "quoteVolume": "511436.62",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.95400",
+      "ts": "1732280426658",
+      "time_data_received": "13:00:26.6998"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.0135",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "26.00000",
+      "bidPr": "0.013477",
+      "askPr": "0.0135",
+      "bidSz": "61682.26",
+      "askSz": "36705.8",
+      "baseVolume": "36250770.02",
+      "quoteVolume": "515531.46",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.38200",
+      "ts": "1732280427039",
+      "time_data_received": "13:00:27.0833"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.0135",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "26.00000",
+      "bidPr": "0.013435",
+      "askPr": "0.0135",
+      "bidSz": "937.13",
+      "askSz": "8615.89",
+      "baseVolume": "36290033.98",
+      "quoteVolume": "516060.03",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.95400",
+      "ts": "1732280427285",
+      "time_data_received": "13:00:27.3279"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013211",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.42200",
+      "bidPr": "0.013338",
+      "askPr": "0.013478",
+      "bidSz": "2223.02",
+      "askSz": "3136.05",
+      "baseVolume": "36290033.98",
+      "quoteVolume": "516060.03",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.95400",
+      "ts": "1732280427578",
+      "time_data_received": "13:00:27.6369"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.01312",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.24000",
+      "bidPr": "0.013002",
+      "askPr": "0.01312",
+      "bidSz": "1074.3",
+      "askSz": "3666.27",
+      "baseVolume": "36454363.15",
+      "quoteVolume": "518240.82",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.24000",
+      "ts": "1732280427927",
+      "time_data_received": "13:00:27.9712"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.01325",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.50000",
+      "bidPr": "0.01296",
+      "askPr": "0.01325",
+      "bidSz": "1768.92",
+      "askSz": "450.76",
+      "baseVolume": "36454363.15",
+      "quoteVolume": "518240.82",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.24000",
+      "ts": "1732280428188",
+      "time_data_received": "13:00:28.2298"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012759",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.51800",
+      "bidPr": "0.012386",
+      "askPr": "0.012759",
+      "bidSz": "966.94",
+      "askSz": "1542.1",
+      "baseVolume": "36706165.4",
+      "quoteVolume": "521444.53",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.51800",
+      "ts": "1732280428458",
+      "time_data_received": "13:00:28.5041"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.01312",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.24000",
+      "bidPr": "0.013002",
+      "askPr": "0.01312",
+      "bidSz": "1074.3",
+      "askSz": "3666.27",
+      "baseVolume": "36810864.02",
+      "quoteVolume": "522781.08",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.16400",
+      "ts": "1732280428793",
+      "time_data_received": "13:00:28.8551"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012692",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.38400",
+      "bidPr": "0.012582",
+      "askPr": "0.012692",
+      "bidSz": "1001.12",
+      "askSz": "28487.46",
+      "baseVolume": "36867540.03",
+      "quoteVolume": "523508.99",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.57800",
+      "ts": "1732280429121",
+      "time_data_received": "13:00:29.1797"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012829",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.65800",
+      "bidPr": "0.01254",
+      "askPr": "0.012829",
+      "bidSz": "1294.28",
+      "askSz": "373.11",
+      "baseVolume": "36867540.03",
+      "quoteVolume": "523508.99",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.57800",
+      "ts": "1732280429395",
+      "time_data_received": "13:00:29.4456"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013362",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.72400",
+      "bidPr": "0.013202",
+      "askPr": "0.013362",
+      "bidSz": "99720.22",
+      "askSz": "27463.18",
+      "baseVolume": "37161475.57",
+      "quoteVolume": "527291.99",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.72400",
+      "ts": "1732280429664",
+      "time_data_received": "13:00:29.7129"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013533",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "26.06600",
+      "bidPr": "0.013511",
+      "askPr": "0.013533",
+      "bidSz": "1690.05",
+      "askSz": "38636.81",
+      "baseVolume": "37281774.63",
+      "quoteVolume": "528899.86",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.82800",
+      "ts": "1732280429980",
+      "time_data_received": "13:00:30.0193"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013045",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.09000",
+      "bidPr": "0.013045",
+      "askPr": "0.013372",
+      "bidSz": "1962.83",
+      "askSz": "1149.32",
+      "baseVolume": "37398781.62",
+      "quoteVolume": "530472.01",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.13800",
+      "ts": "1732280430305",
+      "time_data_received": "13:00:30.3600"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.01312",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.24000",
+      "bidPr": "0.013087",
+      "askPr": "0.01312",
+      "bidSz": "1554.38",
+      "askSz": "3671.93",
+      "baseVolume": "37398781.62",
+      "quoteVolume": "530472.01",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.13800",
+      "ts": "1732280430628",
+      "time_data_received": "13:00:30.7003"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013365",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.73000",
+      "bidPr": "0.013362",
+      "askPr": "0.013365",
+      "bidSz": "157673.64",
+      "askSz": "1467.62",
+      "baseVolume": "37550440.52",
+      "quoteVolume": "532454.46",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.73000",
+      "ts": "1732280430866",
+      "time_data_received": "13:00:30.9077"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013816",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "26.63200",
+      "bidPr": "0.013816",
+      "askPr": "0.013818",
+      "bidSz": "12241.78",
+      "askSz": "698.97",
+      "baseVolume": "37772706.44",
+      "quoteVolume": "535520.65",
+      "openUtc": "0.000500",
+      "changeUtc24h": "26.63200",
+      "ts": "1732280431261",
+      "time_data_received": "13:00:31.3180"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.014047",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "27.09400",
+      "bidPr": "0.014197",
+      "askPr": "0.014363",
+      "bidSz": "514.68",
+      "askSz": "597.58",
+      "baseVolume": "37990208.89",
+      "quoteVolume": "538568.08",
+      "openUtc": "0.000500",
+      "changeUtc24h": "26.91400",
+      "ts": "1732280431511",
+      "time_data_received": "13:00:31.5544"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.01383",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "26.66000",
+      "bidPr": "0.01383",
+      "askPr": "0.014",
+      "bidSz": "2249.77",
+      "askSz": "204802.19",
+      "baseVolume": "37990208.89",
+      "quoteVolume": "538568.08",
+      "openUtc": "0.000500",
+      "changeUtc24h": "26.91400",
+      "ts": "1732280431828",
+      "time_data_received": "13:00:31.8722"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013424",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.84800",
+      "bidPr": "0.013424",
+      "askPr": "0.0135",
+      "bidSz": "1358.02",
+      "askSz": "307485.21",
+      "baseVolume": "38251254.06",
+      "quoteVolume": "542130.15",
+      "openUtc": "0.000500",
+      "changeUtc24h": "26.00000",
+      "ts": "1732280432119",
+      "time_data_received": "13:00:32.1684"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.0135",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "26.00000",
+      "bidPr": "0.013362",
+      "askPr": "0.0135",
+      "bidSz": "97679.29",
+      "askSz": "244333.16",
+      "baseVolume": "38414316.91",
+      "quoteVolume": "544319",
+      "openUtc": "0.000500",
+      "changeUtc24h": "26.00000",
+      "ts": "1732280432429",
+      "time_data_received": "13:00:32.4731"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.0135",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "26.00000",
+      "bidPr": "0.013362",
+      "askPr": "0.0135",
+      "bidSz": "80442.01",
+      "askSz": "192440.78",
+      "baseVolume": "38498557.36",
+      "quoteVolume": "545452.71",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.72400",
+      "ts": "1732280432706",
+      "time_data_received": "13:00:32.7487"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013362",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.72400",
+      "bidPr": "0.013362",
+      "askPr": "0.0135",
+      "bidSz": "61914.34",
+      "askSz": "185515.41",
+      "baseVolume": "38555062.18",
+      "quoteVolume": "546210.74",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.72400",
+      "ts": "1732280433027",
+      "time_data_received": "13:00:33.0804"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013362",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.72400",
+      "bidPr": "0.013362",
+      "askPr": "0.0135",
+      "bidSz": "12957.14",
+      "askSz": "165201.72",
+      "baseVolume": "38555062.18",
+      "quoteVolume": "546210.74",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.72400",
+      "ts": "1732280433340",
+      "time_data_received": "13:00:33.3794"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013207",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.41400",
+      "bidPr": "0.013207",
+      "askPr": "0.01325",
+      "bidSz": "608.92",
+      "askSz": "1175.58",
+      "baseVolume": "38656708.68",
+      "quoteVolume": "547570.28",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.48200",
+      "ts": "1732280433629",
+      "time_data_received": "13:00:33.6717"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013196",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.39200",
+      "bidPr": "0.013196",
+      "askPr": "0.013478",
+      "bidSz": "270262.32",
+      "askSz": "3644.74",
+      "baseVolume": "38949823.89",
+      "quoteVolume": "551497.53",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.40600",
+      "ts": "1732280433907",
+      "time_data_received": "13:00:33.9601"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013466",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.93200",
+      "bidPr": "0.013244",
+      "askPr": "0.013295",
+      "bidSz": "11415.73",
+      "askSz": "807.85",
+      "baseVolume": "38999049.75",
+      "quoteVolume": "552146.8",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.67400",
+      "ts": "1732280434211",
+      "time_data_received": "13:00:34.2560"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.01338",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.76000",
+      "bidPr": "0.013067",
+      "askPr": "0.01338",
+      "bidSz": "2195.01",
+      "askSz": "14423.95",
+      "baseVolume": "39063711.36",
+      "quoteVolume": "553007.5",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.76000",
+      "ts": "1732280434552",
+      "time_data_received": "13:00:34.5941"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.01338",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.76000",
+      "bidPr": "0.013067",
+      "askPr": "0.01338",
+      "bidSz": "2195",
+      "askSz": "8062.4",
+      "baseVolume": "39171466.81",
+      "quoteVolume": "554434.55",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.60000",
+      "ts": "1732280434821",
+      "time_data_received": "13:00:34.8715"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013204",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.40800",
+      "bidPr": "0.013204",
+      "askPr": "0.013352",
+      "bidSz": "227.39",
+      "askSz": "21671.7",
+      "baseVolume": "39274139.01",
+      "quoteVolume": "555791.82",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.40800",
+      "ts": "1732280435223",
+      "time_data_received": "13:00:35.2771"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013203",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.40600",
+      "bidPr": "0.01331",
+      "askPr": "0.013352",
+      "bidSz": "992.6",
+      "askSz": "14142.48",
+      "baseVolume": "39292324.66",
+      "quoteVolume": "556034.72",
+      "openUtc": "0.000500",
+      "changeUtc24h": "26.16200",
+      "ts": "1732280435437",
+      "time_data_received": "13:00:35.4851"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013475",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.95000",
+      "bidPr": "0.01336",
+      "askPr": "0.013475",
+      "bidSz": "374.26",
+      "askSz": "8335.83",
+      "baseVolume": "39334289.72",
+      "quoteVolume": "556598.06",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.37000",
+      "ts": "1732280435754",
+      "time_data_received": "13:00:35.8071"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.01352",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "26.04000",
+      "bidPr": "0.013073",
+      "askPr": "0.01352",
+      "bidSz": "8125.65",
+      "askSz": "674.55",
+      "baseVolume": "39334289.72",
+      "quoteVolume": "556598.06",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.37000",
+      "ts": "1732280436059",
+      "time_data_received": "13:00:36.0995"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013186",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.37200",
+      "bidPr": "0.013186",
+      "askPr": "0.013276",
+      "bidSz": "809.52",
+      "askSz": "2634.72",
+      "baseVolume": "39629724.46",
+      "quoteVolume": "560578.93",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.12600",
+      "ts": "1732280436331",
+      "time_data_received": "13:00:36.3734"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013286",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.57200",
+      "bidPr": "0.013286",
+      "askPr": "0.013399",
+      "bidSz": "924.51",
+      "askSz": "665.11",
+      "baseVolume": "39705764.25",
+      "quoteVolume": "561574.92",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.90200",
+      "ts": "1732280436636",
+      "time_data_received": "13:00:36.6791"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013325",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.65000",
+      "bidPr": "0.013",
+      "askPr": "0.013325",
+      "bidSz": "431.7",
+      "askSz": "429.33",
+      "baseVolume": "39804645.02",
+      "quoteVolume": "562867.54",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.90200",
+      "ts": "1732280436982",
+      "time_data_received": "13:00:37.0270"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012759",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.51800",
+      "bidPr": "0.012759",
+      "askPr": "0.013107",
+      "bidSz": "8193.54",
+      "askSz": "10174.07",
+      "baseVolume": "39862717.78",
+      "quoteVolume": "563617.06",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.51800",
+      "ts": "1732280437282",
+      "time_data_received": "13:00:37.3512"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012735",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.47000",
+      "bidPr": "0.012602",
+      "askPr": "0.012735",
+      "bidSz": "41956.08",
+      "askSz": "766.1",
+      "baseVolume": "39936514.71",
+      "quoteVolume": "564557.94",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.83000",
+      "ts": "1732280437536",
+      "time_data_received": "13:00:37.5764"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012602",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.20400",
+      "bidPr": "0.012602",
+      "askPr": "0.012736",
+      "bidSz": "31228.43",
+      "askSz": "12672",
+      "baseVolume": "39998809.15",
+      "quoteVolume": "565352.85",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.59400",
+      "ts": "1732280437845",
+      "time_data_received": "13:00:37.8863"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012916",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.83200",
+      "bidPr": "0.013",
+      "askPr": "0.013045",
+      "bidSz": "78816.71",
+      "askSz": "22569.96",
+      "baseVolume": "39998809.15",
+      "quoteVolume": "565352.85",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.59400",
+      "ts": "1732280438158",
+      "time_data_received": "13:00:38.2087"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.00000",
+      "bidPr": "0.013",
+      "askPr": "0.013038",
+      "bidSz": "38877.01",
+      "askSz": "21992.78",
+      "baseVolume": "40138444.6",
+      "quoteVolume": "567145.59",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.00000",
+      "ts": "1732280438441",
+      "time_data_received": "13:00:38.4834"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012568",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.13600",
+      "bidPr": "0.012568",
+      "askPr": "0.01259",
+      "bidSz": "15404.02",
+      "askSz": "936.42",
+      "baseVolume": "40138444.6",
+      "quoteVolume": "567145.59",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.00000",
+      "ts": "1732280438725",
+      "time_data_received": "13:00:38.7884"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012701",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.40200",
+      "bidPr": "0.0125",
+      "askPr": "0.012701",
+      "bidSz": "28668.92",
+      "askSz": "41032.13",
+      "baseVolume": "40249464.24",
+      "quoteVolume": "568548.46",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.40200",
+      "ts": "1732280439010",
+      "time_data_received": "13:00:39.0494"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012439",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "23.87800",
+      "bidPr": "0.012439",
+      "askPr": "0.01259",
+      "bidSz": "4545.37",
+      "askSz": "4284",
+      "baseVolume": "40249464.24",
+      "quoteVolume": "568548.46",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.40200",
+      "ts": "1732280439366",
+      "time_data_received": "13:00:39.4221"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012438",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "23.87600",
+      "bidPr": "0.012438",
+      "askPr": "0.012632",
+      "bidSz": "179831.54",
+      "askSz": "10624.2",
+      "baseVolume": "40434106.08",
+      "quoteVolume": "570863.08",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.40200",
+      "ts": "1732280439657",
+      "time_data_received": "13:00:39.7078"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012722",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.44400",
+      "bidPr": "0.012441",
+      "askPr": "0.012633",
+      "bidSz": "18692.69",
+      "askSz": "2105.77",
+      "baseVolume": "40495498.59",
+      "quoteVolume": "571637.2",
+      "openUtc": "0.000500",
+      "changeUtc24h": "23.88200",
+      "ts": "1732280439982",
+      "time_data_received": "13:00:40.0436"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012438",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "23.87600",
+      "bidPr": "0.012438",
+      "askPr": "0.012594",
+      "bidSz": "137039.19",
+      "askSz": "6607.35",
+      "baseVolume": "40580023.86",
+      "quoteVolume": "572701.3",
+      "openUtc": "0.000500",
+      "changeUtc24h": "23.87600",
+      "ts": "1732280440249",
+      "time_data_received": "13:00:40.2882"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.01254",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.08000",
+      "bidPr": "0.012438",
+      "askPr": "0.01254",
+      "bidSz": "83868.77",
+      "askSz": "6108.41",
+      "baseVolume": "40580023.86",
+      "quoteVolume": "572701.3",
+      "openUtc": "0.000500",
+      "changeUtc24h": "23.87600",
+      "ts": "1732280440536",
+      "time_data_received": "13:00:40.5862"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.01254",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.08000",
+      "bidPr": "0.012438",
+      "askPr": "0.01254",
+      "bidSz": "72789.16",
+      "askSz": "4528.8",
+      "baseVolume": "40771240.41",
+      "quoteVolume": "575104.88",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.78200",
+      "ts": "1732280440894",
+      "time_data_received": "13:00:40.9445"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012929",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.85800",
+      "bidPr": "0.012592",
+      "askPr": "0.012929",
+      "bidSz": "1570.35",
+      "askSz": "2017.73",
+      "baseVolume": "41072673.81",
+      "quoteVolume": "578788.68",
+      "openUtc": "0.000500",
+      "changeUtc24h": "22.76200",
+      "ts": "1732280441208",
+      "time_data_received": "13:00:41.2687"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013475",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.95000",
+      "bidPr": "0.013478",
+      "askPr": "0.013484",
+      "bidSz": "64512.83",
+      "askSz": "17968.81",
+      "baseVolume": "41238553.61",
+      "quoteVolume": "580939.55",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.95000",
+      "ts": "1732280441482",
+      "time_data_received": "13:00:41.5397"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012438",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "23.87600",
+      "bidPr": "0.012569",
+      "askPr": "0.0135",
+      "bidSz": "19176.39",
+      "askSz": "21359.77",
+      "baseVolume": "41330380.35",
+      "quoteVolume": "582163.32",
+      "openUtc": "0.000500",
+      "changeUtc24h": "26.00000",
+      "ts": "1732280441741",
+      "time_data_received": "13:00:41.7930"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012569",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.13800",
+      "bidPr": "0.01257",
+      "askPr": "0.013499",
+      "bidSz": "5263.09",
+      "askSz": "665.11",
+      "baseVolume": "41388330.45",
+      "quoteVolume": "582925.92",
+      "openUtc": "0.000500",
+      "changeUtc24h": "26.00000",
+      "ts": "1732280442044",
+      "time_data_received": "13:00:42.1037"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012571",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.14200",
+      "bidPr": "0.012571",
+      "askPr": "0.01352",
+      "bidSz": "42267.9",
+      "askSz": "476",
+      "baseVolume": "41402135.56",
+      "quoteVolume": "583105.72",
+      "openUtc": "0.000500",
+      "changeUtc24h": "26.06600",
+      "ts": "1732280442358",
+      "time_data_received": "13:00:42.4047"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012634",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.26800",
+      "bidPr": "0.012634",
+      "askPr": "0.012735",
+      "bidSz": "2897.24",
+      "askSz": "1278.78",
+      "baseVolume": "41463529.31",
+      "quoteVolume": "583926.82",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.26800",
+      "ts": "1732280442694",
+      "time_data_received": "13:00:42.7405"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013533",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "26.06600",
+      "bidPr": "0.013533",
+      "askPr": "0.013816",
+      "bidSz": "97889.46",
+      "askSz": "1765.16",
+      "baseVolume": "41463529.31",
+      "quoteVolume": "583926.82",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.26800",
+      "ts": "1732280443001",
+      "time_data_received": "13:00:43.0566"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013533",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "26.06600",
+      "bidPr": "0.013533",
+      "askPr": "0.013817",
+      "bidSz": "91117.85",
+      "askSz": "12958.99",
+      "baseVolume": "41656002.82",
+      "quoteVolume": "586499.13",
+      "openUtc": "0.000500",
+      "changeUtc24h": "26.06600",
+      "ts": "1732280443380",
+      "time_data_received": "13:00:43.4510"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013533",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "26.06600",
+      "bidPr": "0.013533",
+      "askPr": "0.013817",
+      "bidSz": "55822.05",
+      "askSz": "11919.5",
+      "baseVolume": "41704860.87",
+      "quoteVolume": "587160.65",
+      "openUtc": "0.000500",
+      "changeUtc24h": "26.06600",
+      "ts": "1732280443575",
+      "time_data_received": "13:00:43.6165"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013534",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "26.06800",
+      "bidPr": "0.013534",
+      "askPr": "0.013817",
+      "bidSz": "16471.55",
+      "askSz": "9170.36",
+      "baseVolume": "41737925.31",
+      "quoteVolume": "587609.13",
+      "openUtc": "0.000500",
+      "changeUtc24h": "26.07000",
+      "ts": "1732280443919",
+      "time_data_received": "13:00:43.9596"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013817",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "26.63400",
+      "bidPr": "0.013535",
+      "askPr": "0.013817",
+      "bidSz": "4161.04",
+      "askSz": "9059.37",
+      "baseVolume": "41746932.12",
+      "quoteVolume": "587731.53",
+      "openUtc": "0.000500",
+      "changeUtc24h": "26.06800",
+      "ts": "1732280444172",
+      "time_data_received": "13:00:44.2299"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013041",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.08200",
+      "bidPr": "0.013041",
+      "askPr": "0.013816",
+      "bidSz": "67462.56",
+      "askSz": "665.11",
+      "baseVolume": "41746932.12",
+      "quoteVolume": "587731.53",
+      "openUtc": "0.000500",
+      "changeUtc24h": "26.06800",
+      "ts": "1732280444504",
+      "time_data_received": "13:00:44.5444"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013042",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.08400",
+      "bidPr": "0.013042",
+      "askPr": "0.013818",
+      "bidSz": "19760.93",
+      "askSz": "24430.19",
+      "baseVolume": "41826642.38",
+      "quoteVolume": "588808.55",
+      "openUtc": "0.000500",
+      "changeUtc24h": "26.04000",
+      "ts": "1732280444751",
+      "time_data_received": "13:00:44.7927"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012833",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.66600",
+      "bidPr": "0.012633",
+      "askPr": "0.012808",
+      "bidSz": "63975.2",
+      "askSz": "3014.64",
+      "baseVolume": "42430986.17",
+      "quoteVolume": "596596.01",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.66600",
+      "ts": "1732280445105",
+      "time_data_received": "13:00:45.1477"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012799",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.59800",
+      "bidPr": "0.012633",
+      "askPr": "0.012799",
+      "bidSz": "55773.15",
+      "askSz": "14650.42",
+      "baseVolume": "42569892.23",
+      "quoteVolume": "598386.08",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.61800",
+      "ts": "1732280445347",
+      "time_data_received": "13:00:45.3858"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012903",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.80600",
+      "bidPr": "0.012633",
+      "askPr": "0.012903",
+      "bidSz": "350097.13",
+      "askSz": "9381.41",
+      "baseVolume": "42569892.23",
+      "quoteVolume": "598386.08",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.61800",
+      "ts": "1732280445677",
+      "time_data_received": "13:00:45.7420"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012903",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.80600",
+      "bidPr": "0.012633",
+      "askPr": "0.012799",
+      "bidSz": "320665.92",
+      "askSz": "665.11",
+      "baseVolume": "42607519.15",
+      "quoteVolume": "598863.87",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.26600",
+      "ts": "1732280445956",
+      "time_data_received": "13:00:46.0046"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.0128",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.60000",
+      "bidPr": "0.012634",
+      "askPr": "0.0128",
+      "bidSz": "2039.37",
+      "askSz": "10174.99",
+      "baseVolume": "42716504.47",
+      "quoteVolume": "600246.92",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.60000",
+      "ts": "1732280446287",
+      "time_data_received": "13:00:46.3311"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012633",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.26600",
+      "bidPr": "0.012633",
+      "askPr": "0.012801",
+      "bidSz": "219817.61",
+      "askSz": "45283.56",
+      "baseVolume": "42770764.87",
+      "quoteVolume": "600934.13",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.26600",
+      "ts": "1732280446564",
+      "time_data_received": "13:00:46.6233"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.0128",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.60000",
+      "bidPr": "0.012633",
+      "askPr": "0.0128",
+      "bidSz": "245874.69",
+      "askSz": "59.83",
+      "baseVolume": "42955486.7",
+      "quoteVolume": "603270.61",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.60000",
+      "ts": "1732280446886",
+      "time_data_received": "13:00:46.9403"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.0128",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.60000",
+      "bidPr": "0.012633",
+      "askPr": "0.0128",
+      "bidSz": "245874.69",
+      "askSz": "0.59",
+      "baseVolume": "42983737.73",
+      "quoteVolume": "603631.7",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.60200",
+      "ts": "1732280447167",
+      "time_data_received": "13:00:47.2152"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012801",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.60200",
+      "bidPr": "0.012634",
+      "askPr": "0.012801",
+      "bidSz": "2399.73",
+      "askSz": "1227.73",
+      "baseVolume": "43034769.72",
+      "quoteVolume": "604277.08",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.26600",
+      "ts": "1732280447502",
+      "time_data_received": "13:00:47.5619"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012904",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.80800",
+      "bidPr": "0.012633",
+      "askPr": "0.012904",
+      "bidSz": "186003.97",
+      "askSz": "86345.69",
+      "baseVolume": "43034769.72",
+      "quoteVolume": "604277.08",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.26600",
+      "ts": "1732280447777",
+      "time_data_received": "13:00:47.8340"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013204",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.40800",
+      "bidPr": "0.012633",
+      "askPr": "0.013204",
+      "bidSz": "154470.14",
+      "askSz": "40626.26",
+      "baseVolume": "43403750.73",
+      "quoteVolume": "609065.84",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.37200",
+      "ts": "1732280448156",
+      "time_data_received": "13:00:48.1988"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013204",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.40800",
+      "bidPr": "0.01288",
+      "askPr": "0.01312",
+      "bidSz": "38819.87",
+      "askSz": "12736.35",
+      "baseVolume": "43417207.15",
+      "quoteVolume": "609240.98",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.40800",
+      "ts": "1732280448429",
+      "time_data_received": "13:00:48.4943"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013204",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.40800",
+      "bidPr": "0.01288",
+      "askPr": "0.01312",
+      "bidSz": "38819.87",
+      "askSz": "12736.35",
+      "baseVolume": "43427044.06",
+      "quoteVolume": "609369.13",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.24000",
+      "ts": "1732280448673",
+      "time_data_received": "13:00:48.7168"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013204",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.40800",
+      "bidPr": "0.012881",
+      "askPr": "0.013204",
+      "bidSz": "665.11",
+      "askSz": "35256.67",
+      "baseVolume": "43427044.06",
+      "quoteVolume": "609369.13",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.24000",
+      "ts": "1732280448967",
+      "time_data_received": "13:00:49.0130"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013204",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.40800",
+      "bidPr": "0.012883",
+      "askPr": "0.013204",
+      "bidSz": "665.11",
+      "askSz": "27458.17",
+      "baseVolume": "43449968.77",
+      "quoteVolume": "609669.09",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.40800",
+      "ts": "1732280449293",
+      "time_data_received": "13:00:49.3493"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.00000",
+      "bidPr": "0.012884",
+      "askPr": "0.013",
+      "bidSz": "7696.98",
+      "askSz": "19115.58",
+      "baseVolume": "43464211.42",
+      "quoteVolume": "609854.54",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.00000",
+      "ts": "1732280449590",
+      "time_data_received": "13:00:49.6372"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012705",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.41000",
+      "bidPr": "0.0127",
+      "askPr": "0.012705",
+      "bidSz": "133643.14",
+      "askSz": "1318.29",
+      "baseVolume": "43995198.67",
+      "quoteVolume": "616623.84",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.41000",
+      "ts": "1732280449947",
+      "time_data_received": "13:00:49.9898"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013233",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.46600",
+      "bidPr": "0.013204",
+      "askPr": "0.013233",
+      "bidSz": "27677.13",
+      "askSz": "71.09",
+      "baseVolume": "43995198.67",
+      "quoteVolume": "616623.84",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.41000",
+      "ts": "1732280450239",
+      "time_data_received": "13:00:50.2772"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012904",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.80800",
+      "bidPr": "0.012904",
+      "askPr": "0.013245",
+      "bidSz": "4829.24",
+      "askSz": "7697.91",
+      "baseVolume": "44231796.73",
+      "quoteVolume": "619707.43",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.80800",
+      "ts": "1732280450479",
+      "time_data_received": "13:00:50.5259"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012959",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.91800",
+      "bidPr": "0.012635",
+      "askPr": "0.012959",
+      "bidSz": "12797.68",
+      "askSz": "4494.3",
+      "baseVolume": "44263435.52",
+      "quoteVolume": "620114.62",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.91800",
+      "ts": "1732280450843",
+      "time_data_received": "13:00:50.8815"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012634",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.26800",
+      "bidPr": "0.012634",
+      "askPr": "0.013",
+      "bidSz": "70609.1",
+      "askSz": "3116.58",
+      "baseVolume": "44263435.52",
+      "quoteVolume": "620114.62",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.91800",
+      "ts": "1732280451137",
+      "time_data_received": "13:00:51.1940"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012637",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.27400",
+      "bidPr": "0.012637",
+      "askPr": "0.013001",
+      "bidSz": "276.53",
+      "askSz": "10109.31",
+      "baseVolume": "44361454.21",
+      "quoteVolume": "621372.21",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.44000",
+      "ts": "1732280451388",
+      "time_data_received": "13:00:51.4575"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012786",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.57200",
+      "bidPr": "0.012639",
+      "askPr": "0.012903",
+      "bidSz": "10065.69",
+      "askSz": "1410.47",
+      "baseVolume": "44437483.06",
+      "quoteVolume": "622359.15",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.27000",
+      "ts": "1732280451730",
+      "time_data_received": "13:00:51.7835"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012903",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.80600",
+      "bidPr": "0.012905",
+      "askPr": "0.012916",
+      "bidSz": "5806.8",
+      "askSz": "1749.07",
+      "baseVolume": "44455836.03",
+      "quoteVolume": "622593.32",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.26800",
+      "ts": "1732280451976",
+      "time_data_received": "13:00:52.0157"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.00000",
+      "bidPr": "0.0128",
+      "askPr": "0.01293",
+      "bidSz": "467936.48",
+      "askSz": "400.21",
+      "baseVolume": "44455836.03",
+      "quoteVolume": "622593.32",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.26800",
+      "ts": "1732280452336",
+      "time_data_received": "13:00:52.3979"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013111",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.22200",
+      "bidPr": "0.012901",
+      "askPr": "0.013111",
+      "bidSz": "21623.15",
+      "askSz": "1946.86",
+      "baseVolume": "44529587.57",
+      "quoteVolume": "623548.72",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.00000",
+      "ts": "1732280452670",
+      "time_data_received": "13:00:52.7482"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.01316",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.32000",
+      "bidPr": "0.01294",
+      "askPr": "0.01316",
+      "bidSz": "25.5",
+      "askSz": "138227.2",
+      "baseVolume": "44613095.21",
+      "quoteVolume": "624632.05",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.30200",
+      "ts": "1732280452881",
+      "time_data_received": "13:00:52.9218"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012903",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.80600",
+      "bidPr": "0.012903",
+      "askPr": "0.013041",
+      "bidSz": "9463.13",
+      "askSz": "39112.04",
+      "baseVolume": "44669606.82",
+      "quoteVolume": "625363.56",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.08200",
+      "ts": "1732280453236",
+      "time_data_received": "13:00:53.2751"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012802",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.60400",
+      "bidPr": "0.012802",
+      "askPr": "0.013041",
+      "bidSz": "513.46",
+      "askSz": "25275.65",
+      "baseVolume": "44686771.33",
+      "quoteVolume": "625584.33",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.60000",
+      "ts": "1732280453492",
+      "time_data_received": "13:00:53.5447"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012929",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.85800",
+      "bidPr": "0.0128",
+      "askPr": "0.012929",
+      "bidSz": "437467.24",
+      "askSz": "1966.91",
+      "baseVolume": "44712439.04",
+      "quoteVolume": "625914.25",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.85800",
+      "ts": "1732280453862",
+      "time_data_received": "13:00:53.9128"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012929",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.85800",
+      "bidPr": "0.0128",
+      "askPr": "0.012929",
+      "bidSz": "437467.24",
+      "askSz": "1966.91",
+      "baseVolume": "44744433.18",
+      "quoteVolume": "626327.45",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.00000",
+      "ts": "1732280454151",
+      "time_data_received": "13:00:54.2011"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.0129",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.80000",
+      "bidPr": "0.012852",
+      "askPr": "0.0129",
+      "bidSz": "4512.14",
+      "askSz": "1123.4",
+      "baseVolume": "44777875.3",
+      "quoteVolume": "626757.11",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.60000",
+      "ts": "1732280454458",
+      "time_data_received": "13:00:54.5046"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.0128",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.60000",
+      "bidPr": "0.0128",
+      "askPr": "0.012805",
+      "bidSz": "405522.29",
+      "askSz": "1426.82",
+      "baseVolume": "44811142.47",
+      "quoteVolume": "627183.07",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.63600",
+      "ts": "1732280454728",
+      "time_data_received": "13:00:54.7690"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.0128",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.60000",
+      "bidPr": "0.012903",
+      "askPr": "0.012927",
+      "bidSz": "682.01",
+      "askSz": "665.11",
+      "baseVolume": "44811142.47",
+      "quoteVolume": "627183.07",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.63600",
+      "ts": "1732280454984",
+      "time_data_received": "13:00:55.0326"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012801",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.60200",
+      "bidPr": "0.012801",
+      "askPr": "0.013",
+      "bidSz": "6468.04",
+      "askSz": "38206.74",
+      "baseVolume": "44864478.95",
+      "quoteVolume": "627870.45",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.00000",
+      "ts": "1732280455339",
+      "time_data_received": "13:00:55.3872"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012884",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.76800",
+      "bidPr": "0.012802",
+      "askPr": "0.012884",
+      "bidSz": "1728.66",
+      "askSz": "1115.2",
+      "baseVolume": "44869626.74",
+      "quoteVolume": "627937.18",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.76800",
+      "ts": "1732280455657",
+      "time_data_received": "13:00:55.7134"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012991",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.98200",
+      "bidPr": "0.012802",
+      "askPr": "0.012991",
+      "bidSz": "9534.82",
+      "askSz": "276.71",
+      "baseVolume": "44883046.68",
+      "quoteVolume": "628110.56",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.96200",
+      "ts": "1732280455907",
+      "time_data_received": "13:00:55.9649"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012809",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.61800",
+      "bidPr": "0.0128",
+      "askPr": "0.012822",
+      "bidSz": "329063.15",
+      "askSz": "2242.9",
+      "baseVolume": "44957120.58",
+      "quoteVolume": "629059.43",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.61800",
+      "ts": "1732280456220",
+      "time_data_received": "13:00:56.2650"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012926",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.85200",
+      "bidPr": "0.0128",
+      "askPr": "0.012848",
+      "bidSz": "187606.97",
+      "askSz": "1848.97",
+      "baseVolume": "45124274.16",
+      "quoteVolume": "631200.61",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.87800",
+      "ts": "1732280456507",
+      "time_data_received": "13:00:56.5495"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.00000",
+      "bidPr": "0.012802",
+      "askPr": "0.013",
+      "bidSz": "6243.97",
+      "askSz": "14216.35",
+      "baseVolume": "45124274.16",
+      "quoteVolume": "631200.61",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.87800",
+      "ts": "1732280456865",
+      "time_data_received": "13:00:56.9069"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012802",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.60400",
+      "bidPr": "0.012802",
+      "askPr": "0.012999",
+      "bidSz": "1257.38",
+      "askSz": "1571.84",
+      "baseVolume": "45177117.57",
+      "quoteVolume": "631883.97",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.00000",
+      "ts": "1732280457120",
+      "time_data_received": "13:00:57.1634"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.00000",
+      "bidPr": "0.012803",
+      "askPr": "0.013",
+      "bidSz": "3771.02",
+      "askSz": "11403.95",
+      "baseVolume": "45206992.46",
+      "quoteVolume": "632271.58",
+      "openUtc": "0.000500",
+      "changeUtc24h": "25.00200",
+      "ts": "1732280457497",
+      "time_data_received": "13:00:57.5385"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012801",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.60200",
+      "bidPr": "0.012801",
+      "askPr": "0.013",
+      "bidSz": "6818.67",
+      "askSz": "3885.31",
+      "baseVolume": "45380747.79",
+      "quoteVolume": "634500.25",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.60200",
+      "ts": "1732280457772",
+      "time_data_received": "13:00:57.8229"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.013",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "25.00000",
+      "bidPr": "0.012806",
+      "askPr": "0.0129",
+      "bidSz": "665.11",
+      "askSz": "66558.76",
+      "baseVolume": "45380747.79",
+      "quoteVolume": "634500.25",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.60200",
+      "ts": "1732280458010",
+      "time_data_received": "13:00:58.0499"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012776",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.55200",
+      "bidPr": "0.012634",
+      "askPr": "0.012748",
+      "bidSz": "78505.91",
+      "askSz": "3771.02",
+      "baseVolume": "45560603.94",
+      "quoteVolume": "636791.97",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.55200",
+      "ts": "1732280458430",
+      "time_data_received": "13:00:58.4836"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012705",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.41000",
+      "bidPr": "0.012635",
+      "askPr": "0.012705",
+      "bidSz": "878.48",
+      "askSz": "216.7",
+      "baseVolume": "45576864.43",
+      "quoteVolume": "636999.48",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.55000",
+      "ts": "1732280458646",
+      "time_data_received": "13:00:58.6945"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012775",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.55000",
+      "bidPr": "0.0127",
+      "askPr": "0.012775",
+      "bidSz": "2839.63",
+      "askSz": "4536.7",
+      "baseVolume": "45576864.43",
+      "quoteVolume": "636999.48",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.55000",
+      "ts": "1732280458979",
+      "time_data_received": "13:00:59.0317"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012801",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.60200",
+      "bidPr": "0.012634",
+      "askPr": "0.012801",
+      "bidSz": "40752.95",
+      "askSz": "2538.64",
+      "baseVolume": "45657534.01",
+      "quoteVolume": "638024.84",
+      "openUtc": "0.000500",
+      "changeUtc24h": "24.60200",
+      "ts": "1732280459268",
+      "time_data_received": "13:00:59.3099"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.0128",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "24.60000",
+      "bidPr": "0.0128",
+      "askPr": "0.012801",
+      "bidSz": "11055.94",
+      "askSz": "959.55",
+      "baseVolume": "46259337.16",
+      "quoteVolume": "645559.81",
+      "openUtc": "0.000500",
+      "changeUtc24h": "23.62000",
+      "ts": "1732280459513",
+      "time_data_received": "13:00:59.5621"
+    }
+  ],
+  [
+    {
+      "instId": "MEMEFIUSDT",
+      "lastPr": "0.012394",
+      "open24h": "0.0005",
+      "high24h": "0.022",
+      "low24h": "0.0005",
+      "change24h": "23.78800",
+      "bidPr": "0.012226",
+      "askPr": "0.01237",
+      "bidSz": "2173.51",
+      "askSz": "3158.6",
+      "baseVolume": "46288594.59",
+      "quoteVolume": "645920.34",
+      "openUtc": "0.000500",
+      "changeUtc24h": "23.74000",
+      "ts": "1732280459877",
+      "time_data_received": "13:00:59.9180"
+    }
+  ]
+]

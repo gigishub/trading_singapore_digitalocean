@@ -144,7 +144,7 @@ class KucoinStrategyTrader:
         factor = 10 ** decimal_places
         return math.floor(adjusted_value * factor) / factor
 
-    def order_size_and_rounding(self, token_price):
+    def order_size_and_rounding_ORG(self, token_price):
         """Determine order size and decimal rounding based on token price."""
         size = ''
         decimal_to_round = 0
@@ -165,9 +165,12 @@ class KucoinStrategyTrader:
         elif token_price < 0.09:
             decimal_to_round = 5
             size = '110'
-        elif token_price < 0.9:
+        elif token_price < 0.5:
             decimal_to_round = 4
             size = '11'
+        elif token_price < 0.9:
+            decimal_to_round = 4
+            size = '3'
         elif token_price < 9:
             decimal_to_round = 2
             size = '3'
@@ -175,6 +178,33 @@ class KucoinStrategyTrader:
             decimal_to_round = 1
             size = '1'
         return size, decimal_to_round
+
+    def order_size_and_rounding(self, token_price):
+        """Determine order size and decimal rounding based on token price."""
+        token_price = float(token_price)
+        
+        ranges = [
+            (0.0000045, 9, '1000100'),
+            (0.000009, 9, '500050'),
+            (0.000045, 8, '100100'),
+            (0.00009, 8, '50050'),
+            (0.00045, 7, '10100'),
+            (0.0009, 7, '5050'),
+            (0.0045, 6, '1010'),
+            (0.009, 6, '505'),
+            (0.045, 5, '110'),
+            (0.09, 5, '55'),
+            (0.45, 4, '11'),
+            (0.5, 4, '6'),
+            (0.75, 4, '3'),
+            (0.9, 4, '2'),
+            (4.5, 2, '2'),
+            (9, 2, '2')
+        ]
+        
+        for upper_bound, decimal_to_round, size in ranges:
+            if token_price < upper_bound:
+                return size, decimal_to_round
 
 
 # Example usage
@@ -190,7 +220,7 @@ async def main():
 
     strategy = KucoinStrategyTrader(api_key, api_secret, api_passphrase)
     symbol = "XRP-USDT"  # Note the different symbol format for KuCoin
-    base_price = 0.0232
+    base_price = 0.432
     
     # Place multiple buy orders
     base_buy_price = base_price

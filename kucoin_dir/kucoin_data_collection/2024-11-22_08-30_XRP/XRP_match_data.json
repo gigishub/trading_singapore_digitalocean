@@ -1,0 +1,5207 @@
+[
+  {
+    "id": "1732264170604",
+    "type": "pong",
+    "timestamp": 1732264170657188
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674040eab7e21a0007b7ae2f",
+      "price": "1.38267",
+      "sequence": "10751247502952449",
+      "side": "buy",
+      "size": "2",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674040ea37061e0007979a76",
+      "time": "1732264170729000000",
+      "tradeId": "10751247502952449",
+      "type": "match",
+      "time_before_que.put": "08:29:30.770",
+      "seconds_from_release": -29.229995,
+      "time_after_queue.get": "08:29:30.770"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674040eab7e21a0007b7ae2f",
+      "price": "1.38267",
+      "sequence": "10751247503738881",
+      "side": "buy",
+      "size": "2",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674040eac65bf7000786af44",
+      "time": "1732264170732000000",
+      "tradeId": "10751247503738881",
+      "type": "match",
+      "time_before_que.put": "08:29:30.770",
+      "seconds_from_release": -29.229767,
+      "time_after_queue.get": "08:29:30.770"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674040eab7e21a0007b7ae2f",
+      "price": "1.38267",
+      "sequence": "10751247503869953",
+      "side": "buy",
+      "size": "2",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674040eaf4a7c50007edaf1f",
+      "time": "1732264170732000000",
+      "tradeId": "10751247503869953",
+      "type": "match",
+      "time_before_que.put": "08:29:30.770",
+      "seconds_from_release": -29.229534,
+      "time_after_queue.get": "08:29:30.770"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674040eab7e21a0007b7ae2f",
+      "price": "1.38267",
+      "sequence": "10751247504656385",
+      "side": "buy",
+      "size": "2",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674040eaf15b270007f4076d",
+      "time": "1732264170734000000",
+      "tradeId": "10751247504656385",
+      "type": "match",
+      "time_before_que.put": "08:29:30.772",
+      "seconds_from_release": -29.22718,
+      "time_after_queue.get": "08:29:30.772"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674040ea31d09500077e7d14",
+      "price": "1.38271",
+      "sequence": "10751247544240129",
+      "side": "buy",
+      "size": "2",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674040ea0d85530007724e19",
+      "time": "1732264170870000000",
+      "tradeId": "10751247544240129",
+      "type": "match",
+      "time_before_que.put": "08:29:30.906",
+      "seconds_from_release": -29.093678,
+      "time_after_queue.get": "08:29:30.910"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674040e831d09500077e7519",
+      "price": "1.38275",
+      "sequence": "10751247545026561",
+      "side": "buy",
+      "size": "2",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674040ea088f010007fbbccd",
+      "time": "1732264170872000000",
+      "tradeId": "10751247545026561",
+      "type": "match",
+      "time_before_que.put": "08:29:30.906",
+      "seconds_from_release": -29.093465,
+      "time_after_queue.get": "08:29:30.910"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674040e831d09500077e7519",
+      "price": "1.38275",
+      "sequence": "10751247560755201",
+      "side": "buy",
+      "size": "2",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674040ea4fe74600074e115e",
+      "time": "1732264170886000000",
+      "tradeId": "10751247560755201",
+      "type": "match",
+      "time_before_que.put": "08:29:30.929",
+      "seconds_from_release": -29.070709,
+      "time_after_queue.get": "08:29:30.933"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674040e831d09500077e7519",
+      "price": "1.38275",
+      "sequence": "10751247563769857",
+      "side": "buy",
+      "size": "2",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674040ea4fe74600074e116b",
+      "time": "1732264170889000000",
+      "tradeId": "10751247563769857",
+      "type": "match",
+      "time_before_que.put": "08:29:30.932",
+      "seconds_from_release": -29.067662,
+      "time_after_queue.get": "08:29:30.941"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674040ecdf6f6e0007c7384e",
+      "price": "1.3828",
+      "sequence": "10751247795505153",
+      "side": "sell",
+      "size": "62",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674040ecc65bf7000786b72b",
+      "time": "1732264172557000000",
+      "tradeId": "10751247795505153",
+      "type": "match",
+      "time_before_que.put": "08:29:32.595",
+      "seconds_from_release": -27.404251,
+      "time_after_queue.get": "08:29:32.595"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674040ecdf6f6e0007c7384e",
+      "price": "1.3828",
+      "sequence": "10751247845312513",
+      "side": "sell",
+      "size": "613.9",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674040ecc65bf7000786b8a2",
+      "time": "1732264172937000000",
+      "tradeId": "10751247845312513",
+      "type": "match",
+      "time_before_que.put": "08:29:32.978",
+      "seconds_from_release": -27.021879,
+      "time_after_queue.get": "08:29:32.978"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674040eeae93cc00071bcb7e",
+      "price": "1.38322",
+      "sequence": "10751248115714049",
+      "side": "sell",
+      "size": "12.2524",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674040ee37061e000797a9c1",
+      "time": "1732264174463000000",
+      "tradeId": "10751248115714049",
+      "type": "match",
+      "time_before_que.put": "08:29:34.503",
+      "seconds_from_release": -25.496867,
+      "time_after_queue.get": "08:29:34.503"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674040f1f4a7c50007edcba4",
+      "price": "1.38361",
+      "sequence": "10751248825731073",
+      "side": "buy",
+      "size": "90.2646",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674040f1f4a7c50007edce61",
+      "time": "1732264177728000000",
+      "tradeId": "10751248825731073",
+      "type": "match",
+      "time_before_que.put": "08:29:37.769",
+      "seconds_from_release": -22.230717,
+      "time_after_queue.get": "08:29:37.769"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674040f1b7e21a0007b7cde0",
+      "price": "1.38364",
+      "sequence": "10751248825731076",
+      "side": "buy",
+      "size": "41.2595",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674040f1f4a7c50007edce61",
+      "time": "1732264177728000000",
+      "tradeId": "10751248825731076",
+      "type": "match",
+      "time_before_que.put": "08:29:37.769",
+      "seconds_from_release": -22.230488,
+      "time_after_queue.get": "08:29:37.769"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674040f268486d0007dce118",
+      "price": "1.38363",
+      "sequence": "10751249001236481",
+      "side": "sell",
+      "size": "100",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674040f26967d300075720ac",
+      "time": "1732264178295000000",
+      "tradeId": "10751249001236481",
+      "type": "match",
+      "time_before_que.put": "08:29:38.335",
+      "seconds_from_release": -21.664499,
+      "time_after_queue.get": "08:29:38.335"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674040f331d09500077ea67a",
+      "price": "1.3837",
+      "sequence": "10751249227204609",
+      "side": "sell",
+      "size": "0.2765",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674040f367cdc900079f23cd",
+      "time": "1732264179705000000",
+      "tradeId": "10751249227204609",
+      "type": "match",
+      "time_before_que.put": "08:29:39.744",
+      "seconds_from_release": -20.255475,
+      "time_after_queue.get": "08:29:39.744"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674040f4c5ba740007dbaa05",
+      "price": "1.38345",
+      "sequence": "10751249582278657",
+      "side": "sell",
+      "size": "1.3091",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674040f5f1bf400007e7a9e7",
+      "time": "1732264181376000000",
+      "tradeId": "10751249582278657",
+      "type": "match",
+      "time_before_que.put": "08:29:41.413",
+      "seconds_from_release": -18.586196,
+      "time_after_queue.get": "08:29:41.413"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674040f51586c10007f21914",
+      "price": "1.38346",
+      "sequence": "10751249719773185",
+      "side": "sell",
+      "size": "70",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674040f5b7e21a0007b7e23f",
+      "time": "1732264181872000000",
+      "tradeId": "10751249719773185",
+      "type": "match",
+      "time_before_que.put": "08:29:41.910",
+      "seconds_from_release": -18.089181,
+      "time_after_queue.get": "08:29:41.911"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674040f51586c10007f21914",
+      "price": "1.38346",
+      "sequence": "10751249750706177",
+      "side": "sell",
+      "size": "91.2698",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674040f51586c10007f21c2a",
+      "time": "1732264181983000000",
+      "tradeId": "10751249750706177",
+      "type": "match",
+      "time_before_que.put": "08:29:42.023",
+      "seconds_from_release": -17.976215,
+      "time_after_queue.get": "08:29:42.023"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674040f51586c10007f21914",
+      "price": "1.38346",
+      "sequence": "10751249786095617",
+      "side": "sell",
+      "size": "14.6164",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674040f637061e000797cea9",
+      "time": "1732264182087000000",
+      "tradeId": "10751249786095617",
+      "type": "match",
+      "time_before_que.put": "08:29:42.128",
+      "seconds_from_release": -17.871053,
+      "time_after_queue.get": "08:29:42.130"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674040f51586c10007f21914",
+      "price": "1.38346",
+      "sequence": "10751249786488833",
+      "side": "sell",
+      "size": "1466.6204",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674040f60d855300077281f4",
+      "time": "1732264182087000000",
+      "tradeId": "10751249786488833",
+      "type": "match",
+      "time_before_que.put": "08:29:42.129",
+      "seconds_from_release": -17.870485,
+      "time_after_queue.get": "08:29:42.130"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674040f5d52cb80007513c25",
+      "price": "1.38305",
+      "sequence": "10751249789896705",
+      "side": "sell",
+      "size": "72.2155",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674040f6c65bf7000786e499",
+      "time": "1732264182091000000",
+      "tradeId": "10751249789896705",
+      "type": "match",
+      "time_before_que.put": "08:29:42.129",
+      "seconds_from_release": -17.870033,
+      "time_after_queue.get": "08:29:42.130"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674040f4f15b270007f43486",
+      "price": "1.38303",
+      "sequence": "10751249789896708",
+      "side": "sell",
+      "size": "11.2153",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674040f6c65bf7000786e499",
+      "time": "1732264182091000000",
+      "tradeId": "10751249789896708",
+      "type": "match",
+      "time_before_que.put": "08:29:42.130",
+      "seconds_from_release": -17.869796,
+      "time_after_queue.get": "08:29:42.131"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674040f4f4a7c50007eddd80",
+      "price": "1.383",
+      "sequence": "10751249789896711",
+      "side": "sell",
+      "size": "272.4995",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674040f6c65bf7000786e499",
+      "time": "1732264182091000000",
+      "tradeId": "10751249789896711",
+      "type": "match",
+      "time_before_que.put": "08:29:42.130",
+      "seconds_from_release": -17.869596,
+      "time_after_queue.get": "08:29:42.131"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674040f4ae93cc00071bea72",
+      "price": "1.38299",
+      "sequence": "10751249789896714",
+      "side": "sell",
+      "size": "4.9242",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674040f6c65bf7000786e499",
+      "time": "1732264182091000000",
+      "tradeId": "10751249789896714",
+      "type": "match",
+      "time_before_que.put": "08:29:42.130",
+      "seconds_from_release": -17.869434,
+      "time_after_queue.get": "08:29:42.131"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674040fbdf6f6e0007c77b3c",
+      "price": "1.38307",
+      "sequence": "10751250816583681",
+      "side": "buy",
+      "size": "987.176",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674040fbf1bf400007e7c50b",
+      "time": "1732264187523000000",
+      "tradeId": "10751250816583681",
+      "type": "match",
+      "time_before_que.put": "08:29:47.563",
+      "seconds_from_release": -12.436619,
+      "time_after_queue.get": "08:29:47.563"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674040fcf1bf400007e7cc10",
+      "price": "1.38307",
+      "sequence": "10751251178866689",
+      "side": "sell",
+      "size": "1.4",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674040fdf4a7c50007ee036a",
+      "time": "1732264189417000000",
+      "tradeId": "10751251178866689",
+      "type": "match",
+      "time_before_que.put": "08:29:49.454",
+      "seconds_from_release": -10.545128,
+      "time_after_queue.get": "08:29:49.454"
+    }
+  },
+  {
+    "id": "1732264190605",
+    "type": "pong",
+    "timestamp": 1732264190653011
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674041016967d300075762a5",
+      "price": "1.38358",
+      "sequence": "10751251879184385",
+      "side": "buy",
+      "size": "19",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674041010d8553000772b1eb",
+      "time": "1732264193224000000",
+      "tradeId": "10751251879184385",
+      "type": "match",
+      "time_before_que.put": "08:29:53.263",
+      "seconds_from_release": -6.736632,
+      "time_after_queue.get": "08:29:53.263"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674041040d8553000772c132",
+      "price": "1.38388",
+      "sequence": "10751252568885249",
+      "side": "buy",
+      "size": "49.9971",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404105f15b270007f47dc3",
+      "time": "1732264197321000000",
+      "tradeId": "10751252568885249",
+      "type": "match",
+      "time_before_que.put": "08:29:57.355",
+      "seconds_from_release": -2.644735,
+      "time_after_queue.get": "08:29:57.355"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674041060d8553000772ca1a",
+      "price": "1.38422",
+      "sequence": "10751252836534273",
+      "side": "buy",
+      "size": "485.2979",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404106b7e21a0007b82bb0",
+      "time": "1732264198969000000",
+      "tradeId": "10751252836534273",
+      "type": "match",
+      "time_before_que.put": "08:29:59.003",
+      "seconds_from_release": -0.996561,
+      "time_after_queue.get": "08:29:59.003"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674041070d8553000772cea2",
+      "price": "1.38405",
+      "sequence": "10751253059749889",
+      "side": "buy",
+      "size": "3.608",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404107f1bf400007e7fb30",
+      "time": "1732264199751000000",
+      "tradeId": "10751253059749889",
+      "type": "match",
+      "time_before_que.put": "08:29:59.787",
+      "seconds_from_release": -0.212179,
+      "time_after_queue.get": "08:29:59.787"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740410868486d0007dd4962",
+      "price": "1.38392",
+      "sequence": "10751253484161025",
+      "side": "buy",
+      "size": "240.7576",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404108df6f6e0007c7bb31",
+      "time": "1732264200873000000",
+      "tradeId": "10751253484161025",
+      "type": "match",
+      "time_before_que.put": "08:30:00.906",
+      "seconds_from_release": 0.906755,
+      "time_after_queue.get": "08:30:00.906"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67404108088f010007fc4442",
+      "price": "1.38443",
+      "sequence": "10751253604747265",
+      "side": "buy",
+      "size": "1.3081",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674041096967d30007578abb",
+      "time": "1732264201226000000",
+      "tradeId": "10751253604747265",
+      "type": "match",
+      "time_before_que.put": "08:30:01.269",
+      "seconds_from_release": 1.2698,
+      "time_after_queue.get": "08:30:01.271"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67404109088f010007fc4813",
+      "price": "1.38461",
+      "sequence": "10751253608941569",
+      "side": "buy",
+      "size": "134.6877",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740410931d09500077f0adf",
+      "time": "1732264201231000000",
+      "tradeId": "10751253608941569",
+      "type": "match",
+      "time_before_que.put": "08:30:01.271",
+      "seconds_from_release": 1.271083,
+      "time_after_queue.get": "08:30:01.272"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67404109088f010007fc4813",
+      "price": "1.38461",
+      "sequence": "10751253609334785",
+      "side": "buy",
+      "size": "10.8236",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404109f4a7c50007ee3c38",
+      "time": "1732264201231000000",
+      "tradeId": "10751253609334785",
+      "type": "match",
+      "time_before_que.put": "08:30:01.271",
+      "seconds_from_release": 1.271368,
+      "time_after_queue.get": "08:30:01.272"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67404109088f010007fc4813",
+      "price": "1.38461",
+      "sequence": "10751253609465857",
+      "side": "buy",
+      "size": "57.6887",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674041091586c10007f275f0",
+      "time": "1732264201231000000",
+      "tradeId": "10751253609465857",
+      "type": "match",
+      "time_before_que.put": "08:30:01.271",
+      "seconds_from_release": 1.271675,
+      "time_after_queue.get": "08:30:01.273"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67404109df6f6e0007c7bd10",
+      "price": "1.38464",
+      "sequence": "10751253609465860",
+      "side": "buy",
+      "size": "1407.6236",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674041091586c10007f275f0",
+      "time": "1732264201231000000",
+      "tradeId": "10751253609465860",
+      "type": "match",
+      "time_before_que.put": "08:30:01.272",
+      "seconds_from_release": 1.272195,
+      "time_after_queue.get": "08:30:01.273"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674040ebd52cb80007510ee6",
+      "price": "1.38479",
+      "sequence": "10751253666220033",
+      "side": "buy",
+      "size": "11.7622",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404109c65bf70007873ebe",
+      "time": "1732264201468000000",
+      "tradeId": "10751253666220033",
+      "type": "match",
+      "time_before_que.put": "08:30:01.554",
+      "seconds_from_release": 1.554778,
+      "time_after_queue.get": "08:30:01.555"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674040ebd52cb80007510ee6",
+      "price": "1.38479",
+      "sequence": "10751253670807553",
+      "side": "buy",
+      "size": "7.3456",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404109c65bf70007873ed4",
+      "time": "1732264201478000000",
+      "tradeId": "10751253670807553",
+      "type": "match",
+      "time_before_que.put": "08:30:01.555",
+      "seconds_from_release": 1.555122,
+      "time_after_queue.get": "08:30:01.555"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674040ebd52cb80007510ee6",
+      "price": "1.38479",
+      "sequence": "10751253868464129",
+      "side": "buy",
+      "size": "55.4922",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740410a67cdc900079f8f17",
+      "time": "1732264202431000000",
+      "tradeId": "10751253868464129",
+      "type": "match",
+      "time_before_que.put": "08:30:02.472",
+      "seconds_from_release": 2.472447,
+      "time_after_queue.get": "08:30:02.472"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740410dd52cb8000751ae6b",
+      "price": "1.38512",
+      "sequence": "10751254520809473",
+      "side": "sell",
+      "size": "10.0266",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740410ddf6f6e0007c7d29f",
+      "time": "1732264205443000000",
+      "tradeId": "10751254520809473",
+      "type": "match",
+      "time_before_que.put": "08:30:05.483",
+      "seconds_from_release": 5.483113,
+      "time_after_queue.get": "08:30:05.483"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740410f68486d0007dd6aec",
+      "price": "1.38454",
+      "sequence": "10751254948104193",
+      "side": "sell",
+      "size": "1000",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740410f68486d0007dd6b13",
+      "time": "1732264207253000000",
+      "tradeId": "10751254948104193",
+      "type": "match",
+      "time_before_que.put": "08:30:07.290",
+      "seconds_from_release": 7.290702,
+      "time_after_queue.get": "08:30:07.290"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67404110f15b270007f4bb1e",
+      "price": "1.38436",
+      "sequence": "10751255309338625",
+      "side": "buy",
+      "size": "8.675",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404111c5ba740007dc3222",
+      "time": "1732264209043000000",
+      "tradeId": "10751255309338625",
+      "type": "match",
+      "time_before_que.put": "08:30:09.080",
+      "seconds_from_release": 9.080606,
+      "time_after_queue.get": "08:30:09.080"
+    }
+  },
+  {
+    "id": "1732264210606",
+    "type": "pong",
+    "timestamp": 1732264210653850
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674041141586c10007f2ad74",
+      "price": "1.38535",
+      "sequence": "10751256083056641",
+      "side": "buy",
+      "size": "240.7576",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404114df6f6e0007c7f5ab",
+      "time": "1732264212762000000",
+      "tradeId": "10751256083056641",
+      "type": "match",
+      "time_before_que.put": "08:30:12.800",
+      "seconds_from_release": 12.800199,
+      "time_after_queue.get": "08:30:12.800"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740411468486d0007dd8520",
+      "price": "1.38535",
+      "sequence": "10751256083056644",
+      "side": "buy",
+      "size": "1200",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404114df6f6e0007c7f5ab",
+      "time": "1732264212762000000",
+      "tradeId": "10751256083056644",
+      "type": "match",
+      "time_before_que.put": "08:30:12.800",
+      "seconds_from_release": 12.800431,
+      "time_after_queue.get": "08:30:12.800"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674041144fe74600074ed5ed",
+      "price": "1.38537",
+      "sequence": "10751256083056647",
+      "side": "buy",
+      "size": "952.83",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404114df6f6e0007c7f5ab",
+      "time": "1732264212762000000",
+      "tradeId": "10751256083056647",
+      "type": "match",
+      "time_before_que.put": "08:30:12.800",
+      "seconds_from_release": 12.800612,
+      "time_after_queue.get": "08:30:12.800"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67404114ae93cc00071c81bf",
+      "price": "1.38538",
+      "sequence": "10751256083056650",
+      "side": "buy",
+      "size": "89.4512",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404114df6f6e0007c7f5ab",
+      "time": "1732264212762000000",
+      "tradeId": "10751256083056650",
+      "type": "match",
+      "time_before_que.put": "08:30:12.800",
+      "seconds_from_release": 12.800763,
+      "time_after_queue.get": "08:30:12.800"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67404115c65bf70007877af5",
+      "price": "1.38504",
+      "sequence": "10751256424499201",
+      "side": "buy",
+      "size": "6.435",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404116f15b270007f4d4e6",
+      "time": "1732264214117000000",
+      "tradeId": "10751256424499201",
+      "type": "match",
+      "time_before_que.put": "08:30:14.153",
+      "seconds_from_release": 14.153788,
+      "time_after_queue.get": "08:30:14.153"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740411631d09500077f4b6d",
+      "price": "1.38514",
+      "sequence": "10751256459626497",
+      "side": "buy",
+      "size": "10.3576",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740411631d09500077f4c4c",
+      "time": "1732264214332000000",
+      "tradeId": "10751256459626497",
+      "type": "match",
+      "time_before_que.put": "08:30:14.369",
+      "seconds_from_release": 14.369304,
+      "time_after_queue.get": "08:30:14.369"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740411531d09500077f46e6",
+      "price": "1.38481",
+      "sequence": "10751256517429249",
+      "side": "sell",
+      "size": "1.3078",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674041161586c10007f2b7dd",
+      "time": "1732264214551000000",
+      "tradeId": "10751256517429249",
+      "type": "match",
+      "time_before_que.put": "08:30:14.585",
+      "seconds_from_release": 14.58535,
+      "time_after_queue.get": "08:30:14.585"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740411168486d0007dd76fe",
+      "price": "1.38459",
+      "sequence": "10751256517429252",
+      "side": "sell",
+      "size": "343.8087",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674041161586c10007f2b7dd",
+      "time": "1732264214551000000",
+      "tradeId": "10751256517429252",
+      "type": "match",
+      "time_before_que.put": "08:30:14.585",
+      "seconds_from_release": 14.58551,
+      "time_after_queue.get": "08:30:14.585"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67404119f4f12000070d1278",
+      "price": "1.38443",
+      "sequence": "10751257260476417",
+      "side": "sell",
+      "size": "1.9346",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404119f4a7c50007ee8e20",
+      "time": "1732264217373000000",
+      "tradeId": "10751257260476417",
+      "type": "match",
+      "time_before_que.put": "08:30:17.410",
+      "seconds_from_release": 17.410326,
+      "time_after_queue.get": "08:30:17.410"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674041194fe74600074eee41",
+      "price": "1.38479",
+      "sequence": "10751257288263681",
+      "side": "buy",
+      "size": "216.6393",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404119c5ba740007dc5f1b",
+      "time": "1732264217483000000",
+      "tradeId": "10751257288263681",
+      "type": "match",
+      "time_before_que.put": "08:30:17.521",
+      "seconds_from_release": 17.521618,
+      "time_after_queue.get": "08:30:17.522"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740411bf1bf400007e863ea",
+      "price": "1.38508",
+      "sequence": "10751257908889601",
+      "side": "buy",
+      "size": "21.2298",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740411c1586c10007f2d762",
+      "time": "1732264220279000000",
+      "tradeId": "10751257908889601",
+      "type": "match",
+      "time_before_que.put": "08:30:20.312",
+      "seconds_from_release": 20.31214,
+      "time_after_queue.get": "08:30:20.312"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740412037061e0007989e2d",
+      "price": "1.38435",
+      "sequence": "10751259126941697",
+      "side": "sell",
+      "size": "1.3082",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404121ae93cc00071cc997",
+      "time": "1732264225740000000",
+      "tradeId": "10751259126941697",
+      "type": "match",
+      "time_before_que.put": "08:30:25.776",
+      "seconds_from_release": 25.776614,
+      "time_after_queue.get": "08:30:25.777"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674041221586c10007f2f740",
+      "price": "1.38381",
+      "sequence": "10751259289864193",
+      "side": "buy",
+      "size": "4.036",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404122ae93cc00071ccc41",
+      "time": "1732264226185000000",
+      "tradeId": "10751259289864193",
+      "type": "match",
+      "time_before_que.put": "08:30:26.222",
+      "seconds_from_release": 26.222567,
+      "time_after_queue.get": "08:30:26.222"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740412367cdc90007a00f5c",
+      "price": "1.38384",
+      "sequence": "10751259523041281",
+      "side": "buy",
+      "size": "1200",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674041235e98e000078007fa",
+      "time": "1732264227347000000",
+      "tradeId": "10751259523041281",
+      "type": "match",
+      "time_before_que.put": "08:30:27.385",
+      "seconds_from_release": 27.385248,
+      "time_after_queue.get": "08:30:27.385"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67404123ae93cc00071cd14d",
+      "price": "1.38386",
+      "sequence": "10751259523041284",
+      "side": "buy",
+      "size": "600",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674041235e98e000078007fa",
+      "time": "1732264227347000000",
+      "tradeId": "10751259523041284",
+      "type": "match",
+      "time_before_que.put": "08:30:27.385",
+      "seconds_from_release": 27.385371,
+      "time_after_queue.get": "08:30:27.385"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67404123088f010007fcce94",
+      "price": "1.38387",
+      "sequence": "10751259523041287",
+      "side": "buy",
+      "size": "103.7005",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674041235e98e000078007fa",
+      "time": "1732264227347000000",
+      "tradeId": "10751259523041287",
+      "type": "match",
+      "time_before_que.put": "08:30:27.385",
+      "seconds_from_release": 27.385468,
+      "time_after_queue.get": "08:30:27.385"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67404123088f010007fccff3",
+      "price": "1.3837",
+      "sequence": "10751259552270337",
+      "side": "buy",
+      "size": "154.5",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674041231586c10007f2fda3",
+      "time": "1732264227581000000",
+      "tradeId": "10751259552270337",
+      "type": "match",
+      "time_before_que.put": "08:30:27.618",
+      "seconds_from_release": 27.618614,
+      "time_after_queue.get": "08:30:27.618"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674041231586c10007f2fecc",
+      "price": "1.38385",
+      "sequence": "10751259812055041",
+      "side": "buy",
+      "size": "1.3087",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412567cdc90007a01883",
+      "time": "1732264229442000000",
+      "tradeId": "10751259812055041",
+      "type": "match",
+      "time_before_que.put": "08:30:29.481",
+      "seconds_from_release": 29.48134,
+      "time_after_queue.get": "08:30:29.482"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67404123d52cb800075223b1",
+      "price": "1.38385",
+      "sequence": "10751259812055044",
+      "side": "buy",
+      "size": "88.3658",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412567cdc90007a01883",
+      "time": "1732264229442000000",
+      "tradeId": "10751259812055044",
+      "type": "match",
+      "time_before_que.put": "08:30:29.481",
+      "seconds_from_release": 29.481827,
+      "time_after_queue.get": "08:30:29.482"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67404125ae93cc00071cdaa9",
+      "price": "1.38385",
+      "sequence": "10751259812055047",
+      "side": "buy",
+      "size": "1356.233",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412567cdc90007a01883",
+      "time": "1732264229442000000",
+      "tradeId": "10751259812055047",
+      "type": "match",
+      "time_before_que.put": "08:30:29.482",
+      "seconds_from_release": 29.48231,
+      "time_after_queue.get": "08:30:29.483"
+    }
+  },
+  {
+    "id": "1732264230607",
+    "type": "pong",
+    "timestamp": 1732264230656037
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740412568486d0007ddde3f",
+      "price": "1.38439",
+      "sequence": "10751260193867777",
+      "side": "buy",
+      "size": "1.3082",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674041266967d30007582211",
+      "time": "1732264230877000000",
+      "tradeId": "10751260193867777",
+      "type": "match",
+      "time_before_que.put": "08:30:30.920",
+      "seconds_from_release": 30.9209,
+      "time_after_queue.get": "08:30:30.921"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674041296967d30007583164",
+      "price": "1.3851",
+      "sequence": "10751260812134401",
+      "side": "buy",
+      "size": "89.6745",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412931d09500077fb32b",
+      "time": "1732264233845000000",
+      "tradeId": "10751260812134401",
+      "type": "match",
+      "time_before_que.put": "08:30:33.884",
+      "seconds_from_release": 33.884639,
+      "time_after_queue.get": "08:30:33.884"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67404129f4a7c50007eee0f1",
+      "price": "1.38518",
+      "sequence": "10751260812134404",
+      "side": "buy",
+      "size": "460.3797",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412931d09500077fb32b",
+      "time": "1732264233845000000",
+      "tradeId": "10751260812134404",
+      "type": "match",
+      "time_before_que.put": "08:30:33.884",
+      "seconds_from_release": 33.884928,
+      "time_after_queue.get": "08:30:33.885"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740412a088f010007fcf5b6",
+      "price": "1.38508",
+      "sequence": "10751261111109633",
+      "side": "sell",
+      "size": "50",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412bf4f12000070d6d5b",
+      "time": "1732264235032000000",
+      "tradeId": "10751261111109633",
+      "type": "match",
+      "time_before_que.put": "08:30:35.071",
+      "seconds_from_release": 35.07104,
+      "time_after_queue.get": "08:30:35.071"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740412bf1bf400007e8b9bd",
+      "price": "1.38564",
+      "sequence": "10751261335898113",
+      "side": "sell",
+      "size": "0.3895",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412bf4f12000070d71c4",
+      "time": "1732264235801000000",
+      "tradeId": "10751261335898113",
+      "type": "match",
+      "time_before_que.put": "08:30:35.835",
+      "seconds_from_release": 35.835413,
+      "time_after_queue.get": "08:30:35.835"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740412b4fe74600074f4d37",
+      "price": "1.38577",
+      "sequence": "10751261448095745",
+      "side": "buy",
+      "size": "1.3069",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412b4fe74600074f51ee",
+      "time": "1732264236000000000",
+      "tradeId": "10751261448095745",
+      "type": "match",
+      "time_before_que.put": "08:30:36.039",
+      "seconds_from_release": 36.039187,
+      "time_after_queue.get": "08:30:36.039"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740387cf4a7c50007c0782b",
+      "price": "1.38589",
+      "sequence": "10751261475751937",
+      "side": "buy",
+      "size": "4.0945",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412cd52cb80007524da7",
+      "time": "1732264236026000000",
+      "tradeId": "10751261475751937",
+      "type": "match",
+      "time_before_que.put": "08:30:36.061",
+      "seconds_from_release": 36.061747,
+      "time_after_queue.get": "08:30:36.062"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403745f15b270007bfb9e3",
+      "price": "1.3859",
+      "sequence": "10751261475751940",
+      "side": "buy",
+      "size": "0.7718",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412cd52cb80007524da7",
+      "time": "1732264236026000000",
+      "tradeId": "10751261475751940",
+      "type": "match",
+      "time_before_que.put": "08:30:36.061",
+      "seconds_from_release": 36.061947,
+      "time_after_queue.get": "08:30:36.062"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403748ae93cc0007e769b1",
+      "price": "1.3859",
+      "sequence": "10751261475751943",
+      "side": "buy",
+      "size": "1.4596",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412cd52cb80007524da7",
+      "time": "1732264236026000000",
+      "tradeId": "10751261475751943",
+      "type": "match",
+      "time_before_que.put": "08:30:36.062",
+      "seconds_from_release": 36.062211,
+      "time_after_queue.get": "08:30:36.063"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403748df6f6e000792e83b",
+      "price": "1.3859",
+      "sequence": "10751261475751946",
+      "side": "buy",
+      "size": "1.2553",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412cd52cb80007524da7",
+      "time": "1732264236026000000",
+      "tradeId": "10751261475751946",
+      "type": "match",
+      "time_before_que.put": "08:30:36.062",
+      "seconds_from_release": 36.062416,
+      "time_after_queue.get": "08:30:36.063"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403837b7e21a000788e6dd",
+      "price": "1.3859",
+      "sequence": "10751261475751949",
+      "side": "buy",
+      "size": "1.1722",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412cd52cb80007524da7",
+      "time": "1732264236026000000",
+      "tradeId": "10751261475751949",
+      "type": "match",
+      "time_before_que.put": "08:30:36.062",
+      "seconds_from_release": 36.062588,
+      "time_after_queue.get": "08:30:36.063"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038b7f4a7c50007c1aea1",
+      "price": "1.38592",
+      "sequence": "10751261493577729",
+      "side": "buy",
+      "size": "1.5697",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412c31d09500077fc000",
+      "time": "1732264236049000000",
+      "tradeId": "10751261493577729",
+      "type": "match",
+      "time_before_que.put": "08:30:36.081",
+      "seconds_from_release": 36.081796,
+      "time_after_queue.get": "08:30:36.082"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740374bd4ea9300078192e4",
+      "price": "1.38593",
+      "sequence": "10751261493577732",
+      "side": "buy",
+      "size": "3.4625",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412c31d09500077fc000",
+      "time": "1732264236049000000",
+      "tradeId": "10751261493577732",
+      "type": "match",
+      "time_before_que.put": "08:30:36.082",
+      "seconds_from_release": 36.082324,
+      "time_after_queue.get": "08:30:36.082"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038b867cdc9000772f6c5",
+      "price": "1.38593",
+      "sequence": "10751261493577735",
+      "side": "buy",
+      "size": "9.6464",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412c31d09500077fc000",
+      "time": "1732264236049000000",
+      "tradeId": "10751261493577735",
+      "type": "match",
+      "time_before_que.put": "08:30:36.082",
+      "seconds_from_release": 36.082425,
+      "time_after_queue.get": "08:30:36.082"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038b8c65bf700075ab6d4",
+      "price": "1.38593",
+      "sequence": "10751261493577738",
+      "side": "buy",
+      "size": "17.8401",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412c31d09500077fc000",
+      "time": "1732264236049000000",
+      "tradeId": "10751261493577738",
+      "type": "match",
+      "time_before_que.put": "08:30:36.082",
+      "seconds_from_release": 36.082514,
+      "time_after_queue.get": "08:30:36.082"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038b8c65bf700075ab6d4",
+      "price": "1.38593",
+      "sequence": "10751261507602433",
+      "side": "buy",
+      "size": "0.1607",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412c1586c10007f32997",
+      "time": "1732264236065000000",
+      "tradeId": "10751261507602433",
+      "type": "match",
+      "time_before_que.put": "08:30:36.104",
+      "seconds_from_release": 36.104813,
+      "time_after_queue.get": "08:30:36.104"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038b8c65bf700075ab6d4",
+      "price": "1.38593",
+      "sequence": "10751261508126721",
+      "side": "buy",
+      "size": "1.1954",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412c088f010007fcfd53",
+      "time": "1732264236066000000",
+      "tradeId": "10751261508126721",
+      "type": "match",
+      "time_before_que.put": "08:30:36.105",
+      "seconds_from_release": 36.105051,
+      "time_after_queue.get": "08:30:36.105"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740395cc5ba740007b2edb3",
+      "price": "1.38594",
+      "sequence": "10751261510354945",
+      "side": "buy",
+      "size": "0.2136",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412c67cdc90007a03d58",
+      "time": "1732264236067000000",
+      "tradeId": "10751261510354945",
+      "type": "match",
+      "time_before_que.put": "08:30:36.105",
+      "seconds_from_release": 36.105164,
+      "time_after_queue.get": "08:30:36.105"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038376967d3000728379a",
+      "price": "1.38596",
+      "sequence": "10751261510354948",
+      "side": "buy",
+      "size": "0.1607",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412c67cdc90007a03d58",
+      "time": "1732264236067000000",
+      "tradeId": "10751261510354948",
+      "type": "match",
+      "time_before_que.put": "08:30:36.107",
+      "seconds_from_release": 36.107488,
+      "time_after_queue.get": "08:30:36.107"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403744d52cb800071cb008",
+      "price": "1.386",
+      "sequence": "10751261510354951",
+      "side": "buy",
+      "size": "116.4328",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412c67cdc90007a03d58",
+      "time": "1732264236067000000",
+      "tradeId": "10751261510354951",
+      "type": "match",
+      "time_before_que.put": "08:30:36.107",
+      "seconds_from_release": 36.107641,
+      "time_after_queue.get": "08:30:36.107"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403744f1bf400007b31eeb",
+      "price": "1.386",
+      "sequence": "10751261510354954",
+      "side": "buy",
+      "size": "0.129",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412c67cdc90007a03d58",
+      "time": "1732264236067000000",
+      "tradeId": "10751261510354954",
+      "type": "match",
+      "time_before_que.put": "08:30:36.107",
+      "seconds_from_release": 36.107748,
+      "time_after_queue.get": "08:30:36.107"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403745f4a7c50007b956b7",
+      "price": "1.386",
+      "sequence": "10751261510354957",
+      "side": "buy",
+      "size": "1.8702",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412c67cdc90007a03d58",
+      "time": "1732264236067000000",
+      "tradeId": "10751261510354957",
+      "type": "match",
+      "time_before_que.put": "08:30:36.107",
+      "seconds_from_release": 36.107839,
+      "time_after_queue.get": "08:30:36.107"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403748c65bf700075268bf",
+      "price": "1.386",
+      "sequence": "10751261510354960",
+      "side": "buy",
+      "size": "0.4188",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412c67cdc90007a03d58",
+      "time": "1732264236067000000",
+      "tradeId": "10751261510354960",
+      "type": "match",
+      "time_before_que.put": "08:30:36.107",
+      "seconds_from_release": 36.107926,
+      "time_after_queue.get": "08:30:36.108"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403758cf286a00075e9c55",
+      "price": "1.386",
+      "sequence": "10751261510354963",
+      "side": "buy",
+      "size": "0.8586",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412c67cdc90007a03d58",
+      "time": "1732264236067000000",
+      "tradeId": "10751261510354963",
+      "type": "match",
+      "time_before_que.put": "08:30:36.108",
+      "seconds_from_release": 36.108014,
+      "time_after_queue.get": "08:30:36.108"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740387c37061e00076a5f34",
+      "price": "1.386",
+      "sequence": "10751261510354966",
+      "side": "buy",
+      "size": "0.5378",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412c67cdc90007a03d58",
+      "time": "1732264236067000000",
+      "tradeId": "10751261510354966",
+      "type": "match",
+      "time_before_que.put": "08:30:36.108",
+      "seconds_from_release": 36.108132,
+      "time_after_queue.get": "08:30:36.108"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740388eb7e21a00078ae7b8",
+      "price": "1.386",
+      "sequence": "10751261510354969",
+      "side": "buy",
+      "size": "1.9313",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412c67cdc90007a03d58",
+      "time": "1732264236067000000",
+      "tradeId": "10751261510354969",
+      "type": "match",
+      "time_before_que.put": "08:30:36.108",
+      "seconds_from_release": 36.108286,
+      "time_after_queue.get": "08:30:36.108"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038d9aaf3e50007a1cb0c",
+      "price": "1.386",
+      "sequence": "10751261510354972",
+      "side": "buy",
+      "size": "0.4494",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412c67cdc90007a03d58",
+      "time": "1732264236067000000",
+      "tradeId": "10751261510354972",
+      "type": "match",
+      "time_before_que.put": "08:30:36.133",
+      "seconds_from_release": 36.13305,
+      "time_after_queue.get": "08:30:36.133"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038d9aaf3e50007a1cb0c",
+      "price": "1.386",
+      "sequence": "10751261515466753",
+      "side": "buy",
+      "size": "0.3743",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412cf15b270007f54ae9",
+      "time": "1732264236075000000",
+      "tradeId": "10751261515466753",
+      "type": "match",
+      "time_before_que.put": "08:30:36.133",
+      "seconds_from_release": 36.133209,
+      "time_after_queue.get": "08:30:36.133"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740388ddf6f6e00079a5eef",
+      "price": "1.38604",
+      "sequence": "10751261515466756",
+      "side": "buy",
+      "size": "1.1192",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412cf15b270007f54ae9",
+      "time": "1732264236075000000",
+      "tradeId": "10751261515466756",
+      "type": "match",
+      "time_before_que.put": "08:30:36.133",
+      "seconds_from_release": 36.133297,
+      "time_after_queue.get": "08:30:36.133"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740388ddf6f6e00079a5eef",
+      "price": "1.38604",
+      "sequence": "10751261529884673",
+      "side": "buy",
+      "size": "0.3743",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412cf4a7c50007eef1e4",
+      "time": "1732264236098000000",
+      "tradeId": "10751261529884673",
+      "type": "match",
+      "time_before_que.put": "08:30:36.133",
+      "seconds_from_release": 36.133386,
+      "time_after_queue.get": "08:30:36.133"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740373cf4a7c50007b929f7",
+      "price": "1.38608",
+      "sequence": "10751261529884676",
+      "side": "buy",
+      "size": "0.2761",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412cf4a7c50007eef1e4",
+      "time": "1732264236098000000",
+      "tradeId": "10751261529884676",
+      "type": "match",
+      "time_before_que.put": "08:30:36.133",
+      "seconds_from_release": 36.13355,
+      "time_after_queue.get": "08:30:36.133"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740373cf4a7c50007b929f7",
+      "price": "1.38608",
+      "sequence": "10751261530146817",
+      "side": "buy",
+      "size": "0.3743",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412cc65bf7000787f1c0",
+      "time": "1732264236098000000",
+      "tradeId": "10751261530146817",
+      "type": "match",
+      "time_before_que.put": "08:30:36.133",
+      "seconds_from_release": 36.133681,
+      "time_after_queue.get": "08:30:36.134"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403745f15b270007bfb9ee",
+      "price": "1.3861",
+      "sequence": "10751261530146820",
+      "side": "buy",
+      "size": "0.3783",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412cc65bf7000787f1c0",
+      "time": "1732264236098000000",
+      "tradeId": "10751261530146820",
+      "type": "match",
+      "time_before_que.put": "08:30:36.133",
+      "seconds_from_release": 36.133955,
+      "time_after_queue.get": "08:30:36.134"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403756c65bf7000752d300",
+      "price": "1.3861",
+      "sequence": "10751261530146823",
+      "side": "buy",
+      "size": "1.2369",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412cc65bf7000787f1c0",
+      "time": "1732264236098000000",
+      "tradeId": "10751261530146823",
+      "type": "match",
+      "time_before_que.put": "08:30:36.134",
+      "seconds_from_release": 36.13422,
+      "time_after_queue.get": "08:30:36.134"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403756c65bf7000752d300",
+      "price": "1.3861",
+      "sequence": "10751261530277889",
+      "side": "buy",
+      "size": "0.8741",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412c37061e000798dd5a",
+      "time": "1732264236098000000",
+      "tradeId": "10751261530277889",
+      "type": "match",
+      "time_before_que.put": "08:30:36.134",
+      "seconds_from_release": 36.134366,
+      "time_after_queue.get": "08:30:36.134"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740375967cdc900076b215b",
+      "price": "1.3861",
+      "sequence": "10751261530277892",
+      "side": "buy",
+      "size": "0.2538",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412c37061e000798dd5a",
+      "time": "1732264236098000000",
+      "tradeId": "10751261530277892",
+      "type": "match",
+      "time_before_que.put": "08:30:36.134",
+      "seconds_from_release": 36.134511,
+      "time_after_queue.get": "08:30:36.134"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403837df6f6e0007986082",
+      "price": "1.3861",
+      "sequence": "10751261530277895",
+      "side": "buy",
+      "size": "4.5741",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412c37061e000798dd5a",
+      "time": "1732264236098000000",
+      "tradeId": "10751261530277895",
+      "type": "match",
+      "time_before_que.put": "08:30:36.149",
+      "seconds_from_release": 36.149618,
+      "time_after_queue.get": "08:30:36.149"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403758f4f1200007d856cb",
+      "price": "1.38611",
+      "sequence": "10751261739862017",
+      "side": "buy",
+      "size": "0.124",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412cf1bf400007e8c1f2",
+      "time": "1732264236964000000",
+      "tradeId": "10751261739862017",
+      "type": "match",
+      "time_before_que.put": "08:30:37.003",
+      "seconds_from_release": 37.003548,
+      "time_after_queue.get": "08:30:37.003"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403744c65bf70007525503",
+      "price": "1.38612",
+      "sequence": "10751261739862020",
+      "side": "buy",
+      "size": "1.2295",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412cf1bf400007e8c1f2",
+      "time": "1732264236964000000",
+      "tradeId": "10751261739862020",
+      "type": "match",
+      "time_before_que.put": "08:30:37.003",
+      "seconds_from_release": 37.003816,
+      "time_after_queue.get": "08:30:37.004"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740387ccf286a0007653899",
+      "price": "1.38612",
+      "sequence": "10751261739862023",
+      "side": "buy",
+      "size": "0.636",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412cf1bf400007e8c1f2",
+      "time": "1732264236964000000",
+      "tradeId": "10751261739862023",
+      "type": "match",
+      "time_before_que.put": "08:30:37.004",
+      "seconds_from_release": 37.004089,
+      "time_after_queue.get": "08:30:37.004"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740375931d09500074aa76b",
+      "price": "1.38614",
+      "sequence": "10751261739862026",
+      "side": "buy",
+      "size": "2.3273",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412cf1bf400007e8c1f2",
+      "time": "1732264236964000000",
+      "tradeId": "10751261739862026",
+      "type": "match",
+      "time_before_que.put": "08:30:37.004",
+      "seconds_from_release": 37.00423,
+      "time_after_queue.get": "08:30:37.004"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674037580d855300073e79b4",
+      "price": "1.38615",
+      "sequence": "10751261739862029",
+      "side": "buy",
+      "size": "0.621",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412cf1bf400007e8c1f2",
+      "time": "1732264236964000000",
+      "tradeId": "10751261739862029",
+      "type": "match",
+      "time_before_que.put": "08:30:37.004",
+      "seconds_from_release": 37.004458,
+      "time_after_queue.get": "08:30:37.004"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740411367cdc900079fbb62",
+      "price": "1.38617",
+      "sequence": "10751261739862032",
+      "side": "buy",
+      "size": "0.6905",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412cf1bf400007e8c1f2",
+      "time": "1732264236964000000",
+      "tradeId": "10751261739862032",
+      "type": "match",
+      "time_before_que.put": "08:30:37.004",
+      "seconds_from_release": 37.004568,
+      "time_after_queue.get": "08:30:37.004"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740411367cdc900079fbb62",
+      "price": "1.38617",
+      "sequence": "10751261753100289",
+      "side": "buy",
+      "size": "42.7095",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412dcf286a000793b04f",
+      "time": "1732264237023000000",
+      "tradeId": "10751261753100289",
+      "type": "match",
+      "time_before_que.put": "08:30:37.065",
+      "seconds_from_release": 37.065151,
+      "time_after_queue.get": "08:30:37.065"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740374531d09500074a1cfa",
+      "price": "1.3862",
+      "sequence": "10751261753100292",
+      "side": "buy",
+      "size": "0.6175",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412dcf286a000793b04f",
+      "time": "1732264237023000000",
+      "tradeId": "10751261753100292",
+      "type": "match",
+      "time_before_que.put": "08:30:37.065",
+      "seconds_from_release": 37.065496,
+      "time_after_queue.get": "08:30:37.066"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403748b7e21a0007837097",
+      "price": "1.3862",
+      "sequence": "10751261753100295",
+      "side": "buy",
+      "size": "4.3225",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412dcf286a000793b04f",
+      "time": "1732264237023000000",
+      "tradeId": "10751261753100295",
+      "type": "match",
+      "time_before_que.put": "08:30:37.065",
+      "seconds_from_release": 37.065656,
+      "time_after_queue.get": "08:30:37.066"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403748f1bf400007b33154",
+      "price": "1.3862",
+      "sequence": "10751261753100298",
+      "side": "buy",
+      "size": "1.4573",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412dcf286a000793b04f",
+      "time": "1732264237023000000",
+      "tradeId": "10751261753100298",
+      "type": "match",
+      "time_before_que.put": "08:30:37.065",
+      "seconds_from_release": 37.065795,
+      "time_after_queue.get": "08:30:37.066"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674037484fe746000719c6d1",
+      "price": "1.3862",
+      "sequence": "10751261753100301",
+      "side": "buy",
+      "size": "0.4407",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412dcf286a000793b04f",
+      "time": "1732264237023000000",
+      "tradeId": "10751261753100301",
+      "type": "match",
+      "time_before_que.put": "08:30:37.065",
+      "seconds_from_release": 37.06593,
+      "time_after_queue.get": "08:30:37.067"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740374bae93cc0007e77c3a",
+      "price": "1.3862",
+      "sequence": "10751261753100304",
+      "side": "buy",
+      "size": "0.8291",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412dcf286a000793b04f",
+      "time": "1732264237023000000",
+      "tradeId": "10751261753100304",
+      "type": "match",
+      "time_before_que.put": "08:30:37.066",
+      "seconds_from_release": 37.066315,
+      "time_after_queue.get": "08:30:37.067"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403756ae93cc0007e7d5ff",
+      "price": "1.3862",
+      "sequence": "10751261753100307",
+      "side": "buy",
+      "size": "2.0077",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412dcf286a000793b04f",
+      "time": "1732264237023000000",
+      "tradeId": "10751261753100307",
+      "type": "match",
+      "time_before_que.put": "08:30:37.066",
+      "seconds_from_release": 37.066454,
+      "time_after_queue.get": "08:30:37.068"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740374df4f1200007d7ff6c",
+      "price": "1.38622",
+      "sequence": "10751261753100310",
+      "side": "buy",
+      "size": "20.9347",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412dcf286a000793b04f",
+      "time": "1732264237023000000",
+      "tradeId": "10751261753100310",
+      "type": "match",
+      "time_before_que.put": "08:30:37.066",
+      "seconds_from_release": 37.066609,
+      "time_after_queue.get": "08:30:37.068"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740387cb7e21a00078a7f18",
+      "price": "1.38623",
+      "sequence": "10751261753100313",
+      "side": "buy",
+      "size": "0.2058",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412dcf286a000793b04f",
+      "time": "1732264237023000000",
+      "tradeId": "10751261753100313",
+      "type": "match",
+      "time_before_que.put": "08:30:37.066",
+      "seconds_from_release": 37.066791,
+      "time_after_queue.get": "08:30:37.068"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740389567cdc9000772436e",
+      "price": "1.38623",
+      "sequence": "10751261753100316",
+      "side": "buy",
+      "size": "3.967",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412dcf286a000793b04f",
+      "time": "1732264237023000000",
+      "tradeId": "10751261753100316",
+      "type": "match",
+      "time_before_que.put": "08:30:37.066",
+      "seconds_from_release": 37.066968,
+      "time_after_queue.get": "08:30:37.069"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038b80d855300074652d1",
+      "price": "1.38623",
+      "sequence": "10751261753100319",
+      "side": "buy",
+      "size": "6.4584",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412dcf286a000793b04f",
+      "time": "1732264237023000000",
+      "tradeId": "10751261753100319",
+      "type": "match",
+      "time_before_que.put": "08:30:37.067",
+      "seconds_from_release": 37.067106,
+      "time_after_queue.get": "08:30:37.069"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740388ec65bf7000759e1f6",
+      "price": "1.38624",
+      "sequence": "10751261753100322",
+      "side": "buy",
+      "size": "0.3328",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412dcf286a000793b04f",
+      "time": "1732264237023000000",
+      "tradeId": "10751261753100322",
+      "type": "match",
+      "time_before_que.put": "08:30:37.067",
+      "seconds_from_release": 37.067234,
+      "time_after_queue.get": "08:30:37.069"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403758df6f6e0007935d51",
+      "price": "1.38625",
+      "sequence": "10751261753100325",
+      "side": "buy",
+      "size": "0.3991",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412dcf286a000793b04f",
+      "time": "1732264237023000000",
+      "tradeId": "10751261753100325",
+      "type": "match",
+      "time_before_que.put": "08:30:37.067",
+      "seconds_from_release": 37.067549,
+      "time_after_queue.get": "08:30:37.069"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674037591586c10007be1a24",
+      "price": "1.38625",
+      "sequence": "10751261753100328",
+      "side": "buy",
+      "size": "0.8881",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412dcf286a000793b04f",
+      "time": "1732264237023000000",
+      "tradeId": "10751261753100328",
+      "type": "match",
+      "time_before_que.put": "08:30:37.067",
+      "seconds_from_release": 37.067694,
+      "time_after_queue.get": "08:30:37.069"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038adf4f1200007dff54a",
+      "price": "1.38625",
+      "sequence": "10751261753100331",
+      "side": "buy",
+      "size": "0.2743",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412dcf286a000793b04f",
+      "time": "1732264237023000000",
+      "tradeId": "10751261753100331",
+      "type": "match",
+      "time_before_que.put": "08:30:37.067",
+      "seconds_from_release": 37.067835,
+      "time_after_queue.get": "08:30:37.069"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038ad1586c10007c5b463",
+      "price": "1.38625",
+      "sequence": "10751261753100334",
+      "side": "buy",
+      "size": "0.209",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412dcf286a000793b04f",
+      "time": "1732264237023000000",
+      "tradeId": "10751261753100334",
+      "type": "match",
+      "time_before_que.put": "08:30:37.068",
+      "seconds_from_release": 37.068196,
+      "time_after_queue.get": "08:30:37.070"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038b81586c10007c5ec29",
+      "price": "1.38625",
+      "sequence": "10751261753100337",
+      "side": "buy",
+      "size": "1.5445",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412dcf286a000793b04f",
+      "time": "1732264237023000000",
+      "tradeId": "10751261753100337",
+      "type": "match",
+      "time_before_que.put": "08:30:37.068",
+      "seconds_from_release": 37.068453,
+      "time_after_queue.get": "08:30:37.070"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038b84fe7460007221456",
+      "price": "1.38625",
+      "sequence": "10751261753100340",
+      "side": "buy",
+      "size": "1.7736",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412dcf286a000793b04f",
+      "time": "1732264237023000000",
+      "tradeId": "10751261753100340",
+      "type": "match",
+      "time_before_que.put": "08:30:37.068",
+      "seconds_from_release": 37.068598,
+      "time_after_queue.get": "08:30:37.070"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038b8c5ba740007af7bde",
+      "price": "1.38625",
+      "sequence": "10751261753100343",
+      "side": "buy",
+      "size": "0.4328",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412dcf286a000793b04f",
+      "time": "1732264237023000000",
+      "tradeId": "10751261753100343",
+      "type": "match",
+      "time_before_que.put": "08:30:37.068",
+      "seconds_from_release": 37.068858,
+      "time_after_queue.get": "08:30:37.070"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038b8c5ba740007af7bde",
+      "price": "1.38625",
+      "sequence": "10751261789800449",
+      "side": "buy",
+      "size": "0.0001",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412dae93cc00071d05bd",
+      "time": "1732264237104000000",
+      "tradeId": "10751261789800449",
+      "type": "match",
+      "time_before_que.put": "08:30:37.149",
+      "seconds_from_release": 37.149398,
+      "time_after_queue.get": "08:30:37.150"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403fd31586c10007ec448f",
+      "price": "1.38628",
+      "sequence": "10751261789800452",
+      "side": "buy",
+      "size": "119.6",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412dae93cc00071d05bd",
+      "time": "1732264237104000000",
+      "tradeId": "10751261789800452",
+      "type": "match",
+      "time_before_que.put": "08:30:37.149",
+      "seconds_from_release": 37.149914,
+      "time_after_queue.get": "08:30:37.150"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674037444fe746000719b469",
+      "price": "1.3863",
+      "sequence": "10751261789800455",
+      "side": "buy",
+      "size": "2.8822",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412dae93cc00071d05bd",
+      "time": "1732264237104000000",
+      "tradeId": "10751261789800455",
+      "type": "match",
+      "time_before_que.put": "08:30:37.150",
+      "seconds_from_release": 37.150206,
+      "time_after_queue.get": "08:30:37.151"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740387cf15b270007c6d9ee",
+      "price": "1.3863",
+      "sequence": "10751261789800458",
+      "side": "buy",
+      "size": "0.2347",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412dae93cc00071d05bd",
+      "time": "1732264237104000000",
+      "tradeId": "10751261789800458",
+      "type": "match",
+      "time_before_que.put": "08:30:37.150",
+      "seconds_from_release": 37.15037,
+      "time_after_queue.get": "08:30:37.151"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403892b7e21a00078afae1",
+      "price": "1.3863",
+      "sequence": "10751261789800461",
+      "side": "buy",
+      "size": "0.5759",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412dae93cc00071d05bd",
+      "time": "1732264237104000000",
+      "tradeId": "10751261789800461",
+      "type": "match",
+      "time_before_que.put": "08:30:37.150",
+      "seconds_from_release": 37.150509,
+      "time_after_queue.get": "08:30:37.152"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403758ae93cc0007e7e11a",
+      "price": "1.38632",
+      "sequence": "10751261791897601",
+      "side": "buy",
+      "size": "1.278",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412d68486d0007de084a",
+      "time": "1732264237107000000",
+      "tradeId": "10751261791897601",
+      "type": "match",
+      "time_before_que.put": "08:30:37.150",
+      "seconds_from_release": 37.150669,
+      "time_after_queue.get": "08:30:37.152"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674039c2f4a7c50007c74001",
+      "price": "1.3864",
+      "sequence": "10751261792028673",
+      "side": "buy",
+      "size": "1.8867",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412d1586c10007f32f8e",
+      "time": "1732264237107000000",
+      "tradeId": "10751261792028673",
+      "type": "match",
+      "time_before_que.put": "08:30:37.150",
+      "seconds_from_release": 37.15086,
+      "time_after_queue.get": "08:30:37.153"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038b8df6f6e00079b35f6",
+      "price": "1.38641",
+      "sequence": "10751261794387969",
+      "side": "buy",
+      "size": "0.4255",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412df15b270007f550dc",
+      "time": "1732264237109000000",
+      "tradeId": "10751261794387969",
+      "type": "match",
+      "time_before_que.put": "08:30:37.151",
+      "seconds_from_release": 37.151006,
+      "time_after_queue.get": "08:30:37.153"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038b8df6f6e00079b35f6",
+      "price": "1.38641",
+      "sequence": "10751261795174401",
+      "side": "buy",
+      "size": "1.3594",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412d68486d0007de0850",
+      "time": "1732264237110000000",
+      "tradeId": "10751261795174401",
+      "type": "match",
+      "time_before_que.put": "08:30:37.151",
+      "seconds_from_release": 37.151283,
+      "time_after_queue.get": "08:30:37.153"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038b8df6f6e00079b35fa",
+      "price": "1.38641",
+      "sequence": "10751261795174404",
+      "side": "buy",
+      "size": "1.9633",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412d68486d0007de0850",
+      "time": "1732264237110000000",
+      "tradeId": "10751261795174404",
+      "type": "match",
+      "time_before_que.put": "08:30:37.151",
+      "seconds_from_release": 37.15165,
+      "time_after_queue.get": "08:30:37.154"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038b8ae93cc0007efb7b0",
+      "price": "1.38641",
+      "sequence": "10751261795174407",
+      "side": "buy",
+      "size": "1.8252",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412d68486d0007de0850",
+      "time": "1732264237110000000",
+      "tradeId": "10751261795174407",
+      "type": "match",
+      "time_before_que.put": "08:30:37.151",
+      "seconds_from_release": 37.151849,
+      "time_after_queue.get": "08:30:37.154"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038b8088f010007cfc031",
+      "price": "1.38641",
+      "sequence": "10751261795174410",
+      "side": "buy",
+      "size": "0.7688",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412d68486d0007de0850",
+      "time": "1732264237110000000",
+      "tradeId": "10751261795174410",
+      "type": "match",
+      "time_before_que.put": "08:30:37.152",
+      "seconds_from_release": 37.152073,
+      "time_after_queue.get": "08:30:37.154"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038b8b7e21a00078bbe6a",
+      "price": "1.38641",
+      "sequence": "10751261795174413",
+      "side": "buy",
+      "size": "1.4365",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412d68486d0007de0850",
+      "time": "1732264237110000000",
+      "tradeId": "10751261795174413",
+      "type": "match",
+      "time_before_que.put": "08:30:37.152",
+      "seconds_from_release": 37.152373,
+      "time_after_queue.get": "08:30:37.154"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038b8c5ba740007af7b38",
+      "price": "1.38643",
+      "sequence": "10751261795174416",
+      "side": "buy",
+      "size": "0.5357",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412d68486d0007de0850",
+      "time": "1732264237110000000",
+      "tradeId": "10751261795174416",
+      "type": "match",
+      "time_before_que.put": "08:30:37.152",
+      "seconds_from_release": 37.152552,
+      "time_after_queue.get": "08:30:37.155"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038b8f4f1200007e02ebd",
+      "price": "1.38643",
+      "sequence": "10751261795174419",
+      "side": "buy",
+      "size": "0.4844",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412d68486d0007de0850",
+      "time": "1732264237110000000",
+      "tradeId": "10751261795174419",
+      "type": "match",
+      "time_before_que.put": "08:30:37.152",
+      "seconds_from_release": 37.152687,
+      "time_after_queue.get": "08:30:37.155"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038b867cdc9000772f827",
+      "price": "1.38643",
+      "sequence": "10751261795174422",
+      "side": "buy",
+      "size": "4.6374",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412d68486d0007de0850",
+      "time": "1732264237110000000",
+      "tradeId": "10751261795174422",
+      "type": "match",
+      "time_before_que.put": "08:30:37.152",
+      "seconds_from_release": 37.152971,
+      "time_after_queue.get": "08:30:37.155"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740412e4fe74600074f5df1",
+      "price": "1.38618",
+      "sequence": "10751262040672257",
+      "side": "sell",
+      "size": "2.0114",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412e37061e000798e820",
+      "time": "1732264238110000000",
+      "tradeId": "10751262040672257",
+      "type": "match",
+      "time_before_que.put": "08:30:38.146",
+      "seconds_from_release": 38.146575,
+      "time_after_queue.get": "08:30:38.146"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674039206967d300072d413b",
+      "price": "1.38645",
+      "sequence": "10751262117349377",
+      "side": "buy",
+      "size": "0.4255",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412ef4a7c50007eefe8f",
+      "time": "1732264238584000000",
+      "tradeId": "10751262117349377",
+      "type": "match",
+      "time_before_que.put": "08:30:38.620",
+      "seconds_from_release": 38.620994,
+      "time_after_queue.get": "08:30:38.621"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740412e31d09500077fcdc9",
+      "price": "1.38645",
+      "sequence": "10751262117349380",
+      "side": "buy",
+      "size": "1445.482",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412ef4a7c50007eefe8f",
+      "time": "1732264238584000000",
+      "tradeId": "10751262117349380",
+      "type": "match",
+      "time_before_que.put": "08:30:38.621",
+      "seconds_from_release": 38.621094,
+      "time_after_queue.get": "08:30:38.621"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740412e4fe74600074f609a",
+      "price": "1.38643",
+      "sequence": "10751262135175169",
+      "side": "sell",
+      "size": "27.9633",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412ec65bf7000787ff2f",
+      "time": "1732264238640000000",
+      "tradeId": "10751262135175169",
+      "type": "match",
+      "time_before_que.put": "08:30:38.675",
+      "seconds_from_release": 38.675763,
+      "time_after_queue.get": "08:30:38.675"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740412ec65bf700078800ec",
+      "price": "1.38621",
+      "sequence": "10751262304258049",
+      "side": "buy",
+      "size": "7.9602",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740412fdf6f6e0007c88340",
+      "time": "1732264239132000000",
+      "tradeId": "10751262304258049",
+      "type": "match",
+      "time_before_que.put": "08:30:39.169",
+      "seconds_from_release": 39.169525,
+      "time_after_queue.get": "08:30:39.169"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740412fc5ba740007dcd5f8",
+      "price": "1.38641",
+      "sequence": "10751262500079617",
+      "side": "sell",
+      "size": "1200",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130b7e21a0007b90588",
+      "time": "1732264240004000000",
+      "tradeId": "10751262500079617",
+      "type": "match",
+      "time_before_que.put": "08:30:40.038",
+      "seconds_from_release": 40.038522,
+      "time_after_queue.get": "08:30:40.038"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740412ff15b270007f55fca",
+      "price": "1.38635",
+      "sequence": "10751262500079620",
+      "side": "sell",
+      "size": "360",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130b7e21a0007b90588",
+      "time": "1732264240004000000",
+      "tradeId": "10751262500079620",
+      "type": "match",
+      "time_before_que.put": "08:30:40.038",
+      "seconds_from_release": 40.03869,
+      "time_after_queue.get": "08:30:40.038"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740412ff1bf400007e8d20f",
+      "price": "1.38634",
+      "sequence": "10751262500079623",
+      "side": "sell",
+      "size": "722.7",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130b7e21a0007b90588",
+      "time": "1732264240004000000",
+      "tradeId": "10751262500079623",
+      "type": "match",
+      "time_before_que.put": "08:30:40.038",
+      "seconds_from_release": 40.038805,
+      "time_after_queue.get": "08:30:40.038"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740387c31d0950007513d5a",
+      "price": "1.38646",
+      "sequence": "10751262539008001",
+      "side": "buy",
+      "size": "2.9994",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130f15b270007f560af",
+      "time": "1732264240161000000",
+      "tradeId": "10751262539008001",
+      "type": "match",
+      "time_before_que.put": "08:30:40.195",
+      "seconds_from_release": 40.195712,
+      "time_after_queue.get": "08:30:40.195"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740389537061e00076ae8b3",
+      "price": "1.38646",
+      "sequence": "10751262539008004",
+      "side": "buy",
+      "size": "0.3436",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130f15b270007f560af",
+      "time": "1732264240161000000",
+      "tradeId": "10751262539008004",
+      "type": "match",
+      "time_before_que.put": "08:30:40.195",
+      "seconds_from_release": 40.195819,
+      "time_after_queue.get": "08:30:40.195"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403895f15b270007c764d7",
+      "price": "1.38646",
+      "sequence": "10751262539008007",
+      "side": "buy",
+      "size": "0.6563",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130f15b270007f560af",
+      "time": "1732264240161000000",
+      "tradeId": "10751262539008007",
+      "type": "match",
+      "time_before_que.put": "08:30:40.195",
+      "seconds_from_release": 40.195911,
+      "time_after_queue.get": "08:30:40.195"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038b837061e00076b9c79",
+      "price": "1.38646",
+      "sequence": "10751262539008010",
+      "side": "buy",
+      "size": "2.2505",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130f15b270007f560af",
+      "time": "1732264240161000000",
+      "tradeId": "10751262539008010",
+      "type": "match",
+      "time_before_que.put": "08:30:40.196",
+      "seconds_from_release": 40.196026,
+      "time_after_queue.get": "08:30:40.196"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403744c65bf700075252aa",
+      "price": "1.3865",
+      "sequence": "10751262540187649",
+      "side": "buy",
+      "size": "0.8268",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674041301586c10007f33f93",
+      "time": "1732264240162000000",
+      "tradeId": "10751262540187649",
+      "type": "match",
+      "time_before_que.put": "08:30:40.196",
+      "seconds_from_release": 40.196178,
+      "time_after_queue.get": "08:30:40.196"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403744c65bf700075252aa",
+      "price": "1.3865",
+      "sequence": "10751262540318721",
+      "side": "buy",
+      "size": "2.3909",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130088f010007fd134f",
+      "time": "1732264240162000000",
+      "tradeId": "10751262540318721",
+      "type": "match",
+      "time_before_que.put": "08:30:40.196",
+      "seconds_from_release": 40.196319,
+      "time_after_queue.get": "08:30:40.196"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674037441586c10007bd8cc9",
+      "price": "1.3865",
+      "sequence": "10751262540318724",
+      "side": "buy",
+      "size": "0.4716",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130088f010007fd134f",
+      "time": "1732264240162000000",
+      "tradeId": "10751262540318724",
+      "type": "match",
+      "time_before_que.put": "08:30:40.196",
+      "seconds_from_release": 40.196611,
+      "time_after_queue.get": "08:30:40.196"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740374431d09500074a1987",
+      "price": "1.3865",
+      "sequence": "10751262540318727",
+      "side": "buy",
+      "size": "0.925",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130088f010007fd134f",
+      "time": "1732264240162000000",
+      "tradeId": "10751262540318727",
+      "type": "match",
+      "time_before_que.put": "08:30:40.196",
+      "seconds_from_release": 40.196755,
+      "time_after_queue.get": "08:30:40.196"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403745f4f1200007d7d25f",
+      "price": "1.3865",
+      "sequence": "10751262540318730",
+      "side": "buy",
+      "size": "0.3515",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130088f010007fd134f",
+      "time": "1732264240162000000",
+      "tradeId": "10751262540318730",
+      "type": "match",
+      "time_before_que.put": "08:30:40.200",
+      "seconds_from_release": 40.200456,
+      "time_after_queue.get": "08:30:40.200"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740374f088f010007c7a504",
+      "price": "1.3865",
+      "sequence": "10751262540318733",
+      "side": "buy",
+      "size": "0.9493",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130088f010007fd134f",
+      "time": "1732264240162000000",
+      "tradeId": "10751262540318733",
+      "type": "match",
+      "time_before_que.put": "08:30:40.200",
+      "seconds_from_release": 40.200588,
+      "time_after_queue.get": "08:30:40.200"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740374fdf6f6e0007931cd3",
+      "price": "1.3865",
+      "sequence": "10751262540318736",
+      "side": "buy",
+      "size": "1.5588",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130088f010007fd134f",
+      "time": "1732264240162000000",
+      "tradeId": "10751262540318736",
+      "type": "match",
+      "time_before_que.put": "08:30:40.205",
+      "seconds_from_release": 40.205404,
+      "time_after_queue.get": "08:30:40.205"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740388dc65bf7000759df0e",
+      "price": "1.3865",
+      "sequence": "10751262540318739",
+      "side": "buy",
+      "size": "3.3946",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130088f010007fd134f",
+      "time": "1732264240162000000",
+      "tradeId": "10751262540318739",
+      "type": "match",
+      "time_before_que.put": "08:30:40.205",
+      "seconds_from_release": 40.205619,
+      "time_after_queue.get": "08:30:40.205"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740389bc65bf700075a242c",
+      "price": "1.38652",
+      "sequence": "10751262551197697",
+      "side": "buy",
+      "size": "0.8268",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130088f010007fd1394",
+      "time": "1732264240205000000",
+      "tradeId": "10751262551197697",
+      "type": "match",
+      "time_before_que.put": "08:30:40.243",
+      "seconds_from_release": 40.243537,
+      "time_after_queue.get": "08:30:40.243"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740389a0d8553000745b9ba",
+      "price": "1.38657",
+      "sequence": "10751262552901633",
+      "side": "buy",
+      "size": "1.1983",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413067cdc90007a053b4",
+      "time": "1732264240210000000",
+      "tradeId": "10751262552901633",
+      "type": "match",
+      "time_before_que.put": "08:30:40.243",
+      "seconds_from_release": 40.243902,
+      "time_after_queue.get": "08:30:40.243"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038b868486d0007b0c402",
+      "price": "1.38659",
+      "sequence": "10751262568499201",
+      "side": "buy",
+      "size": "0.6991",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130c5ba740007dcd742",
+      "time": "1732264240266000000",
+      "tradeId": "10751262568499201",
+      "type": "match",
+      "time_before_que.put": "08:30:40.306",
+      "seconds_from_release": 40.306451,
+      "time_after_queue.get": "08:30:40.307"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038b84fe74600072213b5",
+      "price": "1.38659",
+      "sequence": "10751262568499204",
+      "side": "buy",
+      "size": "0.6986",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130c5ba740007dcd742",
+      "time": "1732264240266000000",
+      "tradeId": "10751262568499204",
+      "type": "match",
+      "time_before_que.put": "08:30:40.306",
+      "seconds_from_release": 40.306634,
+      "time_after_queue.get": "08:30:40.307"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740413068486d0007de1805",
+      "price": "1.38659",
+      "sequence": "10751262568499207",
+      "side": "buy",
+      "size": "20.4286",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130c5ba740007dcd742",
+      "time": "1732264240266000000",
+      "tradeId": "10751262568499207",
+      "type": "match",
+      "time_before_que.put": "08:30:40.306",
+      "seconds_from_release": 40.306786,
+      "time_after_queue.get": "08:30:40.317"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403744f4f1200007d7cef1",
+      "price": "1.38666",
+      "sequence": "10751262569809921",
+      "side": "buy",
+      "size": "17.0528",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130f4f12000070d8ac1",
+      "time": "1732264240267000000",
+      "tradeId": "10751262569809921",
+      "type": "match",
+      "time_before_que.put": "08:30:40.307",
+      "seconds_from_release": 40.30714,
+      "time_after_queue.get": "08:30:40.318"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740387cc65bf70007597945",
+      "price": "1.38667",
+      "sequence": "10751262570072065",
+      "side": "buy",
+      "size": "0.3971",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130df6f6e0007c888fa",
+      "time": "1732264240267000000",
+      "tradeId": "10751262570072065",
+      "type": "match",
+      "time_before_que.put": "08:30:40.307",
+      "seconds_from_release": 40.30741,
+      "time_after_queue.get": "08:30:40.318"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403756ae93cc0007e7d660",
+      "price": "1.38668",
+      "sequence": "10751262570072068",
+      "side": "buy",
+      "size": "0.8331",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130df6f6e0007c888fa",
+      "time": "1732264240267000000",
+      "tradeId": "10751262570072068",
+      "type": "match",
+      "time_before_que.put": "08:30:40.307",
+      "seconds_from_release": 40.307741,
+      "time_after_queue.get": "08:30:40.318"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403744f1bf400007b31c52",
+      "price": "1.3867",
+      "sequence": "10751262570596353",
+      "side": "buy",
+      "size": "1.9029",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413068486d0007de1833",
+      "time": "1732264240267000000",
+      "tradeId": "10751262570596353",
+      "type": "match",
+      "time_before_que.put": "08:30:40.308",
+      "seconds_from_release": 40.30805,
+      "time_after_queue.get": "08:30:40.319"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403744b7e21a0007835bb3",
+      "price": "1.3867",
+      "sequence": "10751262570596356",
+      "side": "buy",
+      "size": "0.3727",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413068486d0007de1833",
+      "time": "1732264240267000000",
+      "tradeId": "10751262570596356",
+      "type": "match",
+      "time_before_que.put": "08:30:40.316",
+      "seconds_from_release": 40.316768,
+      "time_after_queue.get": "08:30:40.319"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403744c5ba740007a71cef",
+      "price": "1.3867",
+      "sequence": "10751262570596359",
+      "side": "buy",
+      "size": "0.1491",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413068486d0007de1833",
+      "time": "1732264240267000000",
+      "tradeId": "10751262570596359",
+      "type": "match",
+      "time_before_que.put": "08:30:40.317",
+      "seconds_from_release": 40.317669,
+      "time_after_queue.get": "08:30:40.319"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403744c5ba740007a71cef",
+      "price": "1.3867",
+      "sequence": "10751262571251713",
+      "side": "buy",
+      "size": "0.3662",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674041306967d300075854df",
+      "time": "1732264240268000000",
+      "tradeId": "10751262571251713",
+      "type": "match",
+      "time_before_que.put": "08:30:40.318",
+      "seconds_from_release": 40.318041,
+      "time_after_queue.get": "08:30:40.320"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674037444fe746000719b1f9",
+      "price": "1.3867",
+      "sequence": "10751262571251716",
+      "side": "buy",
+      "size": "9.9287",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674041306967d300075854df",
+      "time": "1732264240268000000",
+      "tradeId": "10751262571251716",
+      "type": "match",
+      "time_before_que.put": "08:30:40.318",
+      "seconds_from_release": 40.318342,
+      "time_after_queue.get": "08:30:40.320"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740374f0d855300073e3907",
+      "price": "1.3867",
+      "sequence": "10751262571251719",
+      "side": "buy",
+      "size": "7.8267",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674041306967d300075854df",
+      "time": "1732264240268000000",
+      "tradeId": "10751262571251719",
+      "type": "match",
+      "time_before_que.put": "08:30:40.318",
+      "seconds_from_release": 40.3185,
+      "time_after_queue.get": "08:30:40.320"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038ac37061e00076b5e2d",
+      "price": "1.38671",
+      "sequence": "10751262571251722",
+      "side": "buy",
+      "size": "0.2168",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674041306967d300075854df",
+      "time": "1732264240268000000",
+      "tradeId": "10751262571251722",
+      "type": "match",
+      "time_before_que.put": "08:30:40.318",
+      "seconds_from_release": 40.318634,
+      "time_after_queue.get": "08:30:40.321"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038acdf6f6e00079af936",
+      "price": "1.38671",
+      "sequence": "10751262571251725",
+      "side": "buy",
+      "size": "0.2168",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674041306967d300075854df",
+      "time": "1732264240268000000",
+      "tradeId": "10751262571251725",
+      "type": "match",
+      "time_before_que.put": "08:30:40.318",
+      "seconds_from_release": 40.318855,
+      "time_after_queue.get": "08:30:40.321"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740412fcf286a000793bbe8",
+      "price": "1.38671",
+      "sequence": "10751262571251728",
+      "side": "buy",
+      "size": "1.306",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674041306967d300075854df",
+      "time": "1732264240268000000",
+      "tradeId": "10751262571251728",
+      "type": "match",
+      "time_before_que.put": "08:30:40.319",
+      "seconds_from_release": 40.319137,
+      "time_after_queue.get": "08:30:40.321"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038adcf286a0007663e56",
+      "price": "1.38673",
+      "sequence": "10751262571251731",
+      "side": "buy",
+      "size": "2.1187",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674041306967d300075854df",
+      "time": "1732264240268000000",
+      "tradeId": "10751262571251731",
+      "type": "match",
+      "time_before_que.put": "08:30:40.319",
+      "seconds_from_release": 40.319382,
+      "time_after_queue.get": "08:30:40.322"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403786cf286a00075fbb93",
+      "price": "1.38675",
+      "sequence": "10751262571251734",
+      "side": "buy",
+      "size": "5.4887",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674041306967d300075854df",
+      "time": "1732264240268000000",
+      "tradeId": "10751262571251734",
+      "type": "match",
+      "time_before_que.put": "08:30:40.319",
+      "seconds_from_release": 40.319545,
+      "time_after_queue.get": "08:30:40.322"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403837f4f1200007dd5772",
+      "price": "1.38675",
+      "sequence": "10751262571251737",
+      "side": "buy",
+      "size": "2.2886",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674041306967d300075854df",
+      "time": "1732264240268000000",
+      "tradeId": "10751262571251737",
+      "type": "match",
+      "time_before_que.put": "08:30:40.319",
+      "seconds_from_release": 40.319694,
+      "time_after_queue.get": "08:30:40.322"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740362f31d095000744a953",
+      "price": "1.38676",
+      "sequence": "10751262571251740",
+      "side": "buy",
+      "size": "4.1206",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674041306967d300075854df",
+      "time": "1732264240268000000",
+      "tradeId": "10751262571251740",
+      "type": "match",
+      "time_before_que.put": "08:30:40.319",
+      "seconds_from_release": 40.319833,
+      "time_after_queue.get": "08:30:40.322"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403920c5ba740007b1ae79",
+      "price": "1.38677",
+      "sequence": "10751262571251743",
+      "side": "buy",
+      "size": "2.4247",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674041306967d300075854df",
+      "time": "1732264240268000000",
+      "tradeId": "10751262571251743",
+      "type": "match",
+      "time_before_que.put": "08:30:40.319",
+      "seconds_from_release": 40.319974,
+      "time_after_queue.get": "08:30:40.322"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403758088f010007c7e552",
+      "price": "1.38678",
+      "sequence": "10751262571251746",
+      "side": "buy",
+      "size": "4.7463",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674041306967d300075854df",
+      "time": "1732264240268000000",
+      "tradeId": "10751262571251746",
+      "type": "match",
+      "time_before_que.put": "08:30:40.320",
+      "seconds_from_release": 40.320118,
+      "time_after_queue.get": "08:30:40.322"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674037591586c10007be1b96",
+      "price": "1.38678",
+      "sequence": "10751262571251749",
+      "side": "buy",
+      "size": "1.0681",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674041306967d300075854df",
+      "time": "1732264240268000000",
+      "tradeId": "10751262571251749",
+      "type": "match",
+      "time_before_que.put": "08:30:40.320",
+      "seconds_from_release": 40.320259,
+      "time_after_queue.get": "08:30:40.322"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403837d52cb80007223a7c",
+      "price": "1.38678",
+      "sequence": "10751262571251752",
+      "side": "buy",
+      "size": "0.2513",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674041306967d300075854df",
+      "time": "1732264240268000000",
+      "tradeId": "10751262571251752",
+      "type": "match",
+      "time_before_que.put": "08:30:40.320",
+      "seconds_from_release": 40.320484,
+      "time_after_queue.get": "08:30:40.322"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674037440d855300073deee8",
+      "price": "1.3868",
+      "sequence": "10751262571251755",
+      "side": "buy",
+      "size": "0.3709",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674041306967d300075854df",
+      "time": "1732264240268000000",
+      "tradeId": "10751262571251755",
+      "type": "match",
+      "time_before_que.put": "08:30:40.320",
+      "seconds_from_release": 40.320682,
+      "time_after_queue.get": "08:30:40.322"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403744c5ba740007a71f60",
+      "price": "1.3868",
+      "sequence": "10751262571251758",
+      "side": "buy",
+      "size": "5.0003",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674041306967d300075854df",
+      "time": "1732264240268000000",
+      "tradeId": "10751262571251758",
+      "type": "match",
+      "time_before_que.put": "08:30:40.320",
+      "seconds_from_release": 40.320866,
+      "time_after_queue.get": "08:30:40.322"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403837c5ba740007aca6b5",
+      "price": "1.3868",
+      "sequence": "10751262571251761",
+      "side": "buy",
+      "size": "0.3221",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674041306967d300075854df",
+      "time": "1732264240268000000",
+      "tradeId": "10751262571251761",
+      "type": "match",
+      "time_before_que.put": "08:30:40.321",
+      "seconds_from_release": 40.321019,
+      "time_after_queue.get": "08:30:40.322"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403837c5ba740007aca6b5",
+      "price": "1.3868",
+      "sequence": "10751262572562433",
+      "side": "buy",
+      "size": "1.4241",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130d52cb8000752647f",
+      "time": "1732264240269000000",
+      "tradeId": "10751262572562433",
+      "type": "match",
+      "time_before_que.put": "08:30:40.321",
+      "seconds_from_release": 40.32116,
+      "time_after_queue.get": "08:30:40.323"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038bd1586c10007c60b52",
+      "price": "1.3868",
+      "sequence": "10751262572562436",
+      "side": "buy",
+      "size": "5.0377",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130d52cb8000752647f",
+      "time": "1732264240269000000",
+      "tradeId": "10751262572562436",
+      "type": "match",
+      "time_before_que.put": "08:30:40.321",
+      "seconds_from_release": 40.321316,
+      "time_after_queue.get": "08:30:40.323"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740399a68486d0007b57b6e",
+      "price": "1.38681",
+      "sequence": "10751262572562439",
+      "side": "buy",
+      "size": "4.8521",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130d52cb8000752647f",
+      "time": "1732264240269000000",
+      "tradeId": "10751262572562439",
+      "type": "match",
+      "time_before_que.put": "08:30:40.321",
+      "seconds_from_release": 40.321457,
+      "time_after_queue.get": "08:30:40.323"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038aa31d09500075235da",
+      "price": "1.38682",
+      "sequence": "10751262572693505",
+      "side": "buy",
+      "size": "1.795",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413067cdc90007a053fc",
+      "time": "1732264240269000000",
+      "tradeId": "10751262572693505",
+      "type": "match",
+      "time_before_que.put": "08:30:40.321",
+      "seconds_from_release": 40.321585,
+      "time_after_queue.get": "08:30:40.323"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403744ae93cc0007e75830",
+      "price": "1.38683",
+      "sequence": "10751262572693508",
+      "side": "buy",
+      "size": "1.0015",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413067cdc90007a053fc",
+      "time": "1732264240269000000",
+      "tradeId": "10751262572693508",
+      "type": "match",
+      "time_before_que.put": "08:30:40.321",
+      "seconds_from_release": 40.321723,
+      "time_after_queue.get": "08:30:40.323"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403757b7e21a000783ddbd",
+      "price": "1.38684",
+      "sequence": "10751262572824577",
+      "side": "buy",
+      "size": "0.308",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413067cdc90007a053ff",
+      "time": "1732264240269000000",
+      "tradeId": "10751262572824577",
+      "type": "match",
+      "time_before_que.put": "08:30:40.321",
+      "seconds_from_release": 40.321904,
+      "time_after_queue.get": "08:30:40.323"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740375bede74f0007fc3c41",
+      "price": "1.38688",
+      "sequence": "10751262573086721",
+      "side": "buy",
+      "size": "698.8338",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130cf286a000793c19f",
+      "time": "1732264240269000000",
+      "tradeId": "10751262573086721",
+      "type": "match",
+      "time_before_que.put": "08:30:40.322",
+      "seconds_from_release": 40.322103,
+      "time_after_queue.get": "08:30:40.323"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403744088f010007c75aaa",
+      "price": "1.3869",
+      "sequence": "10751262652516353",
+      "side": "buy",
+      "size": "1.2354",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130c5ba740007dcd8bc",
+      "time": "1732264240541000000",
+      "tradeId": "10751262652516353",
+      "type": "match",
+      "time_before_que.put": "08:30:40.577",
+      "seconds_from_release": 40.57732,
+      "time_after_queue.get": "08:30:40.577"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403745f1bf400007b32187",
+      "price": "1.3869",
+      "sequence": "10751262652516356",
+      "side": "buy",
+      "size": "0.3583",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130c5ba740007dcd8bc",
+      "time": "1732264240541000000",
+      "tradeId": "10751262652516356",
+      "type": "match",
+      "time_before_que.put": "08:30:40.577",
+      "seconds_from_release": 40.577537,
+      "time_after_queue.get": "08:30:40.577"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403759ae93cc0007e7e6d7",
+      "price": "1.3869",
+      "sequence": "10751262652516359",
+      "side": "buy",
+      "size": "7.1511",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130c5ba740007dcd8bc",
+      "time": "1732264240541000000",
+      "tradeId": "10751262652516359",
+      "type": "match",
+      "time_before_que.put": "08:30:40.577",
+      "seconds_from_release": 40.577675,
+      "time_after_queue.get": "08:30:40.577"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403759ae93cc0007e7e6d7",
+      "price": "1.3869",
+      "sequence": "10751262660773889",
+      "side": "buy",
+      "size": "0.7952",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130f15b270007f562c0",
+      "time": "1732264240555000000",
+      "tradeId": "10751262660773889",
+      "type": "match",
+      "time_before_que.put": "08:30:40.593",
+      "seconds_from_release": 40.593699,
+      "time_after_queue.get": "08:30:40.594"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038bb68486d0007b0d3d3",
+      "price": "1.3869",
+      "sequence": "10751262660773892",
+      "side": "buy",
+      "size": "0.8741",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130f15b270007f562c0",
+      "time": "1732264240555000000",
+      "tradeId": "10751262660773892",
+      "type": "match",
+      "time_before_que.put": "08:30:40.594",
+      "seconds_from_release": 40.59434,
+      "time_after_queue.get": "08:30:40.595"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038bb68486d0007b0d3d3",
+      "price": "1.3869",
+      "sequence": "10751262661298177",
+      "side": "buy",
+      "size": "0.1595",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130f1bf400007e8d504",
+      "time": "1732264240555000000",
+      "tradeId": "10751262661298177",
+      "type": "match",
+      "time_before_que.put": "08:30:40.594",
+      "seconds_from_release": 40.594703,
+      "time_after_queue.get": "08:30:40.595"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038bb68486d0007b0d3d3",
+      "price": "1.3869",
+      "sequence": "10751262661429249",
+      "side": "buy",
+      "size": "0.4747",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130f1bf400007e8d507",
+      "time": "1732264240555000000",
+      "tradeId": "10751262661429249",
+      "type": "match",
+      "time_before_que.put": "08:30:40.594",
+      "seconds_from_release": 40.594908,
+      "time_after_queue.get": "08:30:40.595"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038bb68486d0007b0d3d3",
+      "price": "1.3869",
+      "sequence": "10751262661691393",
+      "side": "buy",
+      "size": "0.4441",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130df6f6e0007c88a8a",
+      "time": "1732264240555000000",
+      "tradeId": "10751262661691393",
+      "type": "match",
+      "time_before_que.put": "08:30:40.595",
+      "seconds_from_release": 40.595059,
+      "time_after_queue.get": "08:30:40.596"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038bb68486d0007b0d3d3",
+      "price": "1.3869",
+      "sequence": "10751262661822465",
+      "side": "buy",
+      "size": "36.5691",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130c65bf700078809ac",
+      "time": "1732264240555000000",
+      "tradeId": "10751262661822465",
+      "type": "match",
+      "time_before_que.put": "08:30:40.595",
+      "seconds_from_release": 40.595192,
+      "time_after_queue.get": "08:30:40.596"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403744f1bf400007b31c38",
+      "price": "1.38692",
+      "sequence": "10751262662346753",
+      "side": "buy",
+      "size": "0.1595",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413068486d0007de19cf",
+      "time": "1732264240556000000",
+      "tradeId": "10751262662346753",
+      "type": "match",
+      "time_before_que.put": "08:30:40.595",
+      "seconds_from_release": 40.595332,
+      "time_after_queue.get": "08:30:40.597"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740368c31d0950007467a82",
+      "price": "1.38693",
+      "sequence": "10751262662346756",
+      "side": "buy",
+      "size": "0.2172",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413068486d0007de19cf",
+      "time": "1732264240556000000",
+      "tradeId": "10751262662346756",
+      "type": "match",
+      "time_before_que.put": "08:30:40.595",
+      "seconds_from_release": 40.595648,
+      "time_after_queue.get": "08:30:40.597"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740368c31d0950007467a82",
+      "price": "1.38693",
+      "sequence": "10751262662477825",
+      "side": "buy",
+      "size": "0.7119",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404130c65bf700078809ae",
+      "time": "1732264240556000000",
+      "tradeId": "10751262662477825",
+      "type": "match",
+      "time_before_que.put": "08:30:40.596",
+      "seconds_from_release": 40.596032,
+      "time_after_queue.get": "08:30:40.597"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740368c31d0950007467a82",
+      "price": "1.38693",
+      "sequence": "10751262662608897",
+      "side": "buy",
+      "size": "0.7402",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413037061e000798f501",
+      "time": "1732264240556000000",
+      "tradeId": "10751262662608897",
+      "type": "match",
+      "time_before_que.put": "08:30:40.596",
+      "seconds_from_release": 40.596348,
+      "time_after_queue.get": "08:30:40.598"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038b731d0950007527737",
+      "price": "1.38695",
+      "sequence": "10751262662608900",
+      "side": "buy",
+      "size": "0.3767",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413037061e000798f501",
+      "time": "1732264240556000000",
+      "tradeId": "10751262662608900",
+      "type": "match",
+      "time_before_que.put": "08:30:40.596",
+      "seconds_from_release": 40.596499,
+      "time_after_queue.get": "08:30:40.598"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674037566967d30007232b2a",
+      "price": "1.38696",
+      "sequence": "10751262662608903",
+      "side": "buy",
+      "size": "0.4441",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413037061e000798f501",
+      "time": "1732264240556000000",
+      "tradeId": "10751262662608903",
+      "type": "match",
+      "time_before_que.put": "08:30:40.596",
+      "seconds_from_release": 40.59664,
+      "time_after_queue.get": "08:30:40.598"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403756d52cb800071d2cf6",
+      "price": "1.38697",
+      "sequence": "10751262662608906",
+      "side": "buy",
+      "size": "0.4747",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413037061e000798f501",
+      "time": "1732264240556000000",
+      "tradeId": "10751262662608906",
+      "type": "match",
+      "time_before_que.put": "08:30:40.596",
+      "seconds_from_release": 40.596789,
+      "time_after_queue.get": "08:30:40.598"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403756f4a7c50007b9d120",
+      "price": "1.38699",
+      "sequence": "10751262662608909",
+      "side": "buy",
+      "size": "2.5451",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413037061e000798f501",
+      "time": "1732264240556000000",
+      "tradeId": "10751262662608909",
+      "type": "match",
+      "time_before_que.put": "08:30:40.596",
+      "seconds_from_release": 40.596942,
+      "time_after_queue.get": "08:30:40.599"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403966c5ba740007b32462",
+      "price": "1.38699",
+      "sequence": "10751262662608912",
+      "side": "buy",
+      "size": "0.5632",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413037061e000798f501",
+      "time": "1732264240556000000",
+      "tradeId": "10751262662608912",
+      "type": "match",
+      "time_before_que.put": "08:30:40.597",
+      "seconds_from_release": 40.597124,
+      "time_after_queue.get": "08:30:40.599"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674036516967d300071df07e",
+      "price": "1.387",
+      "sequence": "10751262662608915",
+      "side": "buy",
+      "size": "0.5647",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413037061e000798f501",
+      "time": "1732264240556000000",
+      "tradeId": "10751262662608915",
+      "type": "match",
+      "time_before_que.put": "08:30:40.597",
+      "seconds_from_release": 40.597308,
+      "time_after_queue.get": "08:30:40.599"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403744b7e21a0007835ba1",
+      "price": "1.387",
+      "sequence": "10751262662608918",
+      "side": "buy",
+      "size": "0.8628",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413037061e000798f501",
+      "time": "1732264240556000000",
+      "tradeId": "10751262662608918",
+      "type": "match",
+      "time_before_que.put": "08:30:40.597",
+      "seconds_from_release": 40.597476,
+      "time_after_queue.get": "08:30:40.599"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403759cf286a00075ea29e",
+      "price": "1.387",
+      "sequence": "10751262662608921",
+      "side": "buy",
+      "size": "1.6818",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413037061e000798f501",
+      "time": "1732264240556000000",
+      "tradeId": "10751262662608921",
+      "type": "match",
+      "time_before_que.put": "08:30:40.597",
+      "seconds_from_release": 40.597787,
+      "time_after_queue.get": "08:30:40.600"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403837cf286a000763a0fa",
+      "price": "1.387",
+      "sequence": "10751262662608924",
+      "side": "buy",
+      "size": "5.4045",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413037061e000798f501",
+      "time": "1732264240556000000",
+      "tradeId": "10751262662608924",
+      "type": "match",
+      "time_before_que.put": "08:30:40.597",
+      "seconds_from_release": 40.597936,
+      "time_after_queue.get": "08:30:40.600"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038b0f4a7c50007c189dd",
+      "price": "1.387",
+      "sequence": "10751262662608927",
+      "side": "buy",
+      "size": "0.4626",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413037061e000798f501",
+      "time": "1732264240556000000",
+      "tradeId": "10751262662608927",
+      "type": "match",
+      "time_before_que.put": "08:30:40.598",
+      "seconds_from_release": 40.59809,
+      "time_after_queue.get": "08:30:40.600"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740396131d095000756056c",
+      "price": "1.387",
+      "sequence": "10751262662608930",
+      "side": "buy",
+      "size": "7.2661",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413037061e000798f501",
+      "time": "1732264240556000000",
+      "tradeId": "10751262662608930",
+      "type": "match",
+      "time_before_que.put": "08:30:40.598",
+      "seconds_from_release": 40.598291,
+      "time_after_queue.get": "08:30:40.600"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403a17f15b270007cf7e19",
+      "price": "1.387",
+      "sequence": "10751262662608933",
+      "side": "buy",
+      "size": "66.9643",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413037061e000798f501",
+      "time": "1732264240556000000",
+      "tradeId": "10751262662608933",
+      "type": "match",
+      "time_before_que.put": "08:30:40.598",
+      "seconds_from_release": 40.598456,
+      "time_after_queue.get": "08:30:40.600"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674041314fe74600074f6e8b",
+      "price": "1.38675",
+      "sequence": "10751262861182977",
+      "side": "sell",
+      "size": "15.4158",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404131c65bf70007880e40",
+      "time": "1732264241639000000",
+      "tradeId": "10751262861182977",
+      "type": "match",
+      "time_before_que.put": "08:30:41.672",
+      "seconds_from_release": 41.672697,
+      "time_after_queue.get": "08:30:41.673"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674041314fe74600074f6e8b",
+      "price": "1.38675",
+      "sequence": "10751262866556929",
+      "side": "sell",
+      "size": "56.6162",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404131f4f12000070d9148",
+      "time": "1732264241645000000",
+      "tradeId": "10751262866556929",
+      "type": "match",
+      "time_before_que.put": "08:30:41.685",
+      "seconds_from_release": 41.685087,
+      "time_after_queue.get": "08:30:41.685"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403a17f15b270007cf7e19",
+      "price": "1.387",
+      "sequence": "10751263348377601",
+      "side": "buy",
+      "size": "2.0357",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413431d09500077fe727",
+      "time": "1732264244101000000",
+      "tradeId": "10751263348377601",
+      "type": "match",
+      "time_before_que.put": "08:30:44.136",
+      "seconds_from_release": 44.13679,
+      "time_after_queue.get": "08:30:44.136"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038addf6f6e00079affb5",
+      "price": "1.38701",
+      "sequence": "10751263348377604",
+      "side": "buy",
+      "size": "0.3043",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413431d09500077fe727",
+      "time": "1732264244101000000",
+      "tradeId": "10751263348377604",
+      "type": "match",
+      "time_before_que.put": "08:30:44.137",
+      "seconds_from_release": 44.137407,
+      "time_after_queue.get": "08:30:44.137"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403a1268486d0007b80c69",
+      "price": "1.38701",
+      "sequence": "10751263348377607",
+      "side": "buy",
+      "size": "0.4076",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413431d09500077fe727",
+      "time": "1732264244101000000",
+      "tradeId": "10751263348377607",
+      "type": "match",
+      "time_before_que.put": "08:30:44.137",
+      "seconds_from_release": 44.137636,
+      "time_after_queue.get": "08:30:44.137"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740388df1bf400007baa533",
+      "price": "1.38704",
+      "sequence": "10751263348377610",
+      "side": "buy",
+      "size": "0.2484",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413431d09500077fe727",
+      "time": "1732264244101000000",
+      "tradeId": "10751263348377610",
+      "type": "match",
+      "time_before_que.put": "08:30:44.137",
+      "seconds_from_release": 44.137805,
+      "time_after_queue.get": "08:30:44.138"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740374bb7e21a00078381b3",
+      "price": "1.38705",
+      "sequence": "10751263348377613",
+      "side": "buy",
+      "size": "1.5935",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413431d09500077fe727",
+      "time": "1732264244101000000",
+      "tradeId": "10751263348377613",
+      "type": "match",
+      "time_before_que.put": "08:30:44.138",
+      "seconds_from_release": 44.138174,
+      "time_after_queue.get": "08:30:44.138"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67404132f15b270007f56cfc",
+      "price": "1.38707",
+      "sequence": "10751263348377616",
+      "side": "buy",
+      "size": "1.3056",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413431d09500077fe727",
+      "time": "1732264244101000000",
+      "tradeId": "10751263348377616",
+      "type": "match",
+      "time_before_que.put": "08:30:44.138",
+      "seconds_from_release": 44.138372,
+      "time_after_queue.get": "08:30:44.138"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403744f4f1200007d7cf41",
+      "price": "1.3871",
+      "sequence": "10751263348377619",
+      "side": "buy",
+      "size": "0.8363",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413431d09500077fe727",
+      "time": "1732264244101000000",
+      "tradeId": "10751263348377619",
+      "type": "match",
+      "time_before_que.put": "08:30:44.138",
+      "seconds_from_release": 44.138455,
+      "time_after_queue.get": "08:30:44.138"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674037441586c10007bd8d42",
+      "price": "1.3871",
+      "sequence": "10751263348377622",
+      "side": "buy",
+      "size": "1.4195",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413431d09500077fe727",
+      "time": "1732264244101000000",
+      "tradeId": "10751263348377622",
+      "type": "match",
+      "time_before_que.put": "08:30:44.138",
+      "seconds_from_release": 44.138534,
+      "time_after_queue.get": "08:30:44.138"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740387cb7e21a00078a7e52",
+      "price": "1.38712",
+      "sequence": "10751263348377625",
+      "side": "buy",
+      "size": "0.5667",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413431d09500077fe727",
+      "time": "1732264244101000000",
+      "tradeId": "10751263348377625",
+      "type": "match",
+      "time_before_que.put": "08:30:44.138",
+      "seconds_from_release": 44.13862,
+      "time_after_queue.get": "08:30:44.138"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038b0f4f1200007e00480",
+      "price": "1.38714",
+      "sequence": "10751263348377628",
+      "side": "buy",
+      "size": "0.2401",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413431d09500077fe727",
+      "time": "1732264244101000000",
+      "tradeId": "10751263348377628",
+      "type": "match",
+      "time_before_que.put": "08:30:44.138",
+      "seconds_from_release": 44.138695,
+      "time_after_queue.get": "08:30:44.138"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038b0cf286a0007664dbd",
+      "price": "1.38714",
+      "sequence": "10751263348377631",
+      "side": "buy",
+      "size": "0.2468",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413431d09500077fe727",
+      "time": "1732264244101000000",
+      "tradeId": "10751263348377631",
+      "type": "match",
+      "time_before_que.put": "08:30:44.138",
+      "seconds_from_release": 44.138771,
+      "time_after_queue.get": "08:30:44.138"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403757f15b270007c0371f",
+      "price": "1.38717",
+      "sequence": "10751263348377634",
+      "side": "buy",
+      "size": "0.3571",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413431d09500077fe727",
+      "time": "1732264244101000000",
+      "tradeId": "10751263348377634",
+      "type": "match",
+      "time_before_que.put": "08:30:44.138",
+      "seconds_from_release": 44.138881,
+      "time_after_queue.get": "08:30:44.139"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403757df6f6e0007935548",
+      "price": "1.38717",
+      "sequence": "10751263348377637",
+      "side": "buy",
+      "size": "0.2024",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413431d09500077fe727",
+      "time": "1732264244101000000",
+      "tradeId": "10751263348377637",
+      "type": "match",
+      "time_before_que.put": "08:30:44.139",
+      "seconds_from_release": 44.139015,
+      "time_after_queue.get": "08:30:44.139"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674041340d8553000773b560",
+      "price": "1.38718",
+      "sequence": "10751263348377640",
+      "side": "buy",
+      "size": "183.1468",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413431d09500077fe727",
+      "time": "1732264244101000000",
+      "tradeId": "10751263348377640",
+      "type": "match",
+      "time_before_que.put": "08:30:44.139",
+      "seconds_from_release": 44.139102,
+      "time_after_queue.get": "08:30:44.139"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403986d4ea93000781e415",
+      "price": "1.38719",
+      "sequence": "10751263666751489",
+      "side": "buy",
+      "size": "411.805",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404135088f010007fd2c50",
+      "time": "1732264245820000000",
+      "tradeId": "10751263666751489",
+      "type": "match",
+      "time_before_que.put": "08:30:45.861",
+      "seconds_from_release": 45.86107,
+      "time_after_queue.get": "08:30:45.861"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740364f68486d0007a39c79",
+      "price": "1.3872",
+      "sequence": "10751263666751492",
+      "side": "buy",
+      "size": "0.8937",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404135088f010007fd2c50",
+      "time": "1732264245820000000",
+      "tradeId": "10751263666751492",
+      "type": "match",
+      "time_before_que.put": "08:30:45.861",
+      "seconds_from_release": 45.861339,
+      "time_after_queue.get": "08:30:45.861"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403744f4f1200007d7cd63",
+      "price": "1.3872",
+      "sequence": "10751263666751495",
+      "side": "buy",
+      "size": "0.3484",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404135088f010007fd2c50",
+      "time": "1732264245820000000",
+      "tradeId": "10751263666751495",
+      "type": "match",
+      "time_before_que.put": "08:30:45.861",
+      "seconds_from_release": 45.86149,
+      "time_after_queue.get": "08:30:45.862"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740375631d09500074a9780",
+      "price": "1.3872",
+      "sequence": "10751263666751498",
+      "side": "buy",
+      "size": "5.0065",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404135088f010007fd2c50",
+      "time": "1732264245820000000",
+      "tradeId": "10751263666751498",
+      "type": "match",
+      "time_before_que.put": "08:30:45.861",
+      "seconds_from_release": 45.861619,
+      "time_after_queue.get": "08:30:45.862"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674037596967d30007233c23",
+      "price": "1.3872",
+      "sequence": "10751263666751501",
+      "side": "buy",
+      "size": "0.1425",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404135088f010007fd2c50",
+      "time": "1732264245820000000",
+      "tradeId": "10751263666751501",
+      "type": "match",
+      "time_before_que.put": "08:30:45.861",
+      "seconds_from_release": 45.861753,
+      "time_after_queue.get": "08:30:45.862"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67404136cf286a000793dd95",
+      "price": "1.38719",
+      "sequence": "10751264016713729",
+      "side": "sell",
+      "size": "92.2238",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404136f4f12000070daa61",
+      "time": "1732264246861000000",
+      "tradeId": "10751264016713729",
+      "type": "match",
+      "time_before_que.put": "08:30:46.903",
+      "seconds_from_release": 46.903058,
+      "time_after_queue.get": "08:30:46.903"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67404136f1bf400007e8f26c",
+      "price": "1.38714",
+      "sequence": "10751264016975873",
+      "side": "sell",
+      "size": "72.0125",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404136ae93cc00071d357f",
+      "time": "1732264246861000000",
+      "tradeId": "10751264016975873",
+      "type": "match",
+      "time_before_que.put": "08:30:46.903",
+      "seconds_from_release": 46.90344,
+      "time_after_queue.get": "08:30:46.903"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67404137f1bf400007e8f69e",
+      "price": "1.38704",
+      "sequence": "10751264202180609",
+      "side": "buy",
+      "size": "690.4668",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413737061e00079916b9",
+      "time": "1732264247724000000",
+      "tradeId": "10751264202180609",
+      "type": "match",
+      "time_before_que.put": "08:30:47.762",
+      "seconds_from_release": 47.762254,
+      "time_after_queue.get": "08:30:47.762"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038b0cf286a0007664d4b",
+      "price": "1.38723",
+      "sequence": "10751264492898305",
+      "side": "buy",
+      "size": "6.3045",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404138df6f6e0007c8b214",
+      "time": "1732264248458000000",
+      "tradeId": "10751264492898305",
+      "type": "match",
+      "time_before_que.put": "08:30:48.496",
+      "seconds_from_release": 48.496393,
+      "time_after_queue.get": "08:30:48.496"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67404138f4a7c50007ef30e5",
+      "price": "1.38723",
+      "sequence": "10751264492898308",
+      "side": "buy",
+      "size": "1436.6303",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404138df6f6e0007c8b214",
+      "time": "1732264248458000000",
+      "tradeId": "10751264492898308",
+      "type": "match",
+      "time_before_que.put": "08:30:48.496",
+      "seconds_from_release": 48.496502,
+      "time_after_queue.get": "08:30:48.496"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67404139c5ba740007dd08c6",
+      "price": "1.3872",
+      "sequence": "10751264990054401",
+      "side": "sell",
+      "size": "1688.0331",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413a0d8553000773d8a9",
+      "time": "1732264250163000000",
+      "tradeId": "10751264990054401",
+      "type": "match",
+      "time_before_que.put": "08:30:50.199",
+      "seconds_from_release": 50.199504,
+      "time_after_queue.get": "08:30:50.199"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67404139c5ba740007dd08c6",
+      "price": "1.3872",
+      "sequence": "10751265043400705",
+      "side": "sell",
+      "size": "1800",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413ac5ba740007dd0d0f",
+      "time": "1732264250512000000",
+      "tradeId": "10751265043400705",
+      "type": "match",
+      "time_before_que.put": "08:30:50.557",
+      "seconds_from_release": 50.557416,
+      "time_after_queue.get": "08:30:50.558"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67404139c5ba740007dd08c6",
+      "price": "1.3872",
+      "sequence": "10751265043531777",
+      "side": "sell",
+      "size": "1542.3507",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413a6967d30007588a93",
+      "time": "1732264250512000000",
+      "tradeId": "10751265043531777",
+      "type": "match",
+      "time_before_que.put": "08:30:50.558",
+      "seconds_from_release": 50.558194,
+      "time_after_queue.get": "08:30:50.559"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740413a37061e000799275b",
+      "price": "1.38681",
+      "sequence": "10751265043793921",
+      "side": "sell",
+      "size": "144.0716",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413adf6f6e0007c8bebe",
+      "time": "1732264250512000000",
+      "tradeId": "10751265043793921",
+      "type": "match",
+      "time_before_que.put": "08:30:50.558",
+      "seconds_from_release": 50.558589,
+      "time_after_queue.get": "08:30:50.559"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740413ac5ba740007dd0bb9",
+      "price": "1.3867",
+      "sequence": "10751265043793924",
+      "side": "sell",
+      "size": "1.306",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413adf6f6e0007c8bebe",
+      "time": "1732264250512000000",
+      "tradeId": "10751265043793924",
+      "type": "match",
+      "time_before_que.put": "08:30:50.558",
+      "seconds_from_release": 50.558817,
+      "time_after_queue.get": "08:30:50.559"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740413af15b270007f5959b",
+      "price": "1.38658",
+      "sequence": "10751265043793927",
+      "side": "sell",
+      "size": "214.49",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413adf6f6e0007c8bebe",
+      "time": "1732264250512000000",
+      "tradeId": "10751265043793927",
+      "type": "match",
+      "time_before_que.put": "08:30:50.559",
+      "seconds_from_release": 50.559235,
+      "time_after_queue.get": "08:30:50.560"
+    }
+  },
+  {
+    "id": "1732264250608",
+    "type": "pong",
+    "timestamp": 1732264250656655
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740413df4f12000070dcc7f",
+      "price": "1.38689",
+      "sequence": "10751265642924033",
+      "side": "sell",
+      "size": "138.041",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413df4f12000070dcc83",
+      "time": "1732264253021000000",
+      "tradeId": "10751265642924033",
+      "type": "match",
+      "time_before_que.put": "08:30:53.059",
+      "seconds_from_release": 53.059182,
+      "time_after_queue.get": "08:30:53.059"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6740413c0d8553000773e115",
+      "price": "1.38704",
+      "sequence": "10751265678837761",
+      "side": "buy",
+      "size": "15",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "6740413df1bf400007e91600",
+      "time": "1732264253260000000",
+      "tradeId": "10751265678837761",
+      "type": "match",
+      "time_before_que.put": "08:30:53.295",
+      "seconds_from_release": 53.295275,
+      "time_after_queue.get": "08:30:53.295"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403fe7c65bf70007818082",
+      "price": "1.38724",
+      "sequence": "10751266244937729",
+      "side": "buy",
+      "size": "7.2085",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404140f15b270007f5b1b9",
+      "time": "1732264256189000000",
+      "tradeId": "10751266244937729",
+      "type": "match",
+      "time_before_que.put": "08:30:56.226",
+      "seconds_from_release": 56.226291,
+      "time_after_queue.get": "08:30:56.226"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403fe7c65bf70007818082",
+      "price": "1.38724",
+      "sequence": "10751266377451521",
+      "side": "buy",
+      "size": "1.0915",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404141088f010007fd6838",
+      "time": "1732264257081000000",
+      "tradeId": "10751266377451521",
+      "type": "match",
+      "time_before_que.put": "08:30:57.113",
+      "seconds_from_release": 57.113721,
+      "time_after_queue.get": "08:30:57.114"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67404141cf286a000794156b",
+      "price": "1.38724",
+      "sequence": "10751266377451524",
+      "side": "buy",
+      "size": "1441.8433",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "67404141088f010007fd6838",
+      "time": "1732264257081000000",
+      "tradeId": "10751266377451524",
+      "type": "match",
+      "time_before_que.put": "08:30:57.114",
+      "seconds_from_release": 57.11422,
+      "time_after_queue.get": "08:30:57.114"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67403756c5ba740007a79d06",
+      "price": "1.38725",
+      "sequence": "10751266898331649",
+      "side": "buy",
+      "size": "0.505",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674041436967d3000758b5ba",
+      "time": "1732264259605000000",
+      "tradeId": "10751266898331649",
+      "type": "match",
+      "time_before_que.put": "08:30:59.644",
+      "seconds_from_release": 59.64481,
+      "time_after_queue.get": "08:30:59.645"
+    }
+  },
+  {
+    "topic": "/market/match:XRP-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674038b06967d300072ae2e5",
+      "price": "1.38725",
+      "sequence": "10751266898331652",
+      "side": "buy",
+      "size": "0.3555",
+      "symbol": "XRP-USDT",
+      "takerOrderId": "674041436967d3000758b5ba",
+      "time": "1732264259605000000",
+      "tradeId": "10751266898331652",
+      "type": "match",
+      "time_before_que.put": "08:30:59.645",
+      "seconds_from_release": 59.645242,
+      "time_after_queue.get": "08:30:59.645"
+    }
+  }
+]
