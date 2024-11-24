@@ -1,0 +1,1441 @@
+{
+  "metadata": {
+    "symbol": "BTC",
+    "channel": "snapshot",
+    "start_time": "13:57:23.5395",
+    "release_time": "13:57:26.5395",
+    "end_time": "13:57:56.5395",
+    "total_messages": 20,
+    "final_snapshot": {
+      "time": "13:57:56.0110",
+      "symbol": "BTC-USDT",
+      "price_high": "99595",
+      "price_last": "98585.8",
+      "price_low": "97017.5",
+      "price_avg": "98197.50976723",
+      "volValue_USDT": "252566716.181524155"
+    }
+  },
+  "data": [
+    {
+      "sequence": "15266742479",
+      "data": {
+        "askSize": 0.88169349,
+        "averagePrice": 98197.50976723,
+        "baseCurrency": "BTC",
+        "bidSize": 0.02212855,
+        "board": 1,
+        "buy": 98592.4,
+        "changePrice": 889.9,
+        "changeRate": 0.0091,
+        "close": 98592.4,
+        "datetime": 1732370246010,
+        "high": 99595.0,
+        "lastTradedPrice": 98592.4,
+        "low": 97017.5,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 5.9,
+          "changeRate": 0.0,
+          "high": 98860.2,
+          "low": 98542.8,
+          "open": 98586.5,
+          "vol": 63.95545268,
+          "volValue": 6312550.759932628
+        },
+        "marketChange24h": {
+          "changePrice": 889.9,
+          "changeRate": 0.0091,
+          "high": 99595.0,
+          "low": 97017.5,
+          "open": 97702.5,
+          "vol": 2559.6786823,
+          "volValue": 252528119.6154819
+        },
+        "marketChange4h": {
+          "changePrice": 170.2,
+          "changeRate": 0.0017,
+          "high": 98860.2,
+          "low": 98309.4,
+          "open": 98422.2,
+          "vol": 189.46968937,
+          "volValue": 18672746.582509264
+        },
+        "markets": [
+          "USDS",
+          "PoW"
+        ],
+        "open": 97702.5,
+        "quoteCurrency": "USDT",
+        "sell": 98592.5,
+        "siteTypes": [
+          "turkey",
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "BTC-USDT",
+        "symbolCode": "BTC-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 2559.6786823,
+        "volValue": 252528119.6154819
+      },
+      "time_received": "13:57:26.0454"
+    },
+    {
+      "sequence": "15266742570",
+      "data": {
+        "askSize": 0.84392329,
+        "averagePrice": 98197.50976723,
+        "baseCurrency": "BTC",
+        "bidSize": 0.02212855,
+        "board": 1,
+        "buy": 98592.4,
+        "changePrice": 890.0,
+        "changeRate": 0.0091,
+        "close": 98592.5,
+        "datetime": 1732370246190,
+        "high": 99595.0,
+        "lastTradedPrice": 98592.5,
+        "low": 97017.5,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 6.0,
+          "changeRate": 0.0,
+          "high": 98860.2,
+          "low": 98542.8,
+          "open": 98586.5,
+          "vol": 64.17213736,
+          "volValue": 6333914.430412684
+        },
+        "marketChange24h": {
+          "changePrice": 890.0,
+          "changeRate": 0.0091,
+          "high": 99595.0,
+          "low": 97017.5,
+          "open": 97702.5,
+          "vol": 2559.89536698,
+          "volValue": 252549483.28596196
+        },
+        "marketChange4h": {
+          "changePrice": 170.3,
+          "changeRate": 0.0017,
+          "high": 98860.2,
+          "low": 98309.4,
+          "open": 98422.2,
+          "vol": 189.68637405,
+          "volValue": 18694110.25298932
+        },
+        "markets": [
+          "USDS",
+          "PoW"
+        ],
+        "open": 97702.5,
+        "quoteCurrency": "USDT",
+        "sell": 98592.5,
+        "siteTypes": [
+          "turkey",
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "BTC-USDT",
+        "symbolCode": "BTC-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 2559.89536698,
+        "volValue": 252549483.28596196
+      },
+      "time_received": "13:57:26.2538"
+    },
+    {
+      "sequence": "15266742605",
+      "data": {
+        "askSize": 0.89462629,
+        "averagePrice": 98197.50976723,
+        "baseCurrency": "BTC",
+        "bidSize": 0.0219768,
+        "board": 1,
+        "buy": 98592.4,
+        "changePrice": 889.9,
+        "changeRate": 0.0091,
+        "close": 98592.4,
+        "datetime": 1732370248146,
+        "high": 99595.0,
+        "lastTradedPrice": 98592.4,
+        "low": 97017.5,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 5.9,
+          "changeRate": 0.0,
+          "high": 98860.2,
+          "low": 98542.8,
+          "open": 98586.5,
+          "vol": 64.17213736,
+          "volValue": 6333914.430412684
+        },
+        "marketChange24h": {
+          "changePrice": 889.9,
+          "changeRate": 0.0091,
+          "high": 99595.0,
+          "low": 97017.5,
+          "open": 97702.5,
+          "vol": 2559.89536698,
+          "volValue": 252549483.28596196
+        },
+        "marketChange4h": {
+          "changePrice": 170.2,
+          "changeRate": 0.0017,
+          "high": 98860.2,
+          "low": 98309.4,
+          "open": 98422.2,
+          "vol": 189.68637405,
+          "volValue": 18694110.25298932
+        },
+        "markets": [
+          "USDS",
+          "PoW"
+        ],
+        "open": 97702.5,
+        "quoteCurrency": "USDT",
+        "sell": 98592.5,
+        "siteTypes": [
+          "turkey",
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "BTC-USDT",
+        "symbolCode": "BTC-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 2559.89536698,
+        "volValue": 252549483.28596196
+      },
+      "time_received": "13:57:28.1809"
+    },
+    {
+      "sequence": "15266742769",
+      "data": {
+        "askSize": 0.89462629,
+        "averagePrice": 98197.50976723,
+        "baseCurrency": "BTC",
+        "bidSize": 0.01971078,
+        "board": 1,
+        "buy": 98592.4,
+        "changePrice": 889.9,
+        "changeRate": 0.0091,
+        "close": 98592.4,
+        "datetime": 1732370250017,
+        "high": 99595.0,
+        "lastTradedPrice": 98592.4,
+        "low": 97017.5,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 5.9,
+          "changeRate": 0.0,
+          "high": 98860.2,
+          "low": 98542.8,
+          "open": 98586.5,
+          "vol": 64.17455513,
+          "volValue": 6334152.804159632
+        },
+        "marketChange24h": {
+          "changePrice": 889.9,
+          "changeRate": 0.0091,
+          "high": 99595.0,
+          "low": 97017.5,
+          "open": 97702.5,
+          "vol": 2559.89778475,
+          "volValue": 252549721.65970892
+        },
+        "marketChange4h": {
+          "changePrice": 170.2,
+          "changeRate": 0.0017,
+          "high": 98860.2,
+          "low": 98309.4,
+          "open": 98422.2,
+          "vol": 189.68879182,
+          "volValue": 18694348.62673627
+        },
+        "markets": [
+          "USDS",
+          "PoW"
+        ],
+        "open": 97702.5,
+        "quoteCurrency": "USDT",
+        "sell": 98592.5,
+        "siteTypes": [
+          "turkey",
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "BTC-USDT",
+        "symbolCode": "BTC-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 2559.89778475,
+        "volValue": 252549721.65970892
+      },
+      "time_received": "13:57:30.1203"
+    },
+    {
+      "sequence": "15266742797",
+      "data": {
+        "askSize": 0.89462629,
+        "averagePrice": 98197.50976723,
+        "baseCurrency": "BTC",
+        "bidSize": 0.02173187,
+        "board": 1,
+        "buy": 98592.4,
+        "changePrice": 889.9,
+        "changeRate": 0.0091,
+        "close": 98592.4,
+        "datetime": 1732370250241,
+        "high": 99595.0,
+        "lastTradedPrice": 98592.4,
+        "low": 97017.5,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 5.9,
+          "changeRate": 0.0,
+          "high": 98860.2,
+          "low": 98542.8,
+          "open": 98586.5,
+          "vol": 64.17213736,
+          "volValue": 6333914.430412684
+        },
+        "marketChange24h": {
+          "changePrice": 889.9,
+          "changeRate": 0.0091,
+          "high": 99595.0,
+          "low": 97017.5,
+          "open": 97702.5,
+          "vol": 2559.89536698,
+          "volValue": 252549483.28596196
+        },
+        "marketChange4h": {
+          "changePrice": 170.2,
+          "changeRate": 0.0017,
+          "high": 98860.2,
+          "low": 98309.4,
+          "open": 98422.2,
+          "vol": 189.68637405,
+          "volValue": 18694110.25298932
+        },
+        "markets": [
+          "USDS",
+          "PoW"
+        ],
+        "open": 97702.5,
+        "quoteCurrency": "USDT",
+        "sell": 98592.5,
+        "siteTypes": [
+          "turkey",
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "BTC-USDT",
+        "symbolCode": "BTC-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 2559.89536698,
+        "volValue": 252549483.28596196
+      },
+      "time_received": "13:57:30.2768"
+    },
+    {
+      "sequence": "15266743122",
+      "data": {
+        "askSize": 0.51481339,
+        "averagePrice": 98197.50976723,
+        "baseCurrency": "BTC",
+        "bidSize": 0.31360721,
+        "board": 1,
+        "buy": 98585.8,
+        "changePrice": 883.3,
+        "changeRate": 0.009,
+        "close": 98585.8,
+        "datetime": 1732370254009,
+        "high": 99595.0,
+        "lastTradedPrice": 98585.8,
+        "low": 97017.5,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": -0.7,
+          "changeRate": 0.0,
+          "high": 98860.2,
+          "low": 98542.8,
+          "open": 98586.5,
+          "vol": 64.32658832,
+          "volValue": 6349141.458447828
+        },
+        "marketChange24h": {
+          "changePrice": 883.3,
+          "changeRate": 0.009,
+          "high": 99595.0,
+          "low": 97017.5,
+          "open": 97702.5,
+          "vol": 2560.04981794,
+          "volValue": 252564710.3139971
+        },
+        "marketChange4h": {
+          "changePrice": 163.6,
+          "changeRate": 0.0016,
+          "high": 98860.2,
+          "low": 98309.4,
+          "open": 98422.2,
+          "vol": 189.84082501,
+          "volValue": 18709337.281024463
+        },
+        "markets": [
+          "USDS",
+          "PoW"
+        ],
+        "open": 97702.5,
+        "quoteCurrency": "USDT",
+        "sell": 98585.9,
+        "siteTypes": [
+          "turkey",
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "BTC-USDT",
+        "symbolCode": "BTC-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 2560.04981794,
+        "volValue": 252564710.3139971
+      },
+      "time_received": "13:57:34.1394"
+    },
+    {
+      "sequence": "15266743266",
+      "data": {
+        "askSize": 0.51479905,
+        "averagePrice": 98197.50976723,
+        "baseCurrency": "BTC",
+        "bidSize": 0.31360721,
+        "board": 1,
+        "buy": 98585.8,
+        "changePrice": 883.4,
+        "changeRate": 0.009,
+        "close": 98585.9,
+        "datetime": 1732370256010,
+        "high": 99595.0,
+        "lastTradedPrice": 98585.9,
+        "low": 97017.5,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": -0.6,
+          "changeRate": 0.0,
+          "high": 98860.2,
+          "low": 98542.8,
+          "open": 98586.5,
+          "vol": 64.17213736,
+          "volValue": 6333914.430412684
+        },
+        "marketChange24h": {
+          "changePrice": 883.4,
+          "changeRate": 0.009,
+          "high": 99595.0,
+          "low": 97017.5,
+          "open": 97702.5,
+          "vol": 2559.89536698,
+          "volValue": 252549483.28596196
+        },
+        "marketChange4h": {
+          "changePrice": 163.7,
+          "changeRate": 0.0016,
+          "high": 98860.2,
+          "low": 98309.4,
+          "open": 98422.2,
+          "vol": 189.68637405,
+          "volValue": 18694110.25298932
+        },
+        "markets": [
+          "USDS",
+          "PoW"
+        ],
+        "open": 97702.5,
+        "quoteCurrency": "USDT",
+        "sell": 98585.9,
+        "siteTypes": [
+          "turkey",
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "BTC-USDT",
+        "symbolCode": "BTC-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 2559.89536698,
+        "volValue": 252549483.28596196
+      },
+      "time_received": "13:57:36.0455"
+    },
+    {
+      "sequence": "15266743122",
+      "data": {
+        "askSize": 0.51481339,
+        "averagePrice": 98197.50976723,
+        "baseCurrency": "BTC",
+        "bidSize": 0.31360721,
+        "board": 1,
+        "buy": 98585.8,
+        "changePrice": 883.3,
+        "changeRate": 0.009,
+        "close": 98585.8,
+        "datetime": 1732370256126,
+        "high": 99595.0,
+        "lastTradedPrice": 98585.8,
+        "low": 97017.5,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": -0.7,
+          "changeRate": 0.0,
+          "high": 98860.2,
+          "low": 98542.8,
+          "open": 98586.5,
+          "vol": 64.17455513,
+          "volValue": 6334152.804159632
+        },
+        "marketChange24h": {
+          "changePrice": 883.3,
+          "changeRate": 0.009,
+          "high": 99595.0,
+          "low": 97017.5,
+          "open": 97702.5,
+          "vol": 2559.89778475,
+          "volValue": 252549721.65970892
+        },
+        "marketChange4h": {
+          "changePrice": 163.6,
+          "changeRate": 0.0016,
+          "high": 98860.2,
+          "low": 98309.4,
+          "open": 98422.2,
+          "vol": 189.68879182,
+          "volValue": 18694348.62673627
+        },
+        "markets": [
+          "USDS",
+          "PoW"
+        ],
+        "open": 97702.5,
+        "quoteCurrency": "USDT",
+        "sell": 98585.9,
+        "siteTypes": [
+          "turkey",
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "BTC-USDT",
+        "symbolCode": "BTC-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 2559.89778475,
+        "volValue": 252549721.65970892
+      },
+      "time_received": "13:57:36.1616"
+    },
+    {
+      "sequence": "15266743304",
+      "data": {
+        "askSize": 0.51479905,
+        "averagePrice": 98197.50976723,
+        "baseCurrency": "BTC",
+        "bidSize": 0.31554098,
+        "board": 1,
+        "buy": 98585.8,
+        "changePrice": 883.3,
+        "changeRate": 0.009,
+        "close": 98585.8,
+        "datetime": 1732370258012,
+        "high": 99595.0,
+        "lastTradedPrice": 98585.8,
+        "low": 97017.5,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": -0.7,
+          "changeRate": 0.0,
+          "high": 98860.2,
+          "low": 98542.8,
+          "open": 98586.5,
+          "vol": 64.33203807,
+          "volValue": 6349678.726412812
+        },
+        "marketChange24h": {
+          "changePrice": 883.3,
+          "changeRate": 0.009,
+          "high": 99595.0,
+          "low": 97017.5,
+          "open": 97702.5,
+          "vol": 2560.05526769,
+          "volValue": 252565247.58196208
+        },
+        "marketChange4h": {
+          "changePrice": 163.6,
+          "changeRate": 0.0016,
+          "high": 98860.2,
+          "low": 98309.4,
+          "open": 98422.2,
+          "vol": 189.84627476,
+          "volValue": 18709874.54898945
+        },
+        "markets": [
+          "USDS",
+          "PoW"
+        ],
+        "open": 97702.5,
+        "quoteCurrency": "USDT",
+        "sell": 98585.9,
+        "siteTypes": [
+          "turkey",
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "BTC-USDT",
+        "symbolCode": "BTC-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 2560.05526769,
+        "volValue": 252565247.58196208
+      },
+      "time_received": "13:57:38.1489"
+    },
+    {
+      "sequence": "15266743341",
+      "data": {
+        "askSize": 0.51479905,
+        "averagePrice": 98197.50976723,
+        "baseCurrency": "BTC",
+        "bidSize": 0.3081718,
+        "board": 1,
+        "buy": 98585.8,
+        "changePrice": 883.3,
+        "changeRate": 0.009,
+        "close": 98585.8,
+        "datetime": 1732370258179,
+        "high": 99595.0,
+        "lastTradedPrice": 98585.8,
+        "low": 97017.5,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": -0.7,
+          "changeRate": 0.0,
+          "high": 98860.2,
+          "low": 98542.8,
+          "open": 98586.5,
+          "vol": 64.17455513,
+          "volValue": 6334152.804159632
+        },
+        "marketChange24h": {
+          "changePrice": 883.3,
+          "changeRate": 0.009,
+          "high": 99595.0,
+          "low": 97017.5,
+          "open": 97702.5,
+          "vol": 2559.89778475,
+          "volValue": 252549721.65970892
+        },
+        "marketChange4h": {
+          "changePrice": 163.6,
+          "changeRate": 0.0016,
+          "high": 98860.2,
+          "low": 98309.4,
+          "open": 98422.2,
+          "vol": 189.68879182,
+          "volValue": 18694348.62673627
+        },
+        "markets": [
+          "USDS",
+          "PoW"
+        ],
+        "open": 97702.5,
+        "quoteCurrency": "USDT",
+        "sell": 98585.9,
+        "siteTypes": [
+          "turkey",
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "BTC-USDT",
+        "symbolCode": "BTC-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 2559.89778475,
+        "volValue": 252549721.65970892
+      },
+      "time_received": "13:57:38.2153"
+    },
+    {
+      "sequence": "15266743396",
+      "data": {
+        "askSize": 0.51479905,
+        "averagePrice": 98197.50976723,
+        "baseCurrency": "BTC",
+        "bidSize": 0.31025864,
+        "board": 1,
+        "buy": 98585.8,
+        "changePrice": 883.3,
+        "changeRate": 0.009,
+        "close": 98585.8,
+        "datetime": 1732370260012,
+        "high": 99595.0,
+        "lastTradedPrice": 98585.8,
+        "low": 97017.5,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": -0.7,
+          "changeRate": 0.0,
+          "high": 98860.2,
+          "low": 98542.8,
+          "open": 98586.5,
+          "vol": 64.33203807,
+          "volValue": 6349678.726412812
+        },
+        "marketChange24h": {
+          "changePrice": 883.3,
+          "changeRate": 0.009,
+          "high": 99595.0,
+          "low": 97017.5,
+          "open": 97702.5,
+          "vol": 2560.05526769,
+          "volValue": 252565247.58196208
+        },
+        "marketChange4h": {
+          "changePrice": 163.6,
+          "changeRate": 0.0016,
+          "high": 98860.2,
+          "low": 98309.4,
+          "open": 98422.2,
+          "vol": 189.84627476,
+          "volValue": 18709874.54898945
+        },
+        "markets": [
+          "USDS",
+          "PoW"
+        ],
+        "open": 97702.5,
+        "quoteCurrency": "USDT",
+        "sell": 98585.9,
+        "siteTypes": [
+          "turkey",
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "BTC-USDT",
+        "symbolCode": "BTC-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 2560.05526769,
+        "volValue": 252565247.58196208
+      },
+      "time_received": "13:57:40.0473"
+    },
+    {
+      "sequence": "15266743396",
+      "data": {
+        "askSize": 0.51479905,
+        "averagePrice": 98197.50976723,
+        "baseCurrency": "BTC",
+        "bidSize": 0.31025864,
+        "board": 1,
+        "buy": 98585.8,
+        "changePrice": 883.3,
+        "changeRate": 0.009,
+        "close": 98585.8,
+        "datetime": 1732370260174,
+        "high": 99595.0,
+        "lastTradedPrice": 98585.8,
+        "low": 97017.5,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": -0.7,
+          "changeRate": 0.0,
+          "high": 98860.2,
+          "low": 98542.8,
+          "open": 98586.5,
+          "vol": 64.32658832,
+          "volValue": 6349141.458447828
+        },
+        "marketChange24h": {
+          "changePrice": 883.3,
+          "changeRate": 0.009,
+          "high": 99595.0,
+          "low": 97017.5,
+          "open": 97702.5,
+          "vol": 2560.04981794,
+          "volValue": 252564710.3139971
+        },
+        "marketChange4h": {
+          "changePrice": 163.6,
+          "changeRate": 0.0016,
+          "high": 98860.2,
+          "low": 98309.4,
+          "open": 98422.2,
+          "vol": 189.84082501,
+          "volValue": 18709337.281024463
+        },
+        "markets": [
+          "USDS",
+          "PoW"
+        ],
+        "open": 97702.5,
+        "quoteCurrency": "USDT",
+        "sell": 98585.9,
+        "siteTypes": [
+          "turkey",
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "BTC-USDT",
+        "symbolCode": "BTC-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 2560.04981794,
+        "volValue": 252564710.3139971
+      },
+      "time_received": "13:57:40.2389"
+    },
+    {
+      "sequence": "15266743562",
+      "data": {
+        "askSize": 0.51440011,
+        "averagePrice": 98197.50976723,
+        "baseCurrency": "BTC",
+        "bidSize": 0.30165333,
+        "board": 1,
+        "buy": 98585.8,
+        "changePrice": 883.3,
+        "changeRate": 0.009,
+        "close": 98585.8,
+        "datetime": 1732370262011,
+        "high": 99595.0,
+        "lastTradedPrice": 98585.8,
+        "low": 97017.5,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": -0.7,
+          "changeRate": 0.0,
+          "high": 98860.2,
+          "low": 98542.8,
+          "open": 98586.5,
+          "vol": 64.33203807,
+          "volValue": 6349678.726412812
+        },
+        "marketChange24h": {
+          "changePrice": 883.3,
+          "changeRate": 0.009,
+          "high": 99595.0,
+          "low": 97017.5,
+          "open": 97702.5,
+          "vol": 2560.05526769,
+          "volValue": 252565247.58196208
+        },
+        "marketChange4h": {
+          "changePrice": 163.6,
+          "changeRate": 0.0016,
+          "high": 98860.2,
+          "low": 98309.4,
+          "open": 98422.2,
+          "vol": 189.84627476,
+          "volValue": 18709874.54898945
+        },
+        "markets": [
+          "USDS",
+          "PoW"
+        ],
+        "open": 97702.5,
+        "quoteCurrency": "USDT",
+        "sell": 98585.9,
+        "siteTypes": [
+          "turkey",
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "BTC-USDT",
+        "symbolCode": "BTC-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 2560.05526769,
+        "volValue": 252565247.58196208
+      },
+      "time_received": "13:57:42.0468"
+    },
+    {
+      "sequence": "15266743562",
+      "data": {
+        "askSize": 0.51440011,
+        "averagePrice": 98197.50976723,
+        "baseCurrency": "BTC",
+        "bidSize": 0.30165333,
+        "board": 1,
+        "buy": 98585.8,
+        "changePrice": 883.3,
+        "changeRate": 0.009,
+        "close": 98585.8,
+        "datetime": 1732370262239,
+        "high": 99595.0,
+        "lastTradedPrice": 98585.8,
+        "low": 97017.5,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": -0.7,
+          "changeRate": 0.0,
+          "high": 98860.2,
+          "low": 98542.8,
+          "open": 98586.5,
+          "vol": 64.32658832,
+          "volValue": 6349141.458447828
+        },
+        "marketChange24h": {
+          "changePrice": 883.3,
+          "changeRate": 0.009,
+          "high": 99595.0,
+          "low": 97017.5,
+          "open": 97702.5,
+          "vol": 2560.04981794,
+          "volValue": 252564710.3139971
+        },
+        "marketChange4h": {
+          "changePrice": 163.6,
+          "changeRate": 0.0016,
+          "high": 98860.2,
+          "low": 98309.4,
+          "open": 98422.2,
+          "vol": 189.84082501,
+          "volValue": 18709337.281024463
+        },
+        "markets": [
+          "USDS",
+          "PoW"
+        ],
+        "open": 97702.5,
+        "quoteCurrency": "USDT",
+        "sell": 98585.9,
+        "siteTypes": [
+          "turkey",
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "BTC-USDT",
+        "symbolCode": "BTC-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 2560.04981794,
+        "volValue": 252564710.3139971
+      },
+      "time_received": "13:57:42.2750"
+    },
+    {
+      "sequence": "15266743585",
+      "data": {
+        "askSize": 0.51434383,
+        "averagePrice": 98197.50976723,
+        "baseCurrency": "BTC",
+        "bidSize": 0.30232314,
+        "board": 1,
+        "buy": 98585.8,
+        "changePrice": 883.3,
+        "changeRate": 0.009,
+        "close": 98585.8,
+        "datetime": 1732370264117,
+        "high": 99595.0,
+        "lastTradedPrice": 98585.8,
+        "low": 97017.5,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": -0.7,
+          "changeRate": 0.0,
+          "high": 98860.2,
+          "low": 98542.8,
+          "open": 98586.5,
+          "vol": 64.33203807,
+          "volValue": 6349678.726412812
+        },
+        "marketChange24h": {
+          "changePrice": 883.3,
+          "changeRate": 0.009,
+          "high": 99595.0,
+          "low": 97017.5,
+          "open": 97702.5,
+          "vol": 2560.05526769,
+          "volValue": 252565247.58196208
+        },
+        "marketChange4h": {
+          "changePrice": 163.6,
+          "changeRate": 0.0016,
+          "high": 98860.2,
+          "low": 98309.4,
+          "open": 98422.2,
+          "vol": 189.84627476,
+          "volValue": 18709874.54898945
+        },
+        "markets": [
+          "USDS",
+          "PoW"
+        ],
+        "open": 97702.5,
+        "quoteCurrency": "USDT",
+        "sell": 98585.9,
+        "siteTypes": [
+          "turkey",
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "BTC-USDT",
+        "symbolCode": "BTC-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 2560.05526769,
+        "volValue": 252565247.58196208
+      },
+      "time_received": "13:57:44.1536"
+    },
+    {
+      "sequence": "15266743585",
+      "data": {
+        "askSize": 0.51434383,
+        "averagePrice": 98197.50976723,
+        "baseCurrency": "BTC",
+        "bidSize": 0.30232314,
+        "board": 1,
+        "buy": 98585.8,
+        "changePrice": 883.3,
+        "changeRate": 0.009,
+        "close": 98585.8,
+        "datetime": 1732370264136,
+        "high": 99595.0,
+        "lastTradedPrice": 98585.8,
+        "low": 97017.5,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": -0.7,
+          "changeRate": 0.0,
+          "high": 98860.2,
+          "low": 98542.8,
+          "open": 98586.5,
+          "vol": 64.34042879,
+          "volValue": 6350505.93230211
+        },
+        "marketChange24h": {
+          "changePrice": 883.3,
+          "changeRate": 0.009,
+          "high": 99595.0,
+          "low": 97017.5,
+          "open": 97702.5,
+          "vol": 2560.06365841,
+          "volValue": 252566074.7878514
+        },
+        "marketChange4h": {
+          "changePrice": 163.6,
+          "changeRate": 0.0016,
+          "high": 98860.2,
+          "low": 98309.4,
+          "open": 98422.2,
+          "vol": 189.85466548,
+          "volValue": 18710701.754878744
+        },
+        "markets": [
+          "USDS",
+          "PoW"
+        ],
+        "open": 97702.5,
+        "quoteCurrency": "USDT",
+        "sell": 98585.9,
+        "siteTypes": [
+          "turkey",
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "BTC-USDT",
+        "symbolCode": "BTC-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 2560.06365841,
+        "volValue": 252566074.7878514
+      },
+      "time_received": "13:57:44.1967"
+    },
+    {
+      "sequence": "15266743742",
+      "data": {
+        "askSize": 0.6932821,
+        "averagePrice": 98197.50976723,
+        "baseCurrency": "BTC",
+        "bidSize": 0.30232314,
+        "board": 1,
+        "buy": 98585.8,
+        "changePrice": 883.4,
+        "changeRate": 0.009,
+        "close": 98585.9,
+        "datetime": 1732370266011,
+        "high": 99595.0,
+        "lastTradedPrice": 98585.9,
+        "low": 97017.5,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": -0.6,
+          "changeRate": 0.0,
+          "high": 98860.2,
+          "low": 98542.8,
+          "open": 98586.5,
+          "vol": 64.34042879,
+          "volValue": 6350505.93230211
+        },
+        "marketChange24h": {
+          "changePrice": 883.4,
+          "changeRate": 0.009,
+          "high": 99595.0,
+          "low": 97017.5,
+          "open": 97702.5,
+          "vol": 2560.06365841,
+          "volValue": 252566074.7878514
+        },
+        "marketChange4h": {
+          "changePrice": 163.7,
+          "changeRate": 0.0016,
+          "high": 98860.2,
+          "low": 98309.4,
+          "open": 98422.2,
+          "vol": 189.85466548,
+          "volValue": 18710701.754878744
+        },
+        "markets": [
+          "USDS",
+          "PoW"
+        ],
+        "open": 97702.5,
+        "quoteCurrency": "USDT",
+        "sell": 98585.9,
+        "siteTypes": [
+          "turkey",
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "BTC-USDT",
+        "symbolCode": "BTC-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 2560.06365841,
+        "volValue": 252566074.7878514
+      },
+      "time_received": "13:57:46.0463"
+    },
+    {
+      "sequence": "15266743811",
+      "data": {
+        "askSize": 0.27439076,
+        "averagePrice": 98197.50976723,
+        "baseCurrency": "BTC",
+        "bidSize": 0.88152388,
+        "board": 1,
+        "buy": 98585.8,
+        "changePrice": 883.4,
+        "changeRate": 0.009,
+        "close": 98585.9,
+        "datetime": 1732370268061,
+        "high": 99595.0,
+        "lastTradedPrice": 98585.9,
+        "low": 97017.5,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": -0.6,
+          "changeRate": 0.0,
+          "high": 98860.2,
+          "low": 98542.8,
+          "open": 98586.5,
+          "vol": 64.34222242,
+          "volValue": 6350682.758895871
+        },
+        "marketChange24h": {
+          "changePrice": 883.4,
+          "changeRate": 0.009,
+          "high": 99595.0,
+          "low": 97017.5,
+          "open": 97702.5,
+          "vol": 2560.06545204,
+          "volValue": 252566251.61444515
+        },
+        "marketChange4h": {
+          "changePrice": 163.7,
+          "changeRate": 0.0016,
+          "high": 98860.2,
+          "low": 98309.4,
+          "open": 98422.2,
+          "vol": 189.85645911,
+          "volValue": 18710878.581472505
+        },
+        "markets": [
+          "USDS",
+          "PoW"
+        ],
+        "open": 97702.5,
+        "quoteCurrency": "USDT",
+        "sell": 98585.9,
+        "siteTypes": [
+          "turkey",
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "BTC-USDT",
+        "symbolCode": "BTC-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 2560.06545204,
+        "volValue": 252566251.61444515
+      },
+      "time_received": "13:57:48.1186"
+    },
+    {
+      "sequence": "15266744113",
+      "data": {
+        "askSize": 0.69150335,
+        "averagePrice": 98197.50976723,
+        "baseCurrency": "BTC",
+        "bidSize": 0.33984635,
+        "board": 1,
+        "buy": 98585.8,
+        "changePrice": 883.3,
+        "changeRate": 0.009,
+        "close": 98585.8,
+        "datetime": 1732370274011,
+        "high": 99595.0,
+        "lastTradedPrice": 98585.8,
+        "low": 97017.5,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": -0.7,
+          "changeRate": 0.0,
+          "high": 98860.2,
+          "low": 98542.8,
+          "open": 98586.5,
+          "vol": 64.344721,
+          "volValue": 6350929.083480676
+        },
+        "marketChange24h": {
+          "changePrice": 883.3,
+          "changeRate": 0.009,
+          "high": 99595.0,
+          "low": 97017.5,
+          "open": 97702.5,
+          "vol": 2560.06795062,
+          "volValue": 252566497.93902996
+        },
+        "marketChange4h": {
+          "changePrice": 163.6,
+          "changeRate": 0.0016,
+          "high": 98860.2,
+          "low": 98309.4,
+          "open": 98422.2,
+          "vol": 189.85895769,
+          "volValue": 18711124.90605731
+        },
+        "markets": [
+          "USDS",
+          "PoW"
+        ],
+        "open": 97702.5,
+        "quoteCurrency": "USDT",
+        "sell": 98585.9,
+        "siteTypes": [
+          "turkey",
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "BTC-USDT",
+        "symbolCode": "BTC-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 2560.06795062,
+        "volValue": 252566497.93902996
+      },
+      "time_received": "13:57:54.1567"
+    },
+    {
+      "sequence": "15266744181",
+      "data": {
+        "askSize": 0.68999162,
+        "averagePrice": 98197.50976723,
+        "baseCurrency": "BTC",
+        "bidSize": 0.35940588,
+        "board": 1,
+        "buy": 98585.8,
+        "changePrice": 883.3,
+        "changeRate": 0.009,
+        "close": 98585.8,
+        "datetime": 1732370276011,
+        "high": 99595.0,
+        "lastTradedPrice": 98585.8,
+        "low": 97017.5,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": -0.7,
+          "changeRate": 0.0,
+          "high": 98860.2,
+          "low": 98542.8,
+          "open": 98586.5,
+          "vol": 64.34693473,
+          "volValue": 6351147.325974883
+        },
+        "marketChange24h": {
+          "changePrice": 883.3,
+          "changeRate": 0.009,
+          "high": 99595.0,
+          "low": 97017.5,
+          "open": 97702.5,
+          "vol": 2560.07016435,
+          "volValue": 252566716.18152416
+        },
+        "marketChange4h": {
+          "changePrice": 163.6,
+          "changeRate": 0.0016,
+          "high": 98860.2,
+          "low": 98309.4,
+          "open": 98422.2,
+          "vol": 189.86117142,
+          "volValue": 18711343.148551516
+        },
+        "markets": [
+          "USDS",
+          "PoW"
+        ],
+        "open": 97702.5,
+        "quoteCurrency": "USDT",
+        "sell": 98585.9,
+        "siteTypes": [
+          "turkey",
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "BTC-USDT",
+        "symbolCode": "BTC-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 2560.07016435,
+        "volValue": 252566716.18152416
+      },
+      "time_received": "13:57:56.1427"
+    }
+  ]
+}

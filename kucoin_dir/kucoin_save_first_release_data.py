@@ -10,18 +10,21 @@ from datetime import datetime, timedelta
 import traceback
 import json
 import re
-from kucoin_websocket_collectionV6 import KucoinWebsocketlisten
-from kucoin_order_strategyV5 import KucoinStrategyTrader
-from kucoin.exceptions import KucoinAPIException
+from kucoin_save_relase_data_class import Kucoin_save_ws_data
 
 # Configure logging
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)
-console_handler = logging.StreamHandler()
-formatter = logging.Formatter('%(asctime)s.%(msecs)03d - %(levelname)s - %(message)s', datefmt='%H:%M:%S')
-console_handler.setFormatter(formatter)
-logger.addHandler(console_handler)
+logger.setLevel(logging.INFO)
+
+# Check if handlers are already added to the logger
+if not logger.handlers:
+    console_handler = logging.StreamHandler()
+    formatter = logging.Formatter('%(asctime)s.%(msecs)03d - %(levelname)s - %(message)s - %(funcName)s', datefmt='%H:%M:%S')
+    console_handler.setFormatter(formatter)
+    logger.addHandler(console_handler)
+
 logger.propagate = False
+
 
 # Kucoin retrive data and save new
 # 1,16,31,46 * * * * /root/trading_systems/tradingvenv/bin/python /root/trading_systems/kucoin_dir/kucoin_save_first_release_data.py >> /root/trading_systems/kucoin_dir/cronlogs/kucoin_save_first_release_data.log 2>&1
@@ -36,9 +39,8 @@ async def main():
         directory = '/root/trading_systems/kucoin_dir/new_pair_data_kucoin'
         testing_time_offset = 2  # Time offset for testing
         path_to_save = '/root/trading_systems/kucoin_dir/kucoin_data_collection_NEW'
-        time_span_for_saving = 1200  # Time span for saving data after release
-        
-        api_creds_dict = load_credetials()
+        duration_to_run = 1  # time in minutes
+        start_collect_before_release_sec = 30  # Start collecting data before release time
 
         if not testing:
             for filename in os.listdir(directory):
@@ -51,141 +53,56 @@ async def main():
                     basecoin, release_date_time, datetime_to_listing_seconds = parse_result
 
                     if 0 < datetime_to_listing_seconds < 1200:
-                        logger.info(f'realease time in {datetime_to_listing_seconds} seconds sleeping{datetime_to_listing_seconds-30}' )
-                        await asyncio.sleep(datetime_to_listing_seconds-30)
-                        logger.info(f'Starting data collection for {basecoin} releasing at {release_date_time}')
-                        datetime_to_listing_seconds = (release_date_time - datetime.now()).total_seconds()
                         # Initialize websocket     
                         logger.info('initiaing websocket')
-                        ws_level2 = KucoinWebsocketlisten( basecoin, channel= 'level2')
-                        ws_match = KucoinWebsocketlisten( basecoin, channel= 'match')
-                        ws_ticker = KucoinWebsocketlisten( basecoin, channel= 'ticker')
-                        ws_level2_depth5 = KucoinWebsocketlisten( basecoin, channel= 'level2Depth5')
-                        ws_snapshot = KucoinWebsocketlisten( basecoin, channel= 'snapshot')
-                        ws_level1 = KucoinWebsocketlisten( basecoin, channel= 'level1')
 
-                        try:
-                            #start listening to all channels
-                            listen_to_all_task = [asyncio.create_task(ws_level2.start_websocket()), 
-                                                asyncio.create_task(ws_match.start_websocket()), 
-                                                asyncio.create_task(ws_ticker.start_websocket()), 
-                                                asyncio.create_task(ws_level2_depth5.start_websocket()), 
-                                                asyncio.create_task(ws_snapshot.start_websocket()), 
-                                                asyncio.create_task(ws_level1.start_websocket())]
+                        # List all channel attributes from the class
+                        channels = [
+                            Kucoin_save_ws_data.CHANNEL_TICKER,
+                            Kucoin_save_ws_data.CHANNEL_LEVEL2,
+                            Kucoin_save_ws_data.CHANNEL_MATCH,
+                            Kucoin_save_ws_data.CHANNEL_DEPTH5,
+                            Kucoin_save_ws_data.CHANNEL_SNAPSHOT,
+                            Kucoin_save_ws_data.CHANNEL_LEVEL1
+                        ]
 
-                            process_data_task = [asyncio.create_task(ws_level2.process_for_saving()),
-                                                asyncio.create_task(ws_match.process_for_saving()),
-                                                asyncio.create_task(ws_ticker.process_for_saving()),
-                                                asyncio.create_task(ws_level2_depth5.process_for_saving()),
-                                                asyncio.create_task(ws_snapshot.process_for_saving()),
-                                                asyncio.create_task(ws_level1.process_for_saving())]
-
-
-
-
-                            delay = (release_date_time + timedelta(seconds=time_span_for_saving) - datetime.now()).total_seconds()
-                            logger.debug(f'saving data for {delay} seconds')
-                            await asyncio.sleep(delay)
-
-                                        # Cancel all tasks
-                            for task in listen_to_all_task + process_data_task:
-                                task.cancel()
-                            
-                            # Wait for tasks to complete
-                            #await asyncio.gather(*listen_to_all_task, *process_data_task, return_exceptions=True)
-
-                        except asyncio.CancelledError:
-                            logger.info("Main task cancelled")
-                        finally:
-                            # Cleanup
-
-                            await asyncio.gather(ws_level2.save_data(path_to_save,release_date_time),
-                                                ws_match.save_data(path_to_save,release_date_time),
-                                                ws_ticker.save_data(path_to_save,release_date_time),
-                                                ws_level2_depth5.save_data(path_to_save,release_date_time),
-                                                ws_snapshot.save_data(path_to_save,release_date_time),
-                                                ws_level1.save_data(path_to_save,release_date_time))
-
-                            await asyncio.gather(ws_level2.cleanup(), 
-                                                ws_match.cleanup(), 
-                                                ws_ticker.cleanup(), 
-                                                ws_level2_depth5.cleanup(), 
-                                                ws_snapshot.cleanup(), 
-                                                ws_level1.cleanup())
-                            
-                
-
-
-
-                            logger.debug('Break after detecting pair')
-                            break
+                        tasks = []
+                        ws_instances = []
+                        for channel in channels:
+                            ws = Kucoin_save_ws_data(
+                                symbol=basecoin,
+                                release_time=release_date_time,
+                                duration_minutes=duration_to_run,
+                                saving_path=path_to_save,
+                                channel=channel,
+                                pre_release_seconds=start_collect_before_release_sec
+                            )
+                            ws_instances.append(ws)
+                            try:
+                                # Start the websocket connection
+                                websocket_task = asyncio.create_task(ws.start_websocket())
+                                # Process and save data
+                                data_task = asyncio.create_task(ws.process_for_saving())
+                                # Wait for both tasks to complete
+                                tasks.append(asyncio.gather(websocket_task, data_task))
+                            except Exception as e:
+                                logger.error(f"Error in collection process for channel {channel}: {e}")
+                        
+                        # Run all tasks concurrently
+                        await asyncio.gather(*tasks)
+                        logger.debug('Break after detecting pair')
+                        break
 
         else:
             # Testing mode
             basecoin = 'XRP'  # Test symbol
             release_date_time = datetime.now() + timedelta(seconds=testing_time_offset)
             release_date_time = release_date_time.replace( microsecond=0)
-            api_creds_dict = load_credetials()
-            logger.info(f'Testing mode: {basecoin} at {release_date_time}')
-            logger.info('initiaing websocket')
-
-            # Initialize websocket     
-
-            ws_level2 = KucoinWebsocketlisten( basecoin, channel= 'level2')
-            ws_match = KucoinWebsocketlisten( basecoin, channel= 'match')
-            ws_ticker = KucoinWebsocketlisten( basecoin, channel= 'ticker')
-            ws_level2_depth5 = KucoinWebsocketlisten( basecoin, channel= 'level2Depth5')
-            ws_snapshot = KucoinWebsocketlisten( basecoin, channel= 'snapshot')
-            ws_level1 = KucoinWebsocketlisten( basecoin, channel= 'level1')
-
             try:
-                #start listening to all channels
-                listen_to_all_task = [asyncio.create_task(ws_level2.start_websocket()), 
-                                    asyncio.create_task(ws_match.start_websocket()), 
-                                    asyncio.create_task(ws_ticker.start_websocket()), 
-                                    asyncio.create_task(ws_level2_depth5.start_websocket()), 
-                                    asyncio.create_task(ws_snapshot.start_websocket()), 
-                                    asyncio.create_task(ws_level1.start_websocket())]
-
-                process_data_task = [asyncio.create_task(ws_level2.process_for_saving()),
-                                    asyncio.create_task(ws_match.process_for_saving()),
-                                    asyncio.create_task(ws_ticker.process_for_saving()),
-                                    asyncio.create_task(ws_level2_depth5.process_for_saving()),
-                                    asyncio.create_task(ws_snapshot.process_for_saving()),
-                                    asyncio.create_task(ws_level1.process_for_saving())]
-
-
-
-                logger.info('save data until 60 sec after release ')
-                delay = (release_date_time + timedelta(seconds=time_span_for_saving) - datetime.now()).total_seconds()
-                await asyncio.sleep(delay)
-
-                            # Cancel all tasks
-                for task in listen_to_all_task + process_data_task:
-                    task.cancel()
-                
-                # Wait for tasks to complete
-                #await asyncio.gather(*listen_to_all_task, *process_data_task, return_exceptions=True)
-
+                ...
             except asyncio.CancelledError:
                 logger.info("Main task cancelled")
-            finally:
-                # Cleanup
 
-                await asyncio.gather(ws_level2.save_data(path_to_save,release_date_time),
-                                    ws_match.save_data(path_to_save,release_date_time),
-                                    ws_ticker.save_data(path_to_save,release_date_time),
-                                    ws_level2_depth5.save_data(path_to_save,release_date_time),
-                                    ws_snapshot.save_data(path_to_save,release_date_time),
-                                    ws_level1.save_data(path_to_save,release_date_time))
-
-                await asyncio.gather(ws_level2.cleanup(), 
-                                     ws_match.cleanup(), 
-                                     ws_ticker.cleanup(), 
-                                     ws_level2_depth5.cleanup(), 
-                                     ws_snapshot.cleanup(), 
-                                     ws_level1.cleanup())
-                
      
 
     finally:

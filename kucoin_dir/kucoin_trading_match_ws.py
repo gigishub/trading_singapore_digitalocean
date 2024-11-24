@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 import traceback
 import json
 import re
-from kucoin_websocket_collectionV6 import KucoinWebsocketlisten
+from kucoin_dir.kucoin_save_relase_data_class import Kucoin_save_ws_data
 from kucoin_order_strategyV5 import KucoinStrategyTrader
 from kucoin.exceptions import KucoinAPIException
 
@@ -60,7 +60,7 @@ async def main():
                         try:
                             symbol = f'{basecoin}-USDT'
                             # Initialize websocket and strategy trader to save time on release
-                            ws_match = KucoinWebsocketlisten(basecoin, channel='match')
+                            ws_match = Kucoin_save_ws_data(basecoin, channel='match')
                             ws_match_task = asyncio.create_task(ws_match.start_websocket())
                             strategy_object = KucoinStrategyTrader(
                                 api_creds_dict['api_key'],
@@ -150,7 +150,7 @@ async def main():
             logger.info('Initiating websocket and strategy trader')
 
             # Initialize websocket and strategy trader to save time on release
-            ws_match = KucoinWebsocketlisten(basecoin, channel='match')
+            ws_match = Kucoin_save_ws_data(basecoin, channel='match')
             ws_match_task = asyncio.create_task(ws_match.start_websocket())
             strategy_object = KucoinStrategyTrader(
                 api_creds_dict['api_key'],

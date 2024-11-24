@@ -1,0 +1,8400 @@
+[
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.399",
+          "14500",
+          "13"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 13,
+    "sequenceStart": 13,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200057,
+    "time_data_received": "11:00:00.1009"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.38",
+          "2777.62",
+          "14"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 14,
+    "sequenceStart": 14,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200103,
+    "time_data_received": "11:00:00.1400"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.37",
+          "27",
+          "15"
+        ]
+      ]
+    },
+    "sequenceEnd": 15,
+    "sequenceStart": 15,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200135,
+    "time_data_received": "11:00:00.1711"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.15",
+          "133",
+          "16"
+        ]
+      ]
+    },
+    "sequenceEnd": 16,
+    "sequenceStart": 16,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200141,
+    "time_data_received": "11:00:00.1830"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.2",
+          "125",
+          "17"
+        ]
+      ]
+    },
+    "sequenceEnd": 17,
+    "sequenceStart": 17,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200147,
+    "time_data_received": "11:00:00.1832"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.13",
+          "630",
+          "18"
+        ]
+      ]
+    },
+    "sequenceEnd": 18,
+    "sequenceStart": 18,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200149,
+    "time_data_received": "11:00:00.1853"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.34",
+          "30",
+          "19"
+        ]
+      ]
+    },
+    "sequenceEnd": 19,
+    "sequenceStart": 19,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200153,
+    "time_data_received": "11:00:00.1869"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.03",
+          "1000",
+          "20"
+        ]
+      ]
+    },
+    "sequenceEnd": 20,
+    "sequenceStart": 20,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200154,
+    "time_data_received": "11:00:00.1917"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3",
+          "18",
+          "21"
+        ]
+      ]
+    },
+    "sequenceEnd": 21,
+    "sequenceStart": 21,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200154,
+    "time_data_received": "11:00:00.1921"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.2",
+          "1125",
+          "22"
+        ]
+      ]
+    },
+    "sequenceEnd": 22,
+    "sequenceStart": 22,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200159,
+    "time_data_received": "11:00:00.1943"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3",
+          "84.5",
+          "23"
+        ]
+      ]
+    },
+    "sequenceEnd": 23,
+    "sequenceStart": 23,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200161,
+    "time_data_received": "11:00:00.1998"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.25",
+          "80",
+          "24"
+        ]
+      ]
+    },
+    "sequenceEnd": 24,
+    "sequenceStart": 24,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200165,
+    "time_data_received": "11:00:00.2085"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.35",
+          "40",
+          "25"
+        ]
+      ]
+    },
+    "sequenceEnd": 25,
+    "sequenceStart": 25,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200165,
+    "time_data_received": "11:00:00.2106"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3629",
+          "100",
+          "26"
+        ]
+      ]
+    },
+    "sequenceEnd": 26,
+    "sequenceStart": 26,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200169,
+    "time_data_received": "11:00:00.2123"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3665",
+          "100",
+          "27"
+        ]
+      ]
+    },
+    "sequenceEnd": 27,
+    "sequenceStart": 27,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200169,
+    "time_data_received": "11:00:00.2129"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.36",
+          "100",
+          "28"
+        ]
+      ]
+    },
+    "sequenceEnd": 28,
+    "sequenceStart": 28,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200170,
+    "time_data_received": "11:00:00.2144"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.38",
+          "2251.62",
+          "29"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 29,
+    "sequenceStart": 29,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200171,
+    "time_data_received": "11:00:00.2168"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.07",
+          "1000",
+          "30"
+        ]
+      ]
+    },
+    "sequenceEnd": 30,
+    "sequenceStart": 30,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200175,
+    "time_data_received": "11:00:00.2356"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.35",
+          "50",
+          "31"
+        ]
+      ]
+    },
+    "sequenceEnd": 31,
+    "sequenceStart": 31,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200178,
+    "time_data_received": "11:00:00.2357"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.0001",
+          "10000",
+          "32"
+        ]
+      ]
+    },
+    "sequenceEnd": 32,
+    "sequenceStart": 32,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200180,
+    "time_data_received": "11:00:00.2358"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.38",
+          "2236.62",
+          "33"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 33,
+    "sequenceStart": 33,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200190,
+    "time_data_received": "11:00:00.2359"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "34"
+        ]
+      ]
+    },
+    "sequenceEnd": 34,
+    "sequenceStart": 34,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200191,
+    "time_data_received": "11:00:00.2368"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.38",
+          "1736.62",
+          "35"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 35,
+    "sequenceStart": 35,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200208,
+    "time_data_received": "11:00:00.2427"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.38",
+          "1486.62",
+          "36"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 36,
+    "sequenceStart": 36,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200209,
+    "time_data_received": "11:00:00.2447"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "37"
+        ]
+      ]
+    },
+    "sequenceEnd": 37,
+    "sequenceStart": 37,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200212,
+    "time_data_received": "11:00:00.2464"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "38"
+        ]
+      ]
+    },
+    "sequenceEnd": 38,
+    "sequenceStart": 38,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200215,
+    "time_data_received": "11:00:00.2492"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.38",
+          "1476.62",
+          "39"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 39,
+    "sequenceStart": 39,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200219,
+    "time_data_received": "11:00:00.2567"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.04",
+          "50",
+          "40"
+        ]
+      ]
+    },
+    "sequenceEnd": 40,
+    "sequenceStart": 40,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200225,
+    "time_data_received": "11:00:00.2590"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.002",
+          "50000",
+          "41"
+        ]
+      ]
+    },
+    "sequenceEnd": 41,
+    "sequenceStart": 41,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200225,
+    "time_data_received": "11:00:00.2592"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.35",
+          "107",
+          "42"
+        ]
+      ]
+    },
+    "sequenceEnd": 42,
+    "sequenceStart": 42,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200228,
+    "time_data_received": "11:00:00.2616"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.005",
+          "2000",
+          "43"
+        ]
+      ]
+    },
+    "sequenceEnd": 43,
+    "sequenceStart": 43,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200240,
+    "time_data_received": "11:00:00.2752"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3",
+          "417.5",
+          "44"
+        ]
+      ]
+    },
+    "sequenceEnd": 44,
+    "sequenceStart": 44,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200240,
+    "time_data_received": "11:00:00.2761"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.07",
+          "1250",
+          "45"
+        ]
+      ]
+    },
+    "sequenceEnd": 45,
+    "sequenceStart": 45,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200250,
+    "time_data_received": "11:00:00.2852"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.04",
+          "5050",
+          "46"
+        ]
+      ]
+    },
+    "sequenceEnd": 46,
+    "sequenceStart": 46,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200250,
+    "time_data_received": "11:00:00.2854"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.05",
+          "120",
+          "47"
+        ]
+      ]
+    },
+    "sequenceEnd": 47,
+    "sequenceStart": 47,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200253,
+    "time_data_received": "11:00:00.2869"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3668",
+          "100",
+          "48"
+        ]
+      ]
+    },
+    "sequenceEnd": 48,
+    "sequenceStart": 48,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200258,
+    "time_data_received": "11:00:00.2921"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.0015",
+          "70000",
+          "49"
+        ]
+      ]
+    },
+    "sequenceEnd": 49,
+    "sequenceStart": 49,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200267,
+    "time_data_received": "11:00:00.3077"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.17",
+          "305",
+          "50"
+        ]
+      ]
+    },
+    "sequenceEnd": 50,
+    "sequenceStart": 50,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200272,
+    "time_data_received": "11:00:00.3080"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.214",
+          "11",
+          "51"
+        ]
+      ]
+    },
+    "sequenceEnd": 51,
+    "sequenceStart": 51,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200274,
+    "time_data_received": "11:00:00.3082"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.33",
+          "13423",
+          "52"
+        ]
+      ]
+    },
+    "sequenceEnd": 52,
+    "sequenceStart": 52,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200276,
+    "time_data_received": "11:00:00.3094"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3",
+          "917.5",
+          "53"
+        ]
+      ]
+    },
+    "sequenceEnd": 53,
+    "sequenceStart": 53,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200276,
+    "time_data_received": "11:00:00.3097"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.228",
+          "11",
+          "54"
+        ]
+      ]
+    },
+    "sequenceEnd": 54,
+    "sequenceStart": 54,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200276,
+    "time_data_received": "11:00:00.3101"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.25",
+          "1280",
+          "55"
+        ]
+      ]
+    },
+    "sequenceEnd": 55,
+    "sequenceStart": 55,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200281,
+    "time_data_received": "11:00:00.3224"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.256",
+          "100",
+          "56"
+        ]
+      ]
+    },
+    "sequenceEnd": 56,
+    "sequenceStart": 56,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200293,
+    "time_data_received": "11:00:00.3270"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.05",
+          "620",
+          "57"
+        ]
+      ]
+    },
+    "sequenceEnd": 57,
+    "sequenceStart": 57,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200308,
+    "time_data_received": "11:00:00.3417"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.38",
+          "1465.62",
+          "58"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 58,
+    "sequenceStart": 58,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200313,
+    "time_data_received": "11:00:00.3465"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.2",
+          "1130",
+          "59"
+        ]
+      ]
+    },
+    "sequenceEnd": 59,
+    "sequenceStart": 59,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200314,
+    "time_data_received": "11:00:00.3480"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1",
+          "500",
+          "60"
+        ]
+      ]
+    },
+    "sequenceEnd": 60,
+    "sequenceStart": 60,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200323,
+    "time_data_received": "11:00:00.3568"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3626",
+          "100",
+          "61"
+        ]
+      ]
+    },
+    "sequenceEnd": 61,
+    "sequenceStart": 61,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200324,
+    "time_data_received": "11:00:00.3577"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "62"
+        ]
+      ]
+    },
+    "sequenceEnd": 62,
+    "sequenceStart": 62,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200344,
+    "time_data_received": "11:00:00.3783"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "63"
+        ]
+      ]
+    },
+    "sequenceEnd": 63,
+    "sequenceStart": 63,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200355,
+    "time_data_received": "11:00:00.3892"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.37",
+          "16.1",
+          "64"
+        ]
+      ]
+    },
+    "sequenceEnd": 64,
+    "sequenceStart": 64,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200385,
+    "time_data_received": "11:00:00.4206"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "65"
+        ]
+      ]
+    },
+    "sequenceEnd": 65,
+    "sequenceStart": 65,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200519,
+    "time_data_received": "11:00:00.5623"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "66"
+        ]
+      ]
+    },
+    "sequenceEnd": 66,
+    "sequenceStart": 66,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200527,
+    "time_data_received": "11:00:00.5626"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.38",
+          "1454.62",
+          "67"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 67,
+    "sequenceStart": 67,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200553,
+    "time_data_received": "11:00:00.6011"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.2",
+          "1263.33",
+          "68"
+        ]
+      ]
+    },
+    "sequenceEnd": 68,
+    "sequenceStart": 68,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200641,
+    "time_data_received": "11:00:00.6755"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3952",
+          "10.9",
+          "69"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 69,
+    "sequenceStart": 69,
+    "symbol": "SLERF-USDT",
+    "time": 1732273200680,
+    "time_data_received": "11:00:00.7140"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3",
+          "1317.5",
+          "70"
+        ]
+      ]
+    },
+    "sequenceEnd": 70,
+    "sequenceStart": 70,
+    "symbol": "SLERF-USDT",
+    "time": 1732273201565,
+    "time_data_received": "11:00:01.7129"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.2",
+          "1130",
+          "71"
+        ]
+      ]
+    },
+    "sequenceEnd": 71,
+    "sequenceStart": 71,
+    "symbol": "SLERF-USDT",
+    "time": 1732273201660,
+    "time_data_received": "11:00:01.7134"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3433",
+          "133.33",
+          "72"
+        ]
+      ]
+    },
+    "sequenceEnd": 72,
+    "sequenceStart": 72,
+    "symbol": "SLERF-USDT",
+    "time": 1732273201712,
+    "time_data_received": "11:00:01.7496"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.4",
+          "2748.92",
+          "73"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 73,
+    "sequenceStart": 73,
+    "symbol": "SLERF-USDT",
+    "time": 1732273201926,
+    "time_data_received": "11:00:01.9600"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.012",
+          "2083.33",
+          "74"
+        ]
+      ]
+    },
+    "sequenceEnd": 74,
+    "sequenceStart": 74,
+    "symbol": "SLERF-USDT",
+    "time": 1732273202262,
+    "time_data_received": "11:00:02.3101"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3433",
+          "0",
+          "75"
+        ]
+      ]
+    },
+    "sequenceEnd": 75,
+    "sequenceStart": 75,
+    "symbol": "SLERF-USDT",
+    "time": 1732273202421,
+    "time_data_received": "11:00:02.4616"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3522",
+          "133.33",
+          "76"
+        ]
+      ]
+    },
+    "sequenceEnd": 76,
+    "sequenceStart": 76,
+    "symbol": "SLERF-USDT",
+    "time": 1732273202453,
+    "time_data_received": "11:00:02.4995"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "77"
+        ]
+      ]
+    },
+    "sequenceEnd": 77,
+    "sequenceStart": 77,
+    "symbol": "SLERF-USDT",
+    "time": 1732273202573,
+    "time_data_received": "11:00:02.6064"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "78"
+        ]
+      ]
+    },
+    "sequenceEnd": 78,
+    "sequenceStart": 78,
+    "symbol": "SLERF-USDT",
+    "time": 1732273202580,
+    "time_data_received": "11:00:02.6140"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.011",
+          "2272.72",
+          "79"
+        ]
+      ]
+    },
+    "sequenceEnd": 79,
+    "sequenceStart": 79,
+    "symbol": "SLERF-USDT",
+    "time": 1732273202605,
+    "time_data_received": "11:00:02.6389"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.385",
+          "2756.65",
+          "80"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 80,
+    "sequenceStart": 80,
+    "symbol": "SLERF-USDT",
+    "time": 1732273202723,
+    "time_data_received": "11:00:02.7573"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3898",
+          "4131.19",
+          "81"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 81,
+    "sequenceStart": 81,
+    "symbol": "SLERF-USDT",
+    "time": 1732273202726,
+    "time_data_received": "11:00:02.7597"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "82"
+        ]
+      ]
+    },
+    "sequenceEnd": 82,
+    "sequenceStart": 82,
+    "symbol": "SLERF-USDT",
+    "time": 1732273202731,
+    "time_data_received": "11:00:02.7652"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "83"
+        ]
+      ]
+    },
+    "sequenceEnd": 83,
+    "sequenceStart": 83,
+    "symbol": "SLERF-USDT",
+    "time": 1732273202741,
+    "time_data_received": "11:00:02.7810"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "84"
+        ]
+      ]
+    },
+    "sequenceEnd": 84,
+    "sequenceStart": 84,
+    "symbol": "SLERF-USDT",
+    "time": 1732273203879,
+    "time_data_received": "11:00:03.9143"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3522",
+          "0",
+          "85"
+        ]
+      ]
+    },
+    "sequenceEnd": 85,
+    "sequenceStart": 85,
+    "symbol": "SLERF-USDT",
+    "time": 1732273203971,
+    "time_data_received": "11:00:04.0061"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3581",
+          "133.33",
+          "86"
+        ]
+      ]
+    },
+    "sequenceEnd": 86,
+    "sequenceStart": 86,
+    "symbol": "SLERF-USDT",
+    "time": 1732273203999,
+    "time_data_received": "11:00:04.0327"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.096",
+          "833.33",
+          "87"
+        ]
+      ]
+    },
+    "sequenceEnd": 87,
+    "sequenceStart": 87,
+    "symbol": "SLERF-USDT",
+    "time": 1732273204110,
+    "time_data_received": "11:00:04.2109"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.332",
+          "1204.81",
+          "88"
+        ]
+      ]
+    },
+    "sequenceEnd": 88,
+    "sequenceStart": 88,
+    "symbol": "SLERF-USDT",
+    "time": 1732273204143,
+    "time_data_received": "11:00:04.2111"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "89"
+        ]
+      ]
+    },
+    "sequenceEnd": 89,
+    "sequenceStart": 89,
+    "symbol": "SLERF-USDT",
+    "time": 1732273204146,
+    "time_data_received": "11:00:04.2116"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "90"
+        ]
+      ]
+    },
+    "sequenceEnd": 90,
+    "sequenceStart": 90,
+    "symbol": "SLERF-USDT",
+    "time": 1732273204153,
+    "time_data_received": "11:00:04.2119"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "91"
+        ]
+      ]
+    },
+    "sequenceEnd": 91,
+    "sequenceStart": 91,
+    "symbol": "SLERF-USDT",
+    "time": 1732273204289,
+    "time_data_received": "11:00:04.3615"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "92"
+        ]
+      ]
+    },
+    "sequenceEnd": 92,
+    "sequenceStart": 92,
+    "symbol": "SLERF-USDT",
+    "time": 1732273204324,
+    "time_data_received": "11:00:04.3617"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.052",
+          "1538.46",
+          "93"
+        ]
+      ]
+    },
+    "sequenceEnd": 93,
+    "sequenceStart": 93,
+    "symbol": "SLERF-USDT",
+    "time": 1732273204332,
+    "time_data_received": "11:00:04.3751"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.044",
+          "1818.18",
+          "94"
+        ]
+      ]
+    },
+    "sequenceEnd": 94,
+    "sequenceStart": 94,
+    "symbol": "SLERF-USDT",
+    "time": 1732273204511,
+    "time_data_received": "11:00:04.5478"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3581",
+          "0",
+          "95"
+        ]
+      ]
+    },
+    "sequenceEnd": 95,
+    "sequenceStart": 95,
+    "symbol": "SLERF-USDT",
+    "time": 1732273204584,
+    "time_data_received": "11:00:04.6181"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3621",
+          "133.33",
+          "96"
+        ]
+      ]
+    },
+    "sequenceEnd": 96,
+    "sequenceStart": 96,
+    "symbol": "SLERF-USDT",
+    "time": 1732273204635,
+    "time_data_received": "11:00:04.6703"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "97"
+        ]
+      ]
+    },
+    "sequenceEnd": 97,
+    "sequenceStart": 97,
+    "symbol": "SLERF-USDT",
+    "time": 1732273204720,
+    "time_data_received": "11:00:04.7541"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.38",
+          "5360.08",
+          "98"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 98,
+    "sequenceStart": 98,
+    "symbol": "SLERF-USDT",
+    "time": 1732273204798,
+    "time_data_received": "11:00:04.8326"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.012",
+          "0",
+          "99"
+        ]
+      ]
+    },
+    "sequenceEnd": 99,
+    "sequenceStart": 99,
+    "symbol": "SLERF-USDT",
+    "time": 1732273204803,
+    "time_data_received": "11:00:04.8373"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.084",
+          "952.38",
+          "100"
+        ]
+      ]
+    },
+    "sequenceEnd": 100,
+    "sequenceStart": 100,
+    "symbol": "SLERF-USDT",
+    "time": 1732273204824,
+    "time_data_received": "11:00:04.8583"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "101"
+        ]
+      ]
+    },
+    "sequenceEnd": 101,
+    "sequenceStart": 101,
+    "symbol": "SLERF-USDT",
+    "time": 1732273204883,
+    "time_data_received": "11:00:04.9179"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.011",
+          "0",
+          "102"
+        ]
+      ]
+    },
+    "sequenceEnd": 102,
+    "sequenceStart": 102,
+    "symbol": "SLERF-USDT",
+    "time": 1732273204921,
+    "time_data_received": "11:00:04.9569"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.104",
+          "769.23",
+          "103"
+        ]
+      ]
+    },
+    "sequenceEnd": 103,
+    "sequenceStart": 103,
+    "symbol": "SLERF-USDT",
+    "time": 1732273204949,
+    "time_data_received": "11:00:04.9828"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.335",
+          "1194.02",
+          "104"
+        ]
+      ]
+    },
+    "sequenceEnd": 104,
+    "sequenceStart": 104,
+    "symbol": "SLERF-USDT",
+    "time": 1732273205124,
+    "time_data_received": "11:00:05.1686"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3621",
+          "0",
+          "105"
+        ]
+      ]
+    },
+    "sequenceEnd": 105,
+    "sequenceStart": 105,
+    "symbol": "SLERF-USDT",
+    "time": 1732273205162,
+    "time_data_received": "11:00:05.2888"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3647",
+          "133.33",
+          "106"
+        ]
+      ]
+    },
+    "sequenceEnd": 106,
+    "sequenceStart": 106,
+    "symbol": "SLERF-USDT",
+    "time": 1732273205188,
+    "time_data_received": "11:00:05.2890"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.4",
+          "0",
+          "107"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 107,
+    "sequenceStart": 107,
+    "symbol": "SLERF-USDT",
+    "time": 1732273205194,
+    "time_data_received": "11:00:05.2895"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.252",
+          "793.65",
+          "108"
+        ]
+      ]
+    },
+    "sequenceEnd": 108,
+    "sequenceStart": 108,
+    "symbol": "SLERF-USDT",
+    "time": 1732273205642,
+    "time_data_received": "11:00:05.7460"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3647",
+          "0",
+          "109"
+        ]
+      ]
+    },
+    "sequenceEnd": 109,
+    "sequenceStart": 109,
+    "symbol": "SLERF-USDT",
+    "time": 1732273205733,
+    "time_data_received": "11:00:05.7755"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3665",
+          "233.33",
+          "110"
+        ]
+      ]
+    },
+    "sequenceEnd": 110,
+    "sequenceStart": 110,
+    "symbol": "SLERF-USDT",
+    "time": 1732273205768,
+    "time_data_received": "11:00:05.8021"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.333",
+          "75.07",
+          "111"
+        ]
+      ]
+    },
+    "sequenceEnd": 111,
+    "sequenceStart": 111,
+    "symbol": "SLERF-USDT",
+    "time": 1732273205826,
+    "time_data_received": "11:00:05.8793"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.332",
+          "1355.41",
+          "112"
+        ]
+      ]
+    },
+    "sequenceEnd": 112,
+    "sequenceStart": 112,
+    "symbol": "SLERF-USDT",
+    "time": 1732273206045,
+    "time_data_received": "11:00:06.2025"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.336",
+          "148.8",
+          "113"
+        ]
+      ]
+    },
+    "sequenceEnd": 113,
+    "sequenceStart": 113,
+    "symbol": "SLERF-USDT",
+    "time": 1732273206330,
+    "time_data_received": "11:00:06.5391"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3665",
+          "100",
+          "114"
+        ]
+      ]
+    },
+    "sequenceEnd": 114,
+    "sequenceStart": 114,
+    "symbol": "SLERF-USDT",
+    "time": 1732273206376,
+    "time_data_received": "11:00:06.5395"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3677",
+          "133.33",
+          "115"
+        ]
+      ]
+    },
+    "sequenceEnd": 115,
+    "sequenceStart": 115,
+    "symbol": "SLERF-USDT",
+    "time": 1732273206406,
+    "time_data_received": "11:00:06.5404"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.332",
+          "1506.01",
+          "116"
+        ]
+      ]
+    },
+    "sequenceEnd": 116,
+    "sequenceStart": 116,
+    "symbol": "SLERF-USDT",
+    "time": 1732273206819,
+    "time_data_received": "11:00:06.8618"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3677",
+          "0",
+          "117"
+        ]
+      ]
+    },
+    "sequenceEnd": 117,
+    "sequenceStart": 117,
+    "symbol": "SLERF-USDT",
+    "time": 1732273206932,
+    "time_data_received": "11:00:06.9700"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3684",
+          "133.33",
+          "118"
+        ]
+      ]
+    },
+    "sequenceEnd": 118,
+    "sequenceStart": 118,
+    "symbol": "SLERF-USDT",
+    "time": 1732273206968,
+    "time_data_received": "11:00:07.0251"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.336",
+          "297.6",
+          "119"
+        ]
+      ]
+    },
+    "sequenceEnd": 119,
+    "sequenceStart": 119,
+    "symbol": "SLERF-USDT",
+    "time": 1732273207073,
+    "time_data_received": "11:00:07.1989"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3798",
+          "2155.77",
+          "120"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 120,
+    "sequenceStart": 120,
+    "symbol": "SLERF-USDT",
+    "time": 1732273207235,
+    "time_data_received": "11:00:07.3434"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.385",
+          "0",
+          "121"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 121,
+    "sequenceStart": 121,
+    "symbol": "SLERF-USDT",
+    "time": 1732273207310,
+    "time_data_received": "11:00:07.3722"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.34",
+          "177.05",
+          "122"
+        ]
+      ]
+    },
+    "sequenceEnd": 122,
+    "sequenceStart": 122,
+    "symbol": "SLERF-USDT",
+    "time": 1732273207313,
+    "time_data_received": "11:00:07.3727"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.37",
+          "3316.99",
+          "124"
+        ]
+      ],
+      "bids": [
+        [
+          "0.37",
+          "0",
+          "123"
+        ]
+      ]
+    },
+    "sequenceEnd": 124,
+    "sequenceStart": 123,
+    "symbol": "SLERF-USDT",
+    "time": 1732273207318,
+    "time_data_received": "11:00:07.3729"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "125"
+        ]
+      ]
+    },
+    "sequenceEnd": 125,
+    "sequenceStart": 125,
+    "symbol": "SLERF-USDT",
+    "time": 1732273207398,
+    "time_data_received": "11:00:07.4463"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "126"
+        ]
+      ]
+    },
+    "sequenceEnd": 126,
+    "sequenceStart": 126,
+    "symbol": "SLERF-USDT",
+    "time": 1732273207400,
+    "time_data_received": "11:00:07.4467"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3684",
+          "0",
+          "127"
+        ]
+      ]
+    },
+    "sequenceEnd": 127,
+    "sequenceStart": 127,
+    "symbol": "SLERF-USDT",
+    "time": 1732273207494,
+    "time_data_received": "11:00:07.5537"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3601",
+          "135.43",
+          "128"
+        ]
+      ]
+    },
+    "sequenceEnd": 128,
+    "sequenceStart": 128,
+    "symbol": "SLERF-USDT",
+    "time": 1732273207528,
+    "time_data_received": "11:00:07.6261"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "129"
+        ]
+      ]
+    },
+    "sequenceEnd": 129,
+    "sequenceStart": 129,
+    "symbol": "SLERF-USDT",
+    "time": 1732273207558,
+    "time_data_received": "11:00:07.6263"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "130"
+        ]
+      ]
+    },
+    "sequenceEnd": 130,
+    "sequenceStart": 130,
+    "symbol": "SLERF-USDT",
+    "time": 1732273207572,
+    "time_data_received": "11:00:07.6265"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.252",
+          "0",
+          "131"
+        ]
+      ]
+    },
+    "sequenceEnd": 131,
+    "sequenceStart": 131,
+    "symbol": "SLERF-USDT",
+    "time": 1732273207645,
+    "time_data_received": "11:00:07.7425"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.37",
+          "3181.55",
+          "132"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 132,
+    "sequenceStart": 132,
+    "symbol": "SLERF-USDT",
+    "time": 1732273207814,
+    "time_data_received": "11:00:07.9779"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.338",
+          "147.92",
+          "133"
+        ]
+      ]
+    },
+    "sequenceEnd": 133,
+    "sequenceStart": 133,
+    "symbol": "SLERF-USDT",
+    "time": 1732273207939,
+    "time_data_received": "11:00:07.9782"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3601",
+          "0",
+          "134"
+        ]
+      ]
+    },
+    "sequenceEnd": 134,
+    "sequenceStart": 134,
+    "symbol": "SLERF-USDT",
+    "time": 1732273208141,
+    "time_data_received": "11:00:08.3018"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.363",
+          "135.72",
+          "135"
+        ]
+      ]
+    },
+    "sequenceEnd": 135,
+    "sequenceStart": 135,
+    "symbol": "SLERF-USDT",
+    "time": 1732273208171,
+    "time_data_received": "11:00:08.3021"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.344",
+          "145.34",
+          "136"
+        ]
+      ]
+    },
+    "sequenceEnd": 136,
+    "sequenceStart": 136,
+    "symbol": "SLERF-USDT",
+    "time": 1732273208174,
+    "time_data_received": "11:00:08.3027"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "137"
+        ]
+      ]
+    },
+    "sequenceEnd": 137,
+    "sequenceStart": 137,
+    "symbol": "SLERF-USDT",
+    "time": 1732273208247,
+    "time_data_received": "11:00:08.3028"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "138"
+        ]
+      ]
+    },
+    "sequenceEnd": 138,
+    "sequenceStart": 138,
+    "symbol": "SLERF-USDT",
+    "time": 1732273208257,
+    "time_data_received": "11:00:08.3029"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.38",
+          "1454.62",
+          "139"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 139,
+    "sequenceStart": 139,
+    "symbol": "SLERF-USDT",
+    "time": 1732273208274,
+    "time_data_received": "11:00:08.3527"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.133",
+          "1503.75",
+          "140"
+        ]
+      ]
+    },
+    "sequenceEnd": 140,
+    "sequenceStart": 140,
+    "symbol": "SLERF-USDT",
+    "time": 1732273208343,
+    "time_data_received": "11:00:08.3992"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.152",
+          "1315.78",
+          "141"
+        ]
+      ]
+    },
+    "sequenceEnd": 141,
+    "sequenceStart": 141,
+    "symbol": "SLERF-USDT",
+    "time": 1732273208386,
+    "time_data_received": "11:00:08.4195"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "142"
+        ]
+      ]
+    },
+    "sequenceEnd": 142,
+    "sequenceStart": 142,
+    "symbol": "SLERF-USDT",
+    "time": 1732273208430,
+    "time_data_received": "11:00:08.4668"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "143"
+        ]
+      ]
+    },
+    "sequenceEnd": 143,
+    "sequenceStart": 143,
+    "symbol": "SLERF-USDT",
+    "time": 1732273208432,
+    "time_data_received": "11:00:08.4670"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.342",
+          "146.19",
+          "144"
+        ]
+      ]
+    },
+    "sequenceEnd": 144,
+    "sequenceStart": 144,
+    "symbol": "SLERF-USDT",
+    "time": 1732273208786,
+    "time_data_received": "11:00:08.8206"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.096",
+          "0",
+          "145"
+        ]
+      ]
+    },
+    "sequenceEnd": 145,
+    "sequenceStart": 145,
+    "symbol": "SLERF-USDT",
+    "time": 1732273209058,
+    "time_data_received": "11:00:09.1233"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.044",
+          "0",
+          "146"
+        ]
+      ]
+    },
+    "sequenceEnd": 146,
+    "sequenceStart": 146,
+    "symbol": "SLERF-USDT",
+    "time": 1732273209059,
+    "time_data_received": "11:00:09.1236"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.104",
+          "0",
+          "147"
+        ]
+      ]
+    },
+    "sequenceEnd": 147,
+    "sequenceStart": 147,
+    "symbol": "SLERF-USDT",
+    "time": 1732273209073,
+    "time_data_received": "11:00:09.1238"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.084",
+          "0",
+          "148"
+        ]
+      ]
+    },
+    "sequenceEnd": 148,
+    "sequenceStart": 148,
+    "symbol": "SLERF-USDT",
+    "time": 1732273209091,
+    "time_data_received": "11:00:09.1269"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.052",
+          "0",
+          "149"
+        ]
+      ]
+    },
+    "sequenceEnd": 149,
+    "sequenceStart": 149,
+    "symbol": "SLERF-USDT",
+    "time": 1732273209160,
+    "time_data_received": "11:00:09.1945"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.345",
+          "72.46",
+          "150"
+        ]
+      ]
+    },
+    "sequenceEnd": 150,
+    "sequenceStart": 150,
+    "symbol": "SLERF-USDT",
+    "time": 1732273210043,
+    "time_data_received": "11:00:10.0767"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.37",
+          "7087.01",
+          "151"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 151,
+    "sequenceStart": 151,
+    "symbol": "SLERF-USDT",
+    "time": 1732273210248,
+    "time_data_received": "11:00:10.2818"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3898",
+          "0",
+          "152"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 152,
+    "sequenceStart": 152,
+    "symbol": "SLERF-USDT",
+    "time": 1732273210621,
+    "time_data_received": "11:00:10.6611"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.37",
+          "7024.85",
+          "153"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 153,
+    "sequenceStart": 153,
+    "symbol": "SLERF-USDT",
+    "time": 1732273210646,
+    "time_data_received": "11:00:10.6864"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.377",
+          "2748.92",
+          "154"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 154,
+    "sequenceStart": 154,
+    "symbol": "SLERF-USDT",
+    "time": 1732273211095,
+    "time_data_received": "11:00:11.1288"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.37",
+          "3119.39",
+          "155"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 155,
+    "sequenceStart": 155,
+    "symbol": "SLERF-USDT",
+    "time": 1732273212333,
+    "time_data_received": "11:00:12.3663"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.37",
+          "3830.89",
+          "156"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 156,
+    "sequenceStart": 156,
+    "symbol": "SLERF-USDT",
+    "time": 1732273212472,
+    "time_data_received": "11:00:12.5070"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3668",
+          "2657.24",
+          "158"
+        ]
+      ],
+      "bids": [
+        [
+          "0.3668",
+          "0",
+          "157"
+        ]
+      ]
+    },
+    "sequenceEnd": 158,
+    "sequenceStart": 157,
+    "symbol": "SLERF-USDT",
+    "time": 1732273212801,
+    "time_data_received": "11:00:12.8370"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.334",
+          "149.7",
+          "159"
+        ]
+      ]
+    },
+    "sequenceEnd": 159,
+    "sequenceStart": 159,
+    "symbol": "SLERF-USDT",
+    "time": 1732273212842,
+    "time_data_received": "11:00:12.8755"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.346",
+          "72.25",
+          "160"
+        ]
+      ]
+    },
+    "sequenceEnd": 160,
+    "sequenceStart": 160,
+    "symbol": "SLERF-USDT",
+    "time": 1732273212964,
+    "time_data_received": "11:00:12.9985"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.363",
+          "0",
+          "161"
+        ]
+      ]
+    },
+    "sequenceEnd": 161,
+    "sequenceStart": 161,
+    "symbol": "SLERF-USDT",
+    "time": 1732273213017,
+    "time_data_received": "11:00:13.0514"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3601",
+          "136.37",
+          "162"
+        ]
+      ]
+    },
+    "sequenceEnd": 162,
+    "sequenceStart": 162,
+    "symbol": "SLERF-USDT",
+    "time": 1732273213051,
+    "time_data_received": "11:00:13.0854"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3532",
+          "364.51",
+          "163"
+        ]
+      ]
+    },
+    "sequenceEnd": 163,
+    "sequenceStart": 163,
+    "symbol": "SLERF-USDT",
+    "time": 1732273213135,
+    "time_data_received": "11:00:13.1867"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.332",
+          "1355.41",
+          "164"
+        ]
+      ]
+    },
+    "sequenceEnd": 164,
+    "sequenceStart": 164,
+    "symbol": "SLERF-USDT",
+    "time": 1732273213566,
+    "time_data_received": "11:00:13.6008"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.332",
+          "1204.81",
+          "165"
+        ]
+      ]
+    },
+    "sequenceEnd": 165,
+    "sequenceStart": 165,
+    "symbol": "SLERF-USDT",
+    "time": 1732273213586,
+    "time_data_received": "11:00:13.6221"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3331",
+          "49.68",
+          "166"
+        ]
+      ]
+    },
+    "sequenceEnd": 166,
+    "sequenceStart": 166,
+    "symbol": "SLERF-USDT",
+    "time": 1732273214326,
+    "time_data_received": "11:00:14.3612"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3668",
+          "2591.71",
+          "167"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 167,
+    "sequenceStart": 167,
+    "symbol": "SLERF-USDT",
+    "time": 1732273215346,
+    "time_data_received": "11:00:15.3811"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.22",
+          "4190.49",
+          "168"
+        ]
+      ]
+    },
+    "sequenceEnd": 168,
+    "sequenceStart": 168,
+    "symbol": "SLERF-USDT",
+    "time": 1732273215433,
+    "time_data_received": "11:00:15.4670"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.377",
+          "0",
+          "169"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 169,
+    "sequenceStart": 169,
+    "symbol": "SLERF-USDT",
+    "time": 1732273216224,
+    "time_data_received": "11:00:16.2585"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3601",
+          "0",
+          "170"
+        ]
+      ]
+    },
+    "sequenceEnd": 170,
+    "sequenceStart": 170,
+    "symbol": "SLERF-USDT",
+    "time": 1732273216321,
+    "time_data_received": "11:00:16.3551"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.314",
+          "159.23",
+          "171"
+        ]
+      ]
+    },
+    "sequenceEnd": 171,
+    "sequenceStart": 171,
+    "symbol": "SLERF-USDT",
+    "time": 1732273216323,
+    "time_data_received": "11:00:16.3572"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3627",
+          "136.37",
+          "172"
+        ]
+      ]
+    },
+    "sequenceEnd": 172,
+    "sequenceStart": 172,
+    "symbol": "SLERF-USDT",
+    "time": 1732273216356,
+    "time_data_received": "11:00:16.3899"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.316",
+          "158.22",
+          "173"
+        ]
+      ]
+    },
+    "sequenceEnd": 173,
+    "sequenceStart": 173,
+    "symbol": "SLERF-USDT",
+    "time": 1732273216535,
+    "time_data_received": "11:00:16.5699"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3668",
+          "6497.17",
+          "174"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 174,
+    "sequenceStart": 174,
+    "symbol": "SLERF-USDT",
+    "time": 1732273216611,
+    "time_data_received": "11:00:16.6445"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3655",
+          "1800.66",
+          "176"
+        ]
+      ],
+      "bids": [
+        [
+          "0.3665",
+          "0",
+          "175"
+        ]
+      ]
+    },
+    "sequenceEnd": 176,
+    "sequenceStart": 175,
+    "symbol": "SLERF-USDT",
+    "time": 1732273216764,
+    "time_data_received": "11:00:16.8206"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3626",
+          "52219.39",
+          "180"
+        ]
+      ],
+      "bids": [
+        [
+          "0.3626",
+          "0",
+          "179"
+        ],
+        [
+          "0.3627",
+          "0",
+          "178"
+        ],
+        [
+          "0.3629",
+          "0",
+          "177"
+        ]
+      ]
+    },
+    "sequenceEnd": 180,
+    "sequenceStart": 177,
+    "symbol": "SLERF-USDT",
+    "time": 1732273216764,
+    "time_data_received": "11:00:16.8215"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3644",
+          "3089.79",
+          "182"
+        ],
+        [
+          "0.3666",
+          "1326.52",
+          "181"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 182,
+    "sequenceStart": 181,
+    "symbol": "SLERF-USDT",
+    "time": 1732273216764,
+    "time_data_received": "11:00:16.8217"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3637",
+          "4349.07",
+          "183"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 183,
+    "sequenceStart": 183,
+    "symbol": "SLERF-USDT",
+    "time": 1732273216764,
+    "time_data_received": "11:00:16.8219"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3665",
+          "2756.65",
+          "184"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 184,
+    "sequenceStart": 184,
+    "symbol": "SLERF-USDT",
+    "time": 1732273216833,
+    "time_data_received": "11:00:16.8890"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.318",
+          "157.23",
+          "185"
+        ]
+      ]
+    },
+    "sequenceEnd": 185,
+    "sequenceStart": 185,
+    "symbol": "SLERF-USDT",
+    "time": 1732273216861,
+    "time_data_received": "11:00:16.9126"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3673",
+          "136.37",
+          "186"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 186,
+    "sequenceStart": 186,
+    "symbol": "SLERF-USDT",
+    "time": 1732273216879,
+    "time_data_received": "11:00:16.9252"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "187"
+        ]
+      ]
+    },
+    "sequenceEnd": 187,
+    "sequenceStart": 187,
+    "symbol": "SLERF-USDT",
+    "time": 1732273216888,
+    "time_data_received": "11:00:16.9256"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "188"
+        ]
+      ]
+    },
+    "sequenceEnd": 188,
+    "sequenceStart": 188,
+    "symbol": "SLERF-USDT",
+    "time": 1732273216891,
+    "time_data_received": "11:00:16.9586"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3533",
+          "2.02",
+          "189"
+        ]
+      ]
+    },
+    "sequenceEnd": 189,
+    "sequenceStart": 189,
+    "symbol": "SLERF-USDT",
+    "time": 1732273216918,
+    "time_data_received": "11:00:16.9591"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "190"
+        ]
+      ]
+    },
+    "sequenceEnd": 190,
+    "sequenceStart": 190,
+    "symbol": "SLERF-USDT",
+    "time": 1732273217043,
+    "time_data_received": "11:00:17.0768"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "191"
+        ]
+      ]
+    },
+    "sequenceEnd": 191,
+    "sequenceStart": 191,
+    "symbol": "SLERF-USDT",
+    "time": 1732273217058,
+    "time_data_received": "11:00:17.0923"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.32",
+          "156.25",
+          "192"
+        ]
+      ]
+    },
+    "sequenceEnd": 192,
+    "sequenceStart": 192,
+    "symbol": "SLERF-USDT",
+    "time": 1732273217133,
+    "time_data_received": "11:00:17.1665"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.322",
+          "155.27",
+          "193"
+        ]
+      ]
+    },
+    "sequenceEnd": 193,
+    "sequenceStart": 193,
+    "symbol": "SLERF-USDT",
+    "time": 1732273217477,
+    "time_data_received": "11:00:17.5103"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.342",
+          "219.28",
+          "194"
+        ]
+      ]
+    },
+    "sequenceEnd": 194,
+    "sequenceStart": 194,
+    "symbol": "SLERF-USDT",
+    "time": 1732273217486,
+    "time_data_received": "11:00:17.5210"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3673",
+          "0",
+          "195"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 195,
+    "sequenceStart": 195,
+    "symbol": "SLERF-USDT",
+    "time": 1732273217579,
+    "time_data_received": "11:00:17.6129"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3658",
+          "136.37",
+          "196"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 196,
+    "sequenceStart": 196,
+    "symbol": "SLERF-USDT",
+    "time": 1732273217613,
+    "time_data_received": "11:00:17.6466"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3573",
+          "1882.33",
+          "197"
+        ]
+      ]
+    },
+    "sequenceEnd": 197,
+    "sequenceStart": 197,
+    "symbol": "SLERF-USDT",
+    "time": 1732273217942,
+    "time_data_received": "11:00:17.9764"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.324",
+          "154.32",
+          "198"
+        ]
+      ]
+    },
+    "sequenceEnd": 198,
+    "sequenceStart": 198,
+    "symbol": "SLERF-USDT",
+    "time": 1732273217981,
+    "time_data_received": "11:00:18.0148"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3658",
+          "0",
+          "199"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 199,
+    "sequenceStart": 199,
+    "symbol": "SLERF-USDT",
+    "time": 1732273218091,
+    "time_data_received": "11:00:18.1252"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3588",
+          "125.64",
+          "200"
+        ]
+      ]
+    },
+    "sequenceEnd": 200,
+    "sequenceStart": 200,
+    "symbol": "SLERF-USDT",
+    "time": 1732273218094,
+    "time_data_received": "11:00:18.1277"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3573",
+          "0",
+          "201"
+        ]
+      ]
+    },
+    "sequenceEnd": 201,
+    "sequenceStart": 201,
+    "symbol": "SLERF-USDT",
+    "time": 1732273218097,
+    "time_data_received": "11:00:18.1300"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3647",
+          "136.37",
+          "202"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 202,
+    "sequenceStart": 202,
+    "symbol": "SLERF-USDT",
+    "time": 1732273218121,
+    "time_data_received": "11:00:18.1547"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3585",
+          "685.14",
+          "203"
+        ]
+      ]
+    },
+    "sequenceEnd": 203,
+    "sequenceStart": 203,
+    "symbol": "SLERF-USDT",
+    "time": 1732273218141,
+    "time_data_received": "11:00:18.1754"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3533",
+          "0",
+          "204"
+        ]
+      ]
+    },
+    "sequenceEnd": 204,
+    "sequenceStart": 204,
+    "symbol": "SLERF-USDT",
+    "time": 1732273218170,
+    "time_data_received": "11:00:18.2047"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3574",
+          "2.02",
+          "205"
+        ]
+      ]
+    },
+    "sequenceEnd": 205,
+    "sequenceStart": 205,
+    "symbol": "SLERF-USDT",
+    "time": 1732273218204,
+    "time_data_received": "11:00:18.2387"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.368",
+          "1372.74",
+          "206"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 206,
+    "sequenceStart": 206,
+    "symbol": "SLERF-USDT",
+    "time": 1732273218217,
+    "time_data_received": "11:00:18.2516"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.326",
+          "153.37",
+          "207"
+        ]
+      ]
+    },
+    "sequenceEnd": 207,
+    "sequenceStart": 207,
+    "symbol": "SLERF-USDT",
+    "time": 1732273218356,
+    "time_data_received": "11:00:18.3906"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.37",
+          "711.5",
+          "208"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 208,
+    "sequenceStart": 208,
+    "symbol": "SLERF-USDT",
+    "time": 1732273218496,
+    "time_data_received": "11:00:18.6202"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.328",
+          "152.43",
+          "209"
+        ]
+      ]
+    },
+    "sequenceEnd": 209,
+    "sequenceStart": 209,
+    "symbol": "SLERF-USDT",
+    "time": 1732273218597,
+    "time_data_received": "11:00:18.7268"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3647",
+          "0",
+          "210"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 210,
+    "sequenceStart": 210,
+    "symbol": "SLERF-USDT",
+    "time": 1732273218634,
+    "time_data_received": "11:00:18.7276"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.364",
+          "136.37",
+          "211"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 211,
+    "sequenceStart": 211,
+    "symbol": "SLERF-USDT",
+    "time": 1732273218667,
+    "time_data_received": "11:00:18.7280"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3574",
+          "0",
+          "212"
+        ]
+      ]
+    },
+    "sequenceEnd": 212,
+    "sequenceStart": 212,
+    "symbol": "SLERF-USDT",
+    "time": 1732273218701,
+    "time_data_received": "11:00:18.7837"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3626",
+          "52216.76",
+          "213"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 213,
+    "sequenceStart": 213,
+    "symbol": "SLERF-USDT",
+    "time": 1732273218711,
+    "time_data_received": "11:00:18.7840"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3589",
+          "2.02",
+          "214"
+        ]
+      ]
+    },
+    "sequenceEnd": 214,
+    "sequenceStart": 214,
+    "symbol": "SLERF-USDT",
+    "time": 1732273218729,
+    "time_data_received": "11:00:18.7847"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3584",
+          "902.4",
+          "215"
+        ]
+      ]
+    },
+    "sequenceEnd": 215,
+    "sequenceStart": 215,
+    "symbol": "SLERF-USDT",
+    "time": 1732273219135,
+    "time_data_received": "11:00:19.1687"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3668",
+          "2591.71",
+          "216"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 216,
+    "sequenceStart": 216,
+    "symbol": "SLERF-USDT",
+    "time": 1732273219271,
+    "time_data_received": "11:00:19.3047"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.364",
+          "0",
+          "217"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 217,
+    "sequenceStart": 217,
+    "symbol": "SLERF-USDT",
+    "time": 1732273219295,
+    "time_data_received": "11:00:19.3298"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3635",
+          "136.37",
+          "218"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 218,
+    "sequenceStart": 218,
+    "symbol": "SLERF-USDT",
+    "time": 1732273219330,
+    "time_data_received": "11:00:19.3820"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.22",
+          "3874",
+          "219"
+        ]
+      ]
+    },
+    "sequenceEnd": 219,
+    "sequenceStart": 219,
+    "symbol": "SLERF-USDT",
+    "time": 1732273219344,
+    "time_data_received": "11:00:19.3822"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.343",
+          "87.46",
+          "220"
+        ]
+      ]
+    },
+    "sequenceEnd": 220,
+    "sequenceStart": 220,
+    "symbol": "SLERF-USDT",
+    "time": 1732273219427,
+    "time_data_received": "11:00:19.4617"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.0015",
+          "0",
+          "221"
+        ]
+      ]
+    },
+    "sequenceEnd": 221,
+    "sequenceStart": 221,
+    "symbol": "SLERF-USDT",
+    "time": 1732273219948,
+    "time_data_received": "11:00:19.9819"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3635",
+          "0",
+          "222"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 222,
+    "sequenceStart": 222,
+    "symbol": "SLERF-USDT",
+    "time": 1732273220070,
+    "time_data_received": "11:00:20.1042"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3632",
+          "136.37",
+          "223"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 223,
+    "sequenceStart": 223,
+    "symbol": "SLERF-USDT",
+    "time": 1732273220103,
+    "time_data_received": "11:00:20.1372"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3525",
+          "549.6",
+          "224"
+        ]
+      ]
+    },
+    "sequenceEnd": 224,
+    "sequenceStart": 224,
+    "symbol": "SLERF-USDT",
+    "time": 1732273220443,
+    "time_data_received": "11:00:20.4851"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3632",
+          "0",
+          "225"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 225,
+    "sequenceStart": 225,
+    "symbol": "SLERF-USDT",
+    "time": 1732273220588,
+    "time_data_received": "11:00:20.6222"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.363",
+          "136.37",
+          "226"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 226,
+    "sequenceStart": 226,
+    "symbol": "SLERF-USDT",
+    "time": 1732273220622,
+    "time_data_received": "11:00:20.6570"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3579",
+          "206.76",
+          "227"
+        ]
+      ]
+    },
+    "sequenceEnd": 227,
+    "sequenceStart": 227,
+    "symbol": "SLERF-USDT",
+    "time": 1732273221231,
+    "time_data_received": "11:00:21.2770"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.366",
+          "2748.92",
+          "228"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 228,
+    "sequenceStart": 228,
+    "symbol": "SLERF-USDT",
+    "time": 1732273221370,
+    "time_data_received": "11:00:21.4044"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.363",
+          "0",
+          "229"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 229,
+    "sequenceStart": 229,
+    "symbol": "SLERF-USDT",
+    "time": 1732273221370,
+    "time_data_received": "11:00:21.4048"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3629",
+          "136.37",
+          "230"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 230,
+    "sequenceStart": 230,
+    "symbol": "SLERF-USDT",
+    "time": 1732273221398,
+    "time_data_received": "11:00:21.4323"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3589",
+          "0",
+          "231"
+        ]
+      ]
+    },
+    "sequenceEnd": 231,
+    "sequenceStart": 231,
+    "symbol": "SLERF-USDT",
+    "time": 1732273221430,
+    "time_data_received": "11:00:21.4641"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3574",
+          "698.79",
+          "232"
+        ]
+      ]
+    },
+    "sequenceEnd": 232,
+    "sequenceStart": 232,
+    "symbol": "SLERF-USDT",
+    "time": 1732273221448,
+    "time_data_received": "11:00:21.4824"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3601",
+          "2.02",
+          "233"
+        ]
+      ]
+    },
+    "sequenceEnd": 233,
+    "sequenceStart": 233,
+    "symbol": "SLERF-USDT",
+    "time": 1732273221463,
+    "time_data_received": "11:00:21.5032"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3564",
+          "1302.4",
+          "234"
+        ]
+      ]
+    },
+    "sequenceEnd": 234,
+    "sequenceStart": 234,
+    "symbol": "SLERF-USDT",
+    "time": 1732273221488,
+    "time_data_received": "11:00:21.5218"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1",
+          "50186.89",
+          "235"
+        ]
+      ]
+    },
+    "sequenceEnd": 235,
+    "sequenceStart": 235,
+    "symbol": "SLERF-USDT",
+    "time": 1732273221498,
+    "time_data_received": "11:00:21.5318"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3",
+          "917.5",
+          "236"
+        ]
+      ]
+    },
+    "sequenceEnd": 236,
+    "sequenceStart": 236,
+    "symbol": "SLERF-USDT",
+    "time": 1732273221601,
+    "time_data_received": "11:00:21.6350"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.05",
+          "500",
+          "237"
+        ]
+      ]
+    },
+    "sequenceEnd": 237,
+    "sequenceStart": 237,
+    "symbol": "SLERF-USDT",
+    "time": 1732273221678,
+    "time_data_received": "11:00:21.7132"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3564",
+          "0",
+          "238"
+        ]
+      ]
+    },
+    "sequenceEnd": 238,
+    "sequenceStart": 238,
+    "symbol": "SLERF-USDT",
+    "time": 1732273221712,
+    "time_data_received": "11:00:21.7460"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3574",
+          "0",
+          "239"
+        ]
+      ]
+    },
+    "sequenceEnd": 239,
+    "sequenceStart": 239,
+    "symbol": "SLERF-USDT",
+    "time": 1732273221753,
+    "time_data_received": "11:00:21.7875"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3585",
+          "0",
+          "240"
+        ]
+      ]
+    },
+    "sequenceEnd": 240,
+    "sequenceStart": 240,
+    "symbol": "SLERF-USDT",
+    "time": 1732273221945,
+    "time_data_received": "11:00:21.9808"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3584",
+          "0",
+          "241"
+        ]
+      ]
+    },
+    "sequenceEnd": 241,
+    "sequenceStart": 241,
+    "symbol": "SLERF-USDT",
+    "time": 1732273221946,
+    "time_data_received": "11:00:21.9819"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3579",
+          "0",
+          "242"
+        ]
+      ]
+    },
+    "sequenceEnd": 242,
+    "sequenceStart": 242,
+    "symbol": "SLERF-USDT",
+    "time": 1732273222008,
+    "time_data_received": "11:00:22.0425"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3629",
+          "0",
+          "243"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 243,
+    "sequenceStart": 243,
+    "symbol": "SLERF-USDT",
+    "time": 1732273222053,
+    "time_data_received": "11:00:22.0865"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3628",
+          "136.37",
+          "244"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 244,
+    "sequenceStart": 244,
+    "symbol": "SLERF-USDT",
+    "time": 1732273222079,
+    "time_data_received": "11:00:22.1133"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3584",
+          "806.91",
+          "245"
+        ]
+      ]
+    },
+    "sequenceEnd": 245,
+    "sequenceStart": 245,
+    "symbol": "SLERF-USDT",
+    "time": 1732273222153,
+    "time_data_received": "11:00:22.1870"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.316",
+          "1424.04",
+          "246"
+        ]
+      ]
+    },
+    "sequenceEnd": 246,
+    "sequenceStart": 246,
+    "symbol": "SLERF-USDT",
+    "time": 1732273222437,
+    "time_data_received": "11:00:22.4715"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3564",
+          "997.54",
+          "247"
+        ]
+      ]
+    },
+    "sequenceEnd": 247,
+    "sequenceStart": 247,
+    "symbol": "SLERF-USDT",
+    "time": 1732273222487,
+    "time_data_received": "11:00:22.5211"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3584",
+          "0",
+          "248"
+        ]
+      ]
+    },
+    "sequenceEnd": 248,
+    "sequenceStart": 248,
+    "symbol": "SLERF-USDT",
+    "time": 1732273222488,
+    "time_data_received": "11:00:22.5223"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3564",
+          "0",
+          "249"
+        ]
+      ]
+    },
+    "sequenceEnd": 249,
+    "sequenceStart": 249,
+    "symbol": "SLERF-USDT",
+    "time": 1732273222534,
+    "time_data_received": "11:00:22.5681"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3628",
+          "0",
+          "250"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 250,
+    "sequenceStart": 250,
+    "symbol": "SLERF-USDT",
+    "time": 1732273222582,
+    "time_data_received": "11:00:22.6154"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.318",
+          "0",
+          "251"
+        ]
+      ]
+    },
+    "sequenceEnd": 251,
+    "sequenceStart": 251,
+    "symbol": "SLERF-USDT",
+    "time": 1732273222600,
+    "time_data_received": "11:00:22.6343"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3627",
+          "136.37",
+          "252"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 252,
+    "sequenceStart": 252,
+    "symbol": "SLERF-USDT",
+    "time": 1732273222609,
+    "time_data_received": "11:00:22.6437"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.34",
+          "30",
+          "253"
+        ]
+      ]
+    },
+    "sequenceEnd": 253,
+    "sequenceStart": 253,
+    "symbol": "SLERF-USDT",
+    "time": 1732273222610,
+    "time_data_received": "11:00:22.6440"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.336",
+          "148.8",
+          "254"
+        ]
+      ]
+    },
+    "sequenceEnd": 254,
+    "sequenceStart": 254,
+    "symbol": "SLERF-USDT",
+    "time": 1732273222614,
+    "time_data_received": "11:00:22.6486"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.338",
+          "0",
+          "255"
+        ]
+      ]
+    },
+    "sequenceEnd": 255,
+    "sequenceStart": 255,
+    "symbol": "SLERF-USDT",
+    "time": 1732273222622,
+    "time_data_received": "11:00:22.6559"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.342",
+          "73.09",
+          "256"
+        ]
+      ]
+    },
+    "sequenceEnd": 256,
+    "sequenceStart": 256,
+    "symbol": "SLERF-USDT",
+    "time": 1732273222624,
+    "time_data_received": "11:00:22.6574"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.316",
+          "1265.82",
+          "257"
+        ]
+      ]
+    },
+    "sequenceEnd": 257,
+    "sequenceStart": 257,
+    "symbol": "SLERF-USDT",
+    "time": 1732273222624,
+    "time_data_received": "11:00:22.6585"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.322",
+          "0",
+          "258"
+        ]
+      ]
+    },
+    "sequenceEnd": 258,
+    "sequenceStart": 258,
+    "symbol": "SLERF-USDT",
+    "time": 1732273222624,
+    "time_data_received": "11:00:22.6593"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.326",
+          "0",
+          "259"
+        ]
+      ]
+    },
+    "sequenceEnd": 259,
+    "sequenceStart": 259,
+    "symbol": "SLERF-USDT",
+    "time": 1732273222626,
+    "time_data_received": "11:00:22.6594"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.336",
+          "0",
+          "260"
+        ]
+      ]
+    },
+    "sequenceEnd": 260,
+    "sequenceStart": 260,
+    "symbol": "SLERF-USDT",
+    "time": 1732273222628,
+    "time_data_received": "11:00:22.6620"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.334",
+          "0",
+          "261"
+        ]
+      ]
+    },
+    "sequenceEnd": 261,
+    "sequenceStart": 261,
+    "symbol": "SLERF-USDT",
+    "time": 1732273222633,
+    "time_data_received": "11:00:22.6673"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.324",
+          "0",
+          "262"
+        ]
+      ]
+    },
+    "sequenceEnd": 262,
+    "sequenceStart": 262,
+    "symbol": "SLERF-USDT",
+    "time": 1732273222637,
+    "time_data_received": "11:00:22.6704"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.328",
+          "0",
+          "263"
+        ]
+      ]
+    },
+    "sequenceEnd": 263,
+    "sequenceStart": 263,
+    "symbol": "SLERF-USDT",
+    "time": 1732273222644,
+    "time_data_received": "11:00:22.6804"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.32",
+          "0",
+          "264"
+        ]
+      ]
+    },
+    "sequenceEnd": 264,
+    "sequenceStart": 264,
+    "symbol": "SLERF-USDT",
+    "time": 1732273222646,
+    "time_data_received": "11:00:22.6806"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.344",
+          "0",
+          "265"
+        ]
+      ]
+    },
+    "sequenceEnd": 265,
+    "sequenceStart": 265,
+    "symbol": "SLERF-USDT",
+    "time": 1732273222655,
+    "time_data_received": "11:00:22.6892"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.314",
+          "0",
+          "266"
+        ]
+      ]
+    },
+    "sequenceEnd": 266,
+    "sequenceStart": 266,
+    "symbol": "SLERF-USDT",
+    "time": 1732273222657,
+    "time_data_received": "11:00:22.6904"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.334",
+          "149.7",
+          "267"
+        ]
+      ]
+    },
+    "sequenceEnd": 267,
+    "sequenceStart": 267,
+    "symbol": "SLERF-USDT",
+    "time": 1732273223572,
+    "time_data_received": "11:00:23.6144"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3627",
+          "0",
+          "268"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 268,
+    "sequenceStart": 268,
+    "symbol": "SLERF-USDT",
+    "time": 1732273223686,
+    "time_data_received": "11:00:23.7197"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.343",
+          "0",
+          "269"
+        ]
+      ]
+    },
+    "sequenceEnd": 269,
+    "sequenceStart": 269,
+    "symbol": "SLERF-USDT",
+    "time": 1732273223698,
+    "time_data_received": "11:00:23.7327"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3625",
+          "136.37",
+          "270"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 270,
+    "sequenceStart": 270,
+    "symbol": "SLERF-USDT",
+    "time": 1732273223714,
+    "time_data_received": "11:00:23.7601"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.336",
+          "148.8",
+          "271"
+        ]
+      ]
+    },
+    "sequenceEnd": 271,
+    "sequenceStart": 271,
+    "symbol": "SLERF-USDT",
+    "time": 1732273223841,
+    "time_data_received": "11:00:23.8751"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.336",
+          "238.08",
+          "272"
+        ]
+      ]
+    },
+    "sequenceEnd": 272,
+    "sequenceStart": 272,
+    "symbol": "SLERF-USDT",
+    "time": 1732273223931,
+    "time_data_received": "11:00:23.9654"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.34",
+          "177.05",
+          "273"
+        ]
+      ]
+    },
+    "sequenceEnd": 273,
+    "sequenceStart": 273,
+    "symbol": "SLERF-USDT",
+    "time": 1732273224049,
+    "time_data_received": "11:00:24.0832"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3798",
+          "0",
+          "274"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 274,
+    "sequenceStart": 274,
+    "symbol": "SLERF-USDT",
+    "time": 1732273224207,
+    "time_data_received": "11:00:24.2453"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3668",
+          "0",
+          "275"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 275,
+    "sequenceStart": 275,
+    "symbol": "SLERF-USDT",
+    "time": 1732273224338,
+    "time_data_received": "11:00:24.3710"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3288",
+          "24.33",
+          "276"
+        ]
+      ]
+    },
+    "sequenceEnd": 276,
+    "sequenceStart": 276,
+    "symbol": "SLERF-USDT",
+    "time": 1732273224415,
+    "time_data_received": "11:00:24.4496"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.35",
+          "50",
+          "277"
+        ]
+      ]
+    },
+    "sequenceEnd": 277,
+    "sequenceStart": 277,
+    "symbol": "SLERF-USDT",
+    "time": 1732273224471,
+    "time_data_received": "11:00:24.5072"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.338",
+          "147.92",
+          "278"
+        ]
+      ]
+    },
+    "sequenceEnd": 278,
+    "sequenceStart": 278,
+    "symbol": "SLERF-USDT",
+    "time": 1732273224944,
+    "time_data_received": "11:00:24.9781"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3601",
+          "3903.44",
+          "280"
+        ]
+      ],
+      "bids": [
+        [
+          "0.3601",
+          "0",
+          "279"
+        ]
+      ]
+    },
+    "sequenceEnd": 280,
+    "sequenceStart": 279,
+    "symbol": "SLERF-USDT",
+    "time": 1732273224956,
+    "time_data_received": "11:00:24.9915"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3601",
+          "3628.51",
+          "281"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 281,
+    "sequenceStart": 281,
+    "symbol": "SLERF-USDT",
+    "time": 1732273224981,
+    "time_data_received": "11:00:25.0164"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3601",
+          "3337.41",
+          "282"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 282,
+    "sequenceStart": 282,
+    "symbol": "SLERF-USDT",
+    "time": 1732273224983,
+    "time_data_received": "11:00:25.0173"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3601",
+          "3243.42",
+          "283"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 283,
+    "sequenceStart": 283,
+    "symbol": "SLERF-USDT",
+    "time": 1732273224983,
+    "time_data_received": "11:00:25.0183"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3601",
+          "2956.53",
+          "284"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 284,
+    "sequenceStart": 284,
+    "symbol": "SLERF-USDT",
+    "time": 1732273224983,
+    "time_data_received": "11:00:25.0185"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3601",
+          "2911.19",
+          "285"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 285,
+    "sequenceStart": 285,
+    "symbol": "SLERF-USDT",
+    "time": 1732273224986,
+    "time_data_received": "11:00:25.0191"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3601",
+          "2797.36",
+          "286"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 286,
+    "sequenceStart": 286,
+    "symbol": "SLERF-USDT",
+    "time": 1732273224986,
+    "time_data_received": "11:00:25.0197"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3601",
+          "2669.76",
+          "287"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 287,
+    "sequenceStart": 287,
+    "symbol": "SLERF-USDT",
+    "time": 1732273224986,
+    "time_data_received": "11:00:25.0199"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3601",
+          "2086.05",
+          "288"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 288,
+    "sequenceStart": 288,
+    "symbol": "SLERF-USDT",
+    "time": 1732273224989,
+    "time_data_received": "11:00:25.0229"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3601",
+          "2020.52",
+          "289"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 289,
+    "sequenceStart": 289,
+    "symbol": "SLERF-USDT",
+    "time": 1732273224992,
+    "time_data_received": "11:00:25.0257"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3601",
+          "1970.71",
+          "290"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 290,
+    "sequenceStart": 290,
+    "symbol": "SLERF-USDT",
+    "time": 1732273224992,
+    "time_data_received": "11:00:25.0259"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3601",
+          "1134.92",
+          "291"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 291,
+    "sequenceStart": 291,
+    "symbol": "SLERF-USDT",
+    "time": 1732273224994,
+    "time_data_received": "11:00:25.0291"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3601",
+          "843.82",
+          "292"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 292,
+    "sequenceStart": 292,
+    "symbol": "SLERF-USDT",
+    "time": 1732273224996,
+    "time_data_received": "11:00:25.0308"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3601",
+          "594.72",
+          "293"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 293,
+    "sequenceStart": 293,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225007,
+    "time_data_received": "11:00:25.0410"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3601",
+          "509.78",
+          "295"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 295,
+    "sequenceStart": 294,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225007,
+    "time_data_received": "11:00:25.0420"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3601",
+          "477.5",
+          "296"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 296,
+    "sequenceStart": 296,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225007,
+    "time_data_received": "11:00:25.0422"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3601",
+          "186.4",
+          "297"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 297,
+    "sequenceStart": 297,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225010,
+    "time_data_received": "11:00:25.0454"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3601",
+          "45.65",
+          "298"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 298,
+    "sequenceStart": 298,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225010,
+    "time_data_received": "11:00:25.0456"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3601",
+          "0",
+          "299"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 299,
+    "sequenceStart": 299,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225010,
+    "time_data_received": "11:00:25.0461"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3625",
+          "0",
+          "300"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 300,
+    "sequenceStart": 300,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225015,
+    "time_data_received": "11:00:25.0495"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3626",
+          "52178",
+          "301"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 301,
+    "sequenceStart": 301,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225022,
+    "time_data_received": "11:00:25.0549"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3626",
+          "52018.41",
+          "302"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 302,
+    "sequenceStart": 302,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225031,
+    "time_data_received": "11:00:25.0655"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "303"
+        ]
+      ]
+    },
+    "sequenceEnd": 303,
+    "sequenceStart": 303,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225038,
+    "time_data_received": "11:00:25.0734"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3626",
+          "52156.8",
+          "304"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 304,
+    "sequenceStart": 304,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225050,
+    "time_data_received": "11:00:25.0858"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "305"
+        ]
+      ]
+    },
+    "sequenceEnd": 305,
+    "sequenceStart": 305,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225088,
+    "time_data_received": "11:00:25.1214"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3288",
+          "0",
+          "306"
+        ]
+      ]
+    },
+    "sequenceEnd": 306,
+    "sequenceStart": 306,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225136,
+    "time_data_received": "11:00:25.1702"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "307"
+        ]
+      ]
+    },
+    "sequenceEnd": 307,
+    "sequenceStart": 307,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225188,
+    "time_data_received": "11:00:25.2217"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "308"
+        ]
+      ]
+    },
+    "sequenceEnd": 308,
+    "sequenceStart": 308,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225240,
+    "time_data_received": "11:00:25.2743"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.2",
+          "1125",
+          "309"
+        ]
+      ]
+    },
+    "sequenceEnd": 309,
+    "sequenceStart": 309,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225503,
+    "time_data_received": "11:00:25.5361"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3601",
+          "1268.89",
+          "310"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 310,
+    "sequenceStart": 310,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225578,
+    "time_data_received": "11:00:25.6143"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3601",
+          "951.47",
+          "311"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 311,
+    "sequenceStart": 311,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225608,
+    "time_data_received": "11:00:25.6418"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3601",
+          "841.81",
+          "312"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 312,
+    "sequenceStart": 312,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225610,
+    "time_data_received": "11:00:25.6431"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3626",
+          "52018.41",
+          "313"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 313,
+    "sequenceStart": 313,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225623,
+    "time_data_received": "11:00:25.6594"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "314"
+        ]
+      ]
+    },
+    "sequenceEnd": 314,
+    "sequenceStart": 314,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225636,
+    "time_data_received": "11:00:25.6699"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "315"
+        ]
+      ]
+    },
+    "sequenceEnd": 315,
+    "sequenceStart": 315,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225638,
+    "time_data_received": "11:00:25.6728"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3601",
+          "669.19",
+          "316"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 316,
+    "sequenceStart": 316,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225652,
+    "time_data_received": "11:00:25.6863"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.342",
+          "219.28",
+          "317"
+        ]
+      ]
+    },
+    "sequenceEnd": 317,
+    "sequenceStart": 317,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225656,
+    "time_data_received": "11:00:25.6894"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3618",
+          "138.39",
+          "318"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 318,
+    "sequenceStart": 318,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225661,
+    "time_data_received": "11:00:25.6971"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3601",
+          "640.71",
+          "319"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 319,
+    "sequenceStart": 319,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225662,
+    "time_data_received": "11:00:25.6974"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3601",
+          "586.56",
+          "320"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 320,
+    "sequenceStart": 320,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225676,
+    "time_data_received": "11:00:25.7105"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.38",
+          "0",
+          "321"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 321,
+    "sequenceStart": 321,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225679,
+    "time_data_received": "11:00:25.7129"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3525",
+          "0",
+          "322"
+        ]
+      ]
+    },
+    "sequenceEnd": 322,
+    "sequenceStart": 322,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225684,
+    "time_data_received": "11:00:25.7194"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3601",
+          "500.36",
+          "323"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 323,
+    "sequenceStart": 323,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225703,
+    "time_data_received": "11:00:25.7373"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3601",
+          "471.88",
+          "324"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 324,
+    "sequenceStart": 324,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225704,
+    "time_data_received": "11:00:25.7377"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3601",
+          "317.77",
+          "325"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 325,
+    "sequenceStart": 325,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225713,
+    "time_data_received": "11:00:25.7468"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "326"
+        ]
+      ]
+    },
+    "sequenceEnd": 326,
+    "sequenceStart": 326,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225818,
+    "time_data_received": "11:00:25.9160"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "327"
+        ]
+      ]
+    },
+    "sequenceEnd": 327,
+    "sequenceStart": 327,
+    "symbol": "SLERF-USDT",
+    "time": 1732273225829,
+    "time_data_received": "11:00:25.9162"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3601",
+          "262.3",
+          "328"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 328,
+    "sequenceStart": 328,
+    "symbol": "SLERF-USDT",
+    "time": 1732273226121,
+    "time_data_received": "11:00:26.1549"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3601",
+          "206.83",
+          "329"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 329,
+    "sequenceStart": 329,
+    "symbol": "SLERF-USDT",
+    "time": 1732273226142,
+    "time_data_received": "11:00:26.1769"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3618",
+          "0",
+          "330"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 330,
+    "sequenceStart": 330,
+    "symbol": "SLERF-USDT",
+    "time": 1732273226167,
+    "time_data_received": "11:00:26.2031"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3626",
+          "0",
+          "331"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 331,
+    "sequenceStart": 331,
+    "symbol": "SLERF-USDT",
+    "time": 1732273226175,
+    "time_data_received": "11:00:26.2121"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3637",
+          "0",
+          "332"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 332,
+    "sequenceStart": 332,
+    "symbol": "SLERF-USDT",
+    "time": 1732273226177,
+    "time_data_received": "11:00:26.2124"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3612",
+          "138.39",
+          "333"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 333,
+    "sequenceStart": 333,
+    "symbol": "SLERF-USDT",
+    "time": 1732273226203,
+    "time_data_received": "11:00:26.2372"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3629",
+          "17849.63",
+          "334"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 334,
+    "sequenceStart": 334,
+    "symbol": "SLERF-USDT",
+    "time": 1732273226204,
+    "time_data_received": "11:00:26.2376"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3618",
+          "40291.45",
+          "335"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 335,
+    "sequenceStart": 335,
+    "symbol": "SLERF-USDT",
+    "time": 1732273226206,
+    "time_data_received": "11:00:26.2399"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3588",
+          "0",
+          "336"
+        ]
+      ]
+    },
+    "sequenceEnd": 336,
+    "sequenceStart": 336,
+    "symbol": "SLERF-USDT",
+    "time": 1732273226208,
+    "time_data_received": "11:00:26.2416"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3644",
+          "0",
+          "337"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 337,
+    "sequenceStart": 337,
+    "symbol": "SLERF-USDT",
+    "time": 1732273226215,
+    "time_data_received": "11:00:26.2492"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3634",
+          "3087.18",
+          "338"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 338,
+    "sequenceStart": 338,
+    "symbol": "SLERF-USDT",
+    "time": 1732273226253,
+    "time_data_received": "11:00:26.2869"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3666",
+          "0",
+          "339"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 339,
+    "sequenceStart": 339,
+    "symbol": "SLERF-USDT",
+    "time": 1732273226259,
+    "time_data_received": "11:00:26.2930"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3655",
+          "0",
+          "340"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 340,
+    "sequenceStart": 340,
+    "symbol": "SLERF-USDT",
+    "time": 1732273226261,
+    "time_data_received": "11:00:26.2946"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3643",
+          "4850.17",
+          "341"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 341,
+    "sequenceStart": 341,
+    "symbol": "SLERF-USDT",
+    "time": 1732273226282,
+    "time_data_received": "11:00:26.3166"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3654",
+          "1901.74",
+          "342"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 342,
+    "sequenceStart": 342,
+    "symbol": "SLERF-USDT",
+    "time": 1732273226282,
+    "time_data_received": "11:00:26.3168"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3618",
+          "0",
+          "343"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 343,
+    "sequenceStart": 343,
+    "symbol": "SLERF-USDT",
+    "time": 1732273226288,
+    "time_data_received": "11:00:26.3212"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3612",
+          "9301.58",
+          "344"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 344,
+    "sequenceStart": 344,
+    "symbol": "SLERF-USDT",
+    "time": 1732273226311,
+    "time_data_received": "11:00:26.3448"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3629",
+          "0",
+          "345"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 345,
+    "sequenceStart": 345,
+    "symbol": "SLERF-USDT",
+    "time": 1732273226315,
+    "time_data_received": "11:00:26.3490"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3623",
+          "46064.87",
+          "346"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 346,
+    "sequenceStart": 346,
+    "symbol": "SLERF-USDT",
+    "time": 1732273226469,
+    "time_data_received": "11:00:26.5035"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3559",
+          "100.55",
+          "347"
+        ]
+      ]
+    },
+    "sequenceEnd": 347,
+    "sequenceStart": 347,
+    "symbol": "SLERF-USDT",
+    "time": 1732273226849,
+    "time_data_received": "11:00:26.9294"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3612",
+          "9163.19",
+          "348"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 348,
+    "sequenceStart": 348,
+    "symbol": "SLERF-USDT",
+    "time": 1732273226947,
+    "time_data_received": "11:00:27.0100"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3608",
+          "138.39",
+          "349"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 349,
+    "sequenceStart": 349,
+    "symbol": "SLERF-USDT",
+    "time": 1732273226976,
+    "time_data_received": "11:00:27.0103"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3671",
+          "42.29",
+          "350"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 350,
+    "sequenceStart": 350,
+    "symbol": "SLERF-USDT",
+    "time": 1732273227035,
+    "time_data_received": "11:00:27.0693"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3584",
+          "2",
+          "351"
+        ]
+      ]
+    },
+    "sequenceEnd": 351,
+    "sequenceStart": 351,
+    "symbol": "SLERF-USDT",
+    "time": 1732273227072,
+    "time_data_received": "11:00:27.1053"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.36",
+          "74.45",
+          "352"
+        ]
+      ]
+    },
+    "sequenceEnd": 352,
+    "sequenceStart": 352,
+    "symbol": "SLERF-USDT",
+    "time": 1732273227165,
+    "time_data_received": "11:00:27.1990"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.36",
+          "20.01",
+          "353"
+        ]
+      ]
+    },
+    "sequenceEnd": 353,
+    "sequenceStart": 353,
+    "symbol": "SLERF-USDT",
+    "time": 1732273227181,
+    "time_data_received": "11:00:27.2149"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3511",
+          "287.28",
+          "354"
+        ]
+      ]
+    },
+    "sequenceEnd": 354,
+    "sequenceStart": 354,
+    "symbol": "SLERF-USDT",
+    "time": 1732273227196,
+    "time_data_received": "11:00:27.2303"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.356",
+          "177.99",
+          "355"
+        ]
+      ]
+    },
+    "sequenceEnd": 355,
+    "sequenceStart": 355,
+    "symbol": "SLERF-USDT",
+    "time": 1732273227259,
+    "time_data_received": "11:00:27.2923"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.356",
+          "350.99",
+          "356"
+        ]
+      ]
+    },
+    "sequenceEnd": 356,
+    "sequenceStart": 356,
+    "symbol": "SLERF-USDT",
+    "time": 1732273227296,
+    "time_data_received": "11:00:27.3301"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.344",
+          "145.34",
+          "357"
+        ]
+      ]
+    },
+    "sequenceEnd": 357,
+    "sequenceStart": 357,
+    "symbol": "SLERF-USDT",
+    "time": 1732273227309,
+    "time_data_received": "11:00:27.3441"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3511",
+          "0",
+          "358"
+        ]
+      ]
+    },
+    "sequenceEnd": 358,
+    "sequenceStart": 358,
+    "symbol": "SLERF-USDT",
+    "time": 1732273227340,
+    "time_data_received": "11:00:27.3741"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3612",
+          "0",
+          "359"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 359,
+    "sequenceStart": 359,
+    "symbol": "SLERF-USDT",
+    "time": 1732273227452,
+    "time_data_received": "11:00:27.5019"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3623",
+          "0",
+          "360"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 360,
+    "sequenceStart": 360,
+    "symbol": "SLERF-USDT",
+    "time": 1732273227455,
+    "time_data_received": "11:00:27.5028"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3608",
+          "0",
+          "361"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 361,
+    "sequenceStart": 361,
+    "symbol": "SLERF-USDT",
+    "time": 1732273227530,
+    "time_data_received": "11:00:27.5946"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3606",
+          "138.39",
+          "362"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 362,
+    "sequenceStart": 362,
+    "symbol": "SLERF-USDT",
+    "time": 1732273227558,
+    "time_data_received": "11:00:27.5948"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3629",
+          "4574.44",
+          "363"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 363,
+    "sequenceStart": 363,
+    "symbol": "SLERF-USDT",
+    "time": 1732273227599,
+    "time_data_received": "11:00:27.7291"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3618",
+          "41831.78",
+          "364"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 364,
+    "sequenceStart": 364,
+    "symbol": "SLERF-USDT",
+    "time": 1732273227599,
+    "time_data_received": "11:00:27.7295"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.303",
+          "660.06",
+          "365"
+        ]
+      ]
+    },
+    "sequenceEnd": 365,
+    "sequenceStart": 365,
+    "symbol": "SLERF-USDT",
+    "time": 1732273227701,
+    "time_data_received": "11:00:27.8656"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3655",
+          "108.13",
+          "366"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 366,
+    "sequenceStart": 366,
+    "symbol": "SLERF-USDT",
+    "time": 1732273227725,
+    "time_data_received": "11:00:27.8658"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.36",
+          "28.55",
+          "367"
+        ]
+      ]
+    },
+    "sequenceEnd": 367,
+    "sequenceStart": 367,
+    "symbol": "SLERF-USDT",
+    "time": 1732273227923,
+    "time_data_received": "11:00:28.1417"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3559",
+          "1053.96",
+          "368"
+        ]
+      ]
+    },
+    "sequenceEnd": 368,
+    "sequenceStart": 368,
+    "symbol": "SLERF-USDT",
+    "time": 1732273228031,
+    "time_data_received": "11:00:28.1419"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.36",
+          "2127.22",
+          "371"
+        ]
+      ],
+      "bids": [
+        [
+          "0.36",
+          "0",
+          "370"
+        ]
+      ]
+    },
+    "sequenceEnd": 371,
+    "sequenceStart": 369,
+    "symbol": "SLERF-USDT",
+    "time": 1732273228043,
+    "time_data_received": "11:00:28.1424"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3559",
+          "2761.31",
+          "372"
+        ]
+      ]
+    },
+    "sequenceEnd": 372,
+    "sequenceStart": 372,
+    "symbol": "SLERF-USDT",
+    "time": 1732273228074,
+    "time_data_received": "11:00:28.1425"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3606",
+          "0",
+          "373"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 373,
+    "sequenceStart": 373,
+    "symbol": "SLERF-USDT",
+    "time": 1732273228082,
+    "time_data_received": "11:00:28.1426"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3618",
+          "0",
+          "374"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 374,
+    "sequenceStart": 374,
+    "symbol": "SLERF-USDT",
+    "time": 1732273228088,
+    "time_data_received": "11:00:28.1427"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3559",
+          "1807.9",
+          "375"
+        ]
+      ]
+    },
+    "sequenceEnd": 375,
+    "sequenceStart": 375,
+    "symbol": "SLERF-USDT",
+    "time": 1732273228106,
+    "time_data_received": "11:00:28.1428"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3604",
+          "138.39",
+          "376"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 376,
+    "sequenceStart": 376,
+    "symbol": "SLERF-USDT",
+    "time": 1732273228106,
+    "time_data_received": "11:00:28.1429"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3615",
+          "40854.75",
+          "377"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 377,
+    "sequenceStart": 377,
+    "symbol": "SLERF-USDT",
+    "time": 1732273228111,
+    "time_data_received": "11:00:28.1726"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3559",
+          "100.55",
+          "378"
+        ]
+      ]
+    },
+    "sequenceEnd": 378,
+    "sequenceStart": 378,
+    "symbol": "SLERF-USDT",
+    "time": 1732273228113,
+    "time_data_received": "11:00:28.1728"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3655",
+          "0",
+          "379"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 379,
+    "sequenceStart": 379,
+    "symbol": "SLERF-USDT",
+    "time": 1732273228135,
+    "time_data_received": "11:00:28.1730"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3673",
+          "244.25",
+          "380"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 380,
+    "sequenceStart": 380,
+    "symbol": "SLERF-USDT",
+    "time": 1732273228152,
+    "time_data_received": "11:00:28.1895"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3559",
+          "264.05",
+          "381"
+        ]
+      ]
+    },
+    "sequenceEnd": 381,
+    "sequenceStart": 381,
+    "symbol": "SLERF-USDT",
+    "time": 1732273228172,
+    "time_data_received": "11:00:28.2127"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3549",
+          "21.25",
+          "382"
+        ]
+      ]
+    },
+    "sequenceEnd": 382,
+    "sequenceStart": 382,
+    "symbol": "SLERF-USDT",
+    "time": 1732273228252,
+    "time_data_received": "11:00:28.2857"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3629",
+          "0",
+          "383"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 383,
+    "sequenceStart": 383,
+    "symbol": "SLERF-USDT",
+    "time": 1732273228317,
+    "time_data_received": "11:00:28.3512"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3615",
+          "0",
+          "384"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 384,
+    "sequenceStart": 384,
+    "symbol": "SLERF-USDT",
+    "time": 1732273228317,
+    "time_data_received": "11:00:28.3514"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3612",
+          "33786.28",
+          "385"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 385,
+    "sequenceStart": 385,
+    "symbol": "SLERF-USDT",
+    "time": 1732273228341,
+    "time_data_received": "11:00:28.3758"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3623",
+          "11165.37",
+          "386"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 386,
+    "sequenceStart": 386,
+    "symbol": "SLERF-USDT",
+    "time": 1732273228341,
+    "time_data_received": "11:00:28.3759"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3634",
+          "0",
+          "387"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 387,
+    "sequenceStart": 387,
+    "symbol": "SLERF-USDT",
+    "time": 1732273228681,
+    "time_data_received": "11:00:28.7624"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3612",
+          "0",
+          "388"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 388,
+    "sequenceStart": 388,
+    "symbol": "SLERF-USDT",
+    "time": 1732273228684,
+    "time_data_received": "11:00:28.7625"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3627",
+          "2687.96",
+          "389"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 389,
+    "sequenceStart": 389,
+    "symbol": "SLERF-USDT",
+    "time": 1732273228704,
+    "time_data_received": "11:00:28.7626"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3609",
+          "31456.3",
+          "390"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 390,
+    "sequenceStart": 390,
+    "symbol": "SLERF-USDT",
+    "time": 1732273228704,
+    "time_data_received": "11:00:28.7627"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3647",
+          "108.13",
+          "391"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 391,
+    "sequenceStart": 391,
+    "symbol": "SLERF-USDT",
+    "time": 1732273228728,
+    "time_data_received": "11:00:28.7627"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.337",
+          "148.36",
+          "392"
+        ]
+      ]
+    },
+    "sequenceEnd": 392,
+    "sequenceStart": 392,
+    "symbol": "SLERF-USDT",
+    "time": 1732273228741,
+    "time_data_received": "11:00:28.7918"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3559",
+          "163.5",
+          "393"
+        ]
+      ]
+    },
+    "sequenceEnd": 393,
+    "sequenceStart": 393,
+    "symbol": "SLERF-USDT",
+    "time": 1732273228796,
+    "time_data_received": "11:00:28.8784"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3604",
+          "0",
+          "394"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 394,
+    "sequenceStart": 394,
+    "symbol": "SLERF-USDT",
+    "time": 1732273228813,
+    "time_data_received": "11:00:28.8787"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3603",
+          "138.39",
+          "395"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 395,
+    "sequenceStart": 395,
+    "symbol": "SLERF-USDT",
+    "time": 1732273228839,
+    "time_data_received": "11:00:28.8789"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3558",
+          "101.68",
+          "396"
+        ]
+      ]
+    },
+    "sequenceEnd": 396,
+    "sequenceStart": 396,
+    "symbol": "SLERF-USDT",
+    "time": 1732273228859,
+    "time_data_received": "11:00:28.9089"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3559",
+          "0",
+          "397"
+        ]
+      ]
+    },
+    "sequenceEnd": 397,
+    "sequenceStart": 397,
+    "symbol": "SLERF-USDT",
+    "time": 1732273228935,
+    "time_data_received": "11:00:28.9840"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3558",
+          "0",
+          "398"
+        ]
+      ]
+    },
+    "sequenceEnd": 398,
+    "sequenceStart": 398,
+    "symbol": "SLERF-USDT",
+    "time": 1732273228938,
+    "time_data_received": "11:00:28.9845"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3549",
+          "0",
+          "399"
+        ]
+      ]
+    },
+    "sequenceEnd": 399,
+    "sequenceStart": 399,
+    "symbol": "SLERF-USDT",
+    "time": 1732273228943,
+    "time_data_received": "11:00:28.9854"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.356",
+          "173",
+          "400"
+        ]
+      ]
+    },
+    "sequenceEnd": 400,
+    "sequenceStart": 400,
+    "symbol": "SLERF-USDT",
+    "time": 1732273229087,
+    "time_data_received": "11:00:29.1217"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3559",
+          "427.26",
+          "401"
+        ]
+      ]
+    },
+    "sequenceEnd": 401,
+    "sequenceStart": 401,
+    "symbol": "SLERF-USDT",
+    "time": 1732273229098,
+    "time_data_received": "11:00:29.1322"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3553",
+          "109.77",
+          "402"
+        ]
+      ]
+    },
+    "sequenceEnd": 402,
+    "sequenceStart": 402,
+    "symbol": "SLERF-USDT",
+    "time": 1732273229120,
+    "time_data_received": "11:00:29.1536"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.356",
+          "0",
+          "403"
+        ]
+      ]
+    },
+    "sequenceEnd": 403,
+    "sequenceStart": 403,
+    "symbol": "SLERF-USDT",
+    "time": 1732273229133,
+    "time_data_received": "11:00:29.1673"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3561",
+          "132.57",
+          "404"
+        ]
+      ]
+    },
+    "sequenceEnd": 404,
+    "sequenceStart": 404,
+    "symbol": "SLERF-USDT",
+    "time": 1732273229200,
+    "time_data_received": "11:00:29.2336"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3561",
+          "244.95",
+          "405"
+        ]
+      ]
+    },
+    "sequenceEnd": 405,
+    "sequenceStart": 405,
+    "symbol": "SLERF-USDT",
+    "time": 1732273229203,
+    "time_data_received": "11:00:29.2364"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3532",
+          "734.05",
+          "406"
+        ]
+      ]
+    },
+    "sequenceEnd": 406,
+    "sequenceStart": 406,
+    "symbol": "SLERF-USDT",
+    "time": 1732273229233,
+    "time_data_received": "11:00:29.2662"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3502",
+          "834.08",
+          "407"
+        ]
+      ]
+    },
+    "sequenceEnd": 407,
+    "sequenceStart": 407,
+    "symbol": "SLERF-USDT",
+    "time": 1732273229235,
+    "time_data_received": "11:00:29.2692"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3551",
+          "21.25",
+          "408"
+        ]
+      ]
+    },
+    "sequenceEnd": 408,
+    "sequenceStart": 408,
+    "symbol": "SLERF-USDT",
+    "time": 1732273229255,
+    "time_data_received": "11:00:29.2893"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.34",
+          "1647.63",
+          "409"
+        ]
+      ]
+    },
+    "sequenceEnd": 409,
+    "sequenceStart": 409,
+    "symbol": "SLERF-USDT",
+    "time": 1732273229347,
+    "time_data_received": "11:00:29.3812"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3603",
+          "0",
+          "410"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 410,
+    "sequenceStart": 410,
+    "symbol": "SLERF-USDT",
+    "time": 1732273229397,
+    "time_data_received": "11:00:29.4447"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3602",
+          "138.39",
+          "411"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 411,
+    "sequenceStart": 411,
+    "symbol": "SLERF-USDT",
+    "time": 1732273229427,
+    "time_data_received": "11:00:29.4714"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3553",
+          "0",
+          "412"
+        ]
+      ]
+    },
+    "sequenceEnd": 412,
+    "sequenceStart": 412,
+    "symbol": "SLERF-USDT",
+    "time": 1732273229558,
+    "time_data_received": "11:00:29.5925"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.366",
+          "0",
+          "413"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 413,
+    "sequenceStart": 413,
+    "symbol": "SLERF-USDT",
+    "time": 1732273229614,
+    "time_data_received": "11:00:29.6483"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3643",
+          "0",
+          "414"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 414,
+    "sequenceStart": 414,
+    "symbol": "SLERF-USDT",
+    "time": 1732273230008,
+    "time_data_received": "11:00:30.0430"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3609",
+          "0",
+          "415"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 415,
+    "sequenceStart": 415,
+    "symbol": "SLERF-USDT",
+    "time": 1732273230011,
+    "time_data_received": "11:00:30.0450"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3623",
+          "0",
+          "416"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 416,
+    "sequenceStart": 416,
+    "symbol": "SLERF-USDT",
+    "time": 1732273230013,
+    "time_data_received": "11:00:30.0471"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3602",
+          "0",
+          "417"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 417,
+    "sequenceStart": 417,
+    "symbol": "SLERF-USDT",
+    "time": 1732273230044,
+    "time_data_received": "11:00:30.0821"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3618",
+          "16348.37",
+          "418"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 418,
+    "sequenceStart": 418,
+    "symbol": "SLERF-USDT",
+    "time": 1732273230076,
+    "time_data_received": "11:00:30.1202"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3607",
+          "46032.42",
+          "419"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 419,
+    "sequenceStart": 419,
+    "symbol": "SLERF-USDT",
+    "time": 1732273230076,
+    "time_data_received": "11:00:30.1205"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3636",
+          "4989.72",
+          "420"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 420,
+    "sequenceStart": 420,
+    "symbol": "SLERF-USDT",
+    "time": 1732273230076,
+    "time_data_received": "11:00:30.1207"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3601",
+          "345.22",
+          "421"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 421,
+    "sequenceStart": 421,
+    "symbol": "SLERF-USDT",
+    "time": 1732273230078,
+    "time_data_received": "11:00:30.1208"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.36",
+          "1997.63",
+          "422"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 422,
+    "sequenceStart": 422,
+    "symbol": "SLERF-USDT",
+    "time": 1732273230220,
+    "time_data_received": "11:00:30.2869"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.36",
+          "1985.95",
+          "423"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 423,
+    "sequenceStart": 423,
+    "symbol": "SLERF-USDT",
+    "time": 1732273230262,
+    "time_data_received": "11:00:30.3248"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "424"
+        ]
+      ]
+    },
+    "sequenceEnd": 424,
+    "sequenceStart": 424,
+    "symbol": "SLERF-USDT",
+    "time": 1732273230676,
+    "time_data_received": "11:00:30.7102"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3601",
+          "206.83",
+          "425"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 425,
+    "sequenceStart": 425,
+    "symbol": "SLERF-USDT",
+    "time": 1732273230799,
+    "time_data_received": "11:00:30.8322"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3599",
+          "138.39",
+          "426"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 426,
+    "sequenceStart": 426,
+    "symbol": "SLERF-USDT",
+    "time": 1732273230827,
+    "time_data_received": "11:00:30.8616"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3607",
+          "0",
+          "427"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 427,
+    "sequenceStart": 427,
+    "symbol": "SLERF-USDT",
+    "time": 1732273230929,
+    "time_data_received": "11:00:30.9628"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3618",
+          "0",
+          "428"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 428,
+    "sequenceStart": 428,
+    "symbol": "SLERF-USDT",
+    "time": 1732273230941,
+    "time_data_received": "11:00:30.9751"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3612",
+          "58054.85",
+          "429"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 429,
+    "sequenceStart": 429,
+    "symbol": "SLERF-USDT",
+    "time": 1732273230945,
+    "time_data_received": "11:00:30.9787"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3622",
+          "7954.91",
+          "430"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 430,
+    "sequenceStart": 430,
+    "symbol": "SLERF-USDT",
+    "time": 1732273230954,
+    "time_data_received": "11:00:30.9890"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.368",
+          "0",
+          "431"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 431,
+    "sequenceStart": 431,
+    "symbol": "SLERF-USDT",
+    "time": 1732273230990,
+    "time_data_received": "11:00:31.0237"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3644",
+          "262.66",
+          "432"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 432,
+    "sequenceStart": 432,
+    "symbol": "SLERF-USDT",
+    "time": 1732273231152,
+    "time_data_received": "11:00:31.1857"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.25",
+          "1286.96",
+          "433"
+        ]
+      ]
+    },
+    "sequenceEnd": 433,
+    "sequenceStart": 433,
+    "symbol": "SLERF-USDT",
+    "time": 1732273231155,
+    "time_data_received": "11:00:31.1896"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3644",
+          "0",
+          "434"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 434,
+    "sequenceStart": 434,
+    "symbol": "SLERF-USDT",
+    "time": 1732273231185,
+    "time_data_received": "11:00:31.2190"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.315",
+          "1269.84",
+          "435"
+        ]
+      ]
+    },
+    "sequenceEnd": 435,
+    "sequenceStart": 435,
+    "symbol": "SLERF-USDT",
+    "time": 1732273231518,
+    "time_data_received": "11:00:31.5524"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3558",
+          "101.65",
+          "436"
+        ]
+      ]
+    },
+    "sequenceEnd": 436,
+    "sequenceStart": 436,
+    "symbol": "SLERF-USDT",
+    "time": 1732273231876,
+    "time_data_received": "11:00:31.9101"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3411",
+          "3511",
+          "437"
+        ]
+      ]
+    },
+    "sequenceEnd": 437,
+    "sequenceStart": 437,
+    "symbol": "SLERF-USDT",
+    "time": 1732273232013,
+    "time_data_received": "11:00:32.0476"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3644",
+          "49.34",
+          "438"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 438,
+    "sequenceStart": 438,
+    "symbol": "SLERF-USDT",
+    "time": 1732273232222,
+    "time_data_received": "11:00:32.2668"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3644",
+          "312",
+          "439"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 439,
+    "sequenceStart": 439,
+    "symbol": "SLERF-USDT",
+    "time": 1732273232231,
+    "time_data_received": "11:00:32.2672"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3559",
+          "0",
+          "440"
+        ]
+      ]
+    },
+    "sequenceEnd": 440,
+    "sequenceStart": 440,
+    "symbol": "SLERF-USDT",
+    "time": 1732273232322,
+    "time_data_received": "11:00:32.3900"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3502",
+          "0",
+          "441"
+        ]
+      ]
+    },
+    "sequenceEnd": 441,
+    "sequenceStart": 441,
+    "symbol": "SLERF-USDT",
+    "time": 1732273232327,
+    "time_data_received": "11:00:32.3902"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3532",
+          "364.51",
+          "442"
+        ]
+      ]
+    },
+    "sequenceEnd": 442,
+    "sequenceStart": 442,
+    "symbol": "SLERF-USDT",
+    "time": 1732273232330,
+    "time_data_received": "11:00:32.3904"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3647",
+          "0",
+          "443"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 443,
+    "sequenceStart": 443,
+    "symbol": "SLERF-USDT",
+    "time": 1732273232399,
+    "time_data_received": "11:00:32.4653"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.346",
+          "0",
+          "444"
+        ]
+      ]
+    },
+    "sequenceEnd": 444,
+    "sequenceStart": 444,
+    "symbol": "SLERF-USDT",
+    "time": 1732273232462,
+    "time_data_received": "11:00:32.5380"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3598",
+          "5508.24",
+          "445"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 445,
+    "sequenceStart": 445,
+    "symbol": "SLERF-USDT",
+    "time": 1732273232660,
+    "time_data_received": "11:00:32.6942"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.351",
+          "140.91",
+          "446"
+        ]
+      ]
+    },
+    "sequenceEnd": 446,
+    "sequenceStart": 446,
+    "symbol": "SLERF-USDT",
+    "time": 1732273232720,
+    "time_data_received": "11:00:32.7547"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3599",
+          "0",
+          "447"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 447,
+    "sequenceStart": 447,
+    "symbol": "SLERF-USDT",
+    "time": 1732273232798,
+    "time_data_received": "11:00:32.8326"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.36",
+          "2124.34",
+          "448"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 448,
+    "sequenceStart": 448,
+    "symbol": "SLERF-USDT",
+    "time": 1732273232823,
+    "time_data_received": "11:00:32.8572"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.36",
+          "3578.96",
+          "449"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 449,
+    "sequenceStart": 449,
+    "symbol": "SLERF-USDT",
+    "time": 1732273232833,
+    "time_data_received": "11:00:32.8756"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3561",
+          "677.69",
+          "450"
+        ]
+      ]
+    },
+    "sequenceEnd": 450,
+    "sequenceStart": 450,
+    "symbol": "SLERF-USDT",
+    "time": 1732273233250,
+    "time_data_received": "11:00:33.2837"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3644",
+          "49.34",
+          "451"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 451,
+    "sequenceStart": 451,
+    "symbol": "SLERF-USDT",
+    "time": 1732273233253,
+    "time_data_received": "11:00:33.2876"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3561",
+          "1486.13",
+          "452"
+        ]
+      ]
+    },
+    "sequenceEnd": 452,
+    "sequenceStart": 452,
+    "symbol": "SLERF-USDT",
+    "time": 1732273233307,
+    "time_data_received": "11:00:33.3412"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.36",
+          "3440.57",
+          "453"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 453,
+    "sequenceStart": 453,
+    "symbol": "SLERF-USDT",
+    "time": 1732273233380,
+    "time_data_received": "11:00:33.4138"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3597",
+          "138.39",
+          "454"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 454,
+    "sequenceStart": 454,
+    "symbol": "SLERF-USDT",
+    "time": 1732273233408,
+    "time_data_received": "11:00:33.4412"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.343",
+          "72.88",
+          "455"
+        ]
+      ]
+    },
+    "sequenceEnd": 455,
+    "sequenceStart": 455,
+    "symbol": "SLERF-USDT",
+    "time": 1732273233787,
+    "time_data_received": "11:00:33.8220"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3646",
+          "262.66",
+          "456"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 456,
+    "sequenceStart": 456,
+    "symbol": "SLERF-USDT",
+    "time": 1732273234314,
+    "time_data_received": "11:00:34.3485"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.13",
+          "0",
+          "457"
+        ]
+      ]
+    },
+    "sequenceEnd": 457,
+    "sequenceStart": 457,
+    "symbol": "SLERF-USDT",
+    "time": 1732273234406,
+    "time_data_received": "11:00:34.4417"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.37",
+          "0",
+          "458"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 458,
+    "sequenceStart": 458,
+    "symbol": "SLERF-USDT",
+    "time": 1732273235307,
+    "time_data_received": "11:00:35.4553"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.399",
+          "0",
+          "459"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 459,
+    "sequenceStart": 459,
+    "symbol": "SLERF-USDT",
+    "time": 1732273235331,
+    "time_data_received": "11:00:35.4554"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.317",
+          "36.79",
+          "460"
+        ]
+      ]
+    },
+    "sequenceEnd": 460,
+    "sequenceStart": 460,
+    "symbol": "SLERF-USDT",
+    "time": 1732273235334,
+    "time_data_received": "11:00:35.4555"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.34",
+          "177.05",
+          "461"
+        ]
+      ]
+    },
+    "sequenceEnd": 461,
+    "sequenceStart": 461,
+    "symbol": "SLERF-USDT",
+    "time": 1732273235734,
+    "time_data_received": "11:00:35.7686"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3561",
+          "1536.23",
+          "462"
+        ]
+      ]
+    },
+    "sequenceEnd": 462,
+    "sequenceStart": 462,
+    "symbol": "SLERF-USDT",
+    "time": 1732273236082,
+    "time_data_received": "11:00:36.1189"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.342",
+          "1681.26",
+          "463"
+        ]
+      ]
+    },
+    "sequenceEnd": 463,
+    "sequenceStart": 463,
+    "symbol": "SLERF-USDT",
+    "time": 1732273236157,
+    "time_data_received": "11:00:36.1919"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.2",
+          "2375",
+          "464"
+        ]
+      ]
+    },
+    "sequenceEnd": 464,
+    "sequenceStart": 464,
+    "symbol": "SLERF-USDT",
+    "time": 1732273236604,
+    "time_data_received": "11:00:36.7601"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.2",
+          "1125",
+          "465"
+        ]
+      ]
+    },
+    "sequenceEnd": 465,
+    "sequenceStart": 465,
+    "symbol": "SLERF-USDT",
+    "time": 1732273237399,
+    "time_data_received": "11:00:37.4366"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.336",
+          "148.8",
+          "466"
+        ]
+      ]
+    },
+    "sequenceEnd": 466,
+    "sequenceStart": 466,
+    "symbol": "SLERF-USDT",
+    "time": 1732273237834,
+    "time_data_received": "11:00:37.8714"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.343",
+          "160.34",
+          "467"
+        ]
+      ]
+    },
+    "sequenceEnd": 467,
+    "sequenceStart": 467,
+    "symbol": "SLERF-USDT",
+    "time": 1732273237984,
+    "time_data_received": "11:00:38.0176"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3561",
+          "727.79",
+          "468"
+        ]
+      ]
+    },
+    "sequenceEnd": 468,
+    "sequenceStart": 468,
+    "symbol": "SLERF-USDT",
+    "time": 1732273238397,
+    "time_data_received": "11:00:38.4425"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "469"
+        ]
+      ]
+    },
+    "sequenceEnd": 469,
+    "sequenceStart": 469,
+    "symbol": "SLERF-USDT",
+    "time": 1732273238470,
+    "time_data_received": "11:00:38.5039"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3537",
+          "538.27",
+          "470"
+        ]
+      ]
+    },
+    "sequenceEnd": 470,
+    "sequenceStart": 470,
+    "symbol": "SLERF-USDT",
+    "time": 1732273238503,
+    "time_data_received": "11:00:38.5423"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3561",
+          "295.05",
+          "471"
+        ]
+      ]
+    },
+    "sequenceEnd": 471,
+    "sequenceStart": 471,
+    "symbol": "SLERF-USDT",
+    "time": 1732273238517,
+    "time_data_received": "11:00:38.5507"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3516",
+          "591.6",
+          "472"
+        ]
+      ]
+    },
+    "sequenceEnd": 472,
+    "sequenceStart": 472,
+    "symbol": "SLERF-USDT",
+    "time": 1732273238708,
+    "time_data_received": "11:00:38.7430"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.337",
+          "0",
+          "473"
+        ]
+      ]
+    },
+    "sequenceEnd": 473,
+    "sequenceStart": 473,
+    "symbol": "SLERF-USDT",
+    "time": 1732273238831,
+    "time_data_received": "11:00:38.8654"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3552",
+          "153.9",
+          "474"
+        ]
+      ]
+    },
+    "sequenceEnd": 474,
+    "sequenceStart": 474,
+    "symbol": "SLERF-USDT",
+    "time": 1732273238834,
+    "time_data_received": "11:00:38.8693"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3552",
+          "204.07",
+          "475"
+        ]
+      ]
+    },
+    "sequenceEnd": 475,
+    "sequenceStart": 475,
+    "symbol": "SLERF-USDT",
+    "time": 1732273239028,
+    "time_data_received": "11:00:39.0616"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3561",
+          "542.72",
+          "476"
+        ]
+      ]
+    },
+    "sequenceEnd": 476,
+    "sequenceStart": 476,
+    "symbol": "SLERF-USDT",
+    "time": 1732273239062,
+    "time_data_received": "11:00:39.1002"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.343",
+          "233.22",
+          "477"
+        ]
+      ]
+    },
+    "sequenceEnd": 477,
+    "sequenceStart": 477,
+    "symbol": "SLERF-USDT",
+    "time": 1732273239741,
+    "time_data_received": "11:00:39.7752"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.07",
+          "1000",
+          "478"
+        ]
+      ]
+    },
+    "sequenceEnd": 478,
+    "sequenceStart": 478,
+    "symbol": "SLERF-USDT",
+    "time": 1732273240214,
+    "time_data_received": "11:00:40.2486"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3646",
+          "0",
+          "479"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 479,
+    "sequenceStart": 479,
+    "symbol": "SLERF-USDT",
+    "time": 1732273240552,
+    "time_data_received": "11:00:40.5853"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.344",
+          "218.01",
+          "480"
+        ]
+      ]
+    },
+    "sequenceEnd": 480,
+    "sequenceStart": 480,
+    "symbol": "SLERF-USDT",
+    "time": 1732273240569,
+    "time_data_received": "11:00:40.6038"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.36",
+          "4152.07",
+          "481"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 481,
+    "sequenceStart": 481,
+    "symbol": "SLERF-USDT",
+    "time": 1732273241152,
+    "time_data_received": "11:00:41.1853"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3552",
+          "153.9",
+          "482"
+        ]
+      ]
+    },
+    "sequenceEnd": 482,
+    "sequenceStart": 482,
+    "symbol": "SLERF-USDT",
+    "time": 1732273241185,
+    "time_data_received": "11:00:41.2188"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.05",
+          "0",
+          "483"
+        ]
+      ]
+    },
+    "sequenceEnd": 483,
+    "sequenceStart": 483,
+    "symbol": "SLERF-USDT",
+    "time": 1732273241185,
+    "time_data_received": "11:00:41.2193"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3552",
+          "0",
+          "484"
+        ]
+      ]
+    },
+    "sequenceEnd": 484,
+    "sequenceStart": 484,
+    "symbol": "SLERF-USDT",
+    "time": 1732273241188,
+    "time_data_received": "11:00:41.2221"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3561",
+          "295.05",
+          "485"
+        ]
+      ]
+    },
+    "sequenceEnd": 485,
+    "sequenceStart": 485,
+    "symbol": "SLERF-USDT",
+    "time": 1732273241196,
+    "time_data_received": "11:00:41.2293"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3544",
+          "1939.26",
+          "486"
+        ]
+      ]
+    },
+    "sequenceEnd": 486,
+    "sequenceStart": 486,
+    "symbol": "SLERF-USDT",
+    "time": 1732273241222,
+    "time_data_received": "11:00:41.2558"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3545",
+          "50.17",
+          "487"
+        ]
+      ]
+    },
+    "sequenceEnd": 487,
+    "sequenceStart": 487,
+    "symbol": "SLERF-USDT",
+    "time": 1732273241222,
+    "time_data_received": "11:00:41.2560"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3544",
+          "0",
+          "488"
+        ]
+      ]
+    },
+    "sequenceEnd": 488,
+    "sequenceStart": 488,
+    "symbol": "SLERF-USDT",
+    "time": 1732273241271,
+    "time_data_received": "11:00:41.3047"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3546",
+          "265.25",
+          "489"
+        ]
+      ]
+    },
+    "sequenceEnd": 489,
+    "sequenceStart": 489,
+    "symbol": "SLERF-USDT",
+    "time": 1732273241495,
+    "time_data_received": "11:00:41.5284"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.355",
+          "149.44",
+          "490"
+        ]
+      ]
+    },
+    "sequenceEnd": 490,
+    "sequenceStart": 490,
+    "symbol": "SLERF-USDT",
+    "time": 1732273241503,
+    "time_data_received": "11:00:41.5370"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3558",
+          "1972.34",
+          "491"
+        ]
+      ]
+    },
+    "sequenceEnd": 491,
+    "sequenceStart": 491,
+    "symbol": "SLERF-USDT",
+    "time": 1732273241508,
+    "time_data_received": "11:00:41.5420"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3546",
+          "0",
+          "492"
+        ]
+      ]
+    },
+    "sequenceEnd": 492,
+    "sequenceStart": 492,
+    "symbol": "SLERF-USDT",
+    "time": 1732273241532,
+    "time_data_received": "11:00:41.5662"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3558",
+          "101.65",
+          "493"
+        ]
+      ]
+    },
+    "sequenceEnd": 493,
+    "sequenceStart": 493,
+    "symbol": "SLERF-USDT",
+    "time": 1732273241544,
+    "time_data_received": "11:00:41.5789"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3612",
+          "0",
+          "494"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 494,
+    "sequenceStart": 494,
+    "symbol": "SLERF-USDT",
+    "time": 1732273242031,
+    "time_data_received": "11:00:42.0650"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.361",
+          "46299.66",
+          "495"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 495,
+    "sequenceStart": 495,
+    "symbol": "SLERF-USDT",
+    "time": 1732273242046,
+    "time_data_received": "11:00:42.0804"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3556",
+          "1120.31",
+          "496"
+        ]
+      ]
+    },
+    "sequenceEnd": 496,
+    "sequenceStart": 496,
+    "symbol": "SLERF-USDT",
+    "time": 1732273242092,
+    "time_data_received": "11:00:42.1253"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3556",
+          "0",
+          "497"
+        ]
+      ]
+    },
+    "sequenceEnd": 497,
+    "sequenceStart": 497,
+    "symbol": "SLERF-USDT",
+    "time": 1732273242124,
+    "time_data_received": "11:00:42.1580"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.317",
+          "667.7",
+          "498"
+        ]
+      ]
+    },
+    "sequenceEnd": 498,
+    "sequenceStart": 498,
+    "symbol": "SLERF-USDT",
+    "time": 1732273242610,
+    "time_data_received": "11:00:42.6442"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1",
+          "49686.89",
+          "499"
+        ]
+      ]
+    },
+    "sequenceEnd": 499,
+    "sequenceStart": 499,
+    "symbol": "SLERF-USDT",
+    "time": 1732273243173,
+    "time_data_received": "11:00:43.2071"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.333",
+          "0",
+          "500"
+        ]
+      ]
+    },
+    "sequenceEnd": 500,
+    "sequenceStart": 500,
+    "symbol": "SLERF-USDT",
+    "time": 1732273243653,
+    "time_data_received": "11:00:43.6868"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.25",
+          "86.96",
+          "501"
+        ]
+      ]
+    },
+    "sequenceEnd": 501,
+    "sequenceStart": 501,
+    "symbol": "SLERF-USDT",
+    "time": 1732273243882,
+    "time_data_received": "11:00:43.9160"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.011",
+          "8074.99",
+          "502"
+        ]
+      ]
+    },
+    "sequenceEnd": 502,
+    "sequenceStart": 502,
+    "symbol": "SLERF-USDT",
+    "time": 1732273243951,
+    "time_data_received": "11:00:43.9847"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3597",
+          "122.25",
+          "503"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 503,
+    "sequenceStart": 503,
+    "symbol": "SLERF-USDT",
+    "time": 1732273244262,
+    "time_data_received": "11:00:44.2961"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.351",
+          "0",
+          "504"
+        ]
+      ]
+    },
+    "sequenceEnd": 504,
+    "sequenceStart": 504,
+    "symbol": "SLERF-USDT",
+    "time": 1732273244713,
+    "time_data_received": "11:00:44.7468"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3562",
+          "17.01",
+          "505"
+        ]
+      ]
+    },
+    "sequenceEnd": 505,
+    "sequenceStart": 505,
+    "symbol": "SLERF-USDT",
+    "time": 1732273244779,
+    "time_data_received": "11:00:44.8132"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3561",
+          "482.18",
+          "506"
+        ]
+      ]
+    },
+    "sequenceEnd": 506,
+    "sequenceStart": 506,
+    "symbol": "SLERF-USDT",
+    "time": 1732273244901,
+    "time_data_received": "11:00:44.9350"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3561",
+          "666.16",
+          "507"
+        ]
+      ]
+    },
+    "sequenceEnd": 507,
+    "sequenceStart": 507,
+    "symbol": "SLERF-USDT",
+    "time": 1732273245785,
+    "time_data_received": "11:00:45.8219"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.36",
+          "2166.12",
+          "508"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 508,
+    "sequenceStart": 508,
+    "symbol": "SLERF-USDT",
+    "time": 1732273246242,
+    "time_data_received": "11:00:46.2758"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3584",
+          "0",
+          "509"
+        ]
+      ]
+    },
+    "sequenceEnd": 509,
+    "sequenceStart": 509,
+    "symbol": "SLERF-USDT",
+    "time": 1732273247117,
+    "time_data_received": "11:00:47.1516"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3952",
+          "1399.92",
+          "510"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 510,
+    "sequenceStart": 510,
+    "symbol": "SLERF-USDT",
+    "time": 1732273247805,
+    "time_data_received": "11:00:47.8387"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3516",
+          "0",
+          "511"
+        ]
+      ]
+    },
+    "sequenceEnd": 511,
+    "sequenceStart": 511,
+    "symbol": "SLERF-USDT",
+    "time": 1732273248889,
+    "time_data_received": "11:00:48.9240"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3554",
+          "824.18",
+          "512"
+        ]
+      ]
+    },
+    "sequenceEnd": 512,
+    "sequenceStart": 512,
+    "symbol": "SLERF-USDT",
+    "time": 1732273249867,
+    "time_data_received": "11:00:49.9012"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.3625",
+          "281.51",
+          "513"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 513,
+    "sequenceStart": 513,
+    "symbol": "SLERF-USDT",
+    "time": 1732273250494,
+    "time_data_received": "11:00:50.5281"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.3547",
+          "33.76",
+          "514"
+        ]
+      ]
+    },
+    "sequenceEnd": 514,
+    "sequenceStart": 514,
+    "symbol": "SLERF-USDT",
+    "time": 1732273251029,
+    "time_data_received": "11:00:51.0627"
+  }
+]

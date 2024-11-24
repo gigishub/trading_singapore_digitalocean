@@ -70,14 +70,14 @@ async def main():
 
         else:
             # Testing mode
-            basecoin = 'XRP'  # Test symbol
-            price = 0.5
+            basecoin = 'MIGGLES'  # Test symbol
+            price = 0.15
             number_of_orders = 2
-            price_increase_buy =-3
-            price_increase_sell = 2
+            price_increase_buy = -7
+            price_increase_sell = 1
 
 
-            release_date_time = datetime.now() + timedelta(seconds=testing_time_offset)
+            release_date_time = datetime(2024, 11, 22, 10, 00, 0) + timedelta(seconds=testing_time_offset)
             release_date_time = release_date_time.replace( microsecond=0)
             api_creds_dict = load_credetials()
             logger.info(f'Testing mode: {basecoin} at {release_date_time}')

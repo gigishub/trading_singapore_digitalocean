@@ -1,0 +1,1606 @@
+[
+  {
+    "sequence": "112",
+    "data": {
+      "askSize": 0,
+      "baseCurrency": "MEMEFI",
+      "bidSize": 10,
+      "board": 0,
+      "buy": 0.84963,
+      "changePrice": 0.02706,
+      "changeRate": 9.02,
+      "close": 0.03006,
+      "datetime": 1732280400484,
+      "high": 0.03006,
+      "lastTradedPrice": 0.03006,
+      "low": 0.003,
+      "makerCoefficient": 2.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.02706,
+        "changeRate": 9.02,
+        "high": 0.03006,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 1903.0,
+        "volValue": 39.4513
+      },
+      "marketChange24h": {
+        "changePrice": 0.02706,
+        "changeRate": 9.02,
+        "high": 0.03006,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 1903.0,
+        "volValue": 39.4513
+      },
+      "marketChange4h": {
+        "changePrice": 0.02706,
+        "changeRate": 9.02,
+        "high": 0.03006,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 1903.0,
+        "volValue": 39.4513
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.003,
+      "quoteCurrency": "USDT",
+      "sell": 0,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "MEMEFI-USDT",
+      "symbolCode": "MEMEFI-USDT",
+      "takerCoefficient": 2.0,
+      "takerFeeRate": 0.001,
+      "trading": false,
+      "vol": 1903.0,
+      "volValue": 39.4513
+    },
+    "time_data_received": "13:00:00.5324"
+  },
+  {
+    "sequence": "380",
+    "data": {
+      "askSize": 0,
+      "baseCurrency": "MEMEFI",
+      "bidSize": 10,
+      "board": 0,
+      "buy": 0.78545,
+      "changeRate": 0,
+      "close": 0.847,
+      "datetime": 1732280404500,
+      "high": 0,
+      "lastTradedPrice": 0.847,
+      "low": 0,
+      "makerCoefficient": 2.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changeRate": 0,
+        "high": 0,
+        "low": 0,
+        "open": 0,
+        "vol": 0,
+        "volValue": 0
+      },
+      "marketChange24h": {
+        "changeRate": 0,
+        "high": 0,
+        "low": 0,
+        "open": 0,
+        "vol": 0,
+        "volValue": 0
+      },
+      "marketChange4h": {
+        "changeRate": 0,
+        "high": 0,
+        "low": 0,
+        "open": 0,
+        "vol": 0,
+        "volValue": 0
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0,
+      "quoteCurrency": "USDT",
+      "sell": 0,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "MEMEFI-USDT",
+      "symbolCode": "MEMEFI-USDT",
+      "takerCoefficient": 2.0,
+      "takerFeeRate": 0.001,
+      "trading": false,
+      "vol": 0,
+      "volValue": 0
+    },
+    "time_data_received": "13:00:04.6265"
+  },
+  {
+    "sequence": "419",
+    "data": {
+      "askSize": 0,
+      "baseCurrency": "MEMEFI",
+      "bidSize": 200,
+      "board": 0,
+      "buy": 0.15,
+      "changePrice": 0.78245,
+      "changeRate": 260.8166,
+      "close": 0.78545,
+      "datetime": 1732280406554,
+      "high": 0.88433,
+      "lastTradedPrice": 0.78545,
+      "low": 0.003,
+      "makerCoefficient": 2.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.78245,
+        "changeRate": 260.8166,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 2894.7,
+        "volValue": 707.220369
+      },
+      "marketChange24h": {
+        "changePrice": 0.78245,
+        "changeRate": 260.8166,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 2894.7,
+        "volValue": 707.220369
+      },
+      "marketChange4h": {
+        "changePrice": 0.78245,
+        "changeRate": 260.8166,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 2894.7,
+        "volValue": 707.220369
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.003,
+      "quoteCurrency": "USDT",
+      "sell": 0,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "MEMEFI-USDT",
+      "symbolCode": "MEMEFI-USDT",
+      "takerCoefficient": 2.0,
+      "takerFeeRate": 0.001,
+      "trading": false,
+      "vol": 2894.7,
+      "volValue": 707.220369
+    },
+    "time_data_received": "13:00:06.6049"
+  },
+  {
+    "sequence": "459",
+    "data": {
+      "askSize": 2932.7,
+      "baseCurrency": "MEMEFI",
+      "bidSize": 312.5,
+      "board": 0,
+      "buy": 0.16,
+      "changePrice": 0.077,
+      "changeRate": 25.6666,
+      "close": 0.08,
+      "datetime": 1732280408465,
+      "high": 0.88433,
+      "lastTradedPrice": 0.08,
+      "low": 0.003,
+      "makerCoefficient": 2.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.077,
+        "changeRate": 25.6666,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 7444.3,
+        "volValue": 925.828077
+      },
+      "marketChange24h": {
+        "changePrice": 0.077,
+        "changeRate": 25.6666,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 7444.3,
+        "volValue": 925.828077
+      },
+      "marketChange4h": {
+        "changePrice": 0.077,
+        "changeRate": 25.6666,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 7444.3,
+        "volValue": 925.828077
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.003,
+      "quoteCurrency": "USDT",
+      "sell": 0.7334,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "MEMEFI-USDT",
+      "symbolCode": "MEMEFI-USDT",
+      "takerCoefficient": 2.0,
+      "takerFeeRate": 0.001,
+      "trading": false,
+      "vol": 7444.3,
+      "volValue": 925.828077
+    },
+    "time_data_received": "13:00:08.5186"
+  },
+  {
+    "sequence": "541",
+    "data": {
+      "askSize": 22051.9,
+      "baseCurrency": "MEMEFI",
+      "bidSize": 69050.1,
+      "board": 0,
+      "buy": 0.032,
+      "changePrice": 0.02707,
+      "changeRate": 9.0233,
+      "close": 0.03007,
+      "datetime": 1732280412506,
+      "high": 0.88433,
+      "lastTradedPrice": 0.03007,
+      "low": 0.003,
+      "makerCoefficient": 2.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.02707,
+        "changeRate": 9.0233,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 2894.7,
+        "volValue": 707.220369
+      },
+      "marketChange24h": {
+        "changePrice": 0.02707,
+        "changeRate": 9.0233,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 2894.7,
+        "volValue": 707.220369
+      },
+      "marketChange4h": {
+        "changePrice": 0.02707,
+        "changeRate": 9.0233,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 2894.7,
+        "volValue": 707.220369
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.003,
+      "quoteCurrency": "USDT",
+      "sell": 0.113,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "MEMEFI-USDT",
+      "symbolCode": "MEMEFI-USDT",
+      "takerCoefficient": 2.0,
+      "takerFeeRate": 0.001,
+      "trading": false,
+      "vol": 2894.7,
+      "volValue": 707.220369
+    },
+    "time_data_received": "13:00:12.5466"
+  },
+  {
+    "sequence": "592",
+    "data": {
+      "askSize": 1482.6,
+      "baseCurrency": "MEMEFI",
+      "bidSize": 1338.6,
+      "board": 0,
+      "buy": 0.03771,
+      "changePrice": 0.11,
+      "changeRate": 36.6666,
+      "close": 0.113,
+      "datetime": 1732280414441,
+      "high": 0.88433,
+      "lastTradedPrice": 0.113,
+      "low": 0.003,
+      "makerCoefficient": 2.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.11,
+        "changeRate": 36.6666,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 2894.7,
+        "volValue": 707.220369
+      },
+      "marketChange24h": {
+        "changePrice": 0.11,
+        "changeRate": 36.6666,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 2894.7,
+        "volValue": 707.220369
+      },
+      "marketChange4h": {
+        "changePrice": 0.11,
+        "changeRate": 36.6666,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 2894.7,
+        "volValue": 707.220369
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.003,
+      "quoteCurrency": "USDT",
+      "sell": 0.113,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "MEMEFI-USDT",
+      "symbolCode": "MEMEFI-USDT",
+      "takerCoefficient": 2.0,
+      "takerFeeRate": 0.001,
+      "trading": false,
+      "vol": 2894.7,
+      "volValue": 707.220369
+    },
+    "time_data_received": "13:00:14.4806"
+  },
+  {
+    "sequence": "701",
+    "data": {
+      "askSize": 1916.4,
+      "baseCurrency": "MEMEFI",
+      "bidSize": 2285.7,
+      "board": 0,
+      "buy": 0.0875,
+      "changePrice": 0.0464,
+      "changeRate": 15.4666,
+      "close": 0.0494,
+      "datetime": 1732280416428,
+      "high": 0.88433,
+      "lastTradedPrice": 0.0494,
+      "low": 0.003,
+      "makerCoefficient": 2.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.0464,
+        "changeRate": 15.4666,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 216768.7,
+        "volValue": 8319.347884
+      },
+      "marketChange24h": {
+        "changePrice": 0.0464,
+        "changeRate": 15.4666,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 216768.7,
+        "volValue": 8319.347884
+      },
+      "marketChange4h": {
+        "changePrice": 0.0464,
+        "changeRate": 15.4666,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 216768.7,
+        "volValue": 8319.347884
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.003,
+      "quoteCurrency": "USDT",
+      "sell": 0.11299,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "MEMEFI-USDT",
+      "symbolCode": "MEMEFI-USDT",
+      "takerCoefficient": 2.0,
+      "takerFeeRate": 0.001,
+      "trading": false,
+      "vol": 216768.7,
+      "volValue": 8319.347884
+    },
+    "time_data_received": "13:00:16.4881"
+  },
+  {
+    "sequence": "796",
+    "data": {
+      "askSize": 6305.1,
+      "baseCurrency": "MEMEFI",
+      "bidSize": 2290,
+      "board": 0,
+      "buy": 0.04365,
+      "changePrice": 0.046,
+      "changeRate": 15.3333,
+      "close": 0.049,
+      "datetime": 1732280418526,
+      "high": 0.88433,
+      "lastTradedPrice": 0.049,
+      "low": 0.003,
+      "makerCoefficient": 2.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.046,
+        "changeRate": 15.3333,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 216768.7,
+        "volValue": 8319.347884
+      },
+      "marketChange24h": {
+        "changePrice": 0.046,
+        "changeRate": 15.3333,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 216768.7,
+        "volValue": 8319.347884
+      },
+      "marketChange4h": {
+        "changePrice": 0.046,
+        "changeRate": 15.3333,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 216768.7,
+        "volValue": 8319.347884
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.003,
+      "quoteCurrency": "USDT",
+      "sell": 0.0793,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "MEMEFI-USDT",
+      "symbolCode": "MEMEFI-USDT",
+      "takerCoefficient": 2.0,
+      "takerFeeRate": 0.001,
+      "trading": false,
+      "vol": 216768.7,
+      "volValue": 8319.347884
+    },
+    "time_data_received": "13:00:18.6256"
+  },
+  {
+    "sequence": "954",
+    "data": {
+      "askSize": 4919.4,
+      "baseCurrency": "MEMEFI",
+      "bidSize": 26178.3,
+      "board": 0,
+      "buy": 0.02,
+      "changePrice": 0.017,
+      "changeRate": 5.6666,
+      "close": 0.02,
+      "datetime": 1732280420480,
+      "high": 0.88433,
+      "lastTradedPrice": 0.02,
+      "low": 0.003,
+      "makerCoefficient": 2.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.017,
+        "changeRate": 5.6666,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 216768.7,
+        "volValue": 8319.347884
+      },
+      "marketChange24h": {
+        "changePrice": 0.017,
+        "changeRate": 5.6666,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 216768.7,
+        "volValue": 8319.347884
+      },
+      "marketChange4h": {
+        "changePrice": 0.017,
+        "changeRate": 5.6666,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 216768.7,
+        "volValue": 8319.347884
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.003,
+      "quoteCurrency": "USDT",
+      "sell": 0.02559,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "MEMEFI-USDT",
+      "symbolCode": "MEMEFI-USDT",
+      "takerCoefficient": 2.0,
+      "takerFeeRate": 0.001,
+      "trading": false,
+      "vol": 216768.7,
+      "volValue": 8319.347884
+    },
+    "time_data_received": "13:00:20.5268"
+  },
+  {
+    "sequence": "988",
+    "data": {
+      "askSize": 4873.7,
+      "baseCurrency": "MEMEFI",
+      "bidSize": 9978.3,
+      "board": 0,
+      "buy": 0.02,
+      "changePrice": 0.018,
+      "changeRate": 6.0,
+      "close": 0.021,
+      "datetime": 1732280422403,
+      "high": 0.88433,
+      "lastTradedPrice": 0.021,
+      "low": 0.003,
+      "makerCoefficient": 2.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.018,
+        "changeRate": 6.0,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 216768.7,
+        "volValue": 8319.347884
+      },
+      "marketChange24h": {
+        "changePrice": 0.018,
+        "changeRate": 6.0,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 216768.7,
+        "volValue": 8319.347884
+      },
+      "marketChange4h": {
+        "changePrice": 0.018,
+        "changeRate": 6.0,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 216768.7,
+        "volValue": 8319.347884
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.003,
+      "quoteCurrency": "USDT",
+      "sell": 0.03005,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "MEMEFI-USDT",
+      "symbolCode": "MEMEFI-USDT",
+      "takerCoefficient": 2.0,
+      "takerFeeRate": 0.001,
+      "trading": false,
+      "vol": 216768.7,
+      "volValue": 8319.347884
+    },
+    "time_data_received": "13:00:22.5710"
+  },
+  {
+    "sequence": "1022",
+    "data": {
+      "askSize": 2241.2,
+      "baseCurrency": "MEMEFI",
+      "bidSize": 615.8,
+      "board": 0,
+      "buy": 0.016,
+      "changePrice": 0.013,
+      "changeRate": 4.3333,
+      "close": 0.016,
+      "datetime": 1732280424501,
+      "high": 0.88433,
+      "lastTradedPrice": 0.016,
+      "low": 0.003,
+      "makerCoefficient": 2.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.013,
+        "changeRate": 4.3333,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 369965.3,
+        "volValue": 12379.41232
+      },
+      "marketChange24h": {
+        "changePrice": 0.013,
+        "changeRate": 4.3333,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 369965.3,
+        "volValue": 12379.41232
+      },
+      "marketChange4h": {
+        "changePrice": 0.013,
+        "changeRate": 4.3333,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 369965.3,
+        "volValue": 12379.41232
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.003,
+      "quoteCurrency": "USDT",
+      "sell": 0.01999,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "MEMEFI-USDT",
+      "symbolCode": "MEMEFI-USDT",
+      "takerCoefficient": 2.0,
+      "takerFeeRate": 0.001,
+      "trading": true,
+      "vol": 369965.3,
+      "volValue": 12379.41232
+    },
+    "time_data_received": "13:00:24.5467"
+  },
+  {
+    "sequence": "1055",
+    "data": {
+      "askSize": 68327.7,
+      "baseCurrency": "MEMEFI",
+      "bidSize": 3062.3,
+      "board": 0,
+      "buy": 0.016,
+      "changePrice": 0.017,
+      "changeRate": 5.6666,
+      "close": 0.02,
+      "datetime": 1732280426289,
+      "high": 0.88433,
+      "lastTradedPrice": 0.02,
+      "low": 0.003,
+      "makerCoefficient": 2.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.017,
+        "changeRate": 5.6666,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 216768.7,
+        "volValue": 8319.347884
+      },
+      "marketChange24h": {
+        "changePrice": 0.017,
+        "changeRate": 5.6666,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 216768.7,
+        "volValue": 8319.347884
+      },
+      "marketChange4h": {
+        "changePrice": 0.017,
+        "changeRate": 5.6666,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 216768.7,
+        "volValue": 8319.347884
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.003,
+      "quoteCurrency": "USDT",
+      "sell": 0.02,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "MEMEFI-USDT",
+      "symbolCode": "MEMEFI-USDT",
+      "takerCoefficient": 2.0,
+      "takerFeeRate": 0.001,
+      "trading": false,
+      "vol": 216768.7,
+      "volValue": 8319.347884
+    },
+    "time_data_received": "13:00:26.3402"
+  },
+  {
+    "sequence": "1064",
+    "data": {
+      "askSize": 74325.6,
+      "baseCurrency": "MEMEFI",
+      "bidSize": 4108.9,
+      "board": 0,
+      "buy": 0.01999,
+      "changePrice": 0.01699,
+      "changeRate": 5.6633,
+      "close": 0.01999,
+      "datetime": 1732280428467,
+      "high": 0.88433,
+      "lastTradedPrice": 0.01999,
+      "low": 0.003,
+      "makerCoefficient": 2.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.01699,
+        "changeRate": 5.6633,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 369965.3,
+        "volValue": 12379.41232
+      },
+      "marketChange24h": {
+        "changePrice": 0.01699,
+        "changeRate": 5.6633,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 369965.3,
+        "volValue": 12379.41232
+      },
+      "marketChange4h": {
+        "changePrice": 0.01699,
+        "changeRate": 5.6633,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 369965.3,
+        "volValue": 12379.41232
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.003,
+      "quoteCurrency": "USDT",
+      "sell": 0.02,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "MEMEFI-USDT",
+      "symbolCode": "MEMEFI-USDT",
+      "takerCoefficient": 2.0,
+      "takerFeeRate": 0.001,
+      "trading": true,
+      "vol": 369965.3,
+      "volValue": 12379.41232
+    },
+    "time_data_received": "13:00:28.5085"
+  },
+  {
+    "sequence": "1141",
+    "data": {
+      "askSize": 4095.9,
+      "baseCurrency": "MEMEFI",
+      "bidSize": 3909.8,
+      "board": 0,
+      "buy": 0.016,
+      "changePrice": 0.01618,
+      "changeRate": 5.3933,
+      "close": 0.01918,
+      "datetime": 1732280430539,
+      "high": 0.88433,
+      "lastTradedPrice": 0.01918,
+      "low": 0.003,
+      "makerCoefficient": 2.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.01618,
+        "changeRate": 5.3933,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 464703.6,
+        "volValue": 14234.694849
+      },
+      "marketChange24h": {
+        "changePrice": 0.01618,
+        "changeRate": 5.3933,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 464703.6,
+        "volValue": 14234.694849
+      },
+      "marketChange4h": {
+        "changePrice": 0.01618,
+        "changeRate": 5.3933,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 464703.6,
+        "volValue": 14234.694849
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.003,
+      "quoteCurrency": "USDT",
+      "sell": 0.01918,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "MEMEFI-USDT",
+      "symbolCode": "MEMEFI-USDT",
+      "takerCoefficient": 2.0,
+      "takerFeeRate": 0.001,
+      "trading": true,
+      "vol": 464703.6,
+      "volValue": 14234.694849
+    },
+    "time_data_received": "13:00:30.5890"
+  },
+  {
+    "sequence": "1223",
+    "data": {
+      "askSize": 191473.2,
+      "baseCurrency": "MEMEFI",
+      "bidSize": 3909.8,
+      "board": 0,
+      "buy": 0.016,
+      "changePrice": 0.01581,
+      "changeRate": 5.27,
+      "close": 0.01881,
+      "datetime": 1732280432377,
+      "high": 0.88433,
+      "lastTradedPrice": 0.01881,
+      "low": 0.003,
+      "makerCoefficient": 2.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.01581,
+        "changeRate": 5.27,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 471453.0,
+        "volValue": 14366.686361
+      },
+      "marketChange24h": {
+        "changePrice": 0.01581,
+        "changeRate": 5.27,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 471453.0,
+        "volValue": 14366.686361
+      },
+      "marketChange4h": {
+        "changePrice": 0.01581,
+        "changeRate": 5.27,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 471453.0,
+        "volValue": 14366.686361
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.003,
+      "quoteCurrency": "USDT",
+      "sell": 0.02,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "MEMEFI-USDT",
+      "symbolCode": "MEMEFI-USDT",
+      "takerCoefficient": 2.0,
+      "takerFeeRate": 0.001,
+      "trading": true,
+      "vol": 471453.0,
+      "volValue": 14366.686361
+    },
+    "time_data_received": "13:00:32.4419"
+  },
+  {
+    "sequence": "1317",
+    "data": {
+      "askSize": 4748.3,
+      "baseCurrency": "MEMEFI",
+      "bidSize": 5948,
+      "board": 0,
+      "buy": 0.01892,
+      "changePrice": 0.01609,
+      "changeRate": 5.3633,
+      "close": 0.01909,
+      "datetime": 1732280434472,
+      "high": 0.88433,
+      "lastTradedPrice": 0.01909,
+      "low": 0.003,
+      "makerCoefficient": 2.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.01609,
+        "changeRate": 5.3633,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 369965.3,
+        "volValue": 12379.41232
+      },
+      "marketChange24h": {
+        "changePrice": 0.01609,
+        "changeRate": 5.3633,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 369965.3,
+        "volValue": 12379.41232
+      },
+      "marketChange4h": {
+        "changePrice": 0.01609,
+        "changeRate": 5.3633,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 369965.3,
+        "volValue": 12379.41232
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.003,
+      "quoteCurrency": "USDT",
+      "sell": 0.01909,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "MEMEFI-USDT",
+      "symbolCode": "MEMEFI-USDT",
+      "takerCoefficient": 2.0,
+      "takerFeeRate": 0.001,
+      "trading": true,
+      "vol": 369965.3,
+      "volValue": 12379.41232
+    },
+    "time_data_received": "13:00:34.5139"
+  },
+  {
+    "sequence": "1419",
+    "data": {
+      "askSize": 5380.8,
+      "baseCurrency": "MEMEFI",
+      "bidSize": 617.2,
+      "board": 0,
+      "buy": 0.0162,
+      "changePrice": 0.016,
+      "changeRate": 5.3333,
+      "close": 0.019,
+      "datetime": 1732280436352,
+      "high": 0.88433,
+      "lastTradedPrice": 0.019,
+      "low": 0.003,
+      "makerCoefficient": 2.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.016,
+        "changeRate": 5.3333,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 464703.6,
+        "volValue": 14234.694849
+      },
+      "marketChange24h": {
+        "changePrice": 0.016,
+        "changeRate": 5.3333,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 464703.6,
+        "volValue": 14234.694849
+      },
+      "marketChange4h": {
+        "changePrice": 0.016,
+        "changeRate": 5.3333,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 464703.6,
+        "volValue": 14234.694849
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.003,
+      "quoteCurrency": "USDT",
+      "sell": 0.01859,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "MEMEFI-USDT",
+      "symbolCode": "MEMEFI-USDT",
+      "takerCoefficient": 2.0,
+      "takerFeeRate": 0.001,
+      "trading": true,
+      "vol": 464703.6,
+      "volValue": 14234.694849
+    },
+    "time_data_received": "13:00:36.4333"
+  },
+  {
+    "sequence": "1477",
+    "data": {
+      "askSize": 16587.1,
+      "baseCurrency": "MEMEFI",
+      "bidSize": 905.5,
+      "board": 0,
+      "buy": 0.016,
+      "changePrice": 0.0132,
+      "changeRate": 4.4,
+      "close": 0.0162,
+      "datetime": 1732280438524,
+      "high": 0.88433,
+      "lastTradedPrice": 0.0162,
+      "low": 0.003,
+      "makerCoefficient": 2.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.0132,
+        "changeRate": 4.4,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 471453.0,
+        "volValue": 14366.686361
+      },
+      "marketChange24h": {
+        "changePrice": 0.0132,
+        "changeRate": 4.4,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 471453.0,
+        "volValue": 14366.686361
+      },
+      "marketChange4h": {
+        "changePrice": 0.0132,
+        "changeRate": 4.4,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 471453.0,
+        "volValue": 14366.686361
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.003,
+      "quoteCurrency": "USDT",
+      "sell": 0.0162,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "MEMEFI-USDT",
+      "symbolCode": "MEMEFI-USDT",
+      "takerCoefficient": 2.0,
+      "takerFeeRate": 0.001,
+      "trading": true,
+      "vol": 471453.0,
+      "volValue": 14366.686361
+    },
+    "time_data_received": "13:00:38.5674"
+  },
+  {
+    "sequence": "1529",
+    "data": {
+      "askSize": 14054,
+      "baseCurrency": "MEMEFI",
+      "bidSize": 905.5,
+      "board": 0,
+      "buy": 0.016,
+      "changePrice": 0.0132,
+      "changeRate": 4.4,
+      "close": 0.0162,
+      "datetime": 1732280440419,
+      "high": 0.88433,
+      "lastTradedPrice": 0.0162,
+      "low": 0.003,
+      "makerCoefficient": 2.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.0132,
+        "changeRate": 4.4,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 509447.0,
+        "volValue": 15080.297915
+      },
+      "marketChange24h": {
+        "changePrice": 0.0132,
+        "changeRate": 4.4,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 509447.0,
+        "volValue": 15080.297915
+      },
+      "marketChange4h": {
+        "changePrice": 0.0132,
+        "changeRate": 4.4,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 509447.0,
+        "volValue": 15080.297915
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.003,
+      "quoteCurrency": "USDT",
+      "sell": 0.0162,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "MEMEFI-USDT",
+      "symbolCode": "MEMEFI-USDT",
+      "takerCoefficient": 2.0,
+      "takerFeeRate": 0.001,
+      "trading": true,
+      "vol": 509447.0,
+      "volValue": 15080.297915
+    },
+    "time_data_received": "13:00:40.4657"
+  },
+  {
+    "sequence": "1574",
+    "data": {
+      "askSize": 33214.8,
+      "baseCurrency": "MEMEFI",
+      "bidSize": 2000,
+      "board": 0,
+      "buy": 0.013,
+      "changePrice": 0.0102,
+      "changeRate": 3.4,
+      "close": 0.0132,
+      "datetime": 1732280442488,
+      "high": 0.88433,
+      "lastTradedPrice": 0.0132,
+      "low": 0.003,
+      "makerCoefficient": 2.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.0102,
+        "changeRate": 3.4,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 603435.8,
+        "volValue": 16431.734556
+      },
+      "marketChange24h": {
+        "changePrice": 0.0102,
+        "changeRate": 3.4,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 603435.8,
+        "volValue": 16431.734556
+      },
+      "marketChange4h": {
+        "changePrice": 0.0102,
+        "changeRate": 3.4,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 603435.8,
+        "volValue": 16431.734556
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.003,
+      "quoteCurrency": "USDT",
+      "sell": 0.0132,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "MEMEFI-USDT",
+      "symbolCode": "MEMEFI-USDT",
+      "takerCoefficient": 2.0,
+      "takerFeeRate": 0.001,
+      "trading": true,
+      "vol": 603435.8,
+      "volValue": 16431.734556
+    },
+    "time_data_received": "13:00:42.5394"
+  },
+  {
+    "sequence": "1657",
+    "data": {
+      "askSize": 42709.9,
+      "baseCurrency": "MEMEFI",
+      "bidSize": 161.6,
+      "board": 0,
+      "buy": 0.01323,
+      "changePrice": 0.013,
+      "changeRate": 4.3333,
+      "close": 0.016,
+      "datetime": 1732280444448,
+      "high": 0.88433,
+      "lastTradedPrice": 0.016,
+      "low": 0.003,
+      "makerCoefficient": 2.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.013,
+        "changeRate": 4.3333,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 603435.8,
+        "volValue": 16431.734556
+      },
+      "marketChange24h": {
+        "changePrice": 0.013,
+        "changeRate": 4.3333,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 603435.8,
+        "volValue": 16431.734556
+      },
+      "marketChange4h": {
+        "changePrice": 0.013,
+        "changeRate": 4.3333,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 603435.8,
+        "volValue": 16431.734556
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.003,
+      "quoteCurrency": "USDT",
+      "sell": 0.016,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "MEMEFI-USDT",
+      "symbolCode": "MEMEFI-USDT",
+      "takerCoefficient": 2.0,
+      "takerFeeRate": 0.001,
+      "trading": true,
+      "vol": 603435.8,
+      "volValue": 16431.734556
+    },
+    "time_data_received": "13:00:44.4876"
+  },
+  {
+    "sequence": "1696",
+    "data": {
+      "askSize": 797.3,
+      "baseCurrency": "MEMEFI",
+      "bidSize": 4536.1,
+      "board": 0,
+      "buy": 0.01323,
+      "changePrice": 0.0117,
+      "changeRate": 3.9,
+      "close": 0.0147,
+      "datetime": 1732280446447,
+      "high": 0.88433,
+      "lastTradedPrice": 0.0147,
+      "low": 0.003,
+      "makerCoefficient": 2.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.0117,
+        "changeRate": 3.9,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 603435.8,
+        "volValue": 16431.734556
+      },
+      "marketChange24h": {
+        "changePrice": 0.0117,
+        "changeRate": 3.9,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 603435.8,
+        "volValue": 16431.734556
+      },
+      "marketChange4h": {
+        "changePrice": 0.0117,
+        "changeRate": 3.9,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 603435.8,
+        "volValue": 16431.734556
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.003,
+      "quoteCurrency": "USDT",
+      "sell": 0.0147,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "MEMEFI-USDT",
+      "symbolCode": "MEMEFI-USDT",
+      "takerCoefficient": 2.0,
+      "takerFeeRate": 0.001,
+      "trading": true,
+      "vol": 603435.8,
+      "volValue": 16431.734556
+    },
+    "time_data_received": "13:00:46.4889"
+  },
+  {
+    "sequence": "1731",
+    "data": {
+      "askSize": 1382.9,
+      "baseCurrency": "MEMEFI",
+      "bidSize": 768,
+      "board": 0,
+      "buy": 0.01302,
+      "changePrice": 0.01023,
+      "changeRate": 3.41,
+      "close": 0.01323,
+      "datetime": 1732280448381,
+      "high": 0.88433,
+      "lastTradedPrice": 0.01323,
+      "low": 0.003,
+      "makerCoefficient": 2.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.01023,
+        "changeRate": 3.41,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 668458.5,
+        "volValue": 17345.650629
+      },
+      "marketChange24h": {
+        "changePrice": 0.01023,
+        "changeRate": 3.41,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 668458.5,
+        "volValue": 17345.650629
+      },
+      "marketChange4h": {
+        "changePrice": 0.01023,
+        "changeRate": 3.41,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 668458.5,
+        "volValue": 17345.650629
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.003,
+      "quoteCurrency": "USDT",
+      "sell": 0.01323,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "MEMEFI-USDT",
+      "symbolCode": "MEMEFI-USDT",
+      "takerCoefficient": 2.0,
+      "takerFeeRate": 0.001,
+      "trading": true,
+      "vol": 668458.5,
+      "volValue": 17345.650629
+    },
+    "time_data_received": "13:00:48.4267"
+  },
+  {
+    "sequence": "1800",
+    "data": {
+      "askSize": 9999810.7,
+      "baseCurrency": "MEMEFI",
+      "bidSize": 9709.3,
+      "board": 0,
+      "buy": 0.01324,
+      "changePrice": 0.01024,
+      "changeRate": 3.4133,
+      "close": 0.01324,
+      "datetime": 1732280450490,
+      "high": 0.88433,
+      "lastTradedPrice": 0.01324,
+      "low": 0.003,
+      "makerCoefficient": 2.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.01024,
+        "changeRate": 3.4133,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 677746.9,
+        "volValue": 17460.726166
+      },
+      "marketChange24h": {
+        "changePrice": 0.01024,
+        "changeRate": 3.4133,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 677746.9,
+        "volValue": 17460.726166
+      },
+      "marketChange4h": {
+        "changePrice": 0.01024,
+        "changeRate": 3.4133,
+        "high": 0.88433,
+        "low": 0.003,
+        "open": 0.003,
+        "vol": 677746.9,
+        "volValue": 17460.726166
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.003,
+      "quoteCurrency": "USDT",
+      "sell": 0.0147,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "MEMEFI-USDT",
+      "symbolCode": "MEMEFI-USDT",
+      "takerCoefficient": 2.0,
+      "takerFeeRate": 0.001,
+      "trading": true,
+      "vol": 677746.9,
+      "volValue": 17460.726166
+    },
+    "time_data_received": "13:00:50.5382"
+  }
+]

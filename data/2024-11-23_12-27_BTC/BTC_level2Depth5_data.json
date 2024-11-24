@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "symbol": "BTC",
+    "channel": "level2Depth5",
+    "start_time": "12:27:29.2272",
+    "release_time": "12:27:32.2272",
+    "end_time": "12:28:02.2272",
+    "total_messages": 0,
+    "final_snapshot": {
+      "time": "12:27:32.0080",
+      "symbol": "BTC-USDT",
+      "price_high": "99595",
+      "price_last": "98483.1",
+      "price_low": "97017.5",
+      "price_avg": "98197.50976723",
+      "volValue_USDT": "268598823.026289716"
+    }
+  },
+  "data": []
+}

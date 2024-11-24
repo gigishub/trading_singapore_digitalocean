@@ -1,0 +1,5942 @@
+[
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352370631",
+      "time_data_received": "08:59:30.6549"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352370957",
+      "time_data_received": "08:59:30.9951"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352371179",
+      "time_data_received": "08:59:31.2008"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352371573",
+      "time_data_received": "08:59:31.5977"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352371836",
+      "time_data_received": "08:59:31.8597"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352372178",
+      "time_data_received": "08:59:32.2042"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352372468",
+      "time_data_received": "08:59:32.4933"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352372726",
+      "time_data_received": "08:59:32.7498"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352372989",
+      "time_data_received": "08:59:33.0098"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352373317",
+      "time_data_received": "08:59:33.3503"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352373617",
+      "time_data_received": "08:59:33.6410"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352373947",
+      "time_data_received": "08:59:33.9694"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352374236",
+      "time_data_received": "08:59:34.2644"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352374526",
+      "time_data_received": "08:59:34.5513"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352374789",
+      "time_data_received": "08:59:34.8188"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352375164",
+      "time_data_received": "08:59:35.1862"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352375439",
+      "time_data_received": "08:59:35.4631"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352375708",
+      "time_data_received": "08:59:35.7291"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352376025",
+      "time_data_received": "08:59:36.0468"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352376306",
+      "time_data_received": "08:59:36.3262"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352376671",
+      "time_data_received": "08:59:36.6944"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352376953",
+      "time_data_received": "08:59:36.9767"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352377299",
+      "time_data_received": "08:59:37.3259"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352377607",
+      "time_data_received": "08:59:37.6336"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352377859",
+      "time_data_received": "08:59:37.8786"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352378234",
+      "time_data_received": "08:59:38.2575"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352378459",
+      "time_data_received": "08:59:38.4854"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352378739",
+      "time_data_received": "08:59:38.7603"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352379086",
+      "time_data_received": "08:59:39.1125"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352379376",
+      "time_data_received": "08:59:39.4027"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352379707",
+      "time_data_received": "08:59:39.7346"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352379946",
+      "time_data_received": "08:59:39.9657"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352380275",
+      "time_data_received": "08:59:40.3026"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352380562",
+      "time_data_received": "08:59:40.5830"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352380915",
+      "time_data_received": "08:59:40.9426"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352381185",
+      "time_data_received": "08:59:41.2090"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352381478",
+      "time_data_received": "08:59:41.5010"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352381822",
+      "time_data_received": "08:59:41.8485"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352382133",
+      "time_data_received": "08:59:42.1584"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352382380",
+      "time_data_received": "08:59:42.4025"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352382701",
+      "time_data_received": "08:59:42.7264"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352383038",
+      "time_data_received": "08:59:43.0717"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352383293",
+      "time_data_received": "08:59:43.3217"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352383601",
+      "time_data_received": "08:59:43.6250"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352383863",
+      "time_data_received": "08:59:43.8826"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352384231",
+      "time_data_received": "08:59:44.2568"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352384501",
+      "time_data_received": "08:59:44.5298"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352384762",
+      "time_data_received": "08:59:44.7847"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352385095",
+      "time_data_received": "08:59:45.1171"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352385402",
+      "time_data_received": "08:59:45.4296"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352385733",
+      "time_data_received": "08:59:45.7584"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352386016",
+      "time_data_received": "08:59:46.0434"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352386308",
+      "time_data_received": "08:59:46.3322"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352386673",
+      "time_data_received": "08:59:46.6996"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352386895",
+      "time_data_received": "08:59:46.9223"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352387262",
+      "time_data_received": "08:59:47.2858"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352387541",
+      "time_data_received": "08:59:47.5706"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352387788",
+      "time_data_received": "08:59:47.8095"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352388124",
+      "time_data_received": "08:59:48.1457"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352388389",
+      "time_data_received": "08:59:48.4123"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352388724",
+      "time_data_received": "08:59:48.7481"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352389058",
+      "time_data_received": "08:59:49.0856"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352389329",
+      "time_data_received": "08:59:49.3556"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352389614",
+      "time_data_received": "08:59:49.6451"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352389918",
+      "time_data_received": "08:59:49.9445"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352390283",
+      "time_data_received": "08:59:50.3122"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352390538",
+      "time_data_received": "08:59:50.5587"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352390838",
+      "time_data_received": "08:59:50.8642"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352391156",
+      "time_data_received": "08:59:51.1841"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352391397",
+      "time_data_received": "08:59:51.4187"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352391694",
+      "time_data_received": "08:59:51.7144"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352392026",
+      "time_data_received": "08:59:52.0486"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352392347",
+      "time_data_received": "08:59:52.3745"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352392686",
+      "time_data_received": "08:59:52.7104"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352392940",
+      "time_data_received": "08:59:52.9623"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352393222",
+      "time_data_received": "08:59:53.2434"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352393543",
+      "time_data_received": "08:59:53.5697"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352393843",
+      "time_data_received": "08:59:53.8720"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352394118",
+      "time_data_received": "08:59:54.1412"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352394482",
+      "time_data_received": "08:59:54.5090"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352394737",
+      "time_data_received": "08:59:54.7580"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352395044",
+      "time_data_received": "08:59:55.0666"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352395306",
+      "time_data_received": "08:59:55.3273"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352395629",
+      "time_data_received": "08:59:55.6485"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352395950",
+      "time_data_received": "08:59:55.9776"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352396259",
+      "time_data_received": "08:59:56.2864"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352396593",
+      "time_data_received": "08:59:56.6210"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352396897",
+      "time_data_received": "08:59:56.9248"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352397158",
+      "time_data_received": "08:59:57.1817"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352397470",
+      "time_data_received": "08:59:57.4939"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352397748",
+      "time_data_received": "08:59:57.7716"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352398031",
+      "time_data_received": "08:59:58.0526"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352398383",
+      "time_data_received": "08:59:58.4053"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352398637",
+      "time_data_received": "08:59:58.6600"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352399023",
+      "time_data_received": "08:59:59.0545"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352399250",
+      "time_data_received": "08:59:59.2768"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352399617",
+      "time_data_received": "08:59:59.6464"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0",
+      "open24h": "0",
+      "high24h": "0",
+      "low24h": "0",
+      "change24h": "0",
+      "bidPr": "0.000000825",
+      "askPr": "0.0000008272",
+      "bidSz": "63358489.6",
+      "askSz": "65042090.4",
+      "baseVolume": "0",
+      "quoteVolume": "0",
+      "openUtc": "0.0000000000",
+      "changeUtc24h": "0",
+      "ts": "1732352399819",
+      "time_data_received": "08:59:59.8400"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008119",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008119",
+      "low24h": "0.00000007",
+      "change24h": "10.59857",
+      "bidPr": "0.0000008096",
+      "askPr": "0.0000008119",
+      "bidSz": "357974224",
+      "askSz": "145133355.1",
+      "baseVolume": "228654235.2",
+      "quoteVolume": "174",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.59857",
+      "ts": "1732352400520",
+      "time_data_received": "09:00:00.5420"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008118",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008119",
+      "low24h": "0.00000007",
+      "change24h": "10.59714",
+      "bidPr": "0.0000008096",
+      "askPr": "0.0000008118",
+      "bidSz": "357974224",
+      "askSz": "148899128",
+      "baseVolume": "228654235.2",
+      "quoteVolume": "174",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.59857",
+      "ts": "1732352400524",
+      "time_data_received": "09:00:00.5480"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008118",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008119",
+      "low24h": "0.00000007",
+      "change24h": "10.59714",
+      "bidPr": "0.0000008096",
+      "askPr": "0.0000008118",
+      "bidSz": "367321951.9",
+      "askSz": "92718107.4",
+      "baseVolume": "228654235.2",
+      "quoteVolume": "174",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.59857",
+      "ts": "1732352400814",
+      "time_data_received": "09:00:00.8377"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008121",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008121",
+      "low24h": "0.00000007",
+      "change24h": "10.60143",
+      "bidPr": "0.0000008096",
+      "askPr": "0.0000008121",
+      "bidSz": "346111405.8",
+      "askSz": "131565566.7",
+      "baseVolume": "643588051.5",
+      "quoteVolume": "510.9",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.60143",
+      "ts": "1732352401089",
+      "time_data_received": "09:00:01.1103"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008122",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008122",
+      "low24h": "0.00000007",
+      "change24h": "10.60286",
+      "bidPr": "0.0000008118",
+      "askPr": "0.0000008122",
+      "bidSz": "3990721.7",
+      "askSz": "402406333",
+      "baseVolume": "968559258.4",
+      "quoteVolume": "774.8",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.60286",
+      "ts": "1732352401392",
+      "time_data_received": "09:00:01.4341"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008122",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008122",
+      "low24h": "0.00000007",
+      "change24h": "10.60286",
+      "bidPr": "0.0000008118",
+      "askPr": "0.0000008122",
+      "bidSz": "3990721.7",
+      "askSz": "334591427.4",
+      "baseVolume": "968559258.4",
+      "quoteVolume": "774.8",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.60286",
+      "ts": "1732352401705",
+      "time_data_received": "09:00:01.7594"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008122",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008122",
+      "low24h": "0.00000007",
+      "change24h": "10.60286",
+      "bidPr": "0.0000008096",
+      "askPr": "0.0000008122",
+      "bidSz": "375240575.1",
+      "askSz": "169296138.6",
+      "baseVolume": "1287041696.8",
+      "quoteVolume": "1033.4",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.59714",
+      "ts": "1732352402048",
+      "time_data_received": "09:00:02.1116"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008122",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008124",
+      "low24h": "0.00000007",
+      "change24h": "10.60286",
+      "bidPr": "0.0000008121",
+      "askPr": "0.0000008122",
+      "bidSz": "11912861.2",
+      "askSz": "80468609.2",
+      "baseVolume": "1814178749.7",
+      "quoteVolume": "1461.6",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.60571",
+      "ts": "1732352402260",
+      "time_data_received": "09:00:02.2900"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008124",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008124",
+      "low24h": "0.00000007",
+      "change24h": "10.60571",
+      "bidPr": "0.0000008122",
+      "askPr": "0.0000008124",
+      "bidSz": "123508177.2",
+      "askSz": "226838417.2",
+      "baseVolume": "2142204144.1",
+      "quoteVolume": "1728",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.60143",
+      "ts": "1732352402631",
+      "time_data_received": "09:00:02.6553"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000812",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008124",
+      "low24h": "0.00000007",
+      "change24h": "10.60000",
+      "bidPr": "0.0000008096",
+      "askPr": "0.000000812",
+      "bidSz": "366210118.7",
+      "askSz": "58145314.2",
+      "baseVolume": "2151987587.4",
+      "quoteVolume": "1736",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.60000",
+      "ts": "1732352402884",
+      "time_data_received": "09:00:02.9071"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008124",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008125",
+      "low24h": "0.00000007",
+      "change24h": "10.60571",
+      "bidPr": "0.00000081",
+      "askPr": "0.0000008124",
+      "bidSz": "83460917.7",
+      "askSz": "75685188.3",
+      "baseVolume": "2636439419.7",
+      "quoteVolume": "2129.5",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.60571",
+      "ts": "1732352403204",
+      "time_data_received": "09:00:03.2243"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008126",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.60857",
+      "bidPr": "0.0000008096",
+      "askPr": "0.0000008126",
+      "bidSz": "357974224",
+      "askSz": "300178345.1",
+      "baseVolume": "2677196932.1",
+      "quoteVolume": "2162.7",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.60857",
+      "ts": "1732352403545",
+      "time_data_received": "09:00:03.5686"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008126",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.60857",
+      "bidPr": "0.0000008096",
+      "askPr": "0.0000008126",
+      "bidSz": "357974224",
+      "askSz": "300178345.1",
+      "baseVolume": "2677196932.1",
+      "quoteVolume": "2162.7",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.60857",
+      "ts": "1732352403801",
+      "time_data_received": "09:00:03.8276"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008126",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.60857",
+      "bidPr": "0.0000008096",
+      "askPr": "0.0000008126",
+      "bidSz": "376911924.7",
+      "askSz": "243805443.9",
+      "baseVolume": "2954790242.3",
+      "quoteVolume": "2388.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.60857",
+      "ts": "1732352404140",
+      "time_data_received": "09:00:04.1695"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008126",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.60857",
+      "bidPr": "0.0000008122",
+      "askPr": "0.0000008126",
+      "bidSz": "5595897.2",
+      "askSz": "227925284.8",
+      "baseVolume": "2976599930.7",
+      "quoteVolume": "2405.9",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.60857",
+      "ts": "1732352404445",
+      "time_data_received": "09:00:04.4682"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008121",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.60143",
+      "bidPr": "0.00000081",
+      "askPr": "0.0000008121",
+      "bidSz": "83460917.8",
+      "askSz": "184916212",
+      "baseVolume": "3010295815.1",
+      "quoteVolume": "2433.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.60286",
+      "ts": "1732352404758",
+      "time_data_received": "09:00:04.7824"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008123",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.60429",
+      "bidPr": "0.0000008104",
+      "askPr": "0.0000008122",
+      "bidSz": "61697926.9",
+      "askSz": "1458664892",
+      "baseVolume": "3140399900.3",
+      "quoteVolume": "2538.9",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.60429",
+      "ts": "1732352405123",
+      "time_data_received": "09:00:05.1471"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008122",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.60286",
+      "bidPr": "0.0000008104",
+      "askPr": "0.0000008122",
+      "bidSz": "61697926.9",
+      "askSz": "1359993154.9",
+      "baseVolume": "3267029298.9",
+      "quoteVolume": "2641.8",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.60286",
+      "ts": "1732352405290",
+      "time_data_received": "09:00:05.3150"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008122",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.60286",
+      "bidPr": "0.0000008104",
+      "askPr": "0.0000008122",
+      "bidSz": "61697926.9",
+      "askSz": "1338073936.3",
+      "baseVolume": "3272628844.1",
+      "quoteVolume": "2646.3",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.60286",
+      "ts": "1732352405652",
+      "time_data_received": "09:00:05.6761"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008122",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.60286",
+      "bidPr": "0.0000008104",
+      "askPr": "0.0000008122",
+      "bidSz": "61697926.9",
+      "askSz": "1335822060.6",
+      "baseVolume": "3272628844.1",
+      "quoteVolume": "2646.3",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.60286",
+      "ts": "1732352405917",
+      "time_data_received": "09:00:05.9396"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008122",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.60286",
+      "bidPr": "0.0000008108",
+      "askPr": "0.0000008122",
+      "bidSz": "61667488.8",
+      "askSz": "1332474391.1",
+      "baseVolume": "3325605531.4",
+      "quoteVolume": "2689.3",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.60286",
+      "ts": "1732352406245",
+      "time_data_received": "09:00:06.2683"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008122",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.60286",
+      "bidPr": "0.0000008118",
+      "askPr": "0.0000008122",
+      "bidSz": "18238730.2",
+      "askSz": "1237169756.1",
+      "baseVolume": "3367933479.1",
+      "quoteVolume": "2723.7",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.60286",
+      "ts": "1732352406519",
+      "time_data_received": "09:00:06.5414"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008122",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.60286",
+      "bidPr": "0.0000008118",
+      "askPr": "0.0000008122",
+      "bidSz": "18238730.2",
+      "askSz": "1321330707.2",
+      "baseVolume": "3367933479.1",
+      "quoteVolume": "2723.7",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.60286",
+      "ts": "1732352406794",
+      "time_data_received": "09:00:06.8172"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008122",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.60286",
+      "bidPr": "0.0000008118",
+      "askPr": "0.0000008122",
+      "bidSz": "41549697",
+      "askSz": "1230117552.1",
+      "baseVolume": "3397219025.6",
+      "quoteVolume": "2747.5",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.60286",
+      "ts": "1732352407144",
+      "time_data_received": "09:00:07.1660"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008118",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.59714",
+      "bidPr": "0.0000008118",
+      "askPr": "0.0000008122",
+      "bidSz": "31776037.2",
+      "askSz": "1207884209.6",
+      "baseVolume": "3397219025.6",
+      "quoteVolume": "2747.5",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.60286",
+      "ts": "1732352407403",
+      "time_data_received": "09:00:07.4232"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008118",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.59714",
+      "bidPr": "0.0000008118",
+      "askPr": "0.0000008122",
+      "bidSz": "31776037.2",
+      "askSz": "1201845766.7",
+      "baseVolume": "3406992685.4",
+      "quoteVolume": "2755.4",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.59714",
+      "ts": "1732352407745",
+      "time_data_received": "09:00:07.7700"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008118",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.59714",
+      "bidPr": "0.0000008118",
+      "askPr": "0.0000008122",
+      "bidSz": "31776037.2",
+      "askSz": "1201845766.7",
+      "baseVolume": "3406992685.4",
+      "quoteVolume": "2755.4",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.59714",
+      "ts": "1732352407998",
+      "time_data_received": "09:00:08.0204"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008122",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.60286",
+      "bidPr": "0.0000008118",
+      "askPr": "0.0000008122",
+      "bidSz": "33261285.1",
+      "askSz": "1094179047.9",
+      "baseVolume": "3514659404.2",
+      "quoteVolume": "2842.9",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.60286",
+      "ts": "1732352408379",
+      "time_data_received": "09:00:08.4031"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008118",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.59714",
+      "bidPr": "0.0000008118",
+      "askPr": "0.0000008122",
+      "bidSz": "31776037.2",
+      "askSz": "1201845766.7",
+      "baseVolume": "3514659404.2",
+      "quoteVolume": "2842.9",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.60286",
+      "ts": "1732352408606",
+      "time_data_received": "09:00:08.6282"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008122",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.60286",
+      "bidPr": "0.0000008118",
+      "askPr": "0.0000008122",
+      "bidSz": "31776037.2",
+      "askSz": "1108050763.9",
+      "baseVolume": "3534261823.2",
+      "quoteVolume": "2858.8",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.60286",
+      "ts": "1732352408979",
+      "time_data_received": "09:00:09.0027"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008122",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.60286",
+      "bidPr": "0.0000008118",
+      "askPr": "0.0000008122",
+      "bidSz": "33261285.1",
+      "askSz": "1074576628.9",
+      "baseVolume": "3566916654.6",
+      "quoteVolume": "2885.3",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.60286",
+      "ts": "1732352409231",
+      "time_data_received": "09:00:09.2527"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008122",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.60286",
+      "bidPr": "0.0000008118",
+      "askPr": "0.0000008122",
+      "bidSz": "33261285.1",
+      "askSz": "1074576628.9",
+      "baseVolume": "3566916654.6",
+      "quoteVolume": "2885.3",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.60286",
+      "ts": "1732352409559",
+      "time_data_received": "09:00:09.5903"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008122",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.60286",
+      "bidPr": "0.0000008118",
+      "askPr": "0.0000008122",
+      "bidSz": "33261285.1",
+      "askSz": "1019536037.1",
+      "baseVolume": "3589302415",
+      "quoteVolume": "2903.5",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.60286",
+      "ts": "1732352409842",
+      "time_data_received": "09:00:09.8649"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008122",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.60286",
+      "bidPr": "0.0000008118",
+      "askPr": "0.0000008122",
+      "bidSz": "33261285.1",
+      "askSz": "1019536037.1",
+      "baseVolume": "3622563700.1",
+      "quoteVolume": "2930.5",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.59714",
+      "ts": "1732352410168",
+      "time_data_received": "09:00:10.1879"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008118",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.59714",
+      "bidPr": "0.0000008101",
+      "askPr": "0.0000008118",
+      "bidSz": "86409085.2",
+      "askSz": "1199894817.3",
+      "baseVolume": "3635286287.5",
+      "quoteVolume": "2940.8",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57286",
+      "ts": "1732352410448",
+      "time_data_received": "09:00:10.4690"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008101",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57286",
+      "bidPr": "0.0000008101",
+      "askPr": "0.0000008118",
+      "bidSz": "73686497.8",
+      "askSz": "1623243682.7",
+      "baseVolume": "3635286287.5",
+      "quoteVolume": "2940.8",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57286",
+      "ts": "1732352410726",
+      "time_data_received": "09:00:10.7527"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008101",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57286",
+      "bidPr": "0.0000008101",
+      "askPr": "0.0000008118",
+      "bidSz": "73686497.8",
+      "askSz": "1623243682.7",
+      "baseVolume": "3635286287.5",
+      "quoteVolume": "2940.8",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57286",
+      "ts": "1732352411052",
+      "time_data_received": "09:00:11.0914"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008101",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57286",
+      "bidPr": "0.0000008101",
+      "askPr": "0.0000008117",
+      "bidSz": "68358828.7",
+      "askSz": "23430921",
+      "baseVolume": "3640613956.6",
+      "quoteVolume": "2945.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57286",
+      "ts": "1732352411347",
+      "time_data_received": "09:00:11.3710"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008118",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.59714",
+      "bidPr": "0.0000008101",
+      "askPr": "0.0000008118",
+      "bidSz": "68358828.7",
+      "askSz": "1615402821.1",
+      "baseVolume": "3640613956.6",
+      "quoteVolume": "2945.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57286",
+      "ts": "1732352411625",
+      "time_data_received": "09:00:11.6482"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008118",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.59714",
+      "bidPr": "0.0000008101",
+      "askPr": "0.0000008118",
+      "bidSz": "68358828.7",
+      "askSz": "1615402821.1",
+      "baseVolume": "3742249167",
+      "quoteVolume": "3027.6",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57286",
+      "ts": "1732352412000",
+      "time_data_received": "09:00:12.0293"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008118",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.59714",
+      "bidPr": "0.0000008101",
+      "askPr": "0.0000008118",
+      "bidSz": "68358828.7",
+      "askSz": "1615402821.1",
+      "baseVolume": "3742249167",
+      "quoteVolume": "3027.6",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57286",
+      "ts": "1732352412268",
+      "time_data_received": "09:00:12.2896"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008101",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57286",
+      "bidPr": "0.00000081",
+      "askPr": "0.0000008101",
+      "bidSz": "734702297.7",
+      "askSz": "1218338180.1",
+      "baseVolume": "3742249167",
+      "quoteVolume": "3027.6",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57286",
+      "ts": "1732352412513",
+      "time_data_received": "09:00:12.5696"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008101",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57286",
+      "bidPr": "0.0000008096",
+      "askPr": "0.0000008101",
+      "bidSz": "377772478.6",
+      "askSz": "1087137826.7",
+      "baseVolume": "3881607971.4",
+      "quoteVolume": "3140.5",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57286",
+      "ts": "1732352412925",
+      "time_data_received": "09:00:12.9524"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008101",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57286",
+      "bidPr": "0.00000081",
+      "askPr": "0.0000008101",
+      "bidSz": "617283950.6",
+      "askSz": "1210571759.1",
+      "baseVolume": "3881607971.4",
+      "quoteVolume": "3140.5",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57286",
+      "ts": "1732352413135",
+      "time_data_received": "09:00:13.1664"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008101",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57286",
+      "bidPr": "0.00000081",
+      "askPr": "0.0000008101",
+      "bidSz": "617283950.6",
+      "askSz": "1087137826.7",
+      "baseVolume": "3881607971.4",
+      "quoteVolume": "3140.5",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57286",
+      "ts": "1732352413404",
+      "time_data_received": "09:00:13.4258"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008101",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57286",
+      "bidPr": "0.0000008096",
+      "askPr": "0.0000008101",
+      "bidSz": "375195099.5",
+      "askSz": "1025424669.5",
+      "baseVolume": "3943321128.6",
+      "quoteVolume": "3190.5",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57286",
+      "ts": "1732352413763",
+      "time_data_received": "09:00:13.7843"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008101",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57286",
+      "bidPr": "0.0000008096",
+      "askPr": "0.0000008101",
+      "bidSz": "375195099.5",
+      "askSz": "1025424669.5",
+      "baseVolume": "3944630105.5",
+      "quoteVolume": "3191.6",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56571",
+      "ts": "1732352414009",
+      "time_data_received": "09:00:14.0291"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008101",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57286",
+      "bidPr": "0.0000008096",
+      "askPr": "0.0000008101",
+      "bidSz": "373972044.7",
+      "askSz": "904184593.7",
+      "baseVolume": "4065870181.3",
+      "quoteVolume": "3289.8",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57286",
+      "ts": "1732352414408",
+      "time_data_received": "09:00:14.4405"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008101",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57286",
+      "bidPr": "0.0000008096",
+      "askPr": "0.0000008101",
+      "bidSz": "360209588.1",
+      "askSz": "904184593.7",
+      "baseVolume": "4065870181.3",
+      "quoteVolume": "3289.8",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57286",
+      "ts": "1732352414705",
+      "time_data_received": "09:00:14.7332"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008101",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57286",
+      "bidPr": "0.0000008096",
+      "askPr": "0.0000008101",
+      "bidSz": "363241308.8",
+      "askSz": "904184593.7",
+      "baseVolume": "4065870181.3",
+      "quoteVolume": "3289.8",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57286",
+      "ts": "1732352415020",
+      "time_data_received": "09:00:15.0442"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008101",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57286",
+      "bidPr": "0.0000008096",
+      "askPr": "0.0000008101",
+      "bidSz": "357974224",
+      "askSz": "867224873",
+      "baseVolume": "4065870181.3",
+      "quoteVolume": "3289.8",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57286",
+      "ts": "1732352415306",
+      "time_data_received": "09:00:15.3359"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008096",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56571",
+      "bidPr": "0.0000008096",
+      "askPr": "0.0000008101",
+      "bidSz": "379304277.7",
+      "askSz": "867224873",
+      "baseVolume": "4106573600.6",
+      "quoteVolume": "3322.8",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56571",
+      "ts": "1732352415571",
+      "time_data_received": "09:00:15.5936"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008096",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56571",
+      "bidPr": "0.0000008096",
+      "askPr": "0.0000008101",
+      "bidSz": "357974224",
+      "askSz": "867224873",
+      "baseVolume": "4106573600.6",
+      "quoteVolume": "3322.8",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56571",
+      "ts": "1732352415855",
+      "time_data_received": "09:00:15.8779"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008096",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56571",
+      "bidPr": "0.0000008096",
+      "askPr": "0.0000008101",
+      "bidSz": "350469824.6",
+      "askSz": "767694942.1",
+      "baseVolume": "4215943472.3",
+      "quoteVolume": "3411.3",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56571",
+      "ts": "1732352416150",
+      "time_data_received": "09:00:16.1730"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008096",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56571",
+      "bidPr": "0.0000008096",
+      "askPr": "0.0000008101",
+      "bidSz": "353848793.7",
+      "askSz": "767694942.1",
+      "baseVolume": "4215943472.3",
+      "quoteVolume": "3411.3",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56571",
+      "ts": "1732352416499",
+      "time_data_received": "09:00:16.5230"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008096",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56571",
+      "bidPr": "0.0000008096",
+      "askPr": "0.0000008101",
+      "bidSz": "357974224",
+      "askSz": "767694942.1",
+      "baseVolume": "4251630876.7",
+      "quoteVolume": "3440.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56571",
+      "ts": "1732352416765",
+      "time_data_received": "09:00:16.7853"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008096",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56571",
+      "bidPr": "0.0000008096",
+      "askPr": "0.0000008101",
+      "bidSz": "312552720.4",
+      "askSz": "767694942.1",
+      "baseVolume": "4313145654.9",
+      "quoteVolume": "3490",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56571",
+      "ts": "1732352417187",
+      "time_data_received": "09:00:17.2106"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008096",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56571",
+      "bidPr": "0.0000008096",
+      "askPr": "0.0000008101",
+      "bidSz": "364648259.4",
+      "askSz": "767694942.1",
+      "baseVolume": "4313145654.9",
+      "quoteVolume": "3490",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56571",
+      "ts": "1732352417399",
+      "time_data_received": "09:00:17.4240"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008096",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56571",
+      "bidPr": "0.0000008096",
+      "askPr": "0.0000008101",
+      "bidSz": "345359909.5",
+      "askSz": "767694942.1",
+      "baseVolume": "5443318770.9",
+      "quoteVolume": "4405",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56286",
+      "ts": "1732352417793",
+      "time_data_received": "09:00:17.8142"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008094",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56286",
+      "bidPr": "0.0000008094",
+      "askPr": "0.0000008101",
+      "bidSz": "180426781.7",
+      "askSz": "767694942.1",
+      "baseVolume": "5443318770.9",
+      "quoteVolume": "4405",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56286",
+      "ts": "1732352417970",
+      "time_data_received": "09:00:17.9965"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008094",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56286",
+      "bidPr": "0.0000008094",
+      "askPr": "0.0000008101",
+      "bidSz": "180426781.7",
+      "askSz": "767694942.1",
+      "baseVolume": "5443318770.9",
+      "quoteVolume": "4405",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56286",
+      "ts": "1732352418271",
+      "time_data_received": "09:00:18.2977"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008094",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56286",
+      "bidPr": "0.0000008094",
+      "askPr": "0.00000081",
+      "bidSz": "180426781.7",
+      "askSz": "123310498.4",
+      "baseVolume": "5443318770.9",
+      "quoteVolume": "4405",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56286",
+      "ts": "1732352418606",
+      "time_data_received": "09:00:18.6293"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008094",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56286",
+      "bidPr": "0.0000008094",
+      "askPr": "0.00000081",
+      "bidSz": "181781844.6",
+      "askSz": "123310498.4",
+      "baseVolume": "5473303007.9",
+      "quoteVolume": "4429.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56286",
+      "ts": "1732352418847",
+      "time_data_received": "09:00:18.8711"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008094",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56286",
+      "bidPr": "0.0000008094",
+      "askPr": "0.00000081",
+      "bidSz": "156072928",
+      "askSz": "117680115.1",
+      "baseVolume": "5473303007.9",
+      "quoteVolume": "4429.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56286",
+      "ts": "1732352419181",
+      "time_data_received": "09:00:19.2034"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008094",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56286",
+      "bidPr": "0.0000008094",
+      "askPr": "0.00000081",
+      "bidSz": "156072928",
+      "askSz": "117680115.1",
+      "baseVolume": "5473303007.9",
+      "quoteVolume": "4429.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56286",
+      "ts": "1732352419481",
+      "time_data_received": "09:00:19.5037"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.00000081",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57143",
+      "bidPr": "0.0000008094",
+      "askPr": "0.00000081",
+      "bidSz": "155374275.5",
+      "askSz": "79374986",
+      "baseVolume": "5511608137",
+      "quoteVolume": "4460.3",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57143",
+      "ts": "1732352419800",
+      "time_data_received": "09:00:19.8224"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.00000081",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57143",
+      "bidPr": "0.0000008094",
+      "askPr": "0.00000081",
+      "bidSz": "156072928",
+      "askSz": "79374986",
+      "baseVolume": "5511608137",
+      "quoteVolume": "4460.3",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57143",
+      "ts": "1732352420115",
+      "time_data_received": "09:00:20.1366"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.00000081",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57143",
+      "bidPr": "0.0000008094",
+      "askPr": "0.00000081",
+      "bidSz": "156072928",
+      "askSz": "79374986",
+      "baseVolume": "5511608137",
+      "quoteVolume": "4460.3",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57143",
+      "ts": "1732352420407",
+      "time_data_received": "09:00:20.4302"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.00000081",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57143",
+      "bidPr": "0.0000008094",
+      "askPr": "0.00000081",
+      "bidSz": "156072928",
+      "askSz": "79374986",
+      "baseVolume": "5523843097.8",
+      "quoteVolume": "4470.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57143",
+      "ts": "1732352420671",
+      "time_data_received": "09:00:20.6917"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.00000081",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57143",
+      "bidPr": "0.0000008094",
+      "askPr": "0.00000081",
+      "bidSz": "156072928",
+      "askSz": "67140025.2",
+      "baseVolume": "5523843097.8",
+      "quoteVolume": "4470.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57143",
+      "ts": "1732352420937",
+      "time_data_received": "09:00:20.9566"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.00000081",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57143",
+      "bidPr": "0.0000008094",
+      "askPr": "0.00000081",
+      "bidSz": "161962368.1",
+      "askSz": "67140025.2",
+      "baseVolume": "5523843097.8",
+      "quoteVolume": "4470.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57143",
+      "ts": "1732352421313",
+      "time_data_received": "09:00:21.3355"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.00000081",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57143",
+      "bidPr": "0.0000008094",
+      "askPr": "0.00000081",
+      "bidSz": "156072928",
+      "askSz": "128791469.2",
+      "baseVolume": "5523843097.8",
+      "quoteVolume": "4470.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57143",
+      "ts": "1732352421638",
+      "time_data_received": "09:00:21.6627"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008093",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56143",
+      "bidPr": "0.0000008093",
+      "askPr": "0.0000008094",
+      "bidSz": "264792001",
+      "askSz": "384061831.3",
+      "baseVolume": "5685231627.3",
+      "quoteVolume": "4600.8",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56143",
+      "ts": "1732352421878",
+      "time_data_received": "09:00:21.8993"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008093",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56143",
+      "bidPr": "0.0000008093",
+      "askPr": "0.0000008094",
+      "bidSz": "264792001",
+      "askSz": "384061831.3",
+      "baseVolume": "5685231627.3",
+      "quoteVolume": "4600.8",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56143",
+      "ts": "1732352422241",
+      "time_data_received": "09:00:22.2661"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008094",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56286",
+      "bidPr": "0.0000008093",
+      "askPr": "0.0000008094",
+      "bidSz": "264642022.8",
+      "askSz": "373987918.2",
+      "baseVolume": "5695305540.4",
+      "quoteVolume": "4608.9",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56286",
+      "ts": "1732352422503",
+      "time_data_received": "09:00:22.5252"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008094",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56286",
+      "bidPr": "0.0000008093",
+      "askPr": "0.0000008094",
+      "bidSz": "264642022.8",
+      "askSz": "373987918.2",
+      "baseVolume": "5695305540.4",
+      "quoteVolume": "4608.9",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56286",
+      "ts": "1732352422814",
+      "time_data_received": "09:00:22.8359"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008094",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56286",
+      "bidPr": "0.0000008093",
+      "askPr": "0.0000008094",
+      "bidSz": "256188950.3",
+      "askSz": "373987918.2",
+      "baseVolume": "5695305540.4",
+      "quoteVolume": "4608.9",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56286",
+      "ts": "1732352423088",
+      "time_data_received": "09:00:23.1117"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008093",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56143",
+      "bidPr": "0.0000008093",
+      "askPr": "0.0000008094",
+      "bidSz": "246078913.4",
+      "askSz": "373987918.2",
+      "baseVolume": "5707270264.9",
+      "quoteVolume": "4618.6",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56143",
+      "ts": "1732352423423",
+      "time_data_received": "09:00:23.4529"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008093",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56143",
+      "bidPr": "0.0000008093",
+      "askPr": "0.0000008094",
+      "bidSz": "253015414.8",
+      "askSz": "373987918.2",
+      "baseVolume": "5954366879.6",
+      "quoteVolume": "4818.6",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56286",
+      "ts": "1732352423699",
+      "time_data_received": "09:00:23.7233"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008094",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56286",
+      "bidPr": "0.0000008093",
+      "askPr": "0.0000008094",
+      "bidSz": "254435700.5",
+      "askSz": "126891303.5",
+      "baseVolume": "5957457236.1",
+      "quoteVolume": "4821.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56286",
+      "ts": "1732352424024",
+      "time_data_received": "09:00:24.0455"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008094",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56286",
+      "bidPr": "0.0000008093",
+      "askPr": "0.0000008094",
+      "bidSz": "253015414.8",
+      "askSz": "123800947",
+      "baseVolume": "5957457236.1",
+      "quoteVolume": "4821.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56286",
+      "ts": "1732352424278",
+      "time_data_received": "09:00:24.2985"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008094",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56286",
+      "bidPr": "0.0000008093",
+      "askPr": "0.0000008094",
+      "bidSz": "253015414.8",
+      "askSz": "47246755.2",
+      "baseVolume": "6034011427.9",
+      "quoteVolume": "4883.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56286",
+      "ts": "1732352424646",
+      "time_data_received": "09:00:24.6677"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008094",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56286",
+      "bidPr": "0.0000008093",
+      "askPr": "0.0000008094",
+      "bidSz": "246309408",
+      "askSz": "47246755.2",
+      "baseVolume": "6034011427.9",
+      "quoteVolume": "4883.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56286",
+      "ts": "1732352424920",
+      "time_data_received": "09:00:24.9438"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008092",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56000",
+      "bidPr": "0.0000008091",
+      "askPr": "0.0000008092",
+      "bidSz": "793585238.2",
+      "askSz": "414792057.7",
+      "baseVolume": "6418095166.3",
+      "quoteVolume": "5193.9",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56000",
+      "ts": "1732352425200",
+      "time_data_received": "09:00:25.2222"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008092",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56000",
+      "bidPr": "0.0000008091",
+      "askPr": "0.0000008092",
+      "bidSz": "793585238.2",
+      "askSz": "372122299.7",
+      "baseVolume": "6460764924.3",
+      "quoteVolume": "5228.5",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56000",
+      "ts": "1732352425549",
+      "time_data_received": "09:00:25.5745"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008092",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56000",
+      "bidPr": "0.0000008091",
+      "askPr": "0.0000008092",
+      "bidSz": "771934082.2",
+      "askSz": "372122299.7",
+      "baseVolume": "6460764924.3",
+      "quoteVolume": "5228.5",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56000",
+      "ts": "1732352425848",
+      "time_data_received": "09:00:25.8724"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008092",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56000",
+      "bidPr": "0.0000008091",
+      "askPr": "0.0000008092",
+      "bidSz": "793585238.2",
+      "askSz": "414792057.7",
+      "baseVolume": "6460764924.3",
+      "quoteVolume": "5228.5",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56000",
+      "ts": "1732352426144",
+      "time_data_received": "09:00:26.1654"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008092",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56000",
+      "bidPr": "0.0000008091",
+      "askPr": "0.0000008092",
+      "bidSz": "793585238",
+      "askSz": "372122299.7",
+      "baseVolume": "6460764924.3",
+      "quoteVolume": "5228.5",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56000",
+      "ts": "1732352426405",
+      "time_data_received": "09:00:26.4282"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008091",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55857",
+      "bidPr": "0.0000008091",
+      "askPr": "0.0000008092",
+      "bidSz": "731933794",
+      "askSz": "260485610.7",
+      "baseVolume": "6634053057.3",
+      "quoteVolume": "5368.7",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55857",
+      "ts": "1732352426796",
+      "time_data_received": "09:00:26.8341"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008091",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55857",
+      "bidPr": "0.0000008091",
+      "askPr": "0.0000008092",
+      "bidSz": "711392850.6",
+      "askSz": "260485610.7",
+      "baseVolume": "6634053057.3",
+      "quoteVolume": "5368.7",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55857",
+      "ts": "1732352427058",
+      "time_data_received": "09:00:27.0940"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008092",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56000",
+      "bidPr": "0.0000008089",
+      "askPr": "0.0000008092",
+      "bidSz": "1519647745.1",
+      "askSz": "29542481.2",
+      "baseVolume": "6634053057.3",
+      "quoteVolume": "5368.7",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55857",
+      "ts": "1732352427336",
+      "time_data_received": "09:00:27.3577"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008092",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56000",
+      "bidPr": "0.0000008089",
+      "askPr": "0.0000008092",
+      "bidSz": "1519647745.1",
+      "askSz": "107688164.2",
+      "baseVolume": "8088265894.8",
+      "quoteVolume": "6545.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56000",
+      "ts": "1732352427674",
+      "time_data_received": "09:00:27.6979"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008089",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55571",
+      "bidPr": "0.0000008089",
+      "askPr": "0.0000008092",
+      "bidSz": "1393516220.1",
+      "askSz": "27070904.4",
+      "baseVolume": "8157877496.8",
+      "quoteVolume": "6601.6",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55571",
+      "ts": "1732352427942",
+      "time_data_received": "09:00:27.9631"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008089",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55571",
+      "bidPr": "0.0000008085",
+      "askPr": "0.0000008092",
+      "bidSz": "185528756.9",
+      "askSz": "27070904.4",
+      "baseVolume": "8216572377.6",
+      "quoteVolume": "6649.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56143",
+      "ts": "1732352428247",
+      "time_data_received": "09:00:28.2692"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008089",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55571",
+      "bidPr": "0.0000008085",
+      "askPr": "0.0000008092",
+      "bidSz": "185528756.9",
+      "askSz": "27070904.4",
+      "baseVolume": "8216572377.6",
+      "quoteVolume": "6649.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56143",
+      "ts": "1732352428540",
+      "time_data_received": "09:00:28.5659"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008093",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56143",
+      "bidPr": "0.0000008085",
+      "askPr": "0.0000008094",
+      "bidSz": "185528756.9",
+      "askSz": "16065901.2",
+      "baseVolume": "8216572377.6",
+      "quoteVolume": "6649.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56143",
+      "ts": "1732352428844",
+      "time_data_received": "09:00:28.8650"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008093",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56143",
+      "bidPr": "0.0000008085",
+      "askPr": "0.0000008094",
+      "bidSz": "185528756.9",
+      "askSz": "16065901.2",
+      "baseVolume": "8216572377.6",
+      "quoteVolume": "6649.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56143",
+      "ts": "1732352429149",
+      "time_data_received": "09:00:29.1775"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008093",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56143",
+      "bidPr": "0.0000008085",
+      "askPr": "0.0000008094",
+      "bidSz": "185528756.9",
+      "askSz": "16065901.2",
+      "baseVolume": "8216572377.6",
+      "quoteVolume": "6649.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56143",
+      "ts": "1732352429424",
+      "time_data_received": "09:00:29.4509"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008093",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56143",
+      "bidPr": "0.0000008085",
+      "askPr": "0.0000008094",
+      "bidSz": "185528756.9",
+      "askSz": "16065901.2",
+      "baseVolume": "8216572377.6",
+      "quoteVolume": "6649.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56143",
+      "ts": "1732352429718",
+      "time_data_received": "09:00:29.7409"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008093",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56143",
+      "bidPr": "0.0000008085",
+      "askPr": "0.0000008094",
+      "bidSz": "185528756.9",
+      "askSz": "16065901.2",
+      "baseVolume": "8216572377.6",
+      "quoteVolume": "6649.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56143",
+      "ts": "1732352430019",
+      "time_data_received": "09:00:30.0416"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008093",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56143",
+      "bidPr": "0.0000008085",
+      "askPr": "0.0000008094",
+      "bidSz": "185528756.9",
+      "askSz": "16065901.2",
+      "baseVolume": "8216572377.6",
+      "quoteVolume": "6649.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56143",
+      "ts": "1732352430361",
+      "time_data_received": "09:00:30.3881"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008093",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56143",
+      "bidPr": "0.000000809",
+      "askPr": "0.0000008094",
+      "bidSz": "61804697.1",
+      "askSz": "16065901.2",
+      "baseVolume": "8216572377.6",
+      "quoteVolume": "6649.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56143",
+      "ts": "1732352430614",
+      "time_data_received": "09:00:30.6520"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008093",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56143",
+      "bidPr": "0.000000809",
+      "askPr": "0.0000008094",
+      "bidSz": "61804697.1",
+      "askSz": "16065901.2",
+      "baseVolume": "8216572377.6",
+      "quoteVolume": "6649.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56143",
+      "ts": "1732352430962",
+      "time_data_received": "09:00:30.9837"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008093",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56143",
+      "bidPr": "0.000000809",
+      "askPr": "0.0000008094",
+      "bidSz": "61804697.1",
+      "askSz": "16065901.2",
+      "baseVolume": "8357517285.7",
+      "quoteVolume": "6763.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57000",
+      "ts": "1732352431252",
+      "time_data_received": "09:00:31.2797"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008093",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56143",
+      "bidPr": "0.000000809",
+      "askPr": "0.0000008094",
+      "bidSz": "61804697.1",
+      "askSz": "16065901.2",
+      "baseVolume": "8357517285.7",
+      "quoteVolume": "6763.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57000",
+      "ts": "1732352431564",
+      "time_data_received": "09:00:31.5853"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.000000809",
+      "askPr": "0.0000008093",
+      "bidSz": "37187275.5",
+      "askSz": "99381003.9",
+      "baseVolume": "8382134707.3",
+      "quoteVolume": "6783.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352431890",
+      "time_data_received": "09:00:31.9256"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008085",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55000",
+      "bidPr": "0.0000008074",
+      "askPr": "0.0000008085",
+      "bidSz": "1238543472.8",
+      "askSz": "18087107.5",
+      "baseVolume": "8684355542.8",
+      "quoteVolume": "7027.5",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55000",
+      "ts": "1732352432248",
+      "time_data_received": "09:00:32.2765"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008085",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55000",
+      "bidPr": "0.0000008074",
+      "askPr": "0.0000008085",
+      "bidSz": "1238543472.8",
+      "askSz": "18087107.5",
+      "baseVolume": "8684355542.8",
+      "quoteVolume": "7027.5",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55000",
+      "ts": "1732352432411",
+      "time_data_received": "09:00:32.4328"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008085",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55000",
+      "bidPr": "0.0000008075",
+      "askPr": "0.0000008085",
+      "bidSz": "61675095.5",
+      "askSz": "6698115.5",
+      "baseVolume": "8709287845.1",
+      "quoteVolume": "7047.7",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56143",
+      "ts": "1732352432871",
+      "time_data_received": "09:00:32.8979"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008093",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56143",
+      "bidPr": "0.0000008076",
+      "askPr": "0.0000008093",
+      "bidSz": "12325896.7",
+      "askSz": "13031006",
+      "baseVolume": "8709287845.1",
+      "quoteVolume": "7047.7",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56143",
+      "ts": "1732352433068",
+      "time_data_received": "09:00:33.0899"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008093",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56143",
+      "bidPr": "0.0000008076",
+      "askPr": "0.000000809",
+      "bidSz": "12325896.7",
+      "askSz": "1201386675.9",
+      "baseVolume": "8709287845.1",
+      "quoteVolume": "7047.7",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56143",
+      "ts": "1732352433356",
+      "time_data_received": "09:00:33.4002"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008093",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56143",
+      "bidPr": "0.0000008076",
+      "askPr": "0.0000008093",
+      "bidSz": "12325896.7",
+      "askSz": "13031006",
+      "baseVolume": "8744305628.5",
+      "quoteVolume": "7076",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352433661",
+      "time_data_received": "09:00:33.6810"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008072",
+      "askPr": "0.000000809",
+      "bidSz": "9605660.9",
+      "askSz": "997594038.5",
+      "baseVolume": "8964579929.7",
+      "quoteVolume": "7254.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352433992",
+      "time_data_received": "09:00:34.0339"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008073",
+      "askPr": "0.000000809",
+      "bidSz": "12325896.7",
+      "askSz": "859842891.3",
+      "baseVolume": "9050831629.7",
+      "quoteVolume": "7324",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352434273",
+      "time_data_received": "09:00:34.2954"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008073",
+      "askPr": "0.000000809",
+      "bidSz": "12325896.7",
+      "askSz": "850664839.6",
+      "baseVolume": "9685662787.4",
+      "quoteVolume": "7837.6",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352434615",
+      "time_data_received": "09:00:34.6408"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008073",
+      "askPr": "0.000000809",
+      "bidSz": "12325896.7",
+      "askSz": "246434737.6",
+      "baseVolume": "9716267618.4",
+      "quoteVolume": "7862.3",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352434893",
+      "time_data_received": "09:00:34.9200"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008073",
+      "askPr": "0.000000809",
+      "bidSz": "12325896.7",
+      "askSz": "225011733.6",
+      "baseVolume": "9716267618.4",
+      "quoteVolume": "7862.3",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352435174",
+      "time_data_received": "09:00:35.1971"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008073",
+      "askPr": "0.000000809",
+      "bidSz": "12325896.7",
+      "askSz": "1213942939.7",
+      "baseVolume": "9716267618.4",
+      "quoteVolume": "7862.3",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352435456",
+      "time_data_received": "09:00:35.4787"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008073",
+      "askPr": "0.000000809",
+      "bidSz": "12325896.7",
+      "askSz": "1213942939.7",
+      "baseVolume": "9716267618.4",
+      "quoteVolume": "7862.3",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352435758",
+      "time_data_received": "09:00:35.7807"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008073",
+      "askPr": "0.000000809",
+      "bidSz": "12325896.7",
+      "askSz": "1213942939.7",
+      "baseVolume": "9716267618.4",
+      "quoteVolume": "7862.3",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352436115",
+      "time_data_received": "09:00:36.1384"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008073",
+      "askPr": "0.000000809",
+      "bidSz": "12325896.7",
+      "askSz": "1213942939.7",
+      "baseVolume": "9716267618.4",
+      "quoteVolume": "7862.3",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352436409",
+      "time_data_received": "09:00:36.4507"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008073",
+      "askPr": "0.000000809",
+      "bidSz": "12325896.7",
+      "askSz": "1213942939.7",
+      "baseVolume": "9716267618.4",
+      "quoteVolume": "7862.3",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352436653",
+      "time_data_received": "09:00:36.6760"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008074",
+      "askPr": "0.000000809",
+      "bidSz": "16101065.1",
+      "askSz": "1213942939.7",
+      "baseVolume": "9716267618.4",
+      "quoteVolume": "7862.3",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352436970",
+      "time_data_received": "09:00:36.9904"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008074",
+      "askPr": "0.000000809",
+      "bidSz": "16101065.1",
+      "askSz": "1213942939.7",
+      "baseVolume": "9716267618.4",
+      "quoteVolume": "7862.3",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352437312",
+      "time_data_received": "09:00:37.3384"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008074",
+      "askPr": "0.000000809",
+      "bidSz": "16101065.1",
+      "askSz": "1213942939.7",
+      "baseVolume": "9716267618.4",
+      "quoteVolume": "7862.3",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352437590",
+      "time_data_received": "09:00:37.6154"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008074",
+      "askPr": "0.000000809",
+      "bidSz": "16101065.1",
+      "askSz": "1213942939.7",
+      "baseVolume": "9716267618.4",
+      "quoteVolume": "7862.3",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352437865",
+      "time_data_received": "09:00:37.8856"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008074",
+      "askPr": "0.000000809",
+      "bidSz": "16101065.1",
+      "askSz": "1213942939.7",
+      "baseVolume": "9716267618.4",
+      "quoteVolume": "7862.3",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352438183",
+      "time_data_received": "09:00:38.2048"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008074",
+      "askPr": "0.000000809",
+      "bidSz": "16101065.1",
+      "askSz": "1201298500.3",
+      "baseVolume": "9728912057.8",
+      "quoteVolume": "7872.6",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352438524",
+      "time_data_received": "09:00:38.5477"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008074",
+      "askPr": "0.000000809",
+      "bidSz": "16101065.1",
+      "askSz": "1201298500.3",
+      "baseVolume": "9728912057.8",
+      "quoteVolume": "7872.6",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352438803",
+      "time_data_received": "09:00:38.8242"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008074",
+      "askPr": "0.000000809",
+      "bidSz": "16101065.1",
+      "askSz": "1201298500.3",
+      "baseVolume": "9728912057.8",
+      "quoteVolume": "7872.6",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352439107",
+      "time_data_received": "09:00:39.1275"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008074",
+      "askPr": "0.000000809",
+      "bidSz": "16101065.1",
+      "askSz": "1201298500.3",
+      "baseVolume": "9728912057.8",
+      "quoteVolume": "7872.6",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352439411",
+      "time_data_received": "09:00:39.4332"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008074",
+      "askPr": "0.000000809",
+      "bidSz": "16101065.1",
+      "askSz": "1201298500.3",
+      "baseVolume": "9728912057.8",
+      "quoteVolume": "7872.6",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352439700",
+      "time_data_received": "09:00:39.7202"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008074",
+      "askPr": "0.000000809",
+      "bidSz": "16101065.1",
+      "askSz": "1201298500.3",
+      "baseVolume": "9728912057.8",
+      "quoteVolume": "7872.6",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352440057",
+      "time_data_received": "09:00:40.0809"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008076",
+      "askPr": "0.000000809",
+      "bidSz": "1238236750.8",
+      "askSz": "1154796582.3",
+      "baseVolume": "9775413975.8",
+      "quoteVolume": "7910.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352440323",
+      "time_data_received": "09:00:40.3509"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008074",
+      "askPr": "0.000000809",
+      "bidSz": "16101065.1",
+      "askSz": "1201298500.3",
+      "baseVolume": "10587792411.8",
+      "quoteVolume": "8567.4",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352440638",
+      "time_data_received": "09:00:40.6611"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.000000808",
+      "askPr": "0.000000809",
+      "bidSz": "61888759",
+      "askSz": "342418146.3",
+      "baseVolume": "10587792411.8",
+      "quoteVolume": "8567.4",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352440938",
+      "time_data_received": "09:00:40.9633"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.000000808",
+      "askPr": "0.000000809",
+      "bidSz": "61888759",
+      "askSz": "342418146.3",
+      "baseVolume": "10751948215",
+      "quoteVolume": "8700.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352441212",
+      "time_data_received": "09:00:41.2381"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.000000808",
+      "askPr": "0.0000008099",
+      "bidSz": "61888759",
+      "askSz": "320350303.1",
+      "baseVolume": "10751948215",
+      "quoteVolume": "8700.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352441492",
+      "time_data_received": "09:00:41.5229"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008099",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57000",
+      "bidPr": "0.0000008081",
+      "askPr": "0.0000008089",
+      "bidSz": "12325896.7",
+      "askSz": "1212812639",
+      "baseVolume": "11032936001.1",
+      "quoteVolume": "8927.6",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57000",
+      "ts": "1732352441822",
+      "time_data_received": "09:00:41.8439"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008089",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55571",
+      "bidPr": "0.000000809",
+      "askPr": "0.0000008099",
+      "bidSz": "731849479.2",
+      "askSz": "217624860.1",
+      "baseVolume": "12245748640.1",
+      "quoteVolume": "9908.6",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55571",
+      "ts": "1732352442076",
+      "time_data_received": "09:00:42.0968"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008099",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57000",
+      "bidPr": "0.000000809",
+      "askPr": "0.0000008099",
+      "bidSz": "731849479.2",
+      "askSz": "137742199.8",
+      "baseVolume": "12325631300.4",
+      "quoteVolume": "9973.3",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57000",
+      "ts": "1732352442456",
+      "time_data_received": "09:00:42.4822"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008089",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55571",
+      "bidPr": "0.000000809",
+      "askPr": "0.0000008099",
+      "bidSz": "731849479.2",
+      "askSz": "217624860.1",
+      "baseVolume": "12325631300.4",
+      "quoteVolume": "9973.3",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57000",
+      "ts": "1732352442705",
+      "time_data_received": "09:00:42.7397"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008089",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55571",
+      "bidPr": "0.000000809",
+      "askPr": "0.0000008099",
+      "bidSz": "731849479.2",
+      "askSz": "217624860.1",
+      "baseVolume": "12325631300.4",
+      "quoteVolume": "9973.3",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57000",
+      "ts": "1732352443039",
+      "time_data_received": "09:00:43.0744"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008099",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57000",
+      "bidPr": "0.000000809",
+      "askPr": "0.0000008099",
+      "bidSz": "731849479.2",
+      "askSz": "137742199.8",
+      "baseVolume": "12352556273.2",
+      "quoteVolume": "9995.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57000",
+      "ts": "1732352443281",
+      "time_data_received": "09:00:43.3047"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008099",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57000",
+      "bidPr": "0.000000809",
+      "askPr": "0.0000008099",
+      "bidSz": "793654176.3",
+      "askSz": "110817227",
+      "baseVolume": "12352556273.2",
+      "quoteVolume": "9995.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57000",
+      "ts": "1732352443683",
+      "time_data_received": "09:00:43.7066"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008099",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57000",
+      "bidPr": "0.000000809",
+      "askPr": "0.0000008099",
+      "bidSz": "731849479.2",
+      "askSz": "137742199.8",
+      "baseVolume": "12368068251.6",
+      "quoteVolume": "10007.7",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352443931",
+      "time_data_received": "09:00:43.9548"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008099",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57000",
+      "bidPr": "0.000000809",
+      "askPr": "0.0000008099",
+      "bidSz": "793654176.3",
+      "askSz": "108336254.6",
+      "baseVolume": "12368068251.6",
+      "quoteVolume": "10007.7",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352444228",
+      "time_data_received": "09:00:44.2511"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.000000809",
+      "askPr": "0.0000008099",
+      "bidSz": "718818473.2",
+      "askSz": "108336254.6",
+      "baseVolume": "12536691765.4",
+      "quoteVolume": "10144.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352444496",
+      "time_data_received": "09:00:44.5248"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.000000809",
+      "askPr": "0.0000008099",
+      "bidSz": "550194959.4",
+      "askSz": "108336254.6",
+      "baseVolume": "12536691765.4",
+      "quoteVolume": "10144.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352444854",
+      "time_data_received": "09:00:44.8784"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.000000809",
+      "askPr": "0.0000008099",
+      "bidSz": "550194959.4",
+      "askSz": "108336254.6",
+      "baseVolume": "12536691765.4",
+      "quoteVolume": "10144.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352445140",
+      "time_data_received": "09:00:45.1757"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.000000809",
+      "askPr": "0.0000008099",
+      "bidSz": "550194959.4",
+      "askSz": "108336254.6",
+      "baseVolume": "12536691765.4",
+      "quoteVolume": "10144.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352445451",
+      "time_data_received": "09:00:45.4817"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.000000809",
+      "askPr": "0.0000008099",
+      "bidSz": "550194959.4",
+      "askSz": "108336254.6",
+      "baseVolume": "12536691765.4",
+      "quoteVolume": "10144.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352445747",
+      "time_data_received": "09:00:45.7702"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.000000809",
+      "askPr": "0.0000008099",
+      "bidSz": "550194959.4",
+      "askSz": "108336254.6",
+      "baseVolume": "12536691765.4",
+      "quoteVolume": "10144.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352446017",
+      "time_data_received": "09:00:46.0369"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.000000809",
+      "askPr": "0.0000008099",
+      "bidSz": "550194959.4",
+      "askSz": "108336254.6",
+      "baseVolume": "12536691765.4",
+      "quoteVolume": "10144.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352446286",
+      "time_data_received": "09:00:46.3072"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.000000809",
+      "askPr": "0.0000008099",
+      "bidSz": "550194959.4",
+      "askSz": "108336254.6",
+      "baseVolume": "12536691765.4",
+      "quoteVolume": "10144.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352446644",
+      "time_data_received": "09:00:46.6684"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.000000809",
+      "askPr": "0.0000008099",
+      "bidSz": "550194959.4",
+      "askSz": "108336254.6",
+      "baseVolume": "12536691765.4",
+      "quoteVolume": "10144.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352446947",
+      "time_data_received": "09:00:46.9671"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.000000809",
+      "askPr": "0.0000008099",
+      "bidSz": "550194959.4",
+      "askSz": "108336254.6",
+      "baseVolume": "12536691765.4",
+      "quoteVolume": "10144.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352447251",
+      "time_data_received": "09:00:47.2770"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008093",
+      "askPr": "0.0000008099",
+      "bidSz": "8073401.5",
+      "askSz": "108336254.6",
+      "baseVolume": "12536691765.4",
+      "quoteVolume": "10144.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352447535",
+      "time_data_received": "09:00:47.5584"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.000000809",
+      "askPr": "0.0000008099",
+      "bidSz": "550194959.4",
+      "askSz": "108336254.6",
+      "baseVolume": "12536691765.4",
+      "quoteVolume": "10144.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352447817",
+      "time_data_received": "09:00:47.8372"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008093",
+      "askPr": "0.0000008099",
+      "bidSz": "8073401.5",
+      "askSz": "108336254.6",
+      "baseVolume": "12536691765.4",
+      "quoteVolume": "10144.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352448213",
+      "time_data_received": "09:00:48.2378"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008093",
+      "askPr": "0.0000008099",
+      "bidSz": "8073401.5",
+      "askSz": "108336254.6",
+      "baseVolume": "12536691765.4",
+      "quoteVolume": "10144.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352448436",
+      "time_data_received": "09:00:48.4601"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008099",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57000",
+      "bidPr": "0.0000008093",
+      "askPr": "0.0000008099",
+      "bidSz": "8073401.5",
+      "askSz": "92728865.1",
+      "baseVolume": "12552299154.9",
+      "quoteVolume": "10156.8",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57000",
+      "ts": "1732352448752",
+      "time_data_received": "09:00:48.7733"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008099",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57000",
+      "bidPr": "0.0000008093",
+      "askPr": "0.0000008099",
+      "bidSz": "8073401.5",
+      "askSz": "92728865.1",
+      "baseVolume": "12552299154.9",
+      "quoteVolume": "10156.8",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57000",
+      "ts": "1732352449081",
+      "time_data_received": "09:00:49.1065"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008099",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57000",
+      "bidPr": "0.0000008093",
+      "askPr": "0.0000008099",
+      "bidSz": "8073401.5",
+      "askSz": "92728865.1",
+      "baseVolume": "12552299154.9",
+      "quoteVolume": "10156.8",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57000",
+      "ts": "1732352449356",
+      "time_data_received": "09:00:49.3792"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008099",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57000",
+      "bidPr": "0.0000008093",
+      "askPr": "0.0000008099",
+      "bidSz": "8073401.5",
+      "askSz": "92728865.1",
+      "baseVolume": "12552299154.9",
+      "quoteVolume": "10156.8",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57000",
+      "ts": "1732352449638",
+      "time_data_received": "09:00:49.6742"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008099",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57000",
+      "bidPr": "0.0000008093",
+      "askPr": "0.0000008099",
+      "bidSz": "8073401.5",
+      "askSz": "92728865.1",
+      "baseVolume": "12552299154.9",
+      "quoteVolume": "10156.8",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57000",
+      "ts": "1732352449990",
+      "time_data_received": "09:00:50.0149"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008099",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57000",
+      "bidPr": "0.0000008093",
+      "askPr": "0.0000008099",
+      "bidSz": "8073401.5",
+      "askSz": "92728865.1",
+      "baseVolume": "12552299154.9",
+      "quoteVolume": "10156.8",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57000",
+      "ts": "1732352450283",
+      "time_data_received": "09:00:50.3039"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008099",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57000",
+      "bidPr": "0.0000008093",
+      "askPr": "0.0000008099",
+      "bidSz": "8073401.5",
+      "askSz": "92728865.1",
+      "baseVolume": "12561821688.1",
+      "quoteVolume": "10164.5",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57000",
+      "ts": "1732352450549",
+      "time_data_received": "09:00:50.5719"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008099",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57000",
+      "bidPr": "0.0000008093",
+      "askPr": "0.0000008099",
+      "bidSz": "8073401.5",
+      "askSz": "92728865.1",
+      "baseVolume": "12561821688.1",
+      "quoteVolume": "10164.5",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57000",
+      "ts": "1732352450841",
+      "time_data_received": "09:00:50.8607"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008093",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.56143",
+      "bidPr": "0.000000809",
+      "askPr": "0.0000008099",
+      "bidSz": "573548473.1",
+      "askSz": "58258826.3",
+      "baseVolume": "12594842595.2",
+      "quoteVolume": "10191.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.56143",
+      "ts": "1732352451162",
+      "time_data_received": "09:00:51.1830"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008099",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.57000",
+      "bidPr": "0.0000008093",
+      "askPr": "0.0000008099",
+      "bidSz": "8073401.5",
+      "askSz": "83206331.9",
+      "baseVolume": "12656555752.4",
+      "quoteVolume": "10241.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.57429",
+      "ts": "1732352451472",
+      "time_data_received": "09:00:51.4927"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008091",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55857",
+      "bidPr": "0.0000008091",
+      "askPr": "0.0000008131",
+      "bidSz": "11804798.6",
+      "askSz": "24632848.8",
+      "baseVolume": "12657076850.5",
+      "quoteVolume": "10241.6",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55857",
+      "ts": "1732352451790",
+      "time_data_received": "09:00:51.8134"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008091",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55857",
+      "bidPr": "0.0000008091",
+      "askPr": "0.0000008131",
+      "bidSz": "11804798.6",
+      "askSz": "24632848.8",
+      "baseVolume": "12657076850.5",
+      "quoteVolume": "10241.6",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55857",
+      "ts": "1732352452028",
+      "time_data_received": "09:00:52.0473"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008091",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55857",
+      "bidPr": "0.0000008091",
+      "askPr": "0.0000008131",
+      "bidSz": "12325896.7",
+      "askSz": "24632848.8",
+      "baseVolume": "12657076850.5",
+      "quoteVolume": "10241.6",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55857",
+      "ts": "1732352452348",
+      "time_data_received": "09:00:52.3676"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008091",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55857",
+      "bidPr": "0.0000008091",
+      "askPr": "0.0000008131",
+      "bidSz": "12325896.7",
+      "askSz": "24632848.8",
+      "baseVolume": "12657076850.5",
+      "quoteVolume": "10241.6",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55857",
+      "ts": "1732352452672",
+      "time_data_received": "09:00:52.6919"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008091",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55857",
+      "bidPr": "0.0000008091",
+      "askPr": "0.0000008131",
+      "bidSz": "12325896.7",
+      "askSz": "24632848.8",
+      "baseVolume": "12657076850.5",
+      "quoteVolume": "10241.6",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55857",
+      "ts": "1732352452971",
+      "time_data_received": "09:00:52.9934"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008091",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55857",
+      "bidPr": "0.0000008091",
+      "askPr": "0.0000008131",
+      "bidSz": "12325896.7",
+      "askSz": "24632848.8",
+      "baseVolume": "12657076850.5",
+      "quoteVolume": "10241.6",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55857",
+      "ts": "1732352453289",
+      "time_data_received": "09:00:53.3113"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008091",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008126",
+      "low24h": "0.00000007",
+      "change24h": "10.55857",
+      "bidPr": "0.0000008091",
+      "askPr": "0.0000008131",
+      "bidSz": "12325896.7",
+      "askSz": "24632848.8",
+      "baseVolume": "12657076850.5",
+      "quoteVolume": "10241.6",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55857",
+      "ts": "1732352453608",
+      "time_data_received": "09:00:53.6324"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008131",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008131",
+      "low24h": "0.00000007",
+      "change24h": "10.61571",
+      "bidPr": "0.0000008091",
+      "askPr": "0.0000008131",
+      "bidSz": "12325896.7",
+      "askSz": "22863347.2",
+      "baseVolume": "12658846352.1",
+      "quoteVolume": "10243.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.61571",
+      "ts": "1732352453864",
+      "time_data_received": "09:00:53.8860"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008131",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008131",
+      "low24h": "0.00000007",
+      "change24h": "10.61571",
+      "bidPr": "0.0000008091",
+      "askPr": "0.0000008131",
+      "bidSz": "12325896.7",
+      "askSz": "22863347.2",
+      "baseVolume": "12658846352.1",
+      "quoteVolume": "10243.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.61571",
+      "ts": "1732352454160",
+      "time_data_received": "09:00:54.1816"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008131",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008131",
+      "low24h": "0.00000007",
+      "change24h": "10.61571",
+      "bidPr": "0.0000008091",
+      "askPr": "0.0000008131",
+      "bidSz": "12325896.7",
+      "askSz": "22863347.2",
+      "baseVolume": "12658846352.1",
+      "quoteVolume": "10243.1",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.61571",
+      "ts": "1732352454485",
+      "time_data_received": "09:00:54.5157"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008131",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008131",
+      "low24h": "0.00000007",
+      "change24h": "10.61571",
+      "bidPr": "0.0000008091",
+      "askPr": "0.0000008131",
+      "bidSz": "12325896.7",
+      "askSz": "22863347.2",
+      "baseVolume": "12671172248.8",
+      "quoteVolume": "10253",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55857",
+      "ts": "1732352454753",
+      "time_data_received": "09:00:54.7721"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008131",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.000000809",
+      "askPr": "0.0000008091",
+      "bidSz": "141310664.6",
+      "askSz": "16136934.5",
+      "baseVolume": "12674352304.3",
+      "quoteVolume": "10255.6",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352455115",
+      "time_data_received": "09:00:55.1400"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008131",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008088",
+      "askPr": "0.0000008091",
+      "bidSz": "121167161.2",
+      "askSz": "16136934.5",
+      "baseVolume": "12702282008.1",
+      "quoteVolume": "10278.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352455400",
+      "time_data_received": "09:00:55.4272"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008131",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008088",
+      "askPr": "0.0000008091",
+      "bidSz": "121167161.2",
+      "askSz": "16136934.5",
+      "baseVolume": "12702282008.1",
+      "quoteVolume": "10278.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352455722",
+      "time_data_received": "09:00:55.7467"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008131",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008088",
+      "askPr": "0.0000008091",
+      "bidSz": "121167161.2",
+      "askSz": "16136934.5",
+      "baseVolume": "12702282008.1",
+      "quoteVolume": "10278.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352455978",
+      "time_data_received": "09:00:56.0027"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008131",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008088",
+      "askPr": "0.0000008091",
+      "bidSz": "121167161.2",
+      "askSz": "16136934.5",
+      "baseVolume": "12702282008.1",
+      "quoteVolume": "10278.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352456338",
+      "time_data_received": "09:00:56.3599"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008131",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008088",
+      "askPr": "0.0000008091",
+      "bidSz": "121167161.2",
+      "askSz": "16136934.5",
+      "baseVolume": "12702282008.1",
+      "quoteVolume": "10278.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352456607",
+      "time_data_received": "09:00:56.6271"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008131",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008088",
+      "askPr": "0.0000008091",
+      "bidSz": "121167161.2",
+      "askSz": "16136934.5",
+      "baseVolume": "12702282008.1",
+      "quoteVolume": "10278.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352456926",
+      "time_data_received": "09:00:56.9505"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008131",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008088",
+      "askPr": "0.0000008091",
+      "bidSz": "121167161.2",
+      "askSz": "16136934.5",
+      "baseVolume": "12702282008.1",
+      "quoteVolume": "10278.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352457146",
+      "time_data_received": "09:00:57.1682"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008131",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008088",
+      "askPr": "0.0000008091",
+      "bidSz": "121167161.2",
+      "askSz": "16136934.5",
+      "baseVolume": "12702282008.1",
+      "quoteVolume": "10278.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352457472",
+      "time_data_received": "09:00:57.5038"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008131",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008088",
+      "askPr": "0.0000008091",
+      "bidSz": "121167161.2",
+      "askSz": "16136934.5",
+      "baseVolume": "12702282008.1",
+      "quoteVolume": "10278.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352457802",
+      "time_data_received": "09:00:57.8239"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008131",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008088",
+      "askPr": "0.0000008091",
+      "bidSz": "121167161.2",
+      "askSz": "16136934.5",
+      "baseVolume": "12702282008.1",
+      "quoteVolume": "10278.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352458099",
+      "time_data_received": "09:00:58.1262"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008131",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008088",
+      "askPr": "0.0000008091",
+      "bidSz": "121167161.2",
+      "askSz": "16136934.5",
+      "baseVolume": "12702282008.1",
+      "quoteVolume": "10278.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352458369",
+      "time_data_received": "09:00:58.3906"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008131",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008088",
+      "askPr": "0.0000008091",
+      "bidSz": "121167161.2",
+      "askSz": "16136934.5",
+      "baseVolume": "12702282008.1",
+      "quoteVolume": "10278.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352458707",
+      "time_data_received": "09:00:58.7321"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008131",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008088",
+      "askPr": "0.0000008091",
+      "bidSz": "121167161.2",
+      "askSz": "16136934.5",
+      "baseVolume": "12702282008.1",
+      "quoteVolume": "10278.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352458952",
+      "time_data_received": "09:00:58.9721"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.0000008091",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008131",
+      "low24h": "0.00000007",
+      "change24h": "10.55857",
+      "bidPr": "0.0000008088",
+      "askPr": "0.0000008091",
+      "bidSz": "121167161.2",
+      "askSz": "7497292.9",
+      "baseVolume": "12702282008.1",
+      "quoteVolume": "10278.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352459317",
+      "time_data_received": "09:00:59.3368"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008131",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008088",
+      "askPr": "0.0000008091",
+      "bidSz": "121167161.2",
+      "askSz": "16136934.5",
+      "baseVolume": "12702282008.1",
+      "quoteVolume": "10278.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55714",
+      "ts": "1732352459574",
+      "time_data_received": "09:00:59.5951"
+    }
+  ],
+  [
+    {
+      "instId": "CHEEMSUSDT",
+      "lastPr": "0.000000809",
+      "open24h": "0.00000007",
+      "high24h": "0.0000008131",
+      "low24h": "0.00000007",
+      "change24h": "10.55714",
+      "bidPr": "0.0000008088",
+      "askPr": "0.0000008091",
+      "bidSz": "121167161.2",
+      "askSz": "16136934.5",
+      "baseVolume": "12710921649.7",
+      "quoteVolume": "10285.2",
+      "openUtc": "0.0000000700",
+      "changeUtc24h": "10.55857",
+      "ts": "1732352459916",
+      "time_data_received": "09:00:59.9373"
+    }
+  ]
+]
