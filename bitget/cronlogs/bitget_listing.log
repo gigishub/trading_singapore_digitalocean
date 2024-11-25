@@ -396,3 +396,413 @@ navigating to "https://www.bitget.com/support/sections/5955813039257", waiting u
 18:17:01.551 - INFO - Bitget listing script has finished successfully - <module>
 18:32:01.569 - INFO - Bitget listing script has finished successfully - <module>
 18:47:01.598 - INFO - Bitget listing script has finished successfully - <module>
+19:02:02.301 - INFO - Bitget listing script has finished successfully - <module>
+19:17:01.961 - INFO - Bitget listing script has finished successfully - <module>
+19:32:01.879 - INFO - Bitget listing script has finished successfully - <module>
+19:47:01.437 - INFO - Bitget listing script has finished successfully - <module>
+20:02:01.518 - INFO - Bitget listing script has finished successfully - <module>
+20:17:01.359 - INFO - Bitget listing script has finished successfully - <module>
+20:32:01.334 - INFO - Bitget listing script has finished successfully - <module>
+20:47:01.690 - INFO - Bitget listing script has finished successfully - <module>
+21:02:01.689 - INFO - Bitget listing script has finished successfully - <module>
+21:17:01.772 - INFO - Bitget listing script has finished successfully - <module>
+21:32:01.725 - INFO - Bitget listing script has finished successfully - <module>
+21:47:01.473 - INFO - Bitget listing script has finished successfully - <module>
+22:02:01.744 - INFO - Bitget listing script has finished successfully - <module>
+22:17:02.043 - INFO - Bitget listing script has finished successfully - <module>
+22:32:01.963 - INFO - Bitget listing script has finished successfully - <module>
+22:47:01.932 - INFO - Bitget listing script has finished successfully - <module>
+23:02:01.947 - INFO - Bitget listing script has finished successfully - <module>
+23:17:02.096 - INFO - Bitget listing script has finished successfully - <module>
+23:32:01.946 - INFO - Bitget listing script has finished successfully - <module>
+23:47:01.822 - INFO - Bitget listing script has finished successfully - <module>
+00:02:01.701 - INFO - Bitget listing script has finished successfully - <module>
+00:17:01.576 - INFO - Bitget listing script has finished successfully - <module>
+00:32:01.808 - INFO - Bitget listing script has finished successfully - <module>
+00:47:01.874 - INFO - Bitget listing script has finished successfully - <module>
+01:02:01.537 - INFO - Bitget listing script has finished successfully - <module>
+01:17:01.697 - INFO - Bitget listing script has finished successfully - <module>
+01:32:01.683 - INFO - Bitget listing script has finished successfully - <module>
+01:47:02.244 - INFO - Bitget listing script has finished successfully - <module>
+02:02:01.879 - INFO - Bitget listing script has finished successfully - <module>
+02:17:01.299 - INFO - Bitget listing script has finished successfully - <module>
+02:32:01.399 - INFO - Bitget listing script has finished successfully - <module>
+02:47:02.198 - INFO - Bitget listing script has finished successfully - <module>
+03:02:01.545 - INFO - Bitget listing script has finished successfully - <module>
+03:17:01.448 - INFO - Bitget listing script has finished successfully - <module>
+03:32:01.455 - INFO - Bitget listing script has finished successfully - <module>
+03:47:01.825 - INFO - Bitget listing script has finished successfully - <module>
+04:02:01.624 - INFO - Bitget listing script has finished successfully - <module>
+04:17:01.831 - INFO - Bitget listing script has finished successfully - <module>
+04:32:02.032 - INFO - Bitget listing script has finished successfully - <module>
+04:47:02.053 - INFO - Bitget listing script has finished successfully - <module>
+05:02:01.925 - INFO - Bitget listing script has finished successfully - <module>
+05:17:01.642 - INFO - Bitget listing script has finished successfully - <module>
+05:32:01.807 - INFO - Bitget listing script has finished successfully - <module>
+05:47:02.035 - INFO - Bitget listing script has finished successfully - <module>
+06:02:01.861 - INFO - Bitget listing script has finished successfully - <module>
+06:17:01.894 - INFO - Bitget listing script has finished successfully - <module>
+06:32:02.152 - INFO - Bitget listing script has finished successfully - <module>
+06:47:01.280 - INFO - Bitget listing script has finished successfully - <module>
+07:02:01.865 - INFO - Bitget listing script has finished successfully - <module>
+07:17:01.882 - INFO - Bitget listing script has finished successfully - <module>
+07:32:01.992 - INFO - Bitget listing script has finished successfully - <module>
+07:32:33.842 - ERROR - main function error: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"support-main-area\"]/div/div/div[3]/div[2]/div/div[1]/div") to be visible
+ - main
+Traceback (most recent call last):
+  File "/root/trading_systems/bitget/bitget_listing_playwright.py", line 32, in main
+    page.wait_for_selector('//*[@id="support-main-area"]/div/div/div[3]/div[2]/div/div[1]/div')
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/sync_api/_generated.py", line 8165, in wait_for_selector
+    self._sync(
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_page.py", line 426, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"support-main-area\"]/div/div/div[3]/div[2]/div/div[1]/div") to be visible
+
+07:47:02.090 - INFO - Bitget listing script has finished successfully - <module>
+07:47:33.654 - ERROR - main function error: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"support-main-area\"]/div/div/div[3]/div[2]/div/div[1]/div") to be visible
+ - main
+Traceback (most recent call last):
+  File "/root/trading_systems/bitget/bitget_listing_playwright.py", line 32, in main
+    page.wait_for_selector('//*[@id="support-main-area"]/div/div/div[3]/div[2]/div/div[1]/div')
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/sync_api/_generated.py", line 8165, in wait_for_selector
+    self._sync(
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_page.py", line 426, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"support-main-area\"]/div/div/div[3]/div[2]/div/div[1]/div") to be visible
+
+08:02:01.785 - INFO - Bitget listing script has finished successfully - <module>
+08:02:33.565 - ERROR - main function error: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"support-main-area\"]/div/div/div[3]/div[2]/div/div[1]/div") to be visible
+ - main
+Traceback (most recent call last):
+  File "/root/trading_systems/bitget/bitget_listing_playwright.py", line 32, in main
+    page.wait_for_selector('//*[@id="support-main-area"]/div/div/div[3]/div[2]/div/div[1]/div')
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/sync_api/_generated.py", line 8165, in wait_for_selector
+    self._sync(
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_page.py", line 426, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"support-main-area\"]/div/div/div[3]/div[2]/div/div[1]/div") to be visible
+
+08:17:02.023 - INFO - Bitget listing script has finished successfully - <module>
+08:17:33.703 - ERROR - main function error: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"support-main-area\"]/div/div/div[3]/div[2]/div/div[1]/div") to be visible
+ - main
+Traceback (most recent call last):
+  File "/root/trading_systems/bitget/bitget_listing_playwright.py", line 32, in main
+    page.wait_for_selector('//*[@id="support-main-area"]/div/div/div[3]/div[2]/div/div[1]/div')
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/sync_api/_generated.py", line 8165, in wait_for_selector
+    self._sync(
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_page.py", line 426, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"support-main-area\"]/div/div/div[3]/div[2]/div/div[1]/div") to be visible
+
+08:32:02.057 - INFO - Bitget listing script has finished successfully - <module>
+08:32:33.581 - ERROR - main function error: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"support-main-area\"]/div/div/div[3]/div[2]/div/div[1]/div") to be visible
+ - main
+Traceback (most recent call last):
+  File "/root/trading_systems/bitget/bitget_listing_playwright.py", line 32, in main
+    page.wait_for_selector('//*[@id="support-main-area"]/div/div/div[3]/div[2]/div/div[1]/div')
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/sync_api/_generated.py", line 8165, in wait_for_selector
+    self._sync(
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_page.py", line 426, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"support-main-area\"]/div/div/div[3]/div[2]/div/div[1]/div") to be visible
+
+08:47:01.792 - INFO - Bitget listing script has finished successfully - <module>
+08:47:33.229 - ERROR - main function error: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"support-main-area\"]/div/div/div[3]/div[2]/div/div[1]/div") to be visible
+ - main
+Traceback (most recent call last):
+  File "/root/trading_systems/bitget/bitget_listing_playwright.py", line 32, in main
+    page.wait_for_selector('//*[@id="support-main-area"]/div/div/div[3]/div[2]/div/div[1]/div')
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/sync_api/_generated.py", line 8165, in wait_for_selector
+    self._sync(
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_page.py", line 426, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"support-main-area\"]/div/div/div[3]/div[2]/div/div[1]/div") to be visible
+
+09:02:01.591 - INFO - Bitget listing script has finished successfully - <module>
+09:02:33.263 - ERROR - main function error: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"support-main-area\"]/div/div/div[3]/div[2]/div/div[1]/div") to be visible
+ - main
+Traceback (most recent call last):
+  File "/root/trading_systems/bitget/bitget_listing_playwright.py", line 32, in main
+    page.wait_for_selector('//*[@id="support-main-area"]/div/div/div[3]/div[2]/div/div[1]/div')
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/sync_api/_generated.py", line 8165, in wait_for_selector
+    self._sync(
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_page.py", line 426, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"support-main-area\"]/div/div/div[3]/div[2]/div/div[1]/div") to be visible
+
+09:17:01.499 - INFO - Bitget listing script has finished successfully - <module>
+09:17:33.594 - ERROR - main function error: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"support-main-area\"]/div/div/div[3]/div[2]/div/div[1]/div") to be visible
+ - main
+Traceback (most recent call last):
+  File "/root/trading_systems/bitget/bitget_listing_playwright.py", line 32, in main
+    page.wait_for_selector('//*[@id="support-main-area"]/div/div/div[3]/div[2]/div/div[1]/div')
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/sync_api/_generated.py", line 8165, in wait_for_selector
+    self._sync(
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_page.py", line 426, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"support-main-area\"]/div/div/div[3]/div[2]/div/div[1]/div") to be visible
+
+09:32:01.637 - INFO - Bitget listing script has finished successfully - <module>
+09:32:33.219 - ERROR - main function error: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"support-main-area\"]/div/div/div[3]/div[2]/div/div[1]/div") to be visible
+ - main
+Traceback (most recent call last):
+  File "/root/trading_systems/bitget/bitget_listing_playwright.py", line 32, in main
+    page.wait_for_selector('//*[@id="support-main-area"]/div/div/div[3]/div[2]/div/div[1]/div')
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/sync_api/_generated.py", line 8165, in wait_for_selector
+    self._sync(
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_page.py", line 426, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"support-main-area\"]/div/div/div[3]/div[2]/div/div[1]/div") to be visible
+
+09:47:01.632 - INFO - Bitget listing script has finished successfully - <module>
+09:47:33.096 - ERROR - main function error: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"support-main-area\"]/div/div/div[3]/div[2]/div/div[1]/div") to be visible
+ - main
+Traceback (most recent call last):
+  File "/root/trading_systems/bitget/bitget_listing_playwright.py", line 32, in main
+    page.wait_for_selector('//*[@id="support-main-area"]/div/div/div[3]/div[2]/div/div[1]/div')
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/sync_api/_generated.py", line 8165, in wait_for_selector
+    self._sync(
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_page.py", line 426, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"support-main-area\"]/div/div/div[3]/div[2]/div/div[1]/div") to be visible
+
+10:02:01.383 - INFO - Bitget listing script has finished successfully - <module>
+10:02:32.965 - ERROR - main function error: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"support-main-area\"]/div/div/div[3]/div[2]/div/div[1]/div") to be visible
+ - main
+Traceback (most recent call last):
+  File "/root/trading_systems/bitget/bitget_listing_playwright.py", line 32, in main
+    page.wait_for_selector('//*[@id="support-main-area"]/div/div/div[3]/div[2]/div/div[1]/div')
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/sync_api/_generated.py", line 8165, in wait_for_selector
+    self._sync(
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_page.py", line 426, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"support-main-area\"]/div/div/div[3]/div[2]/div/div[1]/div") to be visible
+
+10:17:01.980 - INFO - Bitget listing script has finished successfully - <module>
+10:17:33.643 - ERROR - main function error: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"support-main-area\"]/div/div/div[3]/div[2]/div/div[1]/div") to be visible
+ - main
+Traceback (most recent call last):
+  File "/root/trading_systems/bitget/bitget_listing_playwright.py", line 32, in main
+    page.wait_for_selector('//*[@id="support-main-area"]/div/div/div[3]/div[2]/div/div[1]/div')
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/sync_api/_generated.py", line 8165, in wait_for_selector
+    self._sync(
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_page.py", line 426, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"support-main-area\"]/div/div/div[3]/div[2]/div/div[1]/div") to be visible
+
+10:32:02.075 - INFO - Bitget listing script has finished successfully - <module>
+10:32:34.014 - ERROR - main function error: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"support-main-area\"]/div/div/div[3]/div[2]/div/div[1]/div") to be visible
+ - main
+Traceback (most recent call last):
+  File "/root/trading_systems/bitget/bitget_listing_playwright.py", line 32, in main
+    page.wait_for_selector('//*[@id="support-main-area"]/div/div/div[3]/div[2]/div/div[1]/div')
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/sync_api/_generated.py", line 8165, in wait_for_selector
+    self._sync(
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_page.py", line 426, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"support-main-area\"]/div/div/div[3]/div[2]/div/div[1]/div") to be visible
+
+10:47:02.073 - INFO - Bitget listing script has finished successfully - <module>
+10:47:33.488 - ERROR - main function error: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"support-main-area\"]/div/div/div[3]/div[2]/div/div[1]/div") to be visible
+ - main
+Traceback (most recent call last):
+  File "/root/trading_systems/bitget/bitget_listing_playwright.py", line 32, in main
+    page.wait_for_selector('//*[@id="support-main-area"]/div/div/div[3]/div[2]/div/div[1]/div')
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/sync_api/_generated.py", line 8165, in wait_for_selector
+    self._sync(
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_page.py", line 426, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"support-main-area\"]/div/div/div[3]/div[2]/div/div[1]/div") to be visible
+
+11:02:01.113 - INFO - Bitget listing script has finished successfully - <module>
+11:02:32.716 - ERROR - main function error: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"support-main-area\"]/div/div/div[3]/div[2]/div/div[1]/div") to be visible
+ - main
+Traceback (most recent call last):
+  File "/root/trading_systems/bitget/bitget_listing_playwright.py", line 32, in main
+    page.wait_for_selector('//*[@id="support-main-area"]/div/div/div[3]/div[2]/div/div[1]/div')
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/sync_api/_generated.py", line 8165, in wait_for_selector
+    self._sync(
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_page.py", line 426, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/root/trading_systems/tradingvenv/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//*[@id=\"support-main-area\"]/div/div/div[3]/div[2]/div/div[1]/div") to be visible
+

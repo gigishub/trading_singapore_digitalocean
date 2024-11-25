@@ -29,7 +29,7 @@ logger.propagate = False
 # Kucoin retrive data and save new
 # 1,16,31,46 * * * * /root/trading_systems/tradingvenv/bin/python /root/trading_systems/kucoin_dir/kucoin_save_first_release_data.py >> /root/trading_systems/kucoin_dir/cronlogs/kucoin_save_first_release_data.log 2>&1
 
-LOCK_FILE = '/tmp/kucoin_save_first_release_data.lock'
+LOCK_FILE = '/tmp/kucoin_save_first_release_data_2.lock'
 
 async def main():
     lock_file = acquire_lock()
@@ -39,7 +39,7 @@ async def main():
         directory = '/root/trading_systems/kucoin_dir/new_pair_data_kucoin'
         testing_time_offset = 2  # Time offset for testing
         path_to_save = '/root/trading_systems/kucoin_dir/kucoin_data_collection_NEW'
-        duration_to_run = 1  # time in minutes
+        duration_to_run = 2  # time in minutes
         start_collect_before_release_sec = 30  # Start collecting data before release time
 
         if not testing:

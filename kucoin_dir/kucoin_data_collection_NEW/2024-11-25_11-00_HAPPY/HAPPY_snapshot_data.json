@@ -1,0 +1,6879 @@
+{
+  "metadata": {
+    "symbol": "HAPPY",
+    "channel": "snapshot",
+    "start_time": "10:59:30.0000",
+    "release_time": "11:00:00.0000",
+    "end_time": "11:02:00.0000",
+    "total_messages": 101,
+    "final_snapshot": {
+      "time": "11:01:58.0080",
+      "symbol": "HAPPY-USDT",
+      "price_high": "0.028",
+      "price_last": "0.02368",
+      "price_low": "0.012",
+      "price_avg": null,
+      "volValue_USDT": "26102.028892"
+    }
+  },
+  "data": [
+    {
+      "sequence": "157",
+      "data": {
+        "askSize": 17995,
+        "baseCurrency": "HAPPY",
+        "bidSize": 1976.3,
+        "board": 0,
+        "buy": 0.02501,
+        "changeRate": 0,
+        "close": 0.025,
+        "datetime": 1732532402008,
+        "high": 0,
+        "lastTradedPrice": 0.025,
+        "low": 0,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changeRate": 0,
+          "high": 0,
+          "low": 0,
+          "open": 0,
+          "vol": 0,
+          "volValue": 0
+        },
+        "marketChange24h": {
+          "changeRate": 0,
+          "high": 0,
+          "low": 0,
+          "open": 0,
+          "vol": 0,
+          "volValue": 0
+        },
+        "marketChange4h": {
+          "changeRate": 0,
+          "high": 0,
+          "low": 0,
+          "open": 0,
+          "vol": 0,
+          "volValue": 0
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0,
+        "quoteCurrency": "USDT",
+        "sell": 0.0256,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": false,
+        "vol": 0,
+        "volValue": 0
+      },
+      "time_received": "11:00:02.1354"
+    },
+    {
+      "sequence": "165",
+      "data": {
+        "askSize": 17995,
+        "baseCurrency": "HAPPY",
+        "bidSize": 721812.1,
+        "board": 0,
+        "buy": 0.025,
+        "changeRate": 0,
+        "close": 0.025,
+        "datetime": 1732532404007,
+        "high": 0,
+        "lastTradedPrice": 0.025,
+        "low": 0,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changeRate": 0,
+          "high": 0,
+          "low": 0,
+          "open": 0,
+          "vol": 0,
+          "volValue": 0
+        },
+        "marketChange24h": {
+          "changeRate": 0,
+          "high": 0,
+          "low": 0,
+          "open": 0,
+          "vol": 0,
+          "volValue": 0
+        },
+        "marketChange4h": {
+          "changeRate": 0,
+          "high": 0,
+          "low": 0,
+          "open": 0,
+          "vol": 0,
+          "volValue": 0
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0,
+        "quoteCurrency": "USDT",
+        "sell": 0.0256,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": false,
+        "vol": 0,
+        "volValue": 0
+      },
+      "time_received": "11:00:04.0485"
+    },
+    {
+      "sequence": "165",
+      "data": {
+        "askSize": 17995,
+        "baseCurrency": "HAPPY",
+        "bidSize": 721812.1,
+        "board": 0,
+        "buy": 0.025,
+        "changePrice": 0.013,
+        "changeRate": 1.0833,
+        "close": 0.025,
+        "datetime": 1732532404501,
+        "high": 0.028,
+        "lastTradedPrice": 0.025,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.013,
+          "changeRate": 1.0833,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 85512.5,
+          "volValue": 2121.447865
+        },
+        "marketChange24h": {
+          "changePrice": 0.013,
+          "changeRate": 1.0833,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 85512.5,
+          "volValue": 2121.447865
+        },
+        "marketChange4h": {
+          "changePrice": 0.013,
+          "changeRate": 1.0833,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 85512.5,
+          "volValue": 2121.447865
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.0256,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": false,
+        "vol": 85512.5,
+        "volValue": 2121.447865
+      },
+      "time_received": "11:00:04.5466"
+    },
+    {
+      "sequence": "184",
+      "data": {
+        "askSize": 17995,
+        "baseCurrency": "HAPPY",
+        "bidSize": 534312.1,
+        "board": 0,
+        "buy": 0.025,
+        "changeRate": 0,
+        "close": 0.025,
+        "datetime": 1732532406008,
+        "high": 0,
+        "lastTradedPrice": 0.025,
+        "low": 0,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.013,
+          "changeRate": 1.0833,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 273012.5,
+          "volValue": 6808.947865
+        },
+        "marketChange24h": {
+          "changeRate": 0,
+          "high": 0,
+          "low": 0,
+          "open": 0,
+          "vol": 0,
+          "volValue": 0
+        },
+        "marketChange4h": {
+          "changePrice": 0.013,
+          "changeRate": 1.0833,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 273012.5,
+          "volValue": 6808.947865
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0,
+        "quoteCurrency": "USDT",
+        "sell": 0.0256,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": false,
+        "vol": 0,
+        "volValue": 0
+      },
+      "time_received": "11:00:06.1411"
+    },
+    {
+      "sequence": "186",
+      "data": {
+        "askSize": 17401.6,
+        "baseCurrency": "HAPPY",
+        "bidSize": 527665.2,
+        "board": 0,
+        "buy": 0.025,
+        "changePrice": 0.0136,
+        "changeRate": 1.1333,
+        "close": 0.0256,
+        "datetime": 1732532406441,
+        "high": 0.028,
+        "lastTradedPrice": 0.0256,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0136,
+          "changeRate": 1.1333,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 280252.8,
+          "volValue": 6990.311405
+        },
+        "marketChange24h": {
+          "changePrice": 0.0136,
+          "changeRate": 1.1333,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 280252.8,
+          "volValue": 6990.311405
+        },
+        "marketChange4h": {
+          "changePrice": 0.0136,
+          "changeRate": 1.1333,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 280252.8,
+          "volValue": 6990.311405
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.0256,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": false,
+        "vol": 280252.8,
+        "volValue": 6990.311405
+      },
+      "time_received": "11:00:06.4876"
+    },
+    {
+      "sequence": "204",
+      "data": {
+        "askSize": 14422.8,
+        "baseCurrency": "HAPPY",
+        "bidSize": 11904.7,
+        "board": 0,
+        "buy": 0.0252,
+        "changePrice": 0.0136,
+        "changeRate": 1.1333,
+        "close": 0.0256,
+        "datetime": 1732532408006,
+        "high": 0.028,
+        "lastTradedPrice": 0.0256,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0136,
+          "changeRate": 1.1333,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 85512.5,
+          "volValue": 2121.447865
+        },
+        "marketChange24h": {
+          "changePrice": 0.0136,
+          "changeRate": 1.1333,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 85512.5,
+          "volValue": 2121.447865
+        },
+        "marketChange4h": {
+          "changePrice": 0.0136,
+          "changeRate": 1.1333,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 85512.5,
+          "volValue": 2121.447865
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.0256,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": false,
+        "vol": 85512.5,
+        "volValue": 2121.447865
+      },
+      "time_received": "11:00:08.0517"
+    },
+    {
+      "sequence": "225",
+      "data": {
+        "askSize": 2740.6,
+        "baseCurrency": "HAPPY",
+        "bidSize": 11472.2,
+        "board": 0,
+        "buy": 0.0252,
+        "changePrice": 0.0132,
+        "changeRate": 1.1,
+        "close": 0.0252,
+        "datetime": 1732532410008,
+        "high": 0.028,
+        "lastTradedPrice": 0.0252,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0132,
+          "changeRate": 1.1,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 273012.5,
+          "volValue": 6808.947865
+        },
+        "marketChange24h": {
+          "changePrice": 0.0132,
+          "changeRate": 1.1,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 376275.9,
+          "volValue": 9399.772005
+        },
+        "marketChange4h": {
+          "changePrice": 0.0132,
+          "changeRate": 1.1,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 273012.5,
+          "volValue": 6808.947865
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.0256,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 376275.9,
+        "volValue": 9399.772005
+      },
+      "time_received": "11:00:10.0508"
+    },
+    {
+      "sequence": "235",
+      "data": {
+        "askSize": 2740.6,
+        "baseCurrency": "HAPPY",
+        "bidSize": 417066,
+        "board": 0,
+        "buy": 0.025,
+        "changePrice": 0.013,
+        "changeRate": 1.0833,
+        "close": 0.025,
+        "datetime": 1732532410460,
+        "high": 0.028,
+        "lastTradedPrice": 0.025,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.013,
+          "changeRate": 1.0833,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 280252.8,
+          "volValue": 6990.311405
+        },
+        "marketChange24h": {
+          "changePrice": 0.013,
+          "changeRate": 1.0833,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 280252.8,
+          "volValue": 6990.311405
+        },
+        "marketChange4h": {
+          "changePrice": 0.013,
+          "changeRate": 1.0833,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 280252.8,
+          "volValue": 6990.311405
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.0256,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": false,
+        "vol": 280252.8,
+        "volValue": 6990.311405
+      },
+      "time_received": "11:00:10.4996"
+    },
+    {
+      "sequence": "246",
+      "data": {
+        "askSize": 622833.8,
+        "baseCurrency": "HAPPY",
+        "bidSize": 3000,
+        "board": 0,
+        "buy": 0.0235,
+        "changePrice": 0.013,
+        "changeRate": 1.0833,
+        "close": 0.025,
+        "datetime": 1732532412006,
+        "high": 0.028,
+        "lastTradedPrice": 0.025,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.013,
+          "changeRate": 1.0833,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 85512.5,
+          "volValue": 2121.447865
+        },
+        "marketChange24h": {
+          "changePrice": 0.013,
+          "changeRate": 1.0833,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 85512.5,
+          "volValue": 2121.447865
+        },
+        "marketChange4h": {
+          "changePrice": 0.013,
+          "changeRate": 1.0833,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 85512.5,
+          "volValue": 2121.447865
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.025,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 85512.5,
+        "volValue": 2121.447865
+      },
+      "time_received": "11:00:12.0452"
+    },
+    {
+      "sequence": "263",
+      "data": {
+        "askSize": 622833.8,
+        "baseCurrency": "HAPPY",
+        "bidSize": 256.8,
+        "board": 0,
+        "buy": 0.02351,
+        "changePrice": 0.013,
+        "changeRate": 1.0833,
+        "close": 0.025,
+        "datetime": 1732532412453,
+        "high": 0.028,
+        "lastTradedPrice": 0.025,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.013,
+          "changeRate": 1.0833,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 85512.5,
+          "volValue": 2121.447865
+        },
+        "marketChange24h": {
+          "changePrice": 0.013,
+          "changeRate": 1.0833,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 85512.5,
+          "volValue": 2121.447865
+        },
+        "marketChange4h": {
+          "changePrice": 0.013,
+          "changeRate": 1.0833,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 85512.5,
+          "volValue": 2121.447865
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.025,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": false,
+        "vol": 85512.5,
+        "volValue": 2121.447865
+      },
+      "time_received": "11:00:12.4943"
+    },
+    {
+      "sequence": "263",
+      "data": {
+        "askSize": 622833.8,
+        "baseCurrency": "HAPPY",
+        "bidSize": 256.8,
+        "board": 0,
+        "buy": 0.02351,
+        "changePrice": 0.013,
+        "changeRate": 1.0833,
+        "close": 0.025,
+        "datetime": 1732532414005,
+        "high": 0.028,
+        "lastTradedPrice": 0.025,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.013,
+          "changeRate": 1.0833,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 280252.8,
+          "volValue": 6990.311405
+        },
+        "marketChange24h": {
+          "changePrice": 0.013,
+          "changeRate": 1.0833,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 280252.8,
+          "volValue": 6990.311405
+        },
+        "marketChange4h": {
+          "changePrice": 0.013,
+          "changeRate": 1.0833,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 280252.8,
+          "volValue": 6990.311405
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.025,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": false,
+        "vol": 280252.8,
+        "volValue": 6990.311405
+      },
+      "time_received": "11:00:14.0465"
+    },
+    {
+      "sequence": "272",
+      "data": {
+        "askSize": 156748.3,
+        "baseCurrency": "HAPPY",
+        "bidSize": 256.8,
+        "board": 0,
+        "buy": 0.02351,
+        "changePrice": 0.01296,
+        "changeRate": 1.08,
+        "close": 0.02496,
+        "datetime": 1732532416006,
+        "high": 0.028,
+        "lastTradedPrice": 0.02496,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01296,
+          "changeRate": 1.08,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 838939.2,
+          "volValue": 20968.572398
+        },
+        "marketChange24h": {
+          "changePrice": 0.01296,
+          "changeRate": 1.08,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 838939.2,
+          "volValue": 20968.572398
+        },
+        "marketChange4h": {
+          "changePrice": 0.01296,
+          "changeRate": 1.08,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 838939.2,
+          "volValue": 20968.572398
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02496,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 838939.2,
+        "volValue": 20968.572398
+      },
+      "time_received": "11:00:16.1143"
+    },
+    {
+      "sequence": "303",
+      "data": {
+        "askSize": 156748.3,
+        "baseCurrency": "HAPPY",
+        "bidSize": 256.8,
+        "board": 0,
+        "buy": 0.02351,
+        "changePrice": 0.01296,
+        "changeRate": 1.08,
+        "close": 0.02496,
+        "datetime": 1732532418440,
+        "high": 0.028,
+        "lastTradedPrice": 0.02496,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01296,
+          "changeRate": 1.08,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 838939.2,
+          "volValue": 20968.572398
+        },
+        "marketChange24h": {
+          "changePrice": 0.01296,
+          "changeRate": 1.08,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 376275.9,
+          "volValue": 9399.772005
+        },
+        "marketChange4h": {
+          "changePrice": 0.01296,
+          "changeRate": 1.08,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 838939.2,
+          "volValue": 20968.572398
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02496,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 376275.9,
+        "volValue": 9399.772005
+      },
+      "time_received": "11:00:18.4846"
+    },
+    {
+      "sequence": "319",
+      "data": {
+        "askSize": 62500,
+        "baseCurrency": "HAPPY",
+        "bidSize": 256.8,
+        "board": 0,
+        "buy": 0.02351,
+        "changePrice": 0.01295,
+        "changeRate": 1.0791,
+        "close": 0.02495,
+        "datetime": 1732532420009,
+        "high": 0.028,
+        "lastTradedPrice": 0.02495,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01295,
+          "changeRate": 1.0791,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 838939.2,
+          "volValue": 20968.572398
+        },
+        "marketChange24h": {
+          "changePrice": 0.01295,
+          "changeRate": 1.0791,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 838939.2,
+          "volValue": 20968.572398
+        },
+        "marketChange4h": {
+          "changePrice": 0.01295,
+          "changeRate": 1.0791,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 838939.2,
+          "volValue": 20968.572398
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.024,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": false,
+        "vol": 838939.2,
+        "volValue": 20968.572398
+      },
+      "time_received": "11:00:20.0494"
+    },
+    {
+      "sequence": "319",
+      "data": {
+        "askSize": 62500,
+        "baseCurrency": "HAPPY",
+        "bidSize": 256.8,
+        "board": 0,
+        "buy": 0.02351,
+        "changePrice": 0.01295,
+        "changeRate": 1.0791,
+        "close": 0.02495,
+        "datetime": 1732532420438,
+        "high": 0.028,
+        "lastTradedPrice": 0.02495,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01295,
+          "changeRate": 1.0791,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 838939.2,
+          "volValue": 20968.572398
+        },
+        "marketChange24h": {
+          "changePrice": 0.01295,
+          "changeRate": 1.0791,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 844147.7,
+          "volValue": 21098.540621
+        },
+        "marketChange4h": {
+          "changePrice": 0.01295,
+          "changeRate": 1.0791,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 838939.2,
+          "volValue": 20968.572398
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.024,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 844147.7,
+        "volValue": 21098.540621
+      },
+      "time_received": "11:00:20.4800"
+    },
+    {
+      "sequence": "331",
+      "data": {
+        "askSize": 62500,
+        "baseCurrency": "HAPPY",
+        "bidSize": 3000,
+        "board": 0,
+        "buy": 0.0235,
+        "changePrice": 0.01295,
+        "changeRate": 1.0791,
+        "close": 0.02495,
+        "datetime": 1732532422008,
+        "high": 0.028,
+        "lastTradedPrice": 0.02495,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01295,
+          "changeRate": 1.0791,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 838939.2,
+          "volValue": 20968.572398
+        },
+        "marketChange24h": {
+          "changePrice": 0.01295,
+          "changeRate": 1.0791,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 838939.2,
+          "volValue": 20968.572398
+        },
+        "marketChange4h": {
+          "changePrice": 0.01295,
+          "changeRate": 1.0791,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 838939.2,
+          "volValue": 20968.572398
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.024,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 838939.2,
+        "volValue": 20968.572398
+      },
+      "time_received": "11:00:22.0492"
+    },
+    {
+      "sequence": "373",
+      "data": {
+        "askSize": 61443.5,
+        "baseCurrency": "HAPPY",
+        "bidSize": 3000,
+        "board": 0,
+        "buy": 0.0235,
+        "changePrice": 0.012,
+        "changeRate": 1.0,
+        "close": 0.024,
+        "datetime": 1732532422483,
+        "high": 0.028,
+        "lastTradedPrice": 0.024,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.012,
+          "changeRate": 1.0,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 838939.2,
+          "volValue": 20968.572398
+        },
+        "marketChange24h": {
+          "changePrice": 0.012,
+          "changeRate": 1.0,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 838939.2,
+          "volValue": 20968.572398
+        },
+        "marketChange4h": {
+          "changePrice": 0.012,
+          "changeRate": 1.0,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 838939.2,
+          "volValue": 20968.572398
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.024,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 838939.2,
+        "volValue": 20968.572398
+      },
+      "time_received": "11:00:22.5221"
+    },
+    {
+      "sequence": "433",
+      "data": {
+        "askSize": 2335.2,
+        "baseCurrency": "HAPPY",
+        "bidSize": 4022.1,
+        "board": 0,
+        "buy": 0.0232,
+        "changePrice": 0.01128,
+        "changeRate": 0.94,
+        "close": 0.02328,
+        "datetime": 1732532424005,
+        "high": 0.028,
+        "lastTradedPrice": 0.02328,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01128,
+          "changeRate": 0.94,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 838939.2,
+          "volValue": 20968.572398
+        },
+        "marketChange24h": {
+          "changePrice": 0.01128,
+          "changeRate": 0.94,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 838939.2,
+          "volValue": 20968.572398
+        },
+        "marketChange4h": {
+          "changePrice": 0.01128,
+          "changeRate": 0.94,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 838939.2,
+          "volValue": 20968.572398
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02399,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 838939.2,
+        "volValue": 20968.572398
+      },
+      "time_received": "11:00:24.0444"
+    },
+    {
+      "sequence": "449",
+      "data": {
+        "askSize": 2321.6,
+        "baseCurrency": "HAPPY",
+        "bidSize": 4024.9,
+        "board": 0,
+        "buy": 0.02329,
+        "changePrice": 0.01199,
+        "changeRate": 0.9991,
+        "close": 0.02399,
+        "datetime": 1732532424472,
+        "high": 0.028,
+        "lastTradedPrice": 0.02399,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01199,
+          "changeRate": 0.9991,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 838939.2,
+          "volValue": 20968.572398
+        },
+        "marketChange24h": {
+          "changePrice": 0.01199,
+          "changeRate": 0.9991,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 838939.2,
+          "volValue": 20968.572398
+        },
+        "marketChange4h": {
+          "changePrice": 0.01199,
+          "changeRate": 0.9991,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 838939.2,
+          "volValue": 20968.572398
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02398,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": false,
+        "vol": 838939.2,
+        "volValue": 20968.572398
+      },
+      "time_received": "11:00:24.5127"
+    },
+    {
+      "sequence": "487",
+      "data": {
+        "askSize": 47313.7,
+        "baseCurrency": "HAPPY",
+        "bidSize": 4227.4,
+        "board": 0,
+        "buy": 0.02332,
+        "changePrice": 0.012,
+        "changeRate": 1.0,
+        "close": 0.024,
+        "datetime": 1732532426006,
+        "high": 0.028,
+        "lastTradedPrice": 0.024,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.012,
+          "changeRate": 1.0,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 838939.2,
+          "volValue": 20968.572398
+        },
+        "marketChange24h": {
+          "changePrice": 0.012,
+          "changeRate": 1.0,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 838939.2,
+          "volValue": 20968.572398
+        },
+        "marketChange4h": {
+          "changePrice": 0.012,
+          "changeRate": 1.0,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 838939.2,
+          "volValue": 20968.572398
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.024,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 838939.2,
+        "volValue": 20968.572398
+      },
+      "time_received": "11:00:26.0497"
+    },
+    {
+      "sequence": "488",
+      "data": {
+        "askSize": 47313.7,
+        "baseCurrency": "HAPPY",
+        "bidSize": 6341.1,
+        "board": 0,
+        "buy": 0.02332,
+        "changePrice": 0.012,
+        "changeRate": 1.0,
+        "close": 0.024,
+        "datetime": 1732532426415,
+        "high": 0.028,
+        "lastTradedPrice": 0.024,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.012,
+          "changeRate": 1.0,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 889461.3,
+          "volValue": 22169.651453
+        },
+        "marketChange24h": {
+          "changePrice": 0.012,
+          "changeRate": 1.0,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 889461.3,
+          "volValue": 22169.651453
+        },
+        "marketChange4h": {
+          "changePrice": 0.012,
+          "changeRate": 1.0,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 889461.3,
+          "volValue": 22169.651453
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.024,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": false,
+        "vol": 889461.3,
+        "volValue": 22169.651453
+      },
+      "time_received": "11:00:26.4602"
+    },
+    {
+      "sequence": "509",
+      "data": {
+        "askSize": 47313.7,
+        "baseCurrency": "HAPPY",
+        "bidSize": 6338.4,
+        "board": 0,
+        "buy": 0.02334,
+        "changePrice": 0.012,
+        "changeRate": 1.0,
+        "close": 0.024,
+        "datetime": 1732532428008,
+        "high": 0.028,
+        "lastTradedPrice": 0.024,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.012,
+          "changeRate": 1.0,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 838939.2,
+          "volValue": 20968.572398
+        },
+        "marketChange24h": {
+          "changePrice": 0.012,
+          "changeRate": 1.0,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 844147.7,
+          "volValue": 21098.540621
+        },
+        "marketChange4h": {
+          "changePrice": 0.012,
+          "changeRate": 1.0,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 838939.2,
+          "volValue": 20968.572398
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.024,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 844147.7,
+        "volValue": 21098.540621
+      },
+      "time_received": "11:00:28.0495"
+    },
+    {
+      "sequence": "520",
+      "data": {
+        "askSize": 47313.7,
+        "baseCurrency": "HAPPY",
+        "bidSize": 6337.2,
+        "board": 0,
+        "buy": 0.02335,
+        "changePrice": 0.012,
+        "changeRate": 1.0,
+        "close": 0.024,
+        "datetime": 1732532428533,
+        "high": 0.028,
+        "lastTradedPrice": 0.024,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.012,
+          "changeRate": 1.0,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 889461.3,
+          "volValue": 22169.651453
+        },
+        "marketChange24h": {
+          "changePrice": 0.012,
+          "changeRate": 1.0,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 889461.3,
+          "volValue": 22169.651453
+        },
+        "marketChange4h": {
+          "changePrice": 0.012,
+          "changeRate": 1.0,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 889461.3,
+          "volValue": 22169.651453
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.024,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 889461.3,
+        "volValue": 22169.651453
+      },
+      "time_received": "11:00:28.5785"
+    },
+    {
+      "sequence": "537",
+      "data": {
+        "askSize": 47313.7,
+        "baseCurrency": "HAPPY",
+        "bidSize": 4223,
+        "board": 0,
+        "buy": 0.02337,
+        "changePrice": 0.012,
+        "changeRate": 1.0,
+        "close": 0.024,
+        "datetime": 1732532430008,
+        "high": 0.028,
+        "lastTradedPrice": 0.024,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.012,
+          "changeRate": 1.0,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 889461.3,
+          "volValue": 22169.651453
+        },
+        "marketChange24h": {
+          "changePrice": 0.012,
+          "changeRate": 1.0,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 889461.3,
+          "volValue": 22169.651453
+        },
+        "marketChange4h": {
+          "changePrice": 0.012,
+          "changeRate": 1.0,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 889461.3,
+          "volValue": 22169.651453
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.024,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 889461.3,
+        "volValue": 22169.651453
+      },
+      "time_received": "11:00:30.0527"
+    },
+    {
+      "sequence": "538",
+      "data": {
+        "askSize": 47313.7,
+        "baseCurrency": "HAPPY",
+        "bidSize": 6334.5,
+        "board": 0,
+        "buy": 0.02337,
+        "changePrice": 0.012,
+        "changeRate": 1.0,
+        "close": 0.024,
+        "datetime": 1732532430420,
+        "high": 0.028,
+        "lastTradedPrice": 0.024,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.012,
+          "changeRate": 1.0,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 889461.3,
+          "volValue": 22169.651453
+        },
+        "marketChange24h": {
+          "changePrice": 0.012,
+          "changeRate": 1.0,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 844147.7,
+          "volValue": 21098.540621
+        },
+        "marketChange4h": {
+          "changePrice": 0.012,
+          "changeRate": 1.0,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 889461.3,
+          "volValue": 22169.651453
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.024,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 844147.7,
+        "volValue": 21098.540621
+      },
+      "time_received": "11:00:30.4622"
+    },
+    {
+      "sequence": "562",
+      "data": {
+        "askSize": 44155.6,
+        "baseCurrency": "HAPPY",
+        "bidSize": 6337.2,
+        "board": 0,
+        "buy": 0.02339,
+        "changePrice": 0.01198,
+        "changeRate": 0.9983,
+        "close": 0.02398,
+        "datetime": 1732532432008,
+        "high": 0.028,
+        "lastTradedPrice": 0.02398,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01198,
+          "changeRate": 0.9983,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 889461.3,
+          "volValue": 22169.651453
+        },
+        "marketChange24h": {
+          "changePrice": 0.01198,
+          "changeRate": 0.9983,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 889461.3,
+          "volValue": 22169.651453
+        },
+        "marketChange4h": {
+          "changePrice": 0.01198,
+          "changeRate": 0.9983,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 889461.3,
+          "volValue": 22169.651453
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02396,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 889461.3,
+        "volValue": 22169.651453
+      },
+      "time_received": "11:00:32.0489"
+    },
+    {
+      "sequence": "562",
+      "data": {
+        "askSize": 44155.6,
+        "baseCurrency": "HAPPY",
+        "bidSize": 6337.2,
+        "board": 0,
+        "buy": 0.02339,
+        "changePrice": 0.01198,
+        "changeRate": 0.9983,
+        "close": 0.02398,
+        "datetime": 1732532432401,
+        "high": 0.028,
+        "lastTradedPrice": 0.02398,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01198,
+          "changeRate": 0.9983,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 889461.3,
+          "volValue": 22169.651453
+        },
+        "marketChange24h": {
+          "changePrice": 0.01198,
+          "changeRate": 0.9983,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 889494.2,
+          "volValue": 22170.440395
+        },
+        "marketChange4h": {
+          "changePrice": 0.01198,
+          "changeRate": 0.9983,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 889461.3,
+          "volValue": 22169.651453
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02396,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 889494.2,
+        "volValue": 22170.440395
+      },
+      "time_received": "11:00:32.4426"
+    },
+    {
+      "sequence": "583",
+      "data": {
+        "askSize": 28952.8,
+        "baseCurrency": "HAPPY",
+        "bidSize": 6334.5,
+        "board": 0,
+        "buy": 0.02341,
+        "changePrice": 0.01196,
+        "changeRate": 0.9966,
+        "close": 0.02396,
+        "datetime": 1732532434009,
+        "high": 0.028,
+        "lastTradedPrice": 0.02396,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01196,
+          "changeRate": 0.9966,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 889461.3,
+          "volValue": 22169.651453
+        },
+        "marketChange24h": {
+          "changePrice": 0.01196,
+          "changeRate": 0.9966,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 889461.3,
+          "volValue": 22169.651453
+        },
+        "marketChange4h": {
+          "changePrice": 0.01196,
+          "changeRate": 0.9966,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 889461.3,
+          "volValue": 22169.651453
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02396,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 889461.3,
+        "volValue": 22169.651453
+      },
+      "time_received": "11:00:34.0499"
+    },
+    {
+      "sequence": "592",
+      "data": {
+        "askSize": 460.2,
+        "baseCurrency": "HAPPY",
+        "bidSize": 6333,
+        "board": 0,
+        "buy": 0.02342,
+        "changePrice": 0.01196,
+        "changeRate": 0.9966,
+        "close": 0.02396,
+        "datetime": 1732532434362,
+        "high": 0.028,
+        "lastTradedPrice": 0.02396,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01196,
+          "changeRate": 0.9966,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 889461.3,
+          "volValue": 22169.651453
+        },
+        "marketChange24h": {
+          "changePrice": 0.01196,
+          "changeRate": 0.9966,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 889494.2,
+          "volValue": 22170.440395
+        },
+        "marketChange4h": {
+          "changePrice": 0.01196,
+          "changeRate": 0.9966,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 889461.3,
+          "volValue": 22169.651453
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02396,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 889494.2,
+        "volValue": 22170.440395
+      },
+      "time_received": "11:00:34.4019"
+    },
+    {
+      "sequence": "631",
+      "data": {
+        "askSize": 946.5,
+        "baseCurrency": "HAPPY",
+        "bidSize": 3565,
+        "board": 0,
+        "buy": 0.02345,
+        "changePrice": 0.01145,
+        "changeRate": 0.9541,
+        "close": 0.02345,
+        "datetime": 1732532436005,
+        "high": 0.028,
+        "lastTradedPrice": 0.02345,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01145,
+          "changeRate": 0.9541,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 889461.3,
+          "volValue": 22169.651453
+        },
+        "marketChange24h": {
+          "changePrice": 0.01145,
+          "changeRate": 0.9541,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 889461.3,
+          "volValue": 22169.651453
+        },
+        "marketChange4h": {
+          "changePrice": 0.01145,
+          "changeRate": 0.9541,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 889461.3,
+          "volValue": 22169.651453
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02397,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 889461.3,
+        "volValue": 22169.651453
+      },
+      "time_received": "11:00:36.0467"
+    },
+    {
+      "sequence": "631",
+      "data": {
+        "askSize": 946.5,
+        "baseCurrency": "HAPPY",
+        "bidSize": 3565,
+        "board": 0,
+        "buy": 0.02345,
+        "changePrice": 0.01145,
+        "changeRate": 0.9541,
+        "close": 0.02345,
+        "datetime": 1732532436488,
+        "high": 0.028,
+        "lastTradedPrice": 0.02345,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01145,
+          "changeRate": 0.9541,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 939040.1,
+          "volValue": 23356.17367
+        },
+        "marketChange24h": {
+          "changePrice": 0.01145,
+          "changeRate": 0.9541,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 939040.1,
+          "volValue": 23356.17367
+        },
+        "marketChange4h": {
+          "changePrice": 0.01145,
+          "changeRate": 0.9541,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 939040.1,
+          "volValue": 23356.17367
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02397,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 939040.1,
+        "volValue": 23356.17367
+      },
+      "time_received": "11:00:36.5344"
+    },
+    {
+      "sequence": "645",
+      "data": {
+        "askSize": 1182.3,
+        "baseCurrency": "HAPPY",
+        "bidSize": 4510.3,
+        "board": 0,
+        "buy": 0.02346,
+        "changePrice": 0.01198,
+        "changeRate": 0.9983,
+        "close": 0.02398,
+        "datetime": 1732532438016,
+        "high": 0.028,
+        "lastTradedPrice": 0.02398,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01198,
+          "changeRate": 0.9983,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 939040.1,
+          "volValue": 23356.17367
+        },
+        "marketChange24h": {
+          "changePrice": 0.01198,
+          "changeRate": 0.9983,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 939040.1,
+          "volValue": 23356.17367
+        },
+        "marketChange4h": {
+          "changePrice": 0.01198,
+          "changeRate": 0.9983,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 939040.1,
+          "volValue": 23356.17367
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02397,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 939040.1,
+        "volValue": 23356.17367
+      },
+      "time_received": "11:00:38.0590"
+    },
+    {
+      "sequence": "645",
+      "data": {
+        "askSize": 1182.3,
+        "baseCurrency": "HAPPY",
+        "bidSize": 4510.3,
+        "board": 0,
+        "buy": 0.02346,
+        "changePrice": 0.01198,
+        "changeRate": 0.9983,
+        "close": 0.02398,
+        "datetime": 1732532438460,
+        "high": 0.028,
+        "lastTradedPrice": 0.02398,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01198,
+          "changeRate": 0.9983,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 889461.3,
+          "volValue": 22169.651453
+        },
+        "marketChange24h": {
+          "changePrice": 0.01198,
+          "changeRate": 0.9983,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 889461.3,
+          "volValue": 22169.651453
+        },
+        "marketChange4h": {
+          "changePrice": 0.01198,
+          "changeRate": 0.9983,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 889461.3,
+          "volValue": 22169.651453
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02397,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 889461.3,
+        "volValue": 22169.651453
+      },
+      "time_received": "11:00:38.4978"
+    },
+    {
+      "sequence": "705",
+      "data": {
+        "askSize": 2692.6,
+        "baseCurrency": "HAPPY",
+        "bidSize": 3683.6,
+        "board": 0,
+        "buy": 0.02312,
+        "changePrice": 0.01195,
+        "changeRate": 0.9958,
+        "close": 0.02395,
+        "datetime": 1732532440009,
+        "high": 0.028,
+        "lastTradedPrice": 0.02395,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01195,
+          "changeRate": 0.9958,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 946700.6,
+          "volValue": 23538.091134
+        },
+        "marketChange24h": {
+          "changePrice": 0.01195,
+          "changeRate": 0.9958,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 946700.6,
+          "volValue": 23538.091134
+        },
+        "marketChange4h": {
+          "changePrice": 0.01195,
+          "changeRate": 0.9958,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 946700.6,
+          "volValue": 23538.091134
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02393,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 946700.6,
+        "volValue": 23538.091134
+      },
+      "time_received": "11:00:40.0548"
+    },
+    {
+      "sequence": "754",
+      "data": {
+        "askSize": 2692.6,
+        "baseCurrency": "HAPPY",
+        "bidSize": 3683.6,
+        "board": 0,
+        "buy": 0.02315,
+        "changePrice": 0.01195,
+        "changeRate": 0.9958,
+        "close": 0.02395,
+        "datetime": 1732532442007,
+        "high": 0.028,
+        "lastTradedPrice": 0.02395,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01195,
+          "changeRate": 0.9958,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 946700.6,
+          "volValue": 23538.091134
+        },
+        "marketChange24h": {
+          "changePrice": 0.01195,
+          "changeRate": 0.9958,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 946700.6,
+          "volValue": 23538.091134
+        },
+        "marketChange4h": {
+          "changePrice": 0.01195,
+          "changeRate": 0.9958,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 946700.6,
+          "volValue": 23538.091134
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.0239,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 946700.6,
+        "volValue": 23538.091134
+      },
+      "time_received": "11:00:42.0484"
+    },
+    {
+      "sequence": "754",
+      "data": {
+        "askSize": 2692.6,
+        "baseCurrency": "HAPPY",
+        "bidSize": 3683.6,
+        "board": 0,
+        "buy": 0.02315,
+        "changePrice": 0.01195,
+        "changeRate": 0.9958,
+        "close": 0.02395,
+        "datetime": 1732532442484,
+        "high": 0.028,
+        "lastTradedPrice": 0.02395,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01195,
+          "changeRate": 0.9958,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 939040.1,
+          "volValue": 23356.17367
+        },
+        "marketChange24h": {
+          "changePrice": 0.01195,
+          "changeRate": 0.9958,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 939040.1,
+          "volValue": 23356.17367
+        },
+        "marketChange4h": {
+          "changePrice": 0.01195,
+          "changeRate": 0.9958,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 939040.1,
+          "volValue": 23356.17367
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.0239,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 939040.1,
+        "volValue": 23356.17367
+      },
+      "time_received": "11:00:42.5228"
+    },
+    {
+      "sequence": "795",
+      "data": {
+        "askSize": 2692.6,
+        "baseCurrency": "HAPPY",
+        "bidSize": 3683.6,
+        "board": 0,
+        "buy": 0.02318,
+        "changePrice": 0.01195,
+        "changeRate": 0.9958,
+        "close": 0.02395,
+        "datetime": 1732532444008,
+        "high": 0.028,
+        "lastTradedPrice": 0.02395,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01195,
+          "changeRate": 0.9958,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 946700.6,
+          "volValue": 23538.091134
+        },
+        "marketChange24h": {
+          "changePrice": 0.01195,
+          "changeRate": 0.9958,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 946700.6,
+          "volValue": 23538.091134
+        },
+        "marketChange4h": {
+          "changePrice": 0.01195,
+          "changeRate": 0.9958,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 946700.6,
+          "volValue": 23538.091134
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02387,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 946700.6,
+        "volValue": 23538.091134
+      },
+      "time_received": "11:00:44.1430"
+    },
+    {
+      "sequence": "814",
+      "data": {
+        "askSize": 2692.6,
+        "baseCurrency": "HAPPY",
+        "bidSize": 3683.6,
+        "board": 0,
+        "buy": 0.02319,
+        "changePrice": 0.01195,
+        "changeRate": 0.9958,
+        "close": 0.02395,
+        "datetime": 1732532444438,
+        "high": 0.028,
+        "lastTradedPrice": 0.02395,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01195,
+          "changeRate": 0.9958,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 946700.6,
+          "volValue": 23538.091134
+        },
+        "marketChange24h": {
+          "changePrice": 0.01195,
+          "changeRate": 0.9958,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 946700.6,
+          "volValue": 23538.091134
+        },
+        "marketChange4h": {
+          "changePrice": 0.01195,
+          "changeRate": 0.9958,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 946700.6,
+          "volValue": 23538.091134
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02386,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 946700.6,
+        "volValue": 23538.091134
+      },
+      "time_received": "11:00:44.4773"
+    },
+    {
+      "sequence": "829",
+      "data": {
+        "askSize": 1401,
+        "baseCurrency": "HAPPY",
+        "bidSize": 4975.2,
+        "board": 0,
+        "buy": 0.0232,
+        "changePrice": 0.01186,
+        "changeRate": 0.9883,
+        "close": 0.02386,
+        "datetime": 1732532446008,
+        "high": 0.028,
+        "lastTradedPrice": 0.02386,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01186,
+          "changeRate": 0.9883,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 946700.6,
+          "volValue": 23538.091134
+        },
+        "marketChange24h": {
+          "changePrice": 0.01186,
+          "changeRate": 0.9883,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 946700.6,
+          "volValue": 23538.091134
+        },
+        "marketChange4h": {
+          "changePrice": 0.01186,
+          "changeRate": 0.9883,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 946700.6,
+          "volValue": 23538.091134
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02385,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 946700.6,
+        "volValue": 23538.091134
+      },
+      "time_received": "11:00:46.0469"
+    },
+    {
+      "sequence": "849",
+      "data": {
+        "askSize": 1401,
+        "baseCurrency": "HAPPY",
+        "bidSize": 4975.2,
+        "board": 0,
+        "buy": 0.02321,
+        "changePrice": 0.01186,
+        "changeRate": 0.9883,
+        "close": 0.02386,
+        "datetime": 1732532446455,
+        "high": 0.028,
+        "lastTradedPrice": 0.02386,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01186,
+          "changeRate": 0.9883,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 939040.1,
+          "volValue": 23356.17367
+        },
+        "marketChange24h": {
+          "changePrice": 0.01186,
+          "changeRate": 0.9883,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 939040.1,
+          "volValue": 23356.17367
+        },
+        "marketChange4h": {
+          "changePrice": 0.01186,
+          "changeRate": 0.9883,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 939040.1,
+          "volValue": 23356.17367
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02384,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 939040.1,
+        "volValue": 23356.17367
+      },
+      "time_received": "11:00:46.4947"
+    },
+    {
+      "sequence": "870",
+      "data": {
+        "askSize": 43108.5,
+        "baseCurrency": "HAPPY",
+        "bidSize": 2849.8,
+        "board": 0,
+        "buy": 0.02322,
+        "changePrice": 0.01186,
+        "changeRate": 0.9883,
+        "close": 0.02386,
+        "datetime": 1732532448006,
+        "high": 0.028,
+        "lastTradedPrice": 0.02386,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01186,
+          "changeRate": 0.9883,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 946700.6,
+          "volValue": 23538.091134
+        },
+        "marketChange24h": {
+          "changePrice": 0.01186,
+          "changeRate": 0.9883,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 946700.6,
+          "volValue": 23538.091134
+        },
+        "marketChange4h": {
+          "changePrice": 0.01186,
+          "changeRate": 0.9883,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 946700.6,
+          "volValue": 23538.091134
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.0235,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 946700.6,
+        "volValue": 23538.091134
+      },
+      "time_received": "11:00:48.0445"
+    },
+    {
+      "sequence": "907",
+      "data": {
+        "askSize": 43108.5,
+        "baseCurrency": "HAPPY",
+        "bidSize": 39899.6,
+        "board": 0,
+        "buy": 0.02347,
+        "changePrice": 0.01147,
+        "changeRate": 0.9558,
+        "close": 0.02347,
+        "datetime": 1732532448439,
+        "high": 0.028,
+        "lastTradedPrice": 0.02347,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 946700.6,
+          "volValue": 23538.091134
+        },
+        "marketChange24h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 946700.6,
+          "volValue": 23538.091134
+        },
+        "marketChange4h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 946700.6,
+          "volValue": 23538.091134
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.0235,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 946700.6,
+        "volValue": 23538.091134
+      },
+      "time_received": "11:00:48.4806"
+    },
+    {
+      "sequence": "907",
+      "data": {
+        "askSize": 43108.5,
+        "baseCurrency": "HAPPY",
+        "bidSize": 39899.6,
+        "board": 0,
+        "buy": 0.02347,
+        "changePrice": 0.01147,
+        "changeRate": 0.9558,
+        "close": 0.02347,
+        "datetime": 1732532450258,
+        "high": 0.028,
+        "lastTradedPrice": 0.02347,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 950255.6,
+          "volValue": 23622.030708
+        },
+        "marketChange24h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 950255.6,
+          "volValue": 23622.030708
+        },
+        "marketChange4h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 950255.6,
+          "volValue": 23622.030708
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.0235,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 950255.6,
+        "volValue": 23622.030708
+      },
+      "time_received": "11:00:50.3019"
+    },
+    {
+      "sequence": "966",
+      "data": {
+        "askSize": 1401,
+        "baseCurrency": "HAPPY",
+        "bidSize": 39899.6,
+        "board": 0,
+        "buy": 0.02347,
+        "changePrice": 0.0115,
+        "changeRate": 0.9583,
+        "close": 0.0235,
+        "datetime": 1732532452005,
+        "high": 0.028,
+        "lastTradedPrice": 0.0235,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0115,
+          "changeRate": 0.9583,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951281.0,
+          "volValue": 23646.127608
+        },
+        "marketChange24h": {
+          "changePrice": 0.0115,
+          "changeRate": 0.9583,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951281.0,
+          "volValue": 23646.127608
+        },
+        "marketChange4h": {
+          "changePrice": 0.0115,
+          "changeRate": 0.9583,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951281.0,
+          "volValue": 23646.127608
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02349,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 951281.0,
+        "volValue": 23646.127608
+      },
+      "time_received": "11:00:52.0505"
+    },
+    {
+      "sequence": "980",
+      "data": {
+        "askSize": 1401,
+        "baseCurrency": "HAPPY",
+        "bidSize": 39695.2,
+        "board": 0,
+        "buy": 0.02347,
+        "changePrice": 0.01147,
+        "changeRate": 0.9558,
+        "close": 0.02347,
+        "datetime": 1732532452435,
+        "high": 0.028,
+        "lastTradedPrice": 0.02347,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951281.0,
+          "volValue": 23646.127608
+        },
+        "marketChange24h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951281.0,
+          "volValue": 23646.127608
+        },
+        "marketChange4h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951281.0,
+          "volValue": 23646.127608
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02349,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 951281.0,
+        "volValue": 23646.127608
+      },
+      "time_received": "11:00:52.4756"
+    },
+    {
+      "sequence": "980",
+      "data": {
+        "askSize": 1401,
+        "baseCurrency": "HAPPY",
+        "bidSize": 39695.2,
+        "board": 0,
+        "buy": 0.02347,
+        "changePrice": 0.01147,
+        "changeRate": 0.9558,
+        "close": 0.02347,
+        "datetime": 1732532454009,
+        "high": 0.028,
+        "lastTradedPrice": 0.02347,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 946700.6,
+          "volValue": 23538.091134
+        },
+        "marketChange24h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 946700.6,
+          "volValue": 23538.091134
+        },
+        "marketChange4h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 946700.6,
+          "volValue": 23538.091134
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02349,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 946700.6,
+        "volValue": 23538.091134
+      },
+      "time_received": "11:00:54.0491"
+    },
+    {
+      "sequence": "980",
+      "data": {
+        "askSize": 1401,
+        "baseCurrency": "HAPPY",
+        "bidSize": 39695.2,
+        "board": 0,
+        "buy": 0.02347,
+        "changePrice": 0.01147,
+        "changeRate": 0.9558,
+        "close": 0.02347,
+        "datetime": 1732532454527,
+        "high": 0.028,
+        "lastTradedPrice": 0.02347,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 950255.6,
+          "volValue": 23622.030708
+        },
+        "marketChange24h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 950255.6,
+          "volValue": 23622.030708
+        },
+        "marketChange4h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 950255.6,
+          "volValue": 23622.030708
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02349,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 950255.6,
+        "volValue": 23622.030708
+      },
+      "time_received": "11:00:54.5672"
+    },
+    {
+      "sequence": "1040",
+      "data": {
+        "askSize": 1075.1,
+        "baseCurrency": "HAPPY",
+        "bidSize": 40915.5,
+        "board": 0,
+        "buy": 0.02347,
+        "changePrice": 0.01147,
+        "changeRate": 0.9558,
+        "close": 0.02347,
+        "datetime": 1732532456444,
+        "high": 0.028,
+        "lastTradedPrice": 0.02347,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951485.4,
+          "volValue": 23650.924876
+        },
+        "marketChange24h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951485.4,
+          "volValue": 23650.924876
+        },
+        "marketChange4h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951485.4,
+          "volValue": 23650.924876
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02349,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 951485.4,
+        "volValue": 23650.924876
+      },
+      "time_received": "11:00:56.4902"
+    },
+    {
+      "sequence": "1049",
+      "data": {
+        "askSize": 1401,
+        "baseCurrency": "HAPPY",
+        "bidSize": 40915.5,
+        "board": 0,
+        "buy": 0.02347,
+        "changePrice": 0.01147,
+        "changeRate": 0.9558,
+        "close": 0.02347,
+        "datetime": 1732532458007,
+        "high": 0.028,
+        "lastTradedPrice": 0.02347,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 950255.6,
+          "volValue": 23622.030708
+        },
+        "marketChange24h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 950255.6,
+          "volValue": 23622.030708
+        },
+        "marketChange4h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 950255.6,
+          "volValue": 23622.030708
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02349,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 950255.6,
+        "volValue": 23622.030708
+      },
+      "time_received": "11:00:58.0487"
+    },
+    {
+      "sequence": "1049",
+      "data": {
+        "askSize": 1401,
+        "baseCurrency": "HAPPY",
+        "bidSize": 40915.5,
+        "board": 0,
+        "buy": 0.02347,
+        "changePrice": 0.01147,
+        "changeRate": 0.9558,
+        "close": 0.02347,
+        "datetime": 1732532460015,
+        "high": 0.028,
+        "lastTradedPrice": 0.02347,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951485.4,
+          "volValue": 23650.924876
+        },
+        "marketChange24h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951485.4,
+          "volValue": 23650.924876
+        },
+        "marketChange4h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951485.4,
+          "volValue": 23650.924876
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02349,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 951485.4,
+        "volValue": 23650.924876
+      },
+      "time_received": "11:01:00.0566"
+    },
+    {
+      "sequence": "1103",
+      "data": {
+        "askSize": 1079.6,
+        "baseCurrency": "HAPPY",
+        "bidSize": 40915.5,
+        "board": 0,
+        "buy": 0.02347,
+        "changePrice": 0.01149,
+        "changeRate": 0.9575,
+        "close": 0.02349,
+        "datetime": 1732532460485,
+        "high": 0.028,
+        "lastTradedPrice": 0.02349,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01149,
+          "changeRate": 0.9575,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951806.8,
+          "volValue": 23658.474562
+        },
+        "marketChange24h": {
+          "changePrice": 0.01149,
+          "changeRate": 0.9575,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951806.8,
+          "volValue": 23658.474562
+        },
+        "marketChange4h": {
+          "changePrice": 0.01149,
+          "changeRate": 0.9575,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951806.8,
+          "volValue": 23658.474562
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02349,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 951806.8,
+        "volValue": 23658.474562
+      },
+      "time_received": "11:01:00.5331"
+    },
+    {
+      "sequence": "1119",
+      "data": {
+        "askSize": 1079.6,
+        "baseCurrency": "HAPPY",
+        "bidSize": 41196.3,
+        "board": 0,
+        "buy": 0.02347,
+        "changePrice": 0.01147,
+        "changeRate": 0.9558,
+        "close": 0.02347,
+        "datetime": 1732532462006,
+        "high": 0.028,
+        "lastTradedPrice": 0.02347,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951806.8,
+          "volValue": 23658.474562
+        },
+        "marketChange24h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951806.8,
+          "volValue": 23658.474562
+        },
+        "marketChange4h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951806.8,
+          "volValue": 23658.474562
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02349,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 951806.8,
+        "volValue": 23658.474562
+      },
+      "time_received": "11:01:02.1035"
+    },
+    {
+      "sequence": "1119",
+      "data": {
+        "askSize": 1079.6,
+        "baseCurrency": "HAPPY",
+        "bidSize": 41196.3,
+        "board": 0,
+        "buy": 0.02347,
+        "changePrice": 0.01147,
+        "changeRate": 0.9558,
+        "close": 0.02347,
+        "datetime": 1732532464006,
+        "high": 0.028,
+        "lastTradedPrice": 0.02347,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951851.4,
+          "volValue": 23659.521324
+        },
+        "marketChange24h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951851.4,
+          "volValue": 23659.521324
+        },
+        "marketChange4h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951851.4,
+          "volValue": 23659.521324
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02349,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 951851.4,
+        "volValue": 23659.521324
+      },
+      "time_received": "11:01:04.1470"
+    },
+    {
+      "sequence": "1119",
+      "data": {
+        "askSize": 1079.6,
+        "baseCurrency": "HAPPY",
+        "bidSize": 41196.3,
+        "board": 0,
+        "buy": 0.02347,
+        "changePrice": 0.01147,
+        "changeRate": 0.9558,
+        "close": 0.02347,
+        "datetime": 1732532464473,
+        "high": 0.028,
+        "lastTradedPrice": 0.02347,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951485.4,
+          "volValue": 23650.924876
+        },
+        "marketChange24h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951485.4,
+          "volValue": 23650.924876
+        },
+        "marketChange4h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951485.4,
+          "volValue": 23650.924876
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02349,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 951485.4,
+        "volValue": 23650.924876
+      },
+      "time_received": "11:01:04.5141"
+    },
+    {
+      "sequence": "1164",
+      "data": {
+        "askSize": 41823.6,
+        "baseCurrency": "HAPPY",
+        "bidSize": 41196.3,
+        "board": 0,
+        "buy": 0.02347,
+        "changePrice": 0.01149,
+        "changeRate": 0.9575,
+        "close": 0.02349,
+        "datetime": 1732532466008,
+        "high": 0.028,
+        "lastTradedPrice": 0.02349,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01149,
+          "changeRate": 0.9575,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951851.4,
+          "volValue": 23659.521324
+        },
+        "marketChange24h": {
+          "changePrice": 0.01149,
+          "changeRate": 0.9575,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951851.4,
+          "volValue": 23659.521324
+        },
+        "marketChange4h": {
+          "changePrice": 0.01149,
+          "changeRate": 0.9575,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951851.4,
+          "volValue": 23659.521324
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.0235,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 951851.4,
+        "volValue": 23659.521324
+      },
+      "time_received": "11:01:06.0466"
+    },
+    {
+      "sequence": "1167",
+      "data": {
+        "askSize": 41823.6,
+        "baseCurrency": "HAPPY",
+        "bidSize": 40531.3,
+        "board": 0,
+        "buy": 0.02347,
+        "changePrice": 0.01147,
+        "changeRate": 0.9558,
+        "close": 0.02347,
+        "datetime": 1732532466430,
+        "high": 0.028,
+        "lastTradedPrice": 0.02347,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951851.4,
+          "volValue": 23659.521324
+        },
+        "marketChange24h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951851.4,
+          "volValue": 23659.521324
+        },
+        "marketChange4h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951851.4,
+          "volValue": 23659.521324
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.0235,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 951851.4,
+        "volValue": 23659.521324
+      },
+      "time_received": "11:01:06.4739"
+    },
+    {
+      "sequence": "1171",
+      "data": {
+        "askSize": 41823.6,
+        "baseCurrency": "HAPPY",
+        "bidSize": 40531.3,
+        "board": 0,
+        "buy": 0.02347,
+        "changePrice": 0.01147,
+        "changeRate": 0.9558,
+        "close": 0.02347,
+        "datetime": 1732532468007,
+        "high": 0.028,
+        "lastTradedPrice": 0.02347,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951806.8,
+          "volValue": 23658.474562
+        },
+        "marketChange24h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951806.8,
+          "volValue": 23658.474562
+        },
+        "marketChange4h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951806.8,
+          "volValue": 23658.474562
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.0235,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 951806.8,
+        "volValue": 23658.474562
+      },
+      "time_received": "11:01:08.0480"
+    },
+    {
+      "sequence": "1176",
+      "data": {
+        "askSize": 41823.6,
+        "baseCurrency": "HAPPY",
+        "bidSize": 40531.3,
+        "board": 0,
+        "buy": 0.02347,
+        "changePrice": 0.01147,
+        "changeRate": 0.9558,
+        "close": 0.02347,
+        "datetime": 1732532468464,
+        "high": 0.028,
+        "lastTradedPrice": 0.02347,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 953855.5,
+          "volValue": 23706.591132
+        },
+        "marketChange24h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 953855.5,
+          "volValue": 23706.591132
+        },
+        "marketChange4h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 953855.5,
+          "volValue": 23706.591132
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.0235,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 953855.5,
+        "volValue": 23706.591132
+      },
+      "time_received": "11:01:08.5089"
+    },
+    {
+      "sequence": "1179",
+      "data": {
+        "askSize": 41003.4,
+        "baseCurrency": "HAPPY",
+        "bidSize": 40531.3,
+        "board": 0,
+        "buy": 0.02347,
+        "changePrice": 0.0115,
+        "changeRate": 0.9583,
+        "close": 0.0235,
+        "datetime": 1732532470009,
+        "high": 0.028,
+        "lastTradedPrice": 0.0235,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0115,
+          "changeRate": 0.9583,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951851.4,
+          "volValue": 23659.521324
+        },
+        "marketChange24h": {
+          "changePrice": 0.0115,
+          "changeRate": 0.9583,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951851.4,
+          "volValue": 23659.521324
+        },
+        "marketChange4h": {
+          "changePrice": 0.0115,
+          "changeRate": 0.9583,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 951851.4,
+          "volValue": 23659.521324
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.0235,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 951851.4,
+        "volValue": 23659.521324
+      },
+      "time_received": "11:01:10.0517"
+    },
+    {
+      "sequence": "1179",
+      "data": {
+        "askSize": 41003.4,
+        "baseCurrency": "HAPPY",
+        "bidSize": 40531.3,
+        "board": 0,
+        "buy": 0.02347,
+        "changePrice": 0.0115,
+        "changeRate": 0.9583,
+        "close": 0.0235,
+        "datetime": 1732532470475,
+        "high": 0.028,
+        "lastTradedPrice": 0.0235,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0115,
+          "changeRate": 0.9583,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 953855.5,
+          "volValue": 23706.591132
+        },
+        "marketChange24h": {
+          "changePrice": 0.0115,
+          "changeRate": 0.9583,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 953855.5,
+          "volValue": 23706.591132
+        },
+        "marketChange4h": {
+          "changePrice": 0.0115,
+          "changeRate": 0.9583,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 953855.5,
+          "volValue": 23706.591132
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.0235,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 953855.5,
+        "volValue": 23706.591132
+      },
+      "time_received": "11:01:10.5132"
+    },
+    {
+      "sequence": "1199",
+      "data": {
+        "askSize": 41423.8,
+        "baseCurrency": "HAPPY",
+        "bidSize": 39395.4,
+        "board": 0,
+        "buy": 0.02347,
+        "changePrice": 0.01147,
+        "changeRate": 0.9558,
+        "close": 0.02347,
+        "datetime": 1732532472006,
+        "high": 0.028,
+        "lastTradedPrice": 0.02347,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 953855.5,
+          "volValue": 23706.591132
+        },
+        "marketChange24h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 953855.5,
+          "volValue": 23706.591132
+        },
+        "marketChange4h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 953855.5,
+          "volValue": 23706.591132
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.0235,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 953855.5,
+        "volValue": 23706.591132
+      },
+      "time_received": "11:01:12.0469"
+    },
+    {
+      "sequence": "1207",
+      "data": {
+        "askSize": 34256.1,
+        "baseCurrency": "HAPPY",
+        "bidSize": 37782.9,
+        "board": 0,
+        "buy": 0.02347,
+        "changePrice": 0.0115,
+        "changeRate": 0.9583,
+        "close": 0.0235,
+        "datetime": 1732532472346,
+        "high": 0.028,
+        "lastTradedPrice": 0.0235,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0115,
+          "changeRate": 0.9583,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 953855.5,
+          "volValue": 23706.591132
+        },
+        "marketChange24h": {
+          "changePrice": 0.0115,
+          "changeRate": 0.9583,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 953855.5,
+          "volValue": 23706.591132
+        },
+        "marketChange4h": {
+          "changePrice": 0.0115,
+          "changeRate": 0.9583,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 953855.5,
+          "volValue": 23706.591132
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.0235,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 953855.5,
+        "volValue": 23706.591132
+      },
+      "time_received": "11:01:12.3851"
+    },
+    {
+      "sequence": "1211",
+      "data": {
+        "askSize": 31048.1,
+        "baseCurrency": "HAPPY",
+        "bidSize": 36900.9,
+        "board": 0,
+        "buy": 0.02347,
+        "changePrice": 0.01147,
+        "changeRate": 0.9558,
+        "close": 0.02347,
+        "datetime": 1732532474006,
+        "high": 0.028,
+        "lastTradedPrice": 0.02347,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 968261.4,
+          "volValue": 24045.02087
+        },
+        "marketChange24h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 968261.4,
+          "volValue": 24045.02087
+        },
+        "marketChange4h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 968261.4,
+          "volValue": 24045.02087
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.0235,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 968261.4,
+        "volValue": 24045.02087
+      },
+      "time_received": "11:01:14.0501"
+    },
+    {
+      "sequence": "1236",
+      "data": {
+        "askSize": 30527.7,
+        "baseCurrency": "HAPPY",
+        "bidSize": 39029.9,
+        "board": 0,
+        "buy": 0.02347,
+        "changePrice": 0.0115,
+        "changeRate": 0.9583,
+        "close": 0.0235,
+        "datetime": 1732532476008,
+        "high": 0.028,
+        "lastTradedPrice": 0.0235,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0115,
+          "changeRate": 0.9583,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 968361.4,
+          "volValue": 24047.37087
+        },
+        "marketChange24h": {
+          "changePrice": 0.0115,
+          "changeRate": 0.9583,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 968361.4,
+          "volValue": 24047.37087
+        },
+        "marketChange4h": {
+          "changePrice": 0.0115,
+          "changeRate": 0.9583,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 968361.4,
+          "volValue": 24047.37087
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.0235,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 968361.4,
+        "volValue": 24047.37087
+      },
+      "time_received": "11:01:16.1488"
+    },
+    {
+      "sequence": "1240",
+      "data": {
+        "askSize": 30527.7,
+        "baseCurrency": "HAPPY",
+        "bidSize": 39029.9,
+        "board": 0,
+        "buy": 0.02347,
+        "changePrice": 0.0115,
+        "changeRate": 0.9583,
+        "close": 0.0235,
+        "datetime": 1732532478007,
+        "high": 0.028,
+        "lastTradedPrice": 0.0235,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0115,
+          "changeRate": 0.9583,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 968261.4,
+          "volValue": 24045.02087
+        },
+        "marketChange24h": {
+          "changePrice": 0.0115,
+          "changeRate": 0.9583,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 968261.4,
+          "volValue": 24045.02087
+        },
+        "marketChange4h": {
+          "changePrice": 0.0115,
+          "changeRate": 0.9583,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 968261.4,
+          "volValue": 24045.02087
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.0235,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 968261.4,
+        "volValue": 24045.02087
+      },
+      "time_received": "11:01:18.0469"
+    },
+    {
+      "sequence": "1244",
+      "data": {
+        "askSize": 30527.7,
+        "baseCurrency": "HAPPY",
+        "bidSize": 39029.9,
+        "board": 0,
+        "buy": 0.02347,
+        "changePrice": 0.0115,
+        "changeRate": 0.9583,
+        "close": 0.0235,
+        "datetime": 1732532478380,
+        "high": 0.028,
+        "lastTradedPrice": 0.0235,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0115,
+          "changeRate": 0.9583,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 953855.5,
+          "volValue": 23706.591132
+        },
+        "marketChange24h": {
+          "changePrice": 0.0115,
+          "changeRate": 0.9583,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 953855.5,
+          "volValue": 23706.591132
+        },
+        "marketChange4h": {
+          "changePrice": 0.0115,
+          "changeRate": 0.9583,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 953855.5,
+          "volValue": 23706.591132
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.0235,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 953855.5,
+        "volValue": 23706.591132
+      },
+      "time_received": "11:01:18.4210"
+    },
+    {
+      "sequence": "1258",
+      "data": {
+        "askSize": 30002,
+        "baseCurrency": "HAPPY",
+        "bidSize": 21268.6,
+        "board": 0,
+        "buy": 0.02347,
+        "changePrice": 0.01147,
+        "changeRate": 0.9558,
+        "close": 0.02347,
+        "datetime": 1732532480010,
+        "high": 0.028,
+        "lastTradedPrice": 0.02347,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 968361.4,
+          "volValue": 24047.37087
+        },
+        "marketChange24h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 968361.4,
+          "volValue": 24047.37087
+        },
+        "marketChange4h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 968361.4,
+          "volValue": 24047.37087
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.0235,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 968361.4,
+        "volValue": 24047.37087
+      },
+      "time_received": "11:01:20.0517"
+    },
+    {
+      "sequence": "1259",
+      "data": {
+        "askSize": 539.6,
+        "baseCurrency": "HAPPY",
+        "bidSize": 21268.6,
+        "board": 0,
+        "buy": 0.02347,
+        "changePrice": 0.01147,
+        "changeRate": 0.9558,
+        "close": 0.02347,
+        "datetime": 1732532480440,
+        "high": 0.028,
+        "lastTradedPrice": 0.02347,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 968361.4,
+          "volValue": 24047.37087
+        },
+        "marketChange24h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 968361.4,
+          "volValue": 24047.37087
+        },
+        "marketChange4h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 968361.4,
+          "volValue": 24047.37087
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02385,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 968361.4,
+        "volValue": 24047.37087
+      },
+      "time_received": "11:01:20.4795"
+    },
+    {
+      "sequence": "1263",
+      "data": {
+        "askSize": 420.4,
+        "baseCurrency": "HAPPY",
+        "bidSize": 21252.9,
+        "board": 0,
+        "buy": 0.02347,
+        "changePrice": 0.01147,
+        "changeRate": 0.9558,
+        "close": 0.02347,
+        "datetime": 1732532482008,
+        "high": 0.028,
+        "lastTradedPrice": 0.02347,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 968261.4,
+          "volValue": 24045.02087
+        },
+        "marketChange24h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 968261.4,
+          "volValue": 24045.02087
+        },
+        "marketChange4h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 968261.4,
+          "volValue": 24045.02087
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02384,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 968261.4,
+        "volValue": 24045.02087
+      },
+      "time_received": "11:01:22.0519"
+    },
+    {
+      "sequence": "1273",
+      "data": {
+        "askSize": 420.4,
+        "baseCurrency": "HAPPY",
+        "bidSize": 2113.7,
+        "board": 0,
+        "buy": 0.02348,
+        "changePrice": 0.01147,
+        "changeRate": 0.9558,
+        "close": 0.02347,
+        "datetime": 1732532484006,
+        "high": 0.028,
+        "lastTradedPrice": 0.02347,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 986648.4,
+          "volValue": 24476.582531
+        },
+        "marketChange24h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 986648.4,
+          "volValue": 24476.582531
+        },
+        "marketChange4h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 986648.4,
+          "volValue": 24476.582531
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02384,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 986648.4,
+        "volValue": 24476.582531
+      },
+      "time_received": "11:01:24.0922"
+    },
+    {
+      "sequence": "1273",
+      "data": {
+        "askSize": 420.4,
+        "baseCurrency": "HAPPY",
+        "bidSize": 2113.7,
+        "board": 0,
+        "buy": 0.02348,
+        "changePrice": 0.01147,
+        "changeRate": 0.9558,
+        "close": 0.02347,
+        "datetime": 1732532484279,
+        "high": 0.028,
+        "lastTradedPrice": 0.02347,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 968361.4,
+          "volValue": 24047.37087
+        },
+        "marketChange24h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 968361.4,
+          "volValue": 24047.37087
+        },
+        "marketChange4h": {
+          "changePrice": 0.01147,
+          "changeRate": 0.9558,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 968361.4,
+          "volValue": 24047.37087
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02384,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 968361.4,
+        "volValue": 24047.37087
+      },
+      "time_received": "11:01:24.3202"
+    },
+    {
+      "sequence": "1301",
+      "data": {
+        "askSize": 1078.9,
+        "baseCurrency": "HAPPY",
+        "bidSize": 1040.6,
+        "board": 0,
+        "buy": 0.02336,
+        "changePrice": 0.01183,
+        "changeRate": 0.9858,
+        "close": 0.02383,
+        "datetime": 1732532486008,
+        "high": 0.028,
+        "lastTradedPrice": 0.02383,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01183,
+          "changeRate": 0.9858,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 986648.4,
+          "volValue": 24476.582531
+        },
+        "marketChange24h": {
+          "changePrice": 0.01183,
+          "changeRate": 0.9858,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 986648.4,
+          "volValue": 24476.582531
+        },
+        "marketChange4h": {
+          "changePrice": 0.01183,
+          "changeRate": 0.9858,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 986648.4,
+          "volValue": 24476.582531
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02381,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 986648.4,
+        "volValue": 24476.582531
+      },
+      "time_received": "11:01:26.0497"
+    },
+    {
+      "sequence": "1301",
+      "data": {
+        "askSize": 1078.9,
+        "baseCurrency": "HAPPY",
+        "bidSize": 1040.6,
+        "board": 0,
+        "buy": 0.02336,
+        "changePrice": 0.01183,
+        "changeRate": 0.9858,
+        "close": 0.02383,
+        "datetime": 1732532486497,
+        "high": 0.028,
+        "lastTradedPrice": 0.02383,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01183,
+          "changeRate": 0.9858,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1009353.1,
+          "volValue": 25009.997149
+        },
+        "marketChange24h": {
+          "changePrice": 0.01183,
+          "changeRate": 0.9858,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1009353.1,
+          "volValue": 25009.997149
+        },
+        "marketChange4h": {
+          "changePrice": 0.01183,
+          "changeRate": 0.9858,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1009353.1,
+          "volValue": 25009.997149
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02381,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1009353.1,
+        "volValue": 25009.997149
+      },
+      "time_received": "11:01:26.5413"
+    },
+    {
+      "sequence": "1324",
+      "data": {
+        "askSize": 420.4,
+        "baseCurrency": "HAPPY",
+        "bidSize": 433.9,
+        "board": 0,
+        "buy": 0.02301,
+        "changePrice": 0.0113,
+        "changeRate": 0.9416,
+        "close": 0.0233,
+        "datetime": 1732532488007,
+        "high": 0.028,
+        "lastTradedPrice": 0.0233,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0113,
+          "changeRate": 0.9416,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1009353.1,
+          "volValue": 25009.997149
+        },
+        "marketChange24h": {
+          "changePrice": 0.0113,
+          "changeRate": 0.9416,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1009353.1,
+          "volValue": 25009.997149
+        },
+        "marketChange4h": {
+          "changePrice": 0.0113,
+          "changeRate": 0.9416,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1009353.1,
+          "volValue": 25009.997149
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02378,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1009353.1,
+        "volValue": 25009.997149
+      },
+      "time_received": "11:01:28.0488"
+    },
+    {
+      "sequence": "1324",
+      "data": {
+        "askSize": 420.4,
+        "baseCurrency": "HAPPY",
+        "bidSize": 433.9,
+        "board": 0,
+        "buy": 0.02301,
+        "changePrice": 0.0113,
+        "changeRate": 0.9416,
+        "close": 0.0233,
+        "datetime": 1732532488379,
+        "high": 0.028,
+        "lastTradedPrice": 0.0233,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0113,
+          "changeRate": 0.9416,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 986648.4,
+          "volValue": 24476.582531
+        },
+        "marketChange24h": {
+          "changePrice": 0.0113,
+          "changeRate": 0.9416,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 986648.4,
+          "volValue": 24476.582531
+        },
+        "marketChange4h": {
+          "changePrice": 0.0113,
+          "changeRate": 0.9416,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 986648.4,
+          "volValue": 24476.582531
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02378,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 986648.4,
+        "volValue": 24476.582531
+      },
+      "time_received": "11:01:28.4205"
+    },
+    {
+      "sequence": "1333",
+      "data": {
+        "askSize": 420.4,
+        "baseCurrency": "HAPPY",
+        "bidSize": 433.9,
+        "board": 0,
+        "buy": 0.02301,
+        "changePrice": 0.0113,
+        "changeRate": 0.9416,
+        "close": 0.0233,
+        "datetime": 1732532490015,
+        "high": 0.028,
+        "lastTradedPrice": 0.0233,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0113,
+          "changeRate": 0.9416,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1009353.1,
+          "volValue": 25009.997149
+        },
+        "marketChange24h": {
+          "changePrice": 0.0113,
+          "changeRate": 0.9416,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1009353.1,
+          "volValue": 25009.997149
+        },
+        "marketChange4h": {
+          "changePrice": 0.0113,
+          "changeRate": 0.9416,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1009353.1,
+          "volValue": 25009.997149
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02376,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1009353.1,
+        "volValue": 25009.997149
+      },
+      "time_received": "11:01:30.0574"
+    },
+    {
+      "sequence": "1333",
+      "data": {
+        "askSize": 420.4,
+        "baseCurrency": "HAPPY",
+        "bidSize": 433.9,
+        "board": 0,
+        "buy": 0.02301,
+        "changePrice": 0.0113,
+        "changeRate": 0.9416,
+        "close": 0.0233,
+        "datetime": 1732532490482,
+        "high": 0.028,
+        "lastTradedPrice": 0.0233,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0113,
+          "changeRate": 0.9416,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1025772.2,
+          "volValue": 25392.8653
+        },
+        "marketChange24h": {
+          "changePrice": 0.0113,
+          "changeRate": 0.9416,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1025772.2,
+          "volValue": 25392.8653
+        },
+        "marketChange4h": {
+          "changePrice": 0.0113,
+          "changeRate": 0.9416,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1025772.2,
+          "volValue": 25392.8653
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02376,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1025772.2,
+        "volValue": 25392.8653
+      },
+      "time_received": "11:01:30.5441"
+    },
+    {
+      "sequence": "1356",
+      "data": {
+        "askSize": 1941.4,
+        "baseCurrency": "HAPPY",
+        "bidSize": 15854.9,
+        "board": 0,
+        "buy": 0.0233,
+        "changePrice": 0.0113,
+        "changeRate": 0.9416,
+        "close": 0.0233,
+        "datetime": 1732532492005,
+        "high": 0.028,
+        "lastTradedPrice": 0.0233,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0113,
+          "changeRate": 0.9416,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1009353.1,
+          "volValue": 25009.997149
+        },
+        "marketChange24h": {
+          "changePrice": 0.0113,
+          "changeRate": 0.9416,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1009353.1,
+          "volValue": 25009.997149
+        },
+        "marketChange4h": {
+          "changePrice": 0.0113,
+          "changeRate": 0.9416,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1009353.1,
+          "volValue": 25009.997149
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.0235,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1009353.1,
+        "volValue": 25009.997149
+      },
+      "time_received": "11:01:32.0457"
+    },
+    {
+      "sequence": "1344",
+      "data": {
+        "askSize": 1941.4,
+        "baseCurrency": "HAPPY",
+        "bidSize": 433.9,
+        "board": 0,
+        "buy": 0.02301,
+        "changePrice": 0.0113,
+        "changeRate": 0.9416,
+        "close": 0.0233,
+        "datetime": 1732532492416,
+        "high": 0.028,
+        "lastTradedPrice": 0.0233,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0113,
+          "changeRate": 0.9416,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1009353.1,
+          "volValue": 25009.997149
+        },
+        "marketChange24h": {
+          "changePrice": 0.0113,
+          "changeRate": 0.9416,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1009353.1,
+          "volValue": 25009.997149
+        },
+        "marketChange4h": {
+          "changePrice": 0.0113,
+          "changeRate": 0.9416,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1009353.1,
+          "volValue": 25009.997149
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.0235,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1009353.1,
+        "volValue": 25009.997149
+      },
+      "time_received": "11:01:32.4591"
+    },
+    {
+      "sequence": "1401",
+      "data": {
+        "askSize": 457.1,
+        "baseCurrency": "HAPPY",
+        "bidSize": 15854.9,
+        "board": 0,
+        "buy": 0.0233,
+        "changePrice": 0.0115,
+        "changeRate": 0.9583,
+        "close": 0.0235,
+        "datetime": 1732532494006,
+        "high": 0.028,
+        "lastTradedPrice": 0.0235,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0115,
+          "changeRate": 0.9583,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1009353.1,
+          "volValue": 25009.997149
+        },
+        "marketChange24h": {
+          "changePrice": 0.0115,
+          "changeRate": 0.9583,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1009353.1,
+          "volValue": 25009.997149
+        },
+        "marketChange4h": {
+          "changePrice": 0.0115,
+          "changeRate": 0.9583,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1009353.1,
+          "volValue": 25009.997149
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.0235,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1009353.1,
+        "volValue": 25009.997149
+      },
+      "time_received": "11:01:34.0469"
+    },
+    {
+      "sequence": "1356",
+      "data": {
+        "askSize": 1941.4,
+        "baseCurrency": "HAPPY",
+        "bidSize": 15854.9,
+        "board": 0,
+        "buy": 0.0233,
+        "changePrice": 0.0113,
+        "changeRate": 0.9416,
+        "close": 0.0233,
+        "datetime": 1732532494252,
+        "high": 0.028,
+        "lastTradedPrice": 0.0233,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0113,
+          "changeRate": 0.9416,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1033508.3,
+          "volValue": 25575.764643
+        },
+        "marketChange24h": {
+          "changePrice": 0.0113,
+          "changeRate": 0.9416,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1033508.3,
+          "volValue": 25575.764643
+        },
+        "marketChange4h": {
+          "changePrice": 0.0113,
+          "changeRate": 0.9416,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1033508.3,
+          "volValue": 25575.764643
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.0235,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1033508.3,
+        "volValue": 25575.764643
+      },
+      "time_received": "11:01:34.2958"
+    },
+    {
+      "sequence": "1444",
+      "data": {
+        "askSize": 34295.6,
+        "baseCurrency": "HAPPY",
+        "bidSize": 12121.5,
+        "board": 0,
+        "buy": 0.02369,
+        "changePrice": 0.01169,
+        "changeRate": 0.9741,
+        "close": 0.02369,
+        "datetime": 1732532496007,
+        "high": 0.028,
+        "lastTradedPrice": 0.02369,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01169,
+          "changeRate": 0.9741,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1033508.3,
+          "volValue": 25575.764643
+        },
+        "marketChange24h": {
+          "changePrice": 0.01169,
+          "changeRate": 0.9741,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1033508.3,
+          "volValue": 25575.764643
+        },
+        "marketChange4h": {
+          "changePrice": 0.01169,
+          "changeRate": 0.9741,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1033508.3,
+          "volValue": 25575.764643
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02377,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1033508.3,
+        "volValue": 25575.764643
+      },
+      "time_received": "11:01:36.0484"
+    },
+    {
+      "sequence": "1444",
+      "data": {
+        "askSize": 34295.6,
+        "baseCurrency": "HAPPY",
+        "bidSize": 12121.5,
+        "board": 0,
+        "buy": 0.02369,
+        "changePrice": 0.01169,
+        "changeRate": 0.9741,
+        "close": 0.02369,
+        "datetime": 1732532496417,
+        "high": 0.028,
+        "lastTradedPrice": 0.02369,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01169,
+          "changeRate": 0.9741,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1009353.1,
+          "volValue": 25009.997149
+        },
+        "marketChange24h": {
+          "changePrice": 0.01169,
+          "changeRate": 0.9741,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1009353.1,
+          "volValue": 25009.997149
+        },
+        "marketChange4h": {
+          "changePrice": 0.01169,
+          "changeRate": 0.9741,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1009353.1,
+          "volValue": 25009.997149
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02377,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1009353.1,
+        "volValue": 25009.997149
+      },
+      "time_received": "11:01:36.4589"
+    },
+    {
+      "sequence": "1457",
+      "data": {
+        "askSize": 41785.3,
+        "baseCurrency": "HAPPY",
+        "bidSize": 12121.5,
+        "board": 0,
+        "buy": 0.02369,
+        "changePrice": 0.01169,
+        "changeRate": 0.9741,
+        "close": 0.02369,
+        "datetime": 1732532498008,
+        "high": 0.028,
+        "lastTradedPrice": 0.02369,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01169,
+          "changeRate": 0.9741,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1033508.3,
+          "volValue": 25575.764643
+        },
+        "marketChange24h": {
+          "changePrice": 0.01169,
+          "changeRate": 0.9741,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1033508.3,
+          "volValue": 25575.764643
+        },
+        "marketChange4h": {
+          "changePrice": 0.01169,
+          "changeRate": 0.9741,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1033508.3,
+          "volValue": 25575.764643
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02375,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1033508.3,
+        "volValue": 25575.764643
+      },
+      "time_received": "11:01:38.0482"
+    },
+    {
+      "sequence": "1477",
+      "data": {
+        "askSize": 33415.3,
+        "baseCurrency": "HAPPY",
+        "bidSize": 12121.5,
+        "board": 0,
+        "buy": 0.02369,
+        "changePrice": 0.01169,
+        "changeRate": 0.9741,
+        "close": 0.02369,
+        "datetime": 1732532498516,
+        "high": 0.028,
+        "lastTradedPrice": 0.02369,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01169,
+          "changeRate": 0.9741,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1033508.3,
+          "volValue": 25575.764643
+        },
+        "marketChange24h": {
+          "changePrice": 0.01169,
+          "changeRate": 0.9741,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1033508.3,
+          "volValue": 25575.764643
+        },
+        "marketChange4h": {
+          "changePrice": 0.01169,
+          "changeRate": 0.9741,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1033508.3,
+          "volValue": 25575.764643
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02371,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1033508.3,
+        "volValue": 25575.764643
+      },
+      "time_received": "11:01:38.5580"
+    },
+    {
+      "sequence": "1495",
+      "data": {
+        "askSize": 26272.5,
+        "baseCurrency": "HAPPY",
+        "bidSize": 12142.4,
+        "board": 0,
+        "buy": 0.02369,
+        "changePrice": 0.01169,
+        "changeRate": 0.9741,
+        "close": 0.02369,
+        "datetime": 1732532500009,
+        "high": 0.028,
+        "lastTradedPrice": 0.02369,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01169,
+          "changeRate": 0.9741,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1025772.2,
+          "volValue": 25392.8653
+        },
+        "marketChange24h": {
+          "changePrice": 0.01169,
+          "changeRate": 0.9741,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1025772.2,
+          "volValue": 25392.8653
+        },
+        "marketChange4h": {
+          "changePrice": 0.01169,
+          "changeRate": 0.9741,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1025772.2,
+          "volValue": 25392.8653
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02371,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1025772.2,
+        "volValue": 25392.8653
+      },
+      "time_received": "11:01:40.0496"
+    },
+    {
+      "sequence": "1503",
+      "data": {
+        "askSize": 2123.3,
+        "baseCurrency": "HAPPY",
+        "bidSize": 12142.4,
+        "board": 0,
+        "buy": 0.02369,
+        "changePrice": 0.01169,
+        "changeRate": 0.9741,
+        "close": 0.02369,
+        "datetime": 1732532500394,
+        "high": 0.028,
+        "lastTradedPrice": 0.02369,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01169,
+          "changeRate": 0.9741,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1025772.2,
+          "volValue": 25392.8653
+        },
+        "marketChange24h": {
+          "changePrice": 0.01169,
+          "changeRate": 0.9741,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1025772.2,
+          "volValue": 25392.8653
+        },
+        "marketChange4h": {
+          "changePrice": 0.01169,
+          "changeRate": 0.9741,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1025772.2,
+          "volValue": 25392.8653
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.0237,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1025772.2,
+        "volValue": 25392.8653
+      },
+      "time_received": "11:01:40.4342"
+    },
+    {
+      "sequence": "1520",
+      "data": {
+        "askSize": 26754.4,
+        "baseCurrency": "HAPPY",
+        "bidSize": 2068.7,
+        "board": 0,
+        "buy": 0.0237,
+        "changePrice": 0.01265,
+        "changeRate": 1.0541,
+        "close": 0.02465,
+        "datetime": 1732532502008,
+        "high": 0.028,
+        "lastTradedPrice": 0.02465,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01265,
+          "changeRate": 1.0541,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1038183.6,
+          "volValue": 25688.134293
+        },
+        "marketChange24h": {
+          "changePrice": 0.01265,
+          "changeRate": 1.0541,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1038183.6,
+          "volValue": 25688.134293
+        },
+        "marketChange4h": {
+          "changePrice": 0.01265,
+          "changeRate": 1.0541,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1038183.6,
+          "volValue": 25688.134293
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02464,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1038183.6,
+        "volValue": 25688.134293
+      },
+      "time_received": "11:01:42.1456"
+    },
+    {
+      "sequence": "1534",
+      "data": {
+        "askSize": 27837.4,
+        "baseCurrency": "HAPPY",
+        "bidSize": 59.4,
+        "board": 0,
+        "buy": 0.02331,
+        "changePrice": 0.01168,
+        "changeRate": 0.9733,
+        "close": 0.02368,
+        "datetime": 1732532504005,
+        "high": 0.028,
+        "lastTradedPrice": 0.02368,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1038183.6,
+          "volValue": 25688.134293
+        },
+        "marketChange24h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1038183.6,
+          "volValue": 25688.134293
+        },
+        "marketChange4h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1038183.6,
+          "volValue": 25688.134293
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02368,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1038183.6,
+        "volValue": 25688.134293
+      },
+      "time_received": "11:01:44.0460"
+    },
+    {
+      "sequence": "1534",
+      "data": {
+        "askSize": 27837.4,
+        "baseCurrency": "HAPPY",
+        "bidSize": 59.4,
+        "board": 0,
+        "buy": 0.02331,
+        "changePrice": 0.01168,
+        "changeRate": 0.9733,
+        "close": 0.02368,
+        "datetime": 1732532504272,
+        "high": 0.028,
+        "lastTradedPrice": 0.02368,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1053586.7,
+          "volValue": 26053.042499
+        },
+        "marketChange24h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1053586.7,
+          "volValue": 26053.042499
+        },
+        "marketChange4h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1053586.7,
+          "volValue": 26053.042499
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02368,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1053586.7,
+        "volValue": 26053.042499
+      },
+      "time_received": "11:01:44.3154"
+    },
+    {
+      "sequence": "1545",
+      "data": {
+        "askSize": 27010.4,
+        "baseCurrency": "HAPPY",
+        "bidSize": 59.4,
+        "board": 0,
+        "buy": 0.02331,
+        "changePrice": 0.01168,
+        "changeRate": 0.9733,
+        "close": 0.02368,
+        "datetime": 1732532506006,
+        "high": 0.028,
+        "lastTradedPrice": 0.02368,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1038183.6,
+          "volValue": 25688.134293
+        },
+        "marketChange24h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1038183.6,
+          "volValue": 25688.134293
+        },
+        "marketChange4h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1038183.6,
+          "volValue": 25688.134293
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02368,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1038183.6,
+        "volValue": 25688.134293
+      },
+      "time_received": "11:01:46.0490"
+    },
+    {
+      "sequence": "1545",
+      "data": {
+        "askSize": 27010.4,
+        "baseCurrency": "HAPPY",
+        "bidSize": 59.4,
+        "board": 0,
+        "buy": 0.02331,
+        "changePrice": 0.01168,
+        "changeRate": 0.9733,
+        "close": 0.02368,
+        "datetime": 1732532506487,
+        "high": 0.028,
+        "lastTradedPrice": 0.02368,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1053586.7,
+          "volValue": 26053.042499
+        },
+        "marketChange24h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1053586.7,
+          "volValue": 26053.042499
+        },
+        "marketChange4h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1053586.7,
+          "volValue": 26053.042499
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02368,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1053586.7,
+        "volValue": 26053.042499
+      },
+      "time_received": "11:01:46.5278"
+    },
+    {
+      "sequence": "1545",
+      "data": {
+        "askSize": 27010.4,
+        "baseCurrency": "HAPPY",
+        "bidSize": 59.4,
+        "board": 0,
+        "buy": 0.02331,
+        "changePrice": 0.01168,
+        "changeRate": 0.9733,
+        "close": 0.02368,
+        "datetime": 1732532508009,
+        "high": 0.028,
+        "lastTradedPrice": 0.02368,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1038183.6,
+          "volValue": 25688.134293
+        },
+        "marketChange24h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1038183.6,
+          "volValue": 25688.134293
+        },
+        "marketChange4h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1038183.6,
+          "volValue": 25688.134293
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02368,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1038183.6,
+        "volValue": 25688.134293
+      },
+      "time_received": "11:01:48.0506"
+    },
+    {
+      "sequence": "1576",
+      "data": {
+        "askSize": 27010.4,
+        "baseCurrency": "HAPPY",
+        "bidSize": 59.4,
+        "board": 0,
+        "buy": 0.02301,
+        "changePrice": 0.01168,
+        "changeRate": 0.9733,
+        "close": 0.02368,
+        "datetime": 1732532510010,
+        "high": 0.028,
+        "lastTradedPrice": 0.02368,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1038183.6,
+          "volValue": 25688.134293
+        },
+        "marketChange24h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1038183.6,
+          "volValue": 25688.134293
+        },
+        "marketChange4h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1038183.6,
+          "volValue": 25688.134293
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02368,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1038183.6,
+        "volValue": 25688.134293
+      },
+      "time_received": "11:01:50.0496"
+    },
+    {
+      "sequence": "1580",
+      "data": {
+        "askSize": 2068.7,
+        "baseCurrency": "HAPPY",
+        "bidSize": 59.4,
+        "board": 0,
+        "buy": 0.02301,
+        "changePrice": 0.01168,
+        "changeRate": 0.9733,
+        "close": 0.02368,
+        "datetime": 1732532510459,
+        "high": 0.028,
+        "lastTradedPrice": 0.02368,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1038183.6,
+          "volValue": 25688.134293
+        },
+        "marketChange24h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1038183.6,
+          "volValue": 25688.134293
+        },
+        "marketChange4h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1038183.6,
+          "volValue": 25688.134293
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02367,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1038183.6,
+        "volValue": 25688.134293
+      },
+      "time_received": "11:01:50.4979"
+    },
+    {
+      "sequence": "1586",
+      "data": {
+        "askSize": 2026.4,
+        "baseCurrency": "HAPPY",
+        "bidSize": 59.4,
+        "board": 0,
+        "buy": 0.02301,
+        "changePrice": 0.01167,
+        "changeRate": 0.9725,
+        "close": 0.02367,
+        "datetime": 1732532512009,
+        "high": 0.028,
+        "lastTradedPrice": 0.02367,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01167,
+          "changeRate": 0.9725,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1038183.6,
+          "volValue": 25688.134293
+        },
+        "marketChange24h": {
+          "changePrice": 0.01167,
+          "changeRate": 0.9725,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1038183.6,
+          "volValue": 25688.134293
+        },
+        "marketChange4h": {
+          "changePrice": 0.01167,
+          "changeRate": 0.9725,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1038183.6,
+          "volValue": 25688.134293
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02368,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1038183.6,
+        "volValue": 25688.134293
+      },
+      "time_received": "11:01:52.0501"
+    },
+    {
+      "sequence": "1594",
+      "data": {
+        "askSize": 45758.3,
+        "baseCurrency": "HAPPY",
+        "bidSize": 13574,
+        "board": 0,
+        "buy": 0.02368,
+        "changePrice": 0.01168,
+        "changeRate": 0.9733,
+        "close": 0.02368,
+        "datetime": 1732532514009,
+        "high": 0.028,
+        "lastTradedPrice": 0.02368,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1053586.7,
+          "volValue": 26053.042499
+        },
+        "marketChange24h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1053586.7,
+          "volValue": 26053.042499
+        },
+        "marketChange4h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1053586.7,
+          "volValue": 26053.042499
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02369,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1053586.7,
+        "volValue": 26053.042499
+      },
+      "time_received": "11:01:54.0491"
+    },
+    {
+      "sequence": "1594",
+      "data": {
+        "askSize": 45758.3,
+        "baseCurrency": "HAPPY",
+        "bidSize": 13574,
+        "board": 0,
+        "buy": 0.02368,
+        "changePrice": 0.01168,
+        "changeRate": 0.9733,
+        "close": 0.02368,
+        "datetime": 1732532514443,
+        "high": 0.028,
+        "lastTradedPrice": 0.02368,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1055655.4,
+          "volValue": 26102.028892
+        },
+        "marketChange24h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1055655.4,
+          "volValue": 26102.028892
+        },
+        "marketChange4h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1055655.4,
+          "volValue": 26102.028892
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02369,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1055655.4,
+        "volValue": 26102.028892
+      },
+      "time_received": "11:01:54.4888"
+    },
+    {
+      "sequence": "1594",
+      "data": {
+        "askSize": 45758.3,
+        "baseCurrency": "HAPPY",
+        "bidSize": 13574,
+        "board": 0,
+        "buy": 0.02368,
+        "changePrice": 0.01168,
+        "changeRate": 0.9733,
+        "close": 0.02368,
+        "datetime": 1732532516006,
+        "high": 0.028,
+        "lastTradedPrice": 0.02368,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1069229.4,
+          "volValue": 26423.461212
+        },
+        "marketChange24h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1069229.4,
+          "volValue": 26423.461212
+        },
+        "marketChange4h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1069229.4,
+          "volValue": 26423.461212
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02369,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1069229.4,
+        "volValue": 26423.461212
+      },
+      "time_received": "11:01:56.0498"
+    },
+    {
+      "sequence": "1608",
+      "data": {
+        "askSize": 7134.8,
+        "baseCurrency": "HAPPY",
+        "bidSize": 59.4,
+        "board": 0,
+        "buy": 0.02301,
+        "changePrice": 0.01168,
+        "changeRate": 0.9733,
+        "close": 0.02368,
+        "datetime": 1732532516450,
+        "high": 0.028,
+        "lastTradedPrice": 0.02368,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1069229.4,
+          "volValue": 26423.461212
+        },
+        "marketChange24h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1069229.4,
+          "volValue": 26423.461212
+        },
+        "marketChange4h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1069229.4,
+          "volValue": 26423.461212
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02368,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1069229.4,
+        "volValue": 26423.461212
+      },
+      "time_received": "11:01:56.4879"
+    },
+    {
+      "sequence": "1623",
+      "data": {
+        "askSize": 7508.4,
+        "baseCurrency": "HAPPY",
+        "bidSize": 59.4,
+        "board": 0,
+        "buy": 0.02301,
+        "changePrice": 0.01168,
+        "changeRate": 0.9733,
+        "close": 0.02368,
+        "datetime": 1732532518008,
+        "high": 0.028,
+        "lastTradedPrice": 0.02368,
+        "low": 0.012,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1055655.4,
+          "volValue": 26102.028892
+        },
+        "marketChange24h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1055655.4,
+          "volValue": 26102.028892
+        },
+        "marketChange4h": {
+          "changePrice": 0.01168,
+          "changeRate": 0.9733,
+          "high": 0.028,
+          "low": 0.012,
+          "open": 0.012,
+          "vol": 1055655.4,
+          "volValue": 26102.028892
+        },
+        "markets": [
+          "USDS",
+          "Meme"
+        ],
+        "open": 0.012,
+        "quoteCurrency": "USDT",
+        "sell": 0.02368,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "HAPPY-USDT",
+        "symbolCode": "HAPPY-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1055655.4,
+        "volValue": 26102.028892
+      },
+      "time_received": "11:01:58.0483"
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+    "buy_orders": {
+        "first_group": {
+            "trigger_data": {
+                "price": "0.018",
+                "side": "buy",
+                "time_received": "10:00:00.070"
+            },
+            "orders": [
+                {
+                    "success": false,
+                    "message": "Symbol RWA-USDT cant be traded",
+                    "code": "600203",
+                    "limit_buy_price": "0.01926",
+                    "order_sent_time": "10:00:00.071",
+                    "order_received_time": "10:00:00.216",
+                    "currency_pair": "RWA-USDT",
+                    "order_size": "110"
+                },
+                {
+                    "success": true,
+                    "execution_time": 0.16585,
+                    "limit_buy_price": "0.02052",
+                    "order_id": "67444aa01586c100078bf8fb",
+                    "order_sent_time": "10:00:00.072",
+                    "order_received_time": "10:00:00.238",
+                    "currency_pair": "RWA-USDT",
+                    "order_size": "110"
+                },
+                {
+                    "success": true,
+                    "execution_time": 0.16565,
+                    "limit_buy_price": "0.02178",
+                    "order_id": "67444aa068486d0007773dd5",
+                    "order_sent_time": "10:00:00.073",
+                    "order_received_time": "10:00:00.239",
+                    "currency_pair": "RWA-USDT",
+                    "order_size": "110"
+                }
+            ]
+        },
+        "second_group": {
+            "trigger_data": {
+                "price": "0.032",
+                "side": "buy",
+                "time_received": "10:00:00.140"
+            },
+            "orders": [
+                {
+                    "success": true,
+                    "execution_time": 0.17482,
+                    "limit_buy_price": "0.03424",
+                    "order_id": "67444aa0f4a7c50007878fc5",
+                    "order_sent_time": "10:00:00.241",
+                    "order_received_time": "10:00:00.415",
+                    "currency_pair": "RWA-USDT",
+                    "order_size": "110"
+                },
+                {
+                    "success": false,
+                    "message": "Symbol RWA-USDT cant be traded",
+                    "code": "600203",
+                    "limit_buy_price": "0.03648",
+                    "order_sent_time": "10:00:00.242",
+                    "order_received_time": "10:00:00.369",
+                    "currency_pair": "RWA-USDT",
+                    "order_size": "110"
+                },
+                {
+                    "success": true,
+                    "execution_time": 0.11482,
+                    "limit_buy_price": "0.03872",
+                    "order_id": "67444aa01586c100078bfbe2",
+                    "order_sent_time": "10:00:00.243",
+                    "order_received_time": "10:00:00.358",
+                    "currency_pair": "RWA-USDT",
+                    "order_size": "110"
+                }
+            ]
+        }
+    },
+    "sell_orders": {
+        "first_group": {
+            "trigger_data": {
+                "price": "0.032",
+                "side": "sell",
+                "time_received": "10:00:09.643"
+            },
+            "orders": [
+                {
+                    "success": true,
+                    "execution_time": 0.13376,
+                    "limit_sell_price": "0.03136",
+                    "order_id": "67444aa9f4f1200007a64fab",
+                    "order_sent_time": "10:00:09.644",
+                    "order_received_time": "10:00:09.777",
+                    "currency_pair": "RWA-USDT",
+                    "order_size": "110"
+                },
+                {
+                    "success": false,
+                    "message": "Balance insufficient!",
+                    "code": "200004",
+                    "limit_sell_price": "0.03072",
+                    "order_sent_time": "10:00:09.654",
+                    "order_received_time": "10:00:09.777",
+                    "currency_pair": "RWA-USDT",
+                    "order_size": "110"
+                },
+                {
+                    "success": true,
+                    "execution_time": 0.13074,
+                    "limit_sell_price": "0.03008",
+                    "order_id": "67444aa9c5ba7400077619dc",
+                    "order_sent_time": "10:00:09.655",
+                    "order_received_time": "10:00:09.786",
+                    "currency_pair": "RWA-USDT",
+                    "order_size": "110"
+                },
+                {
+                    "success": false,
+                    "message": "Balance insufficient!",
+                    "code": "200004",
+                    "limit_sell_price": "0.02944",
+                    "order_sent_time": "10:00:09.656",
+                    "order_received_time": "10:00:09.799",
+                    "currency_pair": "RWA-USDT",
+                    "order_size": "110"
+                },
+                {
+                    "success": false,
+                    "message": "Balance insufficient!",
+                    "code": "200004",
+                    "limit_sell_price": "0.0288",
+                    "order_sent_time": "10:00:09.658",
+                    "order_received_time": "10:00:09.772",
+                    "currency_pair": "RWA-USDT",
+                    "order_size": "110"
+                }
+            ]
+        },
+        "second_group": {
+            "trigger_data": {
+                "price": "0.031862",
+                "side": "sell",
+                "time_received": "10:00:10.541"
+            },
+            "orders": [
+                {
+                    "success": false,
+                    "message": "Balance insufficient!",
+                    "code": "200004",
+                    "limit_sell_price": "0.03122",
+                    "order_sent_time": "10:00:10.541",
+                    "order_received_time": "10:00:10.667",
+                    "currency_pair": "RWA-USDT",
+                    "order_size": "110"
+                },
+                {
+                    "success": false,
+                    "message": "Balance insufficient!",
+                    "code": "200004",
+                    "limit_sell_price": "0.03059",
+                    "order_sent_time": "10:00:10.542",
+                    "order_received_time": "10:00:10.668",
+                    "currency_pair": "RWA-USDT",
+                    "order_size": "110"
+                },
+                {
+                    "success": false,
+                    "message": "Balance insufficient!",
+                    "code": "200004",
+                    "limit_sell_price": "0.02995",
+                    "order_sent_time": "10:00:10.542",
+                    "order_received_time": "10:00:10.655",
+                    "currency_pair": "RWA-USDT",
+                    "order_size": "110"
+                },
+                {
+                    "success": false,
+                    "message": "Balance insufficient!",
+                    "code": "200004",
+                    "limit_sell_price": "0.02931",
+                    "order_sent_time": "10:00:10.544",
+                    "order_received_time": "10:00:10.649",
+                    "currency_pair": "RWA-USDT",
+                    "order_size": "110"
+                },
+                {
+                    "success": false,
+                    "message": "Balance insufficient!",
+                    "code": "200004",
+                    "limit_sell_price": "0.02868",
+                    "order_sent_time": "10:00:10.544",
+                    "order_received_time": "10:00:10.663",
+                    "currency_pair": "RWA-USDT",
+                    "order_size": "110"
+                }
+            ]
+        }
+    },
+    "trading_session": {
+        "start_time": "2024-11-25T09:59:30.100702",
+        "symbol": "RWA-USDT",
+        "end_time": "2024-11-25T10:00:10.668251"
+    }
+}

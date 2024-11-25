@@ -1,0 +1,3229 @@
+{
+  "metadata": {
+    "symbol": "RWA",
+    "channel": "snapshot",
+    "start_time": "09:59:30.0000",
+    "release_time": "10:00:00.0000",
+    "end_time": "10:02:00.0000",
+    "total_messages": 48,
+    "final_snapshot": {
+      "time": "10:02:00.2810",
+      "symbol": "RWA-USDT",
+      "price_high": "0.034",
+      "price_last": "0.033002",
+      "price_low": "0.005",
+      "price_avg": null,
+      "volValue_USDT": "50137.65526"
+    }
+  },
+  "data": [
+    {
+      "sequence": "215",
+      "data": {
+        "askSize": 76429,
+        "baseCurrency": "RWA",
+        "bidSize": 308976,
+        "board": 0,
+        "buy": 0.032,
+        "changeRate": 0,
+        "close": 0.032,
+        "datetime": 1732528800269,
+        "high": 0,
+        "lastTradedPrice": 0.032,
+        "low": 0,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changeRate": 0,
+          "high": 0,
+          "low": 0,
+          "open": 0,
+          "vol": 0,
+          "volValue": 0
+        },
+        "marketChange24h": {
+          "changeRate": 0,
+          "high": 0,
+          "low": 0,
+          "open": 0,
+          "vol": 0,
+          "volValue": 0
+        },
+        "marketChange4h": {
+          "changeRate": 0,
+          "high": 0,
+          "low": 0,
+          "open": 0,
+          "vol": 0,
+          "volValue": 0
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0,
+        "quoteCurrency": "USDT",
+        "sell": 0.033,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": false,
+        "vol": 0,
+        "volValue": 0
+      },
+      "time_received": "10:00:00.3097"
+    },
+    {
+      "sequence": "289",
+      "data": {
+        "askSize": 71377,
+        "baseCurrency": "RWA",
+        "bidSize": 308976,
+        "board": 0,
+        "buy": 0.032,
+        "changeRate": 0,
+        "close": 0.033,
+        "datetime": 1732528802161,
+        "high": 0,
+        "lastTradedPrice": 0.033,
+        "low": 0,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changeRate": 0,
+          "high": 0,
+          "low": 0,
+          "open": 0,
+          "vol": 0,
+          "volValue": 0
+        },
+        "marketChange24h": {
+          "changeRate": 0,
+          "high": 0,
+          "low": 0,
+          "open": 0,
+          "vol": 0,
+          "volValue": 0
+        },
+        "marketChange4h": {
+          "changeRate": 0,
+          "high": 0,
+          "low": 0,
+          "open": 0,
+          "vol": 0,
+          "volValue": 0
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0,
+        "quoteCurrency": "USDT",
+        "sell": 0.033,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": false,
+        "vol": 0,
+        "volValue": 0
+      },
+      "time_received": "10:00:02.2687"
+    },
+    {
+      "sequence": "357",
+      "data": {
+        "askSize": 66898,
+        "baseCurrency": "RWA",
+        "bidSize": 308976,
+        "board": 0,
+        "buy": 0.032,
+        "changePrice": 0.028,
+        "changeRate": 5.6,
+        "close": 0.033,
+        "datetime": 1732528804287,
+        "high": 0.033,
+        "lastTradedPrice": 0.033,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 570985.0,
+          "volValue": 17663.208
+        },
+        "marketChange24h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 570985.0,
+          "volValue": 17663.208
+        },
+        "marketChange4h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 570985.0,
+          "volValue": 17663.208
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.033,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": false,
+        "vol": 570985.0,
+        "volValue": 17663.208
+      },
+      "time_received": "10:00:04.3313"
+    },
+    {
+      "sequence": "392",
+      "data": {
+        "askSize": 57798,
+        "baseCurrency": "RWA",
+        "bidSize": 308976,
+        "board": 0,
+        "buy": 0.032,
+        "changePrice": 0.028,
+        "changeRate": 5.6,
+        "close": 0.033,
+        "datetime": 1732528808208,
+        "high": 0.033,
+        "lastTradedPrice": 0.033,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 580085.0,
+          "volValue": 17963.508
+        },
+        "marketChange24h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 580085.0,
+          "volValue": 17963.508
+        },
+        "marketChange4h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 580085.0,
+          "volValue": 17963.508
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.033,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 580085.0,
+        "volValue": 17963.508
+      },
+      "time_received": "10:00:08.2599"
+    },
+    {
+      "sequence": "445",
+      "data": {
+        "askSize": 33561,
+        "baseCurrency": "RWA",
+        "bidSize": 4626,
+        "board": 0,
+        "buy": 0.031862,
+        "changePrice": 0.027,
+        "changeRate": 5.4,
+        "close": 0.032,
+        "datetime": 1732528810265,
+        "high": 0.033,
+        "lastTradedPrice": 0.032,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.027,
+          "changeRate": 5.4,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 621050.0,
+          "volValue": 19298.625
+        },
+        "marketChange24h": {
+          "changePrice": 0.027,
+          "changeRate": 5.4,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 621050.0,
+          "volValue": 19298.625
+        },
+        "marketChange4h": {
+          "changePrice": 0.027,
+          "changeRate": 5.4,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 621050.0,
+          "volValue": 19298.625
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.033,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 621050.0,
+        "volValue": 19298.625
+      },
+      "time_received": "10:00:10.3157"
+    },
+    {
+      "sequence": "478",
+      "data": {
+        "askSize": 13479,
+        "baseCurrency": "RWA",
+        "bidSize": 110,
+        "board": 0,
+        "buy": 0.02178,
+        "changePrice": 0.025,
+        "changeRate": 5.0,
+        "close": 0.03,
+        "datetime": 1732528812232,
+        "high": 0.033,
+        "lastTradedPrice": 0.03,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.025,
+          "changeRate": 5.0,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 580085.0,
+          "volValue": 17963.508
+        },
+        "marketChange24h": {
+          "changePrice": 0.025,
+          "changeRate": 5.0,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 580085.0,
+          "volValue": 17963.508
+        },
+        "marketChange4h": {
+          "changePrice": 0.025,
+          "changeRate": 5.0,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 580085.0,
+          "volValue": 17963.508
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.031222,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 580085.0,
+        "volValue": 17963.508
+      },
+      "time_received": "10:00:12.2714"
+    },
+    {
+      "sequence": "527",
+      "data": {
+        "askSize": 15552,
+        "baseCurrency": "RWA",
+        "bidSize": 110,
+        "board": 0,
+        "buy": 0.02178,
+        "changePrice": 0.026222,
+        "changeRate": 5.2444,
+        "close": 0.031222,
+        "datetime": 1732528814268,
+        "high": 0.033,
+        "lastTradedPrice": 0.031222,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.026222,
+          "changeRate": 5.2444,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 580085.0,
+          "volValue": 17963.508
+        },
+        "marketChange24h": {
+          "changePrice": 0.026222,
+          "changeRate": 5.2444,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 580085.0,
+          "volValue": 17963.508
+        },
+        "marketChange4h": {
+          "changePrice": 0.026222,
+          "changeRate": 5.2444,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 580085.0,
+          "volValue": 17963.508
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.03105,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 580085.0,
+        "volValue": 17963.508
+      },
+      "time_received": "10:00:14.3063"
+    },
+    {
+      "sequence": "550",
+      "data": {
+        "askSize": 15423,
+        "baseCurrency": "RWA",
+        "bidSize": 100,
+        "board": 0,
+        "buy": 0.03,
+        "changePrice": 0.02605,
+        "changeRate": 5.21,
+        "close": 0.03105,
+        "datetime": 1732528816161,
+        "high": 0.033,
+        "lastTradedPrice": 0.03105,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.02605,
+          "changeRate": 5.21,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 580085.0,
+          "volValue": 17963.508
+        },
+        "marketChange24h": {
+          "changePrice": 0.02605,
+          "changeRate": 5.21,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 580085.0,
+          "volValue": 17963.508
+        },
+        "marketChange4h": {
+          "changePrice": 0.02605,
+          "changeRate": 5.21,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 580085.0,
+          "volValue": 17963.508
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.03105,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 580085.0,
+        "volValue": 17963.508
+      },
+      "time_received": "10:00:16.2011"
+    },
+    {
+      "sequence": "620",
+      "data": {
+        "askSize": 4626,
+        "baseCurrency": "RWA",
+        "bidSize": 100,
+        "board": 0,
+        "buy": 0.03,
+        "changePrice": 0.02605,
+        "changeRate": 5.21,
+        "close": 0.03105,
+        "datetime": 1732528820264,
+        "high": 0.033,
+        "lastTradedPrice": 0.03105,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.02605,
+          "changeRate": 5.21,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 621050.0,
+          "volValue": 19298.625
+        },
+        "marketChange24h": {
+          "changePrice": 0.02605,
+          "changeRate": 5.21,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 621050.0,
+          "volValue": 19298.625
+        },
+        "marketChange4h": {
+          "changePrice": 0.02605,
+          "changeRate": 5.21,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 621050.0,
+          "volValue": 19298.625
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.031046,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 621050.0,
+        "volValue": 19298.625
+      },
+      "time_received": "10:00:20.3051"
+    },
+    {
+      "sequence": "637",
+      "data": {
+        "askSize": 4408,
+        "baseCurrency": "RWA",
+        "bidSize": 100,
+        "board": 0,
+        "buy": 0.03,
+        "changePrice": 0.026046,
+        "changeRate": 5.2092,
+        "close": 0.031046,
+        "datetime": 1732528822171,
+        "high": 0.033,
+        "lastTradedPrice": 0.031046,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.026046,
+          "changeRate": 5.2092,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 646513.0,
+          "volValue": 20107.603932
+        },
+        "marketChange24h": {
+          "changePrice": 0.026046,
+          "changeRate": 5.2092,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 646513.0,
+          "volValue": 20107.603932
+        },
+        "marketChange4h": {
+          "changePrice": 0.026046,
+          "changeRate": 5.2092,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 646513.0,
+          "volValue": 20107.603932
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.031044,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 646513.0,
+        "volValue": 20107.603932
+      },
+      "time_received": "10:00:22.2162"
+    },
+    {
+      "sequence": "701",
+      "data": {
+        "askSize": 3960,
+        "baseCurrency": "RWA",
+        "bidSize": 100,
+        "board": 0,
+        "buy": 0.03,
+        "changePrice": 0.026041,
+        "changeRate": 5.2082,
+        "close": 0.031041,
+        "datetime": 1732528824253,
+        "high": 0.033,
+        "lastTradedPrice": 0.031041,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.026041,
+          "changeRate": 5.2082,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 646961.0,
+          "volValue": 20121.5103
+        },
+        "marketChange24h": {
+          "changePrice": 0.026041,
+          "changeRate": 5.2082,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 646961.0,
+          "volValue": 20121.5103
+        },
+        "marketChange4h": {
+          "changePrice": 0.026041,
+          "changeRate": 5.2082,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 646961.0,
+          "volValue": 20121.5103
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.03104,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 646961.0,
+        "volValue": 20121.5103
+      },
+      "time_received": "10:00:24.2972"
+    },
+    {
+      "sequence": "783",
+      "data": {
+        "askSize": 2005,
+        "baseCurrency": "RWA",
+        "bidSize": 3114,
+        "board": 0,
+        "buy": 0.031223,
+        "changePrice": 0.026222,
+        "changeRate": 5.2444,
+        "close": 0.031222,
+        "datetime": 1732528826263,
+        "high": 0.033,
+        "lastTradedPrice": 0.031222,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.026222,
+          "changeRate": 5.2444,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 646513.0,
+          "volValue": 20107.603932
+        },
+        "marketChange24h": {
+          "changePrice": 0.026222,
+          "changeRate": 5.2444,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 646513.0,
+          "volValue": 20107.603932
+        },
+        "marketChange4h": {
+          "changePrice": 0.026222,
+          "changeRate": 5.2444,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 646513.0,
+          "volValue": 20107.603932
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.032999,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 646513.0,
+        "volValue": 20107.603932
+      },
+      "time_received": "10:00:26.3028"
+    },
+    {
+      "sequence": "892",
+      "data": {
+        "askSize": 151,
+        "baseCurrency": "RWA",
+        "bidSize": 9342,
+        "board": 0,
+        "buy": 0.031223,
+        "changePrice": 0.027995,
+        "changeRate": 5.599,
+        "close": 0.032995,
+        "datetime": 1732528830267,
+        "high": 0.033,
+        "lastTradedPrice": 0.032995,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.027995,
+          "changeRate": 5.599,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 681359.0,
+          "volValue": 21198.317135
+        },
+        "marketChange24h": {
+          "changePrice": 0.027995,
+          "changeRate": 5.599,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 681359.0,
+          "volValue": 21198.317135
+        },
+        "marketChange4h": {
+          "changePrice": 0.027995,
+          "changeRate": 5.599,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 681359.0,
+          "volValue": 21198.317135
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.032994,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 681359.0,
+        "volValue": 21198.317135
+      },
+      "time_received": "10:00:30.3095"
+    },
+    {
+      "sequence": "963",
+      "data": {
+        "askSize": 3067,
+        "baseCurrency": "RWA",
+        "bidSize": 9342,
+        "board": 0,
+        "buy": 0.031223,
+        "changePrice": 0.028,
+        "changeRate": 5.6,
+        "close": 0.033,
+        "datetime": 1732528832205,
+        "high": 0.033,
+        "lastTradedPrice": 0.033,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 681359.0,
+          "volValue": 21198.317135
+        },
+        "marketChange24h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 681359.0,
+          "volValue": 21198.317135
+        },
+        "marketChange4h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 681359.0,
+          "volValue": 21198.317135
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.032601,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 681359.0,
+        "volValue": 21198.317135
+      },
+      "time_received": "10:00:32.2439"
+    },
+    {
+      "sequence": "1038",
+      "data": {
+        "askSize": 13438,
+        "baseCurrency": "RWA",
+        "bidSize": 6228,
+        "board": 0,
+        "buy": 0.031234,
+        "changePrice": 0.028,
+        "changeRate": 5.6,
+        "close": 0.033,
+        "datetime": 1732528834312,
+        "high": 0.033,
+        "lastTradedPrice": 0.033,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 700035.0,
+          "volValue": 21814.625135
+        },
+        "marketChange24h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 700035.0,
+          "volValue": 21814.625135
+        },
+        "marketChange4h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 700035.0,
+          "volValue": 21814.625135
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.033,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 700035.0,
+        "volValue": 21814.625135
+      },
+      "time_received": "10:00:34.3580"
+    },
+    {
+      "sequence": "1084",
+      "data": {
+        "askSize": 3100,
+        "baseCurrency": "RWA",
+        "bidSize": 6228,
+        "board": 0,
+        "buy": 0.03124,
+        "changePrice": 0.02741,
+        "changeRate": 5.482,
+        "close": 0.03241,
+        "datetime": 1732528836266,
+        "high": 0.033,
+        "lastTradedPrice": 0.03241,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.02741,
+          "changeRate": 5.482,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 681359.0,
+          "volValue": 21198.317135
+        },
+        "marketChange24h": {
+          "changePrice": 0.02741,
+          "changeRate": 5.482,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 681359.0,
+          "volValue": 21198.317135
+        },
+        "marketChange4h": {
+          "changePrice": 0.02741,
+          "changeRate": 5.482,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 681359.0,
+          "volValue": 21198.317135
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.03225,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 681359.0,
+        "volValue": 21198.317135
+      },
+      "time_received": "10:00:36.3058"
+    },
+    {
+      "sequence": "1127",
+      "data": {
+        "askSize": 349000,
+        "baseCurrency": "RWA",
+        "bidSize": 32061,
+        "board": 0,
+        "buy": 0.033,
+        "changePrice": 0.028,
+        "changeRate": 5.6,
+        "close": 0.033,
+        "datetime": 1732528838300,
+        "high": 0.033,
+        "lastTradedPrice": 0.033,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 700035.0,
+          "volValue": 21814.625135
+        },
+        "marketChange24h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 700035.0,
+          "volValue": 21814.625135
+        },
+        "marketChange4h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 700035.0,
+          "volValue": 21814.625135
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.034,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 700035.0,
+        "volValue": 21814.625135
+      },
+      "time_received": "10:00:38.3396"
+    },
+    {
+      "sequence": "1214",
+      "data": {
+        "askSize": 349000,
+        "baseCurrency": "RWA",
+        "bidSize": 35522,
+        "board": 0,
+        "buy": 0.033,
+        "changePrice": 0.028,
+        "changeRate": 5.6,
+        "close": 0.033,
+        "datetime": 1732528842270,
+        "high": 0.033,
+        "lastTradedPrice": 0.033,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 730198.0,
+          "volValue": 22800.78906
+        },
+        "marketChange24h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 730198.0,
+          "volValue": 22800.78906
+        },
+        "marketChange4h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 730198.0,
+          "volValue": 22800.78906
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.034,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 730198.0,
+        "volValue": 22800.78906
+      },
+      "time_received": "10:00:42.3161"
+    },
+    {
+      "sequence": "1264",
+      "data": {
+        "askSize": 349000,
+        "baseCurrency": "RWA",
+        "bidSize": 3191,
+        "board": 0,
+        "buy": 0.033004,
+        "changePrice": 0.028,
+        "changeRate": 5.6,
+        "close": 0.033,
+        "datetime": 1732528844287,
+        "high": 0.033,
+        "lastTradedPrice": 0.033,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 700035.0,
+          "volValue": 21814.625135
+        },
+        "marketChange24h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 700035.0,
+          "volValue": 21814.625135
+        },
+        "marketChange4h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 700035.0,
+          "volValue": 21814.625135
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.034,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 700035.0,
+        "volValue": 21814.625135
+      },
+      "time_received": "10:00:44.3280"
+    },
+    {
+      "sequence": "1297",
+      "data": {
+        "askSize": 349000,
+        "baseCurrency": "RWA",
+        "bidSize": 2238,
+        "board": 0,
+        "buy": 0.033001,
+        "changePrice": 0.028,
+        "changeRate": 5.6,
+        "close": 0.033,
+        "datetime": 1732528846196,
+        "high": 0.033,
+        "lastTradedPrice": 0.033,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 730198.0,
+          "volValue": 22800.78906
+        },
+        "marketChange24h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 730198.0,
+          "volValue": 22800.78906
+        },
+        "marketChange4h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.033,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 730198.0,
+          "volValue": 22800.78906
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.034,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 730198.0,
+        "volValue": 22800.78906
+      },
+      "time_received": "10:00:46.2394"
+    },
+    {
+      "sequence": "1315",
+      "data": {
+        "askSize": 349000,
+        "baseCurrency": "RWA",
+        "bidSize": 2238,
+        "board": 0,
+        "buy": 0.033011,
+        "changePrice": 0.028,
+        "changeRate": 5.6,
+        "close": 0.033,
+        "datetime": 1732528848250,
+        "high": 0.034,
+        "lastTradedPrice": 0.033,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 895299.0,
+          "volValue": 28414.22306
+        },
+        "marketChange24h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 895299.0,
+          "volValue": 28414.22306
+        },
+        "marketChange4h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 895299.0,
+          "volValue": 28414.22306
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.034,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 895299.0,
+        "volValue": 28414.22306
+      },
+      "time_received": "10:00:48.2933"
+    },
+    {
+      "sequence": "1466",
+      "data": {
+        "askSize": 283481,
+        "baseCurrency": "RWA",
+        "bidSize": 35554,
+        "board": 0,
+        "buy": 0.033,
+        "changePrice": 0.028006,
+        "changeRate": 5.6012,
+        "close": 0.033006,
+        "datetime": 1732528852273,
+        "high": 0.034,
+        "lastTradedPrice": 0.033006,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.028006,
+          "changeRate": 5.6012,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 895299.0,
+          "volValue": 28414.22306
+        },
+        "marketChange24h": {
+          "changePrice": 0.028006,
+          "changeRate": 5.6012,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 895299.0,
+          "volValue": 28414.22306
+        },
+        "marketChange4h": {
+          "changePrice": 0.028006,
+          "changeRate": 5.6012,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 895299.0,
+          "volValue": 28414.22306
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.033001,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 895299.0,
+        "volValue": 28414.22306
+      },
+      "time_received": "10:00:52.3106"
+    },
+    {
+      "sequence": "1486",
+      "data": {
+        "askSize": 200517,
+        "baseCurrency": "RWA",
+        "bidSize": 38584,
+        "board": 0,
+        "buy": 0.033,
+        "changePrice": 0.028001,
+        "changeRate": 5.6002,
+        "close": 0.033001,
+        "datetime": 1732528854186,
+        "high": 0.034,
+        "lastTradedPrice": 0.033001,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.028001,
+          "changeRate": 5.6002,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 895299.0,
+          "volValue": 28414.22306
+        },
+        "marketChange24h": {
+          "changePrice": 0.028001,
+          "changeRate": 5.6002,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 895299.0,
+          "volValue": 28414.22306
+        },
+        "marketChange4h": {
+          "changePrice": 0.028001,
+          "changeRate": 5.6002,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 895299.0,
+          "volValue": 28414.22306
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.033001,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 895299.0,
+        "volValue": 28414.22306
+      },
+      "time_received": "10:00:54.2252"
+    },
+    {
+      "sequence": "1581",
+      "data": {
+        "askSize": 152134,
+        "baseCurrency": "RWA",
+        "bidSize": 38584,
+        "board": 0,
+        "buy": 0.033,
+        "changePrice": 0.028001,
+        "changeRate": 5.6002,
+        "close": 0.033001,
+        "datetime": 1732528858239,
+        "high": 0.034,
+        "lastTradedPrice": 0.033001,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.028001,
+          "changeRate": 5.6002,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1089648.0,
+          "volValue": 34864.527621
+        },
+        "marketChange24h": {
+          "changePrice": 0.028001,
+          "changeRate": 5.6002,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1089648.0,
+          "volValue": 34864.527621
+        },
+        "marketChange4h": {
+          "changePrice": 0.028001,
+          "changeRate": 5.6002,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1089648.0,
+          "volValue": 34864.527621
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.033001,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1089648.0,
+        "volValue": 34864.527621
+      },
+      "time_received": "10:00:58.2824"
+    },
+    {
+      "sequence": "1634",
+      "data": {
+        "askSize": 115842,
+        "baseCurrency": "RWA",
+        "bidSize": 40185,
+        "board": 0,
+        "buy": 0.033,
+        "changePrice": 0.028001,
+        "changeRate": 5.6002,
+        "close": 0.033001,
+        "datetime": 1732528860287,
+        "high": 0.034,
+        "lastTradedPrice": 0.033001,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.028001,
+          "changeRate": 5.6002,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1117326.0,
+          "volValue": 35777.929299
+        },
+        "marketChange24h": {
+          "changePrice": 0.028001,
+          "changeRate": 5.6002,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1117326.0,
+          "volValue": 35777.929299
+        },
+        "marketChange4h": {
+          "changePrice": 0.028001,
+          "changeRate": 5.6002,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1117326.0,
+          "volValue": 35777.929299
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.033001,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1117326.0,
+        "volValue": 35777.929299
+      },
+      "time_received": "10:01:00.3300"
+    },
+    {
+      "sequence": "1823",
+      "data": {
+        "askSize": 2238,
+        "baseCurrency": "RWA",
+        "bidSize": 615,
+        "board": 0,
+        "buy": 0.03264,
+        "changePrice": 0.028,
+        "changeRate": 5.6,
+        "close": 0.033,
+        "datetime": 1732528862177,
+        "high": 0.034,
+        "lastTradedPrice": 0.033,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1089648.0,
+          "volValue": 34864.527621
+        },
+        "marketChange24h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1089648.0,
+          "volValue": 34864.527621
+        },
+        "marketChange4h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1089648.0,
+          "volValue": 34864.527621
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.032997,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1089648.0,
+        "volValue": 34864.527621
+      },
+      "time_received": "10:01:02.2191"
+    },
+    {
+      "sequence": "2087",
+      "data": {
+        "askSize": 3589,
+        "baseCurrency": "RWA",
+        "bidSize": 3739,
+        "board": 0,
+        "buy": 0.032012,
+        "changePrice": 0.027707,
+        "changeRate": 5.5414,
+        "close": 0.032707,
+        "datetime": 1732528866256,
+        "high": 0.034,
+        "lastTradedPrice": 0.032707,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.027707,
+          "changeRate": 5.5414,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1089648.0,
+          "volValue": 34864.527621
+        },
+        "marketChange24h": {
+          "changePrice": 0.027707,
+          "changeRate": 5.5414,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1089648.0,
+          "volValue": 34864.527621
+        },
+        "marketChange4h": {
+          "changePrice": 0.027707,
+          "changeRate": 5.5414,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1089648.0,
+          "volValue": 34864.527621
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.033997,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1089648.0,
+        "volValue": 34864.527621
+      },
+      "time_received": "10:01:06.2959"
+    },
+    {
+      "sequence": "2164",
+      "data": {
+        "askSize": 846,
+        "baseCurrency": "RWA",
+        "bidSize": 8089,
+        "board": 0,
+        "buy": 0.031222,
+        "changePrice": 0.026996,
+        "changeRate": 5.3992,
+        "close": 0.031996,
+        "datetime": 1732528868253,
+        "high": 0.034,
+        "lastTradedPrice": 0.031996,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.026996,
+          "changeRate": 5.3992,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1351754.0,
+          "volValue": 43415.654459
+        },
+        "marketChange24h": {
+          "changePrice": 0.026996,
+          "changeRate": 5.3992,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1351754.0,
+          "volValue": 43415.654459
+        },
+        "marketChange4h": {
+          "changePrice": 0.026996,
+          "changeRate": 5.3992,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1351754.0,
+          "volValue": 43415.654459
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.031996,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1351754.0,
+        "volValue": 43415.654459
+      },
+      "time_received": "10:01:08.2958"
+    },
+    {
+      "sequence": "2293",
+      "data": {
+        "askSize": 3058,
+        "baseCurrency": "RWA",
+        "bidSize": 9342,
+        "board": 0,
+        "buy": 0.031057,
+        "changePrice": 0.027463,
+        "changeRate": 5.4926,
+        "close": 0.032463,
+        "datetime": 1732528870234,
+        "high": 0.034,
+        "lastTradedPrice": 0.032463,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.027463,
+          "changeRate": 5.4926,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1351754.0,
+          "volValue": 43415.654459
+        },
+        "marketChange24h": {
+          "changePrice": 0.027463,
+          "changeRate": 5.4926,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1351754.0,
+          "volValue": 43415.654459
+        },
+        "marketChange4h": {
+          "changePrice": 0.027463,
+          "changeRate": 5.4926,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1351754.0,
+          "volValue": 43415.654459
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.032691,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1351754.0,
+        "volValue": 43415.654459
+      },
+      "time_received": "10:01:10.2747"
+    },
+    {
+      "sequence": "2491",
+      "data": {
+        "askSize": 161503,
+        "baseCurrency": "RWA",
+        "bidSize": 3006,
+        "board": 0,
+        "buy": 0.03108,
+        "changePrice": 0.027882,
+        "changeRate": 5.5764,
+        "close": 0.032882,
+        "datetime": 1732528874209,
+        "high": 0.034,
+        "lastTradedPrice": 0.032882,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.027882,
+          "changeRate": 5.5764,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1351754.0,
+          "volValue": 43415.654459
+        },
+        "marketChange24h": {
+          "changePrice": 0.027882,
+          "changeRate": 5.5764,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1351754.0,
+          "volValue": 43415.654459
+        },
+        "marketChange4h": {
+          "changePrice": 0.027882,
+          "changeRate": 5.5764,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1351754.0,
+          "volValue": 43415.654459
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.034,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1351754.0,
+        "volValue": 43415.654459
+      },
+      "time_received": "10:01:14.2500"
+    },
+    {
+      "sequence": "2593",
+      "data": {
+        "askSize": 15977,
+        "baseCurrency": "RWA",
+        "bidSize": 1905,
+        "board": 0,
+        "buy": 0.0316,
+        "changePrice": 0.027,
+        "changeRate": 5.4,
+        "close": 0.032,
+        "datetime": 1732528878283,
+        "high": 0.034,
+        "lastTradedPrice": 0.032,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.027,
+          "changeRate": 5.4,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1412674.0,
+          "volValue": 45391.939638
+        },
+        "marketChange24h": {
+          "changePrice": 0.027,
+          "changeRate": 5.4,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1412674.0,
+          "volValue": 45391.939638
+        },
+        "marketChange4h": {
+          "changePrice": 0.027,
+          "changeRate": 5.4,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1412674.0,
+          "volValue": 45391.939638
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.032,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1412674.0,
+        "volValue": 45391.939638
+      },
+      "time_received": "10:01:18.3279"
+    },
+    {
+      "sequence": "2689",
+      "data": {
+        "askSize": 3053,
+        "baseCurrency": "RWA",
+        "bidSize": 9342,
+        "board": 0,
+        "buy": 0.031607,
+        "changePrice": 0.027,
+        "changeRate": 5.4,
+        "close": 0.032,
+        "datetime": 1732528880212,
+        "high": 0.034,
+        "lastTradedPrice": 0.032,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.027,
+          "changeRate": 5.4,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1428029.0,
+          "volValue": 45883.299638
+        },
+        "marketChange24h": {
+          "changePrice": 0.027,
+          "changeRate": 5.4,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1428029.0,
+          "volValue": 45883.299638
+        },
+        "marketChange4h": {
+          "changePrice": 0.027,
+          "changeRate": 5.4,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1428029.0,
+          "volValue": 45883.299638
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.032752,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1428029.0,
+        "volValue": 45883.299638
+      },
+      "time_received": "10:01:20.2573"
+    },
+    {
+      "sequence": "2775",
+      "data": {
+        "askSize": 157288,
+        "baseCurrency": "RWA",
+        "bidSize": 1564,
+        "board": 0,
+        "buy": 0.031074,
+        "changePrice": 0.0266,
+        "changeRate": 5.32,
+        "close": 0.0316,
+        "datetime": 1732528882255,
+        "high": 0.034,
+        "lastTradedPrice": 0.0316,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0266,
+          "changeRate": 5.32,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1458978.0,
+          "volValue": 46861.37817
+        },
+        "marketChange24h": {
+          "changePrice": 0.0266,
+          "changeRate": 5.32,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1458978.0,
+          "volValue": 46861.37817
+        },
+        "marketChange4h": {
+          "changePrice": 0.0266,
+          "changeRate": 5.32,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1458978.0,
+          "volValue": 46861.37817
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.0316,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1458978.0,
+        "volValue": 46861.37817
+      },
+      "time_received": "10:01:22.2969"
+    },
+    {
+      "sequence": "2919",
+      "data": {
+        "askSize": 3823,
+        "baseCurrency": "RWA",
+        "bidSize": 3114,
+        "board": 0,
+        "buy": 0.031078,
+        "changePrice": 0.0266,
+        "changeRate": 5.32,
+        "close": 0.0316,
+        "datetime": 1732528886218,
+        "high": 0.034,
+        "lastTradedPrice": 0.0316,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0266,
+          "changeRate": 5.32,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1428029.0,
+          "volValue": 45883.299638
+        },
+        "marketChange24h": {
+          "changePrice": 0.0266,
+          "changeRate": 5.32,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1428029.0,
+          "volValue": 45883.299638
+        },
+        "marketChange4h": {
+          "changePrice": 0.0266,
+          "changeRate": 5.32,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1428029.0,
+          "volValue": 45883.299638
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.031648,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1428029.0,
+        "volValue": 45883.299638
+      },
+      "time_received": "10:01:26.2564"
+    },
+    {
+      "sequence": "3033",
+      "data": {
+        "askSize": 2376,
+        "baseCurrency": "RWA",
+        "bidSize": 1564,
+        "board": 0,
+        "buy": 0.031074,
+        "changePrice": 0.026085,
+        "changeRate": 5.217,
+        "close": 0.031085,
+        "datetime": 1732528888527,
+        "high": 0.034,
+        "lastTradedPrice": 0.031085,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.026085,
+          "changeRate": 5.217,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1487419.0,
+          "volValue": 47757.607908
+        },
+        "marketChange24h": {
+          "changePrice": 0.026085,
+          "changeRate": 5.217,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1487419.0,
+          "volValue": 47757.607908
+        },
+        "marketChange4h": {
+          "changePrice": 0.026085,
+          "changeRate": 5.217,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1487419.0,
+          "volValue": 47757.607908
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.031078,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1487419.0,
+        "volValue": 47757.607908
+      },
+      "time_received": "10:01:28.5711"
+    },
+    {
+      "sequence": "3060",
+      "data": {
+        "askSize": 131840,
+        "baseCurrency": "RWA",
+        "bidSize": 1564,
+        "board": 0,
+        "buy": 0.031074,
+        "changePrice": 0.026079,
+        "changeRate": 5.2158,
+        "close": 0.031079,
+        "datetime": 1732528890179,
+        "high": 0.034,
+        "lastTradedPrice": 0.031079,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.026079,
+          "changeRate": 5.2158,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1487419.0,
+          "volValue": 47757.607908
+        },
+        "marketChange24h": {
+          "changePrice": 0.026079,
+          "changeRate": 5.2158,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1487419.0,
+          "volValue": 47757.607908
+        },
+        "marketChange4h": {
+          "changePrice": 0.026079,
+          "changeRate": 5.2158,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1487419.0,
+          "volValue": 47757.607908
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.031079,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1487419.0,
+        "volValue": 47757.607908
+      },
+      "time_received": "10:01:30.2178"
+    },
+    {
+      "sequence": "3138",
+      "data": {
+        "askSize": 127581,
+        "baseCurrency": "RWA",
+        "bidSize": 1407,
+        "board": 0,
+        "buy": 0.031074,
+        "changePrice": 0.026079,
+        "changeRate": 5.2158,
+        "close": 0.031079,
+        "datetime": 1732528892268,
+        "high": 0.034,
+        "lastTradedPrice": 0.031079,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.026079,
+          "changeRate": 5.2158,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1495041.0,
+          "volValue": 47994.488885
+        },
+        "marketChange24h": {
+          "changePrice": 0.026079,
+          "changeRate": 5.2158,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1495041.0,
+          "volValue": 47994.488885
+        },
+        "marketChange4h": {
+          "changePrice": 0.026079,
+          "changeRate": 5.2158,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1495041.0,
+          "volValue": 47994.488885
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.031079,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1495041.0,
+        "volValue": 47994.488885
+      },
+      "time_received": "10:01:32.3134"
+    },
+    {
+      "sequence": "3208",
+      "data": {
+        "askSize": 3851,
+        "baseCurrency": "RWA",
+        "bidSize": 246,
+        "board": 0,
+        "buy": 0.03105,
+        "changePrice": 0.02605,
+        "changeRate": 5.21,
+        "close": 0.03105,
+        "datetime": 1732528894190,
+        "high": 0.034,
+        "lastTradedPrice": 0.03105,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.02605,
+          "changeRate": 5.21,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1498076.0,
+          "volValue": 48088.792173
+        },
+        "marketChange24h": {
+          "changePrice": 0.02605,
+          "changeRate": 5.21,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1498076.0,
+          "volValue": 48088.792173
+        },
+        "marketChange4h": {
+          "changePrice": 0.02605,
+          "changeRate": 5.21,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1498076.0,
+          "volValue": 48088.792173
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.031078,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1498076.0,
+        "volValue": 48088.792173
+      },
+      "time_received": "10:01:34.2357"
+    },
+    {
+      "sequence": "3226",
+      "data": {
+        "askSize": 121761,
+        "baseCurrency": "RWA",
+        "bidSize": 246,
+        "board": 0,
+        "buy": 0.03105,
+        "changePrice": 0.026079,
+        "changeRate": 5.2158,
+        "close": 0.031079,
+        "datetime": 1732528896250,
+        "high": 0.034,
+        "lastTradedPrice": 0.031079,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.026079,
+          "changeRate": 5.2158,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1495041.0,
+          "volValue": 47994.488885
+        },
+        "marketChange24h": {
+          "changePrice": 0.026079,
+          "changeRate": 5.2158,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1495041.0,
+          "volValue": 47994.488885
+        },
+        "marketChange4h": {
+          "changePrice": 0.026079,
+          "changeRate": 5.2158,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1495041.0,
+          "volValue": 47994.488885
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.031079,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1495041.0,
+        "volValue": 47994.488885
+      },
+      "time_received": "10:01:36.2885"
+    },
+    {
+      "sequence": "3389",
+      "data": {
+        "askSize": 100,
+        "baseCurrency": "RWA",
+        "bidSize": 3114,
+        "board": 0,
+        "buy": 0.032006,
+        "changePrice": 0.026079,
+        "changeRate": 5.2158,
+        "close": 0.031079,
+        "datetime": 1732528900275,
+        "high": 0.034,
+        "lastTradedPrice": 0.031079,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.026079,
+          "changeRate": 5.2158,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1495041.0,
+          "volValue": 47994.488885
+        },
+        "marketChange24h": {
+          "changePrice": 0.026079,
+          "changeRate": 5.2158,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1495041.0,
+          "volValue": 47994.488885
+        },
+        "marketChange4h": {
+          "changePrice": 0.026079,
+          "changeRate": 5.2158,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1495041.0,
+          "volValue": 47994.488885
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.033,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1495041.0,
+        "volValue": 47994.488885
+      },
+      "time_received": "10:01:40.3140"
+    },
+    {
+      "sequence": "3461",
+      "data": {
+        "askSize": 3114,
+        "baseCurrency": "RWA",
+        "bidSize": 3114,
+        "board": 0,
+        "buy": 0.033003,
+        "changePrice": 0.028,
+        "changeRate": 5.6,
+        "close": 0.033,
+        "datetime": 1732528902183,
+        "high": 0.034,
+        "lastTradedPrice": 0.033,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1495041.0,
+          "volValue": 47994.488885
+        },
+        "marketChange24h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1495041.0,
+          "volValue": 47994.488885
+        },
+        "marketChange4h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1495041.0,
+          "volValue": 47994.488885
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.034134,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1495041.0,
+        "volValue": 47994.488885
+      },
+      "time_received": "10:01:42.2214"
+    },
+    {
+      "sequence": "3541",
+      "data": {
+        "askSize": 7714,
+        "baseCurrency": "RWA",
+        "bidSize": 3114,
+        "board": 0,
+        "buy": 0.033013,
+        "changePrice": 0.028,
+        "changeRate": 5.6,
+        "close": 0.033,
+        "datetime": 1732528904332,
+        "high": 0.034,
+        "lastTradedPrice": 0.033,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1506717.0,
+          "volValue": 48357.534061
+        },
+        "marketChange24h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1506717.0,
+          "volValue": 48357.534061
+        },
+        "marketChange4h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1506717.0,
+          "volValue": 48357.534061
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.034223,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1506717.0,
+        "volValue": 48357.534061
+      },
+      "time_received": "10:01:44.3740"
+    },
+    {
+      "sequence": "3623",
+      "data": {
+        "askSize": 1488,
+        "baseCurrency": "RWA",
+        "bidSize": 3114,
+        "board": 0,
+        "buy": 0.033006,
+        "changePrice": 0.028,
+        "changeRate": 5.6,
+        "close": 0.033,
+        "datetime": 1732528906185,
+        "high": 0.034,
+        "lastTradedPrice": 0.033,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1506717.0,
+          "volValue": 48357.534061
+        },
+        "marketChange24h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1506717.0,
+          "volValue": 48357.534061
+        },
+        "marketChange4h": {
+          "changePrice": 0.028,
+          "changeRate": 5.6,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1506717.0,
+          "volValue": 48357.534061
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.03421,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1506717.0,
+        "volValue": 48357.534061
+      },
+      "time_received": "10:01:46.2304"
+    },
+    {
+      "sequence": "3765",
+      "data": {
+        "askSize": 114747,
+        "baseCurrency": "RWA",
+        "bidSize": 17904,
+        "board": 0,
+        "buy": 0.033,
+        "changePrice": 0.028002,
+        "changeRate": 5.6004,
+        "close": 0.033002,
+        "datetime": 1732528910269,
+        "high": 0.034,
+        "lastTradedPrice": 0.033002,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.028002,
+          "changeRate": 5.6004,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1506717.0,
+          "volValue": 48357.534061
+        },
+        "marketChange24h": {
+          "changePrice": 0.028002,
+          "changeRate": 5.6004,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1506717.0,
+          "volValue": 48357.534061
+        },
+        "marketChange4h": {
+          "changePrice": 0.028002,
+          "changeRate": 5.6004,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1506717.0,
+          "volValue": 48357.534061
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.033002,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1506717.0,
+        "volValue": 48357.534061
+      },
+      "time_received": "10:01:50.3078"
+    },
+    {
+      "sequence": "3803",
+      "data": {
+        "askSize": 108638,
+        "baseCurrency": "RWA",
+        "bidSize": 6000,
+        "board": 0,
+        "buy": 0.033,
+        "changePrice": 0.028002,
+        "changeRate": 5.6004,
+        "close": 0.033002,
+        "datetime": 1732528912226,
+        "high": 0.034,
+        "lastTradedPrice": 0.033002,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.028002,
+          "changeRate": 5.6004,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1519840.0,
+          "volValue": 48790.652824
+        },
+        "marketChange24h": {
+          "changePrice": 0.028002,
+          "changeRate": 5.6004,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1519840.0,
+          "volValue": 48790.652824
+        },
+        "marketChange4h": {
+          "changePrice": 0.028002,
+          "changeRate": 5.6004,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1519840.0,
+          "volValue": 48790.652824
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.033002,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1519840.0,
+        "volValue": 48790.652824
+      },
+      "time_received": "10:01:52.2687"
+    },
+    {
+      "sequence": "3883",
+      "data": {
+        "askSize": 100294,
+        "baseCurrency": "RWA",
+        "bidSize": 4219,
+        "board": 0,
+        "buy": 0.033,
+        "changePrice": 0.028002,
+        "changeRate": 5.6004,
+        "close": 0.033002,
+        "datetime": 1732528914207,
+        "high": 0.034,
+        "lastTradedPrice": 0.033002,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.028002,
+          "changeRate": 5.6004,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1506717.0,
+          "volValue": 48357.534061
+        },
+        "marketChange24h": {
+          "changePrice": 0.028002,
+          "changeRate": 5.6004,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1506717.0,
+          "volValue": 48357.534061
+        },
+        "marketChange4h": {
+          "changePrice": 0.028002,
+          "changeRate": 5.6004,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1506717.0,
+          "volValue": 48357.534061
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.033002,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1506717.0,
+        "volValue": 48357.534061
+      },
+      "time_received": "10:01:54.2477"
+    },
+    {
+      "sequence": "3932",
+      "data": {
+        "askSize": 73237,
+        "baseCurrency": "RWA",
+        "bidSize": 4219,
+        "board": 0,
+        "buy": 0.033,
+        "changePrice": 0.028002,
+        "changeRate": 5.6004,
+        "close": 0.033002,
+        "datetime": 1732528916243,
+        "high": 0.034,
+        "lastTradedPrice": 0.033002,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.028002,
+          "changeRate": 5.6004,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1560656.0,
+          "volValue": 50137.65526
+        },
+        "marketChange24h": {
+          "changePrice": 0.028002,
+          "changeRate": 5.6004,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1560656.0,
+          "volValue": 50137.65526
+        },
+        "marketChange4h": {
+          "changePrice": 0.028002,
+          "changeRate": 5.6004,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1560656.0,
+          "volValue": 50137.65526
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.033002,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1560656.0,
+        "volValue": 50137.65526
+      },
+      "time_received": "10:01:56.2878"
+    },
+    {
+      "sequence": "3971",
+      "data": {
+        "askSize": 120,
+        "baseCurrency": "RWA",
+        "bidSize": 2655,
+        "board": 0,
+        "buy": 0.033004,
+        "changePrice": 0.028002,
+        "changeRate": 5.6004,
+        "close": 0.033002,
+        "datetime": 1732528918199,
+        "high": 0.034,
+        "lastTradedPrice": 0.033002,
+        "low": 0.005,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.028002,
+          "changeRate": 5.6004,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1519840.0,
+          "volValue": 48790.652824
+        },
+        "marketChange24h": {
+          "changePrice": 0.028002,
+          "changeRate": 5.6004,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1519840.0,
+          "volValue": 48790.652824
+        },
+        "marketChange4h": {
+          "changePrice": 0.028002,
+          "changeRate": 5.6004,
+          "high": 0.034,
+          "low": 0.005,
+          "open": 0.005,
+          "vol": 1519840.0,
+          "volValue": 48790.652824
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.005,
+        "quoteCurrency": "USDT",
+        "sell": 0.034675,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "RWA-USDT",
+        "symbolCode": "RWA-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 1519840.0,
+        "volValue": 48790.652824
+      },
+      "time_received": "10:01:58.2382"
+    }
+  ]
+}

@@ -1,0 +1,3694 @@
+{
+  "metadata": {
+    "symbol": "ZRC",
+    "channel": "snapshot",
+    "start_time": "09:59:30.0000",
+    "release_time": "10:00:00.0000",
+    "end_time": "10:02:00.0000",
+    "total_messages": 55,
+    "final_snapshot": {
+      "time": "10:01:58.3550",
+      "symbol": "ZRC-USDT",
+      "price_high": "0.12778",
+      "price_last": "0.12",
+      "price_low": "0.03",
+      "price_avg": null,
+      "volValue_USDT": "59496.538706"
+    }
+  },
+  "data": [
+    {
+      "sequence": "522",
+      "data": {
+        "askSize": 658.3,
+        "baseCurrency": "ZRC",
+        "bidSize": 40000,
+        "board": 0,
+        "buy": 0.071,
+        "changeRate": 0,
+        "close": 0.07222,
+        "datetime": 1732528800487,
+        "high": 0,
+        "lastTradedPrice": 0.07222,
+        "low": 0,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changeRate": 0,
+          "high": 0,
+          "low": 0,
+          "open": 0,
+          "vol": 0,
+          "volValue": 0
+        },
+        "marketChange24h": {
+          "changeRate": 0,
+          "high": 0,
+          "low": 0,
+          "open": 0,
+          "vol": 0,
+          "volValue": 0
+        },
+        "marketChange4h": {
+          "changeRate": 0,
+          "high": 0,
+          "low": 0,
+          "open": 0,
+          "vol": 0,
+          "volValue": 0
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0,
+        "quoteCurrency": "USDT",
+        "sell": 0.07222,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": false,
+        "vol": 0,
+        "volValue": 0
+      },
+      "time_received": "10:00:00.5234"
+    },
+    {
+      "sequence": "922",
+      "data": {
+        "askSize": 1180.5,
+        "baseCurrency": "ZRC",
+        "bidSize": 4031.8,
+        "board": 0,
+        "buy": 0.082,
+        "changeRate": 0,
+        "close": 0.082,
+        "datetime": 1732528802361,
+        "high": 0,
+        "lastTradedPrice": 0.082,
+        "low": 0,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changeRate": 0,
+          "high": 0,
+          "low": 0,
+          "open": 0,
+          "vol": 0,
+          "volValue": 0
+        },
+        "marketChange24h": {
+          "changeRate": 0,
+          "high": 0,
+          "low": 0,
+          "open": 0,
+          "vol": 0,
+          "volValue": 0
+        },
+        "marketChange4h": {
+          "changeRate": 0,
+          "high": 0,
+          "low": 0,
+          "open": 0,
+          "vol": 0,
+          "volValue": 0
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0,
+        "quoteCurrency": "USDT",
+        "sell": 0.08333,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 0,
+        "volValue": 0
+      },
+      "time_received": "10:00:02.3992"
+    },
+    {
+      "sequence": "1120",
+      "data": {
+        "askSize": 1719.1,
+        "baseCurrency": "ZRC",
+        "bidSize": 1199,
+        "board": 0,
+        "buy": 0.0834,
+        "changeRate": 0,
+        "close": 0.08431,
+        "datetime": 1732528804498,
+        "high": 0,
+        "lastTradedPrice": 0.08431,
+        "low": 0,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changeRate": 0,
+          "high": 0,
+          "low": 0,
+          "open": 0,
+          "vol": 0,
+          "volValue": 0
+        },
+        "marketChange24h": {
+          "changeRate": 0,
+          "high": 0,
+          "low": 0,
+          "open": 0,
+          "vol": 0,
+          "volValue": 0
+        },
+        "marketChange4h": {
+          "changeRate": 0,
+          "high": 0,
+          "low": 0,
+          "open": 0,
+          "vol": 0,
+          "volValue": 0
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0,
+        "quoteCurrency": "USDT",
+        "sell": 0.08431,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 0,
+        "volValue": 0
+      },
+      "time_received": "10:00:04.5346"
+    },
+    {
+      "sequence": "1188",
+      "data": {
+        "askSize": 1760,
+        "baseCurrency": "ZRC",
+        "bidSize": 1757.4,
+        "board": 0,
+        "buy": 0.08306,
+        "changePrice": 0.0545,
+        "changeRate": 1.8166,
+        "close": 0.0845,
+        "datetime": 1732528806451,
+        "high": 0.0845,
+        "lastTradedPrice": 0.0845,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0545,
+          "changeRate": 1.8166,
+          "high": 0.0845,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 36518.1,
+          "volValue": 2651.99757
+        },
+        "marketChange24h": {
+          "changePrice": 0.0545,
+          "changeRate": 1.8166,
+          "high": 0.0845,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 36518.1,
+          "volValue": 2651.99757
+        },
+        "marketChange4h": {
+          "changePrice": 0.0545,
+          "changeRate": 1.8166,
+          "high": 0.0845,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 36518.1,
+          "volValue": 2651.99757
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.08611,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": false,
+        "vol": 36518.1,
+        "volValue": 2651.99757
+      },
+      "time_received": "10:00:06.4937"
+    },
+    {
+      "sequence": "1243",
+      "data": {
+        "askSize": 1200.1,
+        "baseCurrency": "ZRC",
+        "bidSize": 32,
+        "board": 0,
+        "buy": 0.08001,
+        "changePrice": 0.05888,
+        "changeRate": 1.9626,
+        "close": 0.08888,
+        "datetime": 1732528808366,
+        "high": 0.0845,
+        "lastTradedPrice": 0.08888,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.05888,
+          "changeRate": 1.9626,
+          "high": 0.0845,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 36518.1,
+          "volValue": 2651.99757
+        },
+        "marketChange24h": {
+          "changePrice": 0.05888,
+          "changeRate": 1.9626,
+          "high": 0.0845,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 36518.1,
+          "volValue": 2651.99757
+        },
+        "marketChange4h": {
+          "changePrice": 0.05888,
+          "changeRate": 1.9626,
+          "high": 0.0845,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 36518.1,
+          "volValue": 2651.99757
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.08333,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": false,
+        "vol": 36518.1,
+        "volValue": 2651.99757
+      },
+      "time_received": "10:00:08.4025"
+    },
+    {
+      "sequence": "1337",
+      "data": {
+        "askSize": 1227.1,
+        "baseCurrency": "ZRC",
+        "bidSize": 1152.2,
+        "board": 0,
+        "buy": 0.08432,
+        "changePrice": 0.059,
+        "changeRate": 1.9666,
+        "close": 0.089,
+        "datetime": 1732528810446,
+        "high": 0.08985,
+        "lastTradedPrice": 0.089,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.059,
+          "changeRate": 1.9666,
+          "high": 0.08985,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 56292.1,
+          "volValue": 4377.224878
+        },
+        "marketChange24h": {
+          "changePrice": 0.059,
+          "changeRate": 1.9666,
+          "high": 0.08985,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 56292.1,
+          "volValue": 4377.224878
+        },
+        "marketChange4h": {
+          "changePrice": 0.059,
+          "changeRate": 1.9666,
+          "high": 0.08985,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 56292.1,
+          "volValue": 4377.224878
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.08985,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 56292.1,
+        "volValue": 4377.224878
+      },
+      "time_received": "10:00:10.4883"
+    },
+    {
+      "sequence": "1499",
+      "data": {
+        "askSize": 5281.7,
+        "baseCurrency": "ZRC",
+        "bidSize": 345.6,
+        "board": 0,
+        "buy": 0.09135,
+        "changePrice": 0.06135,
+        "changeRate": 2.045,
+        "close": 0.09135,
+        "datetime": 1732528812431,
+        "high": 0.09538,
+        "lastTradedPrice": 0.09135,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.06135,
+          "changeRate": 2.045,
+          "high": 0.09538,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 68461.1,
+          "volValue": 5502.30913
+        },
+        "marketChange24h": {
+          "changePrice": 0.06135,
+          "changeRate": 2.045,
+          "high": 0.09538,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 68461.1,
+          "volValue": 5502.30913
+        },
+        "marketChange4h": {
+          "changePrice": 0.06135,
+          "changeRate": 2.045,
+          "high": 0.09538,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 68461.1,
+          "volValue": 5502.30913
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.09538,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 68461.1,
+        "volValue": 5502.30913
+      },
+      "time_received": "10:00:12.4725"
+    },
+    {
+      "sequence": "1655",
+      "data": {
+        "askSize": 3459.9,
+        "baseCurrency": "ZRC",
+        "bidSize": 94.4,
+        "board": 0,
+        "buy": 0.10584,
+        "changePrice": 0.07646,
+        "changeRate": 2.5486,
+        "close": 0.10646,
+        "datetime": 1732528814458,
+        "high": 0.09538,
+        "lastTradedPrice": 0.10646,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.07646,
+          "changeRate": 2.5486,
+          "high": 0.09538,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 68461.1,
+          "volValue": 5502.30913
+        },
+        "marketChange24h": {
+          "changePrice": 0.07646,
+          "changeRate": 2.5486,
+          "high": 0.09538,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 68461.1,
+          "volValue": 5502.30913
+        },
+        "marketChange4h": {
+          "changePrice": 0.07646,
+          "changeRate": 2.5486,
+          "high": 0.09538,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 68461.1,
+          "volValue": 5502.30913
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.10646,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 68461.1,
+        "volValue": 5502.30913
+      },
+      "time_received": "10:00:14.4972"
+    },
+    {
+      "sequence": "1773",
+      "data": {
+        "askSize": 6115.3,
+        "baseCurrency": "ZRC",
+        "bidSize": 859.9,
+        "board": 0,
+        "buy": 0.11628,
+        "changePrice": 0.08667,
+        "changeRate": 2.889,
+        "close": 0.11667,
+        "datetime": 1732528816386,
+        "high": 0.0845,
+        "lastTradedPrice": 0.11667,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.08667,
+          "changeRate": 2.889,
+          "high": 0.0845,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 36518.1,
+          "volValue": 2651.99757
+        },
+        "marketChange24h": {
+          "changePrice": 0.08667,
+          "changeRate": 2.889,
+          "high": 0.0845,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 36518.1,
+          "volValue": 2651.99757
+        },
+        "marketChange4h": {
+          "changePrice": 0.08667,
+          "changeRate": 2.889,
+          "high": 0.0845,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 36518.1,
+          "volValue": 2651.99757
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.11667,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 36518.1,
+        "volValue": 2651.99757
+      },
+      "time_received": "10:00:16.4239"
+    },
+    {
+      "sequence": "1867",
+      "data": {
+        "askSize": 1324.2,
+        "baseCurrency": "ZRC",
+        "bidSize": 22881.4,
+        "board": 0,
+        "buy": 0.109,
+        "changePrice": 0.08754,
+        "changeRate": 2.918,
+        "close": 0.11754,
+        "datetime": 1732528818332,
+        "high": 0.09538,
+        "lastTradedPrice": 0.11754,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.08754,
+          "changeRate": 2.918,
+          "high": 0.09538,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 68461.1,
+          "volValue": 5502.30913
+        },
+        "marketChange24h": {
+          "changePrice": 0.08754,
+          "changeRate": 2.918,
+          "high": 0.09538,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 68461.1,
+          "volValue": 5502.30913
+        },
+        "marketChange4h": {
+          "changePrice": 0.08754,
+          "changeRate": 2.918,
+          "high": 0.09538,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 68461.1,
+          "volValue": 5502.30913
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.11752,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 68461.1,
+        "volValue": 5502.30913
+      },
+      "time_received": "10:00:18.3690"
+    },
+    {
+      "sequence": "1916",
+      "data": {
+        "askSize": 2150.5,
+        "baseCurrency": "ZRC",
+        "bidSize": 435.9,
+        "board": 0,
+        "buy": 0.1147,
+        "changePrice": 0.08754,
+        "changeRate": 2.918,
+        "close": 0.11754,
+        "datetime": 1732528820455,
+        "high": 0.09538,
+        "lastTradedPrice": 0.11754,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.08754,
+          "changeRate": 2.918,
+          "high": 0.09538,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 68461.1,
+          "volValue": 5502.30913
+        },
+        "marketChange24h": {
+          "changePrice": 0.08754,
+          "changeRate": 2.918,
+          "high": 0.09538,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 68461.1,
+          "volValue": 5502.30913
+        },
+        "marketChange4h": {
+          "changePrice": 0.08754,
+          "changeRate": 2.918,
+          "high": 0.09538,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 68461.1,
+          "volValue": 5502.30913
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.115,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 68461.1,
+        "volValue": 5502.30913
+      },
+      "time_received": "10:00:20.4909"
+    },
+    {
+      "sequence": "2079",
+      "data": {
+        "askSize": 17777.6,
+        "baseCurrency": "ZRC",
+        "bidSize": 830.8,
+        "board": 0,
+        "buy": 0.11704,
+        "changePrice": 0.0885,
+        "changeRate": 2.95,
+        "close": 0.1185,
+        "datetime": 1732528822366,
+        "high": 0.1185,
+        "lastTradedPrice": 0.1185,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0885,
+          "changeRate": 2.95,
+          "high": 0.1185,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 220974.8,
+          "volValue": 21776.565522
+        },
+        "marketChange24h": {
+          "changePrice": 0.0885,
+          "changeRate": 2.95,
+          "high": 0.1185,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 220974.8,
+          "volValue": 21776.565522
+        },
+        "marketChange4h": {
+          "changePrice": 0.0885,
+          "changeRate": 2.95,
+          "high": 0.1185,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 220974.8,
+          "volValue": 21776.565522
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.12222,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 220974.8,
+        "volValue": 21776.565522
+      },
+      "time_received": "10:00:22.4317"
+    },
+    {
+      "sequence": "2218",
+      "data": {
+        "askSize": 1338.2,
+        "baseCurrency": "ZRC",
+        "bidSize": 2492.4,
+        "board": 0,
+        "buy": 0.11762,
+        "changePrice": 0.09221,
+        "changeRate": 3.0736,
+        "close": 0.12221,
+        "datetime": 1732528824442,
+        "high": 0.1185,
+        "lastTradedPrice": 0.12221,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.09221,
+          "changeRate": 3.0736,
+          "high": 0.1185,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 220974.8,
+          "volValue": 21776.565522
+        },
+        "marketChange24h": {
+          "changePrice": 0.09221,
+          "changeRate": 3.0736,
+          "high": 0.1185,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 220974.8,
+          "volValue": 21776.565522
+        },
+        "marketChange4h": {
+          "changePrice": 0.09221,
+          "changeRate": 3.0736,
+          "high": 0.1185,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 220974.8,
+          "volValue": 21776.565522
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.12221,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 220974.8,
+        "volValue": 21776.565522
+      },
+      "time_received": "10:00:24.4784"
+    },
+    {
+      "sequence": "2321",
+      "data": {
+        "askSize": 3435,
+        "baseCurrency": "ZRC",
+        "bidSize": 830.8,
+        "board": 0,
+        "buy": 0.11901,
+        "changePrice": 0.09222,
+        "changeRate": 3.074,
+        "close": 0.12222,
+        "datetime": 1732528826484,
+        "high": 0.12222,
+        "lastTradedPrice": 0.12222,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.09222,
+          "changeRate": 3.074,
+          "high": 0.12222,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 240856.3,
+          "volValue": 24163.487257
+        },
+        "marketChange24h": {
+          "changePrice": 0.09222,
+          "changeRate": 3.074,
+          "high": 0.12222,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 240856.3,
+          "volValue": 24163.487257
+        },
+        "marketChange4h": {
+          "changePrice": 0.09222,
+          "changeRate": 3.074,
+          "high": 0.12222,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 240856.3,
+          "volValue": 24163.487257
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.12221,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 240856.3,
+        "volValue": 24163.487257
+      },
+      "time_received": "10:00:26.5268"
+    },
+    {
+      "sequence": "2408",
+      "data": {
+        "askSize": 22230.7,
+        "baseCurrency": "ZRC",
+        "bidSize": 873.1,
+        "board": 0,
+        "buy": 0.12765,
+        "changePrice": 0.09765,
+        "changeRate": 3.255,
+        "close": 0.12765,
+        "datetime": 1732528828313,
+        "high": 0.12765,
+        "lastTradedPrice": 0.12765,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.09765,
+          "changeRate": 3.255,
+          "high": 0.12765,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 262506.1,
+          "volValue": 26821.459125
+        },
+        "marketChange24h": {
+          "changePrice": 0.09765,
+          "changeRate": 3.255,
+          "high": 0.12765,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 262506.1,
+          "volValue": 26821.459125
+        },
+        "marketChange4h": {
+          "changePrice": 0.09765,
+          "changeRate": 3.255,
+          "high": 0.12765,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 262506.1,
+          "volValue": 26821.459125
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.12778,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 262506.1,
+        "volValue": 26821.459125
+      },
+      "time_received": "10:00:28.3787"
+    },
+    {
+      "sequence": "2514",
+      "data": {
+        "askSize": 62.2,
+        "baseCurrency": "ZRC",
+        "bidSize": 370.2,
+        "board": 0,
+        "buy": 0.12473,
+        "changePrice": 0.09778,
+        "changeRate": 3.2593,
+        "close": 0.12778,
+        "datetime": 1732528830441,
+        "high": 0.1185,
+        "lastTradedPrice": 0.12778,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.09778,
+          "changeRate": 3.2593,
+          "high": 0.1185,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 220974.8,
+          "volValue": 21776.565522
+        },
+        "marketChange24h": {
+          "changePrice": 0.09778,
+          "changeRate": 3.2593,
+          "high": 0.1185,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 220974.8,
+          "volValue": 21776.565522
+        },
+        "marketChange4h": {
+          "changePrice": 0.09778,
+          "changeRate": 3.2593,
+          "high": 0.1185,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 220974.8,
+          "volValue": 21776.565522
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.12775,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 220974.8,
+        "volValue": 21776.565522
+      },
+      "time_received": "10:00:30.4780"
+    },
+    {
+      "sequence": "2598",
+      "data": {
+        "askSize": 587.2,
+        "baseCurrency": "ZRC",
+        "bidSize": 278.5,
+        "board": 0,
+        "buy": 0.12314,
+        "changePrice": 0.09314,
+        "changeRate": 3.1046,
+        "close": 0.12314,
+        "datetime": 1732528832400,
+        "high": 0.12765,
+        "lastTradedPrice": 0.12314,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.09314,
+          "changeRate": 3.1046,
+          "high": 0.12765,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 262506.1,
+          "volValue": 26821.459125
+        },
+        "marketChange24h": {
+          "changePrice": 0.09314,
+          "changeRate": 3.1046,
+          "high": 0.12765,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 262506.1,
+          "volValue": 26821.459125
+        },
+        "marketChange4h": {
+          "changePrice": 0.09314,
+          "changeRate": 3.1046,
+          "high": 0.12765,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 262506.1,
+          "volValue": 26821.459125
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.12596,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 262506.1,
+        "volValue": 26821.459125
+      },
+      "time_received": "10:00:32.4362"
+    },
+    {
+      "sequence": "2706",
+      "data": {
+        "askSize": 2659.6,
+        "baseCurrency": "ZRC",
+        "bidSize": 630,
+        "board": 0,
+        "buy": 0.11755,
+        "changePrice": 0.08755,
+        "changeRate": 2.9183,
+        "close": 0.11755,
+        "datetime": 1732528834420,
+        "high": 0.12778,
+        "lastTradedPrice": 0.11755,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.08755,
+          "changeRate": 2.9183,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 293998.2,
+          "volValue": 30768.925337
+        },
+        "marketChange24h": {
+          "changePrice": 0.08755,
+          "changeRate": 2.9183,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 293998.2,
+          "volValue": 30768.925337
+        },
+        "marketChange4h": {
+          "changePrice": 0.08755,
+          "changeRate": 2.9183,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 293998.2,
+          "volValue": 30768.925337
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.11999,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 293998.2,
+        "volValue": 30768.925337
+      },
+      "time_received": "10:00:34.4623"
+    },
+    {
+      "sequence": "2751",
+      "data": {
+        "askSize": 3912.3,
+        "baseCurrency": "ZRC",
+        "bidSize": 45.6,
+        "board": 0,
+        "buy": 0.1095,
+        "changePrice": 0.07951,
+        "changeRate": 2.6503,
+        "close": 0.10951,
+        "datetime": 1732528836362,
+        "high": 0.12222,
+        "lastTradedPrice": 0.10951,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.07951,
+          "changeRate": 2.6503,
+          "high": 0.12222,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 240856.3,
+          "volValue": 24163.487257
+        },
+        "marketChange24h": {
+          "changePrice": 0.07951,
+          "changeRate": 2.6503,
+          "high": 0.12222,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 240856.3,
+          "volValue": 24163.487257
+        },
+        "marketChange4h": {
+          "changePrice": 0.07951,
+          "changeRate": 2.6503,
+          "high": 0.12222,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 240856.3,
+          "volValue": 24163.487257
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.11678,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 240856.3,
+        "volValue": 24163.487257
+      },
+      "time_received": "10:00:36.3988"
+    },
+    {
+      "sequence": "2928",
+      "data": {
+        "askSize": 1933,
+        "baseCurrency": "ZRC",
+        "bidSize": 49,
+        "board": 0,
+        "buy": 0.102,
+        "changePrice": 0.0775,
+        "changeRate": 2.5833,
+        "close": 0.1075,
+        "datetime": 1732528838496,
+        "high": 0.12778,
+        "lastTradedPrice": 0.1075,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0775,
+          "changeRate": 2.5833,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 293998.2,
+          "volValue": 30768.925337
+        },
+        "marketChange24h": {
+          "changePrice": 0.0775,
+          "changeRate": 2.5833,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 293998.2,
+          "volValue": 30768.925337
+        },
+        "marketChange4h": {
+          "changePrice": 0.0775,
+          "changeRate": 2.5833,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 293998.2,
+          "volValue": 30768.925337
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.10747,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 293998.2,
+        "volValue": 30768.925337
+      },
+      "time_received": "10:00:38.5320"
+    },
+    {
+      "sequence": "3001",
+      "data": {
+        "askSize": 749,
+        "baseCurrency": "ZRC",
+        "bidSize": 49.5,
+        "board": 0,
+        "buy": 0.101,
+        "changePrice": 0.07,
+        "changeRate": 2.3333,
+        "close": 0.1,
+        "datetime": 1732528840382,
+        "high": 0.12778,
+        "lastTradedPrice": 0.1,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.07,
+          "changeRate": 2.3333,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 293998.2,
+          "volValue": 30768.925337
+        },
+        "marketChange24h": {
+          "changePrice": 0.07,
+          "changeRate": 2.3333,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 293998.2,
+          "volValue": 30768.925337
+        },
+        "marketChange4h": {
+          "changePrice": 0.07,
+          "changeRate": 2.3333,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 293998.2,
+          "volValue": 30768.925337
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.1075,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 293998.2,
+        "volValue": 30768.925337
+      },
+      "time_received": "10:00:40.4187"
+    },
+    {
+      "sequence": "3100",
+      "data": {
+        "askSize": 1611,
+        "baseCurrency": "ZRC",
+        "bidSize": 1933,
+        "board": 0,
+        "buy": 0.10033,
+        "changePrice": 0.07,
+        "changeRate": 2.3333,
+        "close": 0.1,
+        "datetime": 1732528842468,
+        "high": 0.12778,
+        "lastTradedPrice": 0.1,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.07,
+          "changeRate": 2.3333,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 375141.8,
+          "volValue": 39141.794908
+        },
+        "marketChange24h": {
+          "changePrice": 0.07,
+          "changeRate": 2.3333,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 375141.8,
+          "volValue": 39141.794908
+        },
+        "marketChange4h": {
+          "changePrice": 0.07,
+          "changeRate": 2.3333,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 375141.8,
+          "volValue": 39141.794908
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.10636,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 375141.8,
+        "volValue": 39141.794908
+      },
+      "time_received": "10:00:42.5116"
+    },
+    {
+      "sequence": "3253",
+      "data": {
+        "askSize": 3141.3,
+        "baseCurrency": "ZRC",
+        "bidSize": 54.6,
+        "board": 0,
+        "buy": 0.0915,
+        "changePrice": 0.07003,
+        "changeRate": 2.3343,
+        "close": 0.10003,
+        "datetime": 1732528844478,
+        "high": 0.12778,
+        "lastTradedPrice": 0.10003,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.07003,
+          "changeRate": 2.3343,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 377402.3,
+          "volValue": 39368.146548
+        },
+        "marketChange24h": {
+          "changePrice": 0.07003,
+          "changeRate": 2.3343,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 377402.3,
+          "volValue": 39368.146548
+        },
+        "marketChange4h": {
+          "changePrice": 0.07003,
+          "changeRate": 2.3343,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 377402.3,
+          "volValue": 39368.146548
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.09727,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 377402.3,
+        "volValue": 39368.146548
+      },
+      "time_received": "10:00:44.5407"
+    },
+    {
+      "sequence": "3348",
+      "data": {
+        "askSize": 2094.2,
+        "baseCurrency": "ZRC",
+        "bidSize": 54.6,
+        "board": 0,
+        "buy": 0.0915,
+        "changePrice": 0.07003,
+        "changeRate": 2.3343,
+        "close": 0.10003,
+        "datetime": 1732528846361,
+        "high": 0.12778,
+        "lastTradedPrice": 0.10003,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.07003,
+          "changeRate": 2.3343,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 378242.4,
+          "volValue": 39448.194988
+        },
+        "marketChange24h": {
+          "changePrice": 0.07003,
+          "changeRate": 2.3343,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 378242.4,
+          "volValue": 39448.194988
+        },
+        "marketChange4h": {
+          "changePrice": 0.07003,
+          "changeRate": 2.3343,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 378242.4,
+          "volValue": 39448.194988
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.09719,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 378242.4,
+        "volValue": 39448.194988
+      },
+      "time_received": "10:00:46.4016"
+    },
+    {
+      "sequence": "3515",
+      "data": {
+        "askSize": 497.5,
+        "baseCurrency": "ZRC",
+        "bidSize": 1995,
+        "board": 0,
+        "buy": 0.09944,
+        "changePrice": 0.06861,
+        "changeRate": 2.287,
+        "close": 0.09861,
+        "datetime": 1732528848416,
+        "high": 0.12778,
+        "lastTradedPrice": 0.09861,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.06861,
+          "changeRate": 2.287,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 375141.8,
+          "volValue": 39141.794908
+        },
+        "marketChange24h": {
+          "changePrice": 0.06861,
+          "changeRate": 2.287,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 375141.8,
+          "volValue": 39141.794908
+        },
+        "marketChange4h": {
+          "changePrice": 0.06861,
+          "changeRate": 2.287,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 375141.8,
+          "volValue": 39141.794908
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.1005,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 375141.8,
+        "volValue": 39141.794908
+      },
+      "time_received": "10:00:48.4521"
+    },
+    {
+      "sequence": "3837",
+      "data": {
+        "askSize": 450.1,
+        "baseCurrency": "ZRC",
+        "bidSize": 1971.2,
+        "board": 0,
+        "buy": 0.10001,
+        "changePrice": 0.06501,
+        "changeRate": 2.167,
+        "close": 0.09501,
+        "datetime": 1732528852459,
+        "high": 0.12778,
+        "lastTradedPrice": 0.09501,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.06501,
+          "changeRate": 2.167,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 375141.8,
+          "volValue": 39141.794908
+        },
+        "marketChange24h": {
+          "changePrice": 0.06501,
+          "changeRate": 2.167,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 375141.8,
+          "volValue": 39141.794908
+        },
+        "marketChange4h": {
+          "changePrice": 0.06501,
+          "changeRate": 2.167,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 375141.8,
+          "volValue": 39141.794908
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.10339,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 375141.8,
+        "volValue": 39141.794908
+      },
+      "time_received": "10:00:52.4977"
+    },
+    {
+      "sequence": "3970",
+      "data": {
+        "askSize": 671.7,
+        "baseCurrency": "ZRC",
+        "bidSize": 53.1,
+        "board": 0,
+        "buy": 0.094,
+        "changePrice": 0.06949,
+        "changeRate": 2.3163,
+        "close": 0.09949,
+        "datetime": 1732528854420,
+        "high": 0.12778,
+        "lastTradedPrice": 0.09949,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.06949,
+          "changeRate": 2.3163,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 377402.3,
+          "volValue": 39368.146548
+        },
+        "marketChange24h": {
+          "changePrice": 0.06949,
+          "changeRate": 2.3163,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 377402.3,
+          "volValue": 39368.146548
+        },
+        "marketChange4h": {
+          "changePrice": 0.06949,
+          "changeRate": 2.3163,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 377402.3,
+          "volValue": 39368.146548
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.09948,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 377402.3,
+        "volValue": 39368.146548
+      },
+      "time_received": "10:00:54.4566"
+    },
+    {
+      "sequence": "4076",
+      "data": {
+        "askSize": 749,
+        "baseCurrency": "ZRC",
+        "bidSize": 53.1,
+        "board": 0,
+        "buy": 0.094,
+        "changePrice": 0.0655,
+        "changeRate": 2.1833,
+        "close": 0.0955,
+        "datetime": 1732528856324,
+        "high": 0.12778,
+        "lastTradedPrice": 0.0955,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0655,
+          "changeRate": 2.1833,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 418493.2,
+          "volValue": 43423.350095
+        },
+        "marketChange24h": {
+          "changePrice": 0.0655,
+          "changeRate": 2.1833,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 418493.2,
+          "volValue": 43423.350095
+        },
+        "marketChange4h": {
+          "changePrice": 0.0655,
+          "changeRate": 2.1833,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 418493.2,
+          "volValue": 43423.350095
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.095,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 418493.2,
+        "volValue": 43423.350095
+      },
+      "time_received": "10:00:56.3833"
+    },
+    {
+      "sequence": "4233",
+      "data": {
+        "askSize": 671.1,
+        "baseCurrency": "ZRC",
+        "bidSize": 53.1,
+        "board": 0,
+        "buy": 0.094,
+        "changePrice": 0.0655,
+        "changeRate": 2.1833,
+        "close": 0.0955,
+        "datetime": 1732528858417,
+        "high": 0.12778,
+        "lastTradedPrice": 0.0955,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0655,
+          "changeRate": 2.1833,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 418493.2,
+          "volValue": 43423.350095
+        },
+        "marketChange24h": {
+          "changePrice": 0.0655,
+          "changeRate": 2.1833,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 418493.2,
+          "volValue": 43423.350095
+        },
+        "marketChange4h": {
+          "changePrice": 0.0655,
+          "changeRate": 2.1833,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 418493.2,
+          "volValue": 43423.350095
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.09491,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 418493.2,
+        "volValue": 43423.350095
+      },
+      "time_received": "10:00:58.4690"
+    },
+    {
+      "sequence": "4294",
+      "data": {
+        "askSize": 197.5,
+        "baseCurrency": "ZRC",
+        "bidSize": 28.1,
+        "board": 0,
+        "buy": 0.09,
+        "changePrice": 0.06098,
+        "changeRate": 2.0326,
+        "close": 0.09098,
+        "datetime": 1732528860476,
+        "high": 0.12778,
+        "lastTradedPrice": 0.09098,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.06098,
+          "changeRate": 2.0326,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 418493.2,
+          "volValue": 43423.350095
+        },
+        "marketChange24h": {
+          "changePrice": 0.06098,
+          "changeRate": 2.0326,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 418493.2,
+          "volValue": 43423.350095
+        },
+        "marketChange4h": {
+          "changePrice": 0.06098,
+          "changeRate": 2.0326,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 418493.2,
+          "volValue": 43423.350095
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.09098,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 418493.2,
+        "volValue": 43423.350095
+      },
+      "time_received": "10:01:00.5148"
+    },
+    {
+      "sequence": "4459",
+      "data": {
+        "askSize": 1502,
+        "baseCurrency": "ZRC",
+        "bidSize": 28.1,
+        "board": 0,
+        "buy": 0.09,
+        "changePrice": 0.06279,
+        "changeRate": 2.093,
+        "close": 0.09279,
+        "datetime": 1732528862416,
+        "high": 0.12778,
+        "lastTradedPrice": 0.09279,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.06279,
+          "changeRate": 2.093,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 423131.8,
+          "volValue": 43848.669651
+        },
+        "marketChange24h": {
+          "changePrice": 0.06279,
+          "changeRate": 2.093,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 423131.8,
+          "volValue": 43848.669651
+        },
+        "marketChange4h": {
+          "changePrice": 0.06279,
+          "changeRate": 2.093,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 423131.8,
+          "volValue": 43848.669651
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.09279,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 423131.8,
+        "volValue": 43848.669651
+      },
+      "time_received": "10:01:02.4572"
+    },
+    {
+      "sequence": "4568",
+      "data": {
+        "askSize": 1451.8,
+        "baseCurrency": "ZRC",
+        "bidSize": 28.1,
+        "board": 0,
+        "buy": 0.09,
+        "changePrice": 0.06278,
+        "changeRate": 2.0926,
+        "close": 0.09278,
+        "datetime": 1732528864284,
+        "high": 0.12778,
+        "lastTradedPrice": 0.09278,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.06278,
+          "changeRate": 2.0926,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 418493.2,
+          "volValue": 43423.350095
+        },
+        "marketChange24h": {
+          "changePrice": 0.06278,
+          "changeRate": 2.0926,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 418493.2,
+          "volValue": 43423.350095
+        },
+        "marketChange4h": {
+          "changePrice": 0.06278,
+          "changeRate": 2.0926,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 418493.2,
+          "volValue": 43423.350095
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.09271,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 418493.2,
+        "volValue": 43423.350095
+      },
+      "time_received": "10:01:04.3210"
+    },
+    {
+      "sequence": "4646",
+      "data": {
+        "askSize": 1173.1,
+        "baseCurrency": "ZRC",
+        "bidSize": 240.2,
+        "board": 0,
+        "buy": 0.08213,
+        "changePrice": 0.056,
+        "changeRate": 1.8666,
+        "close": 0.086,
+        "datetime": 1732528866464,
+        "high": 0.12778,
+        "lastTradedPrice": 0.086,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.056,
+          "changeRate": 1.8666,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 428385.6,
+          "volValue": 44317.203696
+        },
+        "marketChange24h": {
+          "changePrice": 0.056,
+          "changeRate": 1.8666,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 428385.6,
+          "volValue": 44317.203696
+        },
+        "marketChange4h": {
+          "changePrice": 0.056,
+          "changeRate": 1.8666,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 428385.6,
+          "volValue": 44317.203696
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.08525,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 428385.6,
+        "volValue": 44317.203696
+      },
+      "time_received": "10:01:06.5088"
+    },
+    {
+      "sequence": "4800",
+      "data": {
+        "askSize": 55.6,
+        "baseCurrency": "ZRC",
+        "bidSize": 550.2,
+        "board": 0,
+        "buy": 0.08302,
+        "changePrice": 0.06,
+        "changeRate": 2.0,
+        "close": 0.09,
+        "datetime": 1732528868423,
+        "high": 0.12778,
+        "lastTradedPrice": 0.09,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.06,
+          "changeRate": 2.0,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 423131.8,
+          "volValue": 43848.669651
+        },
+        "marketChange24h": {
+          "changePrice": 0.06,
+          "changeRate": 2.0,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 423131.8,
+          "volValue": 43848.669651
+        },
+        "marketChange4h": {
+          "changePrice": 0.06,
+          "changeRate": 2.0,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 423131.8,
+          "volValue": 43848.669651
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.08998,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 423131.8,
+        "volValue": 43848.669651
+      },
+      "time_received": "10:01:08.4597"
+    },
+    {
+      "sequence": "4898",
+      "data": {
+        "askSize": 1266.8,
+        "baseCurrency": "ZRC",
+        "bidSize": 1023.6,
+        "board": 0,
+        "buy": 0.09,
+        "changePrice": 0.057,
+        "changeRate": 1.9,
+        "close": 0.087,
+        "datetime": 1732528870449,
+        "high": 0.12778,
+        "lastTradedPrice": 0.087,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.057,
+          "changeRate": 1.9,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 428385.6,
+          "volValue": 44317.203696
+        },
+        "marketChange24h": {
+          "changePrice": 0.057,
+          "changeRate": 1.9,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 428385.6,
+          "volValue": 44317.203696
+        },
+        "marketChange4h": {
+          "changePrice": 0.057,
+          "changeRate": 1.9,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 428385.6,
+          "volValue": 44317.203696
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.09347,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 428385.6,
+        "volValue": 44317.203696
+      },
+      "time_received": "10:01:10.4850"
+    },
+    {
+      "sequence": "5072",
+      "data": {
+        "askSize": 749,
+        "baseCurrency": "ZRC",
+        "bidSize": 553.9,
+        "board": 0,
+        "buy": 0.09001,
+        "changePrice": 0.0685,
+        "changeRate": 2.2833,
+        "close": 0.0985,
+        "datetime": 1732528874342,
+        "high": 0.12778,
+        "lastTradedPrice": 0.0985,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0685,
+          "changeRate": 2.2833,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 428385.6,
+          "volValue": 44317.203696
+        },
+        "marketChange24h": {
+          "changePrice": 0.0685,
+          "changeRate": 2.2833,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 428385.6,
+          "volValue": 44317.203696
+        },
+        "marketChange4h": {
+          "changePrice": 0.0685,
+          "changeRate": 2.2833,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 428385.6,
+          "volValue": 44317.203696
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.09239,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 428385.6,
+        "volValue": 44317.203696
+      },
+      "time_received": "10:01:14.3810"
+    },
+    {
+      "sequence": "5143",
+      "data": {
+        "askSize": 749,
+        "baseCurrency": "ZRC",
+        "bidSize": 1644.6,
+        "board": 0,
+        "buy": 0.09002,
+        "changePrice": 0.0685,
+        "changeRate": 2.2833,
+        "close": 0.0985,
+        "datetime": 1732528876290,
+        "high": 0.12778,
+        "lastTradedPrice": 0.0985,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0685,
+          "changeRate": 2.2833,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 428385.6,
+          "volValue": 44317.203696
+        },
+        "marketChange24h": {
+          "changePrice": 0.0685,
+          "changeRate": 2.2833,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 428385.6,
+          "volValue": 44317.203696
+        },
+        "marketChange4h": {
+          "changePrice": 0.0685,
+          "changeRate": 2.2833,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 428385.6,
+          "volValue": 44317.203696
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.09239,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 428385.6,
+        "volValue": 44317.203696
+      },
+      "time_received": "10:01:16.3263"
+    },
+    {
+      "sequence": "5182",
+      "data": {
+        "askSize": 749,
+        "baseCurrency": "ZRC",
+        "bidSize": 1644.6,
+        "board": 0,
+        "buy": 0.09004,
+        "changePrice": 0.0685,
+        "changeRate": 2.2833,
+        "close": 0.0985,
+        "datetime": 1732528878499,
+        "high": 0.12778,
+        "lastTradedPrice": 0.0985,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0685,
+          "changeRate": 2.2833,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 481227.1,
+          "volValue": 49024.193086
+        },
+        "marketChange24h": {
+          "changePrice": 0.0685,
+          "changeRate": 2.2833,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 481227.1,
+          "volValue": 49024.193086
+        },
+        "marketChange4h": {
+          "changePrice": 0.0685,
+          "changeRate": 2.2833,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 481227.1,
+          "volValue": 49024.193086
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.09239,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 481227.1,
+        "volValue": 49024.193086
+      },
+      "time_received": "10:01:18.5398"
+    },
+    {
+      "sequence": "5309",
+      "data": {
+        "askSize": 31346,
+        "baseCurrency": "ZRC",
+        "bidSize": 546.4,
+        "board": 0,
+        "buy": 0.0915,
+        "changePrice": 0.07,
+        "changeRate": 2.3333,
+        "close": 0.1,
+        "datetime": 1732528880383,
+        "high": 0.12778,
+        "lastTradedPrice": 0.1,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.07,
+          "changeRate": 2.3333,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 483161.4,
+          "volValue": 49216.172567
+        },
+        "marketChange24h": {
+          "changePrice": 0.07,
+          "changeRate": 2.3333,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 483161.4,
+          "volValue": 49216.172567
+        },
+        "marketChange4h": {
+          "changePrice": 0.07,
+          "changeRate": 2.3333,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 483161.4,
+          "volValue": 49216.172567
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.1,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 483161.4,
+        "volValue": 49216.172567
+      },
+      "time_received": "10:01:20.4420"
+    },
+    {
+      "sequence": "5355",
+      "data": {
+        "askSize": 30344.5,
+        "baseCurrency": "ZRC",
+        "bidSize": 553.9,
+        "board": 0,
+        "buy": 0.09151,
+        "changePrice": 0.07,
+        "changeRate": 2.3333,
+        "close": 0.1,
+        "datetime": 1732528882483,
+        "high": 0.12778,
+        "lastTradedPrice": 0.1,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.07,
+          "changeRate": 2.3333,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 481227.1,
+          "volValue": 49024.193086
+        },
+        "marketChange24h": {
+          "changePrice": 0.07,
+          "changeRate": 2.3333,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 481227.1,
+          "volValue": 49024.193086
+        },
+        "marketChange4h": {
+          "changePrice": 0.07,
+          "changeRate": 2.3333,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 481227.1,
+          "volValue": 49024.193086
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.1,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 481227.1,
+        "volValue": 49024.193086
+      },
+      "time_received": "10:01:22.5193"
+    },
+    {
+      "sequence": "5456",
+      "data": {
+        "askSize": 553.8,
+        "baseCurrency": "ZRC",
+        "bidSize": 553.9,
+        "board": 0,
+        "buy": 0.09221,
+        "changePrice": 0.0622,
+        "changeRate": 2.0733,
+        "close": 0.0922,
+        "datetime": 1732528886324,
+        "high": 0.12778,
+        "lastTradedPrice": 0.0922,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0622,
+          "changeRate": 2.0733,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 481227.1,
+          "volValue": 49024.193086
+        },
+        "marketChange24h": {
+          "changePrice": 0.0622,
+          "changeRate": 2.0733,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 481227.1,
+          "volValue": 49024.193086
+        },
+        "marketChange4h": {
+          "changePrice": 0.0622,
+          "changeRate": 2.0733,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 481227.1,
+          "volValue": 49024.193086
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.09999,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 481227.1,
+        "volValue": 49024.193086
+      },
+      "time_received": "10:01:26.3612"
+    },
+    {
+      "sequence": "5569",
+      "data": {
+        "askSize": 24353.6,
+        "baseCurrency": "ZRC",
+        "bidSize": 588.3,
+        "board": 0,
+        "buy": 0.09301,
+        "changePrice": 0.07,
+        "changeRate": 2.3333,
+        "close": 0.1,
+        "datetime": 1732528888416,
+        "high": 0.12778,
+        "lastTradedPrice": 0.1,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.07,
+          "changeRate": 2.3333,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 491485.9,
+          "volValue": 50042.780374
+        },
+        "marketChange24h": {
+          "changePrice": 0.07,
+          "changeRate": 2.3333,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 491485.9,
+          "volValue": 50042.780374
+        },
+        "marketChange4h": {
+          "changePrice": 0.07,
+          "changeRate": 2.3333,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 491485.9,
+          "volValue": 50042.780374
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.1,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 491485.9,
+        "volValue": 50042.780374
+      },
+      "time_received": "10:01:28.4570"
+    },
+    {
+      "sequence": "5710",
+      "data": {
+        "askSize": 21991,
+        "baseCurrency": "ZRC",
+        "bidSize": 1557.3,
+        "board": 0,
+        "buy": 0.09265,
+        "changePrice": 0.07,
+        "changeRate": 2.3333,
+        "close": 0.1,
+        "datetime": 1732528892465,
+        "high": 0.12778,
+        "lastTradedPrice": 0.1,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.07,
+          "changeRate": 2.3333,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 496329.1,
+          "volValue": 50526.989827
+        },
+        "marketChange24h": {
+          "changePrice": 0.07,
+          "changeRate": 2.3333,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 496329.1,
+          "volValue": 50526.989827
+        },
+        "marketChange4h": {
+          "changePrice": 0.07,
+          "changeRate": 2.3333,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 496329.1,
+          "volValue": 50526.989827
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.1,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 496329.1,
+        "volValue": 50526.989827
+      },
+      "time_received": "10:01:32.5249"
+    },
+    {
+      "sequence": "5789",
+      "data": {
+        "askSize": 1557,
+        "baseCurrency": "ZRC",
+        "bidSize": 10000,
+        "board": 0,
+        "buy": 0.093,
+        "changePrice": 0.06151,
+        "changeRate": 2.0503,
+        "close": 0.09151,
+        "datetime": 1732528894400,
+        "high": 0.12778,
+        "lastTradedPrice": 0.09151,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.06151,
+          "changeRate": 2.0503,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 499688.8,
+          "volValue": 50836.352935
+        },
+        "marketChange24h": {
+          "changePrice": 0.06151,
+          "changeRate": 2.0503,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 499688.8,
+          "volValue": 50836.352935
+        },
+        "marketChange4h": {
+          "changePrice": 0.06151,
+          "changeRate": 2.0503,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 499688.8,
+          "volValue": 50836.352935
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.09997,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 499688.8,
+        "volValue": 50836.352935
+      },
+      "time_received": "10:01:34.4410"
+    },
+    {
+      "sequence": "5875",
+      "data": {
+        "askSize": 4126.2,
+        "baseCurrency": "ZRC",
+        "bidSize": 630.2,
+        "board": 0,
+        "buy": 0.09351,
+        "changePrice": 0.07,
+        "changeRate": 2.3333,
+        "close": 0.1,
+        "datetime": 1732528896458,
+        "high": 0.12778,
+        "lastTradedPrice": 0.1,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.07,
+          "changeRate": 2.3333,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 499688.8,
+          "volValue": 50836.352935
+        },
+        "marketChange24h": {
+          "changePrice": 0.07,
+          "changeRate": 2.3333,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 499688.8,
+          "volValue": 50836.352935
+        },
+        "marketChange4h": {
+          "changePrice": 0.07,
+          "changeRate": 2.3333,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 499688.8,
+          "volValue": 50836.352935
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.1,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 499688.8,
+        "volValue": 50836.352935
+      },
+      "time_received": "10:01:36.4939"
+    },
+    {
+      "sequence": "5980",
+      "data": {
+        "askSize": 46.7,
+        "baseCurrency": "ZRC",
+        "bidSize": 433.3,
+        "board": 0,
+        "buy": 0.10389,
+        "changePrice": 0.07389,
+        "changeRate": 2.463,
+        "close": 0.10389,
+        "datetime": 1732528898351,
+        "high": 0.12778,
+        "lastTradedPrice": 0.10389,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.07389,
+          "changeRate": 2.463,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 491485.9,
+          "volValue": 50042.780374
+        },
+        "marketChange24h": {
+          "changePrice": 0.07389,
+          "changeRate": 2.463,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 491485.9,
+          "volValue": 50042.780374
+        },
+        "marketChange4h": {
+          "changePrice": 0.07389,
+          "changeRate": 2.463,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 491485.9,
+          "volValue": 50042.780374
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.107,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 491485.9,
+        "volValue": 50042.780374
+      },
+      "time_received": "10:01:38.3878"
+    },
+    {
+      "sequence": "6147",
+      "data": {
+        "askSize": 961.3,
+        "baseCurrency": "ZRC",
+        "bidSize": 602.4,
+        "board": 0,
+        "buy": 0.10789,
+        "changePrice": 0.07788,
+        "changeRate": 2.596,
+        "close": 0.10788,
+        "datetime": 1732528900459,
+        "high": 0.12778,
+        "lastTradedPrice": 0.10788,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.07788,
+          "changeRate": 2.596,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 544616.4,
+          "volValue": 55494.970696
+        },
+        "marketChange24h": {
+          "changePrice": 0.07788,
+          "changeRate": 2.596,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 544616.4,
+          "volValue": 55494.970696
+        },
+        "marketChange4h": {
+          "changePrice": 0.07788,
+          "changeRate": 2.596,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 544616.4,
+          "volValue": 55494.970696
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.11015,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 544616.4,
+        "volValue": 55494.970696
+      },
+      "time_received": "10:01:40.5008"
+    },
+    {
+      "sequence": "6233",
+      "data": {
+        "askSize": 602.4,
+        "baseCurrency": "ZRC",
+        "bidSize": 111.3,
+        "board": 0,
+        "buy": 0.10788,
+        "changePrice": 0.07805,
+        "changeRate": 2.6016,
+        "close": 0.10805,
+        "datetime": 1732528902354,
+        "high": 0.12778,
+        "lastTradedPrice": 0.10805,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.07805,
+          "changeRate": 2.6016,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 544616.4,
+          "volValue": 55494.970696
+        },
+        "marketChange24h": {
+          "changePrice": 0.07805,
+          "changeRate": 2.6016,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 544616.4,
+          "volValue": 55494.970696
+        },
+        "marketChange4h": {
+          "changePrice": 0.07805,
+          "changeRate": 2.6016,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 544616.4,
+          "volValue": 55494.970696
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.11054,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 544616.4,
+        "volValue": 55494.970696
+      },
+      "time_received": "10:01:42.3910"
+    },
+    {
+      "sequence": "6327",
+      "data": {
+        "askSize": 45.6,
+        "baseCurrency": "ZRC",
+        "bidSize": 606.1,
+        "board": 0,
+        "buy": 0.10765,
+        "changePrice": 0.07805,
+        "changeRate": 2.6016,
+        "close": 0.10805,
+        "datetime": 1732528904418,
+        "high": 0.12778,
+        "lastTradedPrice": 0.10805,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.07805,
+          "changeRate": 2.6016,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 545652.3,
+          "volValue": 55609.018971
+        },
+        "marketChange24h": {
+          "changePrice": 0.07805,
+          "changeRate": 2.6016,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 545652.3,
+          "volValue": 55609.018971
+        },
+        "marketChange4h": {
+          "changePrice": 0.07805,
+          "changeRate": 2.6016,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 545652.3,
+          "volValue": 55609.018971
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.1095,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 545652.3,
+        "volValue": 55609.018971
+      },
+      "time_received": "10:01:44.4836"
+    },
+    {
+      "sequence": "6424",
+      "data": {
+        "askSize": 1305.7,
+        "baseCurrency": "ZRC",
+        "bidSize": 62.1,
+        "board": 0,
+        "buy": 0.10101,
+        "changePrice": 0.07767,
+        "changeRate": 2.589,
+        "close": 0.10767,
+        "datetime": 1732528906259,
+        "high": 0.12778,
+        "lastTradedPrice": 0.10767,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.07767,
+          "changeRate": 2.589,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 545652.3,
+          "volValue": 55609.018971
+        },
+        "marketChange24h": {
+          "changePrice": 0.07767,
+          "changeRate": 2.589,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 545652.3,
+          "volValue": 55609.018971
+        },
+        "marketChange4h": {
+          "changePrice": 0.07767,
+          "changeRate": 2.589,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 545652.3,
+          "volValue": 55609.018971
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.10682,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 545652.3,
+        "volValue": 55609.018971
+      },
+      "time_received": "10:01:46.2962"
+    },
+    {
+      "sequence": "6760",
+      "data": {
+        "askSize": 854.1,
+        "baseCurrency": "ZRC",
+        "bidSize": 45766.9,
+        "board": 0,
+        "buy": 0.11353,
+        "changePrice": 0.08353,
+        "changeRate": 2.7843,
+        "close": 0.11353,
+        "datetime": 1732528910444,
+        "high": 0.12778,
+        "lastTradedPrice": 0.11353,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.08353,
+          "changeRate": 2.7843,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 545652.3,
+          "volValue": 55609.018971
+        },
+        "marketChange24h": {
+          "changePrice": 0.08353,
+          "changeRate": 2.7843,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 545652.3,
+          "volValue": 55609.018971
+        },
+        "marketChange4h": {
+          "changePrice": 0.08353,
+          "changeRate": 2.7843,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 545652.3,
+          "volValue": 55609.018971
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.11708,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 545652.3,
+        "volValue": 55609.018971
+      },
+      "time_received": "10:01:50.4800"
+    },
+    {
+      "sequence": "6960",
+      "data": {
+        "askSize": 352.6,
+        "baseCurrency": "ZRC",
+        "bidSize": 44665.4,
+        "board": 0,
+        "buy": 0.11633,
+        "changePrice": 0.08633,
+        "changeRate": 2.8776,
+        "close": 0.11633,
+        "datetime": 1732528912436,
+        "high": 0.12778,
+        "lastTradedPrice": 0.11633,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.08633,
+          "changeRate": 2.8776,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 580422.2,
+          "volValue": 59496.538706
+        },
+        "marketChange24h": {
+          "changePrice": 0.08633,
+          "changeRate": 2.8776,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 580422.2,
+          "volValue": 59496.538706
+        },
+        "marketChange4h": {
+          "changePrice": 0.08633,
+          "changeRate": 2.8776,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 580422.2,
+          "volValue": 59496.538706
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.119,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 580422.2,
+        "volValue": 59496.538706
+      },
+      "time_received": "10:01:52.4995"
+    },
+    {
+      "sequence": "7078",
+      "data": {
+        "askSize": 1783.9,
+        "baseCurrency": "ZRC",
+        "bidSize": 1892,
+        "board": 0,
+        "buy": 0.11385,
+        "changePrice": 0.08691,
+        "changeRate": 2.897,
+        "close": 0.11691,
+        "datetime": 1732528914331,
+        "high": 0.12778,
+        "lastTradedPrice": 0.11691,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.08691,
+          "changeRate": 2.897,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 583161.4,
+          "volValue": 59812.997002
+        },
+        "marketChange24h": {
+          "changePrice": 0.08691,
+          "changeRate": 2.897,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 581027.3,
+          "volValue": 59566.125206
+        },
+        "marketChange4h": {
+          "changePrice": 0.08691,
+          "changeRate": 2.897,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 583161.4,
+          "volValue": 59812.997002
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.11544,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 581027.3,
+        "volValue": 59566.125206
+      },
+      "time_received": "10:01:54.3713"
+    },
+    {
+      "sequence": "7186",
+      "data": {
+        "askSize": 43973.6,
+        "baseCurrency": "ZRC",
+        "bidSize": 44942.6,
+        "board": 0,
+        "buy": 0.11561,
+        "changePrice": 0.0869,
+        "changeRate": 2.8966,
+        "close": 0.1169,
+        "datetime": 1732528916412,
+        "high": 0.12778,
+        "lastTradedPrice": 0.1169,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0869,
+          "changeRate": 2.8966,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 583161.4,
+          "volValue": 59812.997002
+        },
+        "marketChange24h": {
+          "changePrice": 0.0869,
+          "changeRate": 2.8966,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 583161.4,
+          "volValue": 59812.997002
+        },
+        "marketChange4h": {
+          "changePrice": 0.0869,
+          "changeRate": 2.8966,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 583161.4,
+          "volValue": 59812.997002
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.11816,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 583161.4,
+        "volValue": 59812.997002
+      },
+      "time_received": "10:01:56.4534"
+    },
+    {
+      "sequence": "7365",
+      "data": {
+        "askSize": 851.3,
+        "baseCurrency": "ZRC",
+        "bidSize": 45025.6,
+        "board": 0,
+        "buy": 0.1154,
+        "changePrice": 0.09,
+        "changeRate": 3.0,
+        "close": 0.12,
+        "datetime": 1732528918355,
+        "high": 0.12778,
+        "lastTradedPrice": 0.12,
+        "low": 0.03,
+        "makerCoefficient": 2.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.09,
+          "changeRate": 3.0,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 580422.2,
+          "volValue": 59496.538706
+        },
+        "marketChange24h": {
+          "changePrice": 0.09,
+          "changeRate": 3.0,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 580422.2,
+          "volValue": 59496.538706
+        },
+        "marketChange4h": {
+          "changePrice": 0.09,
+          "changeRate": 3.0,
+          "high": 0.12778,
+          "low": 0.03,
+          "open": 0.03,
+          "vol": 580422.2,
+          "volValue": 59496.538706
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.03,
+        "quoteCurrency": "USDT",
+        "sell": 0.11747,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "ZRC-USDT",
+        "symbolCode": "ZRC-USDT",
+        "takerCoefficient": 2.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 580422.2,
+        "volValue": 59496.538706
+      },
+      "time_received": "10:01:58.3906"
+    }
+  ]
+}

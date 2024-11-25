@@ -276,14 +276,11 @@ async def main():
 
             if data:    
                 if data['side'] == 'sell':
-                    print("Selling")
-                    print(data['price'])
-                    print('=====================')
                     sell_output = await strategy.sell_on_first_sell_order(2, data['price'], 5)
                     
                 
             if data:
-                print(data['price'])
+                print(data)
             else:
                 print("No data")
             await asyncio.sleep(1)
@@ -295,19 +292,6 @@ async def main():
 
 
 
-
-
-    # base_price = 0.432
-    
-    # # Place multiple buy orders
-    # base_buy_price = base_price
-    # percentage_dif_buy = 0
-    # num_orders_buy = 2
-
-    # buy_orders = await strategy.multiple_buy_orders_percent_dif(symbol, base_buy_price, num_orders_buy, percentage_dif_buy)
-    # logger.info(f"Buy orders: {json.dumps(buy_orders,indent=4)}")
-
-    # await strategy.close_client()
 
 if __name__ == "__main__":
     asyncio.run(main())

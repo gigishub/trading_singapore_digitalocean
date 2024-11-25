@@ -1,0 +1,207 @@
+{
+    "buy_orders": {
+        "first_group": {
+            "trigger_data": {
+                "price": "0.06389",
+                "side": "buy",
+                "time_received": "10:00:00.097"
+            },
+            "orders": [
+                {
+                    "success": false,
+                    "message": "Symbol ZRC-USDT cant be traded",
+                    "code": "600203",
+                    "limit_buy_price": "0.06836",
+                    "order_sent_time": "10:00:00.097",
+                    "order_received_time": "10:00:00.251",
+                    "currency_pair": "ZRC-USDT",
+                    "order_size": "55"
+                },
+                {
+                    "success": true,
+                    "execution_time": 0.16359,
+                    "limit_buy_price": "0.07283",
+                    "order_id": "67444aa0cf286a00072c0574",
+                    "order_sent_time": "10:00:00.103",
+                    "order_received_time": "10:00:00.267",
+                    "currency_pair": "ZRC-USDT",
+                    "order_size": "55"
+                },
+                {
+                    "success": false,
+                    "message": "Symbol ZRC-USDT cant be traded",
+                    "code": "600203",
+                    "limit_buy_price": "0.07731",
+                    "order_sent_time": "10:00:00.113",
+                    "order_received_time": "10:00:00.291",
+                    "currency_pair": "ZRC-USDT",
+                    "order_size": "55"
+                }
+            ]
+        },
+        "second_group": {
+            "trigger_data": {
+                "price": "0.07222",
+                "side": "buy",
+                "time_received": "10:00:00.287"
+            },
+            "orders": [
+                {
+                    "success": false,
+                    "message": "Symbol ZRC-USDT cant be traded",
+                    "code": "600203",
+                    "limit_buy_price": "0.07728",
+                    "order_sent_time": "10:00:00.293",
+                    "order_received_time": "10:00:00.402",
+                    "currency_pair": "ZRC-USDT",
+                    "order_size": "55"
+                },
+                {
+                    "success": false,
+                    "message": "Symbol ZRC-USDT cant be traded",
+                    "code": "600203",
+                    "limit_buy_price": "0.08233",
+                    "order_sent_time": "10:00:00.295",
+                    "order_received_time": "10:00:00.386",
+                    "currency_pair": "ZRC-USDT",
+                    "order_size": "55"
+                },
+                {
+                    "success": true,
+                    "execution_time": 0.13307,
+                    "limit_buy_price": "0.08739",
+                    "order_id": "67444aa031d0950007187c7e",
+                    "order_sent_time": "10:00:00.295",
+                    "order_received_time": "10:00:00.428",
+                    "currency_pair": "ZRC-USDT",
+                    "order_size": "55"
+                }
+            ]
+        }
+    },
+    "sell_orders": {
+        "first_group": {
+            "trigger_data": {
+                "price": "0.082",
+                "side": "sell",
+                "time_received": "10:00:02.140"
+            },
+            "orders": [
+                {
+                    "success": true,
+                    "execution_time": 0.12079,
+                    "limit_sell_price": "0.08036",
+                    "order_id": "67444aa2f1bf40000781dfe7",
+                    "order_sent_time": "10:00:02.140",
+                    "order_received_time": "10:00:02.261",
+                    "currency_pair": "ZRC-USDT",
+                    "order_size": "55"
+                },
+                {
+                    "success": false,
+                    "message": "Balance insufficient!",
+                    "code": "200004",
+                    "limit_sell_price": "0.07872",
+                    "order_sent_time": "10:00:02.142",
+                    "order_received_time": "10:00:02.272",
+                    "currency_pair": "ZRC-USDT",
+                    "order_size": "55"
+                },
+                {
+                    "success": true,
+                    "execution_time": 0.12606,
+                    "limit_sell_price": "0.07708",
+                    "order_id": "67444aa2088f01000795b1ed",
+                    "order_sent_time": "10:00:02.143",
+                    "order_received_time": "10:00:02.269",
+                    "currency_pair": "ZRC-USDT",
+                    "order_size": "55"
+                },
+                {
+                    "success": false,
+                    "message": "Balance insufficient!",
+                    "code": "200004",
+                    "limit_sell_price": "0.07544",
+                    "order_sent_time": "10:00:02.144",
+                    "order_received_time": "10:00:02.343",
+                    "currency_pair": "ZRC-USDT",
+                    "order_size": "55"
+                },
+                {
+                    "success": false,
+                    "message": "Balance insufficient!",
+                    "code": "200004",
+                    "limit_sell_price": "0.0738",
+                    "order_sent_time": "10:00:02.145",
+                    "order_received_time": "10:00:02.316",
+                    "currency_pair": "ZRC-USDT",
+                    "order_size": "55"
+                }
+            ]
+        },
+        "second_group": {
+            "trigger_data": {
+                "price": "0.0845",
+                "side": "sell",
+                "time_received": "10:00:04.008"
+            },
+            "orders": [
+                {
+                    "success": false,
+                    "message": "Balance insufficient!",
+                    "code": "200004",
+                    "limit_sell_price": "0.08281",
+                    "order_sent_time": "10:00:04.009",
+                    "order_received_time": "10:00:04.147",
+                    "currency_pair": "ZRC-USDT",
+                    "order_size": "55"
+                },
+                {
+                    "success": false,
+                    "message": "Balance insufficient!",
+                    "code": "200004",
+                    "limit_sell_price": "0.08112",
+                    "order_sent_time": "10:00:04.011",
+                    "order_received_time": "10:00:04.137",
+                    "currency_pair": "ZRC-USDT",
+                    "order_size": "55"
+                },
+                {
+                    "success": false,
+                    "message": "Balance insufficient!",
+                    "code": "200004",
+                    "limit_sell_price": "0.07943",
+                    "order_sent_time": "10:00:04.012",
+                    "order_received_time": "10:00:04.122",
+                    "currency_pair": "ZRC-USDT",
+                    "order_size": "55"
+                },
+                {
+                    "success": false,
+                    "message": "Balance insufficient!",
+                    "code": "200004",
+                    "limit_sell_price": "0.07774",
+                    "order_sent_time": "10:00:04.012",
+                    "order_received_time": "10:00:04.121",
+                    "currency_pair": "ZRC-USDT",
+                    "order_size": "55"
+                },
+                {
+                    "success": false,
+                    "message": "Balance insufficient!",
+                    "code": "200004",
+                    "limit_sell_price": "0.07605",
+                    "order_sent_time": "10:00:04.013",
+                    "order_received_time": "10:00:04.127",
+                    "currency_pair": "ZRC-USDT",
+                    "order_size": "55"
+                }
+            ]
+        }
+    },
+    "trading_session": {
+        "start_time": "2024-11-25T09:59:30.104185",
+        "symbol": "ZRC-USDT",
+        "end_time": "2024-11-25T10:00:04.147644"
+    }
+}
