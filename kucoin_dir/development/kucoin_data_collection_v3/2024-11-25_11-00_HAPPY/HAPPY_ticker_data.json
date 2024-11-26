@@ -1,0 +1,5337 @@
+[
+  {
+    "id": "1732532370491",
+    "type": "pong",
+    "timestamp": 1732532370529746
+  },
+  {
+    "id": "1732532390493",
+    "type": "pong",
+    "timestamp": 1732532390531444
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.028",
+      "bestAskSize": "19784.3",
+      "bestBid": "0.026",
+      "bestBidSize": "768",
+      "price": "0.028",
+      "sequence": "143",
+      "size": "110",
+      "time": 1732532400600,
+      "time_before_que.put": "11:00:00.746",
+      "seconds_from_release": 0.746155,
+      "time_after_queue.get": "11:00:00.746"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.028",
+      "bestAskSize": "19784.3",
+      "bestBid": "0.026",
+      "bestBidSize": "768",
+      "price": "0.028",
+      "sequence": "143",
+      "size": "110",
+      "time": 1732532400600,
+      "time_before_que.put": "11:00:00.756",
+      "seconds_from_release": 0.756503,
+      "time_after_queue.get": "11:00:00.756"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.028",
+      "bestAskSize": "19596.6",
+      "bestBid": "0.026",
+      "bestBidSize": "768",
+      "price": "0.028",
+      "sequence": "144",
+      "size": "187.7",
+      "time": 1732532401245,
+      "time_before_que.put": "11:00:01.412",
+      "seconds_from_release": 1.412844,
+      "time_after_queue.get": "11:00:01.413"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.028",
+      "bestAskSize": "19596.6",
+      "bestBid": "0.026",
+      "bestBidSize": "768",
+      "price": "0.028",
+      "sequence": "147",
+      "size": "187.7",
+      "time": 1732532401245,
+      "time_before_que.put": "11:00:01.499",
+      "seconds_from_release": 1.499221,
+      "time_after_queue.get": "11:00:01.500"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "17995",
+      "bestBid": "0.025",
+      "bestBidSize": "795788.9",
+      "price": "0.028",
+      "sequence": "150",
+      "size": "187.7",
+      "time": 1732532401245,
+      "time_before_que.put": "11:00:01.730",
+      "seconds_from_release": 1.73025,
+      "time_after_queue.get": "11:00:01.730"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "17995",
+      "bestBid": "0.025",
+      "bestBidSize": "795458.9",
+      "price": "0.025",
+      "sequence": "153",
+      "size": "110",
+      "time": 1732532401837,
+      "time_before_que.put": "11:00:01.955",
+      "seconds_from_release": 1.955111,
+      "time_after_queue.get": "11:00:01.955"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "17995",
+      "bestBid": "0.02501",
+      "bestBidSize": "1976.3",
+      "price": "0.025",
+      "sequence": "157",
+      "size": "110",
+      "time": 1732532401837,
+      "time_before_que.put": "11:00:02.040",
+      "seconds_from_release": 2.040126,
+      "time_after_queue.get": "11:00:02.040"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "17995",
+      "bestBid": "0.02501",
+      "bestBidSize": "5928.9",
+      "price": "0.025",
+      "sequence": "159",
+      "size": "110",
+      "time": 1732532401837,
+      "time_before_que.put": "11:00:02.176",
+      "seconds_from_release": 2.176674,
+      "time_after_queue.get": "11:00:02.177"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "17995",
+      "bestBid": "0.02501",
+      "bestBidSize": "5928.9",
+      "price": "0.025",
+      "sequence": "160",
+      "size": "110",
+      "time": 1732532401837,
+      "time_before_que.put": "11:00:03.000",
+      "seconds_from_release": 3.000873,
+      "time_after_queue.get": "11:00:03.001"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "17995",
+      "bestBid": "0.025",
+      "bestBidSize": "762134.8",
+      "price": "0.025",
+      "sequence": "164",
+      "size": "33324.1",
+      "time": 1732532402964,
+      "time_before_que.put": "11:00:03.104",
+      "seconds_from_release": 3.104387,
+      "time_after_queue.get": "11:00:03.104"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "17995",
+      "bestBid": "0.025",
+      "bestBidSize": "721812.1",
+      "price": "0.025",
+      "sequence": "165",
+      "size": "40322.7",
+      "time": 1732532403633,
+      "time_before_que.put": "11:00:03.756",
+      "seconds_from_release": 3.756104,
+      "time_after_queue.get": "11:00:03.756"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "17995",
+      "bestBid": "0.025",
+      "bestBidSize": "721812.1",
+      "price": "0.025",
+      "sequence": "168",
+      "size": "40322.7",
+      "time": 1732532403633,
+      "time_before_que.put": "11:00:03.854",
+      "seconds_from_release": 3.854421,
+      "time_after_queue.get": "11:00:03.855"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "17995",
+      "bestBid": "0.025",
+      "bestBidSize": "721812.1",
+      "price": "0.025",
+      "sequence": "169",
+      "size": "40322.7",
+      "time": 1732532403633,
+      "time_before_que.put": "11:00:04.803",
+      "seconds_from_release": 4.80309,
+      "time_after_queue.get": "11:00:04.803"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "17995",
+      "bestBid": "0.025",
+      "bestBidSize": "721812.1",
+      "price": "0.025",
+      "sequence": "173",
+      "size": "40322.7",
+      "time": 1732532403633,
+      "time_before_que.put": "11:00:04.998",
+      "seconds_from_release": 4.998039,
+      "time_after_queue.get": "11:00:04.998"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "17995",
+      "bestBid": "0.025",
+      "bestBidSize": "721812.1",
+      "price": "0.025",
+      "sequence": "175",
+      "size": "40322.7",
+      "time": 1732532403633,
+      "time_before_que.put": "11:00:05.099",
+      "seconds_from_release": 5.099332,
+      "time_after_queue.get": "11:00:05.100"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "17995",
+      "bestBid": "0.025",
+      "bestBidSize": "721812.1",
+      "price": "0.025",
+      "sequence": "176",
+      "size": "40322.7",
+      "time": 1732532403633,
+      "time_before_que.put": "11:00:05.626",
+      "seconds_from_release": 5.626309,
+      "time_after_queue.get": "11:00:05.626"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "17995",
+      "bestBid": "0.025",
+      "bestBidSize": "721812.1",
+      "price": "0.025",
+      "sequence": "182",
+      "size": "40322.7",
+      "time": 1732532403633,
+      "time_before_que.put": "11:00:05.738",
+      "seconds_from_release": 5.738727,
+      "time_after_queue.get": "11:00:05.739"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "17995",
+      "bestBid": "0.025",
+      "bestBidSize": "534312.1",
+      "price": "0.025",
+      "sequence": "184",
+      "size": "165687.9",
+      "time": 1732532405753,
+      "time_before_que.put": "11:00:05.843",
+      "seconds_from_release": 5.843293,
+      "time_after_queue.get": "11:00:05.844"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "17995",
+      "bestBid": "0.025",
+      "bestBidSize": "527665.2",
+      "price": "0.025",
+      "sequence": "185",
+      "size": "6646.9",
+      "time": 1732532406164,
+      "time_before_que.put": "11:00:06.261",
+      "seconds_from_release": 6.261434,
+      "time_after_queue.get": "11:00:06.261"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "17401.6",
+      "bestBid": "0.025",
+      "bestBidSize": "527665.2",
+      "price": "0.0256",
+      "sequence": "189",
+      "size": "593.4",
+      "time": 1732532406297,
+      "time_before_que.put": "11:00:06.360",
+      "seconds_from_release": 6.360193,
+      "time_after_queue.get": "11:00:06.360"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "17401.6",
+      "bestBid": "0.025",
+      "bestBidSize": "527665.2",
+      "price": "0.0256",
+      "sequence": "192",
+      "size": "593.4",
+      "time": 1732532406297,
+      "time_before_que.put": "11:00:06.471",
+      "seconds_from_release": 6.471982,
+      "time_after_queue.get": "11:00:06.472"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "17401.6",
+      "bestBid": "0.025",
+      "bestBidSize": "527665.2",
+      "price": "0.0256",
+      "sequence": "196",
+      "size": "593.4",
+      "time": 1732532406297,
+      "time_before_que.put": "11:00:07.125",
+      "seconds_from_release": 7.125249,
+      "time_after_queue.get": "11:00:07.125"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "17401.6",
+      "bestBid": "0.025",
+      "bestBidSize": "446735.6",
+      "price": "0.025",
+      "sequence": "201",
+      "size": "53264.4",
+      "time": 1732532407147,
+      "time_before_que.put": "11:00:07.233",
+      "seconds_from_release": 7.233271,
+      "time_after_queue.get": "11:00:07.233"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "16554.9",
+      "bestBid": "0.025",
+      "bestBidSize": "446735.6",
+      "price": "0.0256",
+      "sequence": "202",
+      "size": "846.7",
+      "time": 1732532407223,
+      "time_before_que.put": "11:00:07.352",
+      "seconds_from_release": 7.352242,
+      "time_after_queue.get": "11:00:07.352"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "16554.9",
+      "bestBid": "0.0252",
+      "bestBidSize": "11904.7",
+      "price": "0.0256",
+      "sequence": "203",
+      "size": "846.7",
+      "time": 1732532407223,
+      "time_before_que.put": "11:00:07.464",
+      "seconds_from_release": 7.464464,
+      "time_after_queue.get": "11:00:07.464"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "14422.8",
+      "bestBid": "0.0252",
+      "bestBidSize": "11904.7",
+      "price": "0.0256",
+      "sequence": "207",
+      "size": "2132.1",
+      "time": 1732532407651,
+      "time_before_que.put": "11:00:07.772",
+      "seconds_from_release": 7.772615,
+      "time_after_queue.get": "11:00:07.772"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "14422.8",
+      "bestBid": "0.0252",
+      "bestBidSize": "11904.7",
+      "price": "0.0256",
+      "sequence": "210",
+      "size": "2132.1",
+      "time": 1732532407651,
+      "time_before_que.put": "11:00:07.891",
+      "seconds_from_release": 7.891713,
+      "time_after_queue.get": "11:00:07.892"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "14422.8",
+      "bestBid": "0.0252",
+      "bestBidSize": "11904.7",
+      "price": "0.0256",
+      "sequence": "211",
+      "size": "2132.1",
+      "time": 1732532407651,
+      "time_before_que.put": "11:00:08.314",
+      "seconds_from_release": 8.314259,
+      "time_after_queue.get": "11:00:08.314"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "14422.8",
+      "bestBid": "0.0252",
+      "bestBidSize": "11904.7",
+      "price": "0.0256",
+      "sequence": "215",
+      "size": "2132.1",
+      "time": 1732532407651,
+      "time_before_que.put": "11:00:08.414",
+      "seconds_from_release": 8.414519,
+      "time_after_queue.get": "11:00:08.414"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "14422.8",
+      "bestBid": "0.0252",
+      "bestBidSize": "11904.7",
+      "price": "0.0256",
+      "sequence": "217",
+      "size": "2132.1",
+      "time": 1732532407651,
+      "time_before_que.put": "11:00:08.522",
+      "seconds_from_release": 8.522779,
+      "time_after_queue.get": "11:00:08.523"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "2740.6",
+      "bestBid": "0.0252",
+      "bestBidSize": "11904.7",
+      "price": "0.0256",
+      "sequence": "218",
+      "size": "11682.2",
+      "time": 1732532409195,
+      "time_before_que.put": "11:00:09.260",
+      "seconds_from_release": 9.260337,
+      "time_after_queue.get": "11:00:09.260"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "2740.6",
+      "bestBid": "0.0252",
+      "bestBidSize": "11904.7",
+      "price": "0.0256",
+      "sequence": "223",
+      "size": "11682.2",
+      "time": 1732532409195,
+      "time_before_que.put": "11:00:09.356",
+      "seconds_from_release": 9.356167,
+      "time_after_queue.get": "11:00:09.356"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "2740.6",
+      "bestBid": "0.0252",
+      "bestBidSize": "11904.7",
+      "price": "0.0256",
+      "sequence": "224",
+      "size": "11682.2",
+      "time": 1732532409195,
+      "time_before_que.put": "11:00:09.488",
+      "seconds_from_release": 9.488077,
+      "time_after_queue.get": "11:00:09.488"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "2740.6",
+      "bestBid": "0.0252",
+      "bestBidSize": "11472.2",
+      "price": "0.0252",
+      "sequence": "225",
+      "size": "432.5",
+      "time": 1732532409637,
+      "time_before_que.put": "11:00:09.697",
+      "seconds_from_release": 9.697144,
+      "time_after_queue.get": "11:00:09.697"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "2740.6",
+      "bestBid": "0.0252",
+      "bestBidSize": "11472.2",
+      "price": "0.0252",
+      "sequence": "226",
+      "size": "432.5",
+      "time": 1732532409637,
+      "time_before_que.put": "11:00:09.801",
+      "seconds_from_release": 9.801644,
+      "time_after_queue.get": "11:00:09.801"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "2740.6",
+      "bestBid": "0.0252",
+      "bestBidSize": "11472.2",
+      "price": "0.0252",
+      "sequence": "232",
+      "size": "432.5",
+      "time": 1732532409637,
+      "time_before_que.put": "11:00:09.905",
+      "seconds_from_release": 9.905889,
+      "time_after_queue.get": "11:00:09.906"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "2740.6",
+      "bestBid": "0.025",
+      "bestBidSize": "417066",
+      "price": "0.025",
+      "sequence": "235",
+      "size": "29758.8",
+      "time": 1732532410257,
+      "time_before_que.put": "11:00:10.320",
+      "seconds_from_release": 10.320081,
+      "time_after_queue.get": "11:00:10.320"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "2740.6",
+      "bestBid": "0.025",
+      "bestBidSize": "417066",
+      "price": "0.025",
+      "sequence": "241",
+      "size": "29758.8",
+      "time": 1732532410257,
+      "time_before_que.put": "11:00:10.548",
+      "seconds_from_release": 10.548193,
+      "time_after_queue.get": "11:00:10.548"
+    }
+  },
+  {
+    "id": "1732532410493",
+    "type": "pong",
+    "timestamp": 1732532410532386
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0256",
+      "bestAskSize": "2740.6",
+      "bestBid": "0.025",
+      "bestBidSize": "417066",
+      "price": "0.025",
+      "sequence": "242",
+      "size": "29758.8",
+      "time": 1732532410257,
+      "time_before_que.put": "11:00:10.853",
+      "seconds_from_release": 10.85389,
+      "time_after_queue.get": "11:00:10.854"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.025",
+      "bestAskSize": "622833.8",
+      "bestBid": "0.0235",
+      "bestBidSize": "3000",
+      "price": "0.025",
+      "sequence": "251",
+      "size": "89.2",
+      "time": 1732532410927,
+      "time_before_que.put": "11:00:11.054",
+      "seconds_from_release": 11.054963,
+      "time_after_queue.get": "11:00:11.055"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.025",
+      "bestAskSize": "622833.8",
+      "bestBid": "0.0235",
+      "bestBidSize": "3000",
+      "price": "0.025",
+      "sequence": "253",
+      "size": "89.2",
+      "time": 1732532410927,
+      "time_before_que.put": "11:00:11.166",
+      "seconds_from_release": 11.166047,
+      "time_after_queue.get": "11:00:11.166"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.025",
+      "bestAskSize": "622833.8",
+      "bestBid": "0.0235",
+      "bestBidSize": "3000",
+      "price": "0.025",
+      "sequence": "254",
+      "size": "89.2",
+      "time": 1732532410927,
+      "time_before_que.put": "11:00:11.589",
+      "seconds_from_release": 11.589962,
+      "time_after_queue.get": "11:00:11.590"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.025",
+      "bestAskSize": "622833.8",
+      "bestBid": "0.0235",
+      "bestBidSize": "3000",
+      "price": "0.025",
+      "sequence": "260",
+      "size": "89.2",
+      "time": 1732532410927,
+      "time_before_que.put": "11:00:11.701",
+      "seconds_from_release": 11.701554,
+      "time_after_queue.get": "11:00:11.702"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.025",
+      "bestAskSize": "622833.8",
+      "bestBid": "0.02351",
+      "bestBidSize": "256.8",
+      "price": "0.025",
+      "sequence": "263",
+      "size": "89.2",
+      "time": 1732532410927,
+      "time_before_que.put": "11:00:11.803",
+      "seconds_from_release": 11.803287,
+      "time_after_queue.get": "11:00:11.803"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02496",
+      "bestAskSize": "159152.5",
+      "bestBid": "0.02351",
+      "bestBidSize": "256.8",
+      "price": "0.025",
+      "sequence": "265",
+      "size": "89.2",
+      "time": 1732532410927,
+      "time_before_que.put": "11:00:14.389",
+      "seconds_from_release": 14.389844,
+      "time_after_queue.get": "11:00:14.390"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02496",
+      "bestAskSize": "159152.5",
+      "bestBid": "0.02351",
+      "bestBidSize": "256.8",
+      "price": "0.025",
+      "sequence": "271",
+      "size": "89.2",
+      "time": 1732532410927,
+      "time_before_que.put": "11:00:14.489",
+      "seconds_from_release": 14.489523,
+      "time_after_queue.get": "11:00:14.489"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02496",
+      "bestAskSize": "156748.3",
+      "bestBid": "0.02351",
+      "bestBidSize": "256.8",
+      "price": "0.02496",
+      "sequence": "272",
+      "size": "2404.2",
+      "time": 1732532415568,
+      "time_before_que.put": "11:00:15.620",
+      "seconds_from_release": 15.62073,
+      "time_after_queue.get": "11:00:15.621"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02496",
+      "bestAskSize": "156748.3",
+      "bestBid": "0.02351",
+      "bestBidSize": "256.8",
+      "price": "0.02496",
+      "sequence": "274",
+      "size": "2404.2",
+      "time": 1732532415568,
+      "time_before_que.put": "11:00:15.724",
+      "seconds_from_release": 15.724929,
+      "time_after_queue.get": "11:00:15.725"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02496",
+      "bestAskSize": "156748.3",
+      "bestBid": "0.02351",
+      "bestBidSize": "256.8",
+      "price": "0.02496",
+      "sequence": "278",
+      "size": "2404.2",
+      "time": 1732532415568,
+      "time_before_que.put": "11:00:15.829",
+      "seconds_from_release": 15.829612,
+      "time_after_queue.get": "11:00:15.829"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02496",
+      "bestAskSize": "156748.3",
+      "bestBid": "0.02351",
+      "bestBidSize": "256.8",
+      "price": "0.02496",
+      "sequence": "282",
+      "size": "2404.2",
+      "time": 1732532415568,
+      "time_before_que.put": "11:00:16.675",
+      "seconds_from_release": 16.67503,
+      "time_after_queue.get": "11:00:16.675"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02496",
+      "bestAskSize": "156748.3",
+      "bestBid": "0.02351",
+      "bestBidSize": "256.8",
+      "price": "0.02496",
+      "sequence": "285",
+      "size": "2404.2",
+      "time": 1732532415568,
+      "time_before_que.put": "11:00:16.780",
+      "seconds_from_release": 16.78055,
+      "time_after_queue.get": "11:00:16.780"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02496",
+      "bestAskSize": "180335.2",
+      "bestBid": "0.02351",
+      "bestBidSize": "256.8",
+      "price": "0.02496",
+      "sequence": "286",
+      "size": "2404.2",
+      "time": 1732532415568,
+      "time_before_que.put": "11:00:17.410",
+      "seconds_from_release": 17.410698,
+      "time_after_queue.get": "11:00:17.410"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02496",
+      "bestAskSize": "180335.2",
+      "bestBid": "0.02351",
+      "bestBidSize": "256.8",
+      "price": "0.02496",
+      "sequence": "292",
+      "size": "2404.2",
+      "time": 1732532415568,
+      "time_before_que.put": "11:00:17.611",
+      "seconds_from_release": 17.611927,
+      "time_after_queue.get": "11:00:17.612"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02496",
+      "bestAskSize": "180335.2",
+      "bestBid": "0.02351",
+      "bestBidSize": "256.8",
+      "price": "0.02496",
+      "sequence": "293",
+      "size": "2404.2",
+      "time": 1732532415568,
+      "time_before_que.put": "11:00:17.924",
+      "seconds_from_release": 17.924613,
+      "time_after_queue.get": "11:00:17.925"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02496",
+      "bestAskSize": "180335.2",
+      "bestBid": "0.02351",
+      "bestBidSize": "256.8",
+      "price": "0.02496",
+      "sequence": "296",
+      "size": "2404.2",
+      "time": 1732532415568,
+      "time_before_que.put": "11:00:18.020",
+      "seconds_from_release": 18.020498,
+      "time_after_queue.get": "11:00:18.020"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02496",
+      "bestAskSize": "180335.2",
+      "bestBid": "0.02351",
+      "bestBidSize": "256.8",
+      "price": "0.02496",
+      "sequence": "300",
+      "size": "2404.2",
+      "time": 1732532415568,
+      "time_before_que.put": "11:00:18.127",
+      "seconds_from_release": 18.127942,
+      "time_after_queue.get": "11:00:18.128"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02496",
+      "bestAskSize": "180335.2",
+      "bestBid": "0.02351",
+      "bestBidSize": "256.8",
+      "price": "0.02496",
+      "sequence": "301",
+      "size": "2404.2",
+      "time": 1732532415568,
+      "time_before_que.put": "11:00:18.337",
+      "seconds_from_release": 18.33797,
+      "time_after_queue.get": "11:00:18.338"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02496",
+      "bestAskSize": "156748.3",
+      "bestBid": "0.02351",
+      "bestBidSize": "256.8",
+      "price": "0.02496",
+      "sequence": "303",
+      "size": "2404.2",
+      "time": 1732532415568,
+      "time_before_que.put": "11:00:18.446",
+      "seconds_from_release": 18.446113,
+      "time_after_queue.get": "11:00:18.446"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02496",
+      "bestAskSize": "155133.5",
+      "bestBid": "0.02351",
+      "bestBidSize": "256.8",
+      "price": "0.02496",
+      "sequence": "306",
+      "size": "2404.2",
+      "time": 1732532415568,
+      "time_before_que.put": "11:00:18.550",
+      "seconds_from_release": 18.550077,
+      "time_after_queue.get": "11:00:18.550"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02495",
+      "bestAskSize": "5928.9",
+      "bestBid": "0.02351",
+      "bestBidSize": "256.8",
+      "price": "0.02496",
+      "sequence": "310",
+      "size": "1614.8",
+      "time": 1732532418511,
+      "time_before_que.put": "11:00:18.653",
+      "seconds_from_release": 18.653132,
+      "time_after_queue.get": "11:00:18.653"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02495",
+      "bestAskSize": "5928.9",
+      "bestBid": "0.02351",
+      "bestBidSize": "256.8",
+      "price": "0.02496",
+      "sequence": "311",
+      "size": "1614.8",
+      "time": 1732532418511,
+      "time_before_que.put": "11:00:18.882",
+      "seconds_from_release": 18.882587,
+      "time_after_queue.get": "11:00:18.882"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02495",
+      "bestAskSize": "2335.2",
+      "bestBid": "0.02351",
+      "bestBidSize": "256.8",
+      "price": "0.02495",
+      "sequence": "314",
+      "size": "1617.4",
+      "time": 1732532419077,
+      "time_before_que.put": "11:00:19.214",
+      "seconds_from_release": 19.214582,
+      "time_after_queue.get": "11:00:19.214"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02494",
+      "bestAskSize": "2335.2",
+      "bestBid": "0.02351",
+      "bestBidSize": "256.8",
+      "price": "0.02495",
+      "sequence": "318",
+      "size": "1617.4",
+      "time": 1732532419077,
+      "time_before_que.put": "11:00:19.326",
+      "seconds_from_release": 19.326997,
+      "time_after_queue.get": "11:00:19.327"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "62500",
+      "bestBid": "0.02351",
+      "bestBidSize": "256.8",
+      "price": "0.02495",
+      "sequence": "319",
+      "size": "1617.4",
+      "time": 1732532419077,
+      "time_before_que.put": "11:00:19.636",
+      "seconds_from_release": 19.636114,
+      "time_after_queue.get": "11:00:19.636"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "62500",
+      "bestBid": "0.02351",
+      "bestBidSize": "256.8",
+      "price": "0.02495",
+      "sequence": "322",
+      "size": "1617.4",
+      "time": 1732532419077,
+      "time_before_que.put": "11:00:20.396",
+      "seconds_from_release": 20.396235,
+      "time_after_queue.get": "11:00:20.396"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "62500",
+      "bestBid": "0.02351",
+      "bestBidSize": "171.2",
+      "price": "0.02495",
+      "sequence": "326",
+      "size": "1617.4",
+      "time": 1732532419077,
+      "time_before_que.put": "11:00:20.500",
+      "seconds_from_release": 20.50001,
+      "time_after_queue.get": "11:00:20.500"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "62500",
+      "bestBid": "0.0235",
+      "bestBidSize": "3000",
+      "price": "0.02495",
+      "sequence": "332",
+      "size": "1617.4",
+      "time": 1732532419077,
+      "time_before_que.put": "11:00:20.609",
+      "seconds_from_release": 20.60922,
+      "time_after_queue.get": "11:00:20.609"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "62500",
+      "bestBid": "0.0235",
+      "bestBidSize": "3000",
+      "price": "0.02495",
+      "sequence": "333",
+      "size": "1617.4",
+      "time": 1732532419077,
+      "time_before_que.put": "11:00:20.711",
+      "seconds_from_release": 20.711222,
+      "time_after_queue.get": "11:00:20.711"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "62500",
+      "bestBid": "0.0235",
+      "bestBidSize": "3000",
+      "price": "0.02495",
+      "sequence": "334",
+      "size": "1617.4",
+      "time": 1732532419077,
+      "time_before_que.put": "11:00:20.815",
+      "seconds_from_release": 20.815042,
+      "time_after_queue.get": "11:00:20.815"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "62500",
+      "bestBid": "0.0235",
+      "bestBidSize": "3000",
+      "price": "0.02495",
+      "sequence": "336",
+      "size": "1617.4",
+      "time": 1732532419077,
+      "time_before_que.put": "11:00:20.934",
+      "seconds_from_release": 20.934006,
+      "time_after_queue.get": "11:00:20.934"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "62500",
+      "bestBid": "0.0235",
+      "bestBidSize": "3000",
+      "price": "0.02495",
+      "sequence": "341",
+      "size": "1617.4",
+      "time": 1732532419077,
+      "time_before_que.put": "11:00:21.038",
+      "seconds_from_release": 21.038877,
+      "time_after_queue.get": "11:00:21.039"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "62500",
+      "bestBid": "0.0235",
+      "bestBidSize": "3000",
+      "price": "0.02495",
+      "sequence": "347",
+      "size": "1617.4",
+      "time": 1732532419077,
+      "time_before_que.put": "11:00:21.138",
+      "seconds_from_release": 21.138723,
+      "time_after_queue.get": "11:00:21.139"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "62500",
+      "bestBid": "0.0235",
+      "bestBidSize": "3000",
+      "price": "0.02495",
+      "sequence": "348",
+      "size": "1617.4",
+      "time": 1732532419077,
+      "time_before_que.put": "11:00:21.459",
+      "seconds_from_release": 21.459136,
+      "time_after_queue.get": "11:00:21.459"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "62500",
+      "bestBid": "0.0235",
+      "bestBidSize": "3000",
+      "price": "0.02495",
+      "sequence": "353",
+      "size": "1617.4",
+      "time": 1732532419077,
+      "time_before_que.put": "11:00:21.557",
+      "seconds_from_release": 21.557848,
+      "time_after_queue.get": "11:00:21.558"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "62500",
+      "bestBid": "0.0235",
+      "bestBidSize": "3000",
+      "price": "0.02495",
+      "sequence": "359",
+      "size": "1617.4",
+      "time": 1732532419077,
+      "time_before_que.put": "11:00:21.661",
+      "seconds_from_release": 21.661353,
+      "time_after_queue.get": "11:00:21.661"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "62500",
+      "bestBid": "0.0235",
+      "bestBidSize": "3000",
+      "price": "0.02495",
+      "sequence": "360",
+      "size": "1617.4",
+      "time": 1732532419077,
+      "time_before_que.put": "11:00:21.759",
+      "seconds_from_release": 21.759514,
+      "time_after_queue.get": "11:00:21.759"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "62500",
+      "bestBid": "0.0235",
+      "bestBidSize": "3000",
+      "price": "0.02495",
+      "sequence": "361",
+      "size": "1617.4",
+      "time": 1732532419077,
+      "time_before_que.put": "11:00:21.975",
+      "seconds_from_release": 21.975559,
+      "time_after_queue.get": "11:00:21.975"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "62500",
+      "bestBid": "0.0235",
+      "bestBidSize": "3000",
+      "price": "0.02495",
+      "sequence": "368",
+      "size": "1617.4",
+      "time": 1732532419077,
+      "time_before_que.put": "11:00:22.083",
+      "seconds_from_release": 22.083746,
+      "time_after_queue.get": "11:00:22.083"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "61443.5",
+      "bestBid": "0.0235",
+      "bestBidSize": "3000",
+      "price": "0.024",
+      "sequence": "373",
+      "size": "1056.5",
+      "time": 1732532422086,
+      "time_before_que.put": "11:00:22.181",
+      "seconds_from_release": 22.18151,
+      "time_after_queue.get": "11:00:22.181"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02328",
+      "bestAskSize": "20586.9",
+      "bestBid": "0.02304",
+      "bestBidSize": "3980.7",
+      "price": "0.0235",
+      "sequence": "375",
+      "size": "3000",
+      "time": 1732532422858,
+      "time_before_que.put": "11:00:22.919",
+      "seconds_from_release": 22.919156,
+      "time_after_queue.get": "11:00:22.920"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02328",
+      "bestAskSize": "5184.4",
+      "bestBid": "0.02305",
+      "bestBidSize": "9557.7",
+      "price": "0.02328",
+      "sequence": "397",
+      "size": "1988.9",
+      "time": 1732532422965,
+      "time_before_que.put": "11:00:23.026",
+      "seconds_from_release": 23.026415,
+      "time_after_queue.get": "11:00:23.027"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "61443.5",
+      "bestBid": "0.02307",
+      "bestBidSize": "2687.1",
+      "price": "0.02328",
+      "sequence": "417",
+      "size": "602.4",
+      "time": 1732532423033,
+      "time_before_que.put": "11:00:23.135",
+      "seconds_from_release": 23.135909,
+      "time_after_queue.get": "11:00:23.136"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "61443.5",
+      "bestBid": "0.02319",
+      "bestBidSize": "1181.3",
+      "price": "0.02328",
+      "sequence": "421",
+      "size": "602.4",
+      "time": 1732532423033,
+      "time_before_que.put": "11:00:23.258",
+      "seconds_from_release": 23.258953,
+      "time_after_queue.get": "11:00:23.259"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "65648.7",
+      "bestBid": "0.02319",
+      "bestBidSize": "1181.3",
+      "price": "0.02328",
+      "sequence": "422",
+      "size": "602.4",
+      "time": 1732532423033,
+      "time_before_que.put": "11:00:23.365",
+      "seconds_from_release": 23.365457,
+      "time_after_queue.get": "11:00:23.365"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "65648.7",
+      "bestBid": "0.02319",
+      "bestBidSize": "1181.3",
+      "price": "0.02328",
+      "sequence": "423",
+      "size": "602.4",
+      "time": 1732532423033,
+      "time_before_que.put": "11:00:23.476",
+      "seconds_from_release": 23.476585,
+      "time_after_queue.get": "11:00:23.476"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "65648.7",
+      "bestBid": "0.02319",
+      "bestBidSize": "1181.3",
+      "price": "0.02328",
+      "sequence": "425",
+      "size": "602.4",
+      "time": 1732532423033,
+      "time_before_que.put": "11:00:23.580",
+      "seconds_from_release": 23.580376,
+      "time_after_queue.get": "11:00:23.580"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02399",
+      "bestAskSize": "2335.2",
+      "bestBid": "0.0232",
+      "bestBidSize": "3879.3",
+      "price": "0.02328",
+      "sequence": "432",
+      "size": "602.4",
+      "time": 1732532423033,
+      "time_before_que.put": "11:00:23.686",
+      "seconds_from_release": 23.686294,
+      "time_after_queue.get": "11:00:23.686"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02399",
+      "bestAskSize": "2335.2",
+      "bestBid": "0.0232",
+      "bestBidSize": "4022.1",
+      "price": "0.02328",
+      "sequence": "433",
+      "size": "602.4",
+      "time": 1732532423033,
+      "time_before_que.put": "11:00:23.791",
+      "seconds_from_release": 23.791695,
+      "time_after_queue.get": "11:00:23.792"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02399",
+      "bestAskSize": "2335.2",
+      "bestBid": "0.0232",
+      "bestBidSize": "4022.1",
+      "price": "0.02328",
+      "sequence": "434",
+      "size": "602.4",
+      "time": 1732532423033,
+      "time_before_que.put": "11:00:23.902",
+      "seconds_from_release": 23.902762,
+      "time_after_queue.get": "11:00:23.903"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02399",
+      "bestAskSize": "2335.2",
+      "bestBid": "0.02328",
+      "bestBidSize": "3191.3",
+      "price": "0.02328",
+      "sequence": "436",
+      "size": "602.4",
+      "time": 1732532423033,
+      "time_before_que.put": "11:00:24.003",
+      "seconds_from_release": 24.003999,
+      "time_after_queue.get": "11:00:24.004"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02399",
+      "bestAskSize": "2321.6",
+      "bestBid": "0.02328",
+      "bestBidSize": "3191.3",
+      "price": "0.02399",
+      "sequence": "438",
+      "size": "13.6",
+      "time": 1732532424019,
+      "time_before_que.put": "11:00:24.111",
+      "seconds_from_release": 24.111198,
+      "time_after_queue.get": "11:00:24.111"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02398",
+      "bestAskSize": "2321.6",
+      "bestBid": "0.02329",
+      "bestBidSize": "2115.5",
+      "price": "0.02399",
+      "sequence": "447",
+      "size": "13.6",
+      "time": 1732532424019,
+      "time_before_que.put": "11:00:24.215",
+      "seconds_from_release": 24.215048,
+      "time_after_queue.get": "11:00:24.215"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02398",
+      "bestAskSize": "2321.6",
+      "bestBid": "0.02329",
+      "bestBidSize": "4024.9",
+      "price": "0.02399",
+      "sequence": "449",
+      "size": "13.6",
+      "time": 1732532424019,
+      "time_before_que.put": "11:00:24.322",
+      "seconds_from_release": 24.32245,
+      "time_after_queue.get": "11:00:24.322"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02398",
+      "bestAskSize": "2321.6",
+      "bestBid": "0.02329",
+      "bestBidSize": "4024.9",
+      "price": "0.02399",
+      "sequence": "450",
+      "size": "13.6",
+      "time": 1732532424019,
+      "time_before_que.put": "11:00:24.426",
+      "seconds_from_release": 24.426381,
+      "time_after_queue.get": "11:00:24.426"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02398",
+      "bestAskSize": "2321.6",
+      "bestBid": "0.02329",
+      "bestBidSize": "4024.9",
+      "price": "0.02399",
+      "sequence": "451",
+      "size": "13.6",
+      "time": 1732532424019,
+      "time_before_que.put": "11:00:24.644",
+      "seconds_from_release": 24.64499,
+      "time_after_queue.get": "11:00:24.645"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02398",
+      "bestAskSize": "2321.6",
+      "bestBid": "0.02329",
+      "bestBidSize": "4024.9",
+      "price": "0.02399",
+      "sequence": "452",
+      "size": "13.6",
+      "time": 1732532424019,
+      "time_before_que.put": "11:00:24.747",
+      "seconds_from_release": 24.747138,
+      "time_after_queue.get": "11:00:24.747"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02397",
+      "bestAskSize": "2321.6",
+      "bestBid": "0.0233",
+      "bestBidSize": "2115.5",
+      "price": "0.02399",
+      "sequence": "460",
+      "size": "13.6",
+      "time": 1732532424019,
+      "time_before_que.put": "11:00:24.853",
+      "seconds_from_release": 24.853112,
+      "time_after_queue.get": "11:00:24.853"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02397",
+      "bestAskSize": "2321.6",
+      "bestBid": "0.0233",
+      "bestBidSize": "4024.9",
+      "price": "0.02399",
+      "sequence": "463",
+      "size": "13.6",
+      "time": 1732532424019,
+      "time_before_que.put": "11:00:24.954",
+      "seconds_from_release": 24.954831,
+      "time_after_queue.get": "11:00:24.954"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02397",
+      "bestAskSize": "2321.6",
+      "bestBid": "0.0233",
+      "bestBidSize": "4024.9",
+      "price": "0.02399",
+      "sequence": "464",
+      "size": "13.6",
+      "time": 1732532424019,
+      "time_before_que.put": "11:00:25.061",
+      "seconds_from_release": 25.061617,
+      "time_after_queue.get": "11:00:25.062"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02397",
+      "bestAskSize": "2321.6",
+      "bestBid": "0.0233",
+      "bestBidSize": "4024.9",
+      "price": "0.02399",
+      "sequence": "467",
+      "size": "13.6",
+      "time": 1732532424019,
+      "time_before_que.put": "11:00:25.157",
+      "seconds_from_release": 25.157298,
+      "time_after_queue.get": "11:00:25.157"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02397",
+      "bestAskSize": "1976.3",
+      "bestBid": "0.0233",
+      "bestBidSize": "1909.4",
+      "price": "0.02399",
+      "sequence": "470",
+      "size": "13.6",
+      "time": 1732532424019,
+      "time_before_que.put": "11:00:25.267",
+      "seconds_from_release": 25.26702,
+      "time_after_queue.get": "11:00:25.267"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02396",
+      "bestAskSize": "345.3",
+      "bestBid": "0.02331",
+      "bestBidSize": "3885.7",
+      "price": "0.02399",
+      "sequence": "475",
+      "size": "13.6",
+      "time": 1732532424019,
+      "time_before_que.put": "11:00:25.368",
+      "seconds_from_release": 25.368919,
+      "time_after_queue.get": "11:00:25.369"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02396",
+      "bestAskSize": "2321.6",
+      "bestBid": "0.02331",
+      "bestBidSize": "3885.7",
+      "price": "0.02399",
+      "sequence": "477",
+      "size": "13.6",
+      "time": 1732532424019,
+      "time_before_que.put": "11:00:25.473",
+      "seconds_from_release": 25.473518,
+      "time_after_queue.get": "11:00:25.473"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02396",
+      "bestAskSize": "1648",
+      "bestBid": "0.02331",
+      "bestBidSize": "4024.9",
+      "price": "0.02396",
+      "sequence": "480",
+      "size": "328.3",
+      "time": 1732532425482,
+      "time_before_que.put": "11:00:25.579",
+      "seconds_from_release": 25.579726,
+      "time_after_queue.get": "11:00:25.580"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "47313.7",
+      "bestBid": "0.02331",
+      "bestBidSize": "4024.9",
+      "price": "0.024",
+      "sequence": "482",
+      "size": "18335",
+      "time": 1732532425837,
+      "time_before_que.put": "11:00:25.897",
+      "seconds_from_release": 25.897786,
+      "time_after_queue.get": "11:00:25.897"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "47313.7",
+      "bestBid": "0.02332",
+      "bestBidSize": "6341.1",
+      "price": "0.024",
+      "sequence": "491",
+      "size": "18335",
+      "time": 1732532425837,
+      "time_before_que.put": "11:00:26.112",
+      "seconds_from_release": 26.112844,
+      "time_after_queue.get": "11:00:26.112"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "47313.7",
+      "bestBid": "0.02332",
+      "bestBidSize": "6341.1",
+      "price": "0.024",
+      "sequence": "492",
+      "size": "18335",
+      "time": 1732532425837,
+      "time_before_que.put": "11:00:26.217",
+      "seconds_from_release": 26.217052,
+      "time_after_queue.get": "11:00:26.217"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "47313.7",
+      "bestBid": "0.02332",
+      "bestBidSize": "6341.1",
+      "price": "0.024",
+      "sequence": "493",
+      "size": "18335",
+      "time": 1732532425837,
+      "time_before_que.put": "11:00:26.319",
+      "seconds_from_release": 26.319842,
+      "time_after_queue.get": "11:00:26.320"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "47313.7",
+      "bestBid": "0.02332",
+      "bestBidSize": "6341.1",
+      "price": "0.024",
+      "sequence": "495",
+      "size": "18335",
+      "time": 1732532425837,
+      "time_before_que.put": "11:00:26.432",
+      "seconds_from_release": 26.432114,
+      "time_after_queue.get": "11:00:26.432"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "47313.7",
+      "bestBid": "0.02328",
+      "bestBidSize": "3191.3",
+      "price": "0.024",
+      "sequence": "498",
+      "size": "18335",
+      "time": 1732532425837,
+      "time_before_que.put": "11:00:26.541",
+      "seconds_from_release": 26.541388,
+      "time_after_queue.get": "11:00:26.541"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "47313.7",
+      "bestBid": "0.02333",
+      "bestBidSize": "6339.9",
+      "price": "0.024",
+      "sequence": "501",
+      "size": "18335",
+      "time": 1732532425837,
+      "time_before_que.put": "11:00:26.652",
+      "seconds_from_release": 26.652611,
+      "time_after_queue.get": "11:00:26.652"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "47313.7",
+      "bestBid": "0.02328",
+      "bestBidSize": "3191.3",
+      "price": "0.024",
+      "sequence": "506",
+      "size": "18335",
+      "time": 1732532425837,
+      "time_before_que.put": "11:00:27.180",
+      "seconds_from_release": 27.180685,
+      "time_after_queue.get": "11:00:27.181"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "47313.7",
+      "bestBid": "0.02334",
+      "bestBidSize": "6338.4",
+      "price": "0.024",
+      "sequence": "509",
+      "size": "18335",
+      "time": 1732532425837,
+      "time_before_que.put": "11:00:27.307",
+      "seconds_from_release": 27.307011,
+      "time_after_queue.get": "11:00:27.307"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "47313.7",
+      "bestBid": "0.02334",
+      "bestBidSize": "6338.4",
+      "price": "0.024",
+      "sequence": "510",
+      "size": "18335",
+      "time": 1732532425837,
+      "time_before_que.put": "11:00:27.413",
+      "seconds_from_release": 27.413406,
+      "time_after_queue.get": "11:00:27.413"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "47313.7",
+      "bestBid": "0.02334",
+      "bestBidSize": "6338.4",
+      "price": "0.024",
+      "sequence": "512",
+      "size": "18335",
+      "time": 1732532425837,
+      "time_before_que.put": "11:00:27.516",
+      "seconds_from_release": 27.516373,
+      "time_after_queue.get": "11:00:27.516"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "47313.7",
+      "bestBid": "0.02334",
+      "bestBidSize": "6338.4",
+      "price": "0.024",
+      "sequence": "514",
+      "size": "18335",
+      "time": 1732532425837,
+      "time_before_que.put": "11:00:27.930",
+      "seconds_from_release": 27.930859,
+      "time_after_queue.get": "11:00:27.930"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "47313.7",
+      "bestBid": "0.02335",
+      "bestBidSize": "6337.2",
+      "price": "0.024",
+      "sequence": "520",
+      "size": "18335",
+      "time": 1732532425837,
+      "time_before_que.put": "11:00:28.042",
+      "seconds_from_release": 28.042068,
+      "time_after_queue.get": "11:00:28.042"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "47313.7",
+      "bestBid": "0.02335",
+      "bestBidSize": "6337.2",
+      "price": "0.024",
+      "sequence": "521",
+      "size": "18335",
+      "time": 1732532425837,
+      "time_before_que.put": "11:00:28.151",
+      "seconds_from_release": 28.151056,
+      "time_after_queue.get": "11:00:28.151"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "47313.7",
+      "bestBid": "0.02335",
+      "bestBidSize": "6337.2",
+      "price": "0.024",
+      "sequence": "522",
+      "size": "18335",
+      "time": 1732532425837,
+      "time_before_que.put": "11:00:28.460",
+      "seconds_from_release": 28.460162,
+      "time_after_queue.get": "11:00:28.460"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "47313.7",
+      "bestBid": "0.02336",
+      "bestBidSize": "6335.7",
+      "price": "0.024",
+      "sequence": "528",
+      "size": "18335",
+      "time": 1732532425837,
+      "time_before_que.put": "11:00:28.580",
+      "seconds_from_release": 28.580061,
+      "time_after_queue.get": "11:00:28.580"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "47313.7",
+      "bestBid": "0.02336",
+      "bestBidSize": "6335.7",
+      "price": "0.024",
+      "sequence": "529",
+      "size": "18335",
+      "time": 1732532425837,
+      "time_before_que.put": "11:00:28.702",
+      "seconds_from_release": 28.702622,
+      "time_after_queue.get": "11:00:28.702"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "47313.7",
+      "bestBid": "0.02336",
+      "bestBidSize": "6335.7",
+      "price": "0.024",
+      "sequence": "531",
+      "size": "18335",
+      "time": 1732532425837,
+      "time_before_que.put": "11:00:28.802",
+      "seconds_from_release": 28.802141,
+      "time_after_queue.get": "11:00:28.802"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "47313.7",
+      "bestBid": "0.02336",
+      "bestBidSize": "6335.7",
+      "price": "0.024",
+      "sequence": "532",
+      "size": "18335",
+      "time": 1732532425837,
+      "time_before_que.put": "11:00:29.955",
+      "seconds_from_release": 29.955177,
+      "time_after_queue.get": "11:00:29.955"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "47313.7",
+      "bestBid": "0.02337",
+      "bestBidSize": "6334.5",
+      "price": "0.024",
+      "sequence": "538",
+      "size": "18335",
+      "time": 1732532425837,
+      "time_before_que.put": "11:00:30.053",
+      "seconds_from_release": 30.053071,
+      "time_after_queue.get": "11:00:30.053"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "47313.7",
+      "bestBid": "0.02337",
+      "bestBidSize": "6334.5",
+      "price": "0.024",
+      "sequence": "540",
+      "size": "18335",
+      "time": 1732532425837,
+      "time_before_que.put": "11:00:30.162",
+      "seconds_from_release": 30.162962,
+      "time_after_queue.get": "11:00:30.163"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "47313.7",
+      "bestBid": "0.02337",
+      "bestBidSize": "6334.5",
+      "price": "0.024",
+      "sequence": "542",
+      "size": "18335",
+      "time": 1732532425837,
+      "time_before_que.put": "11:00:30.265",
+      "seconds_from_release": 30.265168,
+      "time_after_queue.get": "11:00:30.265"
+    }
+  },
+  {
+    "id": "1732532430494",
+    "type": "pong",
+    "timestamp": 1732532430533707
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.024",
+      "bestAskSize": "47313.7",
+      "bestBid": "0.02337",
+      "bestBidSize": "6334.5",
+      "price": "0.024",
+      "sequence": "543",
+      "size": "18335",
+      "time": 1732532425837,
+      "time_before_que.put": "11:00:30.797",
+      "seconds_from_release": 30.797662,
+      "time_after_queue.get": "11:00:30.797"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02398",
+      "bestAskSize": "21418",
+      "bestBid": "0.02338",
+      "bestBidSize": "6333",
+      "price": "0.024",
+      "sequence": "550",
+      "size": "18335",
+      "time": 1732532425837,
+      "time_before_que.put": "11:00:30.910",
+      "seconds_from_release": 30.910733,
+      "time_after_queue.get": "11:00:30.910"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02398",
+      "bestAskSize": "21385.1",
+      "bestBid": "0.02338",
+      "bestBidSize": "6333",
+      "price": "0.02398",
+      "sequence": "552",
+      "size": "32.9",
+      "time": 1732532430890,
+      "time_before_que.put": "11:00:31.026",
+      "seconds_from_release": 31.026983,
+      "time_after_queue.get": "11:00:31.027"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02398",
+      "bestAskSize": "21385.1",
+      "bestBid": "0.02338",
+      "bestBidSize": "6333",
+      "price": "0.02398",
+      "sequence": "555",
+      "size": "32.9",
+      "time": 1732532430890,
+      "time_before_que.put": "11:00:31.247",
+      "seconds_from_release": 31.247426,
+      "time_after_queue.get": "11:00:31.247"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02396",
+      "bestAskSize": "44155.6",
+      "bestBid": "0.02338",
+      "bestBidSize": "6333",
+      "price": "0.02398",
+      "sequence": "556",
+      "size": "32.9",
+      "time": 1732532430890,
+      "time_before_que.put": "11:00:31.350",
+      "seconds_from_release": 31.350334,
+      "time_after_queue.get": "11:00:31.351"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02396",
+      "bestAskSize": "44155.6",
+      "bestBid": "0.02339",
+      "bestBidSize": "6337.2",
+      "price": "0.02398",
+      "sequence": "562",
+      "size": "32.9",
+      "time": 1732532430890,
+      "time_before_que.put": "11:00:31.456",
+      "seconds_from_release": 31.456725,
+      "time_after_queue.get": "11:00:31.457"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02396",
+      "bestAskSize": "28952.8",
+      "bestBid": "0.02339",
+      "bestBidSize": "6337.2",
+      "price": "0.02396",
+      "sequence": "563",
+      "size": "15202.8",
+      "time": 1732532432455,
+      "time_before_que.put": "11:00:32.524",
+      "seconds_from_release": 32.524966,
+      "time_after_queue.get": "11:00:32.525"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02396",
+      "bestAskSize": "28952.8",
+      "bestBid": "0.0234",
+      "bestBidSize": "2111.9",
+      "price": "0.02396",
+      "sequence": "567",
+      "size": "15202.8",
+      "time": 1732532432455,
+      "time_before_que.put": "11:00:32.632",
+      "seconds_from_release": 32.632644,
+      "time_after_queue.get": "11:00:32.632"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02396",
+      "bestAskSize": "28952.8",
+      "bestBid": "0.0234",
+      "bestBidSize": "6335.7",
+      "price": "0.02396",
+      "sequence": "570",
+      "size": "15202.8",
+      "time": 1732532432455,
+      "time_before_que.put": "11:00:32.736",
+      "seconds_from_release": 32.736354,
+      "time_after_queue.get": "11:00:32.736"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02396",
+      "bestAskSize": "28952.8",
+      "bestBid": "0.0234",
+      "bestBidSize": "6335.7",
+      "price": "0.02396",
+      "sequence": "573",
+      "size": "15202.8",
+      "time": 1732532432455,
+      "time_before_que.put": "11:00:33.167",
+      "seconds_from_release": 33.167216,
+      "time_after_queue.get": "11:00:33.167"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02396",
+      "bestAskSize": "28952.8",
+      "bestBid": "0.02341",
+      "bestBidSize": "6334.5",
+      "price": "0.02396",
+      "sequence": "583",
+      "size": "15202.8",
+      "time": 1732532432455,
+      "time_before_que.put": "11:00:33.271",
+      "seconds_from_release": 33.271996,
+      "time_after_queue.get": "11:00:33.273"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02396",
+      "bestAskSize": "28952.8",
+      "bestBid": "0.02341",
+      "bestBidSize": "6334.5",
+      "price": "0.02396",
+      "sequence": "585",
+      "size": "15202.8",
+      "time": 1732532432455,
+      "time_before_que.put": "11:00:33.490",
+      "seconds_from_release": 33.490793,
+      "time_after_queue.get": "11:00:33.491"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02396",
+      "bestAskSize": "460.2",
+      "bestBid": "0.02341",
+      "bestBidSize": "6334.5",
+      "price": "0.02396",
+      "sequence": "586",
+      "size": "28492.6",
+      "time": 1732532434053,
+      "time_before_que.put": "11:00:34.142",
+      "seconds_from_release": 34.142983,
+      "time_after_queue.get": "11:00:34.143"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02396",
+      "bestAskSize": "460.2",
+      "bestBid": "0.02342",
+      "bestBidSize": "6333",
+      "price": "0.02396",
+      "sequence": "592",
+      "size": "28492.6",
+      "time": 1732532434053,
+      "time_before_que.put": "11:00:34.253",
+      "seconds_from_release": 34.253529,
+      "time_after_queue.get": "11:00:34.253"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02396",
+      "bestAskSize": "460.2",
+      "bestBid": "0.02342",
+      "bestBidSize": "6333",
+      "price": "0.02396",
+      "sequence": "593",
+      "size": "28492.6",
+      "time": 1732532434053,
+      "time_before_que.put": "11:00:34.568",
+      "seconds_from_release": 34.568192,
+      "time_after_queue.get": "11:00:34.568"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02396",
+      "bestAskSize": "460.2",
+      "bestBid": "0.02307",
+      "bestBidSize": "1848.8",
+      "price": "0.02396",
+      "sequence": "596",
+      "size": "28492.6",
+      "time": 1732532434053,
+      "time_before_que.put": "11:00:34.675",
+      "seconds_from_release": 34.675816,
+      "time_after_queue.get": "11:00:34.675"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02396",
+      "bestAskSize": "460.2",
+      "bestBid": "0.02343",
+      "bestBidSize": "5385.3",
+      "price": "0.02343",
+      "sequence": "602",
+      "size": "590",
+      "time": 1732532434690,
+      "time_before_que.put": "11:00:34.783",
+      "seconds_from_release": 34.783328,
+      "time_after_queue.get": "11:00:34.783"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02396",
+      "bestAskSize": "460.2",
+      "bestBid": "0.02343",
+      "bestBidSize": "5385.3",
+      "price": "0.02343",
+      "sequence": "605",
+      "size": "590",
+      "time": 1732532434690,
+      "time_before_que.put": "11:00:35.001",
+      "seconds_from_release": 35.001859,
+      "time_after_queue.get": "11:00:35.001"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02396",
+      "bestAskSize": "460.2",
+      "bestBid": "0.02343",
+      "bestBidSize": "5385.3",
+      "price": "0.02343",
+      "sequence": "607",
+      "size": "590",
+      "time": 1732532434690,
+      "time_before_que.put": "11:00:35.216",
+      "seconds_from_release": 35.216149,
+      "time_after_queue.get": "11:00:35.216"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02396",
+      "bestAskSize": "460.2",
+      "bestBid": "0.02344",
+      "bestBidSize": "5383.8",
+      "price": "0.02343",
+      "sequence": "613",
+      "size": "590",
+      "time": 1732532434690,
+      "time_before_que.put": "11:00:35.317",
+      "seconds_from_release": 35.31776,
+      "time_after_queue.get": "11:00:35.318"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02396",
+      "bestAskSize": "460.2",
+      "bestBid": "0.02344",
+      "bestBidSize": "5383.8",
+      "price": "0.02343",
+      "sequence": "615",
+      "size": "590",
+      "time": 1732532434690,
+      "time_before_que.put": "11:00:35.425",
+      "seconds_from_release": 35.425633,
+      "time_after_queue.get": "11:00:35.426"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02396",
+      "bestAskSize": "460.2",
+      "bestBid": "0.02344",
+      "bestBidSize": "4542.3",
+      "price": "0.02344",
+      "sequence": "617",
+      "size": "338",
+      "time": 1732532435531,
+      "time_before_que.put": "11:00:35.624",
+      "seconds_from_release": 35.624064,
+      "time_after_queue.get": "11:00:35.625"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02398",
+      "bestAskSize": "18756.2",
+      "bestBid": "0.02344",
+      "bestBidSize": "4542.3",
+      "price": "0.02398",
+      "sequence": "621",
+      "size": "2628.9",
+      "time": 1732532435606,
+      "time_before_que.put": "11:00:35.731",
+      "seconds_from_release": 35.731325,
+      "time_after_queue.get": "11:00:35.731"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02397",
+      "bestAskSize": "946.5",
+      "bestBid": "0.02345",
+      "bestBidSize": "2108.8",
+      "price": "0.02344",
+      "sequence": "628",
+      "size": "340.8",
+      "time": 1732532435774,
+      "time_before_que.put": "11:00:35.832",
+      "seconds_from_release": 35.832054,
+      "time_after_queue.get": "11:00:35.832"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02397",
+      "bestAskSize": "946.5",
+      "bestBid": "0.02345",
+      "bestBidSize": "3565",
+      "price": "0.02345",
+      "sequence": "631",
+      "size": "632.6",
+      "time": 1732532435843,
+      "time_before_que.put": "11:00:35.944",
+      "seconds_from_release": 35.944369,
+      "time_after_queue.get": "11:00:35.944"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02397",
+      "bestAskSize": "946.5",
+      "bestBid": "0.02345",
+      "bestBidSize": "3565",
+      "price": "0.02345",
+      "sequence": "632",
+      "size": "632.6",
+      "time": 1732532435843,
+      "time_before_que.put": "11:00:36.060",
+      "seconds_from_release": 36.060555,
+      "time_after_queue.get": "11:00:36.060"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02397",
+      "bestAskSize": "946.5",
+      "bestBid": "0.02345",
+      "bestBidSize": "3565",
+      "price": "0.02345",
+      "sequence": "633",
+      "size": "632.6",
+      "time": 1732532435843,
+      "time_before_que.put": "11:00:36.162",
+      "seconds_from_release": 36.162586,
+      "time_after_queue.get": "11:00:36.163"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02398",
+      "bestAskSize": "17761.3",
+      "bestBid": "0.02345",
+      "bestBidSize": "3565",
+      "price": "0.02398",
+      "sequence": "637",
+      "size": "994.9",
+      "time": 1732532436698,
+      "time_before_que.put": "11:00:36.800",
+      "seconds_from_release": 36.800229,
+      "time_after_queue.get": "11:00:36.800"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02397",
+      "bestAskSize": "1182.3",
+      "bestBid": "0.02346",
+      "bestBidSize": "1475.8",
+      "price": "0.02398",
+      "sequence": "642",
+      "size": "994.9",
+      "time": 1732532436698,
+      "time_before_que.put": "11:00:36.907",
+      "seconds_from_release": 36.907785,
+      "time_after_queue.get": "11:00:36.908"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02397",
+      "bestAskSize": "1182.3",
+      "bestBid": "0.02346",
+      "bestBidSize": "4510.3",
+      "price": "0.02398",
+      "sequence": "645",
+      "size": "994.9",
+      "time": 1732532436698,
+      "time_before_que.put": "11:00:37.009",
+      "seconds_from_release": 37.009747,
+      "time_after_queue.get": "11:00:37.010"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02397",
+      "bestAskSize": "1182.3",
+      "bestBid": "0.02346",
+      "bestBidSize": "4169.5",
+      "price": "0.02346",
+      "sequence": "646",
+      "size": "340.8",
+      "time": 1732532437593,
+      "time_before_que.put": "11:00:37.643",
+      "seconds_from_release": 37.643494,
+      "time_after_queue.get": "11:00:37.643"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02397",
+      "bestAskSize": "1182.3",
+      "bestBid": "0.02346",
+      "bestBidSize": "3145.5",
+      "price": "0.02346",
+      "sequence": "649",
+      "size": "240.5",
+      "time": 1732532437660,
+      "time_before_que.put": "11:00:37.749",
+      "seconds_from_release": 37.74971,
+      "time_after_queue.get": "11:00:37.749"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02396",
+      "bestAskSize": "1814.9",
+      "bestBid": "0.02308",
+      "bestBidSize": "3228.6",
+      "price": "0.02346",
+      "sequence": "659",
+      "size": "229.8",
+      "time": 1732532437766,
+      "time_before_que.put": "11:00:37.857",
+      "seconds_from_release": 37.857243,
+      "time_after_queue.get": "11:00:37.857"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02396",
+      "bestAskSize": "1814.9",
+      "bestBid": "0.02347",
+      "bestBidSize": "1211.9",
+      "price": "0.02347",
+      "sequence": "664",
+      "size": "325.9",
+      "time": 1732532437891,
+      "time_before_que.put": "11:00:37.959",
+      "seconds_from_release": 37.959601,
+      "time_after_queue.get": "11:00:37.960"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02396",
+      "bestAskSize": "1814.9",
+      "bestBid": "0.02347",
+      "bestBidSize": "1211.9",
+      "price": "0.02347",
+      "sequence": "665",
+      "size": "325.9",
+      "time": 1732532437891,
+      "time_before_que.put": "11:00:38.386",
+      "seconds_from_release": 38.386274,
+      "time_after_queue.get": "11:00:38.386"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02395",
+      "bestAskSize": "4787.4",
+      "bestBid": "0.02347",
+      "bestBidSize": "1211.9",
+      "price": "0.02347",
+      "sequence": "672",
+      "size": "325.9",
+      "time": 1732532437891,
+      "time_before_que.put": "11:00:38.591",
+      "seconds_from_release": 38.591885,
+      "time_after_queue.get": "11:00:38.592"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02395",
+      "bestAskSize": "2366.7",
+      "bestBid": "0.02309",
+      "bestBidSize": "1211.9",
+      "price": "0.02347",
+      "sequence": "676",
+      "size": "325.9",
+      "time": 1732532437891,
+      "time_before_que.put": "11:00:38.696",
+      "seconds_from_release": 38.696713,
+      "time_after_queue.get": "11:00:38.697"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02395",
+      "bestAskSize": "2366.7",
+      "bestBid": "0.02309",
+      "bestBidSize": "6613.5",
+      "price": "0.02395",
+      "sequence": "678",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:38.800",
+      "seconds_from_release": 38.800236,
+      "time_after_queue.get": "11:00:38.800"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02395",
+      "bestAskSize": "2366.7",
+      "bestBid": "0.02309",
+      "bestBidSize": "6613.5",
+      "price": "0.02395",
+      "sequence": "681",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:38.903",
+      "seconds_from_release": 38.903533,
+      "time_after_queue.get": "11:00:38.903"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02395",
+      "bestAskSize": "2366.7",
+      "bestBid": "0.02309",
+      "bestBidSize": "6613.5",
+      "price": "0.02395",
+      "sequence": "682",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:39.009",
+      "seconds_from_release": 39.009565,
+      "time_after_queue.get": "11:00:39.009"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02394",
+      "bestAskSize": "2692.6",
+      "bestBid": "0.0231",
+      "bestBidSize": "1867.6",
+      "price": "0.02395",
+      "sequence": "689",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:39.111",
+      "seconds_from_release": 39.11103,
+      "time_after_queue.get": "11:00:39.111"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02394",
+      "bestAskSize": "2692.6",
+      "bestBid": "0.0231",
+      "bestBidSize": "3685.1",
+      "price": "0.02395",
+      "sequence": "692",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:39.243",
+      "seconds_from_release": 39.243068,
+      "time_after_queue.get": "11:00:39.243"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02394",
+      "bestAskSize": "2692.6",
+      "bestBid": "0.02311",
+      "bestBidSize": "1808.5",
+      "price": "0.02395",
+      "sequence": "693",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:39.553",
+      "seconds_from_release": 39.553006,
+      "time_after_queue.get": "11:00:39.553"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02393",
+      "bestAskSize": "2692.6",
+      "bestBid": "0.02311",
+      "bestBidSize": "1808.5",
+      "price": "0.02395",
+      "sequence": "702",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:39.660",
+      "seconds_from_release": 39.660856,
+      "time_after_queue.get": "11:00:39.660"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02393",
+      "bestAskSize": "2692.6",
+      "bestBid": "0.02312",
+      "bestBidSize": "3683.6",
+      "price": "0.02395",
+      "sequence": "705",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:39.777",
+      "seconds_from_release": 39.777321,
+      "time_after_queue.get": "11:00:39.777"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02393",
+      "bestAskSize": "2692.6",
+      "bestBid": "0.02312",
+      "bestBidSize": "3683.6",
+      "price": "0.02395",
+      "sequence": "706",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:40.204",
+      "seconds_from_release": 40.204892,
+      "time_after_queue.get": "11:00:40.205"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02393",
+      "bestAskSize": "2692.6",
+      "bestBid": "0.02312",
+      "bestBidSize": "3683.6",
+      "price": "0.02395",
+      "sequence": "708",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:40.308",
+      "seconds_from_release": 40.308593,
+      "time_after_queue.get": "11:00:40.309"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02392",
+      "bestAskSize": "2692.6",
+      "bestBid": "0.02311",
+      "bestBidSize": "1808.5",
+      "price": "0.02395",
+      "sequence": "718",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:40.411",
+      "seconds_from_release": 40.411225,
+      "time_after_queue.get": "11:00:40.411"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02392",
+      "bestAskSize": "2692.6",
+      "bestBid": "0.02313",
+      "bestBidSize": "3683.6",
+      "price": "0.02395",
+      "sequence": "723",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:40.515",
+      "seconds_from_release": 40.515785,
+      "time_after_queue.get": "11:00:40.516"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02392",
+      "bestAskSize": "2692.6",
+      "bestBid": "0.02313",
+      "bestBidSize": "3683.6",
+      "price": "0.02395",
+      "sequence": "724",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:40.719",
+      "seconds_from_release": 40.71999,
+      "time_after_queue.get": "11:00:40.720"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02392",
+      "bestAskSize": "2692.6",
+      "bestBid": "0.02313",
+      "bestBidSize": "3683.6",
+      "price": "0.02395",
+      "sequence": "726",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:40.820",
+      "seconds_from_release": 40.820386,
+      "time_after_queue.get": "11:00:40.820"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02391",
+      "bestAskSize": "2692.6",
+      "bestBid": "0.02314",
+      "bestBidSize": "1867.1",
+      "price": "0.02395",
+      "sequence": "736",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:40.927",
+      "seconds_from_release": 40.927109,
+      "time_after_queue.get": "11:00:40.927"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02391",
+      "bestAskSize": "2692.6",
+      "bestBid": "0.02314",
+      "bestBidSize": "3683.6",
+      "price": "0.02395",
+      "sequence": "738",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:41.031",
+      "seconds_from_release": 41.031838,
+      "time_after_queue.get": "11:00:41.032"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02391",
+      "bestAskSize": "2692.6",
+      "bestBid": "0.02314",
+      "bestBidSize": "3683.6",
+      "price": "0.02395",
+      "sequence": "739",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:41.138",
+      "seconds_from_release": 41.138986,
+      "time_after_queue.get": "11:00:41.139"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02391",
+      "bestAskSize": "2692.6",
+      "bestBid": "0.02314",
+      "bestBidSize": "3683.6",
+      "price": "0.02395",
+      "sequence": "740",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:41.657",
+      "seconds_from_release": 41.657113,
+      "time_after_queue.get": "11:00:41.657"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02391",
+      "bestAskSize": "2692.6",
+      "bestBid": "0.02314",
+      "bestBidSize": "3683.6",
+      "price": "0.02395",
+      "sequence": "741",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:41.756",
+      "seconds_from_release": 41.756804,
+      "time_after_queue.get": "11:00:41.757"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0239",
+      "bestAskSize": "2692.6",
+      "bestBid": "0.02314",
+      "bestBidSize": "17",
+      "price": "0.02395",
+      "sequence": "750",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:41.865",
+      "seconds_from_release": 41.865941,
+      "time_after_queue.get": "11:00:41.866"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0239",
+      "bestAskSize": "2692.6",
+      "bestBid": "0.02315",
+      "bestBidSize": "3683.6",
+      "price": "0.02395",
+      "sequence": "754",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:41.970",
+      "seconds_from_release": 41.970024,
+      "time_after_queue.get": "11:00:41.970"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0239",
+      "bestAskSize": "2692.6",
+      "bestBid": "0.02315",
+      "bestBidSize": "3683.6",
+      "price": "0.02395",
+      "sequence": "755",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:42.186",
+      "seconds_from_release": 42.186199,
+      "time_after_queue.get": "11:00:42.186"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0239",
+      "bestAskSize": "2692.6",
+      "bestBid": "0.02315",
+      "bestBidSize": "3683.6",
+      "price": "0.02395",
+      "sequence": "756",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:42.286",
+      "seconds_from_release": 42.286993,
+      "time_after_queue.get": "11:00:42.287"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02389",
+      "bestAskSize": "2692.6",
+      "bestBid": "0.02311",
+      "bestBidSize": "1808.5",
+      "price": "0.02395",
+      "sequence": "765",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:42.390",
+      "seconds_from_release": 42.39076,
+      "time_after_queue.get": "11:00:42.390"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02389",
+      "bestAskSize": "2692.6",
+      "bestBid": "0.02316",
+      "bestBidSize": "3683.6",
+      "price": "0.02395",
+      "sequence": "768",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:42.493",
+      "seconds_from_release": 42.493466,
+      "time_after_queue.get": "11:00:42.493"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02389",
+      "bestAskSize": "2692.6",
+      "bestBid": "0.02316",
+      "bestBidSize": "3683.6",
+      "price": "0.02395",
+      "sequence": "769",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:42.721",
+      "seconds_from_release": 42.721583,
+      "time_after_queue.get": "11:00:42.721"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02388",
+      "bestAskSize": "2692.6",
+      "bestBid": "0.02311",
+      "bestBidSize": "1808.5",
+      "price": "0.02395",
+      "sequence": "778",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:42.941",
+      "seconds_from_release": 42.941253,
+      "time_after_queue.get": "11:00:42.941"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02388",
+      "bestAskSize": "2692.6",
+      "bestBid": "0.02317",
+      "bestBidSize": "3683.6",
+      "price": "0.02395",
+      "sequence": "781",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:43.048",
+      "seconds_from_release": 43.048067,
+      "time_after_queue.get": "11:00:43.048"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02388",
+      "bestAskSize": "2434.3",
+      "bestBid": "0.02317",
+      "bestBidSize": "3683.6",
+      "price": "0.02395",
+      "sequence": "783",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:43.354",
+      "seconds_from_release": 43.354557,
+      "time_after_queue.get": "11:00:43.354"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02387",
+      "bestAskSize": "2692.6",
+      "bestBid": "0.02311",
+      "bestBidSize": "1808.5",
+      "price": "0.02395",
+      "sequence": "792",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:43.460",
+      "seconds_from_release": 43.460281,
+      "time_after_queue.get": "11:00:43.460"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02387",
+      "bestAskSize": "2692.6",
+      "bestBid": "0.02318",
+      "bestBidSize": "3683.6",
+      "price": "0.02395",
+      "sequence": "795",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:43.565",
+      "seconds_from_release": 43.565358,
+      "time_after_queue.get": "11:00:43.566"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02387",
+      "bestAskSize": "2692.6",
+      "bestBid": "0.02318",
+      "bestBidSize": "3683.6",
+      "price": "0.02395",
+      "sequence": "798",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:43.663",
+      "seconds_from_release": 43.66372,
+      "time_after_queue.get": "11:00:43.663"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02387",
+      "bestAskSize": "2692.6",
+      "bestBid": "0.02318",
+      "bestBidSize": "3683.6",
+      "price": "0.02395",
+      "sequence": "799",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:43.771",
+      "seconds_from_release": 43.771216,
+      "time_after_queue.get": "11:00:43.771"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02387",
+      "bestAskSize": "2692.6",
+      "bestBid": "0.02318",
+      "bestBidSize": "3683.6",
+      "price": "0.02395",
+      "sequence": "802",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:44.079",
+      "seconds_from_release": 44.07956,
+      "time_after_queue.get": "11:00:44.079"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02387",
+      "bestAskSize": "325.9",
+      "bestBid": "0.02318",
+      "bestBidSize": "3683.6",
+      "price": "0.02395",
+      "sequence": "804",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:44.180",
+      "seconds_from_release": 44.18063,
+      "time_after_queue.get": "11:00:44.180"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02386",
+      "bestAskSize": "2692.6",
+      "bestBid": "0.02311",
+      "bestBidSize": "1808.5",
+      "price": "0.02395",
+      "sequence": "811",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:44.288",
+      "seconds_from_release": 44.288555,
+      "time_after_queue.get": "11:00:44.288"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02386",
+      "bestAskSize": "2692.6",
+      "bestBid": "0.02319",
+      "bestBidSize": "3683.6",
+      "price": "0.02395",
+      "sequence": "814",
+      "size": "1850.1",
+      "time": 1732532438652,
+      "time_before_que.put": "11:00:44.390",
+      "seconds_from_release": 44.39043,
+      "time_after_queue.get": "11:00:44.390"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02386",
+      "bestAskSize": "1401",
+      "bestBid": "0.02319",
+      "bestBidSize": "3683.6",
+      "price": "0.02386",
+      "sequence": "816",
+      "size": "1033.3",
+      "time": 1732532444471,
+      "time_before_que.put": "11:00:44.592",
+      "seconds_from_release": 44.592631,
+      "time_after_queue.get": "11:00:44.593"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02386",
+      "bestAskSize": "1401",
+      "bestBid": "0.02319",
+      "bestBidSize": "1816.5",
+      "price": "0.02386",
+      "sequence": "820",
+      "size": "1033.3",
+      "time": 1732532444471,
+      "time_before_que.put": "11:00:44.690",
+      "seconds_from_release": 44.690609,
+      "time_after_queue.get": "11:00:44.691"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02385",
+      "bestAskSize": "1401",
+      "bestBid": "0.0232",
+      "bestBidSize": "2125.4",
+      "price": "0.02386",
+      "sequence": "827",
+      "size": "1033.3",
+      "time": 1732532444471,
+      "time_before_que.put": "11:00:44.794",
+      "seconds_from_release": 44.794976,
+      "time_after_queue.get": "11:00:44.795"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02385",
+      "bestAskSize": "1401",
+      "bestBid": "0.0232",
+      "bestBidSize": "4975.2",
+      "price": "0.02386",
+      "sequence": "829",
+      "size": "1033.3",
+      "time": 1732532444471,
+      "time_before_que.put": "11:00:44.897",
+      "seconds_from_release": 44.897993,
+      "time_after_queue.get": "11:00:44.898"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02385",
+      "bestAskSize": "1401",
+      "bestBid": "0.0232",
+      "bestBidSize": "4975.2",
+      "price": "0.02386",
+      "sequence": "834",
+      "size": "1033.3",
+      "time": 1732532444471,
+      "time_before_que.put": "11:00:45.000",
+      "seconds_from_release": 45.000534,
+      "time_after_queue.get": "11:00:45.000"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02385",
+      "bestAskSize": "1401",
+      "bestBid": "0.0232",
+      "bestBidSize": "4975.2",
+      "price": "0.02386",
+      "sequence": "835",
+      "size": "1033.3",
+      "time": 1732532444471,
+      "time_before_que.put": "11:00:45.409",
+      "seconds_from_release": 45.40964,
+      "time_after_queue.get": "11:00:45.409"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02398",
+      "bestAskSize": "415837",
+      "bestBid": "0.0232",
+      "bestBidSize": "2849.8",
+      "price": "0.02386",
+      "sequence": "838",
+      "size": "1033.3",
+      "time": 1732532444471,
+      "time_before_que.put": "11:00:45.512",
+      "seconds_from_release": 45.512546,
+      "time_after_queue.get": "11:00:45.513"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02384",
+      "bestAskSize": "1401",
+      "bestBid": "0.02321",
+      "bestBidSize": "2125.4",
+      "price": "0.02386",
+      "sequence": "845",
+      "size": "1033.3",
+      "time": 1732532444471,
+      "time_before_que.put": "11:00:45.620",
+      "seconds_from_release": 45.620404,
+      "time_after_queue.get": "11:00:45.620"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02384",
+      "bestAskSize": "1401",
+      "bestBid": "0.02321",
+      "bestBidSize": "4975.2",
+      "price": "0.02386",
+      "sequence": "849",
+      "size": "1033.3",
+      "time": 1732532444471,
+      "time_before_que.put": "11:00:45.723",
+      "seconds_from_release": 45.723908,
+      "time_after_queue.get": "11:00:45.724"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02384",
+      "bestAskSize": "1401",
+      "bestBid": "0.02321",
+      "bestBidSize": "4975.2",
+      "price": "0.02386",
+      "sequence": "850",
+      "size": "1033.3",
+      "time": 1732532444471,
+      "time_before_que.put": "11:00:45.838",
+      "seconds_from_release": 45.838992,
+      "time_after_queue.get": "11:00:45.839"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02384",
+      "bestAskSize": "1401",
+      "bestBid": "0.02321",
+      "bestBidSize": "4975.2",
+      "price": "0.02386",
+      "sequence": "851",
+      "size": "1033.3",
+      "time": 1732532444471,
+      "time_before_que.put": "11:00:46.496",
+      "seconds_from_release": 46.496621,
+      "time_after_queue.get": "11:00:46.496"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02383",
+      "bestAskSize": "1401",
+      "bestBid": "0.02322",
+      "bestBidSize": "2125.4",
+      "price": "0.02386",
+      "sequence": "860",
+      "size": "1033.3",
+      "time": 1732532444471,
+      "time_before_que.put": "11:00:46.599",
+      "seconds_from_release": 46.599819,
+      "time_after_queue.get": "11:00:46.599"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02383",
+      "bestAskSize": "1401",
+      "bestBid": "0.02322",
+      "bestBidSize": "4975.2",
+      "price": "0.02386",
+      "sequence": "864",
+      "size": "1033.3",
+      "time": 1732532444471,
+      "time_before_que.put": "11:00:46.707",
+      "seconds_from_release": 46.707463,
+      "time_after_queue.get": "11:00:46.707"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0235",
+      "bestAskSize": "43108.5",
+      "bestBid": "0.02322",
+      "bestBidSize": "4975.2",
+      "price": "0.02386",
+      "sequence": "865",
+      "size": "1033.3",
+      "time": 1732532444471,
+      "time_before_que.put": "11:00:46.808",
+      "seconds_from_release": 46.808099,
+      "time_after_queue.get": "11:00:46.808"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0235",
+      "bestAskSize": "43108.5",
+      "bestBid": "0.02322",
+      "bestBidSize": "4975.2",
+      "price": "0.02386",
+      "sequence": "866",
+      "size": "1033.3",
+      "time": 1732532444471,
+      "time_before_que.put": "11:00:46.909",
+      "seconds_from_release": 46.909191,
+      "time_after_queue.get": "11:00:46.909"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0235",
+      "bestAskSize": "43108.5",
+      "bestBid": "0.02322",
+      "bestBidSize": "4975.2",
+      "price": "0.02386",
+      "sequence": "867",
+      "size": "1033.3",
+      "time": 1732532444471,
+      "time_before_que.put": "11:00:47.011",
+      "seconds_from_release": 47.011692,
+      "time_after_queue.get": "11:00:47.012"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0235",
+      "bestAskSize": "43108.5",
+      "bestBid": "0.02322",
+      "bestBidSize": "2849.8",
+      "price": "0.02386",
+      "sequence": "873",
+      "size": "1033.3",
+      "time": 1732532444471,
+      "time_before_que.put": "11:00:47.117",
+      "seconds_from_release": 47.117154,
+      "time_after_queue.get": "11:00:47.117"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0235",
+      "bestAskSize": "43108.5",
+      "bestBid": "0.02322",
+      "bestBidSize": "1799.5",
+      "price": "0.02386",
+      "sequence": "877",
+      "size": "1033.3",
+      "time": 1732532444471,
+      "time_before_que.put": "11:00:47.221",
+      "seconds_from_release": 47.221186,
+      "time_after_queue.get": "11:00:47.221"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0235",
+      "bestAskSize": "43108.5",
+      "bestBid": "0.02311",
+      "bestBidSize": "1808.5",
+      "price": "0.02386",
+      "sequence": "879",
+      "size": "1033.3",
+      "time": 1732532444471,
+      "time_before_que.put": "11:00:47.322",
+      "seconds_from_release": 47.322362,
+      "time_after_queue.get": "11:00:47.322"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0235",
+      "bestAskSize": "43108.5",
+      "bestBid": "0.02311",
+      "bestBidSize": "1808.5",
+      "price": "0.02386",
+      "sequence": "881",
+      "size": "1033.3",
+      "time": 1732532444471,
+      "time_before_que.put": "11:00:47.632",
+      "seconds_from_release": 47.63239,
+      "time_after_queue.get": "11:00:47.632"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0235",
+      "bestAskSize": "43108.5",
+      "bestBid": "0.02311",
+      "bestBidSize": "1808.5",
+      "price": "0.02386",
+      "sequence": "894",
+      "size": "1033.3",
+      "time": 1732532444471,
+      "time_before_que.put": "11:00:47.736",
+      "seconds_from_release": 47.736497,
+      "time_after_queue.get": "11:00:47.736"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0235",
+      "bestAskSize": "43108.5",
+      "bestBid": "0.02311",
+      "bestBidSize": "1808.5",
+      "price": "0.02386",
+      "sequence": "897",
+      "size": "1033.3",
+      "time": 1732532444471,
+      "time_before_que.put": "11:00:47.841",
+      "seconds_from_release": 47.841522,
+      "time_after_queue.get": "11:00:47.841"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0235",
+      "bestAskSize": "43108.5",
+      "bestBid": "0.02311",
+      "bestBidSize": "1808.5",
+      "price": "0.02386",
+      "sequence": "898",
+      "size": "1033.3",
+      "time": 1732532444471,
+      "time_before_que.put": "11:00:48.055",
+      "seconds_from_release": 48.055728,
+      "time_after_queue.get": "11:00:48.055"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0235",
+      "bestAskSize": "43108.5",
+      "bestBid": "0.02347",
+      "bestBidSize": "42163",
+      "price": "0.02386",
+      "sequence": "899",
+      "size": "1033.3",
+      "time": 1732532444471,
+      "time_before_que.put": "11:00:48.266",
+      "seconds_from_release": 48.266793,
+      "time_after_queue.get": "11:00:48.267"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0235",
+      "bestAskSize": "43108.5",
+      "bestBid": "0.02347",
+      "bestBidSize": "42163",
+      "price": "0.02386",
+      "sequence": "903",
+      "size": "1033.3",
+      "time": 1732532444471,
+      "time_before_que.put": "11:00:48.368",
+      "seconds_from_release": 48.368765,
+      "time_after_queue.get": "11:00:48.368"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0235",
+      "bestAskSize": "43108.5",
+      "bestBid": "0.02347",
+      "bestBidSize": "39899.6",
+      "price": "0.02347",
+      "sequence": "909",
+      "size": "1131.7",
+      "time": 1732532448358,
+      "time_before_que.put": "11:00:48.476",
+      "seconds_from_release": 48.476118,
+      "time_after_queue.get": "11:00:48.476"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0235",
+      "bestAskSize": "43108.5",
+      "bestBid": "0.02347",
+      "bestBidSize": "39899.6",
+      "price": "0.02347",
+      "sequence": "913",
+      "size": "1131.7",
+      "time": 1732532448358,
+      "time_before_que.put": "11:00:48.794",
+      "seconds_from_release": 48.794189,
+      "time_after_queue.get": "11:00:48.794"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0235",
+      "bestAskSize": "43108.5",
+      "bestBid": "0.02347",
+      "bestBidSize": "39899.6",
+      "price": "0.02347",
+      "sequence": "918",
+      "size": "1131.7",
+      "time": 1732532448358,
+      "time_before_que.put": "11:00:48.896",
+      "seconds_from_release": 48.896573,
+      "time_after_queue.get": "11:00:48.896"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0235",
+      "bestAskSize": "43108.5",
+      "bestBid": "0.02347",
+      "bestBidSize": "39899.6",
+      "price": "0.02347",
+      "sequence": "920",
+      "size": "1131.7",
+      "time": 1732532448358,
+      "time_before_que.put": "11:00:49.010",
+      "seconds_from_release": 49.01056,
+      "time_after_queue.get": "11:00:49.010"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0235",
+      "bestAskSize": "43108.5",
+      "bestBid": "0.02347",
+      "bestBidSize": "39899.6",
+      "price": "0.02347",
+      "sequence": "921",
+      "size": "1131.7",
+      "time": 1732532448358,
+      "time_before_que.put": "11:00:49.113",
+      "seconds_from_release": 49.113033,
+      "time_after_queue.get": "11:00:49.113"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0235",
+      "bestAskSize": "43108.5",
+      "bestBid": "0.02347",
+      "bestBidSize": "39899.6",
+      "price": "0.02347",
+      "sequence": "922",
+      "size": "1131.7",
+      "time": 1732532448358,
+      "time_before_que.put": "11:00:49.329",
+      "seconds_from_release": 49.329113,
+      "time_after_queue.get": "11:00:49.329"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0235",
+      "bestAskSize": "43108.5",
+      "bestBid": "0.02347",
+      "bestBidSize": "39899.6",
+      "price": "0.02347",
+      "sequence": "925",
+      "size": "1131.7",
+      "time": 1732532448358,
+      "time_before_que.put": "11:00:49.427",
+      "seconds_from_release": 49.427023,
+      "time_after_queue.get": "11:00:49.427"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0235",
+      "bestAskSize": "43108.5",
+      "bestBid": "0.02347",
+      "bestBidSize": "39899.6",
+      "price": "0.02347",
+      "sequence": "931",
+      "size": "1131.7",
+      "time": 1732532448358,
+      "time_before_que.put": "11:00:49.543",
+      "seconds_from_release": 49.543769,
+      "time_after_queue.get": "11:00:49.543"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0235",
+      "bestAskSize": "43108.5",
+      "bestBid": "0.02347",
+      "bestBidSize": "39899.6",
+      "price": "0.02347",
+      "sequence": "934",
+      "size": "1131.7",
+      "time": 1732532448358,
+      "time_before_que.put": "11:00:49.653",
+      "seconds_from_release": 49.653478,
+      "time_after_queue.get": "11:00:49.653"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0235",
+      "bestAskSize": "43108.5",
+      "bestBid": "0.02347",
+      "bestBidSize": "39899.6",
+      "price": "0.02347",
+      "sequence": "935",
+      "size": "1131.7",
+      "time": 1732532448358,
+      "time_before_que.put": "11:00:49.961",
+      "seconds_from_release": 49.961809,
+      "time_after_queue.get": "11:00:49.962"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0235",
+      "bestAskSize": "43108.5",
+      "bestBid": "0.02347",
+      "bestBidSize": "39899.6",
+      "price": "0.02347",
+      "sequence": "942",
+      "size": "1131.7",
+      "time": 1732532448358,
+      "time_before_que.put": "11:00:50.072",
+      "seconds_from_release": 50.072914,
+      "time_after_queue.get": "11:00:50.073"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0235",
+      "bestAskSize": "43108.5",
+      "bestBid": "0.02347",
+      "bestBidSize": "39899.6",
+      "price": "0.02347",
+      "sequence": "945",
+      "size": "1131.7",
+      "time": 1732532448358,
+      "time_before_que.put": "11:00:50.180",
+      "seconds_from_release": 50.180858,
+      "time_after_queue.get": "11:00:50.181"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0235",
+      "bestAskSize": "43108.5",
+      "bestBid": "0.02347",
+      "bestBidSize": "39899.6",
+      "price": "0.02347",
+      "sequence": "946",
+      "size": "1131.7",
+      "time": 1732532448358,
+      "time_before_que.put": "11:00:50.289",
+      "seconds_from_release": 50.289518,
+      "time_after_queue.get": "11:00:50.289"
+    }
+  },
+  {
+    "id": "1732532450495",
+    "type": "pong",
+    "timestamp": 1732532450534093
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0235",
+      "bestAskSize": "43108.5",
+      "bestBid": "0.02347",
+      "bestBidSize": "39899.6",
+      "price": "0.02347",
+      "sequence": "947",
+      "size": "1131.7",
+      "time": 1732532448358,
+      "time_before_que.put": "11:00:50.856",
+      "seconds_from_release": 50.856407,
+      "time_after_queue.get": "11:00:50.856"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0235",
+      "bestAskSize": "43108.5",
+      "bestBid": "0.02347",
+      "bestBidSize": "39899.6",
+      "price": "0.02347",
+      "sequence": "954",
+      "size": "1131.7",
+      "time": 1732532448358,
+      "time_before_que.put": "11:00:50.964",
+      "seconds_from_release": 50.964762,
+      "time_after_queue.get": "11:00:50.965"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0235",
+      "bestAskSize": "43108.5",
+      "bestBid": "0.02347",
+      "bestBidSize": "39899.6",
+      "price": "0.02347",
+      "sequence": "959",
+      "size": "1131.7",
+      "time": 1732532448358,
+      "time_before_que.put": "11:00:51.069",
+      "seconds_from_release": 51.069421,
+      "time_after_queue.get": "11:00:51.069"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0235",
+      "bestAskSize": "42083.1",
+      "bestBid": "0.02347",
+      "bestBidSize": "39899.6",
+      "price": "0.0235",
+      "sequence": "960",
+      "size": "1025.4",
+      "time": 1732532451311,
+      "time_before_que.put": "11:00:51.385",
+      "seconds_from_release": 51.385459,
+      "time_after_queue.get": "11:00:51.385"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "325.9",
+      "bestBid": "0.02347",
+      "bestBidSize": "39899.6",
+      "price": "0.0235",
+      "sequence": "965",
+      "size": "1025.4",
+      "time": 1732532451311,
+      "time_before_que.put": "11:00:51.482",
+      "seconds_from_release": 51.482903,
+      "time_after_queue.get": "11:00:51.483"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "39899.6",
+      "price": "0.0235",
+      "sequence": "970",
+      "size": "1025.4",
+      "time": 1732532451311,
+      "time_before_que.put": "11:00:51.591",
+      "seconds_from_release": 51.591168,
+      "time_after_queue.get": "11:00:51.591"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "39899.6",
+      "price": "0.0235",
+      "sequence": "976",
+      "size": "1025.4",
+      "time": 1732532451311,
+      "time_before_que.put": "11:00:52.157",
+      "seconds_from_release": 52.157261,
+      "time_after_queue.get": "11:00:52.157"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "39695.2",
+      "price": "0.02347",
+      "sequence": "980",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:52.258",
+      "seconds_from_release": 52.258912,
+      "time_after_queue.get": "11:00:52.259"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "39695.2",
+      "price": "0.02347",
+      "sequence": "984",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:52.362",
+      "seconds_from_release": 52.362416,
+      "time_after_queue.get": "11:00:52.362"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "39695.2",
+      "price": "0.02347",
+      "sequence": "986",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:52.465",
+      "seconds_from_release": 52.465536,
+      "time_after_queue.get": "11:00:52.465"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "39695.2",
+      "price": "0.02347",
+      "sequence": "987",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:52.577",
+      "seconds_from_release": 52.577211,
+      "time_after_queue.get": "11:00:52.577"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "39695.2",
+      "price": "0.02347",
+      "sequence": "989",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:52.675",
+      "seconds_from_release": 52.675728,
+      "time_after_queue.get": "11:00:52.675"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "39695.2",
+      "price": "0.02347",
+      "sequence": "993",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:52.780",
+      "seconds_from_release": 52.780267,
+      "time_after_queue.get": "11:00:52.780"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "39695.2",
+      "price": "0.02347",
+      "sequence": "995",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:52.881",
+      "seconds_from_release": 52.881499,
+      "time_after_queue.get": "11:00:52.881"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "39695.2",
+      "price": "0.02347",
+      "sequence": "996",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:52.989",
+      "seconds_from_release": 52.989419,
+      "time_after_queue.get": "11:00:52.989"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "39695.2",
+      "price": "0.02347",
+      "sequence": "998",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:53.094",
+      "seconds_from_release": 53.09426,
+      "time_after_queue.get": "11:00:53.094"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "39695.2",
+      "price": "0.02347",
+      "sequence": "1000",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:53.194",
+      "seconds_from_release": 53.194334,
+      "time_after_queue.get": "11:00:53.194"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "39695.2",
+      "price": "0.02347",
+      "sequence": "1005",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:53.304",
+      "seconds_from_release": 53.304821,
+      "time_after_queue.get": "11:00:53.305"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "39695.2",
+      "price": "0.02347",
+      "sequence": "1007",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:53.405",
+      "seconds_from_release": 53.405303,
+      "time_after_queue.get": "11:00:53.405"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "39695.2",
+      "price": "0.02347",
+      "sequence": "1009",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:53.515",
+      "seconds_from_release": 53.515243,
+      "time_after_queue.get": "11:00:53.516"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "39695.2",
+      "price": "0.02347",
+      "sequence": "1010",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:53.614",
+      "seconds_from_release": 53.61468,
+      "time_after_queue.get": "11:00:53.614"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "39695.2",
+      "price": "0.02347",
+      "sequence": "1014",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:53.822",
+      "seconds_from_release": 53.822189,
+      "time_after_queue.get": "11:00:53.822"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "39695.2",
+      "price": "0.02347",
+      "sequence": "1016",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:53.927",
+      "seconds_from_release": 53.927228,
+      "time_after_queue.get": "11:00:53.927"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "39695.2",
+      "price": "0.02347",
+      "sequence": "1017",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:54.031",
+      "seconds_from_release": 54.031843,
+      "time_after_queue.get": "11:00:54.031"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "39695.2",
+      "price": "0.02347",
+      "sequence": "1018",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:54.360",
+      "seconds_from_release": 54.360047,
+      "time_after_queue.get": "11:00:54.360"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "39695.2",
+      "price": "0.02347",
+      "sequence": "1019",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:54.459",
+      "seconds_from_release": 54.459559,
+      "time_after_queue.get": "11:00:54.459"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "39695.2",
+      "price": "0.02347",
+      "sequence": "1026",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:54.566",
+      "seconds_from_release": 54.566657,
+      "time_after_queue.get": "11:00:54.568"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "325.9",
+      "bestBid": "0.02347",
+      "bestBidSize": "39695.2",
+      "price": "0.02347",
+      "sequence": "1029",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:54.781",
+      "seconds_from_release": 54.781945,
+      "time_after_queue.get": "11:00:54.782"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "325.9",
+      "bestBid": "0.02347",
+      "bestBidSize": "39695.2",
+      "price": "0.02347",
+      "sequence": "1030",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:54.987",
+      "seconds_from_release": 54.987834,
+      "time_after_queue.get": "11:00:54.988"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "325.9",
+      "bestBid": "0.02347",
+      "bestBidSize": "39695.2",
+      "price": "0.02347",
+      "sequence": "1032",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:55.099",
+      "seconds_from_release": 55.09964,
+      "time_after_queue.get": "11:00:55.099"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "325.9",
+      "bestBid": "0.02347",
+      "bestBidSize": "39695.2",
+      "price": "0.02347",
+      "sequence": "1034",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:55.210",
+      "seconds_from_release": 55.210145,
+      "time_after_queue.get": "11:00:55.210"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "325.9",
+      "bestBid": "0.02347",
+      "bestBidSize": "40915.5",
+      "price": "0.02347",
+      "sequence": "1035",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:55.310",
+      "seconds_from_release": 55.31065,
+      "time_after_queue.get": "11:00:55.311"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.0235",
+      "bestAskSize": "42083.1",
+      "bestBid": "0.02347",
+      "bestBidSize": "40915.5",
+      "price": "0.02347",
+      "sequence": "1037",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:55.634",
+      "seconds_from_release": 55.634953,
+      "time_after_queue.get": "11:00:55.635"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1075.1",
+      "bestBid": "0.02347",
+      "bestBidSize": "40915.5",
+      "price": "0.02347",
+      "sequence": "1042",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:55.752",
+      "seconds_from_release": 55.752067,
+      "time_after_queue.get": "11:00:55.752"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1075.1",
+      "bestBid": "0.02347",
+      "bestBidSize": "40915.5",
+      "price": "0.02347",
+      "sequence": "1043",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:55.957",
+      "seconds_from_release": 55.957177,
+      "time_after_queue.get": "11:00:55.957"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1075.1",
+      "bestBid": "0.02347",
+      "bestBidSize": "40915.5",
+      "price": "0.02347",
+      "sequence": "1044",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:56.064",
+      "seconds_from_release": 56.064184,
+      "time_after_queue.get": "11:00:56.064"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "40915.5",
+      "price": "0.02347",
+      "sequence": "1049",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:56.606",
+      "seconds_from_release": 56.606681,
+      "time_after_queue.get": "11:00:56.606"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "40915.5",
+      "price": "0.02347",
+      "sequence": "1054",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:56.733",
+      "seconds_from_release": 56.733338,
+      "time_after_queue.get": "11:00:56.733"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "40915.5",
+      "price": "0.02347",
+      "sequence": "1056",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:57.048",
+      "seconds_from_release": 57.048651,
+      "time_after_queue.get": "11:00:57.049"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "40915.5",
+      "price": "0.02347",
+      "sequence": "1060",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:57.156",
+      "seconds_from_release": 57.156148,
+      "time_after_queue.get": "11:00:57.156"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "40915.5",
+      "price": "0.02347",
+      "sequence": "1063",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:57.266",
+      "seconds_from_release": 57.26615,
+      "time_after_queue.get": "11:00:57.266"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "40915.5",
+      "price": "0.02347",
+      "sequence": "1065",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:57.368",
+      "seconds_from_release": 57.368439,
+      "time_after_queue.get": "11:00:57.368"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "40915.5",
+      "price": "0.02347",
+      "sequence": "1067",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:57.481",
+      "seconds_from_release": 57.481198,
+      "time_after_queue.get": "11:00:57.481"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "40915.5",
+      "price": "0.02347",
+      "sequence": "1068",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:57.687",
+      "seconds_from_release": 57.687571,
+      "time_after_queue.get": "11:00:57.687"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "40915.5",
+      "price": "0.02347",
+      "sequence": "1073",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:57.790",
+      "seconds_from_release": 57.790817,
+      "time_after_queue.get": "11:00:57.792"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "40915.5",
+      "price": "0.02347",
+      "sequence": "1076",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:57.905",
+      "seconds_from_release": 57.905488,
+      "time_after_queue.get": "11:00:57.906"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "40915.5",
+      "price": "0.02347",
+      "sequence": "1077",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:58.007",
+      "seconds_from_release": 58.007262,
+      "time_after_queue.get": "11:00:58.007"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "40915.5",
+      "price": "0.02347",
+      "sequence": "1078",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:58.317",
+      "seconds_from_release": 58.317873,
+      "time_after_queue.get": "11:00:58.317"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "40915.5",
+      "price": "0.02347",
+      "sequence": "1084",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:58.418",
+      "seconds_from_release": 58.418816,
+      "time_after_queue.get": "11:00:58.419"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "40915.5",
+      "price": "0.02347",
+      "sequence": "1085",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:58.518",
+      "seconds_from_release": 58.518597,
+      "time_after_queue.get": "11:00:58.518"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "40915.5",
+      "price": "0.02347",
+      "sequence": "1086",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:58.624",
+      "seconds_from_release": 58.624184,
+      "time_after_queue.get": "11:00:58.624"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "40915.5",
+      "price": "0.02347",
+      "sequence": "1088",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:58.926",
+      "seconds_from_release": 58.92684,
+      "time_after_queue.get": "11:00:58.927"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "40915.5",
+      "price": "0.02347",
+      "sequence": "1092",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:59.026",
+      "seconds_from_release": 59.026055,
+      "time_after_queue.get": "11:00:59.026"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "40915.5",
+      "price": "0.02347",
+      "sequence": "1095",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:59.136",
+      "seconds_from_release": 59.136146,
+      "time_after_queue.get": "11:00:59.136"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "40915.5",
+      "price": "0.02347",
+      "sequence": "1096",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:59.671",
+      "seconds_from_release": 59.671537,
+      "time_after_queue.get": "11:00:59.671"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "40915.5",
+      "price": "0.02347",
+      "sequence": "1101",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:59.766",
+      "seconds_from_release": 59.766792,
+      "time_after_queue.get": "11:00:59.767"
+    }
+  },
+  {
+    "topic": "/market/ticker:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.ticker",
+    "data": {
+      "bestAsk": "0.02349",
+      "bestAskSize": "1401",
+      "bestBid": "0.02347",
+      "bestBidSize": "40915.5",
+      "price": "0.02347",
+      "sequence": "1102",
+      "size": "204.4",
+      "time": 1732532452187,
+      "time_before_que.put": "11:00:59.875",
+      "seconds_from_release": 59.875967,
+      "time_after_queue.get": "11:00:59.876"
+    }
+  }
+]

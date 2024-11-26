@@ -34,8 +34,8 @@ async def main():
         logger.info("Starting script")
 
         directory = '/root/trading_systems/bitget/new_pair_data_bitget'
-        testing = False
-        testing_time = 90
+        testing = True
+        testing_time = 2
         if testing:
             symbol = 'SWELL'
             scraper = Bitget_websocket_collection()

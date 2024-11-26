@@ -27,26 +27,97 @@ logger.propagate = False
 
 
 
-LOCK_FILE = '/tmp/kucoin_trading_match_ws_2.lock'
+LOCK_FILE = '/tmp/kucoin_trading_match_ws.lock'
 
 # kucoin trading channel match
 # 1,16,31,46 * * * * /root/trading_systems/tradingvenv/bin/python /root/trading_systems/kucoin_dir/kucoin_trading_match_ws.py >> /root/trading_systems/kucoin_dir/cronlogs/kucoin_trading_match_ws.log 2>&1
 
 async def main():
     lock_file = acquire_lock()
-    try:
-        logger.debug("Starting script")
-        directory = '/root/trading_systems/kucoin_dir/new_pair_data_kucoin'
-        testing_time_offset = 3  # Time offset for testing
-        price_increase_buy = 7
-        price_increase_sell = -2
+    directory = '/root/trading_systems/kucoin_dir/new_pair_data_kucoin'
 
-        number_of_orders_buy = 3
-        number_of_orders_sell = 5
+    try:  
+        async def execution(new_pair_dict):
+            logger.debug("Starting script")
+            price_increase_buy = -20
+            price_increase_sell = 2
+
+            number_of_orders_buy = 3
+            number_of_orders_sell = 5
+    
+            api_creds = load_credetials()
+            basecoin, release_date_time, datetime_to_listing_seconds = parse_new_pair_dict(new_pair_dict)
+            logger.info(f'Detected new pair {new_pair_dict["pair"]} at {new_pair_dict["date_time_string"]}')
+            logger.info(f"{datetime_to_listing_seconds} until listing sleep {datetime_to_listing_seconds-30}")
+            await asyncio.sleep(datetime_to_listing_seconds-30)
+
+            try:
+                symbol = f'{basecoin}'
+                strategy = KucoinStrategyTrader(symbol, api_creds['api_key'], 
+                        api_creds['api_secret'], 
+                        api_creds['api_passphrase'])
+
+                ws_match = KucoinWebsocketListen(symbol, KucoinWebsocketListen.CHANNEL_MATCH)
+                run_match = asyncio.create_task(ws_match.start())
+
+                try:
+                    marker_first = False    
+                    end_time = datetime.now() + timedelta(minutes=2)
+                    
+                    while datetime.now() < end_time:
+                        market_data = await ws_match.get_data()
+                        if not marker_first:
+                            marker_first = True
+                            logger.info(f'check if data loop starts for {symbol}')
+                        
+                        if market_data:
+                            # Handle buy orders
+                            if not strategy.second_order_placed:
+                                await strategy.buy_first_and_second_match(number_of_orders_buy, market_data,price_increase_buy )
+                            
+                            # Handle sell orders when market data shows sell side
+                            if market_data['side'] == 'sell' and not strategy.second_sell_order_placed:
+                                await strategy.sell_on_first_sell_order(number_of_orders_sell, market_data, price_increase_sell)
+                            
+                            # Break if both buy and sell cycles are complete
+                            if strategy.second_order_placed and strategy.second_sell_order_placed:
+                                break
+                        # else:
+                        #     print('no data')
+                        await asyncio.sleep(0.0001)
+                except asyncio.TimeoutError:
+                    logger.info('No data in queue')
+                        
+
+                finally:
+                    # Save trading data and cleanup
+                    strategy.save_trading_data()
+                    await ws_match.cleanup()
+                    await strategy.close_client()
+
+            except Exception as e:
+                logger.error(f"executing strategy: {str(e)}")
+                traceback.print_exc()
+
+
+        pairs_close_to_release = check_if_for_releases(directory)
         
-        api_creds = load_credetials()
+        tasks_to_execute = []
+        for new_pair_dict in pairs_close_to_release:
+
+            tasks_to_execute.append(asyncio.create_task(execution(new_pair_dict)))
+        
+        await asyncio.gather(*tasks_to_execute)
 
 
+    finally:
+        # Synchronous operations after all async tasks are completed
+        release_lock(lock_file)
+        print(f'{datetime.now()} script finished V5')
+
+def check_if_for_releases(directory):
+    pairs_to_trade = []
+    try:
         for filename in os.listdir(directory):
             if filename.endswith(".json"):
                 with open(os.path.join(directory, filename)) as f:
@@ -57,81 +128,11 @@ async def main():
                 basecoin, release_date_time, datetime_to_listing_seconds = parse_result
 
                 if 0 < datetime_to_listing_seconds < 1200:
-                    logger.info(f'Detected new pair {new_pair_dict["pair"]} at {new_pair_dict["date_time_string"]}')
-                    logger.info(f"{datetime_to_listing_seconds} until listing sleep {datetime_to_listing_seconds-30}")
-                    await asyncio.sleep(datetime_to_listing_seconds-30)
-                    try:
-                        symbol = f'{basecoin}'
-                        strategy = KucoinStrategyTrader(symbol, api_creds['api_key'], 
-                                  api_creds['api_secret'], 
-                                  api_creds['api_passphrase'])
-    
-                        ws_match = KucoinWebsocketListen(symbol, KucoinWebsocketListen.CHANNEL_MATCH)
-                        print(ws_match)
-                        run_match = asyncio.create_task(ws_match.start())
-                        print(run_match)
-
-                        try:
-                            end_time = datetime.now() + timedelta(minutes=2)
-                            
-                            while datetime.now() < end_time:
-                                market_data = ws_match._latest_message
-                                
-                                if market_data:
-                                    print(market_data)
-                                    # Handle buy orders
-                                    if not strategy.second_order_placed:
-                                        await strategy.buy_first_and_second_match(number_of_orders_buy, market_data,price_increase_buy )
-                                    
-                                    # Handle sell orders when market data shows sell side
-                                    if market_data['side'] == 'sell' and not strategy.second_sell_order_placed:
-                                        await strategy.sell_on_first_sell_order(number_of_orders_sell, market_data, price_increase_sell)
-                                    
-                                    # Break if both buy and sell cycles are complete
-                                    if strategy.second_order_placed and strategy.second_sell_order_placed:
-                                        break
-                                # else:
-                                #     print('no data')
-                                await asyncio.sleep(0.0001)
-                        except asyncio.TimeoutError:
-                            logger.info('No data in queue')
-                                
-
-                        finally:
-                            # Save trading data and cleanup
-                            strategy.save_trading_data()
-                            await ws_match.cleanup()
-                            await strategy.close_client()
-
-                    except Exception as e:
-                        logger.error(f"executing strategy: {str(e)}")
-                        traceback.print_exc()
-
-                    logger.debug('Break after detecting pair')
-                    break
-    finally:
-        # Synchronous operations after all async tasks are completed
-        release_lock(lock_file)
-        print(f'{datetime.now()} script finished V5')
-
-
-async def trade_match(strategy_object, symbol, ask_price, number_of_orders, price_increase_buy, price_increase_sell):
-    buy_results = await strategy_object.multiple_buy_orders_percent_dif(
-        symbol=symbol+ '-USDT',
-        base_price=ask_price,
-        num_orders=number_of_orders,
-        percentage_difference= price_increase_buy
-    )
-    sell_results = await strategy_object.multiple_sell_orders_percent_dif(
-        symbol=symbol+ '-USDT',
-        base_price=ask_price,
-        num_orders=number_of_orders,
-        percentage_difference= price_increase_sell
-    )
-
-    return buy_results, sell_results
-
-
+                    pairs_to_trade.append(new_pair_dict)
+    except Exception as e:
+        logger.error(f"parsings directory for new pairs: {e}")
+        traceback.print_exc()
+    return pairs_to_trade
 
 
 def acquire_lock():

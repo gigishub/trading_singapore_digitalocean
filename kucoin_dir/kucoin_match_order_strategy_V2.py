@@ -4,6 +4,7 @@ from datetime import datetime
 import logging
 from typing import Dict, List
 from kucoin_order_manager import kucoinHForderManager
+import os
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
@@ -185,13 +186,18 @@ class KucoinStrategyTrader:
             }
             self.second_sell_order_placed = True
 
-    def save_trading_data(self, filename: str = None):
-        if filename is None:
-            filename = f"trading_data_{self.symbol}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
-        
+    def save_trading_data(self,path_to_save:str = None):
+        if not path_to_save:
+            path_to_save = '/root/trading_systems/kucoin_dir/kucoin_trading_data'
+        os.makedirs(path_to_save, exist_ok=True)
+
+        token = self.symbol.split('-')[0]
+        filename = f"{(datetime.now().strftime('%Y-%m-%d_%H-%M'))}_{token}.json"
+
+        full_path = os.path.join(path_to_save, filename)
         self.trade_data["trading_session"]["end_time"] = datetime.now().isoformat()
         
-        with open(filename, 'w') as f:
+        with open(full_path, 'w') as f:
             json.dump(self.trade_data, f, indent=4)
 
     async def close_client(self):
@@ -223,28 +229,7 @@ class KucoinStrategyTrader:
             if token_price < upper_bound:
                 return size, decimal_to_round
 
-    async def process_market_data(self, market_data):
-        
-        try:    
-            if market_data:
-                #print(market_data)
-                # Handle buy orders
-                if not self.second_order_placed:
-                    await self.buy_first_and_second_match(2, market_data, -5)
-                
-                # Handle sell orders when market data shows sell side
-                if market_data['side'] == 'sell' and not self.second_sell_order_placed:
-                    await self.sell_on_first_sell_order(2, market_data, 5)
-                
-                # Return if both buy and sell cycles are complete
-                if self.second_order_placed and self.second_sell_order_placed:
-                    return True  # Indicate completion
-            return False
-        except Exception as e:  
-            logger.error(f"Error processing market data: {e}")
-        finally :
-            self.save_trading_data()
-            await self.close_client()
+
 
 
 
@@ -271,7 +256,7 @@ async def main():
         end_time = datetime.now() + timedelta(minutes=1)
         
         while datetime.now() < end_time:
-            market_data = ws_match._latest_message
+            market_data = ws_match.queue
             
             if market_data:
                 print(market_data)
@@ -279,6 +264,7 @@ async def main():
                 if not strategy.second_order_placed:
                     await strategy.buy_first_and_second_match(2, market_data, -5)
                 
+
                 # Handle sell orders when market data shows sell side
                 if market_data['side'] == 'sell' and not strategy.second_sell_order_placed:
                     await strategy.sell_on_first_sell_order(2, market_data, 5)

@@ -1,0 +1,4989 @@
+{
+  "metadata": {
+    "symbol": "XRP",
+    "channel": "snapshot",
+    "start_time": "19:49:30.0000",
+    "release_time": "19:50:00.0000",
+    "end_time": "19:52:00.0000",
+    "total_messages": 72,
+    "final_snapshot": {
+      "time": "19:52:00.4820",
+      "symbol": "XRP-USDT",
+      "price_high": "1.5388",
+      "price_last": "1.47583",
+      "price_low": "1.3551",
+      "price_avg": "1.4176014",
+      "volValue_USDT": "116498112.2874434973942"
+    }
+  },
+  "data": [
+    {
+      "sequence": "5154778352",
+      "data": {
+        "askSize": 810,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 810,
+        "board": 1,
+        "buy": 1.47649,
+        "changePrice": 0.09165,
+        "changeRate": 0.0661,
+        "close": 1.47657,
+        "datetime": 1732564170520,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47657,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01767,
+          "changeRate": 0.0121,
+          "high": 1.48,
+          "low": 1.45436,
+          "open": 1.4589,
+          "vol": 1864318.3663,
+          "volValue": 2739602.685163333
+        },
+        "marketChange24h": {
+          "changePrice": 0.09165,
+          "changeRate": 0.0661,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38492,
+          "vol": 80593910.48656735,
+          "volValue": 116411372.60472341
+        },
+        "marketChange4h": {
+          "changePrice": 0.05995,
+          "changeRate": 0.0423,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.41662,
+          "vol": 20767007.98821322,
+          "volValue": 30294707.20416477
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38492,
+        "quoteCurrency": "USDT",
+        "sell": 1.47684,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80593910.48656735,
+        "volValue": 116411372.60472341
+      },
+      "time_received": "19:49:30.6172"
+    },
+    {
+      "sequence": "5154778891",
+      "data": {
+        "askSize": 4000,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 4878.362,
+        "board": 1,
+        "buy": 1.47624,
+        "changePrice": 0.09179,
+        "changeRate": 0.0662,
+        "close": 1.47671,
+        "datetime": 1732564172451,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47671,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01781,
+          "changeRate": 0.0122,
+          "high": 1.48,
+          "low": 1.45436,
+          "open": 1.4589,
+          "vol": 1868703.9223,
+          "volValue": 2746078.841567013
+        },
+        "marketChange24h": {
+          "changePrice": 0.09179,
+          "changeRate": 0.0662,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38492,
+          "vol": 80598296.04256736,
+          "volValue": 116417848.7611271
+        },
+        "marketChange4h": {
+          "changePrice": 0.06009,
+          "changeRate": 0.0424,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.41662,
+          "vol": 20771393.54421322,
+          "volValue": 30301183.36056845
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38492,
+        "quoteCurrency": "USDT",
+        "sell": 1.47695,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80598296.04256736,
+        "volValue": 116417848.7611271
+      },
+      "time_received": "19:49:32.5484"
+    },
+    {
+      "sequence": "5154779765",
+      "data": {
+        "askSize": 360.9119,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 810,
+        "board": 1,
+        "buy": 1.47754,
+        "changePrice": 0.09215,
+        "changeRate": 0.0665,
+        "close": 1.47707,
+        "datetime": 1732564174469,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47707,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01817,
+          "changeRate": 0.0124,
+          "high": 1.48,
+          "low": 1.45436,
+          "open": 1.4589,
+          "vol": 1862570.5516,
+          "volValue": 2737022.011230035
+        },
+        "marketChange24h": {
+          "changePrice": 0.09215,
+          "changeRate": 0.0665,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38492,
+          "vol": 80592162.67186736,
+          "volValue": 116408791.93079011
+        },
+        "marketChange4h": {
+          "changePrice": 0.06045,
+          "changeRate": 0.0426,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.41662,
+          "vol": 20765260.17351322,
+          "volValue": 30292126.530231472
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38492,
+        "quoteCurrency": "USDT",
+        "sell": 1.47792,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80592162.67186736,
+        "volValue": 116408791.93079011
+      },
+      "time_received": "19:49:34.5259"
+    },
+    {
+      "sequence": "5154780770",
+      "data": {
+        "askSize": 67.702,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 810,
+        "board": 1,
+        "buy": 1.47741,
+        "changePrice": 0.09211,
+        "changeRate": 0.0665,
+        "close": 1.47703,
+        "datetime": 1732564178499,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47703,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01813,
+          "changeRate": 0.0124,
+          "high": 1.48,
+          "low": 1.45436,
+          "open": 1.4589,
+          "vol": 1864318.3663,
+          "volValue": 2739602.685163333
+        },
+        "marketChange24h": {
+          "changePrice": 0.09211,
+          "changeRate": 0.0665,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38492,
+          "vol": 80593910.48656735,
+          "volValue": 116411372.60472341
+        },
+        "marketChange4h": {
+          "changePrice": 0.06041,
+          "changeRate": 0.0426,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.41662,
+          "vol": 20767007.98821322,
+          "volValue": 30294707.20416477
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38492,
+        "quoteCurrency": "USDT",
+        "sell": 1.47779,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80593910.48656735,
+        "volValue": 116411372.60472341
+      },
+      "time_received": "19:49:38.5571"
+    },
+    {
+      "sequence": "5154781575",
+      "data": {
+        "askSize": 67.6694,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 724.4809,
+        "board": 1,
+        "buy": 1.47747,
+        "changePrice": 0.09255,
+        "changeRate": 0.0668,
+        "close": 1.47747,
+        "datetime": 1732564180483,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47747,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01857,
+          "changeRate": 0.0127,
+          "high": 1.48,
+          "low": 1.45436,
+          "open": 1.4589,
+          "vol": 1864318.3663,
+          "volValue": 2739602.685163333
+        },
+        "marketChange24h": {
+          "changePrice": 0.09255,
+          "changeRate": 0.0668,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38492,
+          "vol": 80593910.48656735,
+          "volValue": 116411372.60472341
+        },
+        "marketChange4h": {
+          "changePrice": 0.06085,
+          "changeRate": 0.0429,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.41662,
+          "vol": 20767007.98821322,
+          "volValue": 30294707.20416477
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38492,
+        "quoteCurrency": "USDT",
+        "sell": 1.47771,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80593910.48656735,
+        "volValue": 116411372.60472341
+      },
+      "time_received": "19:49:40.5413"
+    },
+    {
+      "sequence": "5154782485",
+      "data": {
+        "askSize": 810,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 243,
+        "board": 1,
+        "buy": 1.47719,
+        "changePrice": 0.09222,
+        "changeRate": 0.0665,
+        "close": 1.47714,
+        "datetime": 1732564182444,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47714,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01824,
+          "changeRate": 0.0125,
+          "high": 1.48,
+          "low": 1.45436,
+          "open": 1.4589,
+          "vol": 1897042.7166,
+          "volValue": 2787946.570976992
+        },
+        "marketChange24h": {
+          "changePrice": 0.09222,
+          "changeRate": 0.0665,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38492,
+          "vol": 80626634.83686735,
+          "volValue": 116459716.49053708
+        },
+        "marketChange4h": {
+          "changePrice": 0.06052,
+          "changeRate": 0.0427,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.41662,
+          "vol": 20799732.33851322,
+          "volValue": 30343051.08997843
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38492,
+        "quoteCurrency": "USDT",
+        "sell": 1.47753,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80626634.83686735,
+        "volValue": 116459716.49053708
+      },
+      "time_received": "19:49:42.5308"
+    },
+    {
+      "sequence": "5154782937",
+      "data": {
+        "askSize": 810,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 810,
+        "board": 1,
+        "buy": 1.47732,
+        "changePrice": 0.09222,
+        "changeRate": 0.0665,
+        "close": 1.47714,
+        "datetime": 1732564184495,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47714,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01824,
+          "changeRate": 0.0125,
+          "high": 1.48,
+          "low": 1.45436,
+          "open": 1.4589,
+          "vol": 1897042.7166,
+          "volValue": 2787946.570976992
+        },
+        "marketChange24h": {
+          "changePrice": 0.09222,
+          "changeRate": 0.0665,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38492,
+          "vol": 80626634.83686735,
+          "volValue": 116459716.49053708
+        },
+        "marketChange4h": {
+          "changePrice": 0.06052,
+          "changeRate": 0.0427,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.41662,
+          "vol": 20799732.33851322,
+          "volValue": 30343051.08997843
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38492,
+        "quoteCurrency": "USDT",
+        "sell": 1.47763,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80626634.83686735,
+        "volValue": 116459716.49053708
+      },
+      "time_received": "19:49:44.5728"
+    },
+    {
+      "sequence": "5154783379",
+      "data": {
+        "askSize": 67.6694,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 1.2261,
+        "board": 1,
+        "buy": 1.47703,
+        "changePrice": 0.09222,
+        "changeRate": 0.0665,
+        "close": 1.47714,
+        "datetime": 1732564186520,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47714,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01824,
+          "changeRate": 0.0125,
+          "high": 1.48,
+          "low": 1.45436,
+          "open": 1.4589,
+          "vol": 1897042.7166,
+          "volValue": 2787946.570976992
+        },
+        "marketChange24h": {
+          "changePrice": 0.09222,
+          "changeRate": 0.0665,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38492,
+          "vol": 80626634.83686735,
+          "volValue": 116459716.49053708
+        },
+        "marketChange4h": {
+          "changePrice": 0.06052,
+          "changeRate": 0.0427,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.41662,
+          "vol": 20799732.33851322,
+          "volValue": 30343051.08997843
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38492,
+        "quoteCurrency": "USDT",
+        "sell": 1.47726,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80626634.83686735,
+        "volValue": 116459716.49053708
+      },
+      "time_received": "19:49:46.5768"
+    },
+    {
+      "sequence": "5154783862",
+      "data": {
+        "askSize": 243,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 810,
+        "board": 1,
+        "buy": 1.47676,
+        "changePrice": 0.09244,
+        "changeRate": 0.0667,
+        "close": 1.47736,
+        "datetime": 1732564188366,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47736,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01846,
+          "changeRate": 0.0126,
+          "high": 1.48,
+          "low": 1.45436,
+          "open": 1.4589,
+          "vol": 1897042.7166,
+          "volValue": 2787946.570976992
+        },
+        "marketChange24h": {
+          "changePrice": 0.09244,
+          "changeRate": 0.0667,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38492,
+          "vol": 80626634.83686735,
+          "volValue": 116459716.49053708
+        },
+        "marketChange4h": {
+          "changePrice": 0.06074,
+          "changeRate": 0.0428,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.41662,
+          "vol": 20799732.33851322,
+          "volValue": 30343051.08997843
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38492,
+        "quoteCurrency": "USDT",
+        "sell": 1.47704,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80626634.83686735,
+        "volValue": 116459716.49053708
+      },
+      "time_received": "19:49:48.4245"
+    },
+    {
+      "sequence": "5154784456",
+      "data": {
+        "askSize": 676.8681,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 810,
+        "board": 1,
+        "buy": 1.47699,
+        "changePrice": 0.09243,
+        "changeRate": 0.0667,
+        "close": 1.47735,
+        "datetime": 1732564190469,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47735,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01845,
+          "changeRate": 0.0126,
+          "high": 1.48,
+          "low": 1.45436,
+          "open": 1.4589,
+          "vol": 1897042.7166,
+          "volValue": 2787946.570976992
+        },
+        "marketChange24h": {
+          "changePrice": 0.09243,
+          "changeRate": 0.0667,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38492,
+          "vol": 80626634.83686735,
+          "volValue": 116459716.49053708
+        },
+        "marketChange4h": {
+          "changePrice": 0.06073,
+          "changeRate": 0.0428,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.41662,
+          "vol": 20799732.33851322,
+          "volValue": 30343051.08997843
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38492,
+        "quoteCurrency": "USDT",
+        "sell": 1.47719,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80626634.83686735,
+        "volValue": 116459716.49053708
+      },
+      "time_received": "19:49:50.5265"
+    },
+    {
+      "sequence": "5154784676",
+      "data": {
+        "askSize": 676.7178,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 810,
+        "board": 1,
+        "buy": 1.47739,
+        "changePrice": 0.09229,
+        "changeRate": 0.0666,
+        "close": 1.47721,
+        "datetime": 1732564192372,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47721,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01831,
+          "changeRate": 0.0125,
+          "high": 1.48,
+          "low": 1.45436,
+          "open": 1.4589,
+          "vol": 1897042.7166,
+          "volValue": 2787946.570976992
+        },
+        "marketChange24h": {
+          "changePrice": 0.09229,
+          "changeRate": 0.0666,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38492,
+          "vol": 80626634.83686735,
+          "volValue": 116459716.49053708
+        },
+        "marketChange4h": {
+          "changePrice": 0.06059,
+          "changeRate": 0.0427,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.41662,
+          "vol": 20799732.33851322,
+          "volValue": 30343051.08997843
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38492,
+        "quoteCurrency": "USDT",
+        "sell": 1.47752,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80626634.83686735,
+        "volValue": 116459716.49053708
+      },
+      "time_received": "19:49:52.4292"
+    },
+    {
+      "sequence": "5154785234",
+      "data": {
+        "askSize": 676.6002,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 810,
+        "board": 1,
+        "buy": 1.47763,
+        "changePrice": 0.09229,
+        "changeRate": 0.0666,
+        "close": 1.47721,
+        "datetime": 1732564194508,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47721,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01831,
+          "changeRate": 0.0125,
+          "high": 1.48,
+          "low": 1.45436,
+          "open": 1.4589,
+          "vol": 1905114.8313,
+          "volValue": 2799872.149477032
+        },
+        "marketChange24h": {
+          "changePrice": 0.09229,
+          "changeRate": 0.0666,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38492,
+          "vol": 80634706.95156735,
+          "volValue": 116471642.06903711
+        },
+        "marketChange4h": {
+          "changePrice": 0.06059,
+          "changeRate": 0.0427,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.41662,
+          "vol": 20807804.45321322,
+          "volValue": 30354976.66847847
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38492,
+        "quoteCurrency": "USDT",
+        "sell": 1.47778,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80634706.95156735,
+        "volValue": 116471642.06903711
+      },
+      "time_received": "19:49:54.5943"
+    },
+    {
+      "sequence": "5154785722",
+      "data": {
+        "askSize": 6.5487,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 810,
+        "board": 1,
+        "buy": 1.4781,
+        "changePrice": 0.09286,
+        "changeRate": 0.067,
+        "close": 1.47778,
+        "datetime": 1732564196484,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47778,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01888,
+          "changeRate": 0.0129,
+          "high": 1.48,
+          "low": 1.45436,
+          "open": 1.4589,
+          "vol": 1905791.4315,
+          "volValue": 2800872.015720588
+        },
+        "marketChange24h": {
+          "changePrice": 0.09286,
+          "changeRate": 0.067,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38492,
+          "vol": 80635383.55176735,
+          "volValue": 116472641.93528067
+        },
+        "marketChange4h": {
+          "changePrice": 0.06116,
+          "changeRate": 0.0431,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.41662,
+          "vol": 20808481.05341322,
+          "volValue": 30355976.534722026
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38492,
+        "quoteCurrency": "USDT",
+        "sell": 1.47826,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80635383.55176735,
+        "volValue": 116472641.93528067
+      },
+      "time_received": "19:49:56.5806"
+    },
+    {
+      "sequence": "5154786192",
+      "data": {
+        "askSize": 603.9119,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 202.9841,
+        "board": 1,
+        "buy": 1.47782,
+        "changePrice": 0.09286,
+        "changeRate": 0.067,
+        "close": 1.47778,
+        "datetime": 1732564198507,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47778,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01888,
+          "changeRate": 0.0129,
+          "high": 1.48,
+          "low": 1.45436,
+          "open": 1.4589,
+          "vol": 1905791.4315,
+          "volValue": 2800872.015720588
+        },
+        "marketChange24h": {
+          "changePrice": 0.09286,
+          "changeRate": 0.067,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38492,
+          "vol": 80635383.55176735,
+          "volValue": 116472641.93528067
+        },
+        "marketChange4h": {
+          "changePrice": 0.06116,
+          "changeRate": 0.0431,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.41662,
+          "vol": 20808481.05341322,
+          "volValue": 30355976.534722026
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38492,
+        "quoteCurrency": "USDT",
+        "sell": 1.47813,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80635383.55176735,
+        "volValue": 116472641.93528067
+      },
+      "time_received": "19:49:58.5651"
+    },
+    {
+      "sequence": "5154786424",
+      "data": {
+        "askSize": 360.9119,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 810,
+        "board": 1,
+        "buy": 1.47787,
+        "changePrice": 0.09336,
+        "changeRate": 0.0674,
+        "close": 1.47828,
+        "datetime": 1732564200480,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47828,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01938,
+          "changeRate": 0.0132,
+          "high": 1.48,
+          "low": 1.45436,
+          "open": 1.4589,
+          "vol": 1905791.4315,
+          "volValue": 2800872.015720588
+        },
+        "marketChange24h": {
+          "changePrice": 0.09336,
+          "changeRate": 0.0674,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38492,
+          "vol": 80635383.55176735,
+          "volValue": 116472641.93528067
+        },
+        "marketChange4h": {
+          "changePrice": 0.06166,
+          "changeRate": 0.0435,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.41662,
+          "vol": 20808481.05341322,
+          "volValue": 30355976.534722026
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38492,
+        "quoteCurrency": "USDT",
+        "sell": 1.47825,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80635383.55176735,
+        "volValue": 116472641.93528067
+      },
+      "time_received": "19:50:00.5373"
+    },
+    {
+      "sequence": "5154787104",
+      "data": {
+        "askSize": 360.9119,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 810,
+        "board": 1,
+        "buy": 1.47753,
+        "changePrice": 0.0913,
+        "changeRate": 0.0658,
+        "close": 1.47828,
+        "datetime": 1732564202465,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47828,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01597,
+          "changeRate": 0.0109,
+          "high": 1.48,
+          "low": 1.45436,
+          "open": 1.46231,
+          "vol": 1885637.3566,
+          "volValue": 2771421.810115911
+        },
+        "marketChange24h": {
+          "changePrice": 0.0913,
+          "changeRate": 0.0658,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38698,
+          "vol": 80606330.71666735,
+          "volValue": 116432360.30457722
+        },
+        "marketChange4h": {
+          "changePrice": 0.0578,
+          "changeRate": 0.0406,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.42048,
+          "vol": 20795408.69371322,
+          "volValue": 30337442.660705984
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38698,
+        "quoteCurrency": "USDT",
+        "sell": 1.47792,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80606330.71666735,
+        "volValue": 116432360.30457722
+      },
+      "time_received": "19:50:02.5449"
+    },
+    {
+      "sequence": "5154788917",
+      "data": {
+        "askSize": 316.6,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 243,
+        "board": 1,
+        "buy": 1.47767,
+        "changePrice": 0.09081,
+        "changeRate": 0.0654,
+        "close": 1.47779,
+        "datetime": 1732564206428,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47779,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01548,
+          "changeRate": 0.0105,
+          "high": 1.48,
+          "low": 1.45436,
+          "open": 1.46231,
+          "vol": 1885637.3566,
+          "volValue": 2771421.810115911
+        },
+        "marketChange24h": {
+          "changePrice": 0.09081,
+          "changeRate": 0.0654,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38698,
+          "vol": 80606330.71666735,
+          "volValue": 116432360.30457722
+        },
+        "marketChange4h": {
+          "changePrice": 0.05731,
+          "changeRate": 0.0403,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.42048,
+          "vol": 20795408.69371322,
+          "volValue": 30337442.660705984
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38698,
+        "quoteCurrency": "USDT",
+        "sell": 1.47803,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80606330.71666735,
+        "volValue": 116432360.30457722
+      },
+      "time_received": "19:50:06.4856"
+    },
+    {
+      "sequence": "5154789335",
+      "data": {
+        "askSize": 1.225,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 486,
+        "board": 1,
+        "buy": 1.47788,
+        "changePrice": 0.09081,
+        "changeRate": 0.0654,
+        "close": 1.47779,
+        "datetime": 1732564208516,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47779,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01548,
+          "changeRate": 0.0105,
+          "high": 1.48,
+          "low": 1.45436,
+          "open": 1.46231,
+          "vol": 1885637.3566,
+          "volValue": 2771421.810115911
+        },
+        "marketChange24h": {
+          "changePrice": 0.09081,
+          "changeRate": 0.0654,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38698,
+          "vol": 80606330.71666735,
+          "volValue": 116432360.30457722
+        },
+        "marketChange4h": {
+          "changePrice": 0.05731,
+          "changeRate": 0.0403,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.42048,
+          "vol": 20795408.69371322,
+          "volValue": 30337442.660705984
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38698,
+        "quoteCurrency": "USDT",
+        "sell": 1.47833,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80606330.71666735,
+        "volValue": 116432360.30457722
+      },
+      "time_received": "19:50:08.5735"
+    },
+    {
+      "sequence": "5154789761",
+      "data": {
+        "askSize": 486.3676,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 67.6769,
+        "board": 1,
+        "buy": 1.47753,
+        "changePrice": 0.09081,
+        "changeRate": 0.0654,
+        "close": 1.47779,
+        "datetime": 1732564210458,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47779,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01548,
+          "changeRate": 0.0105,
+          "high": 1.48,
+          "low": 1.45436,
+          "open": 1.46231,
+          "vol": 1885637.3566,
+          "volValue": 2771421.810115911
+        },
+        "marketChange24h": {
+          "changePrice": 0.09081,
+          "changeRate": 0.0654,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38698,
+          "vol": 80606330.71666735,
+          "volValue": 116432360.30457722
+        },
+        "marketChange4h": {
+          "changePrice": 0.05731,
+          "changeRate": 0.0403,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.42048,
+          "vol": 20795408.69371322,
+          "volValue": 30337442.660705984
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38698,
+        "quoteCurrency": "USDT",
+        "sell": 1.47799,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80606330.71666735,
+        "volValue": 116432360.30457722
+      },
+      "time_received": "19:50:10.5140"
+    },
+    {
+      "sequence": "5154790724",
+      "data": {
+        "askSize": 14170.6235,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 810,
+        "board": 1,
+        "buy": 1.47855,
+        "changePrice": 0.09158,
+        "changeRate": 0.066,
+        "close": 1.47856,
+        "datetime": 1732564212521,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47856,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01625,
+          "changeRate": 0.0111,
+          "high": 1.48,
+          "low": 1.45436,
+          "open": 1.46231,
+          "vol": 1892894.1534,
+          "volValue": 2782150.31987036
+        },
+        "marketChange24h": {
+          "changePrice": 0.09158,
+          "changeRate": 0.066,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38698,
+          "vol": 80613587.51346736,
+          "volValue": 116443088.81433167
+        },
+        "marketChange4h": {
+          "changePrice": 0.05808,
+          "changeRate": 0.0408,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.42048,
+          "vol": 20802675.67021322,
+          "volValue": 30348186.221757665
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38698,
+        "quoteCurrency": "USDT",
+        "sell": 1.47856,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80613587.51346736,
+        "volValue": 116443088.81433167
+      },
+      "time_received": "19:50:12.6086"
+    },
+    {
+      "sequence": "5154791184",
+      "data": {
+        "askSize": 63.3638,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 810,
+        "board": 1,
+        "buy": 1.47886,
+        "changePrice": 0.09186,
+        "changeRate": 0.0662,
+        "close": 1.47884,
+        "datetime": 1732564214442,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47884,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01653,
+          "changeRate": 0.0113,
+          "high": 1.48,
+          "low": 1.45436,
+          "open": 1.46231,
+          "vol": 1910556.3652,
+          "volValue": 2808266.034923497
+        },
+        "marketChange24h": {
+          "changePrice": 0.09186,
+          "changeRate": 0.0662,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38698,
+          "vol": 80631249.72526735,
+          "volValue": 116469204.5293848
+        },
+        "marketChange4h": {
+          "changePrice": 0.05836,
+          "changeRate": 0.041,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.42048,
+          "vol": 20820327.70231322,
+          "volValue": 30374286.88551357
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38698,
+        "quoteCurrency": "USDT",
+        "sell": 1.4791,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80631249.72526735,
+        "volValue": 116469204.5293848
+      },
+      "time_received": "19:50:14.5396"
+    },
+    {
+      "sequence": "5154791667",
+      "data": {
+        "askSize": 0.1922,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 2163.8707,
+        "board": 1,
+        "buy": 1.47933,
+        "changePrice": 0.09234,
+        "changeRate": 0.0665,
+        "close": 1.47932,
+        "datetime": 1732564216492,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47932,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01701,
+          "changeRate": 0.0116,
+          "high": 1.48,
+          "low": 1.45436,
+          "open": 1.46231,
+          "vol": 1892894.1534,
+          "volValue": 2782150.31987036
+        },
+        "marketChange24h": {
+          "changePrice": 0.09234,
+          "changeRate": 0.0665,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38698,
+          "vol": 80613587.51346736,
+          "volValue": 116443088.81433167
+        },
+        "marketChange4h": {
+          "changePrice": 0.05884,
+          "changeRate": 0.0414,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.42048,
+          "vol": 20802675.67021322,
+          "volValue": 30348186.221757665
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38698,
+        "quoteCurrency": "USDT",
+        "sell": 1.47934,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80613587.51346736,
+        "volValue": 116443088.81433167
+      },
+      "time_received": "19:50:16.5484"
+    },
+    {
+      "sequence": "5154792572",
+      "data": {
+        "askSize": 222.7572,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 4878.362,
+        "board": 1,
+        "buy": 1.47999,
+        "changePrice": 0.09302,
+        "changeRate": 0.067,
+        "close": 1.48,
+        "datetime": 1732564218437,
+        "high": 1.5388,
+        "lastTradedPrice": 1.48,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01769,
+          "changeRate": 0.012,
+          "high": 1.48,
+          "low": 1.45436,
+          "open": 1.46231,
+          "vol": 1910556.3652,
+          "volValue": 2808266.034923497
+        },
+        "marketChange24h": {
+          "changePrice": 0.09302,
+          "changeRate": 0.067,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38698,
+          "vol": 80631249.72526735,
+          "volValue": 116469204.5293848
+        },
+        "marketChange4h": {
+          "changePrice": 0.05952,
+          "changeRate": 0.0419,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.42048,
+          "vol": 20820327.70231322,
+          "volValue": 30374286.88551357
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38698,
+        "quoteCurrency": "USDT",
+        "sell": 1.48,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80631249.72526735,
+        "volValue": 116469204.5293848
+      },
+      "time_received": "19:50:18.4936"
+    },
+    {
+      "sequence": "5154794548",
+      "data": {
+        "askSize": 360.5593,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 1220.5086,
+        "board": 1,
+        "buy": 1.48101,
+        "changePrice": 0.09411,
+        "changeRate": 0.0678,
+        "close": 1.48109,
+        "datetime": 1732564220368,
+        "high": 1.5388,
+        "lastTradedPrice": 1.48109,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01878,
+          "changeRate": 0.0128,
+          "high": 1.48144,
+          "low": 1.45436,
+          "open": 1.46231,
+          "vol": 1915715.6628,
+          "volValue": 2815901.389762848
+        },
+        "marketChange24h": {
+          "changePrice": 0.09411,
+          "changeRate": 0.0678,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38698,
+          "vol": 80636409.02286735,
+          "volValue": 116476839.88422416
+        },
+        "marketChange4h": {
+          "changePrice": 0.06061,
+          "changeRate": 0.0426,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.42048,
+          "vol": 20825486.99991322,
+          "volValue": 30381922.24035292
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38698,
+        "quoteCurrency": "USDT",
+        "sell": 1.48132,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80636409.02286735,
+        "volValue": 116476839.88422416
+      },
+      "time_received": "19:50:20.4633"
+    },
+    {
+      "sequence": "5154794928",
+      "data": {
+        "askSize": 61.5771,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 810,
+        "board": 1,
+        "buy": 1.48142,
+        "changePrice": 0.09434,
+        "changeRate": 0.068,
+        "close": 1.48132,
+        "datetime": 1732564222486,
+        "high": 1.5388,
+        "lastTradedPrice": 1.48132,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01901,
+          "changeRate": 0.0129,
+          "high": 1.48,
+          "low": 1.45436,
+          "open": 1.46231,
+          "vol": 1892894.1534,
+          "volValue": 2782150.31987036
+        },
+        "marketChange24h": {
+          "changePrice": 0.09434,
+          "changeRate": 0.068,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38698,
+          "vol": 80613587.51346736,
+          "volValue": 116443088.81433167
+        },
+        "marketChange4h": {
+          "changePrice": 0.06084,
+          "changeRate": 0.0428,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.42048,
+          "vol": 20802675.67021322,
+          "volValue": 30348186.221757665
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38698,
+        "quoteCurrency": "USDT",
+        "sell": 1.48148,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80613587.51346736,
+        "volValue": 116443088.81433167
+      },
+      "time_received": "19:50:22.5422"
+    },
+    {
+      "sequence": "5154795912",
+      "data": {
+        "askSize": 1.2577,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 810,
+        "board": 1,
+        "buy": 1.48182,
+        "changePrice": 0.09503,
+        "changeRate": 0.0685,
+        "close": 1.48201,
+        "datetime": 1732564224516,
+        "high": 1.5388,
+        "lastTradedPrice": 1.48201,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0197,
+          "changeRate": 0.0134,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46231,
+          "vol": 1920979.5153,
+          "volValue": 2823700.498207643
+        },
+        "marketChange24h": {
+          "changePrice": 0.09503,
+          "changeRate": 0.0685,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38698,
+          "vol": 80641672.87536734,
+          "volValue": 116484638.99266896
+        },
+        "marketChange4h": {
+          "changePrice": 0.06153,
+          "changeRate": 0.0433,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.42048,
+          "vol": 20830750.85241322,
+          "volValue": 30389721.348797716
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38698,
+        "quoteCurrency": "USDT",
+        "sell": 1.48203,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80641672.87536734,
+        "volValue": 116484638.99266896
+      },
+      "time_received": "19:50:24.5937"
+    },
+    {
+      "sequence": "5154796628",
+      "data": {
+        "askSize": 360.5593,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 245.2275,
+        "board": 1,
+        "buy": 1.48141,
+        "changePrice": 0.09435,
+        "changeRate": 0.068,
+        "close": 1.48133,
+        "datetime": 1732564226543,
+        "high": 1.5388,
+        "lastTradedPrice": 1.48133,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01902,
+          "changeRate": 0.013,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46231,
+          "vol": 1920979.5153,
+          "volValue": 2823700.498207643
+        },
+        "marketChange24h": {
+          "changePrice": 0.09435,
+          "changeRate": 0.068,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38698,
+          "vol": 80641672.87536734,
+          "volValue": 116484638.99266896
+        },
+        "marketChange4h": {
+          "changePrice": 0.06085,
+          "changeRate": 0.0428,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.42048,
+          "vol": 20830750.85241322,
+          "volValue": 30389721.348797716
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38698,
+        "quoteCurrency": "USDT",
+        "sell": 1.48175,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80641672.87536734,
+        "volValue": 116484638.99266896
+      },
+      "time_received": "19:50:26.6007"
+    },
+    {
+      "sequence": "5154797670",
+      "data": {
+        "askSize": 810,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 202.4979,
+        "board": 1,
+        "buy": 1.47998,
+        "changePrice": 0.09327,
+        "changeRate": 0.0672,
+        "close": 1.48025,
+        "datetime": 1732564228472,
+        "high": 1.5388,
+        "lastTradedPrice": 1.48025,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01794,
+          "changeRate": 0.0122,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46231,
+          "vol": 1921078.6254,
+          "volValue": 2823847.222090301
+        },
+        "marketChange24h": {
+          "changePrice": 0.09327,
+          "changeRate": 0.0672,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38698,
+          "vol": 80641771.98546734,
+          "volValue": 116484785.7165516
+        },
+        "marketChange4h": {
+          "changePrice": 0.05977,
+          "changeRate": 0.042,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.42048,
+          "vol": 20830849.96251322,
+          "volValue": 30389868.072680373
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38698,
+        "quoteCurrency": "USDT",
+        "sell": 1.48018,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80641771.98546734,
+        "volValue": 116484785.7165516
+      },
+      "time_received": "19:50:28.5554"
+    },
+    {
+      "sequence": "5154798695",
+      "data": {
+        "askSize": 810,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 203.0231,
+        "board": 1,
+        "buy": 1.47948,
+        "changePrice": 0.0928,
+        "changeRate": 0.0669,
+        "close": 1.47978,
+        "datetime": 1732564230516,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47978,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01747,
+          "changeRate": 0.0119,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46231,
+          "vol": 1921078.6254,
+          "volValue": 2823847.222090301
+        },
+        "marketChange24h": {
+          "changePrice": 0.0928,
+          "changeRate": 0.0669,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38698,
+          "vol": 80641771.98546734,
+          "volValue": 116484785.7165516
+        },
+        "marketChange4h": {
+          "changePrice": 0.0593,
+          "changeRate": 0.0417,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.42048,
+          "vol": 20830849.96251322,
+          "volValue": 30389868.072680373
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38698,
+        "quoteCurrency": "USDT",
+        "sell": 1.47971,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80641771.98546734,
+        "volValue": 116484785.7165516
+      },
+      "time_received": "19:50:30.5729"
+    },
+    {
+      "sequence": "5154799526",
+      "data": {
+        "askSize": 1126.6,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 1.2244,
+        "board": 1,
+        "buy": 1.47916,
+        "changePrice": 0.09236,
+        "changeRate": 0.0665,
+        "close": 1.47934,
+        "datetime": 1732564232405,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47934,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01703,
+          "changeRate": 0.0116,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46231,
+          "vol": 1921288.4667,
+          "volValue": 2824157.739978037
+        },
+        "marketChange24h": {
+          "changePrice": 0.09236,
+          "changeRate": 0.0665,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38698,
+          "vol": 80641981.82676736,
+          "volValue": 116485096.23443934
+        },
+        "marketChange4h": {
+          "changePrice": 0.05886,
+          "changeRate": 0.0414,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.42048,
+          "vol": 20831059.80381322,
+          "volValue": 30390178.59056811
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38698,
+        "quoteCurrency": "USDT",
+        "sell": 1.47922,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80641981.82676736,
+        "volValue": 116485096.23443934
+      },
+      "time_received": "19:50:32.4879"
+    },
+    {
+      "sequence": "5154800661",
+      "data": {
+        "askSize": 810,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 1053,
+        "board": 1,
+        "buy": 1.47813,
+        "changePrice": 0.09178,
+        "changeRate": 0.0661,
+        "close": 1.47876,
+        "datetime": 1732564234444,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47876,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01645,
+          "changeRate": 0.0112,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46231,
+          "vol": 1921288.4667,
+          "volValue": 2824157.739978037
+        },
+        "marketChange24h": {
+          "changePrice": 0.09178,
+          "changeRate": 0.0661,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38698,
+          "vol": 80641981.82676736,
+          "volValue": 116485096.23443934
+        },
+        "marketChange4h": {
+          "changePrice": 0.05828,
+          "changeRate": 0.041,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.42048,
+          "vol": 20831059.80381322,
+          "volValue": 30390178.59056811
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38698,
+        "quoteCurrency": "USDT",
+        "sell": 1.47853,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80641981.82676736,
+        "volValue": 116485096.23443934
+      },
+      "time_received": "19:50:34.4992"
+    },
+    {
+      "sequence": "5154801419",
+      "data": {
+        "askSize": 810,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 239.49,
+        "board": 1,
+        "buy": 1.47787,
+        "changePrice": 0.0911,
+        "changeRate": 0.0656,
+        "close": 1.47808,
+        "datetime": 1732564236470,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47808,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01577,
+          "changeRate": 0.0107,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46231,
+          "vol": 1922431.8572,
+          "volValue": 2825848.395982173
+        },
+        "marketChange24h": {
+          "changePrice": 0.0911,
+          "changeRate": 0.0656,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38698,
+          "vol": 80643125.21726735,
+          "volValue": 116486786.89044347
+        },
+        "marketChange4h": {
+          "changePrice": 0.0576,
+          "changeRate": 0.0405,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.42048,
+          "vol": 20832203.19431322,
+          "volValue": 30391869.246572245
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38698,
+        "quoteCurrency": "USDT",
+        "sell": 1.47805,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80643125.21726735,
+        "volValue": 116486786.89044347
+      },
+      "time_received": "19:50:36.5502"
+    },
+    {
+      "sequence": "5154801889",
+      "data": {
+        "askSize": 676.5942,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 1.3535,
+        "board": 1,
+        "buy": 1.4777,
+        "changePrice": 0.09089,
+        "changeRate": 0.0655,
+        "close": 1.47787,
+        "datetime": 1732564238441,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47787,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01556,
+          "changeRate": 0.0106,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46231,
+          "vol": 1922431.8572,
+          "volValue": 2825848.395982173
+        },
+        "marketChange24h": {
+          "changePrice": 0.09089,
+          "changeRate": 0.0655,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38698,
+          "vol": 80643125.21726735,
+          "volValue": 116486786.89044347
+        },
+        "marketChange4h": {
+          "changePrice": 0.05739,
+          "changeRate": 0.0404,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.42048,
+          "vol": 20832203.19431322,
+          "volValue": 30391869.246572245
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38698,
+        "quoteCurrency": "USDT",
+        "sell": 1.4778,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80643125.21726735,
+        "volValue": 116486786.89044347
+      },
+      "time_received": "19:50:38.4967"
+    },
+    {
+      "sequence": "5154802409",
+      "data": {
+        "askSize": 135.2677,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 248.8225,
+        "board": 1,
+        "buy": 1.47673,
+        "changePrice": 0.0899,
+        "changeRate": 0.0648,
+        "close": 1.47688,
+        "datetime": 1732564240513,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47688,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01457,
+          "changeRate": 0.0099,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46231,
+          "vol": 1923251.6932,
+          "volValue": 2827059.260246495
+        },
+        "marketChange24h": {
+          "changePrice": 0.0899,
+          "changeRate": 0.0648,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38698,
+          "vol": 80643945.05326734,
+          "volValue": 116487997.7547078
+        },
+        "marketChange4h": {
+          "changePrice": 0.0564,
+          "changeRate": 0.0397,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.42048,
+          "vol": 20833023.03031322,
+          "volValue": 30393080.110836565
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38698,
+        "quoteCurrency": "USDT",
+        "sell": 1.47707,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80643945.05326734,
+        "volValue": 116487997.7547078
+      },
+      "time_received": "19:50:40.5933"
+    },
+    {
+      "sequence": "5154803114",
+      "data": {
+        "askSize": 810,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 1.3548,
+        "board": 1,
+        "buy": 1.47626,
+        "changePrice": 0.08975,
+        "changeRate": 0.0647,
+        "close": 1.47673,
+        "datetime": 1732564242541,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47673,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01442,
+          "changeRate": 0.0098,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46231,
+          "vol": 1923251.6932,
+          "volValue": 2827059.260246495
+        },
+        "marketChange24h": {
+          "changePrice": 0.08975,
+          "changeRate": 0.0647,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38698,
+          "vol": 80643945.05326734,
+          "volValue": 116487997.7547078
+        },
+        "marketChange4h": {
+          "changePrice": 0.05625,
+          "changeRate": 0.0395,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.42048,
+          "vol": 20833023.03031322,
+          "volValue": 30393080.110836565
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38698,
+        "quoteCurrency": "USDT",
+        "sell": 1.47636,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80643945.05326734,
+        "volValue": 116487997.7547078
+      },
+      "time_received": "19:50:42.5971"
+    },
+    {
+      "sequence": "5154803514",
+      "data": {
+        "askSize": 810,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 1.2273,
+        "board": 1,
+        "buy": 1.47561,
+        "changePrice": 0.08902,
+        "changeRate": 0.0641,
+        "close": 1.476,
+        "datetime": 1732564244389,
+        "high": 1.5388,
+        "lastTradedPrice": 1.476,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01369,
+          "changeRate": 0.0093,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46231,
+          "vol": 1923251.6932,
+          "volValue": 2827059.260246495
+        },
+        "marketChange24h": {
+          "changePrice": 0.08902,
+          "changeRate": 0.0641,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38698,
+          "vol": 80643945.05326734,
+          "volValue": 116487997.7547078
+        },
+        "marketChange4h": {
+          "changePrice": 0.05552,
+          "changeRate": 0.039,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.42048,
+          "vol": 20833023.03031322,
+          "volValue": 30393080.110836565
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38698,
+        "quoteCurrency": "USDT",
+        "sell": 1.47605,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80643945.05326734,
+        "volValue": 116487997.7547078
+      },
+      "time_received": "19:50:44.4451"
+    },
+    {
+      "sequence": "5154804149",
+      "data": {
+        "askSize": 135.3658,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 203.1904,
+        "board": 1,
+        "buy": 1.47568,
+        "changePrice": 0.089,
+        "changeRate": 0.0641,
+        "close": 1.47598,
+        "datetime": 1732564246495,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47598,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01367,
+          "changeRate": 0.0093,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46231,
+          "vol": 1923251.6932,
+          "volValue": 2827059.260246495
+        },
+        "marketChange24h": {
+          "changePrice": 0.089,
+          "changeRate": 0.0641,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38698,
+          "vol": 80643945.05326734,
+          "volValue": 116487997.7547078
+        },
+        "marketChange4h": {
+          "changePrice": 0.0555,
+          "changeRate": 0.039,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.42048,
+          "vol": 20833023.03031322,
+          "volValue": 30393080.110836565
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38698,
+        "quoteCurrency": "USDT",
+        "sell": 1.476,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80643945.05326734,
+        "volValue": 116487997.7547078
+      },
+      "time_received": "19:50:46.5523"
+    },
+    {
+      "sequence": "5154804752",
+      "data": {
+        "askSize": 810,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 5.0242,
+        "board": 1,
+        "buy": 1.4756,
+        "changePrice": 0.08863,
+        "changeRate": 0.0639,
+        "close": 1.47561,
+        "datetime": 1732564248505,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47561,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0133,
+          "changeRate": 0.009,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46231,
+          "vol": 1923251.6932,
+          "volValue": 2827059.260246495
+        },
+        "marketChange24h": {
+          "changePrice": 0.08863,
+          "changeRate": 0.0639,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38698,
+          "vol": 80643945.05326734,
+          "volValue": 116487997.7547078
+        },
+        "marketChange4h": {
+          "changePrice": 0.05513,
+          "changeRate": 0.0388,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.42048,
+          "vol": 20833023.03031322,
+          "volValue": 30393080.110836565
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38698,
+        "quoteCurrency": "USDT",
+        "sell": 1.47573,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80643945.05326734,
+        "volValue": 116487997.7547078
+      },
+      "time_received": "19:50:48.5615"
+    },
+    {
+      "sequence": "5154805414",
+      "data": {
+        "askSize": 135.3511,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 243,
+        "board": 1,
+        "buy": 1.47588,
+        "changePrice": 0.08863,
+        "changeRate": 0.0639,
+        "close": 1.47561,
+        "datetime": 1732564250324,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47561,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0133,
+          "changeRate": 0.009,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46231,
+          "vol": 1927306.5256,
+          "volValue": 2833043.842148901
+        },
+        "marketChange24h": {
+          "changePrice": 0.08863,
+          "changeRate": 0.0639,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38698,
+          "vol": 80647999.88566735,
+          "volValue": 116493982.33661021
+        },
+        "marketChange4h": {
+          "changePrice": 0.05513,
+          "changeRate": 0.0388,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.42048,
+          "vol": 20837077.86271322,
+          "volValue": 30399064.692738973
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38698,
+        "quoteCurrency": "USDT",
+        "sell": 1.47616,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80647999.88566735,
+        "volValue": 116493982.33661021
+      },
+      "time_received": "19:50:50.4062"
+    },
+    {
+      "sequence": "5154805823",
+      "data": {
+        "askSize": 810,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 5.0242,
+        "board": 1,
+        "buy": 1.4756,
+        "changePrice": 0.08863,
+        "changeRate": 0.0639,
+        "close": 1.47561,
+        "datetime": 1732564252536,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47561,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0133,
+          "changeRate": 0.009,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46231,
+          "vol": 1931538.0661,
+          "volValue": 2839287.040352301
+        },
+        "marketChange24h": {
+          "changePrice": 0.08863,
+          "changeRate": 0.0639,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38698,
+          "vol": 80652231.42616735,
+          "volValue": 116500225.53481361
+        },
+        "marketChange4h": {
+          "changePrice": 0.05513,
+          "changeRate": 0.0388,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.42048,
+          "vol": 20841309.40321322,
+          "volValue": 30405307.890942372
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38698,
+        "quoteCurrency": "USDT",
+        "sell": 1.47562,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80652231.42616735,
+        "volValue": 116500225.53481361
+      },
+      "time_received": "19:50:52.6364"
+    },
+    {
+      "sequence": "5154806180",
+      "data": {
+        "askSize": 340.8534,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 1620.4362,
+        "board": 1,
+        "buy": 1.47531,
+        "changePrice": 0.08832,
+        "changeRate": 0.0636,
+        "close": 1.4753,
+        "datetime": 1732564254465,
+        "high": 1.5388,
+        "lastTradedPrice": 1.4753,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01299,
+          "changeRate": 0.0088,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46231,
+          "vol": 1927306.5256,
+          "volValue": 2833043.842148901
+        },
+        "marketChange24h": {
+          "changePrice": 0.08832,
+          "changeRate": 0.0636,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38698,
+          "vol": 80647999.88566735,
+          "volValue": 116493982.33661021
+        },
+        "marketChange4h": {
+          "changePrice": 0.05482,
+          "changeRate": 0.0385,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.42048,
+          "vol": 20837077.86271322,
+          "volValue": 30399064.692738973
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38698,
+        "quoteCurrency": "USDT",
+        "sell": 1.47555,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80647999.88566735,
+        "volValue": 116493982.33661021
+      },
+      "time_received": "19:50:54.5204"
+    },
+    {
+      "sequence": "5154807035",
+      "data": {
+        "askSize": 810,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 1.7405,
+        "board": 1,
+        "buy": 1.47454,
+        "changePrice": 0.08761,
+        "changeRate": 0.0631,
+        "close": 1.47459,
+        "datetime": 1732564256480,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47459,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01228,
+          "changeRate": 0.0083,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46231,
+          "vol": 1931538.0661,
+          "volValue": 2839287.040352301
+        },
+        "marketChange24h": {
+          "changePrice": 0.08761,
+          "changeRate": 0.0631,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38698,
+          "vol": 80652231.42616735,
+          "volValue": 116500225.53481361
+        },
+        "marketChange4h": {
+          "changePrice": 0.05411,
+          "changeRate": 0.038,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.42048,
+          "vol": 20841309.40321322,
+          "volValue": 30405307.890942372
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38698,
+        "quoteCurrency": "USDT",
+        "sell": 1.47455,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80652231.42616735,
+        "volValue": 116500225.53481361
+      },
+      "time_received": "19:50:56.5361"
+    },
+    {
+      "sequence": "5154807661",
+      "data": {
+        "askSize": 1488.2881,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 0.5598,
+        "board": 1,
+        "buy": 1.4741,
+        "changePrice": 0.08717,
+        "changeRate": 0.0628,
+        "close": 1.47415,
+        "datetime": 1732564258445,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47415,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01184,
+          "changeRate": 0.008,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46231,
+          "vol": 1931538.0661,
+          "volValue": 2839287.040352301
+        },
+        "marketChange24h": {
+          "changePrice": 0.08717,
+          "changeRate": 0.0628,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38698,
+          "vol": 80652231.42616735,
+          "volValue": 116500225.53481361
+        },
+        "marketChange4h": {
+          "changePrice": 0.05367,
+          "changeRate": 0.0377,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.42048,
+          "vol": 20841309.40321322,
+          "volValue": 30405307.890942372
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38698,
+        "quoteCurrency": "USDT",
+        "sell": 1.47411,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80652231.42616735,
+        "volValue": 116500225.53481361
+      },
+      "time_received": "19:50:58.5015"
+    },
+    {
+      "sequence": "5154808382",
+      "data": {
+        "askSize": 810,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 243,
+        "board": 1,
+        "buy": 1.47373,
+        "changePrice": 0.0894,
+        "changeRate": 0.0645,
+        "close": 1.47367,
+        "datetime": 1732564260493,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47367,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.00502,
+          "changeRate": 0.0034,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46865,
+          "vol": 1904039.1682,
+          "volValue": 2798938.726933773
+        },
+        "marketChange24h": {
+          "changePrice": 0.0894,
+          "changeRate": 0.0645,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38427,
+          "vol": 80646216.20296735,
+          "volValue": 116492057.08255328
+        },
+        "marketChange4h": {
+          "changePrice": 0.05427,
+          "changeRate": 0.0382,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.4194,
+          "vol": 20779791.20301322,
+          "volValue": 30318080.638315566
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38427,
+        "quoteCurrency": "USDT",
+        "sell": 1.47406,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80646216.20296735,
+        "volValue": 116492057.08255328
+      },
+      "time_received": "19:51:00.5759"
+    },
+    {
+      "sequence": "5154809381",
+      "data": {
+        "askSize": 1.2273,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 486,
+        "board": 1,
+        "buy": 1.47537,
+        "changePrice": 0.08796,
+        "changeRate": 0.0634,
+        "close": 1.47494,
+        "datetime": 1732564262459,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47494,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.01263,
+          "changeRate": 0.0086,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46231,
+          "vol": 1931538.0661,
+          "volValue": 2839287.040352301
+        },
+        "marketChange24h": {
+          "changePrice": 0.08796,
+          "changeRate": 0.0634,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38698,
+          "vol": 80652231.42616735,
+          "volValue": 116500225.53481361
+        },
+        "marketChange4h": {
+          "changePrice": 0.05446,
+          "changeRate": 0.0383,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.42048,
+          "vol": 20841309.40321322,
+          "volValue": 30405307.890942372
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38698,
+        "quoteCurrency": "USDT",
+        "sell": 1.47556,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80652231.42616735,
+        "volValue": 116500225.53481361
+      },
+      "time_received": "19:51:02.5146"
+    },
+    {
+      "sequence": "5154809991",
+      "data": {
+        "askSize": 327.7021,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 810,
+        "board": 1,
+        "buy": 1.47577,
+        "changePrice": 0.09067,
+        "changeRate": 0.0655,
+        "close": 1.47494,
+        "datetime": 1732564264514,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47494,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.00629,
+          "changeRate": 0.0042,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46865,
+          "vol": 1904039.1682,
+          "volValue": 2798938.726933773
+        },
+        "marketChange24h": {
+          "changePrice": 0.09067,
+          "changeRate": 0.0655,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38427,
+          "vol": 80646216.20296735,
+          "volValue": 116492057.08255328
+        },
+        "marketChange4h": {
+          "changePrice": 0.05554,
+          "changeRate": 0.0391,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.4194,
+          "vol": 20779791.20301322,
+          "volValue": 30318080.638315566
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38427,
+        "quoteCurrency": "USDT",
+        "sell": 1.47617,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80646216.20296735,
+        "volValue": 116492057.08255328
+      },
+      "time_received": "19:51:04.5704"
+    },
+    {
+      "sequence": "5154811177",
+      "data": {
+        "askSize": 135.3328,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 243,
+        "board": 1,
+        "buy": 1.4759,
+        "changePrice": 0.0921,
+        "changeRate": 0.0665,
+        "close": 1.47637,
+        "datetime": 1732564266454,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47637,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.00772,
+          "changeRate": 0.0052,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46865,
+          "vol": 1904039.1682,
+          "volValue": 2798938.726933773
+        },
+        "marketChange24h": {
+          "changePrice": 0.0921,
+          "changeRate": 0.0665,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38427,
+          "vol": 80646216.20296735,
+          "volValue": 116492057.08255328
+        },
+        "marketChange4h": {
+          "changePrice": 0.05697,
+          "changeRate": 0.0401,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.4194,
+          "vol": 20779791.20301322,
+          "volValue": 30318080.638315566
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38427,
+        "quoteCurrency": "USDT",
+        "sell": 1.47636,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80646216.20296735,
+        "volValue": 116492057.08255328
+      },
+      "time_received": "19:51:06.5103"
+    },
+    {
+      "sequence": "5154811889",
+      "data": {
+        "askSize": 810,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 1.2274,
+        "board": 1,
+        "buy": 1.47551,
+        "changePrice": 0.0921,
+        "changeRate": 0.0665,
+        "close": 1.47637,
+        "datetime": 1732564268489,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47637,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.00772,
+          "changeRate": 0.0052,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46865,
+          "vol": 1904039.1682,
+          "volValue": 2798938.726933773
+        },
+        "marketChange24h": {
+          "changePrice": 0.0921,
+          "changeRate": 0.0665,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38427,
+          "vol": 80646216.20296735,
+          "volValue": 116492057.08255328
+        },
+        "marketChange4h": {
+          "changePrice": 0.05697,
+          "changeRate": 0.0401,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.4194,
+          "vol": 20779791.20301322,
+          "volValue": 30318080.638315566
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38427,
+        "quoteCurrency": "USDT",
+        "sell": 1.47559,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80646216.20296735,
+        "volValue": 116492057.08255328
+      },
+      "time_received": "19:51:08.5432"
+    },
+    {
+      "sequence": "5154812881",
+      "data": {
+        "askSize": 810,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 203.6783,
+        "board": 1,
+        "buy": 1.47539,
+        "changePrice": 0.0921,
+        "changeRate": 0.0665,
+        "close": 1.47637,
+        "datetime": 1732564270369,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47637,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.00772,
+          "changeRate": 0.0052,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46865,
+          "vol": 1904096.6778,
+          "volValue": 2799023.528223728
+        },
+        "marketChange24h": {
+          "changePrice": 0.0921,
+          "changeRate": 0.0665,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38427,
+          "vol": 80646273.71256734,
+          "volValue": 116492141.88384323
+        },
+        "marketChange4h": {
+          "changePrice": 0.05697,
+          "changeRate": 0.0401,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.4194,
+          "vol": 20779848.71261322,
+          "volValue": 30318165.43960552
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38427,
+        "quoteCurrency": "USDT",
+        "sell": 1.47561,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80646273.71256734,
+        "volValue": 116492141.88384323
+      },
+      "time_received": "19:51:10.4638"
+    },
+    {
+      "sequence": "5154813967",
+      "data": {
+        "askSize": 84.8147,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 1620.4362,
+        "board": 1,
+        "buy": 1.47376,
+        "changePrice": 0.09082,
+        "changeRate": 0.0656,
+        "close": 1.47509,
+        "datetime": 1732564272525,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47509,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.00644,
+          "changeRate": 0.0043,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46865,
+          "vol": 1904096.6778,
+          "volValue": 2799023.528223728
+        },
+        "marketChange24h": {
+          "changePrice": 0.09082,
+          "changeRate": 0.0656,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38427,
+          "vol": 80646273.71256734,
+          "volValue": 116492141.88384323
+        },
+        "marketChange4h": {
+          "changePrice": 0.05569,
+          "changeRate": 0.0392,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.4194,
+          "vol": 20779848.71261322,
+          "volValue": 30318165.43960552
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38427,
+        "quoteCurrency": "USDT",
+        "sell": 1.47413,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80646273.71256734,
+        "volValue": 116492141.88384323
+      },
+      "time_received": "19:51:12.5805"
+    },
+    {
+      "sequence": "5154814787",
+      "data": {
+        "askSize": 810,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 203.2454,
+        "board": 1,
+        "buy": 1.47387,
+        "changePrice": 0.09082,
+        "changeRate": 0.0656,
+        "close": 1.47509,
+        "datetime": 1732564274427,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47509,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.00644,
+          "changeRate": 0.0043,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46865,
+          "vol": 1904096.6778,
+          "volValue": 2799023.528223728
+        },
+        "marketChange24h": {
+          "changePrice": 0.09082,
+          "changeRate": 0.0656,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38427,
+          "vol": 80646273.71256734,
+          "volValue": 116492141.88384323
+        },
+        "marketChange4h": {
+          "changePrice": 0.05569,
+          "changeRate": 0.0392,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.4194,
+          "vol": 20779848.71261322,
+          "volValue": 30318165.43960552
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38427,
+        "quoteCurrency": "USDT",
+        "sell": 1.47417,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80646273.71256734,
+        "volValue": 116492141.88384323
+      },
+      "time_received": "19:51:14.4857"
+    },
+    {
+      "sequence": "5154815305",
+      "data": {
+        "askSize": 810,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 243,
+        "board": 1,
+        "buy": 1.47408,
+        "changePrice": 0.09082,
+        "changeRate": 0.0656,
+        "close": 1.47509,
+        "datetime": 1732564276497,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47509,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.00644,
+          "changeRate": 0.0043,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46865,
+          "vol": 1904195.1566,
+          "volValue": 2799168.731546395
+        },
+        "marketChange24h": {
+          "changePrice": 0.09082,
+          "changeRate": 0.0656,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38427,
+          "vol": 80646372.19136734,
+          "volValue": 116492287.0871659
+        },
+        "marketChange4h": {
+          "changePrice": 0.05569,
+          "changeRate": 0.0392,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.4194,
+          "vol": 20779947.19141322,
+          "volValue": 30318310.642928187
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38427,
+        "quoteCurrency": "USDT",
+        "sell": 1.47438,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80646372.19136734,
+        "volValue": 116492287.0871659
+      },
+      "time_received": "19:51:16.5988"
+    },
+    {
+      "sequence": "5154816922",
+      "data": {
+        "askSize": 810,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 810,
+        "board": 1,
+        "buy": 1.47369,
+        "changePrice": 0.08958,
+        "changeRate": 0.0647,
+        "close": 1.47385,
+        "datetime": 1732564278489,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47385,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0052,
+          "changeRate": 0.0035,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46865,
+          "vol": 1905535.6846,
+          "volValue": 2801145.89800782
+        },
+        "marketChange24h": {
+          "changePrice": 0.08958,
+          "changeRate": 0.0647,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38427,
+          "vol": 80647712.71936736,
+          "volValue": 116494264.25362733
+        },
+        "marketChange4h": {
+          "changePrice": 0.05445,
+          "changeRate": 0.0383,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.4194,
+          "vol": 20781287.71941322,
+          "volValue": 30320287.809389614
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38427,
+        "quoteCurrency": "USDT",
+        "sell": 1.47402,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80647712.71936736,
+        "volValue": 116494264.25362733
+      },
+      "time_received": "19:51:18.5686"
+    },
+    {
+      "sequence": "5154817666",
+      "data": {
+        "askSize": 1230.3375,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 810,
+        "board": 1,
+        "buy": 1.47472,
+        "changePrice": 0.09024,
+        "changeRate": 0.0651,
+        "close": 1.47451,
+        "datetime": 1732564280491,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47451,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.00586,
+          "changeRate": 0.0039,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46865,
+          "vol": 1905535.6846,
+          "volValue": 2801145.89800782
+        },
+        "marketChange24h": {
+          "changePrice": 0.09024,
+          "changeRate": 0.0651,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38427,
+          "vol": 80647712.71936736,
+          "volValue": 116494264.25362733
+        },
+        "marketChange4h": {
+          "changePrice": 0.05511,
+          "changeRate": 0.0388,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.4194,
+          "vol": 20781287.71941322,
+          "volValue": 30320287.809389614
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38427,
+        "quoteCurrency": "USDT",
+        "sell": 1.47506,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80647712.71936736,
+        "volValue": 116494264.25362733
+      },
+      "time_received": "19:51:20.5459"
+    },
+    {
+      "sequence": "5154818249",
+      "data": {
+        "askSize": 243,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 810,
+        "board": 1,
+        "buy": 1.4745,
+        "changePrice": 0.09038,
+        "changeRate": 0.0652,
+        "close": 1.47465,
+        "datetime": 1732564282459,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47465,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.006,
+          "changeRate": 0.004,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46865,
+          "vol": 1905535.6846,
+          "volValue": 2801145.89800782
+        },
+        "marketChange24h": {
+          "changePrice": 0.09038,
+          "changeRate": 0.0652,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38427,
+          "vol": 80647712.71936736,
+          "volValue": 116494264.25362733
+        },
+        "marketChange4h": {
+          "changePrice": 0.05525,
+          "changeRate": 0.0389,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.4194,
+          "vol": 20781287.71941322,
+          "volValue": 30320287.809389614
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38427,
+        "quoteCurrency": "USDT",
+        "sell": 1.47494,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80647712.71936736,
+        "volValue": 116494264.25362733
+      },
+      "time_received": "19:51:22.5146"
+    },
+    {
+      "sequence": "5154819317",
+      "data": {
+        "askSize": 810,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 135.4612,
+        "board": 1,
+        "buy": 1.47496,
+        "changePrice": 0.09113,
+        "changeRate": 0.0658,
+        "close": 1.4754,
+        "datetime": 1732564284392,
+        "high": 1.5388,
+        "lastTradedPrice": 1.4754,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.00675,
+          "changeRate": 0.0045,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46865,
+          "vol": 1904195.1566,
+          "volValue": 2799168.731546395
+        },
+        "marketChange24h": {
+          "changePrice": 0.09113,
+          "changeRate": 0.0658,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38427,
+          "vol": 80646372.19136734,
+          "volValue": 116492287.0871659
+        },
+        "marketChange4h": {
+          "changePrice": 0.056,
+          "changeRate": 0.0394,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.4194,
+          "vol": 20779947.19141322,
+          "volValue": 30318310.642928187
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38427,
+        "quoteCurrency": "USDT",
+        "sell": 1.47524,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80646372.19136734,
+        "volValue": 116492287.0871659
+      },
+      "time_received": "19:51:24.4476"
+    },
+    {
+      "sequence": "5154819924",
+      "data": {
+        "askSize": 1.2279,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 810,
+        "board": 1,
+        "buy": 1.47466,
+        "changePrice": 0.09058,
+        "changeRate": 0.0654,
+        "close": 1.47485,
+        "datetime": 1732564286483,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47485,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0062,
+          "changeRate": 0.0042,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46865,
+          "vol": 1905535.6846,
+          "volValue": 2801145.89800782
+        },
+        "marketChange24h": {
+          "changePrice": 0.09058,
+          "changeRate": 0.0654,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38427,
+          "vol": 80647712.71936736,
+          "volValue": 116494264.25362733
+        },
+        "marketChange4h": {
+          "changePrice": 0.05545,
+          "changeRate": 0.039,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.4194,
+          "vol": 20781287.71941322,
+          "volValue": 30320287.809389614
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38427,
+        "quoteCurrency": "USDT",
+        "sell": 1.47495,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80647712.71936736,
+        "volValue": 116494264.25362733
+      },
+      "time_received": "19:51:26.5379"
+    },
+    {
+      "sequence": "5154820544",
+      "data": {
+        "askSize": 810,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 810,
+        "board": 1,
+        "buy": 1.47496,
+        "changePrice": 0.09058,
+        "changeRate": 0.0654,
+        "close": 1.47485,
+        "datetime": 1732564288476,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47485,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0062,
+          "changeRate": 0.0042,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46865,
+          "vol": 1906668.6027,
+          "volValue": 2802816.515981887
+        },
+        "marketChange24h": {
+          "changePrice": 0.09058,
+          "changeRate": 0.0654,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38427,
+          "vol": 80648845.63746735,
+          "volValue": 116495934.87160139
+        },
+        "marketChange4h": {
+          "changePrice": 0.05545,
+          "changeRate": 0.039,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.4194,
+          "vol": 20782420.63751322,
+          "volValue": 30321958.42736368
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38427,
+        "quoteCurrency": "USDT",
+        "sell": 1.47522,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80648845.63746735,
+        "volValue": 116495934.87160139
+      },
+      "time_received": "19:51:28.5767"
+    },
+    {
+      "sequence": "5154821240",
+      "data": {
+        "askSize": 810,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 243,
+        "board": 1,
+        "buy": 1.47457,
+        "changePrice": 0.09058,
+        "changeRate": 0.0654,
+        "close": 1.47485,
+        "datetime": 1732564290531,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47485,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0062,
+          "changeRate": 0.0042,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46865,
+          "vol": 1906668.6027,
+          "volValue": 2802816.515981887
+        },
+        "marketChange24h": {
+          "changePrice": 0.09058,
+          "changeRate": 0.0654,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38427,
+          "vol": 80648845.63746735,
+          "volValue": 116495934.87160139
+        },
+        "marketChange4h": {
+          "changePrice": 0.05545,
+          "changeRate": 0.039,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.4194,
+          "vol": 20782420.63751322,
+          "volValue": 30321958.42736368
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38427,
+        "quoteCurrency": "USDT",
+        "sell": 1.47481,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80648845.63746735,
+        "volValue": 116495934.87160139
+      },
+      "time_received": "19:51:30.6083"
+    },
+    {
+      "sequence": "5154821392",
+      "data": {
+        "askSize": 243,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 135.5053,
+        "board": 1,
+        "buy": 1.47448,
+        "changePrice": 0.09058,
+        "changeRate": 0.0654,
+        "close": 1.47485,
+        "datetime": 1732564292409,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47485,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0062,
+          "changeRate": 0.0042,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46865,
+          "vol": 1906668.6027,
+          "volValue": 2802816.515981887
+        },
+        "marketChange24h": {
+          "changePrice": 0.09058,
+          "changeRate": 0.0654,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38427,
+          "vol": 80648845.63746735,
+          "volValue": 116495934.87160139
+        },
+        "marketChange4h": {
+          "changePrice": 0.05545,
+          "changeRate": 0.039,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.4194,
+          "vol": 20782420.63751322,
+          "volValue": 30321958.42736368
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38427,
+        "quoteCurrency": "USDT",
+        "sell": 1.47472,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80648845.63746735,
+        "volValue": 116495934.87160139
+      },
+      "time_received": "19:51:32.4649"
+    },
+    {
+      "sequence": "5154822496",
+      "data": {
+        "askSize": 678.255,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 243,
+        "board": 1,
+        "buy": 1.47392,
+        "changePrice": 0.08948,
+        "changeRate": 0.0646,
+        "close": 1.47375,
+        "datetime": 1732564294508,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47375,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0051,
+          "changeRate": 0.0034,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46865,
+          "vol": 1906668.6027,
+          "volValue": 2802816.515981887
+        },
+        "marketChange24h": {
+          "changePrice": 0.08948,
+          "changeRate": 0.0646,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38427,
+          "vol": 80648845.63746735,
+          "volValue": 116495934.87160139
+        },
+        "marketChange4h": {
+          "changePrice": 0.05435,
+          "changeRate": 0.0382,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.4194,
+          "vol": 20782420.63751322,
+          "volValue": 30321958.42736368
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38427,
+        "quoteCurrency": "USDT",
+        "sell": 1.4742,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80648845.63746735,
+        "volValue": 116495934.87160139
+      },
+      "time_received": "19:51:34.5629"
+    },
+    {
+      "sequence": "5154823105",
+      "data": {
+        "askSize": 50.2294,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 810,
+        "board": 1,
+        "buy": 1.47439,
+        "changePrice": 0.08948,
+        "changeRate": 0.0646,
+        "close": 1.47375,
+        "datetime": 1732564296377,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47375,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0051,
+          "changeRate": 0.0034,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46865,
+          "vol": 1906668.6027,
+          "volValue": 2802816.515981887
+        },
+        "marketChange24h": {
+          "changePrice": 0.08948,
+          "changeRate": 0.0646,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38427,
+          "vol": 80648845.63746735,
+          "volValue": 116495934.87160139
+        },
+        "marketChange4h": {
+          "changePrice": 0.05435,
+          "changeRate": 0.0382,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.4194,
+          "vol": 20782420.63751322,
+          "volValue": 30321958.42736368
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38427,
+        "quoteCurrency": "USDT",
+        "sell": 1.47465,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80648845.63746735,
+        "volValue": 116495934.87160139
+      },
+      "time_received": "19:51:36.4318"
+    },
+    {
+      "sequence": "5154823648",
+      "data": {
+        "askSize": 810,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 243,
+        "board": 1,
+        "buy": 1.47494,
+        "changePrice": 0.08948,
+        "changeRate": 0.0646,
+        "close": 1.47375,
+        "datetime": 1732564298548,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47375,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0051,
+          "changeRate": 0.0034,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46865,
+          "vol": 1906812.1595,
+          "volValue": 2803028.105860543
+        },
+        "marketChange24h": {
+          "changePrice": 0.08948,
+          "changeRate": 0.0646,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38427,
+          "vol": 80648989.19426735,
+          "volValue": 116496146.46148005
+        },
+        "marketChange4h": {
+          "changePrice": 0.05435,
+          "changeRate": 0.0382,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.4194,
+          "vol": 20782564.19431322,
+          "volValue": 30322170.017242335
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38427,
+        "quoteCurrency": "USDT",
+        "sell": 1.47528,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80648989.19426735,
+        "volValue": 116496146.46148005
+      },
+      "time_received": "19:51:38.6293"
+    },
+    {
+      "sequence": "5154824303",
+      "data": {
+        "askSize": 810,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 243,
+        "board": 1,
+        "buy": 1.4747,
+        "changePrice": 0.08948,
+        "changeRate": 0.0646,
+        "close": 1.47375,
+        "datetime": 1732564300467,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47375,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0051,
+          "changeRate": 0.0034,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46865,
+          "vol": 1906812.1595,
+          "volValue": 2803028.105860543
+        },
+        "marketChange24h": {
+          "changePrice": 0.08948,
+          "changeRate": 0.0646,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38427,
+          "vol": 80648989.19426735,
+          "volValue": 116496146.46148005
+        },
+        "marketChange4h": {
+          "changePrice": 0.05435,
+          "changeRate": 0.0382,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.4194,
+          "vol": 20782564.19431322,
+          "volValue": 30322170.017242335
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38427,
+        "quoteCurrency": "USDT",
+        "sell": 1.47501,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80648989.19426735,
+        "volValue": 116496146.46148005
+      },
+      "time_received": "19:51:40.5483"
+    },
+    {
+      "sequence": "5154824893",
+      "data": {
+        "askSize": 810,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 1.2282,
+        "board": 1,
+        "buy": 1.47453,
+        "changePrice": 0.0906,
+        "changeRate": 0.0654,
+        "close": 1.47487,
+        "datetime": 1732564302460,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47487,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.00622,
+          "changeRate": 0.0042,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46865,
+          "vol": 1906812.1595,
+          "volValue": 2803028.105860543
+        },
+        "marketChange24h": {
+          "changePrice": 0.0906,
+          "changeRate": 0.0654,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38427,
+          "vol": 80648989.19426735,
+          "volValue": 116496146.46148005
+        },
+        "marketChange4h": {
+          "changePrice": 0.05547,
+          "changeRate": 0.039,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.4194,
+          "vol": 20782564.19431322,
+          "volValue": 30322170.017242335
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38427,
+        "quoteCurrency": "USDT",
+        "sell": 1.47461,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80648989.19426735,
+        "volValue": 116496146.46148005
+      },
+      "time_received": "19:51:42.5156"
+    },
+    {
+      "sequence": "5154825140",
+      "data": {
+        "askSize": 678.0723,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 810,
+        "board": 1,
+        "buy": 1.47432,
+        "changePrice": 0.09005,
+        "changeRate": 0.065,
+        "close": 1.47432,
+        "datetime": 1732564304479,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47432,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.00567,
+          "changeRate": 0.0038,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46865,
+          "vol": 1906812.1595,
+          "volValue": 2803028.105860543
+        },
+        "marketChange24h": {
+          "changePrice": 0.09005,
+          "changeRate": 0.065,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38427,
+          "vol": 80648989.19426735,
+          "volValue": 116496146.46148005
+        },
+        "marketChange4h": {
+          "changePrice": 0.05492,
+          "changeRate": 0.0386,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.4194,
+          "vol": 20782564.19431322,
+          "volValue": 30322170.017242335
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38427,
+        "quoteCurrency": "USDT",
+        "sell": 1.4746,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80648989.19426735,
+        "volValue": 116496146.46148005
+      },
+      "time_received": "19:51:44.5353"
+    },
+    {
+      "sequence": "5154826203",
+      "data": {
+        "askSize": 84.8569,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 1.3577,
+        "board": 1,
+        "buy": 1.47315,
+        "changePrice": 0.08894,
+        "changeRate": 0.0642,
+        "close": 1.47321,
+        "datetime": 1732564306420,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47321,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.00456,
+          "changeRate": 0.0031,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46865,
+          "vol": 1906812.1595,
+          "volValue": 2803028.105860543
+        },
+        "marketChange24h": {
+          "changePrice": 0.08894,
+          "changeRate": 0.0642,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38427,
+          "vol": 80648989.19426735,
+          "volValue": 116496146.46148005
+        },
+        "marketChange4h": {
+          "changePrice": 0.05381,
+          "changeRate": 0.0379,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.4194,
+          "vol": 20782564.19431322,
+          "volValue": 30322170.017242335
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38427,
+        "quoteCurrency": "USDT",
+        "sell": 1.47334,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80648989.19426735,
+        "volValue": 116496146.46148005
+      },
+      "time_received": "19:51:46.4752"
+    },
+    {
+      "sequence": "5154828134",
+      "data": {
+        "askSize": 1.2273,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 310.7748,
+        "board": 1,
+        "buy": 1.47545,
+        "changePrice": 0.09083,
+        "changeRate": 0.0656,
+        "close": 1.4751,
+        "datetime": 1732564310531,
+        "high": 1.5388,
+        "lastTradedPrice": 1.4751,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.00645,
+          "changeRate": 0.0043,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46865,
+          "vol": 1923286.7628,
+          "volValue": 2827320.81917617
+        },
+        "marketChange24h": {
+          "changePrice": 0.09083,
+          "changeRate": 0.0656,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38427,
+          "vol": 80665463.79756735,
+          "volValue": 116520439.17479567
+        },
+        "marketChange4h": {
+          "changePrice": 0.0557,
+          "changeRate": 0.0392,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.4194,
+          "vol": 20799038.79761322,
+          "volValue": 30346462.730557963
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38427,
+        "quoteCurrency": "USDT",
+        "sell": 1.47561,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80665463.79756735,
+        "volValue": 116520439.17479567
+      },
+      "time_received": "19:51:50.6087"
+    },
+    {
+      "sequence": "5154828958",
+      "data": {
+        "askSize": 316.6,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 810,
+        "board": 1,
+        "buy": 1.47527,
+        "changePrice": 0.09083,
+        "changeRate": 0.0656,
+        "close": 1.4751,
+        "datetime": 1732564312556,
+        "high": 1.5388,
+        "lastTradedPrice": 1.4751,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.00645,
+          "changeRate": 0.0043,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46865,
+          "vol": 1923286.7628,
+          "volValue": 2827320.81917617
+        },
+        "marketChange24h": {
+          "changePrice": 0.09083,
+          "changeRate": 0.0656,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38427,
+          "vol": 80665463.79756735,
+          "volValue": 116520439.17479567
+        },
+        "marketChange4h": {
+          "changePrice": 0.0557,
+          "changeRate": 0.0392,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.4194,
+          "vol": 20799038.79761322,
+          "volValue": 30346462.730557963
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38427,
+        "quoteCurrency": "USDT",
+        "sell": 1.47581,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80665463.79756735,
+        "volValue": 116520439.17479567
+      },
+      "time_received": "19:51:52.6115"
+    },
+    {
+      "sequence": "5154829747",
+      "data": {
+        "askSize": 1.2267,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 67.7454,
+        "board": 1,
+        "buy": 1.47608,
+        "changePrice": 0.0919,
+        "changeRate": 0.0663,
+        "close": 1.47617,
+        "datetime": 1732564314405,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47617,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.00752,
+          "changeRate": 0.0051,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46865,
+          "vol": 1923286.7628,
+          "volValue": 2827320.81917617
+        },
+        "marketChange24h": {
+          "changePrice": 0.0919,
+          "changeRate": 0.0663,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38427,
+          "vol": 80665463.79756735,
+          "volValue": 116520439.17479567
+        },
+        "marketChange4h": {
+          "changePrice": 0.05677,
+          "changeRate": 0.0399,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.4194,
+          "vol": 20799038.79761322,
+          "volValue": 30346462.730557963
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38427,
+        "quoteCurrency": "USDT",
+        "sell": 1.47636,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80665463.79756735,
+        "volValue": 116520439.17479567
+      },
+      "time_received": "19:51:54.4616"
+    },
+    {
+      "sequence": "5154830288",
+      "data": {
+        "askSize": 360.949,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 810,
+        "board": 1,
+        "buy": 1.47651,
+        "changePrice": 0.0919,
+        "changeRate": 0.0663,
+        "close": 1.47617,
+        "datetime": 1732564316536,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47617,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.00752,
+          "changeRate": 0.0051,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46865,
+          "vol": 1924614.994,
+          "volValue": 2829280.969545136
+        },
+        "marketChange24h": {
+          "changePrice": 0.0919,
+          "changeRate": 0.0663,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38427,
+          "vol": 80666792.02876735,
+          "volValue": 116522399.32516465
+        },
+        "marketChange4h": {
+          "changePrice": 0.05677,
+          "changeRate": 0.0399,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.4194,
+          "vol": 20800367.02881322,
+          "volValue": 30348422.88092693
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38427,
+        "quoteCurrency": "USDT",
+        "sell": 1.47686,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80666792.02876735,
+        "volValue": 116522399.32516465
+      },
+      "time_received": "19:51:56.6303"
+    },
+    {
+      "sequence": "5154831018",
+      "data": {
+        "askSize": 614.6117,
+        "averagePrice": 1.4176014,
+        "baseCurrency": "XRP",
+        "bidSize": 810,
+        "board": 1,
+        "buy": 1.476,
+        "changePrice": 0.09156,
+        "changeRate": 0.0661,
+        "close": 1.47583,
+        "datetime": 1732564318441,
+        "high": 1.5388,
+        "lastTradedPrice": 1.47583,
+        "low": 1.3551,
+        "makerCoefficient": 1.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": true,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.00718,
+          "changeRate": 0.0048,
+          "high": 1.48201,
+          "low": 1.45436,
+          "open": 1.46865,
+          "vol": 1924614.994,
+          "volValue": 2829280.969545136
+        },
+        "marketChange24h": {
+          "changePrice": 0.09156,
+          "changeRate": 0.0661,
+          "high": 1.5388,
+          "low": 1.3551,
+          "open": 1.38427,
+          "vol": 80666792.02876735,
+          "volValue": 116522399.32516465
+        },
+        "marketChange4h": {
+          "changePrice": 0.05643,
+          "changeRate": 0.0397,
+          "high": 1.52363,
+          "low": 1.41124,
+          "open": 1.4194,
+          "vol": 20800367.02881322,
+          "volValue": 30348422.88092693
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 1.38427,
+        "quoteCurrency": "USDT",
+        "sell": 1.4763,
+        "siteTypes": [
+          "thailand",
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "XRP-USDT",
+        "symbolCode": "XRP-USDT",
+        "takerCoefficient": 1.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 80666792.02876735,
+        "volValue": 116522399.32516465
+      },
+      "time_received": "19:51:58.4985"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "symbol": "LUCE",
+    "channel": "match",
+    "start_time": "19:49:30.0000",
+    "release_time": "19:50:00.0000",
+    "end_time": "19:52:00.0000",
+    "total_messages": 1,
+    "final_snapshot": {
+      "time": "19:52:00.5760",
+      "symbol": "LUCE-USDT",
+      "price_high": "0.17",
+      "price_last": "0.1219",
+      "price_low": "0.11722",
+      "price_avg": "0.14110597",
+      "volValue_USDT": "1128744.392631"
+    }
+  },
+  "data": [
+    {
+      "makerOrderId": "6744d51f6967d3000738f438",
+      "price": "0.1219",
+      "sequence": "5687135182403585",
+      "side": "sell",
+      "size": "185.8",
+      "symbol": "LUCE-USDT",
+      "takerOrderId": "6744d51ff4f1200007edd79c",
+      "time": "1732564255999000000",
+      "tradeId": "5687135182403585",
+      "type": "match",
+      "time_received": "19:50:56.0623"
+    }
+  ]
+}

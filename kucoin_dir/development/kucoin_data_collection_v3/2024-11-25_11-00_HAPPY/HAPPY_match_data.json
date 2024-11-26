@@ -1,0 +1,2005 @@
+[
+  {
+    "id": "1732532370423",
+    "type": "pong",
+    "timestamp": 1732532370462787
+  },
+  {
+    "id": "1732532390423",
+    "type": "pong",
+    "timestamp": 1732532390462325
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "price": "0.012",
+      "sequence": "5674252442548225",
+      "side": "sell",
+      "size": "10",
+      "symbol": "HAPPY-USDT",
+      "time": "1732532400000000000",
+      "tradeId": "5674252442548225",
+      "type": "match",
+      "time_before_que.put": "11:00:00.187",
+      "seconds_from_release": 0.187618,
+      "time_after_queue.get": "11:00:00.188"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67444f2f1586c10007aabb35",
+      "price": "0.02",
+      "sequence": "5674252446218241",
+      "side": "buy",
+      "size": "2839",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458b0f1bf400007e09198",
+      "time": "1732532400139000000",
+      "tradeId": "5674252446218241",
+      "type": "match",
+      "time_before_que.put": "11:00:00.189",
+      "seconds_from_release": 0.18944,
+      "time_after_queue.get": "11:00:00.189"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "67444f3f6967d30007103215",
+      "price": "0.02156",
+      "sequence": "5674252446218244",
+      "side": "buy",
+      "size": "1372.1",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458b0f1bf400007e09198",
+      "time": "1732532400139000000",
+      "tradeId": "5674252446218244",
+      "type": "match",
+      "time_before_que.put": "11:00:00.189",
+      "seconds_from_release": 0.1898,
+      "time_after_queue.get": "11:00:00.189"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6744500af4a7c50007acac30",
+      "price": "0.028",
+      "sequence": "5674252457097217",
+      "side": "buy",
+      "size": "100",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458b0cf286a00078ad105",
+      "time": "1732532400168000000",
+      "tradeId": "5674252457097217",
+      "type": "match",
+      "time_before_que.put": "11:00:00.215",
+      "seconds_from_release": 0.215997,
+      "time_after_queue.get": "11:00:00.216"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6744500af4a7c50007acac30",
+      "price": "0.028",
+      "sequence": "5674252600621057",
+      "side": "buy",
+      "size": "110",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458b01586c10007eac4ae",
+      "time": "1732532400569000000",
+      "tradeId": "5674252600621057",
+      "type": "match",
+      "time_before_que.put": "11:00:00.620",
+      "seconds_from_release": 0.620437,
+      "time_after_queue.get": "11:00:00.620"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6744500af4a7c50007acac30",
+      "price": "0.028",
+      "sequence": "5674252608616449",
+      "side": "buy",
+      "size": "110",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458b0cf286a00078ad42e",
+      "time": "1732532400590000000",
+      "tradeId": "5674252608616449",
+      "type": "match",
+      "time_before_que.put": "11:00:00.639",
+      "seconds_from_release": 0.639166,
+      "time_after_queue.get": "11:00:00.639"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6744500af4a7c50007acac30",
+      "price": "0.028",
+      "sequence": "5674252611893249",
+      "side": "buy",
+      "size": "110",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458b037061e000790b03c",
+      "time": "1732532400600000000",
+      "tradeId": "5674252611893249",
+      "type": "match",
+      "time_before_que.put": "11:00:00.643",
+      "seconds_from_release": 0.643824,
+      "time_after_queue.get": "11:00:00.644"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "6744500af4a7c50007acac30",
+      "price": "0.028",
+      "sequence": "5674252880459777",
+      "side": "buy",
+      "size": "187.7",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458b168486d0007d600ba",
+      "time": "1732532401245000000",
+      "tradeId": "5674252880459777",
+      "type": "match",
+      "time_before_que.put": "11:00:01.301",
+      "seconds_from_release": 1.301349,
+      "time_after_queue.get": "11:00:01.301"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458b0f1bf400007e091dd",
+      "price": "0.026",
+      "sequence": "5674253034338305",
+      "side": "sell",
+      "size": "384",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458b168486d0007d603a7",
+      "time": "1732532401616000000",
+      "tradeId": "5674253034338305",
+      "type": "match",
+      "time_before_que.put": "11:00:01.753",
+      "seconds_from_release": 1.753145,
+      "time_after_queue.get": "11:00:01.754"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458b0f4f120000704b7c3",
+      "price": "0.026",
+      "sequence": "5674253034338308",
+      "side": "sell",
+      "size": "384",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458b168486d0007d603a7",
+      "time": "1732532401616000000",
+      "tradeId": "5674253034338308",
+      "type": "match",
+      "time_before_que.put": "11:00:01.753",
+      "seconds_from_release": 1.753729,
+      "time_after_queue.get": "11:00:01.754"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458b0f1bf400007e09198",
+      "price": "0.025",
+      "sequence": "5674253097383937",
+      "side": "sell",
+      "size": "110",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458b1088f010007f46d1f",
+      "time": "1732532401821000000",
+      "tradeId": "5674253097383937",
+      "type": "match",
+      "time_before_que.put": "11:00:01.868",
+      "seconds_from_release": 1.868819,
+      "time_after_queue.get": "11:00:01.870"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458b0f1bf400007e09198",
+      "price": "0.025",
+      "sequence": "5674253099087873",
+      "side": "sell",
+      "size": "110",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458b167cdc90007978269",
+      "time": "1732532401827000000",
+      "tradeId": "5674253099087873",
+      "type": "match",
+      "time_before_que.put": "11:00:01.875",
+      "seconds_from_release": 1.875663,
+      "time_after_queue.get": "11:00:01.875"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458b0f1bf400007e09198",
+      "price": "0.025",
+      "sequence": "5674253102102529",
+      "side": "sell",
+      "size": "110",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458b10d855300076b2984",
+      "time": "1732532401837000000",
+      "tradeId": "5674253102102529",
+      "type": "match",
+      "time_before_que.put": "11:00:01.885",
+      "seconds_from_release": 1.885679,
+      "time_after_queue.get": "11:00:01.886"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458b1088f010007f46e56",
+      "price": "0.02501",
+      "sequence": "5674253517207553",
+      "side": "sell",
+      "size": "1976.3",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458b2d52cb8000749c76b",
+      "time": "1732532402964000000",
+      "tradeId": "5674253517207553",
+      "type": "match",
+      "time_before_que.put": "11:00:03.013",
+      "seconds_from_release": 3.01352,
+      "time_after_queue.get": "11:00:03.013"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458b16967d300074fded3",
+      "price": "0.02501",
+      "sequence": "5674253517207556",
+      "side": "sell",
+      "size": "1976.3",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458b2d52cb8000749c76b",
+      "time": "1732532402964000000",
+      "tradeId": "5674253517207556",
+      "type": "match",
+      "time_before_que.put": "11:00:03.013",
+      "seconds_from_release": 3.013755,
+      "time_after_queue.get": "11:00:03.013"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458b26967d300074fdf5e",
+      "price": "0.02501",
+      "sequence": "5674253517207559",
+      "side": "sell",
+      "size": "1976.3",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458b2d52cb8000749c76b",
+      "time": "1732532402964000000",
+      "tradeId": "5674253517207559",
+      "type": "match",
+      "time_before_que.put": "11:00:03.013",
+      "seconds_from_release": 3.013947,
+      "time_after_queue.get": "11:00:03.014"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458b0f1bf400007e09198",
+      "price": "0.025",
+      "sequence": "5674253517207562",
+      "side": "sell",
+      "size": "33324.1",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458b2d52cb8000749c76b",
+      "time": "1732532402964000000",
+      "tradeId": "5674253517207562",
+      "type": "match",
+      "time_before_que.put": "11:00:03.014",
+      "seconds_from_release": 3.01422,
+      "time_after_queue.get": "11:00:03.014"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458b0f1bf400007e09198",
+      "price": "0.025",
+      "sequence": "5674253751564289",
+      "side": "sell",
+      "size": "40322.7",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458b331d0950007775cc1",
+      "time": "1732532403633000000",
+      "tradeId": "5674253751564289",
+      "type": "match",
+      "time_before_que.put": "11:00:03.682",
+      "seconds_from_release": 3.682192,
+      "time_after_queue.get": "11:00:03.682"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458b0f1bf400007e09198",
+      "price": "0.025",
+      "sequence": "5674254562244609",
+      "side": "sell",
+      "size": "21812.1",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458b5f4a7c50007e675d2",
+      "time": "1732532405753000000",
+      "tradeId": "5674254562244609",
+      "type": "match",
+      "time_before_que.put": "11:00:05.806",
+      "seconds_from_release": 5.806484,
+      "time_after_queue.get": "11:00:05.806"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458b0df6f6e0007bfec8c",
+      "price": "0.025",
+      "sequence": "5674254562244612",
+      "side": "sell",
+      "size": "165687.9",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458b5f4a7c50007e675d2",
+      "time": "1732532405753000000",
+      "tradeId": "5674254562244612",
+      "type": "match",
+      "time_before_que.put": "11:00:05.806",
+      "seconds_from_release": 5.806833,
+      "time_after_queue.get": "11:00:05.807"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458b0df6f6e0007bfec8c",
+      "price": "0.025",
+      "sequence": "5674254733555713",
+      "side": "sell",
+      "size": "6646.9",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458b6f4a7c50007e678b1",
+      "time": "1732532406164000000",
+      "tradeId": "5674254733555713",
+      "type": "match",
+      "time_before_que.put": "11:00:06.208",
+      "seconds_from_release": 6.208974,
+      "time_after_queue.get": "11:00:06.209"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458b168486d0007d603a7",
+      "price": "0.0256",
+      "sequence": "5674254775629825",
+      "side": "buy",
+      "size": "593.4",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458b6f4f120000704e26c",
+      "time": "1732532406297000000",
+      "tradeId": "5674254775629825",
+      "type": "match",
+      "time_before_que.put": "11:00:06.342",
+      "seconds_from_release": 6.342372,
+      "time_after_queue.get": "11:00:06.343"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458b0df6f6e0007bfec8c",
+      "price": "0.025",
+      "sequence": "5674255128213505",
+      "side": "sell",
+      "size": "27665.2",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458b7c65bf700077f5bf5",
+      "time": "1732532407147000000",
+      "tradeId": "5674255128213505",
+      "type": "match",
+      "time_before_que.put": "11:00:07.196",
+      "seconds_from_release": 7.196784,
+      "time_after_queue.get": "11:00:07.197"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458b0ae93cc0007149d28",
+      "price": "0.025",
+      "sequence": "5674255128213508",
+      "side": "sell",
+      "size": "53264.4",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458b7c65bf700077f5bf5",
+      "time": "1732532407147000000",
+      "tradeId": "5674255128213508",
+      "type": "match",
+      "time_before_que.put": "11:00:07.197",
+      "seconds_from_release": 7.197243,
+      "time_after_queue.get": "11:00:07.197"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458b168486d0007d603a7",
+      "price": "0.0256",
+      "sequence": "5674255149840385",
+      "side": "buy",
+      "size": "846.7",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458b7cf286a00078b0370",
+      "time": "1732532407223000000",
+      "tradeId": "5674255149840385",
+      "type": "match",
+      "time_before_que.put": "11:00:07.272",
+      "seconds_from_release": 7.272466,
+      "time_after_queue.get": "11:00:07.272"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458b168486d0007d603a7",
+      "price": "0.0256",
+      "sequence": "5674255275276289",
+      "side": "buy",
+      "size": "2132.1",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458b768486d0007d62c22",
+      "time": "1732532407651000000",
+      "tradeId": "5674255275276289",
+      "type": "match",
+      "time_before_que.put": "11:00:07.699",
+      "seconds_from_release": 7.69956,
+      "time_after_queue.get": "11:00:07.699"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458b168486d0007d603a7",
+      "price": "0.0256",
+      "sequence": "5674255872178177",
+      "side": "buy",
+      "size": "11682.2",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458b931d0950007778342",
+      "time": "1732532409195000000",
+      "tradeId": "5674255872178177",
+      "type": "match",
+      "time_before_que.put": "11:00:09.244",
+      "seconds_from_release": 9.244698,
+      "time_after_queue.get": "11:00:09.244"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458b7f4a7c50007e681b5",
+      "price": "0.0252",
+      "sequence": "5674255993944065",
+      "side": "sell",
+      "size": "432.5",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458b931d0950007778538",
+      "time": "1732532409637000000",
+      "tradeId": "5674255993944065",
+      "type": "match",
+      "time_before_que.put": "11:00:09.685",
+      "seconds_from_release": 9.685663,
+      "time_after_queue.get": "11:00:09.685"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458b7f4a7c50007e681b5",
+      "price": "0.0252",
+      "sequence": "5674256191207425",
+      "side": "sell",
+      "size": "11472.2",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458badf6f6e0007c0308a",
+      "time": "1732532410257000000",
+      "tradeId": "5674256191207425",
+      "type": "match",
+      "time_before_que.put": "11:00:10.305",
+      "seconds_from_release": 10.305569,
+      "time_after_queue.get": "11:00:10.305"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458b9f1bf400007e0d34f",
+      "price": "0.02501",
+      "sequence": "5674256191207428",
+      "side": "sell",
+      "size": "1962.1",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458badf6f6e0007c0308a",
+      "time": "1732532410257000000",
+      "tradeId": "5674256191207428",
+      "type": "match",
+      "time_before_que.put": "11:00:10.305",
+      "seconds_from_release": 10.305751,
+      "time_after_queue.get": "11:00:10.305"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458b0ae93cc0007149d28",
+      "price": "0.025",
+      "sequence": "5674256191207431",
+      "side": "sell",
+      "size": "29758.8",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458badf6f6e0007c0308a",
+      "time": "1732532410257000000",
+      "tradeId": "5674256191207431",
+      "type": "match",
+      "time_before_que.put": "11:00:10.305",
+      "seconds_from_release": 10.305872,
+      "time_after_queue.get": "11:00:10.305"
+    }
+  },
+  {
+    "id": "1732532410425",
+    "type": "pong",
+    "timestamp": 1732532410463503
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458b0ae93cc0007149d28",
+      "price": "0.025",
+      "sequence": "5674256431200257",
+      "side": "sell",
+      "size": "16976.8",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458ba6967d300075017a1",
+      "time": "1732532410927000000",
+      "tradeId": "5674256431200257",
+      "type": "match",
+      "time_before_que.put": "11:00:10.977",
+      "seconds_from_release": 10.977263,
+      "time_after_queue.get": "11:00:10.977"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458b068486d0007d5f8a0",
+      "price": "0.025",
+      "sequence": "5674256431200260",
+      "side": "sell",
+      "size": "400000",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458ba6967d300075017a1",
+      "time": "1732532410927000000",
+      "tradeId": "5674256431200260",
+      "type": "match",
+      "time_before_que.put": "11:00:10.977",
+      "seconds_from_release": 10.977599,
+      "time_after_queue.get": "11:00:10.977"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458b868486d0007d63105",
+      "price": "0.025",
+      "sequence": "5674256431200263",
+      "side": "sell",
+      "size": "89.2",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458ba6967d300075017a1",
+      "time": "1732532410927000000",
+      "tradeId": "5674256431200263",
+      "type": "match",
+      "time_before_que.put": "11:00:10.977",
+      "seconds_from_release": 10.977841,
+      "time_after_queue.get": "11:00:10.977"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458bec5ba740007d4e183",
+      "price": "0.02496",
+      "sequence": "5674258363856897",
+      "side": "buy",
+      "size": "2404.2",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458bf0d855300076b8599",
+      "time": "1732532415568000000",
+      "tradeId": "5674258363856897",
+      "type": "match",
+      "time_before_que.put": "11:00:15.613",
+      "seconds_from_release": 15.613788,
+      "time_after_queue.get": "11:00:15.614"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458bec5ba740007d4e183",
+      "price": "0.02496",
+      "sequence": "5674259600914433",
+      "side": "buy",
+      "size": "1614.8",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c2f1bf400007e114a6",
+      "time": "1732532418511000000",
+      "tradeId": "5674259600914433",
+      "type": "match",
+      "time_before_que.put": "11:00:18.560",
+      "seconds_from_release": 18.560786,
+      "time_after_queue.get": "11:00:18.561"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458c237061e0007912f45",
+      "price": "0.02495",
+      "sequence": "5674259855325185",
+      "side": "buy",
+      "size": "1976.3",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c3f4a7c50007e6d5ce",
+      "time": "1732532419077000000",
+      "tradeId": "5674259855325185",
+      "type": "match",
+      "time_before_que.put": "11:00:19.121",
+      "seconds_from_release": 19.121936,
+      "time_after_queue.get": "11:00:19.122"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458c24fe74600074751e2",
+      "price": "0.02495",
+      "sequence": "5674259855325188",
+      "side": "buy",
+      "size": "1617.4",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c3f4a7c50007e6d5ce",
+      "time": "1732532419077000000",
+      "tradeId": "5674259855325188",
+      "type": "match",
+      "time_before_que.put": "11:00:19.122",
+      "seconds_from_release": 19.122244,
+      "time_after_queue.get": "11:00:19.122"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458c3c5ba740007d50e90",
+      "price": "0.024",
+      "sequence": "5674260940863489",
+      "side": "buy",
+      "size": "1056.5",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c6c5ba740007d51eec",
+      "time": "1732532422086000000",
+      "tradeId": "5674260940863489",
+      "type": "match",
+      "time_before_que.put": "11:00:22.131",
+      "seconds_from_release": 22.131942,
+      "time_after_queue.get": "11:00:22.132"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458b0f4f120000704b753",
+      "price": "0.0235",
+      "sequence": "5674261155821569",
+      "side": "sell",
+      "size": "3000",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c6ae93cc0007153d15",
+      "time": "1732532422858000000",
+      "tradeId": "5674261155821569",
+      "type": "match",
+      "time_before_que.put": "11:00:22.902",
+      "seconds_from_release": 22.902448,
+      "time_after_queue.get": "11:00:22.902"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458c6ae93cc0007153d15",
+      "price": "0.02328",
+      "sequence": "5674261185574913",
+      "side": "buy",
+      "size": "770.8",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c6ae93cc0007153d39",
+      "time": "1732532422884000000",
+      "tradeId": "5674261185574913",
+      "type": "match",
+      "time_before_que.put": "11:00:22.928",
+      "seconds_from_release": 22.928761,
+      "time_after_queue.get": "11:00:22.928"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458c6ae93cc0007153d15",
+      "price": "0.02328",
+      "sequence": "5674261185705985",
+      "side": "buy",
+      "size": "1868.8",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c61586c10007eb61d3",
+      "time": "1732532422884000000",
+      "tradeId": "5674261185705985",
+      "type": "match",
+      "time_before_que.put": "11:00:22.929",
+      "seconds_from_release": 22.929084,
+      "time_after_queue.get": "11:00:22.929"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458c6ae93cc0007153d15",
+      "price": "0.02328",
+      "sequence": "5674261187016705",
+      "side": "buy",
+      "size": "224.5",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c6f1bf400007e132aa",
+      "time": "1732532422888000000",
+      "tradeId": "5674261187016705",
+      "type": "match",
+      "time_before_que.put": "11:00:22.936",
+      "seconds_from_release": 22.936542,
+      "time_after_queue.get": "11:00:22.937"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458c6ae93cc0007153d15",
+      "price": "0.02328",
+      "sequence": "5674261188720641",
+      "side": "buy",
+      "size": "1461.3",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c637061e0007914cdd",
+      "time": "1732532422892000000",
+      "tradeId": "5674261188720641",
+      "type": "match",
+      "time_before_que.put": "11:00:22.936",
+      "seconds_from_release": 22.936894,
+      "time_after_queue.get": "11:00:22.937"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458c6ae93cc0007153d15",
+      "price": "0.02328",
+      "sequence": "5674261190162433",
+      "side": "buy",
+      "size": "596.9",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c6f4f120000705572d",
+      "time": "1732532422896000000",
+      "tradeId": "5674261190162433",
+      "type": "match",
+      "time_before_que.put": "11:00:22.945",
+      "seconds_from_release": 22.945042,
+      "time_after_queue.get": "11:00:22.945"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458c6ae93cc0007153d15",
+      "price": "0.02328",
+      "sequence": "5674261192914945",
+      "side": "buy",
+      "size": "542.6",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c66967d300075070fd",
+      "time": "1732532422906000000",
+      "tradeId": "5674261192914945",
+      "type": "match",
+      "time_before_que.put": "11:00:22.950",
+      "seconds_from_release": 22.950237,
+      "time_after_queue.get": "11:00:22.950"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458c6ae93cc0007153d15",
+      "price": "0.02328",
+      "sequence": "5674261193439233",
+      "side": "buy",
+      "size": "542.6",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c6f4f120000705573d",
+      "time": "1732532422907000000",
+      "tradeId": "5674261193439233",
+      "type": "match",
+      "time_before_que.put": "11:00:22.950",
+      "seconds_from_release": 22.95069,
+      "time_after_queue.get": "11:00:22.951"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458c6ae93cc0007153d15",
+      "price": "0.02328",
+      "sequence": "5674261193570305",
+      "side": "buy",
+      "size": "1745",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c6088f010007f50088",
+      "time": "1732532422907000000",
+      "tradeId": "5674261193570305",
+      "type": "match",
+      "time_before_que.put": "11:00:22.950",
+      "seconds_from_release": 22.950954,
+      "time_after_queue.get": "11:00:22.951"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458c6ae93cc0007153d15",
+      "price": "0.02328",
+      "sequence": "5674261197895681",
+      "side": "buy",
+      "size": "542.6",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c6c5ba740007d52401",
+      "time": "1732532422920000000",
+      "tradeId": "5674261197895681",
+      "type": "match",
+      "time_before_que.put": "11:00:22.968",
+      "seconds_from_release": 22.96812,
+      "time_after_queue.get": "11:00:22.968"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458c6ae93cc0007153d15",
+      "price": "0.02328",
+      "sequence": "5674261204056065",
+      "side": "buy",
+      "size": "542.6",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c6c65bf700077fcaa5",
+      "time": "1732532422937000000",
+      "tradeId": "5674261204056065",
+      "type": "match",
+      "time_before_que.put": "11:00:22.982",
+      "seconds_from_release": 22.982146,
+      "time_after_queue.get": "11:00:22.982"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458c6ae93cc0007153d15",
+      "price": "0.02328",
+      "sequence": "5674261205366785",
+      "side": "buy",
+      "size": "1059.9",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c6f15b270007ed0cc0",
+      "time": "1732532422941000000",
+      "tradeId": "5674261205366785",
+      "type": "match",
+      "time_before_que.put": "11:00:22.988",
+      "seconds_from_release": 22.988492,
+      "time_after_queue.get": "11:00:22.988"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458c6ae93cc0007153d15",
+      "price": "0.02328",
+      "sequence": "5674261208774657",
+      "side": "buy",
+      "size": "467.2",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c6cf286a00078b7171",
+      "time": "1732532422949000000",
+      "tradeId": "5674261208774657",
+      "type": "match",
+      "time_before_que.put": "11:00:22.997",
+      "seconds_from_release": 22.997108,
+      "time_after_queue.get": "11:00:22.997"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458c6ae93cc0007153d15",
+      "price": "0.02328",
+      "sequence": "5674261208905729",
+      "side": "buy",
+      "size": "1059.9",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c6c5ba740007d52422",
+      "time": "1732532422951000000",
+      "tradeId": "5674261208905729",
+      "type": "match",
+      "time_before_que.put": "11:00:22.997",
+      "seconds_from_release": 22.997305,
+      "time_after_queue.get": "11:00:22.997"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458c6ae93cc0007153d15",
+      "price": "0.02328",
+      "sequence": "5674261212182529",
+      "side": "buy",
+      "size": "1988.9",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c6c5ba740007d5242a",
+      "time": "1732532422957000000",
+      "tradeId": "5674261212182529",
+      "type": "match",
+      "time_before_que.put": "11:00:23.005",
+      "seconds_from_release": 23.005801,
+      "time_after_queue.get": "11:00:23.006"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458c6ae93cc0007153d15",
+      "price": "0.02328",
+      "sequence": "5674261214541825",
+      "side": "buy",
+      "size": "1988.9",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c61586c10007eb623a",
+      "time": "1732532422965000000",
+      "tradeId": "5674261214541825",
+      "type": "match",
+      "time_before_que.put": "11:00:23.010",
+      "seconds_from_release": 23.010106,
+      "time_after_queue.get": "11:00:23.010"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458c6ae93cc0007153d15",
+      "price": "0.02328",
+      "sequence": "5674261218998273",
+      "side": "buy",
+      "size": "665.4",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c6f4f1200007055791",
+      "time": "1732532422983000000",
+      "tradeId": "5674261218998273",
+      "type": "match",
+      "time_before_que.put": "11:00:23.030",
+      "seconds_from_release": 23.030987,
+      "time_after_queue.get": "11:00:23.031"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458c6ae93cc0007153d15",
+      "price": "0.02328",
+      "sequence": "5674261219129345",
+      "side": "buy",
+      "size": "436.3",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c6df6f6e0007c08e46",
+      "time": "1732532422983000000",
+      "tradeId": "5674261219129345",
+      "type": "match",
+      "time_before_que.put": "11:00:23.031",
+      "seconds_from_release": 23.031547,
+      "time_after_queue.get": "11:00:23.031"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458c6ae93cc0007153d15",
+      "price": "0.02328",
+      "sequence": "5674261220833281",
+      "side": "buy",
+      "size": "435.6",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c6088f010007f500e3",
+      "time": "1732532422989000000",
+      "tradeId": "5674261220833281",
+      "type": "match",
+      "time_before_que.put": "11:00:23.038",
+      "seconds_from_release": 23.03858,
+      "time_after_queue.get": "11:00:23.038"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458c6ae93cc0007153d15",
+      "price": "0.02328",
+      "sequence": "5674261224634369",
+      "side": "buy",
+      "size": "412.3",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c667cdc900079816cf",
+      "time": "1732532422998000000",
+      "tradeId": "5674261224634369",
+      "type": "match",
+      "time_before_que.put": "11:00:23.043",
+      "seconds_from_release": 23.043792,
+      "time_after_queue.get": "11:00:23.044"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458c6ae93cc0007153d15",
+      "price": "0.02328",
+      "sequence": "5674261225814017",
+      "side": "buy",
+      "size": "1432",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c6b7e21a0007b06b69",
+      "time": "1732532423001000000",
+      "tradeId": "5674261225814017",
+      "type": "match",
+      "time_before_que.put": "11:00:23.044",
+      "seconds_from_release": 23.044169,
+      "time_after_queue.get": "11:00:23.044"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458c6ae93cc0007153d15",
+      "price": "0.02328",
+      "sequence": "5674261228304385",
+      "side": "buy",
+      "size": "319.4",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c76967d30007507187",
+      "time": "1732532423013000000",
+      "tradeId": "5674261228304385",
+      "type": "match",
+      "time_before_que.put": "11:00:23.058",
+      "seconds_from_release": 23.058241,
+      "time_after_queue.get": "11:00:23.059"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458c6ae93cc0007153d15",
+      "price": "0.02328",
+      "sequence": "5674261231712257",
+      "side": "buy",
+      "size": "561.7",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c7c5ba740007d52477",
+      "time": "1732532423019000000",
+      "tradeId": "5674261231712257",
+      "type": "match",
+      "time_before_que.put": "11:00:23.067",
+      "seconds_from_release": 23.067015,
+      "time_after_queue.get": "11:00:23.067"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458c6ae93cc0007153d15",
+      "price": "0.02328",
+      "sequence": "5674261234071553",
+      "side": "buy",
+      "size": "319.3",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c7c5ba740007d52485",
+      "time": "1732532423030000000",
+      "tradeId": "5674261234071553",
+      "type": "match",
+      "time_before_que.put": "11:00:23.078",
+      "seconds_from_release": 23.078815,
+      "time_after_queue.get": "11:00:23.079"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458c6ae93cc0007153d15",
+      "price": "0.02328",
+      "sequence": "5674261235513345",
+      "side": "buy",
+      "size": "602.4",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c737061e0007914d78",
+      "time": "1732532423033000000",
+      "tradeId": "5674261235513345",
+      "type": "match",
+      "time_before_que.put": "11:00:23.079",
+      "seconds_from_release": 23.079206,
+      "time_after_queue.get": "11:00:23.079"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458c7f15b270007ed11a4",
+      "price": "0.02399",
+      "sequence": "5674261653633025",
+      "side": "buy",
+      "size": "13.6",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c8ae93cc000715454f",
+      "time": "1732532424019000000",
+      "tradeId": "5674261653633025",
+      "type": "match",
+      "time_before_que.put": "11:00:24.067",
+      "seconds_from_release": 24.06725,
+      "time_after_queue.get": "11:00:24.068"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458c94fe746000747803c",
+      "price": "0.02396",
+      "sequence": "5674262159177729",
+      "side": "buy",
+      "size": "345.3",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c96967d30007508401",
+      "time": "1732532425482000000",
+      "tradeId": "5674262159177729",
+      "type": "match",
+      "time_before_que.put": "11:00:25.532",
+      "seconds_from_release": 25.532237,
+      "time_after_queue.get": "11:00:25.532"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458c931d095000777f704",
+      "price": "0.02396",
+      "sequence": "5674262159177732",
+      "side": "buy",
+      "size": "328.3",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c96967d30007508401",
+      "time": "1732532425482000000",
+      "tradeId": "5674262159177732",
+      "type": "match",
+      "time_before_que.put": "11:00:25.532",
+      "seconds_from_release": 25.532552,
+      "time_after_queue.get": "11:00:25.532"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458c931d095000777f704",
+      "price": "0.02396",
+      "sequence": "5674262276880385",
+      "side": "buy",
+      "size": "1648",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c967cdc90007982b87",
+      "time": "1732532425837000000",
+      "tradeId": "5674262276880385",
+      "type": "match",
+      "time_before_que.put": "11:00:25.883",
+      "seconds_from_release": 25.883746,
+      "time_after_queue.get": "11:00:25.884"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458c3c5ba740007d50e90",
+      "price": "0.024",
+      "sequence": "5674262276880388",
+      "side": "buy",
+      "size": "18335",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458c967cdc90007982b87",
+      "time": "1732532425837000000",
+      "tradeId": "5674262276880388",
+      "type": "match",
+      "time_before_que.put": "11:00:25.884",
+      "seconds_from_release": 25.884017,
+      "time_after_queue.get": "11:00:25.884"
+    }
+  },
+  {
+    "id": "1732532430425",
+    "type": "pong",
+    "timestamp": 1732532430464254
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458ce31d0950007781767",
+      "price": "0.02398",
+      "sequence": "5674264076105729",
+      "side": "buy",
+      "size": "32.9",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458ceb7e21a0007b09e0d",
+      "time": "1732532430890000000",
+      "tradeId": "5674264076105729",
+      "type": "match",
+      "time_before_que.put": "11:00:30.940",
+      "seconds_from_release": 30.940028,
+      "time_after_queue.get": "11:00:30.940"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458cf1586c10007eb9785",
+      "price": "0.02396",
+      "sequence": "5674264546785281",
+      "side": "buy",
+      "size": "15202.8",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458d0c65bf70007800665",
+      "time": "1732532432455000000",
+      "tradeId": "5674264546785281",
+      "type": "match",
+      "time_before_que.put": "11:00:32.502",
+      "seconds_from_release": 32.502464,
+      "time_after_queue.get": "11:00:32.503"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458cf1586c10007eb9785",
+      "price": "0.02396",
+      "sequence": "5674265052985345",
+      "side": "buy",
+      "size": "28492.6",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458d237061e0007919386",
+      "time": "1732532434053000000",
+      "tradeId": "5674265052985345",
+      "type": "match",
+      "time_before_que.put": "11:00:34.103",
+      "seconds_from_release": 34.103319,
+      "time_after_queue.get": "11:00:34.103"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458d20d855300076c05af",
+      "price": "0.02343",
+      "sequence": "5674265219184641",
+      "side": "sell",
+      "size": "356.5",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458d237061e000791970a",
+      "time": "1732532434686000000",
+      "tradeId": "5674265219184641",
+      "type": "match",
+      "time_before_que.put": "11:00:34.734",
+      "seconds_from_release": 34.734534,
+      "time_after_queue.get": "11:00:34.734"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458d20d855300076c05af",
+      "price": "0.02343",
+      "sequence": "5674265220757505",
+      "side": "sell",
+      "size": "590",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458d2f4a7c50007e73944",
+      "time": "1732532434690000000",
+      "tradeId": "5674265220757505",
+      "type": "match",
+      "time_before_que.put": "11:00:34.734",
+      "seconds_from_release": 34.734873,
+      "time_after_queue.get": "11:00:34.734"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458d36967d3000750bfa1",
+      "price": "0.02344",
+      "sequence": "5674265521567745",
+      "side": "sell",
+      "size": "503.5",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458d3ae93cc0007158db3",
+      "time": "1732532435503000000",
+      "tradeId": "5674265521567745",
+      "type": "match",
+      "time_before_que.put": "11:00:35.551",
+      "seconds_from_release": 35.551204,
+      "time_after_queue.get": "11:00:35.551"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458d36967d3000750bfa1",
+      "price": "0.02344",
+      "sequence": "5674265526810625",
+      "side": "sell",
+      "size": "338",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458d3088f010007f55071",
+      "time": "1732532435531000000",
+      "tradeId": "5674265526810625",
+      "type": "match",
+      "time_before_que.put": "11:00:35.579",
+      "seconds_from_release": 35.579681,
+      "time_after_queue.get": "11:00:35.579"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458cf1586c10007eb9785",
+      "price": "0.02396",
+      "sequence": "5674265555384321",
+      "side": "buy",
+      "size": "460.2",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458d31586c10007ebb209",
+      "time": "1732532435606000000",
+      "tradeId": "5674265555384321",
+      "type": "match",
+      "time_before_que.put": "11:00:35.651",
+      "seconds_from_release": 35.651295,
+      "time_after_queue.get": "11:00:35.651"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458ce31d0950007781767",
+      "price": "0.02398",
+      "sequence": "5674265555384324",
+      "side": "buy",
+      "size": "2628.9",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458d31586c10007ebb209",
+      "time": "1732532435606000000",
+      "tradeId": "5674265555384324",
+      "type": "match",
+      "time_before_que.put": "11:00:35.651",
+      "seconds_from_release": 35.651561,
+      "time_after_queue.get": "11:00:35.651"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458d331d09500077832c5",
+      "price": "0.02344",
+      "sequence": "5674265613842433",
+      "side": "sell",
+      "size": "340.8",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458d3c65bf70007801b17",
+      "time": "1732532435774000000",
+      "tradeId": "5674265613842433",
+      "type": "match",
+      "time_before_que.put": "11:00:35.817",
+      "seconds_from_release": 35.817229,
+      "time_after_queue.get": "11:00:35.817"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458d3c65bf70007801b2f",
+      "price": "0.02345",
+      "sequence": "5674265639270401",
+      "side": "sell",
+      "size": "632.6",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458d30d855300076c0c4f",
+      "time": "1732532435843000000",
+      "tradeId": "5674265639270401",
+      "type": "match",
+      "time_before_que.put": "11:00:35.893",
+      "seconds_from_release": 35.893463,
+      "time_after_queue.get": "11:00:35.893"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458d3cf286a00078bc2e5",
+      "price": "0.02397",
+      "sequence": "5674265934182401",
+      "side": "buy",
+      "size": "946.5",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458d4c65bf70007801f89",
+      "time": "1732532436698000000",
+      "tradeId": "5674265934182401",
+      "type": "match",
+      "time_before_que.put": "11:00:36.747",
+      "seconds_from_release": 36.747268,
+      "time_after_queue.get": "11:00:36.747"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458ce31d0950007781767",
+      "price": "0.02398",
+      "sequence": "5674265934182404",
+      "side": "buy",
+      "size": "994.9",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458d4c65bf70007801f89",
+      "time": "1732532436698000000",
+      "tradeId": "5674265934182404",
+      "type": "match",
+      "time_before_que.put": "11:00:36.747",
+      "seconds_from_release": 36.747594,
+      "time_after_queue.get": "11:00:36.747"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458d40d855300076c1136",
+      "price": "0.02346",
+      "sequence": "5674266197637121",
+      "side": "sell",
+      "size": "340.8",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458d537061e000791a64d",
+      "time": "1732532437593000000",
+      "tradeId": "5674266197637121",
+      "type": "match",
+      "time_before_que.put": "11:00:37.640",
+      "seconds_from_release": 37.640736,
+      "time_after_queue.get": "11:00:37.641"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458d40d855300076c1136",
+      "price": "0.02346",
+      "sequence": "5674266204321793",
+      "side": "sell",
+      "size": "340.8",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458d5ae93cc00071598d0",
+      "time": "1732532437611000000",
+      "tradeId": "5674266204321793",
+      "type": "match",
+      "time_before_que.put": "11:00:37.659",
+      "seconds_from_release": 37.659294,
+      "time_after_queue.get": "11:00:37.659"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458d40d855300076c1136",
+      "price": "0.02346",
+      "sequence": "5674266223065089",
+      "side": "sell",
+      "size": "442.7",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458d5df6f6e0007c0e95b",
+      "time": "1732532437653000000",
+      "tradeId": "5674266223065089",
+      "type": "match",
+      "time_before_que.put": "11:00:37.699",
+      "seconds_from_release": 37.699073,
+      "time_after_queue.get": "11:00:37.699"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458d40d855300076c1136",
+      "price": "0.02346",
+      "sequence": "5674266225686529",
+      "side": "sell",
+      "size": "240.5",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458d5f4a7c50007e749ae",
+      "time": "1732532437660000000",
+      "tradeId": "5674266225686529",
+      "type": "match",
+      "time_before_que.put": "11:00:37.705",
+      "seconds_from_release": 37.705415,
+      "time_after_queue.get": "11:00:37.707"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458d40d855300076c1136",
+      "price": "0.02346",
+      "sequence": "5674266274576385",
+      "side": "sell",
+      "size": "111",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458d54fe746000747cbe0",
+      "time": "1732532437766000000",
+      "tradeId": "5674266274576385",
+      "type": "match",
+      "time_before_que.put": "11:00:37.809",
+      "seconds_from_release": 37.809564,
+      "time_after_queue.get": "11:00:37.809"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458d4088f010007f55757",
+      "price": "0.02346",
+      "sequence": "5674266274576388",
+      "side": "sell",
+      "size": "229.8",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458d54fe746000747cbe0",
+      "time": "1732532437766000000",
+      "tradeId": "5674266274576388",
+      "type": "match",
+      "time_before_que.put": "11:00:37.809",
+      "seconds_from_release": 37.80986,
+      "time_after_queue.get": "11:00:37.810"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458d537061e000791a867",
+      "price": "0.02347",
+      "sequence": "5674266308655105",
+      "side": "sell",
+      "size": "1013.5",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458d5cf286a00078bced4",
+      "time": "1732532437876000000",
+      "tradeId": "5674266308655105",
+      "type": "match",
+      "time_before_que.put": "11:00:37.924",
+      "seconds_from_release": 37.924974,
+      "time_after_queue.get": "11:00:37.925"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458d537061e000791a867",
+      "price": "0.02347",
+      "sequence": "5674266331461633",
+      "side": "sell",
+      "size": "253.4",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458d537061e000791a8af",
+      "time": "1732532437891000000",
+      "tradeId": "5674266331461633",
+      "type": "match",
+      "time_before_que.put": "11:00:37.938",
+      "seconds_from_release": 37.938702,
+      "time_after_queue.get": "11:00:37.939"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458d50d855300076c1792",
+      "price": "0.02347",
+      "sequence": "5674266331461636",
+      "side": "sell",
+      "size": "325.9",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458d537061e000791a8af",
+      "time": "1732532437891000000",
+      "tradeId": "5674266331461636",
+      "type": "match",
+      "time_before_que.put": "11:00:37.938",
+      "seconds_from_release": 37.938943,
+      "time_after_queue.get": "11:00:37.939"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458d6b7e21a0007b0cbc8",
+      "price": "0.02395",
+      "sequence": "5674266610776065",
+      "side": "buy",
+      "size": "570.6",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458d60d855300076c1ccb",
+      "time": "1732532438652000000",
+      "tradeId": "5674266610776065",
+      "type": "match",
+      "time_before_que.put": "11:00:38.700",
+      "seconds_from_release": 38.700929,
+      "time_after_queue.get": "11:00:38.701"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458d631d09500077845a1",
+      "price": "0.02395",
+      "sequence": "5674266610776068",
+      "side": "buy",
+      "size": "1850.1",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458d60d855300076c1ccb",
+      "time": "1732532438652000000",
+      "tradeId": "5674266610776068",
+      "type": "match",
+      "time_before_que.put": "11:00:38.706",
+      "seconds_from_release": 38.706111,
+      "time_after_queue.get": "11:00:38.706"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458dcd52cb800074addbd",
+      "price": "0.02386",
+      "sequence": "5674268901521409",
+      "side": "buy",
+      "size": "258.3",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458dc0d855300076c47d0",
+      "time": "1732532444471000000",
+      "tradeId": "5674268901521409",
+      "type": "match",
+      "time_before_que.put": "11:00:44.521",
+      "seconds_from_release": 44.521052,
+      "time_after_queue.get": "11:00:44.521"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458dc1586c10007ebeda3",
+      "price": "0.02386",
+      "sequence": "5674268901521412",
+      "side": "buy",
+      "size": "1033.3",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458dc0d855300076c47d0",
+      "time": "1732532444471000000",
+      "tradeId": "5674268901521412",
+      "type": "match",
+      "time_before_que.put": "11:00:44.521",
+      "seconds_from_release": 44.521397,
+      "time_after_queue.get": "11:00:44.521"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458e067cdc9000798b7d2",
+      "price": "0.02347",
+      "sequence": "5674270216828929",
+      "side": "sell",
+      "size": "1131.7",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458e0cf286a00078c1433",
+      "time": "1732532448352000000",
+      "tradeId": "5674270216828929",
+      "type": "match",
+      "time_before_que.put": "11:00:48.399",
+      "seconds_from_release": 48.399864,
+      "time_after_queue.get": "11:00:48.400"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458e067cdc9000798b7d2",
+      "price": "0.02347",
+      "sequence": "5674270218139649",
+      "side": "sell",
+      "size": "1131.7",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458e0f1bf400007e1d613",
+      "time": "1732532448358000000",
+      "tradeId": "5674270218139649",
+      "type": "match",
+      "time_before_que.put": "11:00:48.404",
+      "seconds_from_release": 48.404999,
+      "time_after_queue.get": "11:00:48.405"
+    }
+  },
+  {
+    "id": "1732532450427",
+    "type": "pong",
+    "timestamp": 1732532450465681
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458dec65bf70007806592",
+      "price": "0.0235",
+      "sequence": "5674271191218177",
+      "side": "buy",
+      "size": "1025.4",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458e337061e0007920067",
+      "time": "1732532451311000000",
+      "tradeId": "5674271191218177",
+      "type": "match",
+      "time_before_que.put": "11:00:51.358",
+      "seconds_from_release": 51.35822,
+      "time_after_queue.get": "11:00:51.358"
+    }
+  },
+  {
+    "topic": "/market/match:HAPPY-USDT",
+    "type": "message",
+    "subject": "trade.l3match",
+    "data": {
+      "makerOrderId": "674458e067cdc9000798b7d2",
+      "price": "0.02347",
+      "sequence": "5674271487178753",
+      "side": "sell",
+      "size": "204.4",
+      "symbol": "HAPPY-USDT",
+      "takerOrderId": "674458e46967d30007512c80",
+      "time": "1732532452187000000",
+      "tradeId": "5674271487178753",
+      "type": "match",
+      "time_before_que.put": "11:00:52.234",
+      "seconds_from_release": 52.234966,
+      "time_after_queue.get": "11:00:52.235"
+    }
+  }
+]

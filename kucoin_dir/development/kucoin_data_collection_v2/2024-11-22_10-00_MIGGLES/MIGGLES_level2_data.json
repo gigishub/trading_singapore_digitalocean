@@ -1,0 +1,10502 @@
+[
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.175",
+          "13038",
+          "15"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 15,
+    "sequenceStart": 15,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600085,
+    "time_data_received": "10:00:00.1326"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.165",
+          "151",
+          "16"
+        ]
+      ]
+    },
+    "sequenceEnd": 16,
+    "sequenceStart": 16,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600143,
+    "time_data_received": "10:00:00.1900"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.01",
+          "50000",
+          "17"
+        ]
+      ]
+    },
+    "sequenceEnd": 17,
+    "sequenceStart": 17,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600152,
+    "time_data_received": "10:00:00.1921"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.05",
+          "1000",
+          "18"
+        ]
+      ]
+    },
+    "sequenceEnd": 18,
+    "sequenceStart": 18,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600170,
+    "time_data_received": "10:00:00.2084"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.13",
+          "1000",
+          "19"
+        ]
+      ]
+    },
+    "sequenceEnd": 19,
+    "sequenceStart": 19,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600173,
+    "time_data_received": "10:00:00.2102"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.12",
+          "5923",
+          "20"
+        ]
+      ]
+    },
+    "sequenceEnd": 20,
+    "sequenceStart": 20,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600180,
+    "time_data_received": "10:00:00.2176"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1",
+          "50",
+          "21"
+        ]
+      ]
+    },
+    "sequenceEnd": 21,
+    "sequenceStart": 21,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600182,
+    "time_data_received": "10:00:00.2196"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "22"
+        ]
+      ]
+    },
+    "sequenceEnd": 22,
+    "sequenceStart": 22,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600187,
+    "time_data_received": "10:00:00.2251"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.156",
+          "12",
+          "23"
+        ]
+      ]
+    },
+    "sequenceEnd": 23,
+    "sequenceStart": 23,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600192,
+    "time_data_received": "10:00:00.2296"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.0001",
+          "10000",
+          "24"
+        ]
+      ]
+    },
+    "sequenceEnd": 24,
+    "sequenceStart": 24,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600193,
+    "time_data_received": "10:00:00.2307"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.16",
+          "500",
+          "25"
+        ]
+      ]
+    },
+    "sequenceEnd": 25,
+    "sequenceStart": 25,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600197,
+    "time_data_received": "10:00:00.2372"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1",
+          "52",
+          "26"
+        ]
+      ]
+    },
+    "sequenceEnd": 26,
+    "sequenceStart": 26,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600215,
+    "time_data_received": "10:00:00.2543"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.14",
+          "5000",
+          "27"
+        ]
+      ]
+    },
+    "sequenceEnd": 27,
+    "sequenceStart": 27,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600220,
+    "time_data_received": "10:00:00.2585"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.14",
+          "5005",
+          "28"
+        ]
+      ]
+    },
+    "sequenceEnd": 28,
+    "sequenceStart": 28,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600224,
+    "time_data_received": "10:00:00.2621"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1",
+          "62",
+          "29"
+        ]
+      ]
+    },
+    "sequenceEnd": 29,
+    "sequenceStart": 29,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600224,
+    "time_data_received": "10:00:00.2622"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.14",
+          "5025",
+          "30"
+        ]
+      ]
+    },
+    "sequenceEnd": 30,
+    "sequenceStart": 30,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600227,
+    "time_data_received": "10:00:00.2782"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.08",
+          "1500",
+          "31"
+        ]
+      ]
+    },
+    "sequenceEnd": 31,
+    "sequenceStart": 31,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600228,
+    "time_data_received": "10:00:00.2787"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.02",
+          "1000",
+          "32"
+        ]
+      ]
+    },
+    "sequenceEnd": 32,
+    "sequenceStart": 32,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600232,
+    "time_data_received": "10:00:00.2791"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.03",
+          "10000",
+          "33"
+        ]
+      ]
+    },
+    "sequenceEnd": 33,
+    "sequenceStart": 33,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600232,
+    "time_data_received": "10:00:00.2792"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.03",
+          "10010",
+          "34"
+        ]
+      ]
+    },
+    "sequenceEnd": 34,
+    "sequenceStart": 34,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600236,
+    "time_data_received": "10:00:00.2794"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1605",
+          "630",
+          "35"
+        ]
+      ]
+    },
+    "sequenceEnd": 35,
+    "sequenceStart": 35,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600236,
+    "time_data_received": "10:00:00.2795"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.151",
+          "132",
+          "36"
+        ]
+      ]
+    },
+    "sequenceEnd": 36,
+    "sequenceStart": 36,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600237,
+    "time_data_received": "10:00:00.2796"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.0003",
+          "10000",
+          "37"
+        ]
+      ]
+    },
+    "sequenceEnd": 37,
+    "sequenceStart": 37,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600239,
+    "time_data_received": "10:00:00.2798"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.076",
+          "2618",
+          "38"
+        ]
+      ]
+    },
+    "sequenceEnd": 38,
+    "sequenceStart": 38,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600241,
+    "time_data_received": "10:00:00.2801"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.0003",
+          "170000",
+          "39"
+        ]
+      ]
+    },
+    "sequenceEnd": 39,
+    "sequenceStart": 39,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600255,
+    "time_data_received": "10:00:00.2949"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.16",
+          "620",
+          "40"
+        ]
+      ]
+    },
+    "sequenceEnd": 40,
+    "sequenceStart": 40,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600262,
+    "time_data_received": "10:00:00.3064"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.05",
+          "1200",
+          "41"
+        ]
+      ]
+    },
+    "sequenceEnd": 41,
+    "sequenceStart": 41,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600266,
+    "time_data_received": "10:00:00.3076"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1",
+          "5062",
+          "42"
+        ]
+      ]
+    },
+    "sequenceEnd": 42,
+    "sequenceStart": 42,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600269,
+    "time_data_received": "10:00:00.3077"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.01",
+          "61000",
+          "43"
+        ]
+      ]
+    },
+    "sequenceEnd": 43,
+    "sequenceStart": 43,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600275,
+    "time_data_received": "10:00:00.3129"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.15",
+          "20",
+          "44"
+        ]
+      ]
+    },
+    "sequenceEnd": 44,
+    "sequenceStart": 44,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600289,
+    "time_data_received": "10:00:00.3337"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.0007",
+          "60000",
+          "45"
+        ]
+      ]
+    },
+    "sequenceEnd": 45,
+    "sequenceStart": 45,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600294,
+    "time_data_received": "10:00:00.3340"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.026",
+          "700",
+          "46"
+        ]
+      ]
+    },
+    "sequenceEnd": 46,
+    "sequenceStart": 46,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600304,
+    "time_data_received": "10:00:00.3419"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "47"
+        ]
+      ]
+    },
+    "sequenceEnd": 47,
+    "sequenceStart": 47,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600562,
+    "time_data_received": "10:00:00.6006"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.12",
+          "6217.12",
+          "48"
+        ]
+      ]
+    },
+    "sequenceEnd": 48,
+    "sequenceStart": 48,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269600687,
+    "time_data_received": "10:00:00.7246"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.175",
+          "15987.21",
+          "49"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 49,
+    "sequenceStart": 49,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269601254,
+    "time_data_received": "10:00:01.2923"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "50"
+        ]
+      ]
+    },
+    "sequenceEnd": 50,
+    "sequenceStart": 50,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269601346,
+    "time_data_received": "10:00:01.3840"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.12",
+          "5923",
+          "51"
+        ]
+      ]
+    },
+    "sequenceEnd": 51,
+    "sequenceStart": 51,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269601382,
+    "time_data_received": "10:00:01.4201"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.135",
+          "294.12",
+          "52"
+        ]
+      ]
+    },
+    "sequenceEnd": 52,
+    "sequenceStart": 52,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269601428,
+    "time_data_received": "10:00:01.4662"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "53"
+        ]
+      ]
+    },
+    "sequenceEnd": 53,
+    "sequenceStart": 53,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269602090,
+    "time_data_received": "10:00:02.1320"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.135",
+          "0",
+          "54"
+        ]
+      ]
+    },
+    "sequenceEnd": 54,
+    "sequenceStart": 54,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269602232,
+    "time_data_received": "10:00:02.2750"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.145",
+          "294.12",
+          "55"
+        ]
+      ]
+    },
+    "sequenceEnd": 55,
+    "sequenceStart": 55,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269602282,
+    "time_data_received": "10:00:02.3248"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.011",
+          "909.09",
+          "56"
+        ]
+      ]
+    },
+    "sequenceEnd": 56,
+    "sequenceStart": 56,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269602618,
+    "time_data_received": "10:00:02.6586"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.145",
+          "0",
+          "57"
+        ]
+      ]
+    },
+    "sequenceEnd": 57,
+    "sequenceStart": 57,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269602760,
+    "time_data_received": "10:00:02.8013"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1517",
+          "294.12",
+          "58"
+        ]
+      ]
+    },
+    "sequenceEnd": 58,
+    "sequenceStart": 58,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269602800,
+    "time_data_received": "10:00:02.8393"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "59"
+        ]
+      ]
+    },
+    "sequenceEnd": 59,
+    "sequenceStart": 59,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269602806,
+    "time_data_received": "10:00:02.8449"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1838",
+          "18824.52",
+          "61"
+        ]
+      ],
+      "bids": [
+        [
+          "0",
+          "0",
+          "60"
+        ]
+      ]
+    },
+    "sequenceEnd": 61,
+    "sequenceStart": 60,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269603537,
+    "time_data_received": "10:00:03.5756"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "62"
+        ]
+      ]
+    },
+    "sequenceEnd": 62,
+    "sequenceStart": 62,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269603554,
+    "time_data_received": "10:00:03.5939"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1517",
+          "0",
+          "63"
+        ]
+      ]
+    },
+    "sequenceEnd": 63,
+    "sequenceStart": 63,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269603627,
+    "time_data_received": "10:00:03.6663"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1561",
+          "294.12",
+          "64"
+        ]
+      ]
+    },
+    "sequenceEnd": 64,
+    "sequenceStart": 64,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269603664,
+    "time_data_received": "10:00:03.7056"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1224",
+          "245.09",
+          "65"
+        ]
+      ]
+    },
+    "sequenceEnd": 65,
+    "sequenceStart": 65,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269604529,
+    "time_data_received": "10:00:04.5682"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1561",
+          "0",
+          "66"
+        ]
+      ]
+    },
+    "sequenceEnd": 66,
+    "sequenceStart": 66,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269604626,
+    "time_data_received": "10:00:04.6640"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1591",
+          "294.12",
+          "67"
+        ]
+      ]
+    },
+    "sequenceEnd": 67,
+    "sequenceStart": 67,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269604667,
+    "time_data_received": "10:00:04.7074"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.195",
+          "10587.84",
+          "68"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 68,
+    "sequenceStart": 68,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269604870,
+    "time_data_received": "10:00:04.9092"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.126",
+          "198.41",
+          "69"
+        ]
+      ]
+    },
+    "sequenceEnd": 69,
+    "sequenceStart": 69,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269605022,
+    "time_data_received": "10:00:05.0601"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1591",
+          "0",
+          "70"
+        ]
+      ]
+    },
+    "sequenceEnd": 70,
+    "sequenceStart": 70,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269605171,
+    "time_data_received": "10:00:05.2098"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.161",
+          "294.12",
+          "71"
+        ]
+      ]
+    },
+    "sequenceEnd": 71,
+    "sequenceStart": 71,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269605224,
+    "time_data_received": "10:00:05.2647"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1",
+          "5078.03",
+          "72"
+        ]
+      ]
+    },
+    "sequenceEnd": 72,
+    "sequenceStart": 72,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269605835,
+    "time_data_received": "10:00:05.8739"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.161",
+          "0",
+          "73"
+        ]
+      ]
+    },
+    "sequenceEnd": 73,
+    "sequenceStart": 73,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269605918,
+    "time_data_received": "10:00:05.9574"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1624",
+          "294.12",
+          "74"
+        ]
+      ]
+    },
+    "sequenceEnd": 74,
+    "sequenceStart": 74,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269605957,
+    "time_data_received": "10:00:05.9964"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.2101",
+          "19210",
+          "75"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 75,
+    "sequenceStart": 75,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269606366,
+    "time_data_received": "10:00:06.4042"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1624",
+          "0",
+          "76"
+        ]
+      ]
+    },
+    "sequenceEnd": 76,
+    "sequenceStart": 76,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269606527,
+    "time_data_received": "10:00:06.5655"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1632",
+          "294.12",
+          "77"
+        ]
+      ]
+    },
+    "sequenceEnd": 77,
+    "sequenceStart": 77,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269606573,
+    "time_data_received": "10:00:06.6128"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "19108.79",
+          "84"
+        ]
+      ],
+      "bids": [
+        [
+          "0",
+          "0",
+          "78"
+        ],
+        [
+          "0.16",
+          "0",
+          "83"
+        ],
+        [
+          "0.1605",
+          "0",
+          "81"
+        ],
+        [
+          "0.1632",
+          "0",
+          "80"
+        ],
+        [
+          "0.165",
+          "0",
+          "79"
+        ]
+      ]
+    },
+    "sequenceEnd": 84,
+    "sequenceStart": 78,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269606819,
+    "time_data_received": "10:00:06.8571"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1",
+          "5798.03",
+          "85"
+        ]
+      ]
+    },
+    "sequenceEnd": 85,
+    "sequenceStart": 85,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269606901,
+    "time_data_received": "10:00:06.9416"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "19097.79",
+          "86"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 86,
+    "sequenceStart": 86,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269606950,
+    "time_data_received": "10:00:06.9895"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "19086.79",
+          "87"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 87,
+    "sequenceStart": 87,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269606961,
+    "time_data_received": "10:00:06.9994"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.175",
+          "16281.33",
+          "88"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 88,
+    "sequenceStart": 88,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269607000,
+    "time_data_received": "10:00:07.0427"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1511",
+          "22.34",
+          "89"
+        ]
+      ]
+    },
+    "sequenceEnd": 89,
+    "sequenceStart": 89,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269607035,
+    "time_data_received": "10:00:07.0729"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1647",
+          "1386.01",
+          "90"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 90,
+    "sequenceStart": 90,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269607038,
+    "time_data_received": "10:00:07.0761"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.163",
+          "3177.18",
+          "91"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 91,
+    "sequenceStart": 91,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269607038,
+    "time_data_received": "10:00:07.0769"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1643",
+          "608.97",
+          "92"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 92,
+    "sequenceStart": 92,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269607038,
+    "time_data_received": "10:00:07.0787"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1634",
+          "611.99",
+          "93"
+        ],
+        [
+          "0.1638",
+          "1455.33",
+          "94"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 94,
+    "sequenceStart": 93,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269607038,
+    "time_data_received": "10:00:07.0790"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1",
+          "5822.84",
+          "95"
+        ]
+      ]
+    },
+    "sequenceEnd": 95,
+    "sequenceStart": 95,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269607050,
+    "time_data_received": "10:00:07.0881"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1718",
+          "10.9",
+          "96"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 96,
+    "sequenceStart": 96,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269607069,
+    "time_data_received": "10:00:07.1158"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1784",
+          "10.9",
+          "97"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 97,
+    "sequenceStart": 97,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269607078,
+    "time_data_received": "10:00:07.1216"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.163",
+          "0",
+          "98"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 98,
+    "sequenceStart": 98,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269608091,
+    "time_data_received": "10:00:08.1289"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1634",
+          "0",
+          "99"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 99,
+    "sequenceStart": 99,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269608093,
+    "time_data_received": "10:00:08.1302"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1638",
+          "0",
+          "100"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 100,
+    "sequenceStart": 100,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269608093,
+    "time_data_received": "10:00:08.1307"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1647",
+          "0",
+          "101"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 101,
+    "sequenceStart": 101,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269608096,
+    "time_data_received": "10:00:08.1342"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1643",
+          "0",
+          "102"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 102,
+    "sequenceStart": 102,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269608096,
+    "time_data_received": "10:00:08.1343"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1629",
+          "1588.97",
+          "103"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 103,
+    "sequenceStart": 103,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269608108,
+    "time_data_received": "10:00:08.1478"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1642",
+          "609.08",
+          "104"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 104,
+    "sequenceStart": 104,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269608108,
+    "time_data_received": "10:00:08.1479"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1647",
+          "1386.01",
+          "105"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 105,
+    "sequenceStart": 105,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269608108,
+    "time_data_received": "10:00:08.1480"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1637",
+          "610.89",
+          "106"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 106,
+    "sequenceStart": 106,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269608108,
+    "time_data_received": "10:00:08.1481"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1634",
+          "612.11",
+          "107"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 107,
+    "sequenceStart": 107,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269608109,
+    "time_data_received": "10:00:08.1484"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.175",
+          "15987.21",
+          "108"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 108,
+    "sequenceStart": 108,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269608222,
+    "time_data_received": "10:00:08.2614"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.17",
+          "294.12",
+          "109"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 109,
+    "sequenceStart": 109,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269608292,
+    "time_data_received": "10:00:08.3306"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.174",
+          "32067.19",
+          "110"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 110,
+    "sequenceStart": 110,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269608332,
+    "time_data_received": "10:00:08.3705"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1624",
+          "8656.56",
+          "111"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 111,
+    "sequenceStart": 111,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269608926,
+    "time_data_received": "10:00:08.9645"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.17",
+          "0",
+          "112"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 112,
+    "sequenceStart": 112,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269609073,
+    "time_data_received": "10:00:09.1105"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1667",
+          "294.12",
+          "113"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 113,
+    "sequenceStart": 113,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269609117,
+    "time_data_received": "10:00:09.1568"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1502",
+          "2663.11",
+          "114"
+        ]
+      ]
+    },
+    "sequenceEnd": 114,
+    "sequenceStart": 114,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269609394,
+    "time_data_received": "10:00:09.4331"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0",
+          "0",
+          "115"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 115,
+    "sequenceStart": 115,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269609433,
+    "time_data_received": "10:00:09.4711"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.175",
+          "19093.06",
+          "116"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 116,
+    "sequenceStart": 116,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269609722,
+    "time_data_received": "10:00:09.7614"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1667",
+          "0",
+          "117"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 117,
+    "sequenceStart": 117,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269609790,
+    "time_data_received": "10:00:09.8280"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.084",
+          "952.38",
+          "118"
+        ]
+      ]
+    },
+    "sequenceEnd": 118,
+    "sequenceStart": 118,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269609811,
+    "time_data_received": "10:00:09.8496"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1644",
+          "294.12",
+          "119"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 119,
+    "sequenceStart": 119,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269609825,
+    "time_data_received": "10:00:09.8637"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.165",
+          "9331.92",
+          "120"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 120,
+    "sequenceStart": 120,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269610070,
+    "time_data_received": "10:00:10.1090"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1",
+          "6316.48",
+          "121"
+        ]
+      ]
+    },
+    "sequenceEnd": 121,
+    "sequenceStart": 121,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269610245,
+    "time_data_received": "10:00:10.2842"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1",
+          "6266.48",
+          "122"
+        ]
+      ]
+    },
+    "sequenceEnd": 122,
+    "sequenceStart": 122,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269610290,
+    "time_data_received": "10:00:10.3280"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1644",
+          "0",
+          "123"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 123,
+    "sequenceStart": 123,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269610340,
+    "time_data_received": "10:00:10.3781"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.163",
+          "294.12",
+          "124"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 124,
+    "sequenceStart": 124,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269610387,
+    "time_data_received": "10:00:10.4268"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1",
+          "6866.48",
+          "125"
+        ]
+      ]
+    },
+    "sequenceEnd": 125,
+    "sequenceStart": 125,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269610439,
+    "time_data_received": "10:00:10.4775"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.086",
+          "930.23",
+          "126"
+        ]
+      ]
+    },
+    "sequenceEnd": 126,
+    "sequenceStart": 126,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269610564,
+    "time_data_received": "10:00:10.6027"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.088",
+          "909.09",
+          "127"
+        ]
+      ]
+    },
+    "sequenceEnd": 127,
+    "sequenceStart": 127,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269610800,
+    "time_data_received": "10:00:10.8385"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.163",
+          "0",
+          "128"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 128,
+    "sequenceStart": 128,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269610851,
+    "time_data_received": "10:00:10.8897"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.162",
+          "294.12",
+          "129"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 129,
+    "sequenceStart": 129,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269610889,
+    "time_data_received": "10:00:10.9279"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.09",
+          "888.88",
+          "130"
+        ]
+      ]
+    },
+    "sequenceEnd": 130,
+    "sequenceStart": 130,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269610930,
+    "time_data_received": "10:00:10.9693"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.09",
+          "1777.76",
+          "131"
+        ]
+      ]
+    },
+    "sequenceEnd": 131,
+    "sequenceStart": 131,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269611090,
+    "time_data_received": "10:00:11.1279"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "132"
+        ]
+      ]
+    },
+    "sequenceEnd": 132,
+    "sequenceStart": 132,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269611556,
+    "time_data_received": "10:00:11.5938"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.162",
+          "0",
+          "133"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 133,
+    "sequenceStart": 133,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269611687,
+    "time_data_received": "10:00:11.7256"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1613",
+          "294.12",
+          "134"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 134,
+    "sequenceStart": 134,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269611722,
+    "time_data_received": "10:00:11.7607"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "0",
+          "135"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 135,
+    "sequenceStart": 135,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269611759,
+    "time_data_received": "10:00:11.7970"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1316",
+          "1139.81",
+          "136"
+        ]
+      ]
+    },
+    "sequenceEnd": 136,
+    "sequenceStart": 136,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269612887,
+    "time_data_received": "10:00:12.9265"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1629",
+          "0",
+          "137"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 137,
+    "sequenceStart": 137,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269612893,
+    "time_data_received": "10:00:12.9322"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1647",
+          "0",
+          "138"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 138,
+    "sequenceStart": 138,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269612896,
+    "time_data_received": "10:00:12.9358"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1642",
+          "0",
+          "139"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 139,
+    "sequenceStart": 139,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269612896,
+    "time_data_received": "10:00:12.9361"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1634",
+          "0",
+          "140"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 140,
+    "sequenceStart": 140,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269612898,
+    "time_data_received": "10:00:12.9364"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1637",
+          "0",
+          "141"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 141,
+    "sequenceStart": 141,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269612898,
+    "time_data_received": "10:00:12.9365"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1",
+          "12446.55",
+          "142"
+        ]
+      ]
+    },
+    "sequenceEnd": 142,
+    "sequenceStart": 142,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269612927,
+    "time_data_received": "10:00:12.9657"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1638",
+          "739.84",
+          "143"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 143,
+    "sequenceStart": 143,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269612927,
+    "time_data_received": "10:00:12.9661"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1647",
+          "1424.97",
+          "144"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 144,
+    "sequenceStart": 144,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269612927,
+    "time_data_received": "10:00:12.9663"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1643",
+          "1718.11",
+          "145"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 145,
+    "sequenceStart": 145,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269612929,
+    "time_data_received": "10:00:12.9672"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.163",
+          "2219.25",
+          "147"
+        ],
+        [
+          "0.1634",
+          "1095.42",
+          "146"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 147,
+    "sequenceStart": 146,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269612929,
+    "time_data_received": "10:00:12.9675"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1613",
+          "0",
+          "148"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 148,
+    "sequenceStart": 148,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269613015,
+    "time_data_received": "10:00:13.0536"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1623",
+          "294.12",
+          "149"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 149,
+    "sequenceStart": 149,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269613053,
+    "time_data_received": "10:00:13.0918"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0",
+          "0",
+          "150"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 150,
+    "sequenceStart": 150,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269613382,
+    "time_data_received": "10:00:13.4197"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1",
+          "12564.58",
+          "151"
+        ]
+      ]
+    },
+    "sequenceEnd": 151,
+    "sequenceStart": 151,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269613562,
+    "time_data_received": "10:00:13.6006"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.114",
+          "5487.91",
+          "152"
+        ]
+      ]
+    },
+    "sequenceEnd": 152,
+    "sequenceStart": 152,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269613640,
+    "time_data_received": "10:00:13.6782"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1427",
+          "2803.08",
+          "153"
+        ]
+      ]
+    },
+    "sequenceEnd": 153,
+    "sequenceStart": 153,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269613881,
+    "time_data_received": "10:00:13.9222"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0",
+          "0",
+          "154"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 154,
+    "sequenceStart": 154,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269614318,
+    "time_data_received": "10:00:14.3560"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.16",
+          "3660.4",
+          "155"
+        ]
+      ]
+    },
+    "sequenceEnd": 155,
+    "sequenceStart": 155,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269614453,
+    "time_data_received": "10:00:14.4914"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "156"
+        ]
+      ]
+    },
+    "sequenceEnd": 156,
+    "sequenceStart": 156,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269614512,
+    "time_data_received": "10:00:14.5511"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0",
+          "0",
+          "157"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 157,
+    "sequenceStart": 157,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269615126,
+    "time_data_received": "10:00:15.1646"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1503",
+          "665.33",
+          "158"
+        ]
+      ]
+    },
+    "sequenceEnd": 158,
+    "sequenceStart": 158,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269615358,
+    "time_data_received": "10:00:15.3957"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.156",
+          "22",
+          "159"
+        ]
+      ]
+    },
+    "sequenceEnd": 159,
+    "sequenceStart": 159,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269615498,
+    "time_data_received": "10:00:15.5360"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0",
+          "0",
+          "160"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 160,
+    "sequenceStart": 160,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269615848,
+    "time_data_received": "10:00:15.8862"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1634",
+          "0",
+          "161"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 161,
+    "sequenceStart": 161,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269616693,
+    "time_data_received": "10:00:16.7314"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.163",
+          "0",
+          "162"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 162,
+    "sequenceStart": 162,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269616693,
+    "time_data_received": "10:00:16.7325"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1643",
+          "0",
+          "163"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 163,
+    "sequenceStart": 163,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269616694,
+    "time_data_received": "10:00:16.7327"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1638",
+          "0",
+          "164"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 164,
+    "sequenceStart": 164,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269616694,
+    "time_data_received": "10:00:16.7328"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1647",
+          "0",
+          "165"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 165,
+    "sequenceStart": 165,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269616696,
+    "time_data_received": "10:00:16.7343"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.16",
+          "4123.35",
+          "166"
+        ]
+      ]
+    },
+    "sequenceEnd": 166,
+    "sequenceStart": 166,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269616926,
+    "time_data_received": "10:00:16.9649"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1647",
+          "1424.97",
+          "167"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 167,
+    "sequenceStart": 167,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269616943,
+    "time_data_received": "10:00:16.9844"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1637",
+          "699.04",
+          "168"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 168,
+    "sequenceStart": 168,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269616943,
+    "time_data_received": "10:00:16.9846"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1642",
+          "1871.5",
+          "169"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 169,
+    "sequenceStart": 169,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269616943,
+    "time_data_received": "10:00:16.9847"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1629",
+          "1779.23",
+          "170"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 170,
+    "sequenceStart": 170,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269616943,
+    "time_data_received": "10:00:16.9848"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1634",
+          "1353.26",
+          "171"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 171,
+    "sequenceStart": 171,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269616945,
+    "time_data_received": "10:00:16.9857"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.0722",
+          "3470.93",
+          "172"
+        ]
+      ]
+    },
+    "sequenceEnd": 172,
+    "sequenceStart": 172,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269617239,
+    "time_data_received": "10:00:17.2775"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "173"
+        ]
+      ]
+    },
+    "sequenceEnd": 173,
+    "sequenceStart": 173,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269617879,
+    "time_data_received": "10:00:17.9181"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1475",
+          "169.49",
+          "174"
+        ]
+      ]
+    },
+    "sequenceEnd": 174,
+    "sequenceStart": 174,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269617941,
+    "time_data_received": "10:00:17.9806"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1511",
+          "0",
+          "175"
+        ]
+      ]
+    },
+    "sequenceEnd": 175,
+    "sequenceStart": 175,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618023,
+    "time_data_received": "10:00:18.0610"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1504",
+          "16.15",
+          "176"
+        ]
+      ]
+    },
+    "sequenceEnd": 176,
+    "sequenceStart": 176,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618087,
+    "time_data_received": "10:00:18.1261"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1445",
+          "173.01",
+          "177"
+        ]
+      ]
+    },
+    "sequenceEnd": 177,
+    "sequenceStart": 177,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618325,
+    "time_data_received": "10:00:18.3632"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.174",
+          "0",
+          "178"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 178,
+    "sequenceStart": 178,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618369,
+    "time_data_received": "10:00:18.4074"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.16",
+          "4232.6",
+          "179"
+        ]
+      ]
+    },
+    "sequenceEnd": 179,
+    "sequenceStart": 179,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618552,
+    "time_data_received": "10:00:18.5908"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "5330.98",
+          "183"
+        ]
+      ],
+      "bids": [
+        [
+          "0.16",
+          "0",
+          "182"
+        ]
+      ]
+    },
+    "sequenceEnd": 183,
+    "sequenceStart": 180,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618605,
+    "time_data_received": "10:00:18.6438"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "5268.91",
+          "184"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 184,
+    "sequenceStart": 184,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618641,
+    "time_data_received": "10:00:18.6811"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "5160.02",
+          "185"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 185,
+    "sequenceStart": 185,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618673,
+    "time_data_received": "10:00:18.7118"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "5052.01",
+          "186"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 186,
+    "sequenceStart": 186,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618673,
+    "time_data_received": "10:00:18.7126"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "5005.26",
+          "187"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 187,
+    "sequenceStart": 187,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618680,
+    "time_data_received": "10:00:18.7186"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "4896.37",
+          "188"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 188,
+    "sequenceStart": 188,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618682,
+    "time_data_received": "10:00:18.7212"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "4879.57",
+          "189"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 189,
+    "sequenceStart": 189,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618686,
+    "time_data_received": "10:00:18.7250"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "4833.06",
+          "190"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 190,
+    "sequenceStart": 190,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618697,
+    "time_data_received": "10:00:18.7352"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "4624.73",
+          "191"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 191,
+    "sequenceStart": 191,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618700,
+    "time_data_received": "10:00:18.7389"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "4455.54",
+          "192"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 192,
+    "sequenceStart": 192,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618700,
+    "time_data_received": "10:00:18.7393"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "4290",
+          "193"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 193,
+    "sequenceStart": 193,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618700,
+    "time_data_received": "10:00:18.7394"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "4248.62",
+          "194"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 194,
+    "sequenceStart": 194,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618708,
+    "time_data_received": "10:00:18.7467"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "3958.24",
+          "195"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 195,
+    "sequenceStart": 195,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618708,
+    "time_data_received": "10:00:18.7482"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "3749.91",
+          "196"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 196,
+    "sequenceStart": 196,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618712,
+    "time_data_received": "10:00:18.7498"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "3541.58",
+          "197"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 197,
+    "sequenceStart": 197,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618712,
+    "time_data_received": "10:00:18.7508"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "3404.52",
+          "198"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 198,
+    "sequenceStart": 198,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618714,
+    "time_data_received": "10:00:18.7545"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "3253.87",
+          "199"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 199,
+    "sequenceStart": 199,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618714,
+    "time_data_received": "10:00:18.7547"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "2698.32",
+          "200"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 200,
+    "sequenceStart": 200,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618727,
+    "time_data_received": "10:00:18.7660"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "2559.43",
+          "201"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 201,
+    "sequenceStart": 201,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618734,
+    "time_data_received": "10:00:18.7723"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "2446.71",
+          "202"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 202,
+    "sequenceStart": 202,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618737,
+    "time_data_received": "10:00:18.7764"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "2156.33",
+          "203"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 203,
+    "sequenceStart": 203,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618739,
+    "time_data_received": "10:00:18.7771"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "2043.61",
+          "204"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 204,
+    "sequenceStart": 204,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618742,
+    "time_data_received": "10:00:18.7807"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "1908.45",
+          "205"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 205,
+    "sequenceStart": 205,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618752,
+    "time_data_received": "10:00:18.7899"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "1835.65",
+          "206"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 206,
+    "sequenceStart": 206,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618755,
+    "time_data_received": "10:00:18.7930"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "1603.33",
+          "207"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 207,
+    "sequenceStart": 207,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618764,
+    "time_data_received": "10:00:18.8018"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "1486.6",
+          "208"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 208,
+    "sequenceStart": 208,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618766,
+    "time_data_received": "10:00:18.8053"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "1116.91",
+          "209"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 209,
+    "sequenceStart": 209,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618766,
+    "time_data_received": "10:00:18.8054"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "1000.18",
+          "210"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 210,
+    "sequenceStart": 210,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618770,
+    "time_data_received": "10:00:18.8081"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "885.13",
+          "211"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 211,
+    "sequenceStart": 211,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618790,
+    "time_data_received": "10:00:18.8282"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "770.08",
+          "212"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 212,
+    "sequenceStart": 212,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618792,
+    "time_data_received": "10:00:18.8366"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "616.15",
+          "213"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 213,
+    "sequenceStart": 213,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618798,
+    "time_data_received": "10:00:18.8368"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "304.85",
+          "214"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 214,
+    "sequenceStart": 214,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618798,
+    "time_data_received": "10:00:18.8369"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "220.11",
+          "215"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 215,
+    "sequenceStart": 215,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618807,
+    "time_data_received": "10:00:18.8467"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "0",
+          "216"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 216,
+    "sequenceStart": 216,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618816,
+    "time_data_received": "10:00:18.8542"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1599",
+          "274.41",
+          "217"
+        ]
+      ]
+    },
+    "sequenceEnd": 217,
+    "sequenceStart": 217,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618876,
+    "time_data_received": "10:00:18.9146"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1598",
+          "274.39",
+          "218"
+        ]
+      ]
+    },
+    "sequenceEnd": 218,
+    "sequenceStart": 218,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618907,
+    "time_data_received": "10:00:18.9452"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "219"
+        ]
+      ]
+    },
+    "sequenceEnd": 219,
+    "sequenceStart": 219,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269618917,
+    "time_data_received": "10:00:18.9576"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1504",
+          "0",
+          "220"
+        ]
+      ]
+    },
+    "sequenceEnd": 220,
+    "sequenceStart": 220,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269619083,
+    "time_data_received": "10:00:19.1214"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1561",
+          "16.25",
+          "221"
+        ]
+      ]
+    },
+    "sequenceEnd": 221,
+    "sequenceStart": 221,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269619122,
+    "time_data_received": "10:00:19.1610"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1525",
+          "163.93",
+          "222"
+        ]
+      ]
+    },
+    "sequenceEnd": 222,
+    "sequenceStart": 222,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269619468,
+    "time_data_received": "10:00:19.5061"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1654",
+          "159.56",
+          "223"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 223,
+    "sequenceStart": 223,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269619761,
+    "time_data_received": "10:00:19.7999"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1653",
+          "264.26",
+          "224"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 224,
+    "sequenceStart": 224,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269619843,
+    "time_data_received": "10:00:19.8817"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1651",
+          "297.77",
+          "225"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 225,
+    "sequenceStart": 225,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269619845,
+    "time_data_received": "10:00:19.8829"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.16",
+          "7.73",
+          "226"
+        ]
+      ]
+    },
+    "sequenceEnd": 226,
+    "sequenceStart": 226,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269620138,
+    "time_data_received": "10:00:20.1761"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1561",
+          "0",
+          "227"
+        ]
+      ]
+    },
+    "sequenceEnd": 227,
+    "sequenceStart": 227,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269620250,
+    "time_data_received": "10:00:20.2890"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1526",
+          "16.15",
+          "228"
+        ]
+      ]
+    },
+    "sequenceEnd": 228,
+    "sequenceStart": 228,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269620319,
+    "time_data_received": "10:00:20.3573"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1624",
+          "0",
+          "229"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 229,
+    "sequenceStart": 229,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269620515,
+    "time_data_received": "10:00:20.5534"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "19079.06",
+          "231"
+        ]
+      ],
+      "bids": [
+        [
+          "0.16",
+          "0",
+          "230"
+        ]
+      ]
+    },
+    "sequenceEnd": 231,
+    "sequenceStart": 230,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269620764,
+    "time_data_received": "10:00:20.8022"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "18863.88",
+          "232"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 232,
+    "sequenceStart": 232,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269620794,
+    "time_data_received": "10:00:20.8378"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "18503.05",
+          "233"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 233,
+    "sequenceStart": 233,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269620805,
+    "time_data_received": "10:00:20.8434"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "18092.6",
+          "234"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 234,
+    "sequenceStart": 234,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269620821,
+    "time_data_received": "10:00:20.8663"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "17216.97",
+          "235"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 235,
+    "sequenceStart": 235,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269620828,
+    "time_data_received": "10:00:20.8668"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "16806.52",
+          "236"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 236,
+    "sequenceStart": 236,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269620836,
+    "time_data_received": "10:00:20.8780"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "15370.85",
+          "237"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 237,
+    "sequenceStart": 237,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269620844,
+    "time_data_received": "10:00:20.8873"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "15244.97",
+          "238"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 238,
+    "sequenceStart": 238,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269620848,
+    "time_data_received": "10:00:20.8879"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "15195.26",
+          "239"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 239,
+    "sequenceStart": 239,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269620850,
+    "time_data_received": "10:00:20.8883"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "12935.44",
+          "240"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 240,
+    "sequenceStart": 240,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269620857,
+    "time_data_received": "10:00:20.8966"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "10816.58",
+          "241"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 241,
+    "sequenceStart": 241,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269620857,
+    "time_data_received": "10:00:20.8971"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "10690.72",
+          "242"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 242,
+    "sequenceStart": 242,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269620857,
+    "time_data_received": "10:00:20.8974"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "10482.94",
+          "243"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 243,
+    "sequenceStart": 243,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269620857,
+    "time_data_received": "10:00:20.8976"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "7347.32",
+          "244"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 244,
+    "sequenceStart": 244,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269620857,
+    "time_data_received": "10:00:20.8978"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "7198.63",
+          "245"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 245,
+    "sequenceStart": 245,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269620864,
+    "time_data_received": "10:00:20.9021"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1623",
+          "0",
+          "246"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 246,
+    "sequenceStart": 246,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269620882,
+    "time_data_received": "10:00:20.9197"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "7178.68",
+          "247"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 247,
+    "sequenceStart": 247,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269620887,
+    "time_data_received": "10:00:20.9257"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "6527.02",
+          "248"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 248,
+    "sequenceStart": 248,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269620896,
+    "time_data_received": "10:00:20.9335"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1623",
+          "294.12",
+          "249"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 249,
+    "sequenceStart": 249,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269620924,
+    "time_data_received": "10:00:20.9618"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "6494.78",
+          "250"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 250,
+    "sequenceStart": 250,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269620976,
+    "time_data_received": "10:00:21.0137"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1526",
+          "0",
+          "251"
+        ]
+      ]
+    },
+    "sequenceEnd": 251,
+    "sequenceStart": 251,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269620979,
+    "time_data_received": "10:00:21.0167"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "5342.31",
+          "252"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 252,
+    "sequenceStart": 252,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269621007,
+    "time_data_received": "10:00:21.0455"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "4838.01",
+          "253"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 253,
+    "sequenceStart": 253,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269621007,
+    "time_data_received": "10:00:21.0457"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1561",
+          "18.48",
+          "254"
+        ]
+      ]
+    },
+    "sequenceEnd": 254,
+    "sequenceStart": 254,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269621014,
+    "time_data_received": "10:00:21.0513"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "4645.45",
+          "255"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 255,
+    "sequenceStart": 255,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269621017,
+    "time_data_received": "10:00:21.0559"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "4452.89",
+          "256"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 256,
+    "sequenceStart": 256,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269621024,
+    "time_data_received": "10:00:21.0615"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "3948.59",
+          "257"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 257,
+    "sequenceStart": 257,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269621024,
+    "time_data_received": "10:00:21.0616"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "3718.1",
+          "258"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 258,
+    "sequenceStart": 258,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269621052,
+    "time_data_received": "10:00:21.0904"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "3651.19",
+          "259"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 259,
+    "sequenceStart": 259,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269621088,
+    "time_data_received": "10:00:21.1260"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "2547.96",
+          "260"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 260,
+    "sequenceStart": 260,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269621099,
+    "time_data_received": "10:00:21.1381"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "1444.73",
+          "261"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 261,
+    "sequenceStart": 261,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269621119,
+    "time_data_received": "10:00:21.1571"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "1214.23",
+          "262"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 262,
+    "sequenceStart": 262,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269621129,
+    "time_data_received": "10:00:21.1674"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "983.73",
+          "263"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 263,
+    "sequenceStart": 263,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269621167,
+    "time_data_received": "10:00:21.2058"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "0",
+          "264"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 264,
+    "sequenceStart": 264,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269621167,
+    "time_data_received": "10:00:21.2061"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0",
+          "0",
+          "265"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 265,
+    "sequenceStart": 265,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269621564,
+    "time_data_received": "10:00:21.6025"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1629",
+          "0",
+          "266"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 266,
+    "sequenceStart": 266,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269621605,
+    "time_data_received": "10:00:21.6432"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1623",
+          "0",
+          "267"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 267,
+    "sequenceStart": 267,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269621640,
+    "time_data_received": "10:00:21.6797"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1628",
+          "294.12",
+          "268"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 268,
+    "sequenceStart": 268,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269621683,
+    "time_data_received": "10:00:21.7212"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1627",
+          "1263.33",
+          "269"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 269,
+    "sequenceStart": 269,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269621844,
+    "time_data_received": "10:00:21.8824"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0",
+          "0",
+          "270"
+        ],
+        [
+          "0.1",
+          "12581.98",
+          "271"
+        ]
+      ]
+    },
+    "sequenceEnd": 271,
+    "sequenceStart": 270,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269621994,
+    "time_data_received": "10:00:22.0331"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1578",
+          "158.15",
+          "272"
+        ]
+      ]
+    },
+    "sequenceEnd": 272,
+    "sequenceStart": 272,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269622028,
+    "time_data_received": "10:00:22.0673"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1652",
+          "97.02",
+          "273"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 273,
+    "sequenceStart": 273,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269622100,
+    "time_data_received": "10:00:22.1388"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1628",
+          "0",
+          "274"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 274,
+    "sequenceStart": 274,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269622194,
+    "time_data_received": "10:00:22.2327"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1626",
+          "294.12",
+          "275"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 275,
+    "sequenceStart": 275,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269622227,
+    "time_data_received": "10:00:22.2654"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1561",
+          "0",
+          "276"
+        ]
+      ]
+    },
+    "sequenceEnd": 276,
+    "sequenceStart": 276,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269622281,
+    "time_data_received": "10:00:22.3197"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1579",
+          "15.86",
+          "277"
+        ]
+      ]
+    },
+    "sequenceEnd": 277,
+    "sequenceStart": 277,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269622318,
+    "time_data_received": "10:00:22.3567"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0",
+          "0",
+          "278"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 278,
+    "sequenceStart": 278,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269622380,
+    "time_data_received": "10:00:22.4188"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.16",
+          "7.98",
+          "279"
+        ]
+      ]
+    },
+    "sequenceEnd": 279,
+    "sequenceStart": 279,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269622814,
+    "time_data_received": "10:00:22.8522"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1",
+          "13586.05",
+          "280"
+        ]
+      ]
+    },
+    "sequenceEnd": 280,
+    "sequenceStart": 280,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269623040,
+    "time_data_received": "10:00:23.0774"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1652",
+          "961.72",
+          "281"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 281,
+    "sequenceStart": 281,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269623092,
+    "time_data_received": "10:00:23.1308"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1652",
+          "97.02",
+          "282"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 282,
+    "sequenceStart": 282,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269623129,
+    "time_data_received": "10:00:23.1679"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1572",
+          "160.23",
+          "283"
+        ]
+      ]
+    },
+    "sequenceEnd": 283,
+    "sequenceStart": 283,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269623201,
+    "time_data_received": "10:00:23.2394"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1652",
+          "464.92",
+          "284"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 284,
+    "sequenceStart": 284,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269623215,
+    "time_data_received": "10:00:23.2538"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1653",
+          "1186.76",
+          "285"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 285,
+    "sequenceStart": 285,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269623230,
+    "time_data_received": "10:00:23.2686"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.16",
+          "36.3",
+          "286"
+        ]
+      ]
+    },
+    "sequenceEnd": 286,
+    "sequenceStart": 286,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269623782,
+    "time_data_received": "10:00:23.8213"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.123",
+          "203.25",
+          "287"
+        ]
+      ]
+    },
+    "sequenceEnd": 287,
+    "sequenceStart": 287,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269623944,
+    "time_data_received": "10:00:23.9825"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1653",
+          "2051.46",
+          "288"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 288,
+    "sequenceStart": 288,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269624094,
+    "time_data_received": "10:00:24.1323"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1652",
+          "1576.62",
+          "289"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 289,
+    "sequenceStart": 289,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269624886,
+    "time_data_received": "10:00:24.9238"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "10551.52",
+          "292"
+        ]
+      ],
+      "bids": [
+        [
+          "0.16",
+          "0",
+          "291"
+        ]
+      ]
+    },
+    "sequenceEnd": 292,
+    "sequenceStart": 290,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625205,
+    "time_data_received": "10:00:25.2441"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "10365.47",
+          "293"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 293,
+    "sequenceStart": 293,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625216,
+    "time_data_received": "10:00:25.2548"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.131",
+          "190.83",
+          "294"
+        ]
+      ]
+    },
+    "sequenceEnd": 294,
+    "sequenceStart": 294,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625217,
+    "time_data_received": "10:00:25.2627"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "10179.42",
+          "295"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 295,
+    "sequenceStart": 295,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625233,
+    "time_data_received": "10:00:25.2720"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "9943.34",
+          "296"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 296,
+    "sequenceStart": 296,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625234,
+    "time_data_received": "10:00:25.2723"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1653",
+          "1128.96",
+          "297"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 297,
+    "sequenceStart": 297,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625238,
+    "time_data_received": "10:00:25.2762"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "9894.92",
+          "298"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 298,
+    "sequenceStart": 298,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625239,
+    "time_data_received": "10:00:25.2783"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1652",
+          "1208.72",
+          "299"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 299,
+    "sequenceStart": 299,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625243,
+    "time_data_received": "10:00:25.2816"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1652",
+          "97.02",
+          "300"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 300,
+    "sequenceStart": 300,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625246,
+    "time_data_received": "10:00:25.2841"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1653",
+          "264.26",
+          "301"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 301,
+    "sequenceStart": 301,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625249,
+    "time_data_received": "10:00:25.2878"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "9693.74",
+          "302"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 302,
+    "sequenceStart": 302,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625253,
+    "time_data_received": "10:00:25.2917"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "9590.43",
+          "303"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 303,
+    "sequenceStart": 303,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625255,
+    "time_data_received": "10:00:25.2935"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "9542.01",
+          "304"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 304,
+    "sequenceStart": 304,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625257,
+    "time_data_received": "10:00:25.2951"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "9488.38",
+          "305"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 305,
+    "sequenceStart": 305,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625266,
+    "time_data_received": "10:00:25.3052"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "7807.06",
+          "306"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 306,
+    "sequenceStart": 306,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625266,
+    "time_data_received": "10:00:25.3055"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "7384.86",
+          "307"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 307,
+    "sequenceStart": 307,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625272,
+    "time_data_received": "10:00:25.3104"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "7300.42",
+          "308"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 308,
+    "sequenceStart": 308,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625277,
+    "time_data_received": "10:00:25.3155"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "5535.37",
+          "309"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 309,
+    "sequenceStart": 309,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625277,
+    "time_data_received": "10:00:25.3169"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "4449.18",
+          "310"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 310,
+    "sequenceStart": 310,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625281,
+    "time_data_received": "10:00:25.3189"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "4112.91",
+          "311"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 311,
+    "sequenceStart": 311,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625281,
+    "time_data_received": "10:00:25.3192"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "2214.92",
+          "312"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 312,
+    "sequenceStart": 312,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625282,
+    "time_data_received": "10:00:25.3207"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "2159.6",
+          "313"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 313,
+    "sequenceStart": 313,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625283,
+    "time_data_received": "10:00:25.3212"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "2069.09",
+          "314"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 314,
+    "sequenceStart": 314,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625283,
+    "time_data_received": "10:00:25.3221"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "1939.96",
+          "315"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 315,
+    "sequenceStart": 315,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625286,
+    "time_data_received": "10:00:25.3237"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "0",
+          "316"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 316,
+    "sequenceStart": 316,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625288,
+    "time_data_received": "10:00:25.3262"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1599",
+          "349.2",
+          "317"
+        ]
+      ]
+    },
+    "sequenceEnd": 317,
+    "sequenceStart": 317,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625349,
+    "time_data_received": "10:00:25.3885"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1599",
+          "845.34",
+          "318"
+        ]
+      ]
+    },
+    "sequenceEnd": 318,
+    "sequenceStart": 318,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625350,
+    "time_data_received": "10:00:25.3887"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1598",
+          "705.04",
+          "319"
+        ]
+      ]
+    },
+    "sequenceEnd": 319,
+    "sequenceStart": 319,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625352,
+    "time_data_received": "10:00:25.3901"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1598",
+          "709.34",
+          "320"
+        ]
+      ]
+    },
+    "sequenceEnd": 320,
+    "sequenceStart": 320,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625354,
+    "time_data_received": "10:00:25.3919"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1598",
+          "838.47",
+          "321"
+        ]
+      ]
+    },
+    "sequenceEnd": 321,
+    "sequenceStart": 321,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625379,
+    "time_data_received": "10:00:25.4176"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1599",
+          "974.47",
+          "322"
+        ]
+      ]
+    },
+    "sequenceEnd": 322,
+    "sequenceStart": 322,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625385,
+    "time_data_received": "10:00:25.4241"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1598",
+          "1797.93",
+          "323"
+        ]
+      ]
+    },
+    "sequenceEnd": 323,
+    "sequenceStart": 323,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625385,
+    "time_data_received": "10:00:25.4243"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1597",
+          "168.42",
+          "324"
+        ]
+      ]
+    },
+    "sequenceEnd": 324,
+    "sequenceStart": 324,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625393,
+    "time_data_received": "10:00:25.4316"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1634",
+          "0",
+          "325"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 325,
+    "sequenceStart": 325,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625400,
+    "time_data_received": "10:00:25.4383"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1599",
+          "1127.01",
+          "326"
+        ]
+      ]
+    },
+    "sequenceEnd": 326,
+    "sequenceStart": 326,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625416,
+    "time_data_received": "10:00:25.4545"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1631",
+          "739.32",
+          "327"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 327,
+    "sequenceStart": 327,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625466,
+    "time_data_received": "10:00:25.5046"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1579",
+          "0",
+          "328"
+        ]
+      ]
+    },
+    "sequenceEnd": 328,
+    "sequenceStart": 328,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625627,
+    "time_data_received": "10:00:25.6659"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1599",
+          "1142.97",
+          "329"
+        ]
+      ]
+    },
+    "sequenceEnd": 329,
+    "sequenceStart": 329,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625682,
+    "time_data_received": "10:00:25.7205"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.12",
+          "8952.78",
+          "330"
+        ]
+      ]
+    },
+    "sequenceEnd": 330,
+    "sequenceStart": 330,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269625982,
+    "time_data_received": "10:00:26.0209"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1",
+          "13561.24",
+          "331"
+        ]
+      ]
+    },
+    "sequenceEnd": 331,
+    "sequenceStart": 331,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269626008,
+    "time_data_received": "10:00:26.0467"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1599",
+          "1127.01",
+          "332"
+        ]
+      ]
+    },
+    "sequenceEnd": 332,
+    "sequenceStart": 332,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269626148,
+    "time_data_received": "10:00:26.1863"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1572",
+          "0",
+          "333"
+        ]
+      ]
+    },
+    "sequenceEnd": 333,
+    "sequenceStart": 333,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269626174,
+    "time_data_received": "10:00:26.2122"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.16",
+          "15.96",
+          "334"
+        ]
+      ]
+    },
+    "sequenceEnd": 334,
+    "sequenceStart": 334,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269626179,
+    "time_data_received": "10:00:26.2170"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1659",
+          "626.39",
+          "335"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 335,
+    "sequenceStart": 335,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269626324,
+    "time_data_received": "10:00:26.3629"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1659",
+          "1420.66",
+          "336"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 336,
+    "sequenceStart": 336,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269626747,
+    "time_data_received": "10:00:26.7856"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1649",
+          "58.1",
+          "337"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 337,
+    "sequenceStart": 337,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269626753,
+    "time_data_received": "10:00:26.7918"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1627",
+          "0",
+          "338"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 338,
+    "sequenceStart": 338,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269627256,
+    "time_data_received": "10:00:27.2946"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1626",
+          "2499.99",
+          "339"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 339,
+    "sequenceStart": 339,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269627345,
+    "time_data_received": "10:00:27.3839"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1626",
+          "2205.87",
+          "340"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 340,
+    "sequenceStart": 340,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269627408,
+    "time_data_received": "10:00:27.4467"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1625",
+          "294.12",
+          "341"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 341,
+    "sequenceStart": 341,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269627438,
+    "time_data_received": "10:00:27.4764"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1651",
+          "665.67",
+          "342"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 342,
+    "sequenceStart": 342,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269627470,
+    "time_data_received": "10:00:27.5152"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.16",
+          "3949.59",
+          "343"
+        ]
+      ]
+    },
+    "sequenceEnd": 343,
+    "sequenceStart": 343,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628263,
+    "time_data_received": "10:00:28.3019"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.16",
+          "3933.63",
+          "344"
+        ]
+      ]
+    },
+    "sequenceEnd": 344,
+    "sequenceStart": 344,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628317,
+    "time_data_received": "10:00:28.3561"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1601",
+          "15.96",
+          "345"
+        ]
+      ]
+    },
+    "sequenceEnd": 345,
+    "sequenceStart": 345,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628350,
+    "time_data_received": "10:00:28.3885"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1637",
+          "0",
+          "346"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 346,
+    "sequenceStart": 346,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628503,
+    "time_data_received": "10:00:28.5407"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.076",
+          "2384",
+          "347"
+        ]
+      ]
+    },
+    "sequenceEnd": 347,
+    "sequenceStart": 347,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628600,
+    "time_data_received": "10:00:28.6384"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1634",
+          "658.25",
+          "348"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 348,
+    "sequenceStart": 348,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628667,
+    "time_data_received": "10:00:28.7054"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1599",
+          "847.21",
+          "352"
+        ],
+        [
+          "0.16",
+          "0",
+          "350"
+        ],
+        [
+          "0.1601",
+          "0",
+          "349"
+        ]
+      ]
+    },
+    "sequenceEnd": 352,
+    "sequenceStart": 349,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628835,
+    "time_data_received": "10:00:28.8741"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "8656.56",
+          "353"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 353,
+    "sequenceStart": 353,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628863,
+    "time_data_received": "10:00:28.9014"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "8396.01",
+          "354"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 354,
+    "sequenceStart": 354,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628873,
+    "time_data_received": "10:00:28.9114"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "8135.46",
+          "355"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 355,
+    "sequenceStart": 355,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628873,
+    "time_data_received": "10:00:28.9122"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "7874.91",
+          "356"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 356,
+    "sequenceStart": 356,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628875,
+    "time_data_received": "10:00:28.9140"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "7614.36",
+          "357"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 357,
+    "sequenceStart": 357,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628875,
+    "time_data_received": "10:00:28.9142"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "7353.81",
+          "358"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 358,
+    "sequenceStart": 358,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628888,
+    "time_data_received": "10:00:28.9264"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "7093.26",
+          "359"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 359,
+    "sequenceStart": 359,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628889,
+    "time_data_received": "10:00:28.9286"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "6832.71",
+          "360"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 360,
+    "sequenceStart": 360,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628889,
+    "time_data_received": "10:00:28.9288"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "6572.16",
+          "361"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 361,
+    "sequenceStart": 361,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628889,
+    "time_data_received": "10:00:28.9291"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "6311.61",
+          "362"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 362,
+    "sequenceStart": 362,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628892,
+    "time_data_received": "10:00:28.9309"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "6051.06",
+          "363"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 363,
+    "sequenceStart": 363,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628893,
+    "time_data_received": "10:00:28.9316"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "5809.61",
+          "364"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 364,
+    "sequenceStart": 364,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628895,
+    "time_data_received": "10:00:28.9341"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "5634.97",
+          "365"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 365,
+    "sequenceStart": 365,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628895,
+    "time_data_received": "10:00:28.9347"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "5422.48",
+          "366"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 366,
+    "sequenceStart": 366,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628895,
+    "time_data_received": "10:00:28.9349"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1652",
+          "0",
+          "367"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 367,
+    "sequenceStart": 367,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628899,
+    "time_data_received": "10:00:28.9411"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1651",
+          "297.77",
+          "368"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 368,
+    "sequenceStart": 368,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628899,
+    "time_data_received": "10:00:28.9420"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "5161.93",
+          "369"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 369,
+    "sequenceStart": 369,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628900,
+    "time_data_received": "10:00:28.9423"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "4901.38",
+          "370"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 370,
+    "sequenceStart": 370,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628902,
+    "time_data_received": "10:00:28.9426"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1598",
+          "1523.54",
+          "371"
+        ]
+      ]
+    },
+    "sequenceEnd": 371,
+    "sequenceStart": 371,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628916,
+    "time_data_received": "10:00:28.9547"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "4821.01",
+          "372"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 372,
+    "sequenceStart": 372,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628923,
+    "time_data_received": "10:00:28.9621"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "4758.52",
+          "373"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 373,
+    "sequenceStart": 373,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628941,
+    "time_data_received": "10:00:28.9837"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "4561.66",
+          "374"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 374,
+    "sequenceStart": 374,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628942,
+    "time_data_received": "10:00:28.9847"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "4330.48",
+          "375"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 375,
+    "sequenceStart": 375,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628944,
+    "time_data_received": "10:00:28.9852"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "4270.61",
+          "376"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 376,
+    "sequenceStart": 376,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628944,
+    "time_data_received": "10:00:28.9854"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1625",
+          "0",
+          "377"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 377,
+    "sequenceStart": 377,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628973,
+    "time_data_received": "10:00:29.0122"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "4123.87",
+          "378"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 378,
+    "sequenceStart": 378,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628973,
+    "time_data_received": "10:00:29.0124"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "1017.55",
+          "379"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 379,
+    "sequenceStart": 379,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628983,
+    "time_data_received": "10:00:29.0216"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "463.9",
+          "380"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 380,
+    "sequenceStart": 380,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628983,
+    "time_data_received": "10:00:29.0218"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "0",
+          "381"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 381,
+    "sequenceStart": 381,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269628987,
+    "time_data_received": "10:00:29.0257"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1625",
+          "310.08",
+          "382"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 382,
+    "sequenceStart": 382,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269629013,
+    "time_data_received": "10:00:29.0517"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1526",
+          "2.52",
+          "383"
+        ]
+      ]
+    },
+    "sequenceEnd": 383,
+    "sequenceStart": 383,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269629061,
+    "time_data_received": "10:00:29.0994"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1659",
+          "794.27",
+          "384"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 384,
+    "sequenceStart": 384,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269629091,
+    "time_data_received": "10:00:29.1297"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1649",
+          "0",
+          "385"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 385,
+    "sequenceStart": 385,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269629093,
+    "time_data_received": "10:00:29.1313"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1659",
+          "0",
+          "386"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 386,
+    "sequenceStart": 386,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269629093,
+    "time_data_received": "10:00:29.1315"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1598",
+          "1659.15",
+          "387"
+        ]
+      ]
+    },
+    "sequenceEnd": 387,
+    "sequenceStart": 387,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269629113,
+    "time_data_received": "10:00:29.1506"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1599",
+          "910.08",
+          "388"
+        ]
+      ]
+    },
+    "sequenceEnd": 388,
+    "sequenceStart": 388,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269629149,
+    "time_data_received": "10:00:29.1877"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1597",
+          "294.51",
+          "389"
+        ]
+      ]
+    },
+    "sequenceEnd": 389,
+    "sequenceStart": 389,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269629279,
+    "time_data_received": "10:00:29.3178"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1651",
+          "668.09",
+          "390"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 390,
+    "sequenceStart": 390,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269629995,
+    "time_data_received": "10:00:30.0342"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1652",
+          "117.24",
+          "391"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 391,
+    "sequenceStart": 391,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269630002,
+    "time_data_received": "10:00:30.0404"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.165",
+          "9477.28",
+          "392"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 392,
+    "sequenceStart": 392,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269630002,
+    "time_data_received": "10:00:30.0407"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1578",
+          "795.4",
+          "393"
+        ]
+      ]
+    },
+    "sequenceEnd": 393,
+    "sequenceStart": 393,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269630014,
+    "time_data_received": "10:00:30.0518"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1526",
+          "0",
+          "394"
+        ]
+      ]
+    },
+    "sequenceEnd": 394,
+    "sequenceStart": 394,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269630101,
+    "time_data_received": "10:00:30.1386"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1653",
+          "553.58",
+          "395"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 395,
+    "sequenceStart": 395,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269630220,
+    "time_data_received": "10:00:30.2589"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1654",
+          "852.57",
+          "396"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 396,
+    "sequenceStart": 396,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269630227,
+    "time_data_received": "10:00:30.2650"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.175",
+          "6055.06",
+          "397"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 397,
+    "sequenceStart": 397,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269630358,
+    "time_data_received": "10:00:30.3969"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1651",
+          "756.67",
+          "398"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 398,
+    "sequenceStart": 398,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269630535,
+    "time_data_received": "10:00:30.5732"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.0003",
+          "10000",
+          "399"
+        ]
+      ]
+    },
+    "sequenceEnd": 399,
+    "sequenceStart": 399,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269630550,
+    "time_data_received": "10:00:30.5874"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.16",
+          "1411.69",
+          "400"
+        ]
+      ]
+    },
+    "sequenceEnd": 400,
+    "sequenceStart": 400,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269630951,
+    "time_data_received": "10:00:30.9890"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1649",
+          "785.72",
+          "401"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 401,
+    "sequenceStart": 401,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269630959,
+    "time_data_received": "10:00:30.9962"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.165",
+          "9574.3",
+          "402"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 402,
+    "sequenceStart": 402,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269630976,
+    "time_data_received": "10:00:31.0168"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.165",
+          "16340.03",
+          "403"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 403,
+    "sequenceStart": 403,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269631035,
+    "time_data_received": "10:00:31.0732"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1652",
+          "335.75",
+          "404"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 404,
+    "sequenceStart": 404,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269631259,
+    "time_data_received": "10:00:31.2978"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1649",
+          "1847.69",
+          "405"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 405,
+    "sequenceStart": 405,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269632049,
+    "time_data_received": "10:00:32.0876"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1652",
+          "452.99",
+          "406"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 406,
+    "sequenceStart": 406,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269632081,
+    "time_data_received": "10:00:32.1203"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1651",
+          "1679.74",
+          "407"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 407,
+    "sequenceStart": 407,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269632098,
+    "time_data_received": "10:00:32.1364"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1375",
+          "181.81",
+          "408"
+        ]
+      ]
+    },
+    "sequenceEnd": 408,
+    "sequenceStart": 408,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269632208,
+    "time_data_received": "10:00:32.2472"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.165",
+          "16457.27",
+          "409"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 409,
+    "sequenceStart": 409,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269632212,
+    "time_data_received": "10:00:32.2504"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1345",
+          "185.87",
+          "410"
+        ]
+      ]
+    },
+    "sequenceEnd": 410,
+    "sequenceStart": 410,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269632695,
+    "time_data_received": "10:00:32.7336"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1626",
+          "0",
+          "411"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 411,
+    "sequenceStart": 411,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269632849,
+    "time_data_received": "10:00:32.8882"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1642",
+          "0",
+          "412"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 412,
+    "sequenceStart": 412,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269632849,
+    "time_data_received": "10:00:32.8884"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1638",
+          "610.78",
+          "413"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 413,
+    "sequenceStart": 413,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269632871,
+    "time_data_received": "10:00:32.9092"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1625",
+          "3640.26",
+          "414"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 414,
+    "sequenceStart": 414,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269632871,
+    "time_data_received": "10:00:32.9095"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.133",
+          "187.96",
+          "415"
+        ]
+      ]
+    },
+    "sequenceEnd": 415,
+    "sequenceStart": 415,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269633207,
+    "time_data_received": "10:00:33.2447"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1625",
+          "3330.18",
+          "416"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 416,
+    "sequenceStart": 416,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269633358,
+    "time_data_received": "10:00:33.3955"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1624",
+          "310.08",
+          "417"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 417,
+    "sequenceStart": 417,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269633390,
+    "time_data_received": "10:00:33.4280"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1",
+          "12961.24",
+          "418"
+        ]
+      ]
+    },
+    "sequenceEnd": 418,
+    "sequenceStart": 418,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269633616,
+    "time_data_received": "10:00:33.6543"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1582",
+          "759.27",
+          "419"
+        ]
+      ]
+    },
+    "sequenceEnd": 419,
+    "sequenceStart": 419,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269634039,
+    "time_data_received": "10:00:34.0773"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.128",
+          "195.31",
+          "420"
+        ]
+      ]
+    },
+    "sequenceEnd": 420,
+    "sequenceStart": 420,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269634858,
+    "time_data_received": "10:00:34.8972"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1653",
+          "1128.97",
+          "421"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 421,
+    "sequenceStart": 421,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635072,
+    "time_data_received": "10:00:35.1111"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1598",
+          "1228.5",
+          "422"
+        ]
+      ]
+    },
+    "sequenceEnd": 422,
+    "sequenceStart": 422,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635355,
+    "time_data_received": "10:00:35.4022"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1599",
+          "413.94",
+          "423"
+        ]
+      ]
+    },
+    "sequenceEnd": 423,
+    "sequenceStart": 423,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635357,
+    "time_data_received": "10:00:35.4023"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1598",
+          "1224.2",
+          "424"
+        ]
+      ]
+    },
+    "sequenceEnd": 424,
+    "sequenceStart": 424,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635360,
+    "time_data_received": "10:00:35.4024"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1599",
+          "344.54",
+          "425"
+        ]
+      ]
+    },
+    "sequenceEnd": 425,
+    "sequenceStart": 425,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635365,
+    "time_data_received": "10:00:35.4031"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1599",
+          "215.41",
+          "426"
+        ]
+      ]
+    },
+    "sequenceEnd": 426,
+    "sequenceStart": 426,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635384,
+    "time_data_received": "10:00:35.4233"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1598",
+          "264.74",
+          "427"
+        ]
+      ]
+    },
+    "sequenceEnd": 427,
+    "sequenceStart": 427,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635385,
+    "time_data_received": "10:00:35.4237"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1598",
+          "135.61",
+          "428"
+        ]
+      ]
+    },
+    "sequenceEnd": 428,
+    "sequenceStart": 428,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635389,
+    "time_data_received": "10:00:35.4280"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1597",
+          "126.09",
+          "429"
+        ]
+      ]
+    },
+    "sequenceEnd": 429,
+    "sequenceStart": 429,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635397,
+    "time_data_received": "10:00:35.4357"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1599",
+          "62.87",
+          "430"
+        ]
+      ]
+    },
+    "sequenceEnd": 430,
+    "sequenceStart": 430,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635418,
+    "time_data_received": "10:00:35.4559"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1631",
+          "0",
+          "431"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 431,
+    "sequenceStart": 431,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635760,
+    "time_data_received": "10:00:35.7985"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1629",
+          "614.04",
+          "432"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 432,
+    "sequenceStart": 432,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635769,
+    "time_data_received": "10:00:35.8070"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "7920.22",
+          "434"
+        ]
+      ],
+      "bids": [
+        [
+          "0.16",
+          "0",
+          "433"
+        ]
+      ]
+    },
+    "sequenceEnd": 434,
+    "sequenceStart": 433,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635800,
+    "time_data_received": "10:00:35.8391"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "7607.95",
+          "435"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 435,
+    "sequenceStart": 435,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635812,
+    "time_data_received": "10:00:35.8507"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "7459.45",
+          "436"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 436,
+    "sequenceStart": 436,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635813,
+    "time_data_received": "10:00:35.8521"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "7309.45",
+          "437"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 437,
+    "sequenceStart": 437,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635824,
+    "time_data_received": "10:00:35.8623"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "7159.45",
+          "438"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 438,
+    "sequenceStart": 438,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635827,
+    "time_data_received": "10:00:35.8650"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "6847.18",
+          "439"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 439,
+    "sequenceStart": 439,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635827,
+    "time_data_received": "10:00:35.8653"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "6697.18",
+          "440"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 440,
+    "sequenceStart": 440,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635828,
+    "time_data_received": "10:00:35.8671"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "6384.91",
+          "441"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 441,
+    "sequenceStart": 441,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635830,
+    "time_data_received": "10:00:35.8693"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "6234.91",
+          "442"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 442,
+    "sequenceStart": 442,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635830,
+    "time_data_received": "10:00:35.8708"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "6084.91",
+          "443"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 443,
+    "sequenceStart": 443,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635830,
+    "time_data_received": "10:00:35.8726"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "5927.71",
+          "444"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 444,
+    "sequenceStart": 444,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635832,
+    "time_data_received": "10:00:35.8729"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "5777.71",
+          "445"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 445,
+    "sequenceStart": 445,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635832,
+    "time_data_received": "10:00:35.8756"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "5465.44",
+          "446"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 446,
+    "sequenceStart": 446,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635832,
+    "time_data_received": "10:00:35.8759"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1649",
+          "785.72",
+          "447"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 447,
+    "sequenceStart": 447,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635834,
+    "time_data_received": "10:00:35.8765"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "5145.44",
+          "448"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 448,
+    "sequenceStart": 448,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635834,
+    "time_data_received": "10:00:35.8768"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "5056.86",
+          "449"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 449,
+    "sequenceStart": 449,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635834,
+    "time_data_received": "10:00:35.8769"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.165",
+          "16360.25",
+          "450"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 450,
+    "sequenceStart": 450,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635836,
+    "time_data_received": "10:00:35.8771"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1651",
+          "1309.42",
+          "451"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 451,
+    "sequenceStart": 451,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635836,
+    "time_data_received": "10:00:35.8772"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1649",
+          "0",
+          "452"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 452,
+    "sequenceStart": 452,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635839,
+    "time_data_received": "10:00:35.8776"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "4744.59",
+          "453"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 453,
+    "sequenceStart": 453,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635839,
+    "time_data_received": "10:00:35.8779"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "3472.48",
+          "454"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 454,
+    "sequenceStart": 454,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635839,
+    "time_data_received": "10:00:35.8782"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "1033.06",
+          "455"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 455,
+    "sequenceStart": 455,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635839,
+    "time_data_received": "10:00:35.8783"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "667.79",
+          "456"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 456,
+    "sequenceStart": 456,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635840,
+    "time_data_received": "10:00:35.8785"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "614.33",
+          "457"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 457,
+    "sequenceStart": 457,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635840,
+    "time_data_received": "10:00:35.8787"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "0",
+          "458"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 458,
+    "sequenceStart": 458,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635840,
+    "time_data_received": "10:00:35.8791"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1651",
+          "386.35",
+          "459"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 459,
+    "sequenceStart": 459,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635844,
+    "time_data_received": "10:00:35.8849"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1582",
+          "0",
+          "460"
+        ]
+      ]
+    },
+    "sequenceEnd": 460,
+    "sequenceStart": 460,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635856,
+    "time_data_received": "10:00:35.8950"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1603",
+          "521.33",
+          "461"
+        ]
+      ]
+    },
+    "sequenceEnd": 461,
+    "sequenceStart": 461,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635903,
+    "time_data_received": "10:00:35.9422"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1602",
+          "399.98",
+          "462"
+        ]
+      ]
+    },
+    "sequenceEnd": 462,
+    "sequenceStart": 462,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635906,
+    "time_data_received": "10:00:35.9450"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1602",
+          "811.3",
+          "463"
+        ]
+      ]
+    },
+    "sequenceEnd": 463,
+    "sequenceStart": 463,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635907,
+    "time_data_received": "10:00:35.9458"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1599",
+          "382.87",
+          "464"
+        ]
+      ]
+    },
+    "sequenceEnd": 464,
+    "sequenceStart": 464,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635918,
+    "time_data_received": "10:00:35.9569"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1598",
+          "414.62",
+          "465"
+        ]
+      ]
+    },
+    "sequenceEnd": 465,
+    "sequenceStart": 465,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635920,
+    "time_data_received": "10:00:35.9583"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1598",
+          "734.62",
+          "466"
+        ]
+      ]
+    },
+    "sequenceEnd": 466,
+    "sequenceStart": 466,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635923,
+    "time_data_received": "10:00:35.9616"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1598",
+          "1134.62",
+          "467"
+        ]
+      ]
+    },
+    "sequenceEnd": 467,
+    "sequenceStart": 467,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635923,
+    "time_data_received": "10:00:35.9619"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1598",
+          "1392.58",
+          "468"
+        ]
+      ]
+    },
+    "sequenceEnd": 468,
+    "sequenceStart": 468,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635932,
+    "time_data_received": "10:00:35.9706"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1598",
+          "1529.51",
+          "469"
+        ]
+      ]
+    },
+    "sequenceEnd": 469,
+    "sequenceStart": 469,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269635936,
+    "time_data_received": "10:00:35.9746"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1602",
+          "900.48",
+          "470"
+        ],
+        [
+          "0.1603",
+          "787.29",
+          "471"
+        ]
+      ]
+    },
+    "sequenceEnd": 471,
+    "sequenceStart": 470,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269636130,
+    "time_data_received": "10:00:36.1686"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1652",
+          "931.34",
+          "472"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 472,
+    "sequenceStart": 472,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269636151,
+    "time_data_received": "10:00:36.1895"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1597",
+          "528.89",
+          "473"
+        ]
+      ]
+    },
+    "sequenceEnd": 473,
+    "sequenceStart": 473,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269636153,
+    "time_data_received": "10:00:36.1914"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1597",
+          "1370.03",
+          "474"
+        ]
+      ]
+    },
+    "sequenceEnd": 474,
+    "sequenceStart": 474,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269636153,
+    "time_data_received": "10:00:36.1916"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1598",
+          "1639.16",
+          "475"
+        ]
+      ]
+    },
+    "sequenceEnd": 475,
+    "sequenceStart": 475,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269636227,
+    "time_data_received": "10:00:36.2650"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1",
+          "12943.84",
+          "476"
+        ]
+      ]
+    },
+    "sequenceEnd": 476,
+    "sequenceStart": 476,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269636645,
+    "time_data_received": "10:00:36.6842"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1647",
+          "0",
+          "477"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 477,
+    "sequenceStart": 477,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269636752,
+    "time_data_received": "10:00:36.7900"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.165",
+          "16427.75",
+          "478"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 478,
+    "sequenceStart": 478,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269636871,
+    "time_data_received": "10:00:36.9094"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1649",
+          "97.02",
+          "479"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 479,
+    "sequenceStart": 479,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269637081,
+    "time_data_received": "10:00:37.1200"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.165",
+          "16635.77",
+          "480"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 480,
+    "sequenceStart": 480,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269637099,
+    "time_data_received": "10:00:37.1381"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1649",
+          "305.04",
+          "481"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 481,
+    "sequenceStart": 481,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269637099,
+    "time_data_received": "10:00:37.1386"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1649",
+          "675.36",
+          "482"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 482,
+    "sequenceStart": 482,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269637101,
+    "time_data_received": "10:00:37.1401"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1642",
+          "2727.4",
+          "483"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 483,
+    "sequenceStart": 483,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269637111,
+    "time_data_received": "10:00:37.1490"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1651",
+          "795.67",
+          "484"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 484,
+    "sequenceStart": 484,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269637156,
+    "time_data_received": "10:00:37.1941"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1649",
+          "883.38",
+          "485"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 485,
+    "sequenceStart": 485,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269637162,
+    "time_data_received": "10:00:37.2005"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.16",
+          "160.61",
+          "486"
+        ]
+      ]
+    },
+    "sequenceEnd": 486,
+    "sequenceStart": 486,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269637425,
+    "time_data_received": "10:00:37.4636"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1625",
+          "16368.53",
+          "487"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 487,
+    "sequenceStart": 487,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269638057,
+    "time_data_received": "10:00:38.0960"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1651",
+          "1369.18",
+          "488"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 488,
+    "sequenceStart": 488,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269638073,
+    "time_data_received": "10:00:38.1114"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1625",
+          "13038.35",
+          "489"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 489,
+    "sequenceStart": 489,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269638475,
+    "time_data_received": "10:00:38.5152"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1623",
+          "2094.75",
+          "490"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 490,
+    "sequenceStart": 490,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269638641,
+    "time_data_received": "10:00:38.6795"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1624",
+          "0",
+          "491"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 491,
+    "sequenceStart": 491,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269638692,
+    "time_data_received": "10:00:38.7308"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1624",
+          "309.98",
+          "492"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 492,
+    "sequenceStart": 492,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269638723,
+    "time_data_received": "10:00:38.7609"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1624",
+          "761.24",
+          "493"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 493,
+    "sequenceStart": 493,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269638927,
+    "time_data_received": "10:00:38.9668"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.165",
+          "16986.47",
+          "494"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 494,
+    "sequenceStart": 494,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269639091,
+    "time_data_received": "10:00:39.1293"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1651",
+          "1718",
+          "495"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 495,
+    "sequenceStart": 495,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269639095,
+    "time_data_received": "10:00:39.1339"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1599",
+          "320",
+          "496"
+        ]
+      ]
+    },
+    "sequenceEnd": 496,
+    "sequenceStart": 496,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269639143,
+    "time_data_received": "10:00:39.1821"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1598",
+          "1503.55",
+          "497"
+        ]
+      ]
+    },
+    "sequenceEnd": 497,
+    "sequenceStart": 497,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269639148,
+    "time_data_received": "10:00:39.1865"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1624",
+          "451.26",
+          "498"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 498,
+    "sequenceStart": 498,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269639195,
+    "time_data_received": "10:00:39.2329"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1599",
+          "382.87",
+          "499"
+        ]
+      ]
+    },
+    "sequenceEnd": 499,
+    "sequenceStart": 499,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269639206,
+    "time_data_received": "10:00:39.2444"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1598",
+          "1639.16",
+          "500"
+        ]
+      ]
+    },
+    "sequenceEnd": 500,
+    "sequenceStart": 500,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269639213,
+    "time_data_received": "10:00:39.2524"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1622",
+          "309.98",
+          "501"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 501,
+    "sequenceStart": 501,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269639231,
+    "time_data_received": "10:00:39.2695"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1597",
+          "1243.94",
+          "502"
+        ]
+      ]
+    },
+    "sequenceEnd": 502,
+    "sequenceStart": 502,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269639303,
+    "time_data_received": "10:00:39.3417"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.15",
+          "1406.72",
+          "503"
+        ]
+      ]
+    },
+    "sequenceEnd": 503,
+    "sequenceStart": 503,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269639401,
+    "time_data_received": "10:00:39.4402"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1581",
+          "226.95",
+          "504"
+        ]
+      ]
+    },
+    "sequenceEnd": 504,
+    "sequenceStart": 504,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269639882,
+    "time_data_received": "10:00:39.9212"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1651",
+          "1369.18",
+          "505"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 505,
+    "sequenceStart": 505,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269639900,
+    "time_data_received": "10:00:39.9392"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1578",
+          "1111.41",
+          "506"
+        ]
+      ]
+    },
+    "sequenceEnd": 506,
+    "sequenceStart": 506,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269639901,
+    "time_data_received": "10:00:39.9399"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1646",
+          "67.5",
+          "507"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 507,
+    "sequenceStart": 507,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269639905,
+    "time_data_received": "10:00:39.9428"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1651",
+          "795.67",
+          "508"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 508,
+    "sequenceStart": 508,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269639910,
+    "time_data_received": "10:00:39.9488"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1598",
+          "1765.25",
+          "509"
+        ]
+      ]
+    },
+    "sequenceEnd": 509,
+    "sequenceStart": 509,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269639912,
+    "time_data_received": "10:00:39.9499"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.165",
+          "16635.77",
+          "510"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 510,
+    "sequenceStart": 510,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269639913,
+    "time_data_received": "10:00:39.9508"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "18135.31",
+          "517"
+        ]
+      ],
+      "bids": [
+        [
+          "0.16",
+          "0",
+          "516"
+        ],
+        [
+          "0.1602",
+          "0",
+          "515"
+        ],
+        [
+          "0.1603",
+          "0",
+          "512"
+        ]
+      ]
+    },
+    "sequenceEnd": 517,
+    "sequenceStart": 511,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269639988,
+    "time_data_received": "10:00:40.0272"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "13712.84",
+          "518"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 518,
+    "sequenceStart": 518,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269639999,
+    "time_data_received": "10:00:40.0374"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "13392.82",
+          "519"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 519,
+    "sequenceStart": 519,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269640001,
+    "time_data_received": "10:00:40.0400"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "13319.77",
+          "520"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 520,
+    "sequenceStart": 520,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269640005,
+    "time_data_received": "10:00:40.0431"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "13169.77",
+          "521"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 521,
+    "sequenceStart": 521,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269640013,
+    "time_data_received": "10:00:40.0514"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "12894.75",
+          "522"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 522,
+    "sequenceStart": 522,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269640013,
+    "time_data_received": "10:00:40.0516"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "9779.49",
+          "523"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 523,
+    "sequenceStart": 523,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269640015,
+    "time_data_received": "10:00:40.0539"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "6490.19",
+          "524"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 524,
+    "sequenceStart": 524,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269640015,
+    "time_data_received": "10:00:40.0550"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "6342.82",
+          "525"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 525,
+    "sequenceStart": 525,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269640015,
+    "time_data_received": "10:00:40.0555"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "1920.35",
+          "526"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 526,
+    "sequenceStart": 526,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269640015,
+    "time_data_received": "10:00:40.0558"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "1356.44",
+          "527"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 527,
+    "sequenceStart": 527,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269640017,
+    "time_data_received": "10:00:40.0576"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "1206.44",
+          "528"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 528,
+    "sequenceStart": 528,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269640017,
+    "time_data_received": "10:00:40.0578"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "730.78",
+          "529"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 529,
+    "sequenceStart": 529,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269640018,
+    "time_data_received": "10:00:40.0580"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "665.85",
+          "530"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 530,
+    "sequenceStart": 530,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269640018,
+    "time_data_received": "10:00:40.0581"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "0",
+          "531"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 531,
+    "sequenceStart": 531,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269640019,
+    "time_data_received": "10:00:40.0582"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1581",
+          "0",
+          "532"
+        ]
+      ]
+    },
+    "sequenceEnd": 532,
+    "sequenceStart": 532,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269640067,
+    "time_data_received": "10:00:40.1058"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1632",
+          "304.81",
+          "533"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 533,
+    "sequenceStart": 533,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269640071,
+    "time_data_received": "10:00:40.1091"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1578",
+          "953.26",
+          "534"
+        ]
+      ]
+    },
+    "sequenceEnd": 534,
+    "sequenceStart": 534,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269640084,
+    "time_data_received": "10:00:40.1225"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1578",
+          "316.01",
+          "535"
+        ]
+      ]
+    },
+    "sequenceEnd": 535,
+    "sequenceStart": 535,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269640084,
+    "time_data_received": "10:00:40.1228"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1578",
+          "0",
+          "536"
+        ]
+      ]
+    },
+    "sequenceEnd": 536,
+    "sequenceStart": 536,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269640091,
+    "time_data_received": "10:00:40.1296"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1632",
+          "0",
+          "537"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 537,
+    "sequenceStart": 537,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269640370,
+    "time_data_received": "10:00:40.4076"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1634",
+          "0",
+          "538"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 538,
+    "sequenceStart": 538,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269640558,
+    "time_data_received": "10:00:40.5962"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1631",
+          "613.31",
+          "539"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 539,
+    "sequenceStart": 539,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269640567,
+    "time_data_received": "10:00:40.6052"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1649",
+          "949.69",
+          "540"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 540,
+    "sequenceStart": 540,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269641053,
+    "time_data_received": "10:00:41.0914"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1647",
+          "299.64",
+          "541"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 541,
+    "sequenceStart": 541,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269641055,
+    "time_data_received": "10:00:41.0930"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1649",
+          "1163.74",
+          "542"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 542,
+    "sequenceStart": 542,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269641057,
+    "time_data_received": "10:00:41.0957"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1647",
+          "871.04",
+          "543"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 543,
+    "sequenceStart": 543,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269641059,
+    "time_data_received": "10:00:41.0975"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1649",
+          "1513.13",
+          "544"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 544,
+    "sequenceStart": 544,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269641064,
+    "time_data_received": "10:00:41.1020"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1572",
+          "256.55",
+          "545"
+        ]
+      ]
+    },
+    "sequenceEnd": 545,
+    "sequenceStart": 545,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269641069,
+    "time_data_received": "10:00:41.1075"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.084",
+          "0",
+          "546"
+        ]
+      ]
+    },
+    "sequenceEnd": 546,
+    "sequenceStart": 546,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269641766,
+    "time_data_received": "10:00:41.8053"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.088",
+          "0",
+          "547"
+        ]
+      ]
+    },
+    "sequenceEnd": 547,
+    "sequenceStart": 547,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269641789,
+    "time_data_received": "10:00:41.8297"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.09",
+          "888.88",
+          "548"
+        ]
+      ]
+    },
+    "sequenceEnd": 548,
+    "sequenceStart": 548,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269641790,
+    "time_data_received": "10:00:41.8301"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.09",
+          "0",
+          "549"
+        ]
+      ]
+    },
+    "sequenceEnd": 549,
+    "sequenceStart": 549,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269641912,
+    "time_data_received": "10:00:41.9497"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.086",
+          "0",
+          "550"
+        ]
+      ]
+    },
+    "sequenceEnd": 550,
+    "sequenceStart": 550,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269641982,
+    "time_data_received": "10:00:42.0205"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1647",
+          "1965.73",
+          "551"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 551,
+    "sequenceStart": 551,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269642502,
+    "time_data_received": "10:00:42.5400"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1355",
+          "44.88",
+          "552"
+        ]
+      ]
+    },
+    "sequenceEnd": 552,
+    "sequenceStart": 552,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269642576,
+    "time_data_received": "10:00:42.6144"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1629",
+          "0",
+          "553"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 553,
+    "sequenceStart": 553,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269642873,
+    "time_data_received": "10:00:42.9119"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1631",
+          "0",
+          "554"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 554,
+    "sequenceStart": 554,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269642873,
+    "time_data_received": "10:00:42.9122"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1623",
+          "0",
+          "555"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 555,
+    "sequenceStart": 555,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269642875,
+    "time_data_received": "10:00:42.9125"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1642",
+          "0",
+          "556"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 556,
+    "sequenceStart": 556,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269642875,
+    "time_data_received": "10:00:42.9126"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1638",
+          "0",
+          "557"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 557,
+    "sequenceStart": 557,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269642876,
+    "time_data_received": "10:00:42.9151"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1627",
+          "695.83",
+          "558"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 558,
+    "sequenceStart": 558,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269642905,
+    "time_data_received": "10:00:42.9437"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1635",
+          "1645.61",
+          "559"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 559,
+    "sequenceStart": 559,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269642905,
+    "time_data_received": "10:00:42.9440"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.164",
+          "2537.37",
+          "560"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 560,
+    "sequenceStart": 560,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269642905,
+    "time_data_received": "10:00:42.9442"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1622",
+          "3087.96",
+          "561"
+        ],
+        [
+          "0.163",
+          "613.54",
+          "562"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 562,
+    "sequenceStart": 561,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269642905,
+    "time_data_received": "10:00:42.9443"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1572",
+          "0",
+          "563"
+        ]
+      ]
+    },
+    "sequenceEnd": 563,
+    "sequenceStart": 563,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269642913,
+    "time_data_received": "10:00:42.9508"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1573",
+          "307.47",
+          "564"
+        ]
+      ]
+    },
+    "sequenceEnd": 564,
+    "sequenceStart": 564,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269643017,
+    "time_data_received": "10:00:43.0558"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1647",
+          "2033.23",
+          "565"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 565,
+    "sequenceStart": 565,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269643062,
+    "time_data_received": "10:00:43.1005"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1573",
+          "0",
+          "566"
+        ]
+      ]
+    },
+    "sequenceEnd": 566,
+    "sequenceStart": 566,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269643074,
+    "time_data_received": "10:00:43.1127"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1622",
+          "2777.98",
+          "567"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 567,
+    "sequenceStart": 567,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269643169,
+    "time_data_received": "10:00:43.2075"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1621",
+          "310.08",
+          "568"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 568,
+    "sequenceStart": 568,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269643200,
+    "time_data_received": "10:00:43.2395"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1632",
+          "337.08",
+          "569"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 569,
+    "sequenceStart": 569,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269643212,
+    "time_data_received": "10:00:43.2503"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.143",
+          "10",
+          "570"
+        ]
+      ]
+    },
+    "sequenceEnd": 570,
+    "sequenceStart": 570,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269643221,
+    "time_data_received": "10:00:43.2597"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.16",
+          "56.21",
+          "571"
+        ]
+      ]
+    },
+    "sequenceEnd": 571,
+    "sequenceStart": 571,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269643316,
+    "time_data_received": "10:00:43.3545"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1",
+          "12983.84",
+          "572"
+        ]
+      ]
+    },
+    "sequenceEnd": 572,
+    "sequenceStart": 572,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269643375,
+    "time_data_received": "10:00:43.4134"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1",
+          "12490.2",
+          "573"
+        ]
+      ]
+    },
+    "sequenceEnd": 573,
+    "sequenceStart": 573,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269643924,
+    "time_data_received": "10:00:43.9628"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1571",
+          "111.81",
+          "574"
+        ]
+      ]
+    },
+    "sequenceEnd": 574,
+    "sequenceStart": 574,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269644053,
+    "time_data_received": "10:00:44.0931"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.165",
+          "22841.77",
+          "575"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 575,
+    "sequenceStart": 575,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269644081,
+    "time_data_received": "10:00:44.1190"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1648",
+          "428.5",
+          "576"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 576,
+    "sequenceStart": 576,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269644317,
+    "time_data_received": "10:00:44.3561"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1665",
+          "3153",
+          "577"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 577,
+    "sequenceStart": 577,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269644371,
+    "time_data_received": "10:00:44.4087"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1725",
+          "4504",
+          "578"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 578,
+    "sequenceStart": 578,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269644658,
+    "time_data_received": "10:00:44.6965"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1",
+          "12846.57",
+          "579"
+        ]
+      ]
+    },
+    "sequenceEnd": 579,
+    "sequenceStart": 579,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269644840,
+    "time_data_received": "10:00:44.8781"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1875",
+          "3925",
+          "580"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 580,
+    "sequenceStart": 580,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269644950,
+    "time_data_received": "10:00:44.9883"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1625",
+          "0",
+          "581"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 581,
+    "sequenceStart": 581,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269645010,
+    "time_data_received": "10:00:45.0480"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1572",
+          "177.64",
+          "582"
+        ]
+      ]
+    },
+    "sequenceEnd": 582,
+    "sequenceStart": 582,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269645105,
+    "time_data_received": "10:00:45.1439"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.157",
+          "254.93",
+          "583"
+        ]
+      ]
+    },
+    "sequenceEnd": 583,
+    "sequenceStart": 583,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269645148,
+    "time_data_received": "10:00:45.1863"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1619",
+          "3137.42",
+          "584"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 584,
+    "sequenceStart": 584,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269645224,
+    "time_data_received": "10:00:45.2627"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.195",
+          "18449.84",
+          "585"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 585,
+    "sequenceStart": 585,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269645241,
+    "time_data_received": "10:00:45.2798"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1621",
+          "0",
+          "586"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 586,
+    "sequenceStart": 586,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269645362,
+    "time_data_received": "10:00:45.4003"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1622",
+          "3088.06",
+          "587"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 587,
+    "sequenceStart": 587,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269645398,
+    "time_data_received": "10:00:45.4361"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1623",
+          "18671.06",
+          "588"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 588,
+    "sequenceStart": 588,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269645404,
+    "time_data_received": "10:00:45.4420"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1572",
+          "0",
+          "589"
+        ]
+      ]
+    },
+    "sequenceEnd": 589,
+    "sequenceStart": 589,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269645442,
+    "time_data_received": "10:00:45.4806"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1645",
+          "283.48",
+          "590"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 590,
+    "sequenceStart": 590,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269645444,
+    "time_data_received": "10:00:45.4823"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1571",
+          "0",
+          "591"
+        ]
+      ]
+    },
+    "sequenceEnd": 591,
+    "sequenceStart": 591,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269645451,
+    "time_data_received": "10:00:45.4895"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0",
+          "0",
+          "592"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 592,
+    "sequenceStart": 592,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269645609,
+    "time_data_received": "10:00:45.6472"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1553",
+          "348.18",
+          "593"
+        ]
+      ]
+    },
+    "sequenceEnd": 593,
+    "sequenceStart": 593,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269645653,
+    "time_data_received": "10:00:45.6910"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.12",
+          "6452.78",
+          "594"
+        ]
+      ]
+    },
+    "sequenceEnd": 594,
+    "sequenceStart": 594,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269645900,
+    "time_data_received": "10:00:45.9378"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1598",
+          "1507.29",
+          "595"
+        ]
+      ]
+    },
+    "sequenceEnd": 595,
+    "sequenceStart": 595,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269645928,
+    "time_data_received": "10:00:45.9663"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1598",
+          "1228.28",
+          "596"
+        ]
+      ]
+    },
+    "sequenceEnd": 596,
+    "sequenceStart": 596,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269645928,
+    "time_data_received": "10:00:45.9665"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1598",
+          "908.28",
+          "597"
+        ]
+      ]
+    },
+    "sequenceEnd": 597,
+    "sequenceStart": 597,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269645931,
+    "time_data_received": "10:00:45.9698"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1599",
+          "62.87",
+          "598"
+        ]
+      ]
+    },
+    "sequenceEnd": 598,
+    "sequenceStart": 598,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269645932,
+    "time_data_received": "10:00:45.9700"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1598",
+          "508.28",
+          "599"
+        ]
+      ]
+    },
+    "sequenceEnd": 599,
+    "sequenceStart": 599,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269645934,
+    "time_data_received": "10:00:45.9719"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1598",
+          "371.35",
+          "600"
+        ]
+      ]
+    },
+    "sequenceEnd": 600,
+    "sequenceStart": 600,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269645944,
+    "time_data_received": "10:00:45.9814"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1622",
+          "2777.98",
+          "601"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 601,
+    "sequenceStart": 601,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269646023,
+    "time_data_received": "10:00:46.0615"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1648",
+          "0",
+          "602"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 602,
+    "sequenceStart": 602,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269646035,
+    "time_data_received": "10:00:46.0727"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1645",
+          "0",
+          "603"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 603,
+    "sequenceStart": 603,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269646039,
+    "time_data_received": "10:00:46.0778"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1621",
+          "310.08",
+          "604"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 604,
+    "sequenceStart": 604,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269646061,
+    "time_data_received": "10:00:46.0991"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.114",
+          "5343",
+          "605"
+        ]
+      ]
+    },
+    "sequenceEnd": 605,
+    "sequenceStart": 605,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269646079,
+    "time_data_received": "10:00:46.1179"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1622",
+          "0",
+          "606"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 606,
+    "sequenceStart": 606,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269646109,
+    "time_data_received": "10:00:46.1472"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1571",
+          "114.64",
+          "607"
+        ]
+      ]
+    },
+    "sequenceEnd": 607,
+    "sequenceStart": 607,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269646110,
+    "time_data_received": "10:00:46.1483"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1597",
+          "402.8",
+          "608"
+        ]
+      ]
+    },
+    "sequenceEnd": 608,
+    "sequenceStart": 608,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269646162,
+    "time_data_received": "10:00:46.2000"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1597",
+          "0",
+          "609"
+        ]
+      ]
+    },
+    "sequenceEnd": 609,
+    "sequenceStart": 609,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269646163,
+    "time_data_received": "10:00:46.2016"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1598",
+          "261.7",
+          "610"
+        ]
+      ]
+    },
+    "sequenceEnd": 610,
+    "sequenceStart": 610,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269646238,
+    "time_data_received": "10:00:46.2764"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1621",
+          "4390.09",
+          "611"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 611,
+    "sequenceStart": 611,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269646288,
+    "time_data_received": "10:00:46.3262"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0",
+          "0",
+          "612"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 612,
+    "sequenceStart": 612,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269646415,
+    "time_data_received": "10:00:46.4547"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1646",
+          "993.99",
+          "613"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 613,
+    "sequenceStart": 613,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269646442,
+    "time_data_received": "10:00:46.4809"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1621",
+          "4080.01",
+          "614"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 614,
+    "sequenceStart": 614,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269646577,
+    "time_data_received": "10:00:46.6160"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.162",
+          "310.08",
+          "615"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 615,
+    "sequenceStart": 615,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269646608,
+    "time_data_received": "10:00:46.6468"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.164",
+          "3731.8",
+          "616"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 616,
+    "sequenceStart": 616,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269647120,
+    "time_data_received": "10:00:47.1577"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.162",
+          "0",
+          "617"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 617,
+    "sequenceStart": 617,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269647194,
+    "time_data_received": "10:00:47.2332"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.162",
+          "310.08",
+          "618"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 618,
+    "sequenceStart": 618,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269647245,
+    "time_data_received": "10:00:47.2833"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0",
+          "0",
+          "619"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 619,
+    "sequenceStart": 619,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269647323,
+    "time_data_received": "10:00:47.3612"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1646",
+          "1443.78",
+          "620"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 620,
+    "sequenceStart": 620,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269647571,
+    "time_data_received": "10:00:47.6096"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.164",
+          "2537.37",
+          "621"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 621,
+    "sequenceStart": 621,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269647757,
+    "time_data_received": "10:00:47.7951"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1646",
+          "517.29",
+          "622"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 622,
+    "sequenceStart": 622,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269647757,
+    "time_data_received": "10:00:47.7961"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1646",
+          "67.5",
+          "623"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 623,
+    "sequenceStart": 623,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269647757,
+    "time_data_received": "10:00:47.7963"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.162",
+          "0",
+          "624"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 624,
+    "sequenceStart": 624,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269647895,
+    "time_data_received": "10:00:47.9335"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1618",
+          "310.08",
+          "625"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 625,
+    "sequenceStart": 625,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269647929,
+    "time_data_received": "10:00:47.9669"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0",
+          "0",
+          "626"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 626,
+    "sequenceStart": 626,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269648119,
+    "time_data_received": "10:00:48.1578"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.12",
+          "7407.12",
+          "627"
+        ]
+      ]
+    },
+    "sequenceEnd": 627,
+    "sequenceStart": 627,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269648402,
+    "time_data_received": "10:00:48.4403"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.2101",
+          "0",
+          "628"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 628,
+    "sequenceStart": 628,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269648777,
+    "time_data_received": "10:00:48.8159"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1644",
+          "504.15",
+          "629"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 629,
+    "sequenceStart": 629,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269649105,
+    "time_data_received": "10:00:49.1438"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1647",
+          "2620.91",
+          "630"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 630,
+    "sequenceStart": 630,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269649116,
+    "time_data_received": "10:00:49.1544"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1647",
+          "3208.59",
+          "631"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 631,
+    "sequenceStart": 631,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269649118,
+    "time_data_received": "10:00:49.1561"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1643",
+          "489.75",
+          "632"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 632,
+    "sequenceStart": 632,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269649170,
+    "time_data_received": "10:00:49.2079"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1599",
+          "0",
+          "633"
+        ]
+      ]
+    },
+    "sequenceEnd": 633,
+    "sequenceStart": 633,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269649224,
+    "time_data_received": "10:00:49.2621"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1598",
+          "126.09",
+          "634"
+        ]
+      ]
+    },
+    "sequenceEnd": 634,
+    "sequenceStart": 634,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269649224,
+    "time_data_received": "10:00:49.2623"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1627",
+          "0",
+          "635"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 635,
+    "sequenceStart": 635,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269649894,
+    "time_data_received": "10:00:49.9327"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.1598",
+          "0",
+          "636"
+        ]
+      ]
+    },
+    "sequenceEnd": 636,
+    "sequenceStart": 636,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269649912,
+    "time_data_received": "10:00:49.9521"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1625",
+          "624.34",
+          "637"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 637,
+    "sequenceStart": 637,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269649918,
+    "time_data_received": "10:00:49.9567"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1647",
+          "3894.46",
+          "638"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 638,
+    "sequenceStart": 638,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269650665,
+    "time_data_received": "10:00:50.7037"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1621",
+          "0",
+          "639"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 639,
+    "sequenceStart": 639,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269650691,
+    "time_data_received": "10:00:50.7294"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.162",
+          "2517.73",
+          "640"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 640,
+    "sequenceStart": 640,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269650883,
+    "time_data_received": "10:00:50.9216"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "12982.14",
+          "642"
+        ]
+      ],
+      "bids": [
+        [
+          "0.16",
+          "0",
+          "641"
+        ]
+      ]
+    },
+    "sequenceEnd": 642,
+    "sequenceStart": 641,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269651039,
+    "time_data_received": "10:00:51.0778"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1632",
+          "0",
+          "643"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 643,
+    "sequenceStart": 643,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269651056,
+    "time_data_received": "10:00:51.0942"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "12929.54",
+          "644"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 644,
+    "sequenceStart": 644,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269651077,
+    "time_data_received": "10:00:51.1156"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "12867.87",
+          "645"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 645,
+    "sequenceStart": 645,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269651097,
+    "time_data_received": "10:00:51.1359"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "12841.43",
+          "646"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 646,
+    "sequenceStart": 646,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269651115,
+    "time_data_received": "10:00:51.1537"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "12790.49",
+          "647"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 647,
+    "sequenceStart": 647,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269651120,
+    "time_data_received": "10:00:51.1583"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "12703.26",
+          "648"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 648,
+    "sequenceStart": 648,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269651120,
+    "time_data_received": "10:00:51.1586"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "12652.32",
+          "649"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 649,
+    "sequenceStart": 649,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269651120,
+    "time_data_received": "10:00:51.1588"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "12601.38",
+          "650"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 650,
+    "sequenceStart": 650,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269651128,
+    "time_data_received": "10:00:51.1674"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.1648",
+          "598.76",
+          "651"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 651,
+    "sequenceStart": 651,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269651133,
+    "time_data_received": "10:00:51.1716"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "12540.37",
+          "652"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 652,
+    "sequenceStart": 652,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269651146,
+    "time_data_received": "10:00:51.1855"
+  },
+  {
+    "changes": {
+      "asks": [
+        [
+          "0.16",
+          "12484.18",
+          "653"
+        ]
+      ],
+      "bids": []
+    },
+    "sequenceEnd": 653,
+    "sequenceStart": 653,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269651170,
+    "time_data_received": "10:00:51.2092"
+  },
+  {
+    "changes": {
+      "asks": [],
+      "bids": [
+        [
+          "0.135",
+          "748.73",
+          "654"
+        ]
+      ]
+    },
+    "sequenceEnd": 654,
+    "sequenceStart": 654,
+    "symbol": "MIGGLES-USDT",
+    "time": 1732269651178,
+    "time_data_received": "10:00:51.2171"
+  }
+]

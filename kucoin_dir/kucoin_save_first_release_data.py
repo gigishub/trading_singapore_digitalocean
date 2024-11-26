@@ -29,7 +29,7 @@ logger.propagate = False
 # Kucoin retrive data and save new
 # 1,16,31,46 * * * * /root/trading_systems/tradingvenv/bin/python /root/trading_systems/kucoin_dir/kucoin_save_first_release_data.py >> /root/trading_systems/kucoin_dir/cronlogs/kucoin_save_first_release_data.log 2>&1
 
-LOCK_FILE = '/tmp/kucoin_save_first_release_data_2.lock'
+LOCK_FILE = '/tmp/kucoin_save_first_release_data.lock'
 
 async def main():
     lock_file = acquire_lock()

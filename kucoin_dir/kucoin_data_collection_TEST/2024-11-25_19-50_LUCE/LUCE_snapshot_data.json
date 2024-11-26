@@ -1,0 +1,1245 @@
+{
+  "metadata": {
+    "symbol": "LUCE",
+    "channel": "snapshot",
+    "start_time": "19:49:30.0000",
+    "release_time": "19:50:00.0000",
+    "end_time": "19:52:00.0000",
+    "total_messages": 18,
+    "final_snapshot": {
+      "time": "19:52:00.5760",
+      "symbol": "LUCE-USDT",
+      "price_high": "0.17",
+      "price_last": "0.1219",
+      "price_low": "0.11722",
+      "price_avg": "0.14110597",
+      "volValue_USDT": "1128744.392631"
+    }
+  },
+  "data": [
+    {
+      "sequence": "83572787",
+      "data": {
+        "askSize": 50.4,
+        "averagePrice": 0.14110597,
+        "baseCurrency": "LUCE",
+        "bidSize": 73.3,
+        "board": 0,
+        "buy": 0.12126,
+        "changePrice": -0.00858,
+        "changeRate": -0.0658,
+        "close": 0.12166,
+        "datetime": 1732564202628,
+        "high": 0.17,
+        "lastTradedPrice": 0.12166,
+        "low": 0.11722,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.00043,
+          "changeRate": 0.0035,
+          "high": 0.12408,
+          "low": 0.11722,
+          "open": 0.12123,
+          "vol": 272879.1,
+          "volValue": 32752.996826
+        },
+        "marketChange24h": {
+          "changePrice": -0.00858,
+          "changeRate": -0.0658,
+          "high": 0.17,
+          "low": 0.11722,
+          "open": 0.13024,
+          "vol": 7932511.5,
+          "volValue": 1129556.302842
+        },
+        "marketChange4h": {
+          "changePrice": -0.01584,
+          "changeRate": -0.1152,
+          "high": 0.14242,
+          "low": 0.11722,
+          "open": 0.1375,
+          "vol": 1407215.1,
+          "volValue": 176597.494478
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.13024,
+        "quoteCurrency": "USDT",
+        "sell": 0.12191,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "LUCE-USDT",
+        "symbolCode": "LUCE-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 7932511.5,
+        "volValue": 1129556.302842
+      },
+      "time_received": "19:50:02.6819"
+    },
+    {
+      "sequence": "83572819",
+      "data": {
+        "askSize": 50.4,
+        "averagePrice": 0.14110597,
+        "baseCurrency": "LUCE",
+        "bidSize": 73.3,
+        "board": 0,
+        "buy": 0.12126,
+        "changePrice": -0.0092,
+        "changeRate": -0.0703,
+        "close": 0.12166,
+        "datetime": 1732564206536,
+        "high": 0.17,
+        "lastTradedPrice": 0.12166,
+        "low": 0.11722,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0011,
+          "changeRate": 0.0091,
+          "high": 0.12408,
+          "low": 0.11722,
+          "open": 0.12056,
+          "vol": 272879.1,
+          "volValue": 32752.996826
+        },
+        "marketChange24h": {
+          "changePrice": -0.0092,
+          "changeRate": -0.0703,
+          "high": 0.17,
+          "low": 0.11722,
+          "open": 0.13086,
+          "vol": 7930785.2,
+          "volValue": 1129331.267791
+        },
+        "marketChange4h": {
+          "changePrice": -0.01639,
+          "changeRate": -0.1187,
+          "high": 0.14242,
+          "low": 0.11722,
+          "open": 0.13805,
+          "vol": 1404254.7,
+          "volValue": 176190.212903
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.13086,
+        "quoteCurrency": "USDT",
+        "sell": 0.12191,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "LUCE-USDT",
+        "symbolCode": "LUCE-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 7930785.2,
+        "volValue": 1129331.267791
+      },
+      "time_received": "19:50:06.6179"
+    },
+    {
+      "sequence": "83572884",
+      "data": {
+        "askSize": 1643.5,
+        "averagePrice": 0.14110597,
+        "baseCurrency": "LUCE",
+        "bidSize": 73.3,
+        "board": 0,
+        "buy": 0.12126,
+        "changePrice": -0.0092,
+        "changeRate": -0.0703,
+        "close": 0.12166,
+        "datetime": 1732564224617,
+        "high": 0.17,
+        "lastTradedPrice": 0.12166,
+        "low": 0.11722,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0011,
+          "changeRate": 0.0091,
+          "high": 0.12408,
+          "low": 0.11722,
+          "open": 0.12056,
+          "vol": 272879.1,
+          "volValue": 32752.996826
+        },
+        "marketChange24h": {
+          "changePrice": -0.0092,
+          "changeRate": -0.0703,
+          "high": 0.17,
+          "low": 0.11722,
+          "open": 0.13086,
+          "vol": 7930785.2,
+          "volValue": 1129331.267791
+        },
+        "marketChange4h": {
+          "changePrice": -0.01639,
+          "changeRate": -0.1187,
+          "high": 0.14242,
+          "low": 0.11722,
+          "open": 0.13805,
+          "vol": 1404254.7,
+          "volValue": 176190.212903
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.13086,
+        "quoteCurrency": "USDT",
+        "sell": 0.12172,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "LUCE-USDT",
+        "symbolCode": "LUCE-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 7930785.2,
+        "volValue": 1129331.267791
+      },
+      "time_received": "19:50:24.6705"
+    },
+    {
+      "sequence": "83572966",
+      "data": {
+        "askSize": 50.4,
+        "averagePrice": 0.14110597,
+        "baseCurrency": "LUCE",
+        "bidSize": 73.3,
+        "board": 0,
+        "buy": 0.12126,
+        "changePrice": -0.0092,
+        "changeRate": -0.0703,
+        "close": 0.12166,
+        "datetime": 1732564234541,
+        "high": 0.17,
+        "lastTradedPrice": 0.12166,
+        "low": 0.11722,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0011,
+          "changeRate": 0.0091,
+          "high": 0.12408,
+          "low": 0.11722,
+          "open": 0.12056,
+          "vol": 272879.1,
+          "volValue": 32752.996826
+        },
+        "marketChange24h": {
+          "changePrice": -0.0092,
+          "changeRate": -0.0703,
+          "high": 0.17,
+          "low": 0.11722,
+          "open": 0.13086,
+          "vol": 7930785.2,
+          "volValue": 1129331.267791
+        },
+        "marketChange4h": {
+          "changePrice": -0.01639,
+          "changeRate": -0.1187,
+          "high": 0.14242,
+          "low": 0.11722,
+          "open": 0.13805,
+          "vol": 1404254.7,
+          "volValue": 176190.212903
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.13086,
+        "quoteCurrency": "USDT",
+        "sell": 0.12191,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "LUCE-USDT",
+        "symbolCode": "LUCE-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 7930785.2,
+        "volValue": 1129331.267791
+      },
+      "time_received": "19:50:34.5956"
+    },
+    {
+      "sequence": "83572970",
+      "data": {
+        "askSize": 1643.5,
+        "averagePrice": 0.14110597,
+        "baseCurrency": "LUCE",
+        "bidSize": 73.3,
+        "board": 0,
+        "buy": 0.12126,
+        "changePrice": -0.0092,
+        "changeRate": -0.0703,
+        "close": 0.12166,
+        "datetime": 1732564236573,
+        "high": 0.17,
+        "lastTradedPrice": 0.12166,
+        "low": 0.11722,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0011,
+          "changeRate": 0.0091,
+          "high": 0.12408,
+          "low": 0.11722,
+          "open": 0.12056,
+          "vol": 272879.1,
+          "volValue": 32752.996826
+        },
+        "marketChange24h": {
+          "changePrice": -0.0092,
+          "changeRate": -0.0703,
+          "high": 0.17,
+          "low": 0.11722,
+          "open": 0.13086,
+          "vol": 7930785.2,
+          "volValue": 1129331.267791
+        },
+        "marketChange4h": {
+          "changePrice": -0.01639,
+          "changeRate": -0.1187,
+          "high": 0.14242,
+          "low": 0.11722,
+          "open": 0.13805,
+          "vol": 1404254.7,
+          "volValue": 176190.212903
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.13086,
+        "quoteCurrency": "USDT",
+        "sell": 0.12168,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "LUCE-USDT",
+        "symbolCode": "LUCE-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 7930785.2,
+        "volValue": 1129331.267791
+      },
+      "time_received": "19:50:36.6274"
+    },
+    {
+      "sequence": "83573048",
+      "data": {
+        "askSize": 542.6,
+        "averagePrice": 0.14110597,
+        "baseCurrency": "LUCE",
+        "bidSize": 73.3,
+        "board": 0,
+        "buy": 0.12126,
+        "changePrice": -0.0092,
+        "changeRate": -0.0703,
+        "close": 0.12166,
+        "datetime": 1732564240624,
+        "high": 0.17,
+        "lastTradedPrice": 0.12166,
+        "low": 0.11722,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0011,
+          "changeRate": 0.0091,
+          "high": 0.12408,
+          "low": 0.11722,
+          "open": 0.12056,
+          "vol": 272879.1,
+          "volValue": 32752.996826
+        },
+        "marketChange24h": {
+          "changePrice": -0.0092,
+          "changeRate": -0.0703,
+          "high": 0.17,
+          "low": 0.11722,
+          "open": 0.13086,
+          "vol": 7930785.2,
+          "volValue": 1129331.267791
+        },
+        "marketChange4h": {
+          "changePrice": -0.01639,
+          "changeRate": -0.1187,
+          "high": 0.14242,
+          "low": 0.11722,
+          "open": 0.13805,
+          "vol": 1404254.7,
+          "volValue": 176190.212903
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.13086,
+        "quoteCurrency": "USDT",
+        "sell": 0.12191,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "LUCE-USDT",
+        "symbolCode": "LUCE-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 7930785.2,
+        "volValue": 1129331.267791
+      },
+      "time_received": "19:50:40.7051"
+    },
+    {
+      "sequence": "83573292",
+      "data": {
+        "askSize": 1643.5,
+        "averagePrice": 0.14110597,
+        "baseCurrency": "LUCE",
+        "bidSize": 1457.7,
+        "board": 0,
+        "buy": 0.1219,
+        "changePrice": -0.00896,
+        "changeRate": -0.0684,
+        "close": 0.1219,
+        "datetime": 1732564256578,
+        "high": 0.17,
+        "lastTradedPrice": 0.1219,
+        "low": 0.11722,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.00134,
+          "changeRate": 0.0111,
+          "high": 0.12408,
+          "low": 0.11722,
+          "open": 0.12056,
+          "vol": 273064.9,
+          "volValue": 32775.645846
+        },
+        "marketChange24h": {
+          "changePrice": -0.00896,
+          "changeRate": -0.0684,
+          "high": 0.17,
+          "low": 0.11722,
+          "open": 0.13086,
+          "vol": 7930971.0,
+          "volValue": 1129353.916811
+        },
+        "marketChange4h": {
+          "changePrice": -0.01615,
+          "changeRate": -0.1169,
+          "high": 0.14242,
+          "low": 0.11722,
+          "open": 0.13805,
+          "vol": 1404440.5,
+          "volValue": 176212.861923
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.13086,
+        "quoteCurrency": "USDT",
+        "sell": 0.12258,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "LUCE-USDT",
+        "symbolCode": "LUCE-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 7930971.0,
+        "volValue": 1129353.916811
+      },
+      "time_received": "19:50:56.6585"
+    },
+    {
+      "sequence": "83573393",
+      "data": {
+        "askSize": 492.2,
+        "averagePrice": 0.14110597,
+        "baseCurrency": "LUCE",
+        "bidSize": 73.3,
+        "board": 0,
+        "buy": 0.12126,
+        "changePrice": -0.00896,
+        "changeRate": -0.0684,
+        "close": 0.1219,
+        "datetime": 1732564258547,
+        "high": 0.17,
+        "lastTradedPrice": 0.1219,
+        "low": 0.11722,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.00134,
+          "changeRate": 0.0111,
+          "high": 0.12408,
+          "low": 0.11722,
+          "open": 0.12056,
+          "vol": 273064.9,
+          "volValue": 32775.645846
+        },
+        "marketChange24h": {
+          "changePrice": -0.00896,
+          "changeRate": -0.0684,
+          "high": 0.17,
+          "low": 0.11722,
+          "open": 0.13086,
+          "vol": 7930971.0,
+          "volValue": 1129353.916811
+        },
+        "marketChange4h": {
+          "changePrice": -0.01615,
+          "changeRate": -0.1169,
+          "high": 0.14242,
+          "low": 0.11722,
+          "open": 0.13805,
+          "vol": 1404440.5,
+          "volValue": 176212.861923
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.13086,
+        "quoteCurrency": "USDT",
+        "sell": 0.12197,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "LUCE-USDT",
+        "symbolCode": "LUCE-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 7930971.0,
+        "volValue": 1129353.916811
+      },
+      "time_received": "19:50:58.6014"
+    },
+    {
+      "sequence": "83573439",
+      "data": {
+        "askSize": 48.7,
+        "averagePrice": 0.14110597,
+        "baseCurrency": "LUCE",
+        "bidSize": 73.3,
+        "board": 0,
+        "buy": 0.12126,
+        "changePrice": -0.00896,
+        "changeRate": -0.0684,
+        "close": 0.1219,
+        "datetime": 1732564262558,
+        "high": 0.17,
+        "lastTradedPrice": 0.1219,
+        "low": 0.11722,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.00134,
+          "changeRate": 0.0111,
+          "high": 0.12408,
+          "low": 0.11722,
+          "open": 0.12056,
+          "vol": 273064.9,
+          "volValue": 32775.645846
+        },
+        "marketChange24h": {
+          "changePrice": -0.00896,
+          "changeRate": -0.0684,
+          "high": 0.17,
+          "low": 0.11722,
+          "open": 0.13086,
+          "vol": 7930971.0,
+          "volValue": 1129353.916811
+        },
+        "marketChange4h": {
+          "changePrice": -0.01615,
+          "changeRate": -0.1169,
+          "high": 0.14242,
+          "low": 0.11722,
+          "open": 0.13805,
+          "vol": 1404440.5,
+          "volValue": 176212.861923
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.13086,
+        "quoteCurrency": "USDT",
+        "sell": 0.12196,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "LUCE-USDT",
+        "symbolCode": "LUCE-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 7930971.0,
+        "volValue": 1129353.916811
+      },
+      "time_received": "19:51:02.6136"
+    },
+    {
+      "sequence": "83573466",
+      "data": {
+        "askSize": 492.2,
+        "averagePrice": 0.14110597,
+        "baseCurrency": "LUCE",
+        "bidSize": 30,
+        "board": 0,
+        "buy": 0.12127,
+        "changePrice": -0.00845,
+        "changeRate": -0.0648,
+        "close": 0.1219,
+        "datetime": 1732564264630,
+        "high": 0.17,
+        "lastTradedPrice": 0.1219,
+        "low": 0.11722,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.00162,
+          "changeRate": 0.0134,
+          "high": 0.12408,
+          "low": 0.11722,
+          "open": 0.12028,
+          "vol": 269377.6,
+          "volValue": 32331.892315
+        },
+        "marketChange24h": {
+          "changePrice": -0.00845,
+          "changeRate": -0.0648,
+          "high": 0.17,
+          "low": 0.11722,
+          "open": 0.13035,
+          "vol": 7926314.2,
+          "volValue": 1128744.392631
+        },
+        "marketChange4h": {
+          "changePrice": -0.01608,
+          "changeRate": -0.1165,
+          "high": 0.14242,
+          "low": 0.11722,
+          "open": 0.13798,
+          "vol": 1402215.6,
+          "volValue": 175905.715815
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.13035,
+        "quoteCurrency": "USDT",
+        "sell": 0.12197,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "LUCE-USDT",
+        "symbolCode": "LUCE-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 7926314.2,
+        "volValue": 1128744.392631
+      },
+      "time_received": "19:51:04.7060"
+    },
+    {
+      "sequence": "83573496",
+      "data": {
+        "askSize": 492.2,
+        "averagePrice": 0.14110597,
+        "baseCurrency": "LUCE",
+        "bidSize": 1643.5,
+        "board": 0,
+        "buy": 0.12139,
+        "changePrice": -0.00845,
+        "changeRate": -0.0648,
+        "close": 0.1219,
+        "datetime": 1732564266559,
+        "high": 0.17,
+        "lastTradedPrice": 0.1219,
+        "low": 0.11722,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.00162,
+          "changeRate": 0.0134,
+          "high": 0.12408,
+          "low": 0.11722,
+          "open": 0.12028,
+          "vol": 269377.6,
+          "volValue": 32331.892315
+        },
+        "marketChange24h": {
+          "changePrice": -0.00845,
+          "changeRate": -0.0648,
+          "high": 0.17,
+          "low": 0.11722,
+          "open": 0.13035,
+          "vol": 7926314.2,
+          "volValue": 1128744.392631
+        },
+        "marketChange4h": {
+          "changePrice": -0.01608,
+          "changeRate": -0.1165,
+          "high": 0.14242,
+          "low": 0.11722,
+          "open": 0.13798,
+          "vol": 1402215.6,
+          "volValue": 175905.715815
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.13035,
+        "quoteCurrency": "USDT",
+        "sell": 0.12197,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "LUCE-USDT",
+        "symbolCode": "LUCE-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 7926314.2,
+        "volValue": 1128744.392631
+      },
+      "time_received": "19:51:06.6124"
+    },
+    {
+      "sequence": "83573595",
+      "data": {
+        "askSize": 43.5,
+        "averagePrice": 0.14110597,
+        "baseCurrency": "LUCE",
+        "bidSize": 1643.5,
+        "board": 0,
+        "buy": 0.12161,
+        "changePrice": -0.00845,
+        "changeRate": -0.0648,
+        "close": 0.1219,
+        "datetime": 1732564268595,
+        "high": 0.17,
+        "lastTradedPrice": 0.1219,
+        "low": 0.11722,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.00162,
+          "changeRate": 0.0134,
+          "high": 0.12408,
+          "low": 0.11722,
+          "open": 0.12028,
+          "vol": 269377.6,
+          "volValue": 32331.892315
+        },
+        "marketChange24h": {
+          "changePrice": -0.00845,
+          "changeRate": -0.0648,
+          "high": 0.17,
+          "low": 0.11722,
+          "open": 0.13035,
+          "vol": 7926314.2,
+          "volValue": 1128744.392631
+        },
+        "marketChange4h": {
+          "changePrice": -0.01608,
+          "changeRate": -0.1165,
+          "high": 0.14242,
+          "low": 0.11722,
+          "open": 0.13798,
+          "vol": 1402215.6,
+          "volValue": 175905.715815
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.13035,
+        "quoteCurrency": "USDT",
+        "sell": 0.12216,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "LUCE-USDT",
+        "symbolCode": "LUCE-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 7926314.2,
+        "volValue": 1128744.392631
+      },
+      "time_received": "19:51:08.6489"
+    },
+    {
+      "sequence": "83573649",
+      "data": {
+        "askSize": 43.5,
+        "averagePrice": 0.14110597,
+        "baseCurrency": "LUCE",
+        "bidSize": 30,
+        "board": 0,
+        "buy": 0.1214,
+        "changePrice": -0.00845,
+        "changeRate": -0.0648,
+        "close": 0.1219,
+        "datetime": 1732564270476,
+        "high": 0.17,
+        "lastTradedPrice": 0.1219,
+        "low": 0.11722,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.00162,
+          "changeRate": 0.0134,
+          "high": 0.12408,
+          "low": 0.11722,
+          "open": 0.12028,
+          "vol": 269377.6,
+          "volValue": 32331.892315
+        },
+        "marketChange24h": {
+          "changePrice": -0.00845,
+          "changeRate": -0.0648,
+          "high": 0.17,
+          "low": 0.11722,
+          "open": 0.13035,
+          "vol": 7926314.2,
+          "volValue": 1128744.392631
+        },
+        "marketChange4h": {
+          "changePrice": -0.01608,
+          "changeRate": -0.1165,
+          "high": 0.14242,
+          "low": 0.11722,
+          "open": 0.13798,
+          "vol": 1402215.6,
+          "volValue": 175905.715815
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.13035,
+        "quoteCurrency": "USDT",
+        "sell": 0.12216,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "LUCE-USDT",
+        "symbolCode": "LUCE-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 7926314.2,
+        "volValue": 1128744.392631
+      },
+      "time_received": "19:51:10.5282"
+    },
+    {
+      "sequence": "83573689",
+      "data": {
+        "askSize": 42.8,
+        "averagePrice": 0.14110597,
+        "baseCurrency": "LUCE",
+        "bidSize": 30,
+        "board": 0,
+        "buy": 0.1214,
+        "changePrice": -0.00845,
+        "changeRate": -0.0648,
+        "close": 0.1219,
+        "datetime": 1732564274534,
+        "high": 0.17,
+        "lastTradedPrice": 0.1219,
+        "low": 0.11722,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.00162,
+          "changeRate": 0.0134,
+          "high": 0.12408,
+          "low": 0.11722,
+          "open": 0.12028,
+          "vol": 269377.6,
+          "volValue": 32331.892315
+        },
+        "marketChange24h": {
+          "changePrice": -0.00845,
+          "changeRate": -0.0648,
+          "high": 0.17,
+          "low": 0.11722,
+          "open": 0.13035,
+          "vol": 7926314.2,
+          "volValue": 1128744.392631
+        },
+        "marketChange4h": {
+          "changePrice": -0.01608,
+          "changeRate": -0.1165,
+          "high": 0.14242,
+          "low": 0.11722,
+          "open": 0.13798,
+          "vol": 1402215.6,
+          "volValue": 175905.715815
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.13035,
+        "quoteCurrency": "USDT",
+        "sell": 0.12213,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "LUCE-USDT",
+        "symbolCode": "LUCE-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 7926314.2,
+        "volValue": 1128744.392631
+      },
+      "time_received": "19:51:14.5866"
+    },
+    {
+      "sequence": "83573710",
+      "data": {
+        "askSize": 42.8,
+        "averagePrice": 0.14110597,
+        "baseCurrency": "LUCE",
+        "bidSize": 1643.5,
+        "board": 0,
+        "buy": 0.12139,
+        "changePrice": -0.00845,
+        "changeRate": -0.0648,
+        "close": 0.1219,
+        "datetime": 1732564278587,
+        "high": 0.17,
+        "lastTradedPrice": 0.1219,
+        "low": 0.11722,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.00162,
+          "changeRate": 0.0134,
+          "high": 0.12408,
+          "low": 0.11722,
+          "open": 0.12028,
+          "vol": 269377.6,
+          "volValue": 32331.892315
+        },
+        "marketChange24h": {
+          "changePrice": -0.00845,
+          "changeRate": -0.0648,
+          "high": 0.17,
+          "low": 0.11722,
+          "open": 0.13035,
+          "vol": 7926314.2,
+          "volValue": 1128744.392631
+        },
+        "marketChange4h": {
+          "changePrice": -0.01608,
+          "changeRate": -0.1165,
+          "high": 0.14242,
+          "low": 0.11722,
+          "open": 0.13798,
+          "vol": 1402215.6,
+          "volValue": 175905.715815
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.13035,
+        "quoteCurrency": "USDT",
+        "sell": 0.12213,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "LUCE-USDT",
+        "symbolCode": "LUCE-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 7926314.2,
+        "volValue": 1128744.392631
+      },
+      "time_received": "19:51:18.6406"
+    },
+    {
+      "sequence": "83573725",
+      "data": {
+        "askSize": 492.2,
+        "averagePrice": 0.14110597,
+        "baseCurrency": "LUCE",
+        "bidSize": 30,
+        "board": 0,
+        "buy": 0.1214,
+        "changePrice": -0.00845,
+        "changeRate": -0.0648,
+        "close": 0.1219,
+        "datetime": 1732564280594,
+        "high": 0.17,
+        "lastTradedPrice": 0.1219,
+        "low": 0.11722,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.00162,
+          "changeRate": 0.0134,
+          "high": 0.12408,
+          "low": 0.11722,
+          "open": 0.12028,
+          "vol": 269377.6,
+          "volValue": 32331.892315
+        },
+        "marketChange24h": {
+          "changePrice": -0.00845,
+          "changeRate": -0.0648,
+          "high": 0.17,
+          "low": 0.11722,
+          "open": 0.13035,
+          "vol": 7926314.2,
+          "volValue": 1128744.392631
+        },
+        "marketChange4h": {
+          "changePrice": -0.01608,
+          "changeRate": -0.1165,
+          "high": 0.14242,
+          "low": 0.11722,
+          "open": 0.13798,
+          "vol": 1402215.6,
+          "volValue": 175905.715815
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.13035,
+        "quoteCurrency": "USDT",
+        "sell": 0.12214,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "LUCE-USDT",
+        "symbolCode": "LUCE-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 7926314.2,
+        "volValue": 1128744.392631
+      },
+      "time_received": "19:51:20.6463"
+    },
+    {
+      "sequence": "83573815",
+      "data": {
+        "askSize": 492.2,
+        "averagePrice": 0.14110597,
+        "baseCurrency": "LUCE",
+        "bidSize": 30,
+        "board": 0,
+        "buy": 0.12133,
+        "changePrice": -0.00845,
+        "changeRate": -0.0648,
+        "close": 0.1219,
+        "datetime": 1732564286585,
+        "high": 0.17,
+        "lastTradedPrice": 0.1219,
+        "low": 0.11722,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.00162,
+          "changeRate": 0.0134,
+          "high": 0.12408,
+          "low": 0.11722,
+          "open": 0.12028,
+          "vol": 269377.6,
+          "volValue": 32331.892315
+        },
+        "marketChange24h": {
+          "changePrice": -0.00845,
+          "changeRate": -0.0648,
+          "high": 0.17,
+          "low": 0.11722,
+          "open": 0.13035,
+          "vol": 7926314.2,
+          "volValue": 1128744.392631
+        },
+        "marketChange4h": {
+          "changePrice": -0.01608,
+          "changeRate": -0.1165,
+          "high": 0.14242,
+          "low": 0.11722,
+          "open": 0.13798,
+          "vol": 1402215.6,
+          "volValue": 175905.715815
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.13035,
+        "quoteCurrency": "USDT",
+        "sell": 0.12214,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "LUCE-USDT",
+        "symbolCode": "LUCE-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 7926314.2,
+        "volValue": 1128744.392631
+      },
+      "time_received": "19:51:26.6661"
+    },
+    {
+      "sequence": "83573876",
+      "data": {
+        "askSize": 1643.5,
+        "averagePrice": 0.14110597,
+        "baseCurrency": "LUCE",
+        "bidSize": 30,
+        "board": 0,
+        "buy": 0.12133,
+        "changePrice": -0.00845,
+        "changeRate": -0.0648,
+        "close": 0.1219,
+        "datetime": 1732564292506,
+        "high": 0.17,
+        "lastTradedPrice": 0.1219,
+        "low": 0.11722,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 0,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.00162,
+          "changeRate": 0.0134,
+          "high": 0.12408,
+          "low": 0.11722,
+          "open": 0.12028,
+          "vol": 269377.6,
+          "volValue": 32331.892315
+        },
+        "marketChange24h": {
+          "changePrice": -0.00845,
+          "changeRate": -0.0648,
+          "high": 0.17,
+          "low": 0.11722,
+          "open": 0.13035,
+          "vol": 7926314.2,
+          "volValue": 1128744.392631
+        },
+        "marketChange4h": {
+          "changePrice": -0.01608,
+          "changeRate": -0.1165,
+          "high": 0.14242,
+          "low": 0.11722,
+          "open": 0.13798,
+          "vol": 1402215.6,
+          "volValue": 175905.715815
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.13035,
+        "quoteCurrency": "USDT",
+        "sell": 0.12196,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "LUCE-USDT",
+        "symbolCode": "LUCE-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 7926314.2,
+        "volValue": 1128744.392631
+      },
+      "time_received": "19:51:32.5816"
+    }
+  ]
+}

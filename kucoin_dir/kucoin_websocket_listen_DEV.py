@@ -31,7 +31,7 @@ class KucoinWebsocketListen:
         self.api_url = "https://api.kucoin.com"
         
         # Performance optimized state management
-        self._latest_message = None
+        self.queue = asyncio.Queue(maxsize=1000)
         self._last_heartbeat = time.monotonic()
         self._connection_ready = asyncio.Event()
         self._warm_up_complete = asyncio.Event()
@@ -43,7 +43,6 @@ class KucoinWebsocketListen:
         self.is_running = False
         
         # Performance metrics (debug mode only)
-        self._message_count = 0
         self._start_time = None
         self._latency_samples = []
         self._connection_quality = 100.0
@@ -119,6 +118,16 @@ class KucoinWebsocketListen:
             logger.error(f"Warm-up failed: {e}")
             raise
 
+    async def direct_message_receive(self):
+        try:
+            msg = await self.ws_connection.receive()
+            if msg.type == aiohttp.WSMsgType.TEXT:
+                return orjson.loads(msg.data)
+            return None
+        except Exception as e:
+            logger.error(f"Error in direct_message_receive: {e}")
+            return None
+
     async def _process_message(self, msg_data: dict) -> None:
         """Optimized message processing with microsecond precision timing"""
         try:
@@ -128,19 +137,13 @@ class KucoinWebsocketListen:
             if msg_data.get('type') == 'message' and 'data' in msg_data:
                 processed_data = msg_data['data']
                 processed_data['time_received'] = precise_time.strftime('%H:%M:%S.%f')[:-3]
+                try:
+                    self.queue.put_nowait(processed_data)
+                except asyncio.QueueFull:
+                    logger.warning("Queue is full, dropping message")
                 
-                # Update latest message instead of using queue
-                #print(processed_data)
-                #self.data_queue = processed_data
-                self._latest_message = processed_data
                 
-                
-                # Debug metrics
-                # if logger.level <= logging.DEBUG:
-                #     self._message_count += 1
-                #     if self._message_count == 1:
-                #         logger.debug(f"First message received at {processed_data['time_received']}")
-                
+
             elif msg_data.get('type') == 'pong':
                 self._last_heartbeat = time.monotonic()
                 
@@ -222,6 +225,7 @@ class KucoinWebsocketListen:
                 logger.error(f"Keep-alive error: {e}")
                 break
 
+
     async def cleanup(self):
         """Resource cleanup"""
         self.is_running = False
@@ -234,16 +238,20 @@ class KucoinWebsocketListen:
         
         self._log_performance_metrics()
 
+    async def get_data(self) -> Dict[str, Any]:
+        """Get latest message from the queue"""
+        try:
+            return self.queue.get_nowait()
+        except asyncio.QueueEmpty:
+            return None
+
+
     def _log_performance_metrics(self):
         """Log performance metrics in debug mode"""
         if self._start_time:
-            runtime = time.monotonic() - self._start_time
-            msg_rate = self._message_count / runtime if runtime > 0 else 0
             avg_latency = sum(self._latency_samples) / len(self._latency_samples) if self._latency_samples else 0
             
             logger.info(f"Performance Metrics:")
-            logger.info(f"Total messages: {self._message_count}")
-            logger.info(f"Messages/second: {msg_rate:.2f}")
             logger.info(f"Average latency: {avg_latency:.2f}ms")
             logger.info(f"Connection quality: {self._connection_quality:.1f}%")
 
@@ -260,7 +268,7 @@ async def main():
         logger.debug(f'{end_time}')
         while datetime.now() < end_time:
             logger.debug("Latest message:")
-            print(ws._latest_message)
+            print(ws.queue)
             await asyncio.sleep(1)
 
 

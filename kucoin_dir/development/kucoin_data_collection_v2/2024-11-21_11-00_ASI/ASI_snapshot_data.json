@@ -1,0 +1,1673 @@
+[
+  {
+    "sequence": "322",
+    "data": {
+      "askSize": 1351.5,
+      "baseCurrency": "ASI",
+      "bidSize": 118441.4,
+      "board": 0,
+      "buy": 0.15,
+      "changeRate": 0,
+      "close": 0.16,
+      "datetime": 1732186802283,
+      "high": 0,
+      "lastTradedPrice": 0.16,
+      "low": 0,
+      "makerCoefficient": 3.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changeRate": 0,
+        "high": 0,
+        "low": 0,
+        "open": 0,
+        "vol": 0,
+        "volValue": 0
+      },
+      "marketChange24h": {
+        "changeRate": 0,
+        "high": 0,
+        "low": 0,
+        "open": 0,
+        "vol": 0,
+        "volValue": 0
+      },
+      "marketChange4h": {
+        "changeRate": 0,
+        "high": 0,
+        "low": 0,
+        "open": 0,
+        "vol": 0,
+        "volValue": 0
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0,
+      "quoteCurrency": "USDT",
+      "sell": 0.16,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "ASI-USDT",
+      "symbolCode": "ASI-USDT",
+      "takerCoefficient": 3.0,
+      "takerFeeRate": 0.001,
+      "trading": false,
+      "vol": 0,
+      "volValue": 0
+    },
+    "time_data_received": "11:00:02.4498"
+  },
+  {
+    "sequence": "454",
+    "data": {
+      "askSize": 146,
+      "baseCurrency": "ASI",
+      "bidSize": 6777.4,
+      "board": 0,
+      "buy": 0.16,
+      "changePrice": 0.14,
+      "changeRate": 7.0,
+      "close": 0.16,
+      "datetime": 1732186804372,
+      "high": 0.16462,
+      "lastTradedPrice": 0.16,
+      "low": 0.02,
+      "makerCoefficient": 3.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.14,
+        "changeRate": 7.0,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 116411.3,
+        "volValue": 16443.366816
+      },
+      "marketChange24h": {
+        "changePrice": 0.14,
+        "changeRate": 7.0,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 116411.3,
+        "volValue": 16443.366816
+      },
+      "marketChange4h": {
+        "changePrice": 0.14,
+        "changeRate": 7.0,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 116411.3,
+        "volValue": 16443.366816
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.02,
+      "quoteCurrency": "USDT",
+      "sell": 0.16459,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "ASI-USDT",
+      "symbolCode": "ASI-USDT",
+      "takerCoefficient": 3.0,
+      "takerFeeRate": 0.001,
+      "trading": false,
+      "vol": 116411.3,
+      "volValue": 16443.366816
+    },
+    "time_data_received": "11:00:04.4213"
+  },
+  {
+    "sequence": "513",
+    "data": {
+      "askSize": 3909.2,
+      "baseCurrency": "ASI",
+      "bidSize": 76537.3,
+      "board": 0,
+      "buy": 0.15,
+      "changePrice": 0.13196,
+      "changeRate": 6.598,
+      "close": 0.15196,
+      "datetime": 1732186806358,
+      "high": 0.16462,
+      "lastTradedPrice": 0.15196,
+      "low": 0.02,
+      "makerCoefficient": 3.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.13196,
+        "changeRate": 6.598,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 135940.9,
+        "volValue": 19502.397656
+      },
+      "marketChange24h": {
+        "changePrice": 0.13196,
+        "changeRate": 6.598,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 135940.9,
+        "volValue": 19502.397656
+      },
+      "marketChange4h": {
+        "changePrice": 0.13196,
+        "changeRate": 6.598,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 135940.9,
+        "volValue": 19502.397656
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.02,
+      "quoteCurrency": "USDT",
+      "sell": 0.15196,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "ASI-USDT",
+      "symbolCode": "ASI-USDT",
+      "takerCoefficient": 3.0,
+      "takerFeeRate": 0.001,
+      "trading": false,
+      "vol": 135940.9,
+      "volValue": 19502.397656
+    },
+    "time_data_received": "11:00:06.3968"
+  },
+  {
+    "sequence": "615",
+    "data": {
+      "askSize": 15683.2,
+      "baseCurrency": "ASI",
+      "bidSize": 55607.4,
+      "board": 0,
+      "buy": 0.15,
+      "changePrice": 0.13,
+      "changeRate": 6.5,
+      "close": 0.15,
+      "datetime": 1732186808389,
+      "high": 0.16462,
+      "lastTradedPrice": 0.15,
+      "low": 0.02,
+      "makerCoefficient": 3.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.13,
+        "changeRate": 6.5,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 116411.3,
+        "volValue": 16443.366816
+      },
+      "marketChange24h": {
+        "changePrice": 0.13,
+        "changeRate": 6.5,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 116411.3,
+        "volValue": 16443.366816
+      },
+      "marketChange4h": {
+        "changePrice": 0.13,
+        "changeRate": 6.5,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 116411.3,
+        "volValue": 16443.366816
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.02,
+      "quoteCurrency": "USDT",
+      "sell": 0.15296,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "ASI-USDT",
+      "symbolCode": "ASI-USDT",
+      "takerCoefficient": 3.0,
+      "takerFeeRate": 0.001,
+      "trading": false,
+      "vol": 116411.3,
+      "volValue": 16443.366816
+    },
+    "time_data_received": "11:00:08.4285"
+  },
+  {
+    "sequence": "653",
+    "data": {
+      "askSize": 11041.6,
+      "baseCurrency": "ASI",
+      "bidSize": 47655.7,
+      "board": 0,
+      "buy": 0.15,
+      "changePrice": 0.13,
+      "changeRate": 6.5,
+      "close": 0.15,
+      "datetime": 1732186810310,
+      "high": 0.16462,
+      "lastTradedPrice": 0.15,
+      "low": 0.02,
+      "makerCoefficient": 3.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.13,
+        "changeRate": 6.5,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 168099.5,
+        "volValue": 24351.933923
+      },
+      "marketChange24h": {
+        "changePrice": 0.13,
+        "changeRate": 6.5,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 168099.5,
+        "volValue": 24351.933923
+      },
+      "marketChange4h": {
+        "changePrice": 0.13,
+        "changeRate": 6.5,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 168099.5,
+        "volValue": 24351.933923
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.02,
+      "quoteCurrency": "USDT",
+      "sell": 0.15296,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "ASI-USDT",
+      "symbolCode": "ASI-USDT",
+      "takerCoefficient": 3.0,
+      "takerFeeRate": 0.001,
+      "trading": false,
+      "vol": 168099.5,
+      "volValue": 24351.933923
+    },
+    "time_data_received": "11:00:10.3470"
+  },
+  {
+    "sequence": "731",
+    "data": {
+      "askSize": 176.5,
+      "baseCurrency": "ASI",
+      "bidSize": 3232.3,
+      "board": 0,
+      "buy": 0.12,
+      "changePrice": 0.10001,
+      "changeRate": 5.0005,
+      "close": 0.12001,
+      "datetime": 1732186812406,
+      "high": 0.16462,
+      "lastTradedPrice": 0.12001,
+      "low": 0.02,
+      "makerCoefficient": 3.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.10001,
+        "changeRate": 5.0005,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 116411.3,
+        "volValue": 16443.366816
+      },
+      "marketChange24h": {
+        "changePrice": 0.10001,
+        "changeRate": 5.0005,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 116411.3,
+        "volValue": 16443.366816
+      },
+      "marketChange4h": {
+        "changePrice": 0.10001,
+        "changeRate": 5.0005,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 116411.3,
+        "volValue": 16443.366816
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.02,
+      "quoteCurrency": "USDT",
+      "sell": 0.14,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "ASI-USDT",
+      "symbolCode": "ASI-USDT",
+      "takerCoefficient": 3.0,
+      "takerFeeRate": 0.001,
+      "trading": false,
+      "vol": 116411.3,
+      "volValue": 16443.366816
+    },
+    "time_data_received": "11:00:12.4400"
+  },
+  {
+    "sequence": "845",
+    "data": {
+      "askSize": 5778.3,
+      "baseCurrency": "ASI",
+      "bidSize": 1392.5,
+      "board": 0,
+      "buy": 0.12125,
+      "changePrice": 0.11601,
+      "changeRate": 5.8005,
+      "close": 0.13601,
+      "datetime": 1732186814382,
+      "high": 0.16462,
+      "lastTradedPrice": 0.13601,
+      "low": 0.02,
+      "makerCoefficient": 3.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.11601,
+        "changeRate": 5.8005,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 168099.5,
+        "volValue": 24351.933923
+      },
+      "marketChange24h": {
+        "changePrice": 0.11601,
+        "changeRate": 5.8005,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 168099.5,
+        "volValue": 24351.933923
+      },
+      "marketChange4h": {
+        "changePrice": 0.11601,
+        "changeRate": 5.8005,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 168099.5,
+        "volValue": 24351.933923
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.02,
+      "quoteCurrency": "USDT",
+      "sell": 0.15,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "ASI-USDT",
+      "symbolCode": "ASI-USDT",
+      "takerCoefficient": 3.0,
+      "takerFeeRate": 0.001,
+      "trading": false,
+      "vol": 168099.5,
+      "volValue": 24351.933923
+    },
+    "time_data_received": "11:00:14.4597"
+  },
+  {
+    "sequence": "917",
+    "data": {
+      "askSize": 675.8,
+      "baseCurrency": "ASI",
+      "bidSize": 1769.5,
+      "board": 0,
+      "buy": 0.12,
+      "changePrice": 0.10125,
+      "changeRate": 5.0625,
+      "close": 0.12125,
+      "datetime": 1732186816184,
+      "high": 0.16462,
+      "lastTradedPrice": 0.12125,
+      "low": 0.02,
+      "makerCoefficient": 3.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.10125,
+        "changeRate": 5.0625,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 135940.9,
+        "volValue": 19502.397656
+      },
+      "marketChange24h": {
+        "changePrice": 0.10125,
+        "changeRate": 5.0625,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 135940.9,
+        "volValue": 19502.397656
+      },
+      "marketChange4h": {
+        "changePrice": 0.10125,
+        "changeRate": 5.0625,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 135940.9,
+        "volValue": 19502.397656
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.02,
+      "quoteCurrency": "USDT",
+      "sell": 0.12125,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "ASI-USDT",
+      "symbolCode": "ASI-USDT",
+      "takerCoefficient": 3.0,
+      "takerFeeRate": 0.001,
+      "trading": false,
+      "vol": 135940.9,
+      "volValue": 19502.397656
+    },
+    "time_data_received": "11:00:16.2181"
+  },
+  {
+    "sequence": "991",
+    "data": {
+      "askSize": 409.8,
+      "baseCurrency": "ASI",
+      "bidSize": 40.2,
+      "board": 0,
+      "buy": 0.12432,
+      "changePrice": 0.105,
+      "changeRate": 5.25,
+      "close": 0.125,
+      "datetime": 1732186818415,
+      "high": 0.16462,
+      "lastTradedPrice": 0.125,
+      "low": 0.02,
+      "makerCoefficient": 3.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.105,
+        "changeRate": 5.25,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 168099.5,
+        "volValue": 24351.933923
+      },
+      "marketChange24h": {
+        "changePrice": 0.105,
+        "changeRate": 5.25,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 168099.5,
+        "volValue": 24351.933923
+      },
+      "marketChange4h": {
+        "changePrice": 0.105,
+        "changeRate": 5.25,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 168099.5,
+        "volValue": 24351.933923
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.02,
+      "quoteCurrency": "USDT",
+      "sell": 0.13,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "ASI-USDT",
+      "symbolCode": "ASI-USDT",
+      "takerCoefficient": 3.0,
+      "takerFeeRate": 0.001,
+      "trading": false,
+      "vol": 168099.5,
+      "volValue": 24351.933923
+    },
+    "time_data_received": "11:00:18.4500"
+  },
+  {
+    "sequence": "1048",
+    "data": {
+      "askSize": 128.2,
+      "baseCurrency": "ASI",
+      "bidSize": 85.7,
+      "board": 0,
+      "buy": 0.12,
+      "changePrice": 0.10001,
+      "changeRate": 5.0005,
+      "close": 0.12001,
+      "datetime": 1732186820398,
+      "high": 0.16462,
+      "lastTradedPrice": 0.12001,
+      "low": 0.02,
+      "makerCoefficient": 3.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.10001,
+        "changeRate": 5.0005,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 199658.7,
+        "volValue": 28438.860367
+      },
+      "marketChange24h": {
+        "changePrice": 0.10001,
+        "changeRate": 5.0005,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 199658.7,
+        "volValue": 28438.860367
+      },
+      "marketChange4h": {
+        "changePrice": 0.10001,
+        "changeRate": 5.0005,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 199658.7,
+        "volValue": 28438.860367
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.02,
+      "quoteCurrency": "USDT",
+      "sell": 0.12003,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "ASI-USDT",
+      "symbolCode": "ASI-USDT",
+      "takerCoefficient": 3.0,
+      "takerFeeRate": 0.001,
+      "trading": false,
+      "vol": 199658.7,
+      "volValue": 28438.860367
+    },
+    "time_data_received": "11:00:20.4349"
+  },
+  {
+    "sequence": "1135",
+    "data": {
+      "askSize": 310.1,
+      "baseCurrency": "ASI",
+      "bidSize": 4031.5,
+      "board": 0,
+      "buy": 0.12,
+      "changePrice": 0.1,
+      "changeRate": 5.0,
+      "close": 0.12,
+      "datetime": 1732186822340,
+      "high": 0.16462,
+      "lastTradedPrice": 0.12,
+      "low": 0.02,
+      "makerCoefficient": 3.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.1,
+        "changeRate": 5.0,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 204927.4,
+        "volValue": 29091.800701
+      },
+      "marketChange24h": {
+        "changePrice": 0.1,
+        "changeRate": 5.0,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 204927.4,
+        "volValue": 29091.800701
+      },
+      "marketChange4h": {
+        "changePrice": 0.1,
+        "changeRate": 5.0,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 204927.4,
+        "volValue": 29091.800701
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.02,
+      "quoteCurrency": "USDT",
+      "sell": 0.12401,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "ASI-USDT",
+      "symbolCode": "ASI-USDT",
+      "takerCoefficient": 3.0,
+      "takerFeeRate": 0.001,
+      "trading": true,
+      "vol": 204927.4,
+      "volValue": 29091.800701
+    },
+    "time_data_received": "11:00:22.3798"
+  },
+  {
+    "sequence": "1217",
+    "data": {
+      "askSize": 170.2,
+      "baseCurrency": "ASI",
+      "bidSize": 2234.7,
+      "board": 0,
+      "buy": 0.12,
+      "changePrice": 0.106,
+      "changeRate": 5.3,
+      "close": 0.126,
+      "datetime": 1732186824419,
+      "high": 0.16462,
+      "lastTradedPrice": 0.126,
+      "low": 0.02,
+      "makerCoefficient": 3.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.106,
+        "changeRate": 5.3,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 204927.4,
+        "volValue": 29091.800701
+      },
+      "marketChange24h": {
+        "changePrice": 0.106,
+        "changeRate": 5.3,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 204927.4,
+        "volValue": 29091.800701
+      },
+      "marketChange4h": {
+        "changePrice": 0.106,
+        "changeRate": 5.3,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 204927.4,
+        "volValue": 29091.800701
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.02,
+      "quoteCurrency": "USDT",
+      "sell": 0.136,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "ASI-USDT",
+      "symbolCode": "ASI-USDT",
+      "takerCoefficient": 3.0,
+      "takerFeeRate": 0.001,
+      "trading": true,
+      "vol": 204927.4,
+      "volValue": 29091.800701
+    },
+    "time_data_received": "11:00:24.4499"
+  },
+  {
+    "sequence": "1363",
+    "data": {
+      "askSize": 784.4,
+      "baseCurrency": "ASI",
+      "bidSize": 212.1,
+      "board": 0,
+      "buy": 0.1278,
+      "changePrice": 0.1078,
+      "changeRate": 5.39,
+      "close": 0.1278,
+      "datetime": 1732186826358,
+      "high": 0.16462,
+      "lastTradedPrice": 0.1278,
+      "low": 0.02,
+      "makerCoefficient": 3.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.1078,
+        "changeRate": 5.39,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 199658.7,
+        "volValue": 28438.860367
+      },
+      "marketChange24h": {
+        "changePrice": 0.1078,
+        "changeRate": 5.39,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 199658.7,
+        "volValue": 28438.860367
+      },
+      "marketChange4h": {
+        "changePrice": 0.1078,
+        "changeRate": 5.39,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 199658.7,
+        "volValue": 28438.860367
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.02,
+      "quoteCurrency": "USDT",
+      "sell": 0.13,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "ASI-USDT",
+      "symbolCode": "ASI-USDT",
+      "takerCoefficient": 3.0,
+      "takerFeeRate": 0.001,
+      "trading": true,
+      "vol": 199658.7,
+      "volValue": 28438.860367
+    },
+    "time_data_received": "11:00:26.3936"
+  },
+  {
+    "sequence": "1455",
+    "data": {
+      "askSize": 3120.3,
+      "baseCurrency": "ASI",
+      "bidSize": 11552.9,
+      "board": 0,
+      "buy": 0.12663,
+      "changePrice": 0.11,
+      "changeRate": 5.5,
+      "close": 0.13,
+      "datetime": 1732186828322,
+      "high": 0.16462,
+      "lastTradedPrice": 0.13,
+      "low": 0.02,
+      "makerCoefficient": 3.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.11,
+        "changeRate": 5.5,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 199658.7,
+        "volValue": 28438.860367
+      },
+      "marketChange24h": {
+        "changePrice": 0.11,
+        "changeRate": 5.5,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 199658.7,
+        "volValue": 28438.860367
+      },
+      "marketChange4h": {
+        "changePrice": 0.11,
+        "changeRate": 5.5,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 199658.7,
+        "volValue": 28438.860367
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.02,
+      "quoteCurrency": "USDT",
+      "sell": 0.13,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "ASI-USDT",
+      "symbolCode": "ASI-USDT",
+      "takerCoefficient": 3.0,
+      "takerFeeRate": 0.001,
+      "trading": true,
+      "vol": 199658.7,
+      "volValue": 28438.860367
+    },
+    "time_data_received": "11:00:28.3534"
+  },
+  {
+    "sequence": "1598",
+    "data": {
+      "askSize": 35.2,
+      "baseCurrency": "ASI",
+      "bidSize": 1527.2,
+      "board": 0,
+      "buy": 0.12805,
+      "changePrice": 0.10805,
+      "changeRate": 5.4025,
+      "close": 0.12805,
+      "datetime": 1732186830390,
+      "high": 0.16462,
+      "lastTradedPrice": 0.12805,
+      "low": 0.02,
+      "makerCoefficient": 3.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.10805,
+        "changeRate": 5.4025,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 204927.4,
+        "volValue": 29091.800701
+      },
+      "marketChange24h": {
+        "changePrice": 0.10805,
+        "changeRate": 5.4025,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 204927.4,
+        "volValue": 29091.800701
+      },
+      "marketChange4h": {
+        "changePrice": 0.10805,
+        "changeRate": 5.4025,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 204927.4,
+        "volValue": 29091.800701
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.02,
+      "quoteCurrency": "USDT",
+      "sell": 0.13478,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "ASI-USDT",
+      "symbolCode": "ASI-USDT",
+      "takerCoefficient": 3.0,
+      "takerFeeRate": 0.001,
+      "trading": true,
+      "vol": 204927.4,
+      "volValue": 29091.800701
+    },
+    "time_data_received": "11:00:30.4239"
+  },
+  {
+    "sequence": "1687",
+    "data": {
+      "askSize": 563.5,
+      "baseCurrency": "ASI",
+      "bidSize": 588.6,
+      "board": 0,
+      "buy": 0.13003,
+      "changePrice": 0.1148,
+      "changeRate": 5.74,
+      "close": 0.1348,
+      "datetime": 1732186832345,
+      "high": 0.16462,
+      "lastTradedPrice": 0.1348,
+      "low": 0.02,
+      "makerCoefficient": 3.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.1148,
+        "changeRate": 5.74,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 258091.0,
+        "volValue": 35900.964596
+      },
+      "marketChange24h": {
+        "changePrice": 0.1148,
+        "changeRate": 5.74,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 258091.0,
+        "volValue": 35900.964596
+      },
+      "marketChange4h": {
+        "changePrice": 0.1148,
+        "changeRate": 5.74,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 258091.0,
+        "volValue": 35900.964596
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.02,
+      "quoteCurrency": "USDT",
+      "sell": 0.1348,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "ASI-USDT",
+      "symbolCode": "ASI-USDT",
+      "takerCoefficient": 3.0,
+      "takerFeeRate": 0.001,
+      "trading": true,
+      "vol": 258091.0,
+      "volValue": 35900.964596
+    },
+    "time_data_received": "11:00:32.3812"
+  },
+  {
+    "sequence": "1894",
+    "data": {
+      "askSize": 588.5,
+      "baseCurrency": "ASI",
+      "bidSize": 2651.4,
+      "board": 0,
+      "buy": 0.132,
+      "changePrice": 0.11122,
+      "changeRate": 5.561,
+      "close": 0.13122,
+      "datetime": 1732186834350,
+      "high": 0.16462,
+      "lastTradedPrice": 0.13122,
+      "low": 0.02,
+      "makerCoefficient": 3.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.11122,
+        "changeRate": 5.561,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 258091.0,
+        "volValue": 35900.964596
+      },
+      "marketChange24h": {
+        "changePrice": 0.11122,
+        "changeRate": 5.561,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 258091.0,
+        "volValue": 35900.964596
+      },
+      "marketChange4h": {
+        "changePrice": 0.11122,
+        "changeRate": 5.561,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 258091.0,
+        "volValue": 35900.964596
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.02,
+      "quoteCurrency": "USDT",
+      "sell": 0.13481,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "ASI-USDT",
+      "symbolCode": "ASI-USDT",
+      "takerCoefficient": 3.0,
+      "takerFeeRate": 0.001,
+      "trading": true,
+      "vol": 258091.0,
+      "volValue": 35900.964596
+    },
+    "time_data_received": "11:00:34.3844"
+  },
+  {
+    "sequence": "2079",
+    "data": {
+      "askSize": 1470.2,
+      "baseCurrency": "ASI",
+      "bidSize": 1470.2,
+      "board": 0,
+      "buy": 0.13323,
+      "changePrice": 0.11211,
+      "changeRate": 5.6055,
+      "close": 0.13211,
+      "datetime": 1732186836361,
+      "high": 0.16462,
+      "lastTradedPrice": 0.13211,
+      "low": 0.02,
+      "makerCoefficient": 3.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.11211,
+        "changeRate": 5.6055,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 271150.9,
+        "volValue": 37645.246269
+      },
+      "marketChange24h": {
+        "changePrice": 0.11211,
+        "changeRate": 5.6055,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 271150.9,
+        "volValue": 37645.246269
+      },
+      "marketChange4h": {
+        "changePrice": 0.11211,
+        "changeRate": 5.6055,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 271150.9,
+        "volValue": 37645.246269
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.02,
+      "quoteCurrency": "USDT",
+      "sell": 0.13993,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "ASI-USDT",
+      "symbolCode": "ASI-USDT",
+      "takerCoefficient": 3.0,
+      "takerFeeRate": 0.001,
+      "trading": true,
+      "vol": 271150.9,
+      "volValue": 37645.246269
+    },
+    "time_data_received": "11:00:36.3959"
+  },
+  {
+    "sequence": "2273",
+    "data": {
+      "askSize": 277.4,
+      "baseCurrency": "ASI",
+      "bidSize": 1333.2,
+      "board": 0,
+      "buy": 0.13802,
+      "changePrice": 0.13,
+      "changeRate": 6.5,
+      "close": 0.15,
+      "datetime": 1732186838349,
+      "high": 0.16462,
+      "lastTradedPrice": 0.15,
+      "low": 0.02,
+      "makerCoefficient": 3.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.13,
+        "changeRate": 6.5,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 258091.0,
+        "volValue": 35900.964596
+      },
+      "marketChange24h": {
+        "changePrice": 0.13,
+        "changeRate": 6.5,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 258091.0,
+        "volValue": 35900.964596
+      },
+      "marketChange4h": {
+        "changePrice": 0.13,
+        "changeRate": 6.5,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 258091.0,
+        "volValue": 35900.964596
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.02,
+      "quoteCurrency": "USDT",
+      "sell": 0.1413,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "ASI-USDT",
+      "symbolCode": "ASI-USDT",
+      "takerCoefficient": 3.0,
+      "takerFeeRate": 0.001,
+      "trading": true,
+      "vol": 258091.0,
+      "volValue": 35900.964596
+    },
+    "time_data_received": "11:00:38.3825"
+  },
+  {
+    "sequence": "2397",
+    "data": {
+      "askSize": 715.9,
+      "baseCurrency": "ASI",
+      "bidSize": 2649,
+      "board": 0,
+      "buy": 0.14105,
+      "changePrice": 0.12106,
+      "changeRate": 6.053,
+      "close": 0.14106,
+      "datetime": 1732186840341,
+      "high": 0.16462,
+      "lastTradedPrice": 0.14106,
+      "low": 0.02,
+      "makerCoefficient": 3.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.12106,
+        "changeRate": 6.053,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 307783.1,
+        "volValue": 43069.055807
+      },
+      "marketChange24h": {
+        "changePrice": 0.12106,
+        "changeRate": 6.053,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 307783.1,
+        "volValue": 43069.055807
+      },
+      "marketChange4h": {
+        "changePrice": 0.12106,
+        "changeRate": 6.053,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 307783.1,
+        "volValue": 43069.055807
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.02,
+      "quoteCurrency": "USDT",
+      "sell": 0.14486,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "ASI-USDT",
+      "symbolCode": "ASI-USDT",
+      "takerCoefficient": 3.0,
+      "takerFeeRate": 0.001,
+      "trading": true,
+      "vol": 307783.1,
+      "volValue": 43069.055807
+    },
+    "time_data_received": "11:00:40.3784"
+  },
+  {
+    "sequence": "2549",
+    "data": {
+      "askSize": 368.3,
+      "baseCurrency": "ASI",
+      "bidSize": 1019.5,
+      "board": 0,
+      "buy": 0.149,
+      "changePrice": 0.127,
+      "changeRate": 6.35,
+      "close": 0.147,
+      "datetime": 1732186842355,
+      "high": 0.16462,
+      "lastTradedPrice": 0.147,
+      "low": 0.02,
+      "makerCoefficient": 3.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.127,
+        "changeRate": 6.35,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 271150.9,
+        "volValue": 37645.246269
+      },
+      "marketChange24h": {
+        "changePrice": 0.127,
+        "changeRate": 6.35,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 271150.9,
+        "volValue": 37645.246269
+      },
+      "marketChange4h": {
+        "changePrice": 0.127,
+        "changeRate": 6.35,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 271150.9,
+        "volValue": 37645.246269
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.02,
+      "quoteCurrency": "USDT",
+      "sell": 0.14999,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "ASI-USDT",
+      "symbolCode": "ASI-USDT",
+      "takerCoefficient": 3.0,
+      "takerFeeRate": 0.001,
+      "trading": true,
+      "vol": 271150.9,
+      "volValue": 37645.246269
+    },
+    "time_data_received": "11:00:42.3879"
+  },
+  {
+    "sequence": "2677",
+    "data": {
+      "askSize": 271.1,
+      "baseCurrency": "ASI",
+      "bidSize": 1839.4,
+      "board": 0,
+      "buy": 0.14178,
+      "changePrice": 0.128,
+      "changeRate": 6.4,
+      "close": 0.148,
+      "datetime": 1732186844271,
+      "high": 0.16462,
+      "lastTradedPrice": 0.148,
+      "low": 0.02,
+      "makerCoefficient": 3.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.128,
+        "changeRate": 6.4,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 271150.9,
+        "volValue": 37645.246269
+      },
+      "marketChange24h": {
+        "changePrice": 0.128,
+        "changeRate": 6.4,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 271150.9,
+        "volValue": 37645.246269
+      },
+      "marketChange4h": {
+        "changePrice": 0.128,
+        "changeRate": 6.4,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 271150.9,
+        "volValue": 37645.246269
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.02,
+      "quoteCurrency": "USDT",
+      "sell": 0.14798,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "ASI-USDT",
+      "symbolCode": "ASI-USDT",
+      "takerCoefficient": 3.0,
+      "takerFeeRate": 0.001,
+      "trading": true,
+      "vol": 271150.9,
+      "volValue": 37645.246269
+    },
+    "time_data_received": "11:00:44.3035"
+  },
+  {
+    "sequence": "2800",
+    "data": {
+      "askSize": 136,
+      "baseCurrency": "ASI",
+      "bidSize": 668.9,
+      "board": 0,
+      "buy": 0.14291,
+      "changePrice": 0.13105,
+      "changeRate": 6.5525,
+      "close": 0.15105,
+      "datetime": 1732186846353,
+      "high": 0.16462,
+      "lastTradedPrice": 0.15105,
+      "low": 0.02,
+      "makerCoefficient": 3.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.13105,
+        "changeRate": 6.5525,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 329023.6,
+        "volValue": 46186.740542
+      },
+      "marketChange24h": {
+        "changePrice": 0.13105,
+        "changeRate": 6.5525,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 329023.6,
+        "volValue": 46186.740542
+      },
+      "marketChange4h": {
+        "changePrice": 0.13105,
+        "changeRate": 6.5525,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 329023.6,
+        "volValue": 46186.740542
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.02,
+      "quoteCurrency": "USDT",
+      "sell": 0.147,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "ASI-USDT",
+      "symbolCode": "ASI-USDT",
+      "takerCoefficient": 3.0,
+      "takerFeeRate": 0.001,
+      "trading": true,
+      "vol": 329023.6,
+      "volValue": 46186.740542
+    },
+    "time_data_received": "11:00:46.3904"
+  },
+  {
+    "sequence": "2897",
+    "data": {
+      "askSize": 1613.6,
+      "baseCurrency": "ASI",
+      "bidSize": 166.3,
+      "board": 0,
+      "buy": 0.144,
+      "changePrice": 0.124,
+      "changeRate": 6.2,
+      "close": 0.144,
+      "datetime": 1732186848405,
+      "high": 0.16462,
+      "lastTradedPrice": 0.144,
+      "low": 0.02,
+      "makerCoefficient": 3.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.124,
+        "changeRate": 6.2,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 307783.1,
+        "volValue": 43069.055807
+      },
+      "marketChange24h": {
+        "changePrice": 0.124,
+        "changeRate": 6.2,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 307783.1,
+        "volValue": 43069.055807
+      },
+      "marketChange4h": {
+        "changePrice": 0.124,
+        "changeRate": 6.2,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 307783.1,
+        "volValue": 43069.055807
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.02,
+      "quoteCurrency": "USDT",
+      "sell": 0.145,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "ASI-USDT",
+      "symbolCode": "ASI-USDT",
+      "takerCoefficient": 3.0,
+      "takerFeeRate": 0.001,
+      "trading": true,
+      "vol": 307783.1,
+      "volValue": 43069.055807
+    },
+    "time_data_received": "11:00:48.4377"
+  },
+  {
+    "sequence": "2958",
+    "data": {
+      "askSize": 885.2,
+      "baseCurrency": "ASI",
+      "bidSize": 1147.7,
+      "board": 0,
+      "buy": 0.145,
+      "changePrice": 0.124,
+      "changeRate": 6.2,
+      "close": 0.144,
+      "datetime": 1732186850322,
+      "high": 0.16462,
+      "lastTradedPrice": 0.144,
+      "low": 0.02,
+      "makerCoefficient": 3.0,
+      "makerFeeRate": 0.001,
+      "marginTrade": false,
+      "mark": 2,
+      "market": "USDS",
+      "marketChange1h": {
+        "changePrice": 0.124,
+        "changeRate": 6.2,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 307783.1,
+        "volValue": 43069.055807
+      },
+      "marketChange24h": {
+        "changePrice": 0.124,
+        "changeRate": 6.2,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 307783.1,
+        "volValue": 43069.055807
+      },
+      "marketChange4h": {
+        "changePrice": 0.124,
+        "changeRate": 6.2,
+        "high": 0.16462,
+        "low": 0.02,
+        "open": 0.02,
+        "vol": 307783.1,
+        "volValue": 43069.055807
+      },
+      "markets": [
+        "USDS"
+      ],
+      "open": 0.02,
+      "quoteCurrency": "USDT",
+      "sell": 0.1456,
+      "siteTypes": [
+        "global"
+      ],
+      "sort": 100,
+      "symbol": "ASI-USDT",
+      "symbolCode": "ASI-USDT",
+      "takerCoefficient": 3.0,
+      "takerFeeRate": 0.001,
+      "trading": true,
+      "vol": 307783.1,
+      "volValue": 43069.055807
+    },
+    "time_data_received": "11:00:50.3549"
+  }
+]
