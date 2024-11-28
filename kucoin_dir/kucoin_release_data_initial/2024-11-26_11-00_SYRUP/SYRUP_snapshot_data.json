@@ -1,0 +1,5109 @@
+{
+  "metadata": {
+    "symbol": "SYRUP",
+    "channel": "snapshot",
+    "start_time": "10:59:30.0000",
+    "release_time": "11:00:00.0000",
+    "end_time": "11:05:00.0000",
+    "total_messages": 76,
+    "final_snapshot": {
+      "time": "11:04:58.5890",
+      "symbol": "SYRUP-USDT",
+      "price_high": "0.218",
+      "price_last": "0.215",
+      "price_low": "0.17",
+      "price_avg": null,
+      "volValue_USDT": "15691.125109"
+    }
+  },
+  "data": [
+    {
+      "sequence": "1596",
+      "data": {
+        "askSize": 947.97,
+        "baseCurrency": "SYRUP",
+        "bidSize": 500,
+        "board": 0,
+        "buy": 0.217,
+        "changeRate": 0,
+        "close": 0.218,
+        "datetime": 1732618800614,
+        "high": 0,
+        "lastTradedPrice": 0.218,
+        "low": 0,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changeRate": 0,
+          "high": 0,
+          "low": 0,
+          "open": 0,
+          "vol": 0,
+          "volValue": 0
+        },
+        "marketChange24h": {
+          "changeRate": 0,
+          "high": 0,
+          "low": 0,
+          "open": 0,
+          "vol": 0,
+          "volValue": 0
+        },
+        "marketChange4h": {
+          "changeRate": 0,
+          "high": 0,
+          "low": 0,
+          "open": 0,
+          "vol": 0,
+          "volValue": 0
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0,
+        "quoteCurrency": "USDT",
+        "sell": 0.218,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": false,
+        "vol": 0,
+        "volValue": 0
+      },
+      "time_received": "11:00:00.6426"
+    },
+    {
+      "sequence": "1611",
+      "data": {
+        "askSize": 885.47,
+        "baseCurrency": "SYRUP",
+        "bidSize": 1005.75,
+        "board": 0,
+        "buy": 0.217,
+        "changePrice": 0.048,
+        "changeRate": 0.2823,
+        "close": 0.218,
+        "datetime": 1732618802690,
+        "high": 0.218,
+        "lastTradedPrice": 0.218,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.048,
+          "changeRate": 0.2823,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 1110.0,
+          "volValue": 241.784653
+        },
+        "marketChange24h": {
+          "changePrice": 0.048,
+          "changeRate": 0.2823,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 1110.0,
+          "volValue": 241.784653
+        },
+        "marketChange4h": {
+          "changePrice": 0.048,
+          "changeRate": 0.2823,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 1110.0,
+          "volValue": 241.784653
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.218,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": false,
+        "vol": 1110.0,
+        "volValue": 241.784653
+      },
+      "time_received": "11:00:02.7533"
+    },
+    {
+      "sequence": "1640",
+      "data": {
+        "askSize": 460.51,
+        "baseCurrency": "SYRUP",
+        "bidSize": 1006.27,
+        "board": 0,
+        "buy": 0.217,
+        "changePrice": 0.0478,
+        "changeRate": 0.2811,
+        "close": 0.2178,
+        "datetime": 1732618804601,
+        "high": 0.218,
+        "lastTradedPrice": 0.2178,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0478,
+          "changeRate": 0.2811,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 1823.94,
+          "volValue": 397.004479
+        },
+        "marketChange24h": {
+          "changePrice": 0.0478,
+          "changeRate": 0.2811,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 1823.94,
+          "volValue": 397.004479
+        },
+        "marketChange4h": {
+          "changePrice": 0.0478,
+          "changeRate": 0.2811,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 1823.94,
+          "volValue": 397.004479
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2172,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": false,
+        "vol": 1823.94,
+        "volValue": 397.004479
+      },
+      "time_received": "11:00:04.6366"
+    },
+    {
+      "sequence": "1654",
+      "data": {
+        "askSize": 460.51,
+        "baseCurrency": "SYRUP",
+        "bidSize": 1006.27,
+        "board": 0,
+        "buy": 0.217,
+        "changePrice": 0.048,
+        "changeRate": 0.2823,
+        "close": 0.218,
+        "datetime": 1732618806520,
+        "high": 0.218,
+        "lastTradedPrice": 0.218,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.048,
+          "changeRate": 0.2823,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 1110.0,
+          "volValue": 241.784653
+        },
+        "marketChange24h": {
+          "changePrice": 0.048,
+          "changeRate": 0.2823,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 1110.0,
+          "volValue": 241.784653
+        },
+        "marketChange4h": {
+          "changePrice": 0.048,
+          "changeRate": 0.2823,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 1110.0,
+          "volValue": 241.784653
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2172,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": false,
+        "vol": 1110.0,
+        "volValue": 241.784653
+      },
+      "time_received": "11:00:06.5495"
+    },
+    {
+      "sequence": "1703",
+      "data": {
+        "askSize": 460.51,
+        "baseCurrency": "SYRUP",
+        "bidSize": 1006.27,
+        "board": 0,
+        "buy": 0.217,
+        "changePrice": 0.048,
+        "changeRate": 0.2823,
+        "close": 0.218,
+        "datetime": 1732618810680,
+        "high": 0.218,
+        "lastTradedPrice": 0.218,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.048,
+          "changeRate": 0.2823,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 2526.4,
+          "volValue": 549.731209
+        },
+        "marketChange24h": {
+          "changePrice": 0.048,
+          "changeRate": 0.2823,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 2526.4,
+          "volValue": 549.731209
+        },
+        "marketChange4h": {
+          "changePrice": 0.048,
+          "changeRate": 0.2823,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 2526.4,
+          "volValue": 549.731209
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2172,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": false,
+        "vol": 2526.4,
+        "volValue": 549.731209
+      },
+      "time_received": "11:00:10.7177"
+    },
+    {
+      "sequence": "1719",
+      "data": {
+        "askSize": 258.61,
+        "baseCurrency": "SYRUP",
+        "bidSize": 1006.27,
+        "board": 0,
+        "buy": 0.217,
+        "changePrice": 0.0472,
+        "changeRate": 0.2776,
+        "close": 0.2172,
+        "datetime": 1732618812542,
+        "high": 0.218,
+        "lastTradedPrice": 0.2172,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0472,
+          "changeRate": 0.2776,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 1823.94,
+          "volValue": 397.004479
+        },
+        "marketChange24h": {
+          "changePrice": 0.0472,
+          "changeRate": 0.2776,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 1823.94,
+          "volValue": 397.004479
+        },
+        "marketChange4h": {
+          "changePrice": 0.0472,
+          "changeRate": 0.2776,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 1823.94,
+          "volValue": 397.004479
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2172,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": false,
+        "vol": 1823.94,
+        "volValue": 397.004479
+      },
+      "time_received": "11:00:12.5719"
+    },
+    {
+      "sequence": "1732",
+      "data": {
+        "askSize": 460.51,
+        "baseCurrency": "SYRUP",
+        "bidSize": 1006.27,
+        "board": 0,
+        "buy": 0.217,
+        "changePrice": 0.0478,
+        "changeRate": 0.2811,
+        "close": 0.2178,
+        "datetime": 1732618814666,
+        "high": 0.218,
+        "lastTradedPrice": 0.2178,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0478,
+          "changeRate": 0.2811,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 2997.98,
+          "volValue": 652.165027
+        },
+        "marketChange24h": {
+          "changePrice": 0.0478,
+          "changeRate": 0.2811,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 2997.98,
+          "volValue": 652.165027
+        },
+        "marketChange4h": {
+          "changePrice": 0.0478,
+          "changeRate": 0.2811,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 2997.98,
+          "volValue": 652.165027
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2172,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": false,
+        "vol": 2997.98,
+        "volValue": 652.165027
+      },
+      "time_received": "11:00:14.7008"
+    },
+    {
+      "sequence": "1738",
+      "data": {
+        "askSize": 849.23,
+        "baseCurrency": "SYRUP",
+        "bidSize": 1006.27,
+        "board": 0,
+        "buy": 0.217,
+        "changePrice": 0.0472,
+        "changeRate": 0.2776,
+        "close": 0.2172,
+        "datetime": 1732618816506,
+        "high": 0.218,
+        "lastTradedPrice": 0.2172,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0472,
+          "changeRate": 0.2776,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 3091.09,
+          "volValue": 672.388519
+        },
+        "marketChange24h": {
+          "changePrice": 0.0472,
+          "changeRate": 0.2776,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 3091.09,
+          "volValue": 672.388519
+        },
+        "marketChange4h": {
+          "changePrice": 0.0472,
+          "changeRate": 0.2776,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 3091.09,
+          "volValue": 672.388519
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.218,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": false,
+        "vol": 3091.09,
+        "volValue": 672.388519
+      },
+      "time_received": "11:00:16.5400"
+    },
+    {
+      "sequence": "1767",
+      "data": {
+        "askSize": 459.68,
+        "baseCurrency": "SYRUP",
+        "bidSize": 1006.27,
+        "board": 0,
+        "buy": 0.217,
+        "changePrice": 0.048,
+        "changeRate": 0.2823,
+        "close": 0.218,
+        "datetime": 1732618818610,
+        "high": 0.218,
+        "lastTradedPrice": 0.218,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.048,
+          "changeRate": 0.2823,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 2526.4,
+          "volValue": 549.731209
+        },
+        "marketChange24h": {
+          "changePrice": 0.048,
+          "changeRate": 0.2823,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 2526.4,
+          "volValue": 549.731209
+        },
+        "marketChange4h": {
+          "changePrice": 0.048,
+          "changeRate": 0.2823,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 2526.4,
+          "volValue": 549.731209
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2176,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 2526.4,
+        "volValue": 549.731209
+      },
+      "time_received": "11:00:18.6377"
+    },
+    {
+      "sequence": "1784",
+      "data": {
+        "askSize": 460.17,
+        "baseCurrency": "SYRUP",
+        "bidSize": 1006.27,
+        "board": 0,
+        "buy": 0.217,
+        "changePrice": 0.048,
+        "changeRate": 0.2823,
+        "close": 0.218,
+        "datetime": 1732618820537,
+        "high": 0.218,
+        "lastTradedPrice": 0.218,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.048,
+          "changeRate": 0.2823,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 2526.4,
+          "volValue": 549.731209
+        },
+        "marketChange24h": {
+          "changePrice": 0.048,
+          "changeRate": 0.2823,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 2526.4,
+          "volValue": 549.731209
+        },
+        "marketChange4h": {
+          "changePrice": 0.048,
+          "changeRate": 0.2823,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 2526.4,
+          "volValue": 549.731209
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2174,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 2526.4,
+        "volValue": 549.731209
+      },
+      "time_received": "11:00:20.5656"
+    },
+    {
+      "sequence": "1807",
+      "data": {
+        "askSize": 459.68,
+        "baseCurrency": "SYRUP",
+        "bidSize": 1006.27,
+        "board": 0,
+        "buy": 0.217,
+        "changePrice": 0.0474,
+        "changeRate": 0.2788,
+        "close": 0.2174,
+        "datetime": 1732618822633,
+        "high": 0.218,
+        "lastTradedPrice": 0.2174,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0474,
+          "changeRate": 0.2788,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 3091.09,
+          "volValue": 672.388519
+        },
+        "marketChange24h": {
+          "changePrice": 0.0474,
+          "changeRate": 0.2788,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 3091.09,
+          "volValue": 672.388519
+        },
+        "marketChange4h": {
+          "changePrice": 0.0474,
+          "changeRate": 0.2788,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 3091.09,
+          "volValue": 672.388519
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2176,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 3091.09,
+        "volValue": 672.388519
+      },
+      "time_received": "11:00:22.6727"
+    },
+    {
+      "sequence": "1835",
+      "data": {
+        "askSize": 460.19,
+        "baseCurrency": "SYRUP",
+        "bidSize": 1006.27,
+        "board": 0,
+        "buy": 0.217,
+        "changePrice": 0.0474,
+        "changeRate": 0.2788,
+        "close": 0.2174,
+        "datetime": 1732618826631,
+        "high": 0.218,
+        "lastTradedPrice": 0.2174,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0474,
+          "changeRate": 0.2788,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 4603.17,
+          "volValue": 1001.345179
+        },
+        "marketChange24h": {
+          "changePrice": 0.0474,
+          "changeRate": 0.2788,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 4603.17,
+          "volValue": 1001.345179
+        },
+        "marketChange4h": {
+          "changePrice": 0.0474,
+          "changeRate": 0.2788,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 4603.17,
+          "volValue": 1001.345179
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2174,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 4603.17,
+        "volValue": 1001.345179
+      },
+      "time_received": "11:00:26.6642"
+    },
+    {
+      "sequence": "1861",
+      "data": {
+        "askSize": 460.19,
+        "baseCurrency": "SYRUP",
+        "bidSize": 22.84,
+        "board": 0,
+        "buy": 0.216,
+        "changePrice": 0.047,
+        "changeRate": 0.2764,
+        "close": 0.217,
+        "datetime": 1732618828548,
+        "high": 0.218,
+        "lastTradedPrice": 0.217,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.047,
+          "changeRate": 0.2764,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 5586.53,
+          "volValue": 1214.734299
+        },
+        "marketChange24h": {
+          "changePrice": 0.047,
+          "changeRate": 0.2764,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 5586.53,
+          "volValue": 1214.734299
+        },
+        "marketChange4h": {
+          "changePrice": 0.047,
+          "changeRate": 0.2764,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 5586.53,
+          "volValue": 1214.734299
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2174,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 5586.53,
+        "volValue": 1214.734299
+      },
+      "time_received": "11:00:28.5821"
+    },
+    {
+      "sequence": "1861",
+      "data": {
+        "askSize": 460.19,
+        "baseCurrency": "SYRUP",
+        "bidSize": 22.84,
+        "board": 0,
+        "buy": 0.216,
+        "changePrice": 0.047,
+        "changeRate": 0.2764,
+        "close": 0.217,
+        "datetime": 1732618830645,
+        "high": 0.218,
+        "lastTradedPrice": 0.217,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.047,
+          "changeRate": 0.2764,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 4603.17,
+          "volValue": 1001.345179
+        },
+        "marketChange24h": {
+          "changePrice": 0.047,
+          "changeRate": 0.2764,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 4603.17,
+          "volValue": 1001.345179
+        },
+        "marketChange4h": {
+          "changePrice": 0.047,
+          "changeRate": 0.2764,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 4603.17,
+          "volValue": 1001.345179
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2174,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 4603.17,
+        "volValue": 1001.345179
+      },
+      "time_received": "11:00:30.6736"
+    },
+    {
+      "sequence": "1908",
+      "data": {
+        "askSize": 460.19,
+        "baseCurrency": "SYRUP",
+        "bidSize": 22.84,
+        "board": 0,
+        "buy": 0.216,
+        "changePrice": 0.047,
+        "changeRate": 0.2764,
+        "close": 0.217,
+        "datetime": 1732618832576,
+        "high": 0.218,
+        "lastTradedPrice": 0.217,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.047,
+          "changeRate": 0.2764,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 5586.53,
+          "volValue": 1214.734299
+        },
+        "marketChange24h": {
+          "changePrice": 0.047,
+          "changeRate": 0.2764,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 5586.53,
+          "volValue": 1214.734299
+        },
+        "marketChange4h": {
+          "changePrice": 0.047,
+          "changeRate": 0.2764,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 5586.53,
+          "volValue": 1214.734299
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2174,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 5586.53,
+        "volValue": 1214.734299
+      },
+      "time_received": "11:00:32.6115"
+    },
+    {
+      "sequence": "1934",
+      "data": {
+        "askSize": 943.55,
+        "baseCurrency": "SYRUP",
+        "bidSize": 22.84,
+        "board": 0,
+        "buy": 0.216,
+        "changePrice": 0.0474,
+        "changeRate": 0.2788,
+        "close": 0.2174,
+        "datetime": 1732618834532,
+        "high": 0.218,
+        "lastTradedPrice": 0.2174,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0474,
+          "changeRate": 0.2788,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 5590.81,
+          "volValue": 1215.664771
+        },
+        "marketChange24h": {
+          "changePrice": 0.0474,
+          "changeRate": 0.2788,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 5590.81,
+          "volValue": 1215.664771
+        },
+        "marketChange4h": {
+          "changePrice": 0.0474,
+          "changeRate": 0.2788,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 5590.81,
+          "volValue": 1215.664771
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2174,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 5590.81,
+        "volValue": 1215.664771
+      },
+      "time_received": "11:00:34.5655"
+    },
+    {
+      "sequence": "1963",
+      "data": {
+        "askSize": 288.1,
+        "baseCurrency": "SYRUP",
+        "bidSize": 1499.54,
+        "board": 0,
+        "buy": 0.2159,
+        "changePrice": 0.048,
+        "changeRate": 0.2823,
+        "close": 0.218,
+        "datetime": 1732618836613,
+        "high": 0.218,
+        "lastTradedPrice": 0.218,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.048,
+          "changeRate": 0.2823,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 5590.81,
+          "volValue": 1215.664771
+        },
+        "marketChange24h": {
+          "changePrice": 0.048,
+          "changeRate": 0.2823,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 5590.81,
+          "volValue": 1215.664771
+        },
+        "marketChange4h": {
+          "changePrice": 0.048,
+          "changeRate": 0.2823,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 5590.81,
+          "volValue": 1215.664771
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.218,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 5590.81,
+        "volValue": 1215.664771
+      },
+      "time_received": "11:00:36.6415"
+    },
+    {
+      "sequence": "2003",
+      "data": {
+        "askSize": 288.1,
+        "baseCurrency": "SYRUP",
+        "bidSize": 992.63,
+        "board": 0,
+        "buy": 0.2159,
+        "changePrice": 0.048,
+        "changeRate": 0.2823,
+        "close": 0.218,
+        "datetime": 1732618838603,
+        "high": 0.218,
+        "lastTradedPrice": 0.218,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.048,
+          "changeRate": 0.2823,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 12156.45,
+          "volValue": 2644.103201
+        },
+        "marketChange24h": {
+          "changePrice": 0.048,
+          "changeRate": 0.2823,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 12156.45,
+          "volValue": 2644.103201
+        },
+        "marketChange4h": {
+          "changePrice": 0.048,
+          "changeRate": 0.2823,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 12156.45,
+          "volValue": 2644.103201
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.218,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 12156.45,
+        "volValue": 2644.103201
+      },
+      "time_received": "11:00:38.6364"
+    },
+    {
+      "sequence": "2038",
+      "data": {
+        "askSize": 1226.86,
+        "baseCurrency": "SYRUP",
+        "bidSize": 1500.02,
+        "board": 0,
+        "buy": 0.2159,
+        "changePrice": 0.0476,
+        "changeRate": 0.28,
+        "close": 0.2176,
+        "datetime": 1732618840610,
+        "high": 0.218,
+        "lastTradedPrice": 0.2176,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0476,
+          "changeRate": 0.28,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 12156.45,
+          "volValue": 2644.103201
+        },
+        "marketChange24h": {
+          "changePrice": 0.0476,
+          "changeRate": 0.28,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 12156.45,
+          "volValue": 2644.103201
+        },
+        "marketChange4h": {
+          "changePrice": 0.0476,
+          "changeRate": 0.28,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 12156.45,
+          "volValue": 2644.103201
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.218,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 12156.45,
+        "volValue": 2644.103201
+      },
+      "time_received": "11:00:40.6389"
+    },
+    {
+      "sequence": "2048",
+      "data": {
+        "askSize": 387.1,
+        "baseCurrency": "SYRUP",
+        "bidSize": 507.73,
+        "board": 0,
+        "buy": 0.216,
+        "changePrice": 0.0474,
+        "changeRate": 0.2788,
+        "close": 0.2174,
+        "datetime": 1732618842445,
+        "high": 0.218,
+        "lastTradedPrice": 0.2174,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0474,
+          "changeRate": 0.2788,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 5590.81,
+          "volValue": 1215.664771
+        },
+        "marketChange24h": {
+          "changePrice": 0.0474,
+          "changeRate": 0.2788,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 5590.81,
+          "volValue": 1215.664771
+        },
+        "marketChange4h": {
+          "changePrice": 0.0474,
+          "changeRate": 0.2788,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 5590.81,
+          "volValue": 1215.664771
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2174,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 5590.81,
+        "volValue": 1215.664771
+      },
+      "time_received": "11:00:42.4767"
+    },
+    {
+      "sequence": "2061",
+      "data": {
+        "askSize": 8418.62,
+        "baseCurrency": "SYRUP",
+        "bidSize": 992.63,
+        "board": 0,
+        "buy": 0.2159,
+        "changePrice": 0.046,
+        "changeRate": 0.2705,
+        "close": 0.216,
+        "datetime": 1732618844626,
+        "high": 0.218,
+        "lastTradedPrice": 0.216,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.046,
+          "changeRate": 0.2705,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 12156.45,
+          "volValue": 2644.103201
+        },
+        "marketChange24h": {
+          "changePrice": 0.046,
+          "changeRate": 0.2705,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 12156.45,
+          "volValue": 2644.103201
+        },
+        "marketChange4h": {
+          "changePrice": 0.046,
+          "changeRate": 0.2705,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 12156.45,
+          "volValue": 2644.103201
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.216,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 12156.45,
+        "volValue": 2644.103201
+      },
+      "time_received": "11:00:44.6560"
+    },
+    {
+      "sequence": "2094",
+      "data": {
+        "askSize": 7018.62,
+        "baseCurrency": "SYRUP",
+        "bidSize": 992.63,
+        "board": 0,
+        "buy": 0.2159,
+        "changePrice": 0.046,
+        "changeRate": 0.2705,
+        "close": 0.216,
+        "datetime": 1732618846622,
+        "high": 0.218,
+        "lastTradedPrice": 0.216,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.046,
+          "changeRate": 0.2705,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 14645.75,
+          "volValue": 3182.632349
+        },
+        "marketChange24h": {
+          "changePrice": 0.046,
+          "changeRate": 0.2705,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 14645.75,
+          "volValue": 3182.632349
+        },
+        "marketChange4h": {
+          "changePrice": 0.046,
+          "changeRate": 0.2705,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 14645.75,
+          "volValue": 3182.632349
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.216,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 14645.75,
+        "volValue": 3182.632349
+      },
+      "time_received": "11:00:46.6560"
+    },
+    {
+      "sequence": "2123",
+      "data": {
+        "askSize": 8382.26,
+        "baseCurrency": "SYRUP",
+        "bidSize": 1.45,
+        "board": 0,
+        "buy": 0.2149,
+        "changePrice": 0.0459,
+        "changeRate": 0.27,
+        "close": 0.2159,
+        "datetime": 1732618848469,
+        "high": 0.218,
+        "lastTradedPrice": 0.2159,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0459,
+          "changeRate": 0.27,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 12156.45,
+          "volValue": 2644.103201
+        },
+        "marketChange24h": {
+          "changePrice": 0.0459,
+          "changeRate": 0.27,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 12156.45,
+          "volValue": 2644.103201
+        },
+        "marketChange4h": {
+          "changePrice": 0.0459,
+          "changeRate": 0.27,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 12156.45,
+          "volValue": 2644.103201
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2159,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 12156.45,
+        "volValue": 2644.103201
+      },
+      "time_received": "11:00:48.4972"
+    },
+    {
+      "sequence": "2123",
+      "data": {
+        "askSize": 8382.26,
+        "baseCurrency": "SYRUP",
+        "bidSize": 1.45,
+        "board": 0,
+        "buy": 0.2149,
+        "changePrice": 0.0459,
+        "changeRate": 0.27,
+        "close": 0.2159,
+        "datetime": 1732618850605,
+        "high": 0.218,
+        "lastTradedPrice": 0.2159,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0459,
+          "changeRate": 0.27,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 15642.63,
+          "volValue": 3397.858741
+        },
+        "marketChange24h": {
+          "changePrice": 0.0459,
+          "changeRate": 0.27,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 15642.63,
+          "volValue": 3397.858741
+        },
+        "marketChange4h": {
+          "changePrice": 0.0459,
+          "changeRate": 0.27,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 15642.63,
+          "volValue": 3397.858741
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2159,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 15642.63,
+        "volValue": 3397.858741
+      },
+      "time_received": "11:00:50.6392"
+    },
+    {
+      "sequence": "2123",
+      "data": {
+        "askSize": 8382.26,
+        "baseCurrency": "SYRUP",
+        "bidSize": 1.45,
+        "board": 0,
+        "buy": 0.2149,
+        "changePrice": 0.0459,
+        "changeRate": 0.27,
+        "close": 0.2159,
+        "datetime": 1732618852646,
+        "high": 0.218,
+        "lastTradedPrice": 0.2159,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0459,
+          "changeRate": 0.27,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 14645.75,
+          "volValue": 3182.632349
+        },
+        "marketChange24h": {
+          "changePrice": 0.0459,
+          "changeRate": 0.27,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 14645.75,
+          "volValue": 3182.632349
+        },
+        "marketChange4h": {
+          "changePrice": 0.0459,
+          "changeRate": 0.27,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 14645.75,
+          "volValue": 3182.632349
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2159,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 14645.75,
+        "volValue": 3182.632349
+      },
+      "time_received": "11:00:52.6759"
+    },
+    {
+      "sequence": "2184",
+      "data": {
+        "askSize": 8882.22,
+        "baseCurrency": "SYRUP",
+        "bidSize": 1.45,
+        "board": 0,
+        "buy": 0.2149,
+        "changePrice": 0.0459,
+        "changeRate": 0.27,
+        "close": 0.2159,
+        "datetime": 1732618856676,
+        "high": 0.218,
+        "lastTradedPrice": 0.2159,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0459,
+          "changeRate": 0.27,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 15642.63,
+          "volValue": 3397.858741
+        },
+        "marketChange24h": {
+          "changePrice": 0.0459,
+          "changeRate": 0.27,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 15642.63,
+          "volValue": 3397.858741
+        },
+        "marketChange4h": {
+          "changePrice": 0.0459,
+          "changeRate": 0.27,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 15642.63,
+          "volValue": 3397.858741
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2159,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 15642.63,
+        "volValue": 3397.858741
+      },
+      "time_received": "11:00:56.7087"
+    },
+    {
+      "sequence": "2192",
+      "data": {
+        "askSize": 8859.07,
+        "baseCurrency": "SYRUP",
+        "bidSize": 1.45,
+        "board": 0,
+        "buy": 0.2149,
+        "changePrice": 0.0459,
+        "changeRate": 0.27,
+        "close": 0.2159,
+        "datetime": 1732618858561,
+        "high": 0.218,
+        "lastTradedPrice": 0.2159,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0459,
+          "changeRate": 0.27,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 15673.43,
+          "volValue": 3404.508461
+        },
+        "marketChange24h": {
+          "changePrice": 0.0459,
+          "changeRate": 0.27,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 15673.43,
+          "volValue": 3404.508461
+        },
+        "marketChange4h": {
+          "changePrice": 0.0459,
+          "changeRate": 0.27,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 15673.43,
+          "volValue": 3404.508461
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2159,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 15673.43,
+        "volValue": 3404.508461
+      },
+      "time_received": "11:00:58.5955"
+    },
+    {
+      "sequence": "2219",
+      "data": {
+        "askSize": 8859.07,
+        "baseCurrency": "SYRUP",
+        "bidSize": 956.82,
+        "board": 0,
+        "buy": 0.2158,
+        "changePrice": 0.0459,
+        "changeRate": 0.27,
+        "close": 0.2159,
+        "datetime": 1732618860670,
+        "high": 0.218,
+        "lastTradedPrice": 0.2159,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0459,
+          "changeRate": 0.27,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 15673.43,
+          "volValue": 3404.508461
+        },
+        "marketChange24h": {
+          "changePrice": 0.0459,
+          "changeRate": 0.27,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 15673.43,
+          "volValue": 3404.508461
+        },
+        "marketChange4h": {
+          "changePrice": 0.0459,
+          "changeRate": 0.27,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 15673.43,
+          "volValue": 3404.508461
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2159,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 15673.43,
+        "volValue": 3404.508461
+      },
+      "time_received": "11:01:00.7035"
+    },
+    {
+      "sequence": "2238",
+      "data": {
+        "askSize": 5679.34,
+        "baseCurrency": "SYRUP",
+        "bidSize": 1101.23,
+        "board": 0,
+        "buy": 0.2148,
+        "changePrice": 0.0456,
+        "changeRate": 0.2682,
+        "close": 0.2156,
+        "datetime": 1732618862618,
+        "high": 0.218,
+        "lastTradedPrice": 0.2156,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0456,
+          "changeRate": 0.2682,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 15673.43,
+          "volValue": 3404.508461
+        },
+        "marketChange24h": {
+          "changePrice": 0.0456,
+          "changeRate": 0.2682,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 15673.43,
+          "volValue": 3404.508461
+        },
+        "marketChange4h": {
+          "changePrice": 0.0456,
+          "changeRate": 0.2682,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 15673.43,
+          "volValue": 3404.508461
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2156,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 15673.43,
+        "volValue": 3404.508461
+      },
+      "time_received": "11:01:02.6462"
+    },
+    {
+      "sequence": "2302",
+      "data": {
+        "askSize": 5273.71,
+        "baseCurrency": "SYRUP",
+        "bidSize": 1101.23,
+        "board": 0,
+        "buy": 0.2148,
+        "changePrice": 0.0456,
+        "changeRate": 0.2682,
+        "close": 0.2156,
+        "datetime": 1732618870608,
+        "high": 0.218,
+        "lastTradedPrice": 0.2156,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0456,
+          "changeRate": 0.2682,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 18825.56,
+          "volValue": 4083.762539
+        },
+        "marketChange24h": {
+          "changePrice": 0.0456,
+          "changeRate": 0.2682,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 18825.56,
+          "volValue": 4083.762539
+        },
+        "marketChange4h": {
+          "changePrice": 0.0456,
+          "changeRate": 0.2682,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 18825.56,
+          "volValue": 4083.762539
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2156,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 18825.56,
+        "volValue": 4083.762539
+      },
+      "time_received": "11:01:10.6401"
+    },
+    {
+      "sequence": "2381",
+      "data": {
+        "askSize": 3116.78,
+        "baseCurrency": "SYRUP",
+        "bidSize": 4.85,
+        "board": 0,
+        "buy": 0.2144,
+        "changePrice": 0.045,
+        "changeRate": 0.2647,
+        "close": 0.215,
+        "datetime": 1732618872707,
+        "high": 0.218,
+        "lastTradedPrice": 0.215,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 21320.87,
+          "volValue": 4620.254189
+        },
+        "marketChange24h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 21320.87,
+          "volValue": 4620.254189
+        },
+        "marketChange4h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 21320.87,
+          "volValue": 4620.254189
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.215,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 21320.87,
+        "volValue": 4620.254189
+      },
+      "time_received": "11:01:12.7392"
+    },
+    {
+      "sequence": "2418",
+      "data": {
+        "askSize": 2985.77,
+        "baseCurrency": "SYRUP",
+        "bidSize": 4.73,
+        "board": 0,
+        "buy": 0.2143,
+        "changePrice": 0.045,
+        "changeRate": 0.2647,
+        "close": 0.215,
+        "datetime": 1732618874584,
+        "high": 0.218,
+        "lastTradedPrice": 0.215,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 21320.87,
+          "volValue": 4620.254189
+        },
+        "marketChange24h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 21320.87,
+          "volValue": 4620.254189
+        },
+        "marketChange4h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 21320.87,
+          "volValue": 4620.254189
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.215,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 21320.87,
+        "volValue": 4620.254189
+      },
+      "time_received": "11:01:14.6132"
+    },
+    {
+      "sequence": "2439",
+      "data": {
+        "askSize": 2704.57,
+        "baseCurrency": "SYRUP",
+        "bidSize": 4.73,
+        "board": 0,
+        "buy": 0.2143,
+        "changePrice": 0.045,
+        "changeRate": 0.2647,
+        "close": 0.215,
+        "datetime": 1732618876619,
+        "high": 0.218,
+        "lastTradedPrice": 0.215,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 18825.56,
+          "volValue": 4083.762539
+        },
+        "marketChange24h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 18825.56,
+          "volValue": 4083.762539
+        },
+        "marketChange4h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 18825.56,
+          "volValue": 4083.762539
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.215,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 18825.56,
+        "volValue": 4083.762539
+      },
+      "time_received": "11:01:16.6456"
+    },
+    {
+      "sequence": "2473",
+      "data": {
+        "askSize": 44.06,
+        "baseCurrency": "SYRUP",
+        "bidSize": 23105.01,
+        "board": 0,
+        "buy": 0.2142,
+        "changePrice": 0.0444,
+        "changeRate": 0.2611,
+        "close": 0.2144,
+        "datetime": 1732618878531,
+        "high": 0.218,
+        "lastTradedPrice": 0.2144,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0444,
+          "changeRate": 0.2611,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 21320.87,
+          "volValue": 4620.254189
+        },
+        "marketChange24h": {
+          "changePrice": 0.0444,
+          "changeRate": 0.2611,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 21320.87,
+          "volValue": 4620.254189
+        },
+        "marketChange4h": {
+          "changePrice": 0.0444,
+          "changeRate": 0.2611,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 21320.87,
+          "volValue": 4620.254189
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2144,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 21320.87,
+        "volValue": 4620.254189
+      },
+      "time_received": "11:01:18.5598"
+    },
+    {
+      "sequence": "2490",
+      "data": {
+        "askSize": 44.06,
+        "baseCurrency": "SYRUP",
+        "bidSize": 23105.13,
+        "board": 0,
+        "buy": 0.2142,
+        "changePrice": 0.0444,
+        "changeRate": 0.2611,
+        "close": 0.2144,
+        "datetime": 1732618880543,
+        "high": 0.218,
+        "lastTradedPrice": 0.2144,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0444,
+          "changeRate": 0.2611,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 18825.56,
+          "volValue": 4083.762539
+        },
+        "marketChange24h": {
+          "changePrice": 0.0444,
+          "changeRate": 0.2611,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 18825.56,
+          "volValue": 4083.762539
+        },
+        "marketChange4h": {
+          "changePrice": 0.0444,
+          "changeRate": 0.2611,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 18825.56,
+          "volValue": 4083.762539
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2144,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 18825.56,
+        "volValue": 4083.762539
+      },
+      "time_received": "11:01:20.5708"
+    },
+    {
+      "sequence": "2526",
+      "data": {
+        "askSize": 285.04,
+        "baseCurrency": "SYRUP",
+        "bidSize": 23105.13,
+        "board": 0,
+        "buy": 0.2142,
+        "changePrice": 0.0444,
+        "changeRate": 0.2611,
+        "close": 0.2144,
+        "datetime": 1732618882611,
+        "high": 0.218,
+        "lastTradedPrice": 0.2144,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0444,
+          "changeRate": 0.2611,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 21320.87,
+          "volValue": 4620.254189
+        },
+        "marketChange24h": {
+          "changePrice": 0.0444,
+          "changeRate": 0.2611,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 21320.87,
+          "volValue": 4620.254189
+        },
+        "marketChange4h": {
+          "changePrice": 0.0444,
+          "changeRate": 0.2611,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 21320.87,
+          "volValue": 4620.254189
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2144,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 21320.87,
+        "volValue": 4620.254189
+      },
+      "time_received": "11:01:22.6390"
+    },
+    {
+      "sequence": "2566",
+      "data": {
+        "askSize": 2149.53,
+        "baseCurrency": "SYRUP",
+        "bidSize": 968.84,
+        "board": 0,
+        "buy": 0.2149,
+        "changePrice": 0.045,
+        "changeRate": 0.2647,
+        "close": 0.215,
+        "datetime": 1732618884653,
+        "high": 0.218,
+        "lastTradedPrice": 0.215,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 28623.54,
+          "volValue": 6185.796484
+        },
+        "marketChange24h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 28623.54,
+          "volValue": 6185.796484
+        },
+        "marketChange4h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 28623.54,
+          "volValue": 6185.796484
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.215,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 28623.54,
+        "volValue": 6185.796484
+      },
+      "time_received": "11:01:24.6861"
+    },
+    {
+      "sequence": "2585",
+      "data": {
+        "askSize": 1692.38,
+        "baseCurrency": "SYRUP",
+        "bidSize": 968.84,
+        "board": 0,
+        "buy": 0.2149,
+        "changePrice": 0.045,
+        "changeRate": 0.2647,
+        "close": 0.215,
+        "datetime": 1732618886567,
+        "high": 0.218,
+        "lastTradedPrice": 0.215,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 29080.69,
+          "volValue": 6284.083734
+        },
+        "marketChange24h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 29080.69,
+          "volValue": 6284.083734
+        },
+        "marketChange4h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 29080.69,
+          "volValue": 6284.083734
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.215,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 29080.69,
+        "volValue": 6284.083734
+      },
+      "time_received": "11:01:26.6035"
+    },
+    {
+      "sequence": "2585",
+      "data": {
+        "askSize": 1692.38,
+        "baseCurrency": "SYRUP",
+        "bidSize": 968.84,
+        "board": 0,
+        "buy": 0.2149,
+        "changePrice": 0.045,
+        "changeRate": 0.2647,
+        "close": 0.215,
+        "datetime": 1732618894570,
+        "high": 0.218,
+        "lastTradedPrice": 0.215,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 28623.54,
+          "volValue": 6185.796484
+        },
+        "marketChange24h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 28623.54,
+          "volValue": 6185.796484
+        },
+        "marketChange4h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 28623.54,
+          "volValue": 6185.796484
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.215,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 28623.54,
+        "volValue": 6185.796484
+      },
+      "time_received": "11:01:34.5984"
+    },
+    {
+      "sequence": "2679",
+      "data": {
+        "askSize": 1607.81,
+        "baseCurrency": "SYRUP",
+        "bidSize": 968.84,
+        "board": 0,
+        "buy": 0.2149,
+        "changePrice": 0.045,
+        "changeRate": 0.2647,
+        "close": 0.215,
+        "datetime": 1732618896661,
+        "high": 0.218,
+        "lastTradedPrice": 0.215,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 29165.26,
+          "volValue": 6302.266284
+        },
+        "marketChange24h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 29165.26,
+          "volValue": 6302.266284
+        },
+        "marketChange4h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 29165.26,
+          "volValue": 6302.266284
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.215,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 29165.26,
+        "volValue": 6302.266284
+      },
+      "time_received": "11:01:36.6955"
+    },
+    {
+      "sequence": "2913",
+      "data": {
+        "askSize": 12014.71,
+        "baseCurrency": "SYRUP",
+        "bidSize": 22552.13,
+        "board": 0,
+        "buy": 0.2142,
+        "changePrice": 0.0449,
+        "changeRate": 0.2641,
+        "close": 0.2149,
+        "datetime": 1732618916699,
+        "high": 0.218,
+        "lastTradedPrice": 0.2149,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 31421.51,
+          "volValue": 6787.235136
+        },
+        "marketChange24h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 31421.51,
+          "volValue": 6787.235136
+        },
+        "marketChange4h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 31421.51,
+          "volValue": 6787.235136
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2149,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 31421.51,
+        "volValue": 6787.235136
+      },
+      "time_received": "11:01:56.7338"
+    },
+    {
+      "sequence": "2951",
+      "data": {
+        "askSize": 3590.91,
+        "baseCurrency": "SYRUP",
+        "bidSize": 22552.13,
+        "board": 0,
+        "buy": 0.2142,
+        "changePrice": 0.0449,
+        "changeRate": 0.2641,
+        "close": 0.2149,
+        "datetime": 1732618920677,
+        "high": 0.218,
+        "lastTradedPrice": 0.2149,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 31493.85,
+          "volValue": 6802.781002
+        },
+        "marketChange24h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 31493.85,
+          "volValue": 6802.781002
+        },
+        "marketChange4h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 31493.85,
+          "volValue": 6802.781002
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2149,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 31493.85,
+        "volValue": 6802.781002
+      },
+      "time_received": "11:02:00.7110"
+    },
+    {
+      "sequence": "2971",
+      "data": {
+        "askSize": 3590.91,
+        "baseCurrency": "SYRUP",
+        "bidSize": 86.84,
+        "board": 0,
+        "buy": 0.2142,
+        "changePrice": 0.0449,
+        "changeRate": 0.2641,
+        "close": 0.2149,
+        "datetime": 1732618922481,
+        "high": 0.218,
+        "lastTradedPrice": 0.2149,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 31421.51,
+          "volValue": 6787.235136
+        },
+        "marketChange24h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 31421.51,
+          "volValue": 6787.235136
+        },
+        "marketChange4h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 31421.51,
+          "volValue": 6787.235136
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2149,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 31421.51,
+        "volValue": 6787.235136
+      },
+      "time_received": "11:02:02.5112"
+    },
+    {
+      "sequence": "2977",
+      "data": {
+        "askSize": 3590.91,
+        "baseCurrency": "SYRUP",
+        "bidSize": 22317.13,
+        "board": 0,
+        "buy": 0.2142,
+        "changePrice": 0.0442,
+        "changeRate": 0.26,
+        "close": 0.2142,
+        "datetime": 1732618924639,
+        "high": 0.218,
+        "lastTradedPrice": 0.2142,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0442,
+          "changeRate": 0.26,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 39845.31,
+          "volValue": 8591.663734
+        },
+        "marketChange24h": {
+          "changePrice": 0.0442,
+          "changeRate": 0.26,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 39845.31,
+          "volValue": 8591.663734
+        },
+        "marketChange4h": {
+          "changePrice": 0.0442,
+          "changeRate": 0.26,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 39845.31,
+          "volValue": 8591.663734
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2149,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 39845.31,
+        "volValue": 8591.663734
+      },
+      "time_received": "11:02:04.6724"
+    },
+    {
+      "sequence": "2985",
+      "data": {
+        "askSize": 3590.91,
+        "baseCurrency": "SYRUP",
+        "bidSize": 17725.51,
+        "board": 0,
+        "buy": 0.2142,
+        "changePrice": 0.0442,
+        "changeRate": 0.26,
+        "close": 0.2142,
+        "datetime": 1732618926505,
+        "high": 0.218,
+        "lastTradedPrice": 0.2142,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0442,
+          "changeRate": 0.26,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 31421.51,
+          "volValue": 6787.235136
+        },
+        "marketChange24h": {
+          "changePrice": 0.0442,
+          "changeRate": 0.26,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 31421.51,
+          "volValue": 6787.235136
+        },
+        "marketChange4h": {
+          "changePrice": 0.0442,
+          "changeRate": 0.26,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 31421.51,
+          "volValue": 6787.235136
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2149,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 31421.51,
+        "volValue": 6787.235136
+      },
+      "time_received": "11:02:06.5349"
+    },
+    {
+      "sequence": "2985",
+      "data": {
+        "askSize": 3590.91,
+        "baseCurrency": "SYRUP",
+        "bidSize": 17725.51,
+        "board": 0,
+        "buy": 0.2142,
+        "changePrice": 0.0442,
+        "changeRate": 0.26,
+        "close": 0.2142,
+        "datetime": 1732618928603,
+        "high": 0.218,
+        "lastTradedPrice": 0.2142,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0442,
+          "changeRate": 0.26,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 44436.93,
+          "volValue": 9575.188738
+        },
+        "marketChange24h": {
+          "changePrice": 0.0442,
+          "changeRate": 0.26,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 44436.93,
+          "volValue": 9575.188738
+        },
+        "marketChange4h": {
+          "changePrice": 0.0442,
+          "changeRate": 0.26,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 44436.93,
+          "volValue": 9575.188738
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2149,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 44436.93,
+        "volValue": 9575.188738
+      },
+      "time_received": "11:02:08.6371"
+    },
+    {
+      "sequence": "2993",
+      "data": {
+        "askSize": 3478.6,
+        "baseCurrency": "SYRUP",
+        "bidSize": 17725.51,
+        "board": 0,
+        "buy": 0.2142,
+        "changePrice": 0.0449,
+        "changeRate": 0.2641,
+        "close": 0.2149,
+        "datetime": 1732618930613,
+        "high": 0.218,
+        "lastTradedPrice": 0.2149,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 39845.31,
+          "volValue": 8591.663734
+        },
+        "marketChange24h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 39845.31,
+          "volValue": 8591.663734
+        },
+        "marketChange4h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 39845.31,
+          "volValue": 8591.663734
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2149,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 39845.31,
+        "volValue": 8591.663734
+      },
+      "time_received": "11:02:10.6435"
+    },
+    {
+      "sequence": "3000",
+      "data": {
+        "askSize": 3478.6,
+        "baseCurrency": "SYRUP",
+        "bidSize": 17694.37,
+        "board": 0,
+        "buy": 0.2142,
+        "changePrice": 0.0442,
+        "changeRate": 0.26,
+        "close": 0.2142,
+        "datetime": 1732618932556,
+        "high": 0.218,
+        "lastTradedPrice": 0.2142,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0442,
+          "changeRate": 0.26,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 39845.31,
+          "volValue": 8591.663734
+        },
+        "marketChange24h": {
+          "changePrice": 0.0442,
+          "changeRate": 0.26,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 39845.31,
+          "volValue": 8591.663734
+        },
+        "marketChange4h": {
+          "changePrice": 0.0442,
+          "changeRate": 0.26,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 39845.31,
+          "volValue": 8591.663734
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2149,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 39845.31,
+        "volValue": 8591.663734
+      },
+      "time_received": "11:02:12.5852"
+    },
+    {
+      "sequence": "3016",
+      "data": {
+        "askSize": 3111.3,
+        "baseCurrency": "SYRUP",
+        "bidSize": 17694.37,
+        "board": 0,
+        "buy": 0.2142,
+        "changePrice": 0.0449,
+        "changeRate": 0.2641,
+        "close": 0.2149,
+        "datetime": 1732618934618,
+        "high": 0.218,
+        "lastTradedPrice": 0.2149,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 44436.93,
+          "volValue": 9575.188738
+        },
+        "marketChange24h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 44436.93,
+          "volValue": 9575.188738
+        },
+        "marketChange4h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 44436.93,
+          "volValue": 9575.188738
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2149,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 44436.93,
+        "volValue": 9575.188738
+      },
+      "time_received": "11:02:14.6472"
+    },
+    {
+      "sequence": "3016",
+      "data": {
+        "askSize": 3111.3,
+        "baseCurrency": "SYRUP",
+        "bidSize": 17694.37,
+        "board": 0,
+        "buy": 0.2142,
+        "changePrice": 0.0449,
+        "changeRate": 0.2641,
+        "close": 0.2149,
+        "datetime": 1732618936545,
+        "high": 0.218,
+        "lastTradedPrice": 0.2149,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 44947.68,
+          "volValue": 9684.927115
+        },
+        "marketChange24h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 44947.68,
+          "volValue": 9684.927115
+        },
+        "marketChange4h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 44947.68,
+          "volValue": 9684.927115
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2149,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 44947.68,
+        "volValue": 9684.927115
+      },
+      "time_received": "11:02:16.5792"
+    },
+    {
+      "sequence": "3165",
+      "data": {
+        "askSize": 2925.16,
+        "baseCurrency": "SYRUP",
+        "bidSize": 17694.37,
+        "board": 0,
+        "buy": 0.2142,
+        "changePrice": 0.0449,
+        "changeRate": 0.2641,
+        "close": 0.2149,
+        "datetime": 1732618966583,
+        "high": 0.218,
+        "lastTradedPrice": 0.2149,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 45133.82,
+          "volValue": 9724.928601
+        },
+        "marketChange24h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 45133.82,
+          "volValue": 9724.928601
+        },
+        "marketChange4h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 45133.82,
+          "volValue": 9724.928601
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2149,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 45133.82,
+        "volValue": 9724.928601
+      },
+      "time_received": "11:02:46.6406"
+    },
+    {
+      "sequence": "3253",
+      "data": {
+        "askSize": 2925.16,
+        "baseCurrency": "SYRUP",
+        "bidSize": 959.46,
+        "board": 0,
+        "buy": 0.2146,
+        "changePrice": 0.0449,
+        "changeRate": 0.2641,
+        "close": 0.2149,
+        "datetime": 1732618980652,
+        "high": 0.218,
+        "lastTradedPrice": 0.2149,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 45133.82,
+          "volValue": 9724.928601
+        },
+        "marketChange24h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 45133.82,
+          "volValue": 9724.928601
+        },
+        "marketChange4h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 45133.82,
+          "volValue": 9724.928601
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2149,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 45133.82,
+        "volValue": 9724.928601
+      },
+      "time_received": "11:03:00.6864"
+    },
+    {
+      "sequence": "3320",
+      "data": {
+        "askSize": 2829.69,
+        "baseCurrency": "SYRUP",
+        "bidSize": 104.55,
+        "board": 0,
+        "buy": 0.2137,
+        "changePrice": 0.0449,
+        "changeRate": 0.2641,
+        "close": 0.2149,
+        "datetime": 1732618986644,
+        "high": 0.218,
+        "lastTradedPrice": 0.2149,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 45229.29,
+          "volValue": 9745.445104
+        },
+        "marketChange24h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 45229.29,
+          "volValue": 9745.445104
+        },
+        "marketChange4h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 45229.29,
+          "volValue": 9745.445104
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2149,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 45229.29,
+        "volValue": 9745.445104
+      },
+      "time_received": "11:03:06.6784"
+    },
+    {
+      "sequence": "3329",
+      "data": {
+        "askSize": 2829.69,
+        "baseCurrency": "SYRUP",
+        "bidSize": 959.46,
+        "board": 0,
+        "buy": 0.2147,
+        "changePrice": 0.0449,
+        "changeRate": 0.2641,
+        "close": 0.2149,
+        "datetime": 1732618988552,
+        "high": 0.218,
+        "lastTradedPrice": 0.2149,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 45229.29,
+          "volValue": 9745.445104
+        },
+        "marketChange24h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 45229.29,
+          "volValue": 9745.445104
+        },
+        "marketChange4h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 45229.29,
+          "volValue": 9745.445104
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2149,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 45229.29,
+        "volValue": 9745.445104
+      },
+      "time_received": "11:03:08.5811"
+    },
+    {
+      "sequence": "3347",
+      "data": {
+        "askSize": 2332.47,
+        "baseCurrency": "SYRUP",
+        "bidSize": 959.46,
+        "board": 0,
+        "buy": 0.2147,
+        "changePrice": 0.0449,
+        "changeRate": 0.2641,
+        "close": 0.2149,
+        "datetime": 1732618994627,
+        "high": 0.218,
+        "lastTradedPrice": 0.2149,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 45726.51,
+          "volValue": 9852.297682
+        },
+        "marketChange24h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 45726.51,
+          "volValue": 9852.297682
+        },
+        "marketChange4h": {
+          "changePrice": 0.0449,
+          "changeRate": 0.2641,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 45726.51,
+          "volValue": 9852.297682
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2149,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 45726.51,
+        "volValue": 9852.297682
+      },
+      "time_received": "11:03:14.6620"
+    },
+    {
+      "sequence": "3448",
+      "data": {
+        "askSize": 1093.87,
+        "baseCurrency": "SYRUP",
+        "bidSize": 988.24,
+        "board": 0,
+        "buy": 0.2145,
+        "changePrice": 0.0447,
+        "changeRate": 0.2629,
+        "close": 0.2147,
+        "datetime": 1732619002486,
+        "high": 0.218,
+        "lastTradedPrice": 0.2147,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0447,
+          "changeRate": 0.2629,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 46685.97,
+          "volValue": 10058.293744
+        },
+        "marketChange24h": {
+          "changePrice": 0.0447,
+          "changeRate": 0.2629,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 46685.97,
+          "volValue": 10058.293744
+        },
+        "marketChange4h": {
+          "changePrice": 0.0447,
+          "changeRate": 0.2629,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 46685.97,
+          "volValue": 10058.293744
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2147,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 46685.97,
+        "volValue": 10058.293744
+      },
+      "time_received": "11:03:22.5200"
+    },
+    {
+      "sequence": "3502",
+      "data": {
+        "askSize": 1092.87,
+        "baseCurrency": "SYRUP",
+        "bidSize": 23539.01,
+        "board": 0,
+        "buy": 0.2142,
+        "changePrice": 0.0443,
+        "changeRate": 0.2605,
+        "close": 0.2143,
+        "datetime": 1732619008619,
+        "high": 0.218,
+        "lastTradedPrice": 0.2143,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0443,
+          "changeRate": 0.2605,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 53192.27,
+          "volValue": 11452.791482
+        },
+        "marketChange24h": {
+          "changePrice": 0.0443,
+          "changeRate": 0.2605,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 53192.27,
+          "volValue": 11452.791482
+        },
+        "marketChange4h": {
+          "changePrice": 0.0443,
+          "changeRate": 0.2605,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 53192.27,
+          "volValue": 11452.791482
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2147,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 53192.27,
+        "volValue": 11452.791482
+      },
+      "time_received": "11:03:28.6517"
+    },
+    {
+      "sequence": "3527",
+      "data": {
+        "askSize": 309.93,
+        "baseCurrency": "SYRUP",
+        "bidSize": 22549.69,
+        "board": 0,
+        "buy": 0.2142,
+        "changePrice": 0.0445,
+        "changeRate": 0.2617,
+        "close": 0.2145,
+        "datetime": 1732619010562,
+        "high": 0.218,
+        "lastTradedPrice": 0.2145,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0445,
+          "changeRate": 0.2617,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 53192.27,
+          "volValue": 11452.791482
+        },
+        "marketChange24h": {
+          "changePrice": 0.0445,
+          "changeRate": 0.2617,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 53192.27,
+          "volValue": 11452.791482
+        },
+        "marketChange4h": {
+          "changePrice": 0.0445,
+          "changeRate": 0.2617,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 53192.27,
+          "volValue": 11452.791482
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2145,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 53192.27,
+        "volValue": 11452.791482
+      },
+      "time_received": "11:03:30.5916"
+    },
+    {
+      "sequence": "3550",
+      "data": {
+        "askSize": 309.93,
+        "baseCurrency": "SYRUP",
+        "bidSize": 22829.16,
+        "board": 0,
+        "buy": 0.2142,
+        "changePrice": 0.0442,
+        "changeRate": 0.26,
+        "close": 0.2142,
+        "datetime": 1732619012658,
+        "high": 0.218,
+        "lastTradedPrice": 0.2142,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0442,
+          "changeRate": 0.26,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 46685.97,
+          "volValue": 10058.293744
+        },
+        "marketChange24h": {
+          "changePrice": 0.0442,
+          "changeRate": 0.26,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 46685.97,
+          "volValue": 10058.293744
+        },
+        "marketChange4h": {
+          "changePrice": 0.0442,
+          "changeRate": 0.26,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 46685.97,
+          "volValue": 10058.293744
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2145,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 46685.97,
+        "volValue": 10058.293744
+      },
+      "time_received": "11:03:32.6849"
+    },
+    {
+      "sequence": "3574",
+      "data": {
+        "askSize": 309.93,
+        "baseCurrency": "SYRUP",
+        "bidSize": 22228.62,
+        "board": 0,
+        "buy": 0.2142,
+        "changePrice": 0.0442,
+        "changeRate": 0.26,
+        "close": 0.2142,
+        "datetime": 1732619016580,
+        "high": 0.218,
+        "lastTradedPrice": 0.2142,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0442,
+          "changeRate": 0.26,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 53192.27,
+          "volValue": 11452.791482
+        },
+        "marketChange24h": {
+          "changePrice": 0.0442,
+          "changeRate": 0.26,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 53192.27,
+          "volValue": 11452.791482
+        },
+        "marketChange4h": {
+          "changePrice": 0.0442,
+          "changeRate": 0.26,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 53192.27,
+          "volValue": 11452.791482
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2145,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 53192.27,
+        "volValue": 11452.791482
+      },
+      "time_received": "11:03:36.6087"
+    },
+    {
+      "sequence": "3579",
+      "data": {
+        "askSize": 309.93,
+        "baseCurrency": "SYRUP",
+        "bidSize": 21999.27,
+        "board": 0,
+        "buy": 0.2142,
+        "changePrice": 0.0442,
+        "changeRate": 0.26,
+        "close": 0.2142,
+        "datetime": 1732619018659,
+        "high": 0.218,
+        "lastTradedPrice": 0.2142,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0442,
+          "changeRate": 0.26,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 63580.23,
+          "volValue": 13677.909725
+        },
+        "marketChange24h": {
+          "changePrice": 0.0442,
+          "changeRate": 0.26,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 63580.23,
+          "volValue": 13677.909725
+        },
+        "marketChange4h": {
+          "changePrice": 0.0442,
+          "changeRate": 0.26,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 63580.23,
+          "volValue": 13677.909725
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.2145,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 63580.23,
+        "volValue": 13677.909725
+      },
+      "time_received": "11:03:38.6920"
+    },
+    {
+      "sequence": "3599",
+      "data": {
+        "askSize": 1150.87,
+        "baseCurrency": "SYRUP",
+        "bidSize": 610.04,
+        "board": 0,
+        "buy": 0.2149,
+        "changePrice": 0.0448,
+        "changeRate": 0.2635,
+        "close": 0.2148,
+        "datetime": 1732619022636,
+        "high": 0.218,
+        "lastTradedPrice": 0.2148,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.0448,
+          "changeRate": 0.2635,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71828.81,
+          "volValue": 15445.562859
+        },
+        "marketChange24h": {
+          "changePrice": 0.0448,
+          "changeRate": 0.2635,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71828.81,
+          "volValue": 15445.562859
+        },
+        "marketChange4h": {
+          "changePrice": 0.0448,
+          "changeRate": 0.2635,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71828.81,
+          "volValue": 15445.562859
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.215,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 71828.81,
+        "volValue": 15445.562859
+      },
+      "time_received": "11:03:42.6703"
+    },
+    {
+      "sequence": "3706",
+      "data": {
+        "askSize": 1376.13,
+        "baseCurrency": "SYRUP",
+        "bidSize": 610.04,
+        "board": 0,
+        "buy": 0.2149,
+        "changePrice": 0.045,
+        "changeRate": 0.2647,
+        "close": 0.215,
+        "datetime": 1732619030630,
+        "high": 0.218,
+        "lastTradedPrice": 0.215,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71852.06,
+          "volValue": 15450.561609
+        },
+        "marketChange24h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71852.06,
+          "volValue": 15450.561609
+        },
+        "marketChange4h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71852.06,
+          "volValue": 15450.561609
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.215,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 71852.06,
+        "volValue": 15450.561609
+      },
+      "time_received": "11:03:50.6623"
+    },
+    {
+      "sequence": "3720",
+      "data": {
+        "askSize": 1308.64,
+        "baseCurrency": "SYRUP",
+        "bidSize": 610.04,
+        "board": 0,
+        "buy": 0.2149,
+        "changePrice": 0.045,
+        "changeRate": 0.2647,
+        "close": 0.215,
+        "datetime": 1732619032604,
+        "high": 0.218,
+        "lastTradedPrice": 0.215,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71828.81,
+          "volValue": 15445.562859
+        },
+        "marketChange24h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71828.81,
+          "volValue": 15445.562859
+        },
+        "marketChange4h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71828.81,
+          "volValue": 15445.562859
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.215,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 71828.81,
+        "volValue": 15445.562859
+      },
+      "time_received": "11:03:52.6337"
+    },
+    {
+      "sequence": "3720",
+      "data": {
+        "askSize": 1308.64,
+        "baseCurrency": "SYRUP",
+        "bidSize": 610.04,
+        "board": 0,
+        "buy": 0.2149,
+        "changePrice": 0.045,
+        "changeRate": 0.2647,
+        "close": 0.215,
+        "datetime": 1732619034589,
+        "high": 0.218,
+        "lastTradedPrice": 0.215,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71919.55,
+          "volValue": 15465.071959
+        },
+        "marketChange24h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71919.55,
+          "volValue": 15465.071959
+        },
+        "marketChange4h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71919.55,
+          "volValue": 15465.071959
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.215,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 71919.55,
+        "volValue": 15465.071959
+      },
+      "time_received": "11:03:54.6228"
+    },
+    {
+      "sequence": "3720",
+      "data": {
+        "askSize": 1308.64,
+        "baseCurrency": "SYRUP",
+        "bidSize": 610.04,
+        "board": 0,
+        "buy": 0.2149,
+        "changePrice": 0.045,
+        "changeRate": 0.2647,
+        "close": 0.215,
+        "datetime": 1732619036648,
+        "high": 0.218,
+        "lastTradedPrice": 0.215,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71828.81,
+          "volValue": 15445.562859
+        },
+        "marketChange24h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71828.81,
+          "volValue": 15445.562859
+        },
+        "marketChange4h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71828.81,
+          "volValue": 15445.562859
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.215,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 71828.81,
+        "volValue": 15445.562859
+      },
+      "time_received": "11:03:56.6766"
+    },
+    {
+      "sequence": "3720",
+      "data": {
+        "askSize": 1308.64,
+        "baseCurrency": "SYRUP",
+        "bidSize": 610.04,
+        "board": 0,
+        "buy": 0.2149,
+        "changePrice": 0.045,
+        "changeRate": 0.2647,
+        "close": 0.215,
+        "datetime": 1732619038645,
+        "high": 0.218,
+        "lastTradedPrice": 0.215,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71919.55,
+          "volValue": 15465.071959
+        },
+        "marketChange24h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71919.55,
+          "volValue": 15465.071959
+        },
+        "marketChange4h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71919.55,
+          "volValue": 15465.071959
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.215,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 71919.55,
+        "volValue": 15465.071959
+      },
+      "time_received": "11:03:58.6759"
+    },
+    {
+      "sequence": "3834",
+      "data": {
+        "askSize": 1308.64,
+        "baseCurrency": "SYRUP",
+        "bidSize": 1,
+        "board": 0,
+        "buy": 0.2145,
+        "changePrice": 0.045,
+        "changeRate": 0.2647,
+        "close": 0.215,
+        "datetime": 1732619050576,
+        "high": 0.218,
+        "lastTradedPrice": 0.215,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71919.55,
+          "volValue": 15465.071959
+        },
+        "marketChange24h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71919.55,
+          "volValue": 15465.071959
+        },
+        "marketChange4h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71919.55,
+          "volValue": 15465.071959
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.215,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 71919.55,
+        "volValue": 15465.071959
+      },
+      "time_received": "11:04:10.6080"
+    },
+    {
+      "sequence": "3858",
+      "data": {
+        "askSize": 1308.64,
+        "baseCurrency": "SYRUP",
+        "bidSize": 139.69,
+        "board": 0,
+        "buy": 0.2144,
+        "changePrice": 0.045,
+        "changeRate": 0.2647,
+        "close": 0.215,
+        "datetime": 1732619052609,
+        "high": 0.218,
+        "lastTradedPrice": 0.215,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71919.55,
+          "volValue": 15465.071959
+        },
+        "marketChange24h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71919.55,
+          "volValue": 15465.071959
+        },
+        "marketChange4h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71919.55,
+          "volValue": 15465.071959
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.215,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 71919.55,
+        "volValue": 15465.071959
+      },
+      "time_received": "11:04:12.6378"
+    },
+    {
+      "sequence": "3891",
+      "data": {
+        "askSize": 1308.64,
+        "baseCurrency": "SYRUP",
+        "bidSize": 1,
+        "board": 0,
+        "buy": 0.2145,
+        "changePrice": 0.045,
+        "changeRate": 0.2647,
+        "close": 0.215,
+        "datetime": 1732619054628,
+        "high": 0.218,
+        "lastTradedPrice": 0.215,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71919.55,
+          "volValue": 15465.071959
+        },
+        "marketChange24h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71919.55,
+          "volValue": 15465.071959
+        },
+        "marketChange4h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71919.55,
+          "volValue": 15465.071959
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.215,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 71919.55,
+        "volValue": 15465.071959
+      },
+      "time_received": "11:04:14.6873"
+    },
+    {
+      "sequence": "3897",
+      "data": {
+        "askSize": 1308.64,
+        "baseCurrency": "SYRUP",
+        "bidSize": 140.69,
+        "board": 0,
+        "buy": 0.2144,
+        "changePrice": 0.045,
+        "changeRate": 0.2647,
+        "close": 0.215,
+        "datetime": 1732619056662,
+        "high": 0.218,
+        "lastTradedPrice": 0.215,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71919.55,
+          "volValue": 15465.071959
+        },
+        "marketChange24h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71919.55,
+          "volValue": 15465.071959
+        },
+        "marketChange4h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71919.55,
+          "volValue": 15465.071959
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.215,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 71919.55,
+        "volValue": 15465.071959
+      },
+      "time_received": "11:04:16.6904"
+    },
+    {
+      "sequence": "3945",
+      "data": {
+        "askSize": 868.18,
+        "baseCurrency": "SYRUP",
+        "bidSize": 140.69,
+        "board": 0,
+        "buy": 0.2144,
+        "changePrice": 0.045,
+        "changeRate": 0.2647,
+        "close": 0.215,
+        "datetime": 1732619062593,
+        "high": 0.218,
+        "lastTradedPrice": 0.215,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 72360.01,
+          "volValue": 15559.770859
+        },
+        "marketChange24h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 72360.01,
+          "volValue": 15559.770859
+        },
+        "marketChange4h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 72360.01,
+          "volValue": 15559.770859
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.215,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 72360.01,
+        "volValue": 15559.770859
+      },
+      "time_received": "11:04:22.6278"
+    },
+    {
+      "sequence": "3945",
+      "data": {
+        "askSize": 868.18,
+        "baseCurrency": "SYRUP",
+        "bidSize": 140.69,
+        "board": 0,
+        "buy": 0.2144,
+        "changePrice": 0.045,
+        "changeRate": 0.2647,
+        "close": 0.215,
+        "datetime": 1732619064510,
+        "high": 0.218,
+        "lastTradedPrice": 0.215,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71919.55,
+          "volValue": 15465.071959
+        },
+        "marketChange24h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71919.55,
+          "volValue": 15465.071959
+        },
+        "marketChange4h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 71919.55,
+          "volValue": 15465.071959
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.215,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 71919.55,
+        "volValue": 15465.071959
+      },
+      "time_received": "11:04:24.5396"
+    },
+    {
+      "sequence": "3945",
+      "data": {
+        "askSize": 868.18,
+        "baseCurrency": "SYRUP",
+        "bidSize": 140.69,
+        "board": 0,
+        "buy": 0.2144,
+        "changePrice": 0.045,
+        "changeRate": 0.2647,
+        "close": 0.215,
+        "datetime": 1732619066620,
+        "high": 0.218,
+        "lastTradedPrice": 0.215,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 72360.01,
+          "volValue": 15559.770859
+        },
+        "marketChange24h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 72360.01,
+          "volValue": 15559.770859
+        },
+        "marketChange4h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 72360.01,
+          "volValue": 15559.770859
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.215,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 72360.01,
+        "volValue": 15559.770859
+      },
+      "time_received": "11:04:26.6486"
+    },
+    {
+      "sequence": "3981",
+      "data": {
+        "askSize": 863.07,
+        "baseCurrency": "SYRUP",
+        "bidSize": 140.69,
+        "board": 0,
+        "buy": 0.2144,
+        "changePrice": 0.045,
+        "changeRate": 0.2647,
+        "close": 0.215,
+        "datetime": 1732619074624,
+        "high": 0.218,
+        "lastTradedPrice": 0.215,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 72365.12,
+          "volValue": 15560.869509
+        },
+        "marketChange24h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 72365.12,
+          "volValue": 15560.869509
+        },
+        "marketChange4h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 72365.12,
+          "volValue": 15560.869509
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.215,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 72365.12,
+        "volValue": 15560.869509
+      },
+      "time_received": "11:04:34.6583"
+    },
+    {
+      "sequence": "4080",
+      "data": {
+        "askSize": 257.23,
+        "baseCurrency": "SYRUP",
+        "bidSize": 140.69,
+        "board": 0,
+        "buy": 0.2144,
+        "changePrice": 0.045,
+        "changeRate": 0.2647,
+        "close": 0.215,
+        "datetime": 1732619084664,
+        "high": 0.218,
+        "lastTradedPrice": 0.215,
+        "low": 0.17,
+        "makerCoefficient": 3.0,
+        "makerFeeRate": 0.001,
+        "marginTrade": false,
+        "mark": 2,
+        "market": "USDS",
+        "marketChange1h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 72970.96,
+          "volValue": 15691.125109
+        },
+        "marketChange24h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 72970.96,
+          "volValue": 15691.125109
+        },
+        "marketChange4h": {
+          "changePrice": 0.045,
+          "changeRate": 0.2647,
+          "high": 0.218,
+          "low": 0.17,
+          "open": 0.17,
+          "vol": 72970.96,
+          "volValue": 15691.125109
+        },
+        "markets": [
+          "USDS"
+        ],
+        "open": 0.17,
+        "quoteCurrency": "USDT",
+        "sell": 0.215,
+        "siteTypes": [
+          "global"
+        ],
+        "sort": 100,
+        "symbol": "SYRUP-USDT",
+        "symbolCode": "SYRUP-USDT",
+        "takerCoefficient": 3.0,
+        "takerFeeRate": 0.001,
+        "trading": true,
+        "vol": 72970.96,
+        "volValue": 15691.125109
+      },
+      "time_received": "11:04:44.6986"
+    }
+  ]
+}

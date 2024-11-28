@@ -1,0 +1,9 @@
+{
+    "buy_orders": {},
+    "sell_orders": {},
+    "trading_session": {
+        "start_time": "2024-11-27T10:59:30.100809",
+        "symbol": "WOD-USDT",
+        "end_time": "2024-11-27T11:01:30.220541"
+    }
+}

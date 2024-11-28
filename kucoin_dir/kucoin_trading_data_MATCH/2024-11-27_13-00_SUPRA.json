@@ -1,0 +1,118 @@
+{
+    "buy_orders": {
+        "trigger_data": {
+            "price": "0.01",
+            "side": "buy",
+            "time_received": "13:00:00.073",
+            "makerOrderId": "674716d8f61fa0000739e5e0"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Symbol SUPRA-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.0102",
+                "order_sent_time": "13:00:00.076",
+                "order_received_time": "13:00:00.226",
+                "currency_pair": "SUPRA-USDT",
+                "order_size": "110"
+            },
+            {
+                "success": false,
+                "message": "Symbol SUPRA-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.0104",
+                "order_sent_time": "13:00:00.077",
+                "order_received_time": "13:00:00.225",
+                "currency_pair": "SUPRA-USDT",
+                "order_size": "110"
+            },
+            {
+                "success": true,
+                "execution_time": 0.20295,
+                "limit_buy_price": "0.0106",
+                "order_id": "674717d033b8f30007379eb8",
+                "order_sent_time": "13:00:00.077",
+                "order_received_time": "13:00:00.280",
+                "currency_pair": "SUPRA-USDT",
+                "order_size": "110"
+            },
+            {
+                "success": false,
+                "message": "Symbol SUPRA-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.0108",
+                "order_sent_time": "13:00:00.078",
+                "order_received_time": "13:00:00.236",
+                "currency_pair": "SUPRA-USDT",
+                "order_size": "110"
+            }
+        ]
+    },
+    "sell_orders": {
+        "trigger_data": {
+            "price": "0.024454",
+            "side": "sell",
+            "time_received": "13:00:06.288",
+            "makerOrderId": "674717d69e4e4000079b4f7b"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.0247",
+                "order_sent_time": "13:00:06.294",
+                "order_received_time": "13:00:06.420",
+                "currency_pair": "SUPRA-USDT",
+                "order_size": "110"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.02494",
+                "order_sent_time": "13:00:06.295",
+                "order_received_time": "13:00:06.460",
+                "currency_pair": "SUPRA-USDT",
+                "order_size": "110"
+            },
+            {
+                "success": true,
+                "execution_time": 0.11822,
+                "limit_sell_price": "0.02519",
+                "order_id": "674717d6439c100007b415bd",
+                "order_sent_time": "13:00:06.297",
+                "order_received_time": "13:00:06.415",
+                "currency_pair": "SUPRA-USDT",
+                "order_size": "110"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.02543",
+                "order_sent_time": "13:00:06.298",
+                "order_received_time": "13:00:06.447",
+                "currency_pair": "SUPRA-USDT",
+                "order_size": "110"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.02568",
+                "order_sent_time": "13:00:06.302",
+                "order_received_time": "13:00:06.478",
+                "currency_pair": "SUPRA-USDT",
+                "order_size": "110"
+            }
+        ]
+    },
+    "trading_session": {
+        "start_time": "2024-11-27T12:59:30.096624",
+        "symbol": "SUPRA-USDT",
+        "end_time": "2024-11-27T13:00:06.480182"
+    },
+    "error": "'makerOrderId'"
+}

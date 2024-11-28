@@ -1,0 +1,114 @@
+{
+    "buy_orders": {
+        "trigger_data": {
+            "changes": {
+                "asks": [
+                    [
+                        "0.5",
+                        "0",
+                        "165"
+                    ],
+                    [
+                        "0.55",
+                        "700",
+                        "166"
+                    ]
+                ],
+                "bids": []
+            },
+            "sequenceEnd": 166,
+            "sequenceStart": 164,
+            "symbol": "MAJOR-USDT",
+            "time": 1732795200050,
+            "time_received": "12:00:00.085"
+        },
+        "orders_sent": [
+            {
+                "success": true,
+                "execution_time": 0.2786,
+                "limit_buy_price": "0.5555",
+                "order_id": "67485b40725fc600077a53c2",
+                "order_sent_time": "12:00:00.087",
+                "order_received_time": "12:00:00.365",
+                "currency_pair": "MAJOR-USDT",
+                "order_size": "3"
+            },
+            {
+                "success": true,
+                "execution_time": 0.27705,
+                "limit_buy_price": "0.561",
+                "order_id": "67485b401adbea0007231f6e",
+                "order_sent_time": "12:00:00.089",
+                "order_received_time": "12:00:00.366",
+                "currency_pair": "MAJOR-USDT",
+                "order_size": "3"
+            },
+            {
+                "success": true,
+                "execution_time": 0.32244,
+                "limit_buy_price": "0.5665",
+                "order_id": "67485b4014a8920007fafa19",
+                "order_sent_time": "12:00:00.090",
+                "order_received_time": "12:00:00.412",
+                "currency_pair": "MAJOR-USDT",
+                "order_size": "3"
+            },
+            {
+                "success": false,
+                "message": "Symbol MAJOR-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.572",
+                "order_sent_time": "12:00:00.090",
+                "order_received_time": "12:00:00.318",
+                "currency_pair": "MAJOR-USDT",
+                "order_size": "3"
+            },
+            {
+                "success": true,
+                "execution_time": 0.27515,
+                "limit_buy_price": "0.5775",
+                "order_id": "67485b40e21c74000704c684",
+                "order_sent_time": "12:00:00.091",
+                "order_received_time": "12:00:00.366",
+                "currency_pair": "MAJOR-USDT",
+                "order_size": "3"
+            },
+            {
+                "success": true,
+                "execution_time": 0.27587,
+                "limit_buy_price": "0.583",
+                "order_id": "67485b4033b8f30007d46db6",
+                "order_sent_time": "12:00:00.091",
+                "order_received_time": "12:00:00.367",
+                "currency_pair": "MAJOR-USDT",
+                "order_size": "3"
+            },
+            {
+                "success": true,
+                "execution_time": 0.27588,
+                "limit_buy_price": "0.5885",
+                "order_id": "67485b405a55500007814751",
+                "order_sent_time": "12:00:00.091",
+                "order_received_time": "12:00:00.367",
+                "currency_pair": "MAJOR-USDT",
+                "order_size": "3"
+            },
+            {
+                "success": false,
+                "message": "Symbol MAJOR-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.594",
+                "order_sent_time": "12:00:00.092",
+                "order_received_time": "12:00:00.358",
+                "currency_pair": "MAJOR-USDT",
+                "order_size": "3"
+            }
+        ]
+    },
+    "sell_orders": {},
+    "trading_session": {
+        "start_time": "2024-11-28T11:59:30.100694",
+        "symbol": "MAJOR-USDT",
+        "end_time": "2024-11-28T12:00:00.414479"
+    }
+}

@@ -29,18 +29,22 @@ logger.propagate = False
 # Kucoin retrive TEST New Main
 #1,16,31,46 * * * * /root/trading_systems/tradingvenv/bin/python /root/trading_systems/kucoin_dir/kucoin_save_first_release_data_V2.py >> /root/trading_systems/kucoin_dir/cronlogs/kucoin_save_first_release_data_V2.log 2>&1
 
-LOCK_FILE = '/tmp/kucoin_save_first_release_data_TEST.lock'
+LOCK_FILE = '/tmp/kucoin_save_first_release_data_V2.lock'
 async def main():
     lock_file = acquire_lock()
     try:
         logger.debug("Starting script")
         testing = False  
         directory = '/root/trading_systems/kucoin_dir/new_pair_data_kucoin'
-        path_to_save = '/root/trading_systems/kucoin_dir/kucoin_data_collection_TEST'
-        duration_to_run = 5  # time in minutes
+        duration_to_run = 20  # time in minutes
         start_collect_before_release_sec = 30  # Start collecting data before release time
 
         async def execution(new_pair_dict):
+            path_to_save = '/root/trading_systems/kucoin_dir/kucoin_release_data_initial'
+            if new_pair_dict['tag'] == 'relisting':
+                path_to_save = '/root/trading_systems/kucoin_dir/kucoin_relisting_data_relisting'
+
+
             try:
                 parse_result = parse_new_pair_dict(new_pair_dict)
                 if not parse_result:
@@ -84,6 +88,8 @@ async def main():
                         
                 # Run all channel tasks concurrently for this pair
                 await asyncio.gather(*channel_tasks)
+                logger.info(f'finished {basecoin}')
+
                 
             except Exception as e:
                 logger.error(f"Error processing pair {new_pair_dict.get('pair', 'unknown')}: {e}")
@@ -111,7 +117,6 @@ async def main():
             
             # Execute all pair tasks concurrently
             await asyncio.gather(*tasks_to_execute)
-            logger.info(f'finished {basecoin}')
             
         else:
             # Testing mode

@@ -31,7 +31,7 @@ class KucoinWebsocketListen:
         self.api_url = "https://api.kucoin.com"
         
         # Performance optimized state management
-        self.queue = asyncio.Queue(maxsize=1000)
+        self.queue = asyncio.Queue(maxsize=100000)
         self._last_heartbeat = time.monotonic()
         self._connection_ready = asyncio.Event()
         self._warm_up_complete = asyncio.Event()
@@ -257,7 +257,8 @@ class KucoinWebsocketListen:
 
 
 async def main():
-    ws = KucoinWebsocketListen(symbol="BTC", channel=KucoinWebsocketListen.CHANNEL_MATCH
+    import json
+    ws = KucoinWebsocketListen(symbol="BTC", channel=KucoinWebsocketListen.CHANNEL_DEPTH5
                                )
     
     try:
@@ -267,12 +268,12 @@ async def main():
         end_time = datetime.now() + timedelta(minutes=2)
         logger.debug(f'{end_time}')
         while datetime.now() < end_time:
-            logger.debug("Latest message:")
-            print(ws.queue)
+            get_data = await ws.get_data()
+            print(json.dumps(get_data,indent=4))
+            
             await asyncio.sleep(1)
 
 
-            await asyncio.sleep(0.001)  # Minimal sleep
             
     finally:
         await ws.cleanup()

@@ -38,12 +38,14 @@ def main():
                     logging.error(f'creating announcment dictonary{e}')
                     print(element.inner_text())
                     traceback.print_exc()
+                    continue   
                 try:
                     if announcement_dict:
                         save_and_update_announcement(directory_kucoin, announcement_dict)
                 except Exception as e:
                     logging.error(f"saving announcement: {e}")
                     traceback.print_exc()
+                    continue
 
 
         except Exception as e:
@@ -91,6 +93,7 @@ def create_announcement_dict(element):
     # Check if the element's text is not empty
     if 'Trading:' in element.inner_text():
         href = element.get_attribute('href')
+
         announcement = element.inner_text()
 
         # Extract trading time and date
@@ -108,15 +111,29 @@ def create_announcement_dict(element):
         pair_match = re.search(r'(\w+)\s\((\w+)\)', announcement)
         pair = pair_match.group(2) + "USDT"
 
+        tag = None
+        if 'world' in href.lower():
+            tag = 'initial_listing'
+            
+        else:
+            tag = 'relisting'
+
         # Create the announcement dictionary
         announcement_dict = {
             "exchange": "kucoin",
             "url": href,
+            "tag": tag,
             "date_time_string": format_datetime_to_str(trading_datetime),
             "pair": pair,
         }
         return announcement_dict
     return None
+
+
+
+
+
+
 
 
 
@@ -140,6 +157,9 @@ def move_files(source_dir, destination_dir):
             # Copy the file
             shutil.copy(source_file, destination_file)
             print(f"Copied {file_name} to {destination_dir}")
+
+
+
 
 
 def OLD_create_announcement_dict(element):

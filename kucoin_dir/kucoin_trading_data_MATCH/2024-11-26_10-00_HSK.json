@@ -1,0 +1,207 @@
+{
+    "buy_orders": {
+        "first_group": {
+            "trigger_data": {
+                "price": "0.1",
+                "side": "sell",
+                "time_received": "10:00:00.082"
+            },
+            "orders": [
+                {
+                    "success": false,
+                    "message": "Symbol HSK-USDT cant be traded",
+                    "code": "600203",
+                    "limit_buy_price": "0.102",
+                    "order_sent_time": "10:00:00.083",
+                    "order_received_time": "10:00:00.247",
+                    "currency_pair": "HSK-USDT",
+                    "order_size": "11"
+                },
+                {
+                    "success": true,
+                    "execution_time": 0.23208,
+                    "limit_buy_price": "0.104",
+                    "order_id": "67459c20cf286a0007c3a730",
+                    "order_sent_time": "10:00:00.084",
+                    "order_received_time": "10:00:00.316",
+                    "currency_pair": "HSK-USDT",
+                    "order_size": "11"
+                },
+                {
+                    "success": true,
+                    "execution_time": 0.21081,
+                    "limit_buy_price": "0.106",
+                    "order_id": "67459c206967d30007888151",
+                    "order_sent_time": "10:00:00.085",
+                    "order_received_time": "10:00:00.296",
+                    "currency_pair": "HSK-USDT",
+                    "order_size": "11"
+                }
+            ]
+        },
+        "second_group": {
+            "trigger_data": {
+                "price": "0.404",
+                "side": "buy",
+                "time_received": "10:00:00.092"
+            },
+            "orders": [
+                {
+                    "success": true,
+                    "execution_time": 0.15691,
+                    "limit_buy_price": "0.4121",
+                    "order_id": "67459c20c65bf70007b7ac89",
+                    "order_sent_time": "10:00:00.727",
+                    "order_received_time": "10:00:00.884",
+                    "currency_pair": "HSK-USDT",
+                    "order_size": "11"
+                },
+                {
+                    "success": true,
+                    "execution_time": 0.1701,
+                    "limit_buy_price": "0.4202",
+                    "order_id": "67459c20d52cb8000782696a",
+                    "order_sent_time": "10:00:00.728",
+                    "order_received_time": "10:00:00.898",
+                    "currency_pair": "HSK-USDT",
+                    "order_size": "11"
+                },
+                {
+                    "success": true,
+                    "execution_time": 0.40477,
+                    "limit_buy_price": "0.4282",
+                    "order_id": "67459c21f15b270007255394",
+                    "order_sent_time": "10:00:00.728",
+                    "order_received_time": "10:00:01.133",
+                    "currency_pair": "HSK-USDT",
+                    "order_size": "11"
+                }
+            ]
+        }
+    },
+    "sell_orders": {
+        "first_group": {
+            "trigger_data": {
+                "price": "0.1",
+                "side": "sell",
+                "time_received": "10:00:00.082"
+            },
+            "orders": [
+                {
+                    "success": false,
+                    "message": "Balance insufficient!",
+                    "code": "200004",
+                    "limit_sell_price": "0.102",
+                    "order_sent_time": "10:00:00.317",
+                    "order_received_time": "10:00:00.725",
+                    "currency_pair": "HSK-USDT",
+                    "order_size": "11"
+                },
+                {
+                    "success": false,
+                    "message": "Symbol HSK-USDT cant be traded",
+                    "code": "600203",
+                    "limit_sell_price": "0.104",
+                    "order_sent_time": "10:00:00.318",
+                    "order_received_time": "10:00:00.430",
+                    "currency_pair": "HSK-USDT",
+                    "order_size": "11"
+                },
+                {
+                    "success": false,
+                    "message": "Symbol HSK-USDT cant be traded",
+                    "code": "600203",
+                    "limit_sell_price": "0.106",
+                    "order_sent_time": "10:00:00.318",
+                    "order_received_time": "10:00:00.435",
+                    "currency_pair": "HSK-USDT",
+                    "order_size": "11"
+                },
+                {
+                    "success": false,
+                    "message": "Balance insufficient!",
+                    "code": "200004",
+                    "limit_sell_price": "0.108",
+                    "order_sent_time": "10:00:00.319",
+                    "order_received_time": "10:00:00.486",
+                    "currency_pair": "HSK-USDT",
+                    "order_size": "11"
+                },
+                {
+                    "success": false,
+                    "message": "Symbol HSK-USDT cant be traded",
+                    "code": "600203",
+                    "limit_sell_price": "0.11",
+                    "order_sent_time": "10:00:00.320",
+                    "order_received_time": "10:00:00.450",
+                    "currency_pair": "HSK-USDT",
+                    "order_size": "11"
+                }
+            ]
+        },
+        "second_group": {
+            "trigger_data": {
+                "price": "0.7",
+                "side": "sell",
+                "time_received": "10:00:00.402"
+            },
+            "orders": [
+                {
+                    "success": false,
+                    "message": "Balance insufficient!",
+                    "code": "200004",
+                    "limit_sell_price": "0.714",
+                    "order_sent_time": "10:00:01.178",
+                    "order_received_time": "10:00:01.278",
+                    "currency_pair": "HSK-USDT",
+                    "order_size": "3"
+                },
+                {
+                    "success": false,
+                    "message": "Balance insufficient!",
+                    "code": "200004",
+                    "limit_sell_price": "0.728",
+                    "order_sent_time": "10:00:01.179",
+                    "order_received_time": "10:00:01.314",
+                    "currency_pair": "HSK-USDT",
+                    "order_size": "3"
+                },
+                {
+                    "success": false,
+                    "message": "Balance insufficient!",
+                    "code": "200004",
+                    "limit_sell_price": "0.742",
+                    "order_sent_time": "10:00:01.180",
+                    "order_received_time": "10:00:01.318",
+                    "currency_pair": "HSK-USDT",
+                    "order_size": "3"
+                },
+                {
+                    "success": false,
+                    "message": "Balance insufficient!",
+                    "code": "200004",
+                    "limit_sell_price": "0.756",
+                    "order_sent_time": "10:00:01.181",
+                    "order_received_time": "10:00:01.309",
+                    "currency_pair": "HSK-USDT",
+                    "order_size": "3"
+                },
+                {
+                    "success": false,
+                    "message": "Balance insufficient!",
+                    "code": "200004",
+                    "limit_sell_price": "0.77",
+                    "order_sent_time": "10:00:01.181",
+                    "order_received_time": "10:00:01.306",
+                    "currency_pair": "HSK-USDT",
+                    "order_size": "3"
+                }
+            ]
+        }
+    },
+    "trading_session": {
+        "start_time": "2024-11-26T09:59:30.096486",
+        "symbol": "HSK-USDT",
+        "end_time": "2024-11-26T10:00:01.318871"
+    }
+}

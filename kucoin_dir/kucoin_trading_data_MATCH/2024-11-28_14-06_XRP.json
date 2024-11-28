@@ -1,0 +1,227 @@
+{
+    "buy_orders": {
+        "trigger_data": {
+            "price": "1.47235",
+            "side": "sell",
+            "time_received": "14:06:00.783",
+            "makerOrderId": "674878c8725fc6000739878b"
+        },
+        "orders_sent": [
+            {
+                "success": true,
+                "execution_time": 0.19828,
+                "limit_buy_price": "1.325",
+                "order_id": "674878c85a55500007407349",
+                "order_sent_time": "14:06:00.784",
+                "order_received_time": "14:06:00.982",
+                "currency_pair": "XRP-USDT",
+                "order_size": "4"
+            },
+            {
+                "success": true,
+                "execution_time": 0.19695,
+                "limit_buy_price": "1.178",
+                "order_id": "674878c8ef434f0007c6ef1c",
+                "order_sent_time": "14:06:00.785",
+                "order_received_time": "14:06:00.982",
+                "currency_pair": "XRP-USDT",
+                "order_size": "4"
+            },
+            {
+                "success": true,
+                "execution_time": 0.20406,
+                "limit_buy_price": "1.031",
+                "order_id": "674878c8ef434f0007c6ef5b",
+                "order_sent_time": "14:06:00.785",
+                "order_received_time": "14:06:00.989",
+                "currency_pair": "XRP-USDT",
+                "order_size": "4"
+            },
+            {
+                "success": true,
+                "execution_time": 0.46182,
+                "limit_buy_price": "0.883",
+                "order_id": "674878c99e4e400007f700fe",
+                "order_sent_time": "14:06:00.785",
+                "order_received_time": "14:06:01.247",
+                "currency_pair": "XRP-USDT",
+                "order_size": "4"
+            },
+            {
+                "success": true,
+                "execution_time": 0.17838,
+                "limit_buy_price": "0.736",
+                "order_id": "674878c82033a50007ab2433",
+                "order_sent_time": "14:06:00.786",
+                "order_received_time": "14:06:00.964",
+                "currency_pair": "XRP-USDT",
+                "order_size": "4"
+            },
+            {
+                "success": true,
+                "execution_time": 0.21985,
+                "limit_buy_price": "0.589",
+                "order_id": "674878c8b26bfb00070e0cdc",
+                "order_sent_time": "14:06:00.786",
+                "order_received_time": "14:06:01.006",
+                "currency_pair": "XRP-USDT",
+                "order_size": "4"
+            },
+            {
+                "success": true,
+                "execution_time": 0.17181,
+                "limit_buy_price": "0.442",
+                "order_id": "674878c8a69a4c0007890949",
+                "order_sent_time": "14:06:00.786",
+                "order_received_time": "14:06:00.958",
+                "currency_pair": "XRP-USDT",
+                "order_size": "4"
+            },
+            {
+                "success": true,
+                "execution_time": 0.19683,
+                "limit_buy_price": "0.294",
+                "order_id": "674878c8e21c740007c401f2",
+                "order_sent_time": "14:06:00.786",
+                "order_received_time": "14:06:00.983",
+                "currency_pair": "XRP-USDT",
+                "order_size": "4"
+            },
+            {
+                "success": true,
+                "execution_time": 0.1962,
+                "limit_buy_price": "0.147",
+                "order_id": "674878c88b053b00071c43cc",
+                "order_sent_time": "14:06:00.787",
+                "order_received_time": "14:06:00.983",
+                "currency_pair": "XRP-USDT",
+                "order_size": "4"
+            },
+            {
+                "success": false,
+                "message": "Order price invalid.",
+                "code": "600100",
+                "limit_buy_price": "0.0",
+                "order_sent_time": "14:06:00.787",
+                "order_received_time": "14:06:00.948",
+                "currency_pair": "XRP-USDT",
+                "order_size": "4"
+            }
+        ]
+    },
+    "sell_orders": {
+        "trigger_data": {
+            "price": "1.47166",
+            "side": "sell",
+            "time_received": "14:06:09.262",
+            "makerOrderId": "6748789eb26bfb00070cfc62"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.501",
+                "order_sent_time": "14:06:09.263",
+                "order_received_time": "14:06:09.454",
+                "currency_pair": "XRP-USDT",
+                "order_size": "4"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.501",
+                "order_sent_time": "14:06:09.264",
+                "order_received_time": "14:06:09.391",
+                "currency_pair": "XRP-USDT",
+                "order_size": "4"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.501",
+                "order_sent_time": "14:06:09.264",
+                "order_received_time": "14:06:09.382",
+                "currency_pair": "XRP-USDT",
+                "order_size": "4"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.501",
+                "order_sent_time": "14:06:09.265",
+                "order_received_time": "14:06:09.378",
+                "currency_pair": "XRP-USDT",
+                "order_size": "4"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.501",
+                "order_sent_time": "14:06:09.265",
+                "order_received_time": "14:06:09.375",
+                "currency_pair": "XRP-USDT",
+                "order_size": "4"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.501",
+                "order_sent_time": "14:06:09.266",
+                "order_received_time": "14:06:09.432",
+                "currency_pair": "XRP-USDT",
+                "order_size": "4"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.501",
+                "order_sent_time": "14:06:09.266",
+                "order_received_time": "14:06:09.404",
+                "currency_pair": "XRP-USDT",
+                "order_size": "4"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.501",
+                "order_sent_time": "14:06:09.267",
+                "order_received_time": "14:06:09.389",
+                "currency_pair": "XRP-USDT",
+                "order_size": "4"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.501",
+                "order_sent_time": "14:06:09.268",
+                "order_received_time": "14:06:09.379",
+                "currency_pair": "XRP-USDT",
+                "order_size": "4"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.501",
+                "order_sent_time": "14:06:09.268",
+                "order_received_time": "14:06:09.421",
+                "currency_pair": "XRP-USDT",
+                "order_size": "4"
+            }
+        ]
+    },
+    "trading_session": {
+        "start_time": "2024-11-28T14:05:57.034455",
+        "symbol": "XRP-USDT",
+        "end_time": "2024-11-28T14:06:09.482443"
+    }
+}

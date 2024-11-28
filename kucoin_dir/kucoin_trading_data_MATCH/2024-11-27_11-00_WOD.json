@@ -1,0 +1,117 @@
+{
+    "buy_orders": {
+        "trigger_data": {
+            "price": "1",
+            "side": "buy",
+            "time_received": "11:00:08.236",
+            "makerOrderId": "6746fbb7812d40000715cfbc"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_buy_price": "1.02",
+                "order_sent_time": "11:00:08.236",
+                "order_received_time": "11:00:08.426",
+                "currency_pair": "WOD-USDT",
+                "order_size": "2"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_buy_price": "1.04",
+                "order_sent_time": "11:00:08.238",
+                "order_received_time": "11:00:08.399",
+                "currency_pair": "WOD-USDT",
+                "order_size": "2"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_buy_price": "1.06",
+                "order_sent_time": "11:00:08.239",
+                "order_received_time": "11:00:08.416",
+                "currency_pair": "WOD-USDT",
+                "order_size": "2"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_buy_price": "1.08",
+                "order_sent_time": "11:00:08.239",
+                "order_received_time": "11:00:08.406",
+                "currency_pair": "WOD-USDT",
+                "order_size": "2"
+            }
+        ]
+    },
+    "sell_orders": {
+        "trigger_data": {
+            "price": "1.062",
+            "side": "sell",
+            "time_received": "11:00:28.356",
+            "makerOrderId": "6746fbcceaedf50007c7a765"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_sell_price": "1.07",
+                "order_sent_time": "11:00:28.360",
+                "order_received_time": "11:00:28.513",
+                "currency_pair": "WOD-USDT",
+                "order_size": "2"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_sell_price": "1.08",
+                "order_sent_time": "11:00:28.361",
+                "order_received_time": "11:00:28.507",
+                "currency_pair": "WOD-USDT",
+                "order_size": "2"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_sell_price": "1.09",
+                "order_sent_time": "11:00:28.362",
+                "order_received_time": "11:00:28.501",
+                "currency_pair": "WOD-USDT",
+                "order_size": "2"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_sell_price": "1.1",
+                "order_sent_time": "11:00:28.362",
+                "order_received_time": "11:00:28.494",
+                "currency_pair": "WOD-USDT",
+                "order_size": "2"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_sell_price": "1.12",
+                "order_sent_time": "11:00:28.362",
+                "order_received_time": "11:00:28.496",
+                "currency_pair": "WOD-USDT",
+                "order_size": "2"
+            }
+        ]
+    },
+    "trading_session": {
+        "start_time": "2024-11-27T10:59:30.101861",
+        "symbol": "WOD-USDT",
+        "end_time": "2024-11-27T11:00:28.514724"
+    }
+}

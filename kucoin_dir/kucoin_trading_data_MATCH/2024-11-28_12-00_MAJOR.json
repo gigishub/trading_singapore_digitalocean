@@ -1,0 +1,228 @@
+{
+    "buy_orders": {
+        "trigger_data": {
+            "price": "0.5",
+            "side": "buy",
+            "time_received": "12:00:00.102",
+            "makerOrderId": "674858f5725fc600076beb3a"
+        },
+        "orders_sent": [
+            {
+                "success": true,
+                "execution_time": 0.28516,
+                "limit_buy_price": "0.505",
+                "order_id": "67485b4033b8f30007d46eeb",
+                "order_sent_time": "12:00:00.106",
+                "order_received_time": "12:00:00.391",
+                "currency_pair": "MAJOR-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": true,
+                "execution_time": 0.32391,
+                "limit_buy_price": "0.51",
+                "order_id": "67485b40754b1e00072ab803",
+                "order_sent_time": "12:00:00.107",
+                "order_received_time": "12:00:00.431",
+                "currency_pair": "MAJOR-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": true,
+                "execution_time": 0.33782,
+                "limit_buy_price": "0.515",
+                "order_id": "67485b40f61fa00007dce33a",
+                "order_sent_time": "12:00:00.108",
+                "order_received_time": "12:00:00.446",
+                "currency_pair": "MAJOR-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": false,
+                "message": "Symbol MAJOR-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.52",
+                "order_sent_time": "12:00:00.109",
+                "order_received_time": "12:00:00.421",
+                "currency_pair": "MAJOR-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": false,
+                "message": "Symbol MAJOR-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.525",
+                "order_sent_time": "12:00:00.110",
+                "order_received_time": "12:00:00.479",
+                "currency_pair": "MAJOR-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": false,
+                "message": "Symbol MAJOR-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.53",
+                "order_sent_time": "12:00:00.110",
+                "order_received_time": "12:00:00.416",
+                "currency_pair": "MAJOR-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": false,
+                "message": "Symbol MAJOR-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.535",
+                "order_sent_time": "12:00:00.110",
+                "order_received_time": "12:00:00.420",
+                "currency_pair": "MAJOR-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": false,
+                "message": "Symbol MAJOR-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.54",
+                "order_sent_time": "12:00:00.111",
+                "order_received_time": "12:00:00.425",
+                "currency_pair": "MAJOR-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": true,
+                "execution_time": 0.30094,
+                "limit_buy_price": "0.545",
+                "order_id": "67485b4014a8920007fafa25",
+                "order_sent_time": "12:00:00.112",
+                "order_received_time": "12:00:00.413",
+                "currency_pair": "MAJOR-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_buy_price": "0.55",
+                "order_sent_time": "12:00:00.113",
+                "order_received_time": "12:00:00.548",
+                "currency_pair": "MAJOR-USDT",
+                "order_size": "7"
+            }
+        ]
+    },
+    "sell_orders": {
+        "trigger_data": {
+            "price": "1.4857",
+            "side": "sell",
+            "time_received": "12:00:03.494",
+            "makerOrderId": "67485b438b053b00075d2767"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.515",
+                "order_sent_time": "12:00:03.497",
+                "order_received_time": "12:00:03.635",
+                "currency_pair": "MAJOR-USDT",
+                "order_size": "4"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.515",
+                "order_sent_time": "12:00:03.499",
+                "order_received_time": "12:00:03.654",
+                "currency_pair": "MAJOR-USDT",
+                "order_size": "4"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.515",
+                "order_sent_time": "12:00:03.499",
+                "order_received_time": "12:00:03.614",
+                "currency_pair": "MAJOR-USDT",
+                "order_size": "4"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.515",
+                "order_sent_time": "12:00:03.500",
+                "order_received_time": "12:00:03.645",
+                "currency_pair": "MAJOR-USDT",
+                "order_size": "4"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.515",
+                "order_sent_time": "12:00:03.501",
+                "order_received_time": "12:00:03.625",
+                "currency_pair": "MAJOR-USDT",
+                "order_size": "4"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.515",
+                "order_sent_time": "12:00:03.501",
+                "order_received_time": "12:00:03.629",
+                "currency_pair": "MAJOR-USDT",
+                "order_size": "4"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.515",
+                "order_sent_time": "12:00:03.502",
+                "order_received_time": "12:00:03.624",
+                "currency_pair": "MAJOR-USDT",
+                "order_size": "4"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.515",
+                "order_sent_time": "12:00:03.503",
+                "order_received_time": "12:00:03.656",
+                "currency_pair": "MAJOR-USDT",
+                "order_size": "4"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.515",
+                "order_sent_time": "12:00:03.503",
+                "order_received_time": "12:00:03.628",
+                "currency_pair": "MAJOR-USDT",
+                "order_size": "4"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.515",
+                "order_sent_time": "12:00:03.504",
+                "order_received_time": "12:00:03.614",
+                "currency_pair": "MAJOR-USDT",
+                "order_size": "4"
+            }
+        ]
+    },
+    "trading_session": {
+        "start_time": "2024-11-28T11:59:30.098034",
+        "symbol": "MAJOR-USDT",
+        "end_time": "2024-11-28T12:00:03.658667"
+    },
+    "error": "'makerOrderId'"
+}

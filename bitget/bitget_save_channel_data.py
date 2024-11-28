@@ -6,6 +6,7 @@ from datetime import datetime, timedelta
 from typing import Dict, Any, Optional
 import os
 import json
+import traceback
 
 # Configure logging
 logger = logging.getLogger(__name__)
@@ -53,6 +54,11 @@ class Bitget_save_ws_data:
         self.end_time = release_time + timedelta(minutes=duration_minutes)
         self.collection_started = False
         self.collection_ended = False
+        
+        # Heartbeat management
+        self.last_message_time = datetime.now()
+        self.heartbeat_interval = 25  # Send ping slightly before 30s timeout
+        self.max_no_message_time = 60  # Reconnect if no messages for 60 seconds
 
         logger.info(f"Initialized collector for {symbol} - Start: {self.get_formatted_time(self.start_time)}, "
                    f"Release: {self.get_formatted_time(release_time)}, "
@@ -98,17 +104,18 @@ class Bitget_save_ws_data:
                 self.ws_url,
                 heartbeat=20,
                 autoping=True,
-                receive_timeout=30
+                receive_timeout=40
             )
 
-            # Add ping message handling
-            asyncio.create_task(self._keep_alive())
+            # Add ping and message monitoring tasks
+            asyncio.create_task(self._maintain_connection())
 
             subscribe_data = orjson.dumps(self.get_subscription_data()).decode('utf-8')
             await self.ws_connection.send_str(subscribe_data)
             
             self.is_running = True
             self.collection_started = True
+            self.last_message_time = datetime.now()
             logger.info("WebSocket connection established and collection started")
             
             await self._process_messages()
@@ -123,33 +130,51 @@ class Bitget_save_ws_data:
             else:
                 logger.error("Max reconnection attempts reached")
 
-    async def _keep_alive(self):
-        """Maintain connection with ping/pong for BitGet"""
+    async def _maintain_connection(self):
+        """Maintain WebSocket connection with BitGet-specific heartbeat"""
         while self.is_running:
             try:
-                ping_data = {"op": "ping"}
-                await self.ws_connection.send_str(orjson.dumps(ping_data).decode('utf-8'))
-                await asyncio.sleep(15)
+                # Check time since last message
+                time_since_last_message = (datetime.now() - self.last_message_time).total_seconds()
+                
+                # Send ping every 25 seconds
+                if time_since_last_message >= self.heartbeat_interval:
+                    await self.ws_connection.send_str("ping")
+                    logger.debug("Sent ping to maintain connection")
+                
+                # Check for prolonged message inactivity
+                if time_since_last_message >= self.max_no_message_time:
+                    logger.warning(f"No messages received for {time_since_last_message:.2f} seconds. Reconnecting...")
+                    await self.cleanup()
+                    await self.start_websocket()
+                    break
+
+                await asyncio.sleep(5)  # Check every 5 seconds
             except Exception as e:
-                logger.error(f"Error in keep_alive: {e}")
+                logger.error(f"Error in connection maintenance: {e}")
                 break
 
     async def _process_messages(self):
         """Process incoming WebSocket messages with optimized speed and timing"""
-        last_heartbeat = datetime.now()
-
         while self.is_running and datetime.now() <= self.end_time:
             try:
                 msg = await self.ws_connection.receive(timeout=0.1)
                 
                 if msg.type == aiohttp.WSMsgType.TEXT:
-                    data = orjson.loads(msg.data)
+                    # Update last message time
+                    self.last_message_time = datetime.now()
                     
-                    # Handle pong response
-                    if isinstance(data, dict) and data.get('op') == 'pong':
-                        last_heartbeat = datetime.now()
+                    # Handle ping/pong
+                    if msg.data == "pong":
+                        logger.debug("Received pong from server")
                         continue
 
+                    try:
+                        data = orjson.loads(msg.data)
+                    except Exception:
+                        # Skip messages that aren't JSON or pong
+                        continue
+                    
                     if 'data' in data:
                         precise_time = datetime.now()
                         processed_data = data['data'][0]  # BitGet sends array of data
@@ -171,13 +196,6 @@ class Bitget_save_ws_data:
                     logger.error("WebSocket error")
                     break
 
-                # Check heartbeat
-                if (datetime.now() - last_heartbeat).total_seconds() > 30:
-                    logger.warning("No heartbeat received, reconnecting...")
-                    await self.cleanup()
-                    await self.start_websocket()
-                    break
-
             except asyncio.TimeoutError:
                 continue
             except Exception as e:
@@ -190,13 +208,15 @@ class Bitget_save_ws_data:
         self.collection_ended = True
         logger.info("Message processing completed")
 
+
+
     async def process_for_saving(self):
         """Process and save data to a list with optimized batch processing"""
         batch = []
         batch_size = 100
 
         try:
-            while datetime.now() <= self.end_time or not self.queue.empty():
+            while datetime.now() <= self.end_time:
                 try:
                     data = await asyncio.wait_for(self.queue.get(), timeout=1.0)
                     batch.append(data)
@@ -236,9 +256,9 @@ class Bitget_save_ws_data:
                             'time': self.get_formatted_time(),
                             'symbol': market_data['symbol'],
                             'price_high': market_data['high24h'],
-                            'price_last': market_data['last'],
+                            'price_last': market_data['lastPr'],
                             'price_low': market_data['low24h'],
-                            'volValue_USDT': market_data['usdtVol'],
+                            'openUtc': market_data['openUtc'],
                         }
                         return final_snapshot
                 else:
@@ -277,6 +297,8 @@ class Bitget_save_ws_data:
             
         except Exception as e:
             logger.error(f"Error saving data: {e}")
+            traceback.print_exc()
+
 
     async def cleanup(self):
         """Clean up resources"""
@@ -344,11 +366,12 @@ async def run_all_collections(symbol: str, release_time: datetime, duration_minu
 async def main():
     # Example: Collect data for a token
     release_time = datetime.now() + timedelta(seconds=5)
+
     await run_all_collections(
         symbol="BTC",
         release_time=release_time,
-        duration_minutes=0.5,
-        save_path="./data",
+        duration_minutes=2,
+        save_path="/root/trading_systems/bitget/bitget_test_data",
         start_collect_before_release_sec=3
     )
 

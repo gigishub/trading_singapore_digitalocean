@@ -1,0 +1,228 @@
+{
+    "buy_orders": {
+        "trigger_data": {
+            "price": "0.05761",
+            "side": "buy",
+            "time_received": "13:00:00.122",
+            "makerOrderId": "67486562b6d508000763d077"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_buy_price": "0.05819",
+                "order_sent_time": "13:00:00.123",
+                "order_received_time": "13:00:00.381",
+                "currency_pair": "SDM-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_buy_price": "0.05876",
+                "order_sent_time": "13:00:00.135",
+                "order_received_time": "13:00:00.359",
+                "currency_pair": "SDM-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_buy_price": "0.05934",
+                "order_sent_time": "13:00:00.138",
+                "order_received_time": "13:00:00.391",
+                "currency_pair": "SDM-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Symbol SDM-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.05991",
+                "order_sent_time": "13:00:00.138",
+                "order_received_time": "13:00:00.361",
+                "currency_pair": "SDM-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Symbol SDM-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.06049",
+                "order_sent_time": "13:00:00.139",
+                "order_received_time": "13:00:00.368",
+                "currency_pair": "SDM-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Symbol SDM-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.06107",
+                "order_sent_time": "13:00:00.139",
+                "order_received_time": "13:00:00.397",
+                "currency_pair": "SDM-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_buy_price": "0.06164",
+                "order_sent_time": "13:00:00.141",
+                "order_received_time": "13:00:00.392",
+                "currency_pair": "SDM-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Symbol SDM-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.06222",
+                "order_sent_time": "13:00:00.141",
+                "order_received_time": "13:00:00.358",
+                "currency_pair": "SDM-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Symbol SDM-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.06279",
+                "order_sent_time": "13:00:00.141",
+                "order_received_time": "13:00:00.362",
+                "currency_pair": "SDM-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_buy_price": "0.06337",
+                "order_sent_time": "13:00:00.142",
+                "order_received_time": "13:00:00.391",
+                "currency_pair": "SDM-USDT",
+                "order_size": "55"
+            }
+        ]
+    },
+    "sell_orders": {
+        "trigger_data": {
+            "price": "0.061001",
+            "side": "sell",
+            "time_received": "13:00:04.399",
+            "makerOrderId": "67486950f61fa00007345d43"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_sell_price": "0.06222",
+                "order_sent_time": "13:00:04.402",
+                "order_received_time": "13:00:04.524",
+                "currency_pair": "SDM-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_sell_price": "0.06222",
+                "order_sent_time": "13:00:04.403",
+                "order_received_time": "13:00:04.580",
+                "currency_pair": "SDM-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_sell_price": "0.06222",
+                "order_sent_time": "13:00:04.404",
+                "order_received_time": "13:00:04.516",
+                "currency_pair": "SDM-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_sell_price": "0.06222",
+                "order_sent_time": "13:00:04.404",
+                "order_received_time": "13:00:04.524",
+                "currency_pair": "SDM-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_sell_price": "0.06222",
+                "order_sent_time": "13:00:04.405",
+                "order_received_time": "13:00:04.515",
+                "currency_pair": "SDM-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_sell_price": "0.06222",
+                "order_sent_time": "13:00:04.406",
+                "order_received_time": "13:00:04.516",
+                "currency_pair": "SDM-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_sell_price": "0.06222",
+                "order_sent_time": "13:00:04.407",
+                "order_received_time": "13:00:04.508",
+                "currency_pair": "SDM-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_sell_price": "0.06222",
+                "order_sent_time": "13:00:04.407",
+                "order_received_time": "13:00:04.544",
+                "currency_pair": "SDM-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_sell_price": "0.06222",
+                "order_sent_time": "13:00:04.408",
+                "order_received_time": "13:00:04.537",
+                "currency_pair": "SDM-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_sell_price": "0.06222",
+                "order_sent_time": "13:00:04.409",
+                "order_received_time": "13:00:04.532",
+                "currency_pair": "SDM-USDT",
+                "order_size": "55"
+            }
+        ]
+    },
+    "trading_session": {
+        "start_time": "2024-11-28T12:59:30.100531",
+        "symbol": "SDM-USDT",
+        "end_time": "2024-11-28T13:00:04.582616"
+    },
+    "error": "'makerOrderId'"
+}

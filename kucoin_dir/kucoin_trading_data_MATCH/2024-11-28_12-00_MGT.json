@@ -1,0 +1,228 @@
+{
+    "buy_orders": {
+        "trigger_data": {
+            "price": "0.035",
+            "side": "buy",
+            "time_received": "12:00:00.077",
+            "makerOrderId": "67483dbdb26bfb000792ee4b"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Symbol MGT-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.03535",
+                "order_sent_time": "12:00:00.078",
+                "order_received_time": "12:00:00.333",
+                "currency_pair": "MGT-USDT",
+                "order_size": "110"
+            },
+            {
+                "success": true,
+                "execution_time": 0.26883,
+                "limit_buy_price": "0.0357",
+                "order_id": "67485b405a55500007814750",
+                "order_sent_time": "12:00:00.086",
+                "order_received_time": "12:00:00.355",
+                "currency_pair": "MGT-USDT",
+                "order_size": "110"
+            },
+            {
+                "success": false,
+                "message": "Symbol MGT-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.03605",
+                "order_sent_time": "12:00:00.088",
+                "order_received_time": "12:00:00.312",
+                "currency_pair": "MGT-USDT",
+                "order_size": "110"
+            },
+            {
+                "success": false,
+                "message": "Symbol MGT-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.0364",
+                "order_sent_time": "12:00:00.088",
+                "order_received_time": "12:00:00.331",
+                "currency_pair": "MGT-USDT",
+                "order_size": "110"
+            },
+            {
+                "success": true,
+                "execution_time": 0.27233,
+                "limit_buy_price": "0.03675",
+                "order_id": "67485b40b26bfb00074ed4c2",
+                "order_sent_time": "12:00:00.090",
+                "order_received_time": "12:00:00.363",
+                "currency_pair": "MGT-USDT",
+                "order_size": "110"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_buy_price": "0.0371",
+                "order_sent_time": "12:00:00.092",
+                "order_received_time": "12:00:00.552",
+                "currency_pair": "MGT-USDT",
+                "order_size": "110"
+            },
+            {
+                "success": true,
+                "execution_time": 0.28054,
+                "limit_buy_price": "0.03745",
+                "order_id": "67485b405a5550000781474f",
+                "order_sent_time": "12:00:00.092",
+                "order_received_time": "12:00:00.373",
+                "currency_pair": "MGT-USDT",
+                "order_size": "110"
+            },
+            {
+                "success": true,
+                "execution_time": 0.25234,
+                "limit_buy_price": "0.0378",
+                "order_id": "67485b40e21c74000704c685",
+                "order_sent_time": "12:00:00.092",
+                "order_received_time": "12:00:00.345",
+                "currency_pair": "MGT-USDT",
+                "order_size": "110"
+            },
+            {
+                "success": false,
+                "message": "Symbol MGT-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.03815",
+                "order_sent_time": "12:00:00.096",
+                "order_received_time": "12:00:00.401",
+                "currency_pair": "MGT-USDT",
+                "order_size": "110"
+            },
+            {
+                "success": true,
+                "execution_time": 0.2652,
+                "limit_buy_price": "0.0385",
+                "order_id": "67485b40dcdd7b00078a3493",
+                "order_sent_time": "12:00:00.097",
+                "order_received_time": "12:00:00.362",
+                "currency_pair": "MGT-USDT",
+                "order_size": "110"
+            }
+        ]
+    },
+    "sell_orders": {
+        "trigger_data": {
+            "price": "0.07242",
+            "side": "sell",
+            "time_received": "12:00:27.228",
+            "makerOrderId": "67485b5a8b053b00075dda47"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.07387",
+                "order_sent_time": "12:00:27.234",
+                "order_received_time": "12:00:27.427",
+                "currency_pair": "MGT-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.07387",
+                "order_sent_time": "12:00:27.235",
+                "order_received_time": "12:00:27.445",
+                "currency_pair": "MGT-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.07387",
+                "order_sent_time": "12:00:27.235",
+                "order_received_time": "12:00:27.459",
+                "currency_pair": "MGT-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": true,
+                "execution_time": 0.2015,
+                "limit_sell_price": "0.07387",
+                "order_id": "67485b5b725fc600077b2948",
+                "order_sent_time": "12:00:27.236",
+                "order_received_time": "12:00:27.437",
+                "currency_pair": "MGT-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.07387",
+                "order_sent_time": "12:00:27.236",
+                "order_received_time": "12:00:27.446",
+                "currency_pair": "MGT-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.07387",
+                "order_sent_time": "12:00:27.237",
+                "order_received_time": "12:00:27.450",
+                "currency_pair": "MGT-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.07387",
+                "order_sent_time": "12:00:27.238",
+                "order_received_time": "12:00:27.604",
+                "currency_pair": "MGT-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": true,
+                "execution_time": 0.18441,
+                "limit_sell_price": "0.07387",
+                "order_id": "67485b5b1adbea000723f5cf",
+                "order_sent_time": "12:00:27.238",
+                "order_received_time": "12:00:27.423",
+                "currency_pair": "MGT-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.07387",
+                "order_sent_time": "12:00:27.240",
+                "order_received_time": "12:00:27.464",
+                "currency_pair": "MGT-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.07387",
+                "order_sent_time": "12:00:27.240",
+                "order_received_time": "12:00:27.479",
+                "currency_pair": "MGT-USDT",
+                "order_size": "55"
+            }
+        ]
+    },
+    "trading_session": {
+        "start_time": "2024-11-28T11:59:30.097511",
+        "symbol": "MGT-USDT",
+        "end_time": "2024-11-28T12:00:27.605506"
+    },
+    "error": "'makerOrderId'"
+}

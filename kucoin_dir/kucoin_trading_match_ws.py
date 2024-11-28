@@ -13,6 +13,7 @@ import re
 from kucoin_websocket_listen_DEV import KucoinWebsocketListen
 from kucoin_match_order_strategy_V2 import KucoinStrategyTrader
 from kucoin.exceptions import KucoinAPIException
+import requests
 
 # Configure logging
 logger = logging.getLogger(__name__)
@@ -35,21 +36,34 @@ LOCK_FILE = '/tmp/kucoin_trading_match_ws.lock'
 async def main():
     lock_file = acquire_lock()
     directory = '/root/trading_systems/kucoin_dir/new_pair_data_kucoin'
-
+    path_to_save = '/root/trading_systems/kucoin_dir/kucoin_trading_data_MATCH'
+    
+    
+    testing = False
+    testing_pair = 'XRPUSDT'
+    testing_relesease_time = datetime.now() + timedelta(seconds= 60) #'Sep 15 2021  3:00PM'
+    testing_relesease_time = testing_relesease_time.replace(second=0)
     try:  
         async def execution(new_pair_dict):
             logger.debug("Starting script")
-            price_increase_buy = -20
+            price_increase_buy = 1
             price_increase_sell = 2
 
-            number_of_orders_buy = 3
-            number_of_orders_sell = 5
+            num_orders_buy = 10
+            num_orders_sell = 10
     
             api_creds = load_credetials()
             basecoin, release_date_time, datetime_to_listing_seconds = parse_new_pair_dict(new_pair_dict)
             logger.info(f'Detected new pair {new_pair_dict["pair"]} at {new_pair_dict["date_time_string"]}')
             logger.info(f"{datetime_to_listing_seconds} until listing sleep {datetime_to_listing_seconds-30}")
             await asyncio.sleep(datetime_to_listing_seconds-30)
+
+            try:
+                logger.info(f"Token info:\n{token_info(basecoin)}")
+            except Exception as e:
+                logger.error(f"getting token info: {token_info(basecoin)}")
+                traceback.print_exc()
+
 
             try:
                 symbol = f'{basecoin}'
@@ -62,28 +76,23 @@ async def main():
 
                 try:
                     marker_first = False    
-                    end_time = datetime.now() + timedelta(minutes=2)
+                    end_time = datetime.now() + timedelta(minutes=5)
                     
                     while datetime.now() < end_time:
                         market_data = await ws_match.get_data()
                         if not marker_first:
                             marker_first = True
-                            logger.info(f'check if data loop starts for {symbol}')
+                            logger.info(f'loop starts for {symbol}')
                         
                         if market_data:
-                            # Handle buy orders
-                            if not strategy.second_order_placed:
-                                await strategy.buy_first_and_second_match(number_of_orders_buy, market_data,price_increase_buy )
-                            
-                            # Handle sell orders when market data shows sell side
-                            if market_data['side'] == 'sell' and not strategy.second_sell_order_placed:
-                                await strategy.sell_on_first_sell_order(number_of_orders_sell, market_data, price_increase_sell)
-                            
-                            # Break if both buy and sell cycles are complete
-                            if strategy.second_order_placed and strategy.second_sell_order_placed:
+                            strategy_result = await strategy.strategy(num_orders_buy, 
+                                                                      num_orders_sell, 
+                                                                      market_data, 
+                                                                      price_increase_sell,
+                                                                      price_increase_buy)
+                            if strategy_result:
+                                logger.info(strategy_result)
                                 break
-                        # else:
-                        #     print('no data')
                         await asyncio.sleep(0.0001)
                 except asyncio.TimeoutError:
                     logger.info('No data in queue')
@@ -91,7 +100,7 @@ async def main():
 
                 finally:
                     # Save trading data and cleanup
-                    strategy.save_trading_data()
+                    strategy.save_trading_data(path_to_save)
                     await ws_match.cleanup()
                     await strategy.close_client()
 
@@ -99,15 +108,22 @@ async def main():
                 logger.error(f"executing strategy: {str(e)}")
                 traceback.print_exc()
 
+        if not testing:
+            pairs_close_to_release = check_if_for_releases(directory)
+            
+            tasks_to_execute = []
+            for new_pair_dict in pairs_close_to_release:
 
-        pairs_close_to_release = check_if_for_releases(directory)
+                tasks_to_execute.append(asyncio.create_task(execution(new_pair_dict)))
+            
+            await asyncio.gather(*tasks_to_execute)
         
-        tasks_to_execute = []
-        for new_pair_dict in pairs_close_to_release:
-
-            tasks_to_execute.append(asyncio.create_task(execution(new_pair_dict)))
-        
-        await asyncio.gather(*tasks_to_execute)
+        if testing:
+            new_pair_dict = {
+                "pair": testing_pair,
+                "date_time_string": testing_relesease_time.strftime('%b %d %Y %I:%M%p')
+            }
+            await execution(new_pair_dict)
 
 
     finally:
@@ -128,12 +144,36 @@ def check_if_for_releases(directory):
                 basecoin, release_date_time, datetime_to_listing_seconds = parse_result
 
                 if 0 < datetime_to_listing_seconds < 1200:
-                    pairs_to_trade.append(new_pair_dict)
+                    if new_pair_dict['tag'] == 'initial_listing':
+                        pairs_to_trade.append(new_pair_dict)                    
     except Exception as e:
         logger.error(f"parsings directory for new pairs: {e}")
         traceback.print_exc()
     return pairs_to_trade
 
+
+def token_info(basecoin):
+    # Define the API endpoint
+    url = 'https://api.kucoin.com/api/v1/symbols'
+
+    # Send a GET request to the endpoint
+    response = requests.get(url)
+
+    # Check if the request was successful
+    if response.status_code == 200:
+        data = response.json()
+        symbols = data['data']
+
+        
+        # Find the minimal order size for a specific token pair
+        pair = f'{basecoin}-USDT'  # Replace with your token pair
+        for symbol in symbols:
+            if symbol['symbol'] == pair:
+                print(f"Pair: {pair}")
+                return json.dumps(symbol,indent =4)
+    else:
+        print(f"Failed to retrieve data")
+        return response.status_code
 
 def acquire_lock():
     """Acquire a file lock to prevent multiple instances from running."""

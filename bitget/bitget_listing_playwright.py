@@ -11,7 +11,7 @@ import json
 
 # Configure logging
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
+logger.setLevel(logging.DEBUG)
 console_handler = logging.StreamHandler()
 formatter = logging.Formatter('%(asctime)s.%(msecs)03d - %(levelname)s - %(message)s - %(funcName)s', datefmt='%H:%M:%S')
 console_handler.setFormatter(formatter)
@@ -23,8 +23,11 @@ def main():
     path_found_pairs_saved = '/root/trading_systems/bitget/new_pair_data_bitget'
 
     with sync_playwright() as p:
+        user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
         browser = p.chromium.launch(headless=True)
-        context = browser.new_context()
+        # context = browser.new_context()
+        context = browser.new_context(
+            user_agent=user_agent)
         page = context.new_page()
 
         try:
@@ -33,6 +36,7 @@ def main():
             sections = page.query_selector_all('//*[@id="support-main-area"]/div/div/div[3]/div[2]/div/div[1]/div/section')
             counter = 0
             full_url_list = []
+        
             # Retrieve all the listings by checking the headline of the announcement
             for section in sections:
                 try:
@@ -62,6 +66,7 @@ def main():
                     logger.debug('------------------------------------')
             except Exception as e:
                 logger.error(f"when extracting or saving listing info: {e}")
+                traceback.print_exc()
 
 
         except Exception as e:
