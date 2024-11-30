@@ -25,7 +25,7 @@ def check_spot_orders():
     data_json = json.dumps(data)
     
     # Generate signature
-    str_to_sign = str(now) + 'GET' + '/api/v1/orders' + '?status=active'
+    str_to_sign = str(now) + 'GET' + '/api/v1/orders' + data_json
     signature = base64.b64encode(
         hmac.new(api_secret.encode('utf-8'), 
                 str_to_sign.encode('utf-8'), 

@@ -10,10 +10,16 @@ from datetime import datetime
 import logging
 import json
 from concurrent.futures import ThreadPoolExecutor
+from datetime import timedelta
 
-logging.basicConfig(level=logging.ERROR,
-                   format='%(asctime)s - %(levelname)s - %(message)s')
+
 logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+console_handler = logging.StreamHandler()
+formatter = logging.Formatter('%(asctime)s.%(msecs)03d - %(levelname)s - %(message)s - %(funcName)s', datefmt='%H:%M:%S')
+console_handler.setFormatter(formatter)
+logger.addHandler(console_handler)
+logger.propagate = False
 
 class KucoinHFOrderManager:
     def __init__(self, api_key: str, api_secret: str, api_passphrase: str, debug: bool = False):
@@ -35,8 +41,18 @@ class KucoinHFOrderManager:
         
         self.executor = ThreadPoolExecutor(max_workers=4)
         self.session = None
-        self.placed_limit_buy = []
-        self.placed_limit_sell = []
+        self.placed_limit_buy_id = []
+        self.placed_limit_sell_id = []
+        
+        # track order that are succefully placed
+        self.filled_buy_orders = []
+        self.filled_sell_orders = []
+        
+        self.succesfully_palce_order_ids =[]
+    
+    def log_timestamp(self):
+        """Simple utility function to log timestamps"""
+        return datetime.now().strftime('%H:%M:%S.%f')[:-2]
 
 
     async def _init_session(self):
@@ -74,6 +90,7 @@ class KucoinHFOrderManager:
             raise
         
 
+
     def _prepare_order_data(self, symbol: str, side: str, price: str, size: str, 
                              time_in_force: str = "GTC") -> Dict:
         """Standardized order data preparation"""
@@ -87,7 +104,11 @@ class KucoinHFOrderManager:
             "timeInForce": time_in_force
         }
 
-    def _process_order_response(self, response: Dict, start_time: float, 
+
+
+
+
+    async def _process_order_response(self, response: Dict, start_time: float, 
                                 symbol: str, side: str, price: str, 
                                 size: str, order_sent_time: str) -> Dict:
         """Process and standardize order response"""
@@ -99,16 +120,26 @@ class KucoinHFOrderManager:
                 "success": True,
                 "execution_time": round(execution_time, 5),
                 f"limit_{side}_price": price,
-                "order_id": response.get('data', {}).get('orderId', 'unknown'),
+                "orderId": response.get('data', {}).get('orderId', 'unknown'),
+                "clientOid": response.get('data', {}).get('clientOid', 'unknown'),
                 "order_sent_time": order_sent_time,
                 "order_received_time": order_received_time,
                 "currency_pair": symbol,
                 "order_size": size
             }
             if side == 'buy':
-                self.placed_limit_buy.append(order_result)
+                logger.debug(f'befor creating check orderfill class {self.log_timestamp()}')
+                asyncio.create_task(self.check_if_order_filled(response.get('data', {}).get('orderId'),order_side='buy'))
+                logger.debug(f'after creating orderfill class {self.log_timestamp()}')
+
+            if side == 'sell':
+                logger.debug(f'befor creating check orderfill class {self.log_timestamp()}')
+                asyncio.create_task(self.check_if_order_filled(response.get('data', {}).get('orderId'),order_side='sell'))
+                logger.debug(f'after creating orderfill class {self.log_timestamp()}')
+
+                
             else:
-                self.placed_limit_sell.append(order_result)
+                self.placed_limit_sell_id.append(order_result['orderId'])
             return order_result
         
         return {
@@ -147,6 +178,13 @@ class KucoinHFOrderManager:
             logger.error(f"Request error: {str(e)}")
             raise
 
+
+
+
+
+
+
+
     async def place_limit_order(self, symbol: str, side: str, price: str, size: str, 
                                  time_in_force: str = "GTC") -> Dict:
         """Unified method for placing limit orders"""
@@ -156,10 +194,12 @@ class KucoinHFOrderManager:
         try:
             order_data = self._prepare_order_data(symbol, side, price, size, time_in_force)
             response = await self._make_request("POST", "/api/v1/hf/orders", order_data)
+            #logger.debug(f"check orderId to append to order succesfull: {response.get('data',{}).get('orderId')}\n")
+            self.succesfully_palce_order_ids.append(response.get('data',{}).get('orderId')) 
             
-            return self._process_order_response(
+            return await asyncio.create_task(self._process_order_response(
                 response, start_time, symbol, side, price, size, order_sent_time
-            )
+            ))
 
         except Exception as e:
             order_received_time = datetime.now().strftime('%H:%M:%S.%f')[:-3]
@@ -173,6 +213,9 @@ class KucoinHFOrderManager:
                 "currency_pair": symbol,
                 "order_size": size
             }
+
+
+
 
 
 
@@ -192,12 +235,12 @@ class KucoinHFOrderManager:
             
 
             # Remove cancelled order from tracking lists
-            self.placed_limit_buy = [
-                order for order in self.placed_limit_buy 
+            self.placed_limit_buy_id = [
+                order for order in self.placed_limit_buy_id 
                 if order['order_id'] != order_id
             ]
-            self.placed_limit_sell = [
-                order for order in self.placed_limit_sell 
+            self.placed_limit_sell_id = [
+                order for order in self.placed_limit_sell_id 
                 if order['order_id'] != order_id
             ]
             
@@ -231,8 +274,8 @@ class KucoinHFOrderManager:
             response = await self._make_request("DELETE", endpoint)
             
             # Clear tracking lists
-            self.placed_limit_buy.clear()
-            self.placed_limit_sell.clear()
+            self.placed_limit_buy_id.clear()
+            self.placed_limit_sell_id.clear()
             
             return response
         
@@ -288,16 +331,129 @@ class KucoinHFOrderManager:
             logger.error(f"Error retrieving order status: {str(e)}")
             return {"error": str(e)}
 
-    async def get_limit_fills(self) -> Dict:
+    async def all_filled_orders_last_24H(self) -> Dict:
         """Retrieve limit order fills"""
         endpoint = "/api/v1/limit/fills"
-        return await self._make_request("GET", endpoint)
+        try:
+            result= await self._make_request("GET", endpoint)
+            if result.get('code') == '200000':
+                return result.get('data', [])
+            else:
+                return result
+        except Exception as e:
+            logger.error(f"Error retrieving all filled orders: {str(e)}")
+            return result
+
+
+
+    async def check_if_order_filled(self, order_id: str,order_side: str = 'buy') -> Dict:
+            """Internal async function to check order fill status"""
+            #waiting until order in the sysntem
+            await asyncio.sleep(1)
+            end_time = datetime.now() + timedelta(seconds=30)
+            
+            while datetime.now() < end_time:
+                try:
+                    # Get all filled orders in the last 24 hours
+                    list_of_orders = await self.all_filled_orders_last_24H()
+                    
+                    # Search for the specific order
+                    for order in list_of_orders:
+                        if order.get('orderId') == order_id:
+                            if order_side == 'buy':
+                                self.filled_buy_orders.append(order)
+                                return order
+                            if order_side == 'sell':
+                                self.filled_sell_orders.append(order)
+                                return order
+                    
+                    # Short sleep to prevent overwhelming the API
+                    await asyncio.sleep(0.5)
+                
+                except Exception as e:
+                    logger.error(f"Error in order fill check: {e}")
+                    return None
+            
+
+
+    async def performance_snapshot(self, basecoin: str) -> Dict:
+        """
+        Analyze trading performance for a specific base coin.
+        Args:
+            basecoin (str): Base coin symbol (e.g., 'XRP')
+        Returns:
+            Dict: Performance summary for the specified trading pair
+        """
+        # Construct full symbol
+        symbol = f"{basecoin}-USDT"
+        # Get filled orders from last 24 hours
+        filled_orders = await self.all_filled_orders_last_24H()
+        # Filter orders for the specific symbol
+        symbol_orders = [order for order in filled_orders if order['symbol'] == symbol]
+        # Performance tracking
+        performance = {
+            'symbol': symbol,
+            'total_trades': len(symbol_orders),
+            'buy_trades': 0,
+            'sell_trades': 0,
+            'total_volume': 0,
+            'USDT_buy': 0,
+            'USDT_sell': 0,
+            'total_profit_loss': 0,
+            'profit_loss_percentage': 0
+        }
+        # Track buy and sell trades
+        buy_entries = []
+        sell_exits = []
+        
+        for trade in symbol_orders:
+            # Update trade counts and volume
+            side = trade['side']
+            size = float(trade['size'])
+            price = float(trade['price'])
+            funds = float(trade['funds'])
+            
+            performance['total_volume'] += size
+            
+            if side == 'buy':
+                performance['buy_trades'] += 1
+                performance['USDT_buy'] += funds
+                buy_entries.append({'price': price, 'size': size, 'funds': funds})
+            else:  # sell
+                performance['sell_trades'] += 1
+                performance['USDT_sell'] += funds
+                sell_exits.append({'price': price, 'size': size, 'funds': funds})
+        
+        # Calculate profit/loss
+        if buy_entries and sell_exits:
+            # Simple average cost and selling price calculation
+            avg_buy_price = sum(entry['price'] * entry['size'] for entry in buy_entries) / sum(entry['size'] for entry in buy_entries)
+            avg_sell_price = sum(exit['price'] * exit['size'] for exit in sell_exits) / sum(exit['size'] for exit in sell_exits)
+            
+            # Assume total traded size is the same
+            total_traded_size = min(sum(entry['size'] for entry in buy_entries), 
+                                    sum(exit['size'] for exit in sell_exits))
+            
+            # Calculate profit/loss
+            total_profit_loss = (avg_sell_price - avg_buy_price) * total_traded_size
+            performance['total_profit_loss'] = round(total_profit_loss, 2)
+            
+            # Calculate profit/loss percentage
+            # Use total buy funds as the base for percentage calculation
+            total_buy_funds = sum(entry['funds'] for entry in buy_entries)
+            performance['profit_loss_percentage'] = round((total_profit_loss / total_buy_funds) * 100, 2)
+        
+        return performance
+    
+
 
     async def close(self):
         """Close the aiohttp session and thread pool"""
         if self.session:
             await self.session.close()
         self.executor.shutdown(wait=False)
+
+
 
 
 
@@ -319,24 +475,48 @@ async def main():
             {
                 "symbol": "XRP-USDT",
                 "side": "buy",
-                "price": "0.9",
-                "size": "11"
+                "price": "2",
+                "size": "1"
             },
             {
-                "symbol": "DOGE-USDT",
+                "symbol": "XRP-USDT",
                 "side": "buy",
-                "price": "0.1",
-                "size": "11"
+                "price": "2",
+                "size": "1.5"
+            },
+            {
+                "symbol": "XRP-USDT",
+                "side": "sell",
+                "price": "1",
+                "size": "1"
             }
         ]
+        logger.debug('place multiple orders')
+        print(json.dumps(await trader.place_multiple_orders(orders),indent=4))
+        logger.debug('place multiple orders done')
 
-        print(json.dumps(await trader.get_limit_fills(),indent=4))
+        logger.debug('check if order filled')
+        end_time = datetime.now() + timedelta(seconds= 10)
+        while datetime.now() < end_time:
+            await asyncio.sleep(3)
+            if trader.filled_buy_orders:
+                print(f'filled BUY orders:{json.dumps(trader.filled_buy_orders,indent=4)}')
+            if trader.filled_sell_orders:
+                print(f'filled SELL orders:{json.dumps(trader.filled_sell_orders,indent=4)}')
+
+
+
 
         #print(await trader.get_order_status('6748d44bb6d5080007087831'))
         
+        #        print(json.dumps(await trader.all_filled_orders_last_24H(),indent=4))
         #print(await trader.place_multiple_orders(orders))
 
+        #print('succesful order funtion retrun: ',json.dumps(await trader.succesfull_sent_and_filled(),indent=4))
+
         #print(await trader.cancel_order_by_id('6748d1f78b053b000735f1f6'))
+
+
         #print(await trader.place_multiple_orders(orders))
 
         #print(json.dumps(await trader.get_limit_fills(),indent=4))
@@ -346,7 +526,7 @@ async def main():
         # await trader.cancel_order(cancel_type='buy')
 
         # # Cancel all sell orders
-        print (await trader.cancel_all_orders())
+        #print (await trader.cancel_all_orders())
         # # # Clean up
         await trader.close()
 

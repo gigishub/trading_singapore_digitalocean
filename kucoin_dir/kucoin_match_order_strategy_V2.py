@@ -3,8 +3,11 @@ import json
 from datetime import datetime
 import logging
 from typing import Dict, List
-from kucoin_order_manager import kucoinHForderManager
+from kucoin_order_managerV2 import KucoinHFOrderManager
 import os
+import traceback
+from datetime import timedelta
+
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
@@ -15,9 +18,11 @@ logger.addHandler(console_handler)
 logger.propagate = False
 
 class KucoinStrategyTrader:
-    def __init__(self, symbol: str, api_key: str, api_secret: str, api_passphrase: str):
-        self.trading_client = kucoinHForderManager(api_key, api_secret, api_passphrase)
-        self.symbol = symbol + "-USDT"
+    def __init__(self, basecoin: str, api_key: str, api_secret: str, api_passphrase: str):
+        self.trading_client = KucoinHFOrderManager(api_key, api_secret, api_passphrase)
+        self.succesfully_palced_order_ids = self.trading_client.succesfully_palce_order_ids
+        self.symbol = basecoin + "-USDT"
+        self.basecoin = basecoin
         
         # Essential state tracking
         self.price_first_match = None
@@ -26,17 +31,19 @@ class KucoinStrategyTrader:
         self.second_sell_order_placed = False
 
         self.first_buy_match_price = None
+        self.enable_performance_snapshot = False
 
         self.sellcounter = 0
         
         # Trade data storage
         self.trade_data = {
-            "buy_orders": {},
-            "sell_orders": {},
             "trading_session": {
                 "start_time": datetime.now().isoformat(),
                 "symbol": self.symbol
-            }
+            },
+            "trade_performance": {},
+            "buy_orders": {},
+            "sell_orders": {},
         }
 
     async def multiple_buy_orders_percent_dif(self, base_price: float, num_orders: int, 
@@ -118,41 +125,6 @@ class KucoinStrategyTrader:
             results = await asyncio.gather(*task_objects)
             for label, result in zip(labels, results):
                 self.trade_data["buy_orders"][label]["orders"] = result
-
-
-
-
-    async def sell_on_first_sell_order(self, num_orders: int, market_data: dict, percentage_difference: float):
-        current_price = float(market_data['price'])
-        tasks = []
-        
-        if self.first_sell_price is None:
-            self.first_sell_price = current_price
-            first_sell_task = asyncio.create_task(
-                self.multiple_sell_orders_percent_dif(current_price, num_orders, percentage_difference)
-            )
-            tasks.append(('first_group', first_sell_task))
-            self.trade_data["sell_orders"]["first_group"] = {
-                "trigger_data": {k: market_data[k] for k in ['price', 'side', 'time_received']}
-                # "orders" will be added after the task completes
-            }
-            
-        elif not self.second_sell_order_placed and current_price != self.first_sell_price:
-            second_sell_task = asyncio.create_task(
-                self.multiple_sell_orders_percent_dif(current_price, num_orders, percentage_difference)
-            )
-            tasks.append(('second_group', second_sell_task))
-            self.trade_data["sell_orders"]["second_group"] = {
-                "trigger_data": {k: market_data[k] for k in ['price', 'side', 'time_received']}
-                # "orders" will be added after the task completes
-            }
-            self.second_sell_order_placed = True
-
-        if tasks:
-            labels, task_objects = zip(*tasks)
-            results = await asyncio.gather(*task_objects)
-            for label, result in zip(labels, results):
-                self.trade_data["sell_orders"][label]["orders"] = result
 
 
 
@@ -243,7 +215,7 @@ class KucoinStrategyTrader:
                 }
             self.trade_data["buy_orders"]["orders_sent"] = first_buyprice
 
-            return True
+            return first_buyprice
 
 
     async def sell_on_5_sell_in_a_row(self,num_orders_sell:int, market_data: dict, percentage_difference: float):
@@ -263,6 +235,15 @@ class KucoinStrategyTrader:
 
             return True
 
+    async def delete_unfilled_orders(self, seconds_delay:int,buy_result:List[Dict]):
+        '''delete unfilled ordered with time delay from creation'''
+        await asyncio.sleep(seconds_delay)
+        for result in buy_result:
+            if result['success'] == True:
+                logger.info(f"Attempt to delete orderId: {result['orderId']} delted")
+                await self.trading_client.cancel_order_by_id(result['orderId'])
+
+
     async def strategy(self,num_orders_buy:int,
                        num_orders_sell:int ,
                        market_data: dict, 
@@ -270,27 +251,41 @@ class KucoinStrategyTrader:
                        percentage_diff_buy: float):
         
         try:
+            delete_buy_order_task = None
             if not self.first_buy_match_price:
                 result_buy = await self.buy_if_makerOrderId(num_orders_buy, market_data, percentage_diff_buy)
                 if result_buy:
-                    logger.info(json.dumps(self.trade_data,indent=4))
+                    #logger.info(json.dumps(self.trade_data,indent=4))
+                    delete_buy_order_task =asyncio.create_task(self.delete_unfilled_orders(4,result_buy))
+
+
+                    # if buy rult orders are not filled in 5 seconds, cancel them
+                    
 
             if self.first_buy_match_price:
                 result_sell = await self.sell_on_5_sell_in_a_row(num_orders_sell,market_data, percentage_diff_sell)
                 if result_sell:
-                    logger.info(json.dumps(self.trade_data,indent=4))
-                    return True
+                    #logger.info(json.dumps(self.trade_data,indent=4))
+                    if delete_buy_order_task:
+                        try:
+                            await asyncio.wait_for(delete_buy_order_task,timeout=5)
+                        except asyncio.TimeoutError:
+                            logger.info("Timeout reached, buy orders not deleted")
+                            pass
+                    self.enable_performance_snapshot = True
+            if self.enable_performance_snapshot:
+                self.trade_data['trade_performance'] = await self.trading_client.performance_snapshot(self.basecoin)
+                self.trade_data['buy_orders']['filled_orders'] = self.trading_client.filled_buy_orders
+                self.trade_data['sell_orders']['filled_orders'] = self.trading_client.filled_sell_orders
+                #waiting period for filled orders to be updated
+                await asyncio.sleep(5)
+                return True
+
+        
         except Exception as e:
             self.trade_data['error'] = str(e)
             logger.error(f"Error in strategy: {e}")
-
-
-                    
-        
-                
-
-        
-
+            traceback.print_exc()
 
 
 async def main():
@@ -303,12 +298,12 @@ async def main():
         api_creds = json.load(file)
 
     # Initialize trading components
-    symbol = "XRP"
-    strategy = KucoinStrategyTrader(symbol, api_creds['api_key'], 
+    basecoin = "FET"
+    strategy = KucoinStrategyTrader(basecoin, api_creds['api_key'], 
                                   api_creds['api_secret'], 
                                   api_creds['api_passphrase'])
     
-    ws_match = KucoinWebsocketListen(symbol, channel='match')
+    ws_match = KucoinWebsocketListen(basecoin, channel='match')
     run_match = asyncio.create_task(ws_match.start())
 
     try:
@@ -318,16 +313,14 @@ async def main():
             market_data = await ws_match.get_data()
             
             if market_data:
-                print(json.dumps(market_data,indent=4))
-                strategy_result = await strategy.strategy(3,5,market_data,20,-20)
+                #print(json.dumps(market_data,indent=4))
+                strategy_result = await strategy.strategy(3,3,market_data,10,-10)
                 if strategy_result:
                     strategy.save_trading_data('/root/trading_systems/kucoin_dir/taibdabidbnai')
                     break
                     
 
             await asyncio.sleep(0.0001)
-            
-            
 
 
     finally:

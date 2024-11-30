@@ -42,7 +42,7 @@ async def main():
     testing = False
     testing_pair = 'XRPUSDT'
     testing_relesease_time = datetime.now() + timedelta(seconds= 60) #'Sep 15 2021  3:00PM'
-    testing_relesease_time = testing_relesease_time.replace(second=0)
+    testing_relesease_time = testing_relesease_time.replace(microsecond=0)
     try:  
         async def execution(new_pair_dict):
             logger.debug("Starting script")

@@ -5429,3 +5429,1583 @@ World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
 Trading: 11:00 on NovemTber 27, 2024 (UTC)
 
 11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarytime data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M' - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+  File "/usr/lib/python3.10/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/lib/python3.10/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data 'NovemTber 27, 2024 11:00' does not match format '%B %d, %Y %H:%M'
+World of Dypians (WOD) Gets Listed on KuCoin! World Premiere!
+
+Trading: 11:00 on NovemTber 27, 2024 (UTC)
+
+11/25/2024, 10:00:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02
+ERROR - creating announcment dictonarylocal variable 'trading_date' referenced before assignment - main
+Traceback (most recent call last):
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 35, in main
+    announcement_dict = create_announcement_dict(element)
+  File "/root/trading_systems/kucoin_dir/kucoin_listing_playwright.py", line 108, in create_announcement_dict
+    trading_datetime = datetime.strptime(f"{trading_date} {trading_time}", "%B %d, %Y %H:%M")
+UnboundLocalError: local variable 'trading_date' referenced before assignment
+Wise Monkey (MONKY) Gets Listed on KuCoin! World Premiere!
+
+Trading: December 12, 2024 (UTC)
+
+11/29/2024, 15:12:02

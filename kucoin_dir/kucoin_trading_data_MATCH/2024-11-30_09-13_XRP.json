@@ -1,0 +1,103 @@
+{
+    "trading_session": {
+        "start_time": "2024-11-30T09:12:51.576487",
+        "symbol": "XRP-USDT",
+        "end_time": "2024-11-30T09:13:17.812691"
+    },
+    "trade_performance": {
+        "symbol": "XRP-USDT",
+        "total_trades": 83,
+        "buy_trades": 58,
+        "sell_trades": 25,
+        "total_volume": 169.0,
+        "USDT_buy": 137.702210826,
+        "USDT_sell": 145.08999038399998,
+        "total_profit_loss": 0.68,
+        "profit_loss_percentage": 0.49
+    },
+    "buy_orders": {
+        "trigger_data": {
+            "price": "1.9105",
+            "side": "sell",
+            "time_received": "09:12:56.449",
+            "makerOrderId": "674ad715439c100007b144bc"
+        },
+        "orders_sent": [
+            {
+                "success": true,
+                "execution_time": 0.14486,
+                "limit_buy_price": "1.796",
+                "orderId": "674ad718812d400007bdc48b",
+                "clientOid": "959e7eba-0257-40af-b135-7149e7a92673",
+                "order_sent_time": "09:12:56.449",
+                "order_received_time": "09:12:56.594",
+                "currency_pair": "XRP-USDT",
+                "order_size": "3"
+            },
+            {
+                "success": true,
+                "execution_time": 0.14457,
+                "limit_buy_price": "1.681",
+                "orderId": "674ad718439c100007b150ed",
+                "clientOid": "85a4c342-6640-4e16-b766-5d6c876e4cc8",
+                "order_sent_time": "09:12:56.450",
+                "order_received_time": "09:12:56.594",
+                "currency_pair": "XRP-USDT",
+                "order_size": "3"
+            },
+            {
+                "success": true,
+                "execution_time": 0.12278,
+                "limit_buy_price": "1.567",
+                "orderId": "674ad718725fc60007da5725",
+                "clientOid": "e93c633d-88e7-4c97-95ee-a0a343ac8c2c",
+                "order_sent_time": "09:12:56.450",
+                "order_received_time": "09:12:56.573",
+                "currency_pair": "XRP-USDT",
+                "order_size": "3"
+            }
+        ],
+        "filled_orders": []
+    },
+    "sell_orders": {
+        "trigger_data": {
+            "price": "1.9085",
+            "side": "sell",
+            "time_received": "09:13:12.556",
+            "makerOrderId": "674ad6cd754b1e0007891525"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.947",
+                "order_sent_time": "09:13:12.556",
+                "order_received_time": "09:13:12.667",
+                "currency_pair": "XRP-USDT",
+                "order_size": "3"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.947",
+                "order_sent_time": "09:13:12.557",
+                "order_received_time": "09:13:12.677",
+                "currency_pair": "XRP-USDT",
+                "order_size": "3"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.947",
+                "order_sent_time": "09:13:12.558",
+                "order_received_time": "09:13:12.657",
+                "currency_pair": "XRP-USDT",
+                "order_size": "3"
+            }
+        ],
+        "filled_orders": []
+    }
+}
