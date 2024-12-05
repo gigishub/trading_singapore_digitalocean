@@ -8,7 +8,7 @@ import time
 
 # Configure logging
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)  # Can be changed to INFO for production
+logger.setLevel(logging.INFO)  # Can be changed to INFO for production
 console_handler = logging.StreamHandler()
 formatter = logging.Formatter('%(asctime)s.%(msecs)03d - %(levelname)s - %(message)s - %(funcName)s', datefmt='%H:%M:%S')
 console_handler.setFormatter(formatter)
@@ -251,9 +251,9 @@ class KucoinWebsocketListen:
         if self._start_time:
             avg_latency = sum(self._latency_samples) / len(self._latency_samples) if self._latency_samples else 0
             
-            logger.info(f"Performance Metrics:")
-            logger.info(f"Average latency: {avg_latency:.2f}ms")
-            logger.info(f"Connection quality: {self._connection_quality:.1f}%")
+            logger.debug(f"Performance Metrics:")
+            logger.debug(f"Average latency: {avg_latency:.2f}ms")
+            logger.debug(f"Connection quality: {self._connection_quality:.1f}%")
 
 
 async def main():

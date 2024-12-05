@@ -1,0 +1,85 @@
+Project Outline: Momentum-Based Trading Strategy
+1. Objectives
+Create a strategy that identifies and trades market momentum.
+Develop a pressure-measuring tool for bid-ask imbalance and order execution speed.
+Incorporate a machine learning (ML) model to refine predictions.
+
+2. Data Collection and Analysis
+Order Book Data:
+Collect bid-ask sizes at different levels and their distances from the current price.
+Track the depth and imbalance of the order book.
+Track spread 
+
+
+
+Order Imbalance:
+Spread: only document the spread 
+Formula:
+Bid Pressure = Sum of bid sizes near the top.
+Ask Pressure = Sum of ask sizes near the top.
+Imbalance = (Bid Pressure - Ask Pressure) / Total Pressure.
+Interpretation:
+Positive Imbalance → Buying pressure.
+Negative Imbalance → Selling pressure.
+
+Matched Prices:
+Monitor executed trades, their sizes, timing, and direction.
+Calculate the rate of order consumption (speed of execution).
+
+Rate of Change (RoC):
+Measure the speed of matched price execution.
+Faster order consumption → Stronger momentum.
+Slower order consumption → Potential reversal.
+
+
+
+3. Finding Support and Resistance:
+Key Levels: Identify significant price levels by searching the order book for prices with a large order size at each level.
+Determining Large Size:
+A large order size is typically defined as an order that is significantly larger than the average size in the order book at that price level.
+Look for sizes that stand out as outliers compared to surrounding orders, indicating potential support or resistance levels.
+Order sizes above a certain threshold (e.g., 1.5x or 2x the average order size at that level) can be considered as large.
+	
+
+4. Scoring System only (all values examples for now )
+Factors and Weights:
+Imbalance (40%).
+Order Size (30%).
+Execution Speed (30%).
+Score Assignments:
+Imbalance: Higher magnitude = Higher score.
+Order Size: Larger sizes at key levels = Higher score.
+Execution Speed: Faster fills near key levels = Higher score.
+Composite Scoring:
+Combine all factors into a weighted score.
+Positive score (e.g., > 0.5): Upward movement likely.
+Negative score (e.g., < -0.5): Downward movement likely.
+
+5. Prediction and Backtesting
+Thresholds for Predictions:
+High positive score → Strong buying signal.
+High negative score → Strong selling signal.
+Backtesting:
+Use historical data to evaluate scoring system accuracy.
+Adjust weights and thresholds based on performance.
+
+6. Real-Time Trading
+Stream live order book and matched price data.
+Continuously calculate scores and update positions:
+High buying pressure → Enter long positions.
+High selling pressure → Enter short positions.
+Use execution speed to time entries.
+
+7. Machine Learning Integration
+Data Preparation:
+Train the model with historical order book snapshots and matched prices.
+Model Predictions:
+Input live data to predict price movement.
+Feedback Loop:
+Compare predictions with actual outcomes to improve model accuracy.
+Use incremental learning for continuous updates.
+
+8. Iteration and Refinement
+Regularly update the scoring system based on new data.
+Retrain the ML model with fresh snapshots for adaptability.
+Optimize system performance through iterative testing and refinement.

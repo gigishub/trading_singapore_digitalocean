@@ -1,0 +1,116 @@
+Level2 - Market Data
+{
+  "id": 1545910660740,
+  "type": "subscribe",
+  "topic": "/market/level2:BTC-USDT",
+  "response": true
+}
+Topic: /market/level2:{symbol},{symbol}...
+
+Push frequency:real-time
+A topic supports up to 100 symbols.
+Subscribe to this topic to get the specified [symbol] (/docs/rest/spot-trading/market-data/get-symbols-list) of Level2 order book data.
+
+When the websocket subscription is successful, the system would send the increment change data pushed by the websocket to you.
+
+{
+  "type": "message",
+  "topic": "/market/level2:BTC-USDT",
+  "subject": "trade.l2update",
+  "data": {
+    "changes": {
+      "asks": [
+        [
+          "18906", //price
+          "0.00331", //size
+          "14103845" //sequence
+        ],
+        ["18907.3", "0.58751503", "14103844"]
+      ],
+      "bids": [["18891.9", "0.15688", "14103847"]]
+    },
+    "sequenceEnd": 14103847,
+    "sequenceStart": 14103844,
+    "symbol": "BTC-USDT",
+    "time": 1663747970273 //milliseconds
+  }
+}
+Calibration procedure：
+
+After receiving the websocket Level 2 data flow, cache the data.
+Initiate a Level 2 request to get the snapshot data of Level 2 order book.
+Playback the cached Level 2 data flow.
+Apply the new Level 2 data flow to the local snapshot to ensure that sequenceStart(new)<=sequenceEnd+1(old) and sequenceEnd(new) > sequenceEnd(old). The sequence on each record in changes only represents the last modification of the corresponding sequence of the price, and does not serve as a basis for judging message continuity.
+Update the level2 full data based on sequence according to the price and size. If the price is 0, ignore the messages and update the sequence. If the size=0, update the sequence and remove the price of which the size is 0 out of level 2. For other cases, please update the price.
+The Change attribute of Level 2 is a string value of "price, size, sequence", namely: ["price", "quantity", "sequence"].
+
+Please note: size refers to the latest size corresponding to price. When the size is 0, the corresponding price needs to be deleted from the order book.
+
+Example
+
+Take BTC/USDT as an example, suppose the current order book data in level 2 is as follows:
+
+After subscribing to the channel, you would receive changes as follows:
+
+...
+"asks":[
+  ["3988.59","3", "16"], // ignore it because sequence = 16
+  ["3988.61","0", "19"], // Remove 3988.61
+  ["3988.62","8", "15"], // ignore it because sequence < 16
+]
+"bids":[
+  ["3988.50", "44", "18"] // Update size of 3988.50 to 44
+]
+"sequenceStart": 19,
+"sequenceEnd": 15,
+...
+TIP
+
+The sequence on each record in changes only represents the last modification of the corresponding sequence of the price, not as a basis for judging the continuity of the message; for example, when there are multiple updates at the same price ["3988.50", "20", "17" "], ["3988.50", "44", "18"], at this time only the latest ["3988.50", "44", "18"] will be pushed
+
+Get a snapshot of the order book through a REST request (Level 2) to build a local order book. Suppose that data we got is as follows:
+
+...
+"sequence": "16",
+"asks":[
+  ["3988.62","8"],//[Price, Size]
+  ["3988.61","32"],
+  ["3988.60","47"],
+  ["3988.59","3"],
+]
+"bids":[
+  ["3988.51","56"],
+  ["3988.50","15"],
+  ["3988.49","100"],
+  ["3988.48","10"]
+]
+...
+The current data on the local order book is as follows:
+
+| Price | Size | Side |
+|---------|-----|------|
+| 3988.62 | 8   | Sell |
+| 3988.61 | 32  | Sell |
+| 3988.60 | 47  | Sell |
+| 3988.59 | 3   | Sell |
+| 3988.51 | 56  | Buy  |
+| 3988.50 | 15  | Buy  |
+| 3988.49 | 100 | Buy  |
+| 3988.48 | 10  | Buy  |
+In the beginning, the sequence of the order book is 16. Discard the feed data of sequence that is below or equals to 16, and apply playback the sequence [18,19] to update the snapshot of the order book. Now the sequence of your order book is 19 and your local order book is up-to-date.
+
+Diff:
+
+Update size of 3988.50 to 44 (Sequence 18)
+Remove 3988.61 (Sequence 19)
+Now your current order book is up-to-date and final data is as follows:
+
+| Price | Size | Side |
+|---------|-----|------|
+| 3988.62 | 8   | Sell |
+| 3988.60 | 47  | Sell |
+| 3988.59 | 3   | Sell |
+| 3988.51 | 56  | Buy  |
+| 3988.50 | 44  | Buy  |
+| 3988.49 | 100 | Buy  |
+| 3988.48 | 10  | Buy  |

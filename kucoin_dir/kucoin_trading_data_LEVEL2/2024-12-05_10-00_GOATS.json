@@ -1,0 +1,59 @@
+{
+    "buy_orders": {
+        "trigger_data": {
+            "changes": {
+                "asks": [
+                    [
+                        "0.333496",
+                        "748",
+                        "298"
+                    ]
+                ],
+                "bids": []
+            },
+            "sequenceEnd": 298,
+            "sequenceStart": 298,
+            "symbol": "GOATS-USDT",
+            "time": 1733392800131,
+            "time_received": "10:00:00.159"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_buy_price": "0.3435",
+                "order_sent_time": "10:00:00.187",
+                "order_received_time": "10:00:00.357",
+                "currency_pair": "GOATS-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Symbol GOATS-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.3535",
+                "order_sent_time": "10:00:00.188",
+                "order_received_time": "10:00:00.339",
+                "currency_pair": "GOATS-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_buy_price": "0.3635",
+                "order_sent_time": "10:00:00.189",
+                "order_received_time": "10:00:00.339",
+                "currency_pair": "GOATS-USDT",
+                "order_size": "11"
+            }
+        ]
+    },
+    "sell_orders": {},
+    "trading_session": {
+        "start_time": "2024-12-05T09:59:30.105831",
+        "symbol": "GOATS-USDT",
+        "end_time": "2024-12-05T10:00:05.358768"
+    }
+}

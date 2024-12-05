@@ -1,0 +1,221 @@
+{
+    "trading_session": {
+        "start_time": "2024-12-02T09:59:30.097071",
+        "symbol": "QUILL-USDT",
+        "end_time": "2024-12-02T10:00:03.210282"
+    },
+    "trade_performance": {
+        "symbol": "QUILL-USDT",
+        "total_trades": 0,
+        "buy_trades": 0,
+        "sell_trades": 0,
+        "total_volume": 0,
+        "USDT_buy": 0,
+        "USDT_sell": 0,
+        "total_profit_loss": 0,
+        "profit_loss_percentage": 0
+    },
+    "buy_orders": {
+        "trigger_data": {
+            "price": "0.6444",
+            "side": "buy",
+            "time_received": "10:00:00.105",
+            "makerOrderId": "674d5cf6f61fa00007fd49f0"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Symbol QUILL-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.6541",
+                "order_sent_time": "10:00:00.107",
+                "order_received_time": "10:00:00.290",
+                "currency_pair": "QUILL-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": false,
+                "message": "Symbol QUILL-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.6637",
+                "order_sent_time": "10:00:00.108",
+                "order_received_time": "10:00:00.282",
+                "currency_pair": "QUILL-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": false,
+                "message": "Symbol QUILL-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.6734",
+                "order_sent_time": "10:00:00.109",
+                "order_received_time": "10:00:00.320",
+                "currency_pair": "QUILL-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": false,
+                "message": "Symbol QUILL-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.6831",
+                "order_sent_time": "10:00:00.109",
+                "order_received_time": "10:00:00.300",
+                "currency_pair": "QUILL-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": false,
+                "message": "Symbol QUILL-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.6927",
+                "order_sent_time": "10:00:00.110",
+                "order_received_time": "10:00:00.296",
+                "currency_pair": "QUILL-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": false,
+                "message": "Symbol QUILL-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.7024",
+                "order_sent_time": "10:00:00.110",
+                "order_received_time": "10:00:00.281",
+                "currency_pair": "QUILL-USDT",
+                "order_size": "7"
+            }
+        ],
+        "filled_orders": []
+    },
+    "sell_orders": {
+        "trigger_data": {
+            "price": "1.6221",
+            "side": "sell",
+            "time_received": "10:00:02.772",
+            "makerOrderId": "674d8521725fc60007fcfc1c"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.655",
+                "order_sent_time": "10:00:02.778",
+                "order_received_time": "10:00:02.927",
+                "currency_pair": "QUILL-USDT",
+                "order_size": "3"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.655",
+                "order_sent_time": "10:00:02.779",
+                "order_received_time": "10:00:02.933",
+                "currency_pair": "QUILL-USDT",
+                "order_size": "3"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.655",
+                "order_sent_time": "10:00:02.779",
+                "order_received_time": "10:00:02.923",
+                "currency_pair": "QUILL-USDT",
+                "order_size": "3"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.655",
+                "order_sent_time": "10:00:02.780",
+                "order_received_time": "10:00:02.917",
+                "currency_pair": "QUILL-USDT",
+                "order_size": "3"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.655",
+                "order_sent_time": "10:00:02.781",
+                "order_received_time": "10:00:02.952",
+                "currency_pair": "QUILL-USDT",
+                "order_size": "3"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.655",
+                "order_sent_time": "10:00:02.781",
+                "order_received_time": "10:00:02.917",
+                "currency_pair": "QUILL-USDT",
+                "order_size": "3"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.655",
+                "order_sent_time": "10:00:02.782",
+                "order_received_time": "10:00:02.957",
+                "currency_pair": "QUILL-USDT",
+                "order_size": "3"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.655",
+                "order_sent_time": "10:00:02.782",
+                "order_received_time": "10:00:02.975",
+                "currency_pair": "QUILL-USDT",
+                "order_size": "3"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.655",
+                "order_sent_time": "10:00:02.783",
+                "order_received_time": "10:00:02.942",
+                "currency_pair": "QUILL-USDT",
+                "order_size": "3"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.655",
+                "order_sent_time": "10:00:02.783",
+                "order_received_time": "10:00:02.930",
+                "currency_pair": "QUILL-USDT",
+                "order_size": "3"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.655",
+                "order_sent_time": "10:00:02.784",
+                "order_received_time": "10:00:03.062",
+                "currency_pair": "QUILL-USDT",
+                "order_size": "3"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "1.655",
+                "order_sent_time": "10:00:02.784",
+                "order_received_time": "10:00:02.993",
+                "currency_pair": "QUILL-USDT",
+                "order_size": "3"
+            }
+        ],
+        "filled_orders": []
+    },
+    "error": "'makerOrderId'"
+}

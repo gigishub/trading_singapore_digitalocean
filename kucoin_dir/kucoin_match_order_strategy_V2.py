@@ -17,10 +17,9 @@ console_handler.setFormatter(formatter)
 logger.addHandler(console_handler)
 logger.propagate = False
 
-class KucoinStrategyTrader:
+class MatchStrategyTrader:
     def __init__(self, basecoin: str, api_key: str, api_secret: str, api_passphrase: str):
         self.trading_client = KucoinHFOrderManager(api_key, api_secret, api_passphrase)
-        self.succesfully_palced_order_ids = self.trading_client.succesfully_palce_order_ids
         self.symbol = basecoin + "-USDT"
         self.basecoin = basecoin
         
@@ -235,13 +234,26 @@ class KucoinStrategyTrader:
 
             return True
 
-    async def delete_unfilled_orders(self, seconds_delay:int,buy_result:List[Dict]):
+    async def delete_unfilled_orders_old(self, seconds_delay:int,buy_result:List[Dict]):
         '''delete unfilled ordered with time delay from creation'''
         await asyncio.sleep(seconds_delay)
         for result in buy_result:
             if result['success'] == True:
                 logger.info(f"Attempt to delete orderId: {result['orderId']} delted")
                 await self.trading_client.cancel_order_by_id(result['orderId'])
+
+    async def delete_unfilled_orders(self, seconds_delay:int,buy_result:List[Dict]):
+        '''delete unfilled ordered with time delay from creation'''
+        await asyncio.sleep(seconds_delay)
+        deleted_orders = []
+        for result in buy_result:
+            if result['success'] == True:
+                deleted_orders.append(result['orderId'])
+                await self.trading_client.cancel_order_by_id(result['orderId'])
+        logger.info(f"attempt to delete {len(deleted_orders)} orders for {self.symbol} if not filled else nothing to deleted")
+
+
+
 
 
     async def strategy(self,num_orders_buy:int,
@@ -274,11 +286,10 @@ class KucoinStrategyTrader:
                             pass
                     self.enable_performance_snapshot = True
             if self.enable_performance_snapshot:
+                await self.trading_client.check_if_order_filled()
                 self.trade_data['trade_performance'] = await self.trading_client.performance_snapshot(self.basecoin)
                 self.trade_data['buy_orders']['filled_orders'] = self.trading_client.filled_buy_orders
                 self.trade_data['sell_orders']['filled_orders'] = self.trading_client.filled_sell_orders
-                #waiting period for filled orders to be updated
-                await asyncio.sleep(5)
                 return True
 
         
@@ -299,7 +310,7 @@ async def main():
 
     # Initialize trading components
     basecoin = "FET"
-    strategy = KucoinStrategyTrader(basecoin, api_creds['api_key'], 
+    strategy = MatchStrategyTrader(basecoin, api_creds['api_key'], 
                                   api_creds['api_secret'], 
                                   api_creds['api_passphrase'])
     

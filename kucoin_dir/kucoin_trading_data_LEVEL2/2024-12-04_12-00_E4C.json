@@ -1,0 +1,65 @@
+{
+    "buy_orders": {
+        "trigger_data": {
+            "changes": {
+                "asks": [
+                    [
+                        "0.53",
+                        "9642",
+                        "1438"
+                    ]
+                ],
+                "bids": [
+                    [
+                        "0.25588",
+                        "0",
+                        "1437"
+                    ]
+                ]
+            },
+            "sequenceEnd": 1438,
+            "sequenceStart": 1437,
+            "symbol": "E4C-USDT",
+            "time": 1733313603279,
+            "time_received": "12:00:03.335"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_buy_price": "0.5459",
+                "order_sent_time": "12:00:03.336",
+                "order_received_time": "12:00:03.527",
+                "currency_pair": "E4C-USDT",
+                "order_size": "5"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_buy_price": "0.5618",
+                "order_sent_time": "12:00:03.337",
+                "order_received_time": "12:00:03.532",
+                "currency_pair": "E4C-USDT",
+                "order_size": "5"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_buy_price": "0.5777",
+                "order_sent_time": "12:00:03.339",
+                "order_received_time": "12:00:03.544",
+                "currency_pair": "E4C-USDT",
+                "order_size": "5"
+            }
+        ]
+    },
+    "sell_orders": {},
+    "trading_session": {
+        "start_time": "2024-12-04T11:59:30.101408",
+        "symbol": "E4C-USDT",
+        "end_time": "2024-12-04T12:00:08.546640"
+    }
+}

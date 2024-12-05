@@ -1,0 +1,86 @@
+Plan to Process Order Book and Match Data
+
+Step 1: Understand Data Characteristics
+Order Book Data:
+- Dynamic size (variable number of bids and asks).
+- Fields: asks (price, size), bids (price, size), timestamp, time_received.
+
+Match Data:
+- Fields: price, side, size, time, time_received.
+
+Step 2: Define Key Metrics
+Order Book Metrics:
+- Bid Pressure: Bid Pressure = ∑(size of top N bids)
+- Ask Pressure: Ask Pressure = ∑(size of top N asks)
+- Imbalance: Imbalance = (Bid Pressure - Ask Pressure) / (Bid Pressure + Ask Pressure)
+
+Match Data Metrics:
+- Rate of Change (RoC): Measure execution speed by calculating the number and size of matches over time windows.
+
+Step 3: Data Processing Pipeline
+- Load Data:
+  - Handle both real-time and historical data.
+  - Normalize timestamps for consistency.
+
+- Process Order Book Data:
+  - Extract and aggregate bid and ask pressures.
+  - Compute imbalance at each timestamp.
+
+- Process Match Data:
+  - Group matches by time windows (e.g., every 100ms).
+  - Calculate trade volumes, directions (buy/sell), and speed (number of trades per time window).
+
+- Merge Metrics:
+  - Synchronize order book and match data using timestamps.
+  - Combine metrics into a unified DataFrame for analysis.
+
+- Visualize and Test:
+  - Plot metrics like imbalance and RoC.
+  - Validate with historical patterns.
+
+
+
+
+promt for copilot
+
+Prompt: 
+I need Python code to process financial market data for a momentum-based trading strategy.
+
+Data:
+Order Book: 
+- Variable-length bids and asks, each with price and size, and a timestamp.
+
+Match Data:
+- Contains trade price, side (buy/sell), size, and timestamp.
+
+Requirements:
+Order Book Metrics:
+- Calculate Bid Pressure: Sum of top N bid sizes.
+- Calculate Ask Pressure: Sum of top N ask sizes.
+- Compute Imbalance: (Bid Pressure - Ask Pressure) / (Bid Pressure + Ask Pressure).
+
+Match Data Metrics:
+- Group trades into fixed time intervals (e.g., 100ms).
+- Calculate total trade volume and speed (number of trades per interval).
+
+Synchronization:
+- Merge order book and match data by timestamp.
+- Create a DataFrame with metrics for each time interval.
+
+Output:
+- A pandas DataFrame with columns for bid pressure, ask pressure, imbalance, trade volume, and trade speed, synchronized by timestamp.
+- Optional: Visualization of these metrics over time (e.g., using Matplotlib).
+
+Example Data Structure:
+Order Book:
+{Insert the provided example of order book data here.}
+
+Match Data:
+{Insert the provided example of match data here.}
+
+Code Requirements:
+- Write modular and efficient code with functions for:
+  - Parsing and processing order book data.
+  - Calculating metrics for match data.
+  - Synchronizing the data streams.
+- Add comments and ensure code clarity.

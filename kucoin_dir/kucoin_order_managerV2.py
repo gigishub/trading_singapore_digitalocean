@@ -44,11 +44,15 @@ class KucoinHFOrderManager:
         self.placed_limit_buy_id = []
         self.placed_limit_sell_id = []
         
-        # track order that are succefully placed
+        #track placed orders
+        self.palced_orders =[]
+        
+        # track filled orders
         self.filled_buy_orders = []
         self.filled_sell_orders = []
-        
-        self.succesfully_palce_order_ids =[]
+
+        # track all created tasks
+        self.pending_tasks = []
     
     def log_timestamp(self):
         """Simple utility function to log timestamps"""
@@ -125,21 +129,18 @@ class KucoinHFOrderManager:
                 "order_sent_time": order_sent_time,
                 "order_received_time": order_received_time,
                 "currency_pair": symbol,
-                "order_size": size
+                "order_size": size,
+                "side": side
             }
-            if side == 'buy':
-                logger.debug(f'befor creating check orderfill class {self.log_timestamp()}')
-                asyncio.create_task(self.check_if_order_filled(response.get('data', {}).get('orderId'),order_side='buy'))
-                logger.debug(f'after creating orderfill class {self.log_timestamp()}')
+            # if side == 'buy':
+            #     #check_fill_buy_task = asyncio.create_task(self.check_if_order_filled(response.get('data', {}).get('orderId'),order_side='buy'))
 
-            if side == 'sell':
-                logger.debug(f'befor creating check orderfill class {self.log_timestamp()}')
-                asyncio.create_task(self.check_if_order_filled(response.get('data', {}).get('orderId'),order_side='sell'))
-                logger.debug(f'after creating orderfill class {self.log_timestamp()}')
+            # if side == 'sell':
+            #     #check_fill_sell_task =asyncio.create_task(self.check_if_order_filled(response.get('data', {}).get('orderId'),order_side='sell'))
 
                 
-            else:
-                self.placed_limit_sell_id.append(order_result['orderId'])
+            # else:
+            #     self.placed_limit_sell_id.append(order_result['orderId'])
             return order_result
         
         return {
@@ -195,7 +196,7 @@ class KucoinHFOrderManager:
             order_data = self._prepare_order_data(symbol, side, price, size, time_in_force)
             response = await self._make_request("POST", "/api/v1/hf/orders", order_data)
             #logger.debug(f"check orderId to append to order succesfull: {response.get('data',{}).get('orderId')}\n")
-            self.succesfully_palce_order_ids.append(response.get('data',{}).get('orderId')) 
+            self.palced_orders.append(response.get('data',{})) 
             
             return await asyncio.create_task(self._process_order_response(
                 response, start_time, symbol, side, price, size, order_sent_time
@@ -308,10 +309,12 @@ class KucoinHFOrderManager:
         return await asyncio.gather(*tasks)
 
 
-    async def get_order_status(self, order_id: str) -> Dict:
+
+    async def get_order_status_by_clientid(self,clientOid: str) -> Dict:
         """Retrieve the status of a specific order by order ID"""
         await self._init_session()
-        endpoint = f"/api/v1/orders/{order_id}"
+
+        endpoint = f"/api/v1/order/client-order/{clientOid}"
         
         timestamp = str(int(time.time() * 1000))
         signature, passphrase = self._generate_signature(timestamp, "GET", endpoint)
@@ -330,6 +333,34 @@ class KucoinHFOrderManager:
         except Exception as e:
             logger.error(f"Error retrieving order status: {str(e)}")
             return {"error": str(e)}
+        
+
+    async def get_order_status_by_orderid(self, order_id: str ) -> Dict:
+        """Retrieve the status of a specific order by order ID"""
+        await self._init_session()
+
+        endpoint = f"/api/v1/orders/{order_id}"
+
+        timestamp = str(int(time.time() * 1000))
+        signature, passphrase = self._generate_signature(timestamp, "GET", endpoint)
+        
+        headers = self._static_headers.copy()
+        headers.update({
+            "KC-API-SIGN": signature,
+            "KC-API-TIMESTAMP": timestamp,
+            "KC-API-PASSPHRASE": passphrase
+        })
+
+        try:
+            async with self.session.get(f"{self.base_url}{endpoint}", headers=headers) as response:
+                return await response.json()
+        
+        except Exception as e:
+            logger.error(f"Error retrieving order status: {str(e)}")
+            return {"error": str(e)}
+
+
+
 
     async def all_filled_orders_last_24H(self) -> Dict:
         """Retrieve limit order fills"""
@@ -346,34 +377,44 @@ class KucoinHFOrderManager:
 
 
 
-    async def check_if_order_filled(self, order_id: str,order_side: str = 'buy') -> Dict:
-            """Internal async function to check order fill status"""
-            #waiting until order in the sysntem
-            await asyncio.sleep(1)
-            end_time = datetime.now() + timedelta(seconds=30)
-            
-            while datetime.now() < end_time:
+    async def check_if_order_filled(self):
+        """Check if placed orders have been filled and store them accordingly."""
+        #print(self.succesfully_palced_orders)
+    
+        for order_info in self.palced_orders:
+            order_client_id = order_info.get('clientOid')
+            start_time = datetime.now()
+            timeout = timedelta(seconds=4)
+
+            while True:
+                if datetime.now() - start_time > timeout:
+                    break
+
                 try:
-                    # Get all filled orders in the last 24 hours
-                    list_of_orders = await self.all_filled_orders_last_24H()
-                    
-                    # Search for the specific order
-                    for order in list_of_orders:
-                        if order.get('orderId') == order_id:
+                    # Get the status of the order
+                    if not order_client_id:
+                        break
+                    status_response = await self.get_order_status_by_clientid(order_client_id)
+                    if status_response.get('code') == '200000':
+                        #print(json.dumps(status_response,indent=4))
+                        order_data = status_response.get('data', {})
+                        dealFunds_value = float(order_data.get('dealFunds', 0))
+                        order_side = order_data.get('side')
+                        if dealFunds_value != 0:
+                            # Order is filled
                             if order_side == 'buy':
-                                self.filled_buy_orders.append(order)
-                                return order
-                            if order_side == 'sell':
-                                self.filled_sell_orders.append(order)
-                                return order
-                    
-                    # Short sleep to prevent overwhelming the API
-                    await asyncio.sleep(0.5)
-                
+                                self.filled_buy_orders.append(order_data)
+                            elif order_side == 'sell':
+                                self.filled_sell_orders.append(order_data)
+                            #logger.info(f"Order client id {order_client_id} filled.")
+                            break
+                            
+                    else:
+                        logger.error(f"Error getting status for order {order_client_id}: {status_response.get('msg')}")
                 except Exception as e:
-                    logger.error(f"Error in order fill check: {e}")
-                    return None
-            
+                    logger.error(f"Error checking order {order_client_id}: {e}")
+
+                await asyncio.sleep(0.2)
 
 
     async def performance_snapshot(self, basecoin: str) -> Dict:
@@ -449,9 +490,13 @@ class KucoinHFOrderManager:
 
     async def close(self):
         """Close the aiohttp session and thread pool"""
+        if self.pending_tasks:
+            logger.info("Waiting for pending tasks to complete...")
+            await asyncio.gather(*self.pending_tasks)
         if self.session:
             await self.session.close()
         self.executor.shutdown(wait=False)
+
 
 
 
@@ -478,55 +523,31 @@ async def main():
                 "price": "2",
                 "size": "1"
             },
-            {
-                "symbol": "XRP-USDT",
-                "side": "buy",
-                "price": "2",
-                "size": "1.5"
-            },
+            # {
+            #     "symbol": "XRP-USDT",
+            #     "side": "buy",
+            #     "price": "2",
+            #     "size": "1.5"
+            # },
             {
                 "symbol": "XRP-USDT",
                 "side": "sell",
                 "price": "1",
-                "size": "1"
+                "size": "5"
             }
         ]
-        logger.debug('place multiple orders')
+
         print(json.dumps(await trader.place_multiple_orders(orders),indent=4))
         logger.debug('place multiple orders done')
 
-        logger.debug('check if order filled')
-        end_time = datetime.now() + timedelta(seconds= 10)
-        while datetime.now() < end_time:
-            await asyncio.sleep(3)
-            if trader.filled_buy_orders:
-                print(f'filled BUY orders:{json.dumps(trader.filled_buy_orders,indent=4)}')
-            if trader.filled_sell_orders:
-                print(f'filled SELL orders:{json.dumps(trader.filled_sell_orders,indent=4)}')
+        await trader.check_if_order_filled()
+        print(f'filled buy order: {json.dumps(trader.filled_buy_orders,indent=4)}')
+        print(f'filled sell orders: {json.dumps(trader.filled_sell_orders,indent=4)}')
 
 
 
-
-        #print(await trader.get_order_status('6748d44bb6d5080007087831'))
         
-        #        print(json.dumps(await trader.all_filled_orders_last_24H(),indent=4))
-        #print(await trader.place_multiple_orders(orders))
 
-        #print('succesful order funtion retrun: ',json.dumps(await trader.succesfull_sent_and_filled(),indent=4))
-
-        #print(await trader.cancel_order_by_id('6748d1f78b053b000735f1f6'))
-
-
-        #print(await trader.place_multiple_orders(orders))
-
-        #print(json.dumps(await trader.get_limit_fills(),indent=4))
-        # Execute multiple orders concurrently
-
-        # # Cancel all buy orders
-        # await trader.cancel_order(cancel_type='buy')
-
-        # # Cancel all sell orders
-        #print (await trader.cancel_all_orders())
         # # # Clean up
         await trader.close()
 

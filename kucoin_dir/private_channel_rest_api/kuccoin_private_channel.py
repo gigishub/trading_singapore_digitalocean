@@ -170,7 +170,7 @@ async def main():
         try:
             async for message in client.listen():
                 # Handle your messages here
-                print(f"Processed message: {message}")
+                print(f"Processed message: {json.dumps(message, indent=4)}")
         except Exception as e:
             print(f"Error in main loop: {e}")
         finally:

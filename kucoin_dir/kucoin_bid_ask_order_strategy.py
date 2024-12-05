@@ -3,7 +3,7 @@ import json
 from datetime import datetime
 import logging
 from typing import Dict, List
-from kucoin_order_manager import kucoinHForderManager
+from kucoin_order_managerV2 import KucoinHFOrderManager
 import os
 
 logger = logging.getLogger(__name__)
@@ -14,9 +14,9 @@ console_handler.setFormatter(formatter)
 logger.addHandler(console_handler)
 logger.propagate = False
 
-class KucoinStrategyTrader:
+class Level2StrategyTrader:
     def __init__(self, symbol: str, api_key: str, api_secret: str, api_passphrase: str):
-        self.trading_client = kucoinHForderManager(api_key, api_secret, api_passphrase)
+        self.trading_client = KucoinHFOrderManager(api_key, api_secret, api_passphrase)
         self.symbol = symbol + "-USDT"
         
         # Essential state tracking
@@ -168,7 +168,7 @@ class KucoinStrategyTrader:
 
 
             
-    async def buy_first_ask_found(self, num_orders: int, market_data: dict, percentage_difference: float):
+    async def buy_first_ask_found(self, num_orders: int, market_data: dict, percentage_difference: float,wait_to_delete_orders:int = 5):
         
         for ask in market_data['changes']['asks']:
             if float(ask[1]) > 0:
@@ -176,7 +176,8 @@ class KucoinStrategyTrader:
     
         if self.ask_trade_entry_price:
             buy_result_ask = await self.multiple_buy_orders_percent_dif(self.ask_trade_entry_price, num_orders, percentage_difference)
-
+            logger.info(f"{len(buy_result_ask)} buy orders sent for {self.symbol}")
+            await self.delete_unfilled_orders(wait_to_delete_orders,buy_result_ask)
             self.trade_data['buy_orders']['trigger_data'] = market_data
             self.trade_data['buy_orders']["orders_sent"]= buy_result_ask
             return buy_result_ask
@@ -195,8 +196,20 @@ class KucoinStrategyTrader:
                     self.trade_data['sell_orders']['trigger_data'] = market_data
                     self.trade_data['sell_orders']["orders_sent"]= sell_result_bid
                 # "orders" will be added after the task completes
+
+
+
+                
             
-            
+    async def delete_unfilled_orders(self, seconds_delay:int,buy_result:List[Dict]):
+        '''delete unfilled ordered with time delay from creation'''
+        await asyncio.sleep(seconds_delay)
+        deleted_orders = []
+        for result in buy_result:
+            if result['success'] == True:
+                deleted_orders.append(result['orderId'])
+                await self.trading_client.cancel_order_by_id(result['orderId'])
+        logger.info(f"attempt to delete {len(deleted_orders)} orders for {self.symbol} if not filled else nothing to deleted")
 
 
 
@@ -213,7 +226,7 @@ async def main():
 
     # Initialize trading components
     symbol = "KIMA"
-    strategy = KucoinStrategyTrader(symbol, api_creds['api_key'], 
+    strategy = Level2StrategyTrader(symbol, api_creds['api_key'], 
                                   api_creds['api_secret'], 
                                   api_creds['api_passphrase'])
     
@@ -228,7 +241,6 @@ async def main():
             
             if market_data:
                 print(json.dumps(market_data,indent =4))
-                strategy.find_ask(market_data)
 
 
                 buy_result = await strategy.buy_first_ask_found(3, market_data, -7)

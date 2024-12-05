@@ -1,0 +1,225 @@
+{
+    "trading_session": {
+        "start_time": "2024-12-05T09:59:30.106027",
+        "symbol": "XION-USDT",
+        "end_time": "2024-12-05T10:00:30.181656"
+    },
+    "trade_performance": {
+        "symbol": "XION-USDT",
+        "total_trades": 0,
+        "buy_trades": 0,
+        "sell_trades": 0,
+        "total_volume": 0,
+        "USDT_buy": 0,
+        "USDT_sell": 0,
+        "total_profit_loss": 0,
+        "profit_loss_percentage": 0
+    },
+    "buy_orders": {
+        "trigger_data": {
+            "price": "4",
+            "side": "buy",
+            "time_received": "10:00:00.066",
+            "makerOrderId": "67515b2dff2a9e000739b445"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Symbol XION-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "4.06",
+                "order_sent_time": "10:00:00.068",
+                "order_received_time": "10:00:00.230",
+                "currency_pair": "XION-USDT",
+                "order_size": "1"
+            },
+            {
+                "success": false,
+                "message": "Symbol XION-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "4.12",
+                "order_sent_time": "10:00:00.069",
+                "order_received_time": "10:00:00.226",
+                "currency_pair": "XION-USDT",
+                "order_size": "1"
+            },
+            {
+                "success": false,
+                "message": "Symbol XION-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "4.18",
+                "order_sent_time": "10:00:00.070",
+                "order_received_time": "10:00:00.272",
+                "currency_pair": "XION-USDT",
+                "order_size": "1"
+            },
+            {
+                "success": false,
+                "message": "Symbol XION-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "4.24",
+                "order_sent_time": "10:00:00.070",
+                "order_received_time": "10:00:00.228",
+                "currency_pair": "XION-USDT",
+                "order_size": "1"
+            },
+            {
+                "success": true,
+                "execution_time": 0.21885,
+                "limit_buy_price": "4.3",
+                "orderId": "675179a0ecb8b20007b374d9",
+                "clientOid": "5e8258c9-0137-498a-8324-27e5bcf98dde",
+                "order_sent_time": "10:00:00.070",
+                "order_received_time": "10:00:00.289",
+                "currency_pair": "XION-USDT",
+                "order_size": "1",
+                "side": "buy"
+            },
+            {
+                "success": true,
+                "execution_time": 0.26676,
+                "limit_buy_price": "4.36",
+                "orderId": "675179a0e7750000071de024",
+                "clientOid": "f2923fdc-e4f4-4a72-9596-d934d833398f",
+                "order_sent_time": "10:00:00.071",
+                "order_received_time": "10:00:00.338",
+                "currency_pair": "XION-USDT",
+                "order_size": "1",
+                "side": "buy"
+            }
+        ],
+        "filled_orders": []
+    },
+    "sell_orders": {
+        "trigger_data": {
+            "price": "6.9532",
+            "side": "sell",
+            "time_received": "10:00:21.265",
+            "makerOrderId": "675179b49574f3000714b43e"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_sell_price": "7.09",
+                "order_sent_time": "10:00:21.276",
+                "order_received_time": "10:00:21.455",
+                "currency_pair": "XION-USDT",
+                "order_size": "0.5"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_sell_price": "7.09",
+                "order_sent_time": "10:00:21.277",
+                "order_received_time": "10:00:21.506",
+                "currency_pair": "XION-USDT",
+                "order_size": "0.5"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_sell_price": "7.09",
+                "order_sent_time": "10:00:21.278",
+                "order_received_time": "10:00:21.453",
+                "currency_pair": "XION-USDT",
+                "order_size": "0.5"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_sell_price": "7.09",
+                "order_sent_time": "10:00:21.278",
+                "order_received_time": "10:00:21.453",
+                "currency_pair": "XION-USDT",
+                "order_size": "0.5"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_sell_price": "7.09",
+                "order_sent_time": "10:00:21.279",
+                "order_received_time": "10:00:21.421",
+                "currency_pair": "XION-USDT",
+                "order_size": "0.5"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_sell_price": "7.09",
+                "order_sent_time": "10:00:21.279",
+                "order_received_time": "10:00:21.429",
+                "currency_pair": "XION-USDT",
+                "order_size": "0.5"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_sell_price": "7.09",
+                "order_sent_time": "10:00:21.280",
+                "order_received_time": "10:00:21.460",
+                "currency_pair": "XION-USDT",
+                "order_size": "0.5"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_sell_price": "7.09",
+                "order_sent_time": "10:00:21.280",
+                "order_received_time": "10:00:21.464",
+                "currency_pair": "XION-USDT",
+                "order_size": "0.5"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_sell_price": "7.09",
+                "order_sent_time": "10:00:21.281",
+                "order_received_time": "10:00:21.447",
+                "currency_pair": "XION-USDT",
+                "order_size": "0.5"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_sell_price": "7.09",
+                "order_sent_time": "10:00:21.281",
+                "order_received_time": "10:00:21.472",
+                "currency_pair": "XION-USDT",
+                "order_size": "0.5"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_sell_price": "7.09",
+                "order_sent_time": "10:00:21.281",
+                "order_received_time": "10:00:21.427",
+                "currency_pair": "XION-USDT",
+                "order_size": "0.5"
+            },
+            {
+                "success": false,
+                "message": "Order size below the minimum requirement.",
+                "code": "600100",
+                "limit_sell_price": "7.09",
+                "order_sent_time": "10:00:21.282",
+                "order_received_time": "10:00:21.712",
+                "currency_pair": "XION-USDT",
+                "order_size": "0.5"
+            }
+        ],
+        "filled_orders": []
+    },
+    "error": "'makerOrderId'"
+}

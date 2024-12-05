@@ -1,0 +1,61 @@
+{
+    "buy_orders": {
+        "trigger_data": {
+            "changes": {
+                "asks": [
+                    [
+                        "5",
+                        "187.82",
+                        "142"
+                    ]
+                ],
+                "bids": []
+            },
+            "sequenceEnd": 142,
+            "sequenceStart": 141,
+            "symbol": "XION-USDT",
+            "time": 1733392800030,
+            "time_received": "10:00:00.060"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Symbol XION-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "5.15",
+                "order_sent_time": "10:00:00.060",
+                "order_received_time": "10:00:00.218",
+                "currency_pair": "XION-USDT",
+                "order_size": "2"
+            },
+            {
+                "success": true,
+                "execution_time": 0.21389,
+                "limit_buy_price": "5.3",
+                "orderId": "675179a0fe36bf00072a0c5a",
+                "clientOid": "a7edd122-ea92-41ff-bc92-abedc922ec0a",
+                "order_sent_time": "10:00:00.061",
+                "order_received_time": "10:00:00.275",
+                "currency_pair": "XION-USDT",
+                "order_size": "2",
+                "side": "buy"
+            },
+            {
+                "success": false,
+                "message": "Symbol XION-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "5.45",
+                "order_sent_time": "10:00:00.061",
+                "order_received_time": "10:00:00.224",
+                "currency_pair": "XION-USDT",
+                "order_size": "2"
+            }
+        ]
+    },
+    "sell_orders": {},
+    "trading_session": {
+        "start_time": "2024-12-05T09:59:30.105417",
+        "symbol": "XION-USDT",
+        "end_time": "2024-12-05T10:00:05.406186"
+    }
+}

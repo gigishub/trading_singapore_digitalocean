@@ -1,0 +1,64 @@
+{
+    "buy_orders": {
+        "trigger_data": {
+            "changes": {
+                "asks": [
+                    [
+                        "0.9111",
+                        "0",
+                        "180"
+                    ],
+                    [
+                        "0.9556",
+                        "97.34",
+                        "181"
+                    ]
+                ],
+                "bids": []
+            },
+            "sequenceEnd": 181,
+            "sequenceStart": 180,
+            "symbol": "QUILL-USDT",
+            "time": 1733133600070,
+            "time_received": "10:00:00.163"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Symbol QUILL-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.98",
+                "order_sent_time": "10:00:00.166",
+                "order_received_time": "10:00:00.314",
+                "currency_pair": "QUILL-USDT",
+                "order_size": "2"
+            },
+            {
+                "success": false,
+                "message": "Symbol QUILL-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "1.01",
+                "order_sent_time": "10:00:00.167",
+                "order_received_time": "10:00:00.306",
+                "currency_pair": "QUILL-USDT",
+                "order_size": "2"
+            },
+            {
+                "success": false,
+                "message": "Symbol QUILL-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "1.04",
+                "order_sent_time": "10:00:00.171",
+                "order_received_time": "10:00:00.320",
+                "currency_pair": "QUILL-USDT",
+                "order_size": "2"
+            }
+        ]
+    },
+    "sell_orders": {},
+    "trading_session": {
+        "start_time": "2024-12-02T09:59:30.096941",
+        "symbol": "QUILL-USDT",
+        "end_time": "2024-12-02T10:00:05.323333"
+    }
+}
