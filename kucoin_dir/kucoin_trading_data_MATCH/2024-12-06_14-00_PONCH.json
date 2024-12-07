@@ -1,0 +1,262 @@
+{
+    "trading_session": {
+        "start_time": "2024-12-06T13:59:30.100932",
+        "symbol": "PONCH-USDT",
+        "end_time": "2024-12-06T14:00:16.282468"
+    },
+    "trade_performance": {
+        "symbol": "PONCH-USDT",
+        "total_trades": 3,
+        "buy_trades": 2,
+        "sell_trades": 1,
+        "total_volume": 17.0,
+        "USDT_buy": 7.5,
+        "USDT_sell": 5.2584,
+        "total_profit_loss": 0.01,
+        "profit_loss_percentage": 0.11
+    },
+    "buy_orders": {
+        "trigger_data": {
+            "price": "0.25",
+            "side": "buy",
+            "time_received": "14:00:00.068",
+            "makerOrderId": "6752fd37ff2a9e0007f71bfd"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Symbol PONCH-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.2537",
+                "order_sent_time": "14:00:00.070",
+                "order_received_time": "14:00:00.237",
+                "currency_pair": "PONCH-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Symbol PONCH-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.2575",
+                "order_sent_time": "14:00:00.072",
+                "order_received_time": "14:00:00.236",
+                "currency_pair": "PONCH-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": true,
+                "execution_time": 0.20081,
+                "limit_buy_price": "0.2612",
+                "orderId": "675303602e6b3a00075f84c5",
+                "clientOid": "82471333-5ce4-464b-91b7-e3cfb4422588",
+                "order_sent_time": "14:00:00.073",
+                "order_received_time": "14:00:00.274",
+                "currency_pair": "PONCH-USDT",
+                "order_size": "11",
+                "side": "buy"
+            },
+            {
+                "success": false,
+                "message": "Symbol PONCH-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.265",
+                "order_sent_time": "14:00:00.073",
+                "order_received_time": "14:00:00.233",
+                "currency_pair": "PONCH-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": true,
+                "execution_time": 0.20154,
+                "limit_buy_price": "0.2687",
+                "orderId": "675303609574f300072e3636",
+                "clientOid": "6901fc56-65c6-435c-9d92-5f4a417f7d65",
+                "order_sent_time": "14:00:00.074",
+                "order_received_time": "14:00:00.275",
+                "currency_pair": "PONCH-USDT",
+                "order_size": "11",
+                "side": "buy"
+            },
+            {
+                "success": true,
+                "execution_time": 0.20114,
+                "limit_buy_price": "0.2725",
+                "orderId": "675303602e6b3a00075f84c6",
+                "clientOid": "863fc396-c081-48bd-a421-2fbf2c2e5878",
+                "order_sent_time": "14:00:00.074",
+                "order_received_time": "14:00:00.275",
+                "currency_pair": "PONCH-USDT",
+                "order_size": "11",
+                "side": "buy"
+            }
+        ],
+        "filled_orders": []
+    },
+    "sell_orders": {
+        "trigger_data": {
+            "price": "0.7365",
+            "side": "sell",
+            "time_received": "14:00:03.294",
+            "makerOrderId": "675303637cf7ff0007c1dada"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.7512",
+                "order_sent_time": "14:00:03.295",
+                "order_received_time": "14:00:03.438",
+                "currency_pair": "PONCH-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.7512",
+                "order_sent_time": "14:00:03.296",
+                "order_received_time": "14:00:03.466",
+                "currency_pair": "PONCH-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.7512",
+                "order_sent_time": "14:00:03.296",
+                "order_received_time": "14:00:03.457",
+                "currency_pair": "PONCH-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.7512",
+                "order_sent_time": "14:00:03.297",
+                "order_received_time": "14:00:03.440",
+                "currency_pair": "PONCH-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": true,
+                "execution_time": 0.12988,
+                "limit_sell_price": "0.7512",
+                "orderId": "67530363f517900007fb7580",
+                "clientOid": "44735bbf-bb06-4ad5-b45e-03ed7f7b24c2",
+                "order_sent_time": "14:00:03.298",
+                "order_received_time": "14:00:03.428",
+                "currency_pair": "PONCH-USDT",
+                "order_size": "7",
+                "side": "sell"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.7512",
+                "order_sent_time": "14:00:03.298",
+                "order_received_time": "14:00:03.443",
+                "currency_pair": "PONCH-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.7512",
+                "order_sent_time": "14:00:03.299",
+                "order_received_time": "14:00:03.485",
+                "currency_pair": "PONCH-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.7512",
+                "order_sent_time": "14:00:03.299",
+                "order_received_time": "14:00:03.475",
+                "currency_pair": "PONCH-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.7512",
+                "order_sent_time": "14:00:03.300",
+                "order_received_time": "14:00:03.485",
+                "currency_pair": "PONCH-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.7512",
+                "order_sent_time": "14:00:03.300",
+                "order_received_time": "14:00:03.480",
+                "currency_pair": "PONCH-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.7512",
+                "order_sent_time": "14:00:03.301",
+                "order_received_time": "14:00:03.458",
+                "currency_pair": "PONCH-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.7512",
+                "order_sent_time": "14:00:03.301",
+                "order_received_time": "14:00:03.485",
+                "currency_pair": "PONCH-USDT",
+                "order_size": "7"
+            }
+        ],
+        "filled_orders": [
+            {
+                "id": "67530363f517900007fb7580",
+                "symbol": "PONCH-USDT",
+                "opType": "DEAL",
+                "type": "limit",
+                "side": "sell",
+                "price": "0.7512",
+                "size": "7",
+                "funds": "0",
+                "dealFunds": "5.2584",
+                "dealSize": "7",
+                "fee": "0.0157752",
+                "feeCurrency": "USDT",
+                "stp": "",
+                "stop": "",
+                "stopTriggered": false,
+                "stopPrice": "0",
+                "timeInForce": "GTC",
+                "postOnly": false,
+                "hidden": false,
+                "iceberg": false,
+                "visibleSize": "0",
+                "cancelAfter": 0,
+                "channel": "API",
+                "clientOid": "44735bbf-bb06-4ad5-b45e-03ed7f7b24c2",
+                "remark": null,
+                "tags": null,
+                "isActive": false,
+                "cancelExist": false,
+                "createdAt": 1733493603365,
+                "tradeType": "TRADE"
+            }
+        ]
+    },
+    "error": "'makerOrderId'"
+}

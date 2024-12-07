@@ -1,0 +1,63 @@
+{
+    "buy_orders": {
+        "trigger_data": {
+            "changes": {
+                "asks": [
+                    [
+                        "0.15",
+                        "2622",
+                        "187"
+                    ]
+                ],
+                "bids": []
+            },
+            "sequenceEnd": 187,
+            "sequenceStart": 187,
+            "symbol": "F-USDT",
+            "time": 1733479200038,
+            "time_received": "10:00:00.071"
+        },
+        "orders_sent": [
+            {
+                "success": true,
+                "execution_time": 0.23344,
+                "limit_buy_price": "0.1545",
+                "orderId": "6752cb20b1d2ab0007debc22",
+                "clientOid": "40e0643e-54fc-4a74-ada4-01d69c41de6c",
+                "order_sent_time": "10:00:00.072",
+                "order_received_time": "10:00:00.306",
+                "currency_pair": "F-USDT",
+                "order_size": "11",
+                "side": "buy"
+            },
+            {
+                "success": false,
+                "message": "Symbol F-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.159",
+                "order_sent_time": "10:00:00.075",
+                "order_received_time": "10:00:00.230",
+                "currency_pair": "F-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": true,
+                "execution_time": 0.22997,
+                "limit_buy_price": "0.1635",
+                "orderId": "6752cb20fe36bf000778a26a",
+                "clientOid": "316710a2-0416-468a-aa23-741541102701",
+                "order_sent_time": "10:00:00.076",
+                "order_received_time": "10:00:00.306",
+                "currency_pair": "F-USDT",
+                "order_size": "11",
+                "side": "buy"
+            }
+        ]
+    },
+    "sell_orders": {},
+    "trading_session": {
+        "start_time": "2024-12-06T09:59:30.101046",
+        "symbol": "F-USDT",
+        "end_time": "2024-12-06T10:00:05.568094"
+    }
+}

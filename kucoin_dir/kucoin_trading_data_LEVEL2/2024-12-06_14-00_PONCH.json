@@ -1,0 +1,63 @@
+{
+    "buy_orders": {
+        "trigger_data": {
+            "changes": {
+                "asks": [
+                    [
+                        "0.75",
+                        "4619",
+                        "194"
+                    ]
+                ],
+                "bids": []
+            },
+            "sequenceEnd": 194,
+            "sequenceStart": 194,
+            "symbol": "PONCH-USDT",
+            "time": 1733493600080,
+            "time_received": "14:00:00.129"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Symbol PONCH-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.7725",
+                "order_sent_time": "14:00:00.163",
+                "order_received_time": "14:00:00.294",
+                "currency_pair": "PONCH-USDT",
+                "order_size": "5"
+            },
+            {
+                "success": true,
+                "execution_time": 0.18076,
+                "limit_buy_price": "0.795",
+                "orderId": "67530360fd80ce0007a13ef3",
+                "clientOid": "39e8d6d9-f534-45e0-a90d-ef078017fe91",
+                "order_sent_time": "14:00:00.164",
+                "order_received_time": "14:00:00.344",
+                "currency_pair": "PONCH-USDT",
+                "order_size": "5",
+                "side": "buy"
+            },
+            {
+                "success": true,
+                "execution_time": 0.16249,
+                "limit_buy_price": "0.8175",
+                "orderId": "67530360aef36e0007c8c3a0",
+                "clientOid": "3331649d-9e7b-4c97-828d-53975a073136",
+                "order_sent_time": "14:00:00.164",
+                "order_received_time": "14:00:00.327",
+                "currency_pair": "PONCH-USDT",
+                "order_size": "5",
+                "side": "buy"
+            }
+        ]
+    },
+    "sell_orders": {},
+    "trading_session": {
+        "start_time": "2024-12-06T13:59:30.100761",
+        "symbol": "PONCH-USDT",
+        "end_time": "2024-12-06T14:00:05.654020"
+    }
+}

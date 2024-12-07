@@ -1,0 +1,223 @@
+{
+    "trading_session": {
+        "start_time": "2024-12-06T09:59:30.101193",
+        "symbol": "F-USDT",
+        "end_time": "2024-12-06T10:00:05.862710"
+    },
+    "trade_performance": {
+        "symbol": "F-USDT",
+        "total_trades": 0,
+        "buy_trades": 0,
+        "sell_trades": 0,
+        "total_volume": 0,
+        "USDT_buy": 0,
+        "USDT_sell": 0,
+        "total_profit_loss": 0,
+        "profit_loss_percentage": 0
+    },
+    "buy_orders": {
+        "trigger_data": {
+            "price": "0.08",
+            "side": "buy",
+            "time_received": "10:00:00.077",
+            "makerOrderId": "6752c724f5179000070d7390"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Symbol F-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.0812",
+                "order_sent_time": "10:00:00.081",
+                "order_received_time": "10:00:00.287",
+                "currency_pair": "F-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Symbol F-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.0824",
+                "order_sent_time": "10:00:00.082",
+                "order_received_time": "10:00:00.262",
+                "currency_pair": "F-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Symbol F-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.0836",
+                "order_sent_time": "10:00:00.082",
+                "order_received_time": "10:00:00.251",
+                "currency_pair": "F-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": true,
+                "execution_time": 0.22969,
+                "limit_buy_price": "0.0848",
+                "orderId": "6752cb20b1d2ab0007debc20",
+                "clientOid": "8c6672a8-e918-4dc5-8d92-94c0a5299d28",
+                "order_sent_time": "10:00:00.083",
+                "order_received_time": "10:00:00.312",
+                "currency_pair": "F-USDT",
+                "order_size": "55",
+                "side": "buy"
+            },
+            {
+                "success": false,
+                "message": "Symbol F-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.086",
+                "order_sent_time": "10:00:00.083",
+                "order_received_time": "10:00:00.255",
+                "currency_pair": "F-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Symbol F-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.0872",
+                "order_sent_time": "10:00:00.083",
+                "order_received_time": "10:00:00.259",
+                "currency_pair": "F-USDT",
+                "order_size": "55"
+            }
+        ],
+        "filled_orders": []
+    },
+    "sell_orders": {
+        "trigger_data": {
+            "price": "0.21702",
+            "side": "sell",
+            "time_received": "10:00:01.352",
+            "makerOrderId": "6752cb218338b90007982783"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.2214",
+                "order_sent_time": "10:00:01.354",
+                "order_received_time": "10:00:01.499",
+                "currency_pair": "F-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.2214",
+                "order_sent_time": "10:00:01.355",
+                "order_received_time": "10:00:01.488",
+                "currency_pair": "F-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.2214",
+                "order_sent_time": "10:00:01.356",
+                "order_received_time": "10:00:01.501",
+                "currency_pair": "F-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.2214",
+                "order_sent_time": "10:00:01.357",
+                "order_received_time": "10:00:01.485",
+                "currency_pair": "F-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.2214",
+                "order_sent_time": "10:00:01.358",
+                "order_received_time": "10:00:01.505",
+                "currency_pair": "F-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.2214",
+                "order_sent_time": "10:00:01.359",
+                "order_received_time": "10:00:01.507",
+                "currency_pair": "F-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.2214",
+                "order_sent_time": "10:00:01.360",
+                "order_received_time": "10:00:01.542",
+                "currency_pair": "F-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.2214",
+                "order_sent_time": "10:00:01.360",
+                "order_received_time": "10:00:01.599",
+                "currency_pair": "F-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.2214",
+                "order_sent_time": "10:00:01.361",
+                "order_received_time": "10:00:01.507",
+                "currency_pair": "F-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.2214",
+                "order_sent_time": "10:00:01.362",
+                "order_received_time": "10:00:01.642",
+                "currency_pair": "F-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.2214",
+                "order_sent_time": "10:00:01.362",
+                "order_received_time": "10:00:01.522",
+                "currency_pair": "F-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.2214",
+                "order_sent_time": "10:00:01.363",
+                "order_received_time": "10:00:01.508",
+                "currency_pair": "F-USDT",
+                "order_size": "11"
+            }
+        ],
+        "filled_orders": []
+    },
+    "error": "'makerOrderId'"
+}
