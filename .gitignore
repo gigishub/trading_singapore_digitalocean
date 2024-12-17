@@ -4,6 +4,7 @@ __pycache__/
 
 # Ignore virtual environment directories
 tradingvenv/
+pandas
 
 # Ignore specific files
 secret_config.py
@@ -20,5 +21,3 @@ MEXC_dir/cronlogs
 
 # data saved 
 kucoin_dir/kucoin_release_data_initial
-
-ML

@@ -1,11 +1,15 @@
+from __future__ import annotations
 
-"""
-Module to expose more detailed version info for the installed `numpy`
-"""
-version = "2.0.2"
-__version__ = version
-full_version = version
+from ._version import get_versions
 
-git_revision = "854252ded83e6b9c21c4ee80558d354d8a72484c"
-release = 'dev' not in version and '+' not in version
-short_version = version.split("+")[0]
+__ALL__ = ['version', '__version__', 'full_version', 'git_revision', 'release']
+
+vinfo: dict[str, str] = get_versions()
+version = vinfo["version"]
+__version__ = vinfo.get("closest-tag", vinfo["version"])
+full_version = vinfo['version']
+git_revision = vinfo['full-revisionid']
+release = 'dev0' not in version and '+' not in version
+short_version = vinfo['version'].split("+")[0]
+
+del get_versions, vinfo
