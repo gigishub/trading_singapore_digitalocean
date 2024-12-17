@@ -4,7 +4,7 @@ __pycache__/
 
 # Ignore virtual environment directories
 tradingvenv/
-pandas
+pandas/
 
 # Ignore specific files
 secret_config.py
