@@ -1,0 +1,223 @@
+{
+    "trading_session": {
+        "start_time": "2024-12-09T11:59:30.098696",
+        "symbol": "MOVE-USDT",
+        "end_time": "2024-12-09T12:00:06.436999"
+    },
+    "trade_performance": {
+        "symbol": "MOVE-USDT",
+        "total_trades": 0,
+        "buy_trades": 0,
+        "sell_trades": 0,
+        "total_volume": 0,
+        "USDT_buy": 0,
+        "USDT_sell": 0,
+        "total_profit_loss": 0,
+        "profit_loss_percentage": 0
+    },
+    "buy_orders": {
+        "trigger_data": {
+            "price": "0.4",
+            "side": "buy",
+            "time_received": "12:00:00.173",
+            "makerOrderId": "6756d7c841bdfd00078f4cda"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Symbol MOVE-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.406",
+                "order_sent_time": "12:00:00.173",
+                "order_received_time": "12:00:00.368",
+                "currency_pair": "MOVE-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Symbol MOVE-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.412",
+                "order_sent_time": "12:00:00.174",
+                "order_received_time": "12:00:00.332",
+                "currency_pair": "MOVE-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Symbol MOVE-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.418",
+                "order_sent_time": "12:00:00.175",
+                "order_received_time": "12:00:00.346",
+                "currency_pair": "MOVE-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Symbol MOVE-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.424",
+                "order_sent_time": "12:00:00.175",
+                "order_received_time": "12:00:00.345",
+                "currency_pair": "MOVE-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": true,
+                "execution_time": 0.23139,
+                "limit_buy_price": "0.43",
+                "orderId": "6756dbc07cf7ff0007b49c3e",
+                "clientOid": "f79c9382-8f3d-4369-b59b-80f6f4c53f38",
+                "order_sent_time": "12:00:00.176",
+                "order_received_time": "12:00:00.407",
+                "currency_pair": "MOVE-USDT",
+                "order_size": "11",
+                "side": "buy"
+            },
+            {
+                "success": false,
+                "message": "Symbol MOVE-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.436",
+                "order_sent_time": "12:00:00.176",
+                "order_received_time": "12:00:00.346",
+                "currency_pair": "MOVE-USDT",
+                "order_size": "11"
+            }
+        ],
+        "filled_orders": []
+    },
+    "sell_orders": {
+        "trigger_data": {
+            "price": "0.5901",
+            "side": "sell",
+            "time_received": "12:00:01.868",
+            "makerOrderId": "6756dbc1a398ab0007a9806a"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.6019",
+                "order_sent_time": "12:00:01.871",
+                "order_received_time": "12:00:02.032",
+                "currency_pair": "MOVE-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.6019",
+                "order_sent_time": "12:00:01.872",
+                "order_received_time": "12:00:02.022",
+                "currency_pair": "MOVE-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.6019",
+                "order_sent_time": "12:00:01.873",
+                "order_received_time": "12:00:02.022",
+                "currency_pair": "MOVE-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.6019",
+                "order_sent_time": "12:00:01.874",
+                "order_received_time": "12:00:02.022",
+                "currency_pair": "MOVE-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.6019",
+                "order_sent_time": "12:00:01.875",
+                "order_received_time": "12:00:02.017",
+                "currency_pair": "MOVE-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.6019",
+                "order_sent_time": "12:00:01.876",
+                "order_received_time": "12:00:02.023",
+                "currency_pair": "MOVE-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.6019",
+                "order_sent_time": "12:00:01.877",
+                "order_received_time": "12:00:02.089",
+                "currency_pair": "MOVE-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.6019",
+                "order_sent_time": "12:00:01.878",
+                "order_received_time": "12:00:02.034",
+                "currency_pair": "MOVE-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.6019",
+                "order_sent_time": "12:00:01.879",
+                "order_received_time": "12:00:02.049",
+                "currency_pair": "MOVE-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.6019",
+                "order_sent_time": "12:00:01.880",
+                "order_received_time": "12:00:02.046",
+                "currency_pair": "MOVE-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.6019",
+                "order_sent_time": "12:00:01.880",
+                "order_received_time": "12:00:02.084",
+                "currency_pair": "MOVE-USDT",
+                "order_size": "7"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.6019",
+                "order_sent_time": "12:00:01.883",
+                "order_received_time": "12:00:02.084",
+                "currency_pair": "MOVE-USDT",
+                "order_size": "7"
+            }
+        ],
+        "filled_orders": []
+    },
+    "error": "'makerOrderId'"
+}

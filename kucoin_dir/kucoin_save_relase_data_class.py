@@ -6,6 +6,7 @@ from datetime import datetime, timedelta
 from typing import Dict, Any, Optional
 import os
 import json
+from typing import Dict, Any, Optional, List
 
 # Configure logging
 logger = logging.getLogger(__name__)
@@ -249,40 +250,128 @@ class Kucoin_save_ws_data:
 
 
 
-##############################################
-# process and save data
+
+# [... previous logging configuration remains the same ...]
 
     async def process_for_saving(self):
-        """Process and save data to a list with optimized batch processing"""
+        """Process and save data in batches with periodic saving"""
         batch = []
-        batch_size = 100  # Increased batch size for better performance
+        batch_size = 1000  # Increased batch size
+        batch_save_interval = 900  # 15 minutes in seconds
+        last_batch_save_time = datetime.now()
 
         try:
             while datetime.now() <= self.end_time or not self.queue.empty():
                 try:
+                    # Wait for data with a timeout
                     data = await asyncio.wait_for(self.queue.get(), timeout=1.0)
                     batch.append(data)
 
-                    if len(batch) >= batch_size:
-                        self.stored_data.extend(batch)
-                        batch.clear()
+                    # Check if it's time to save a batch
+                    current_time = datetime.now()
+                    time_since_last_save = (current_time - last_batch_save_time).total_seconds()
+
+                    if (len(batch) >= batch_size or 
+                        time_since_last_save >= batch_save_interval or 
+                        (self.collection_ended and self.queue.empty())):
                         
+                        # Save the current batch
+                        await self.save_batch_data(batch, last_batch_save_time)
+                        
+                        # Reset batch and update last save time
+                        batch.clear()
+                        last_batch_save_time = current_time
+
                 except asyncio.TimeoutError:
                     if self.collection_ended and self.queue.empty():
                         break
                     continue
                 
-            # Process remaining batch
+            # Process any remaining batch
             if batch:
-                self.stored_data.extend(batch)
-                
-            logger.info(f"Total messages processed and stored: {len(self.stored_data)}")
+                await self.save_batch_data(batch, last_batch_save_time)
+            
+            logger.info(f"Total messages processed: {len(self.stored_data)}")
             
         except Exception as e:
             logger.error(f"Error in data processing: {e}")
         finally:
-            await self.save_data(self.saving_path)
             await self.cleanup()
+
+    async def save_batch_data(self, batch: list, batch_save_time: datetime):
+        """Save a batch of data to a separate file"""
+        try:
+            saving_dir = f"{self.release_time.strftime('%Y-%m-%d_%H-%M')}_{self.symbol}"
+            full_path = os.path.join(self.saving_path, saving_dir)
+            os.makedirs(full_path, exist_ok=True)
+
+            # Create a unique filename based on the batch save time
+            batch_filename = os.path.join(
+                full_path, 
+                f"{self.symbol}_{self.channel}_batch_{batch_save_time.strftime('%H-%M-%S')}.json"
+            )
+            
+            # Prepare metadata for this batch
+            metadata = {
+                "symbol": self.symbol,
+                "channel": self.channel,
+                "batch_save_time": self.get_formatted_time(batch_save_time),
+                "total_messages_in_batch": len(batch),
+                "collection_start_time": self.get_formatted_time(self.start_time),
+                "collection_end_time": self.get_formatted_time(self.end_time)
+            }
+            
+            save_data = {
+                "metadata": metadata,
+                "data": batch
+            }
+
+            # Save the batch
+            with open(batch_filename, "w") as f:
+                json.dump(save_data, f)
+            
+            logger.info(f"Batch data saved successfully to: {batch_filename}")
+            logger.info(f"Batch messages saved: {len(batch)}")
+
+            # Optionally, clear the stored data to free up memory
+            self.stored_data.clear()
+            
+        except Exception as e:
+            logger.error(f"Error saving batch data: {e}")
+
+
+
+    # async def process_for_saving(self):
+    #     """Process and save data to a list with optimized batch processing"""
+    #     batch = []
+    #     batch_size = 100  # Increased batch size for better performance
+
+    #     try:
+    #         while datetime.now() <= self.end_time or not self.queue.empty():
+    #             try:
+    #                 data = await asyncio.wait_for(self.queue.get(), timeout=1.0)
+    #                 batch.append(data)
+
+    #                 if len(batch) >= batch_size:
+    #                     self.stored_data.extend(batch)
+    #                     batch.clear()
+                        
+    #             except asyncio.TimeoutError:
+    #                 if self.collection_ended and self.queue.empty():
+    #                     break
+    #                 continue
+                
+    #         # Process remaining batch
+    #         if batch:
+    #             self.stored_data.extend(batch)
+                
+    #         logger.info(f"Total messages processed and stored: {len(self.stored_data)}")
+            
+    #     except Exception as e:
+    #         logger.error(f"Error in data processing: {e}")
+    #     finally:
+    #         await self.save_data(self.saving_path)
+    #         await self.cleanup()
 
 
 
@@ -347,7 +436,7 @@ class Kucoin_save_ws_data:
             }
 
             with open(filename, "w") as f:
-                json.dump(save_data, f, indent=2)
+                json.dump(save_data, f)
             
             logger.info(f"Data saved successfully to: {filename}")
             logger.info(f"Total messages saved: {len(self.stored_data)}")
@@ -389,16 +478,20 @@ import json
 
 
 async def main():
-    # Example: Collect data for a token release
-    release_time = datetime.now() + timedelta(seconds=5)  # Example: Release in 5 seconds
+    # List of top cryptocurrencies by market cap
+    top_coins = ["BTC", "ETH", "BNB", "SOL", "XRP", "ADA", "DOGE"]
+    
+    # Set release time slightly in the future
+    release_time = datetime.now() + timedelta(seconds=10)  # 10 seconds from now
+    
+    # Run collections for all top coins concurrently
     await run_all_collections(
-        symbol="BTC",
+        symbol_list=top_coins,  # Pass list of coins
         release_time=release_time,
-        duration_minutes=0.5,
+        duration_minutes=0.5,  # 30 seconds of data collection
         save_path="./data",
-        start_collect_before_release_sec=3
+        start_collect_before_release_sec=5  # Start collecting 5 seconds before release time
     )
-
     # await run_collection(
     #     symbol="BTC",
     #     release_time=release_time,
@@ -414,45 +507,46 @@ async def main():
 
 #########################
 # multi channel use
-
-async def run_all_collections(symbol: str, release_time: datetime, duration_minutes: float, 
+async def run_all_collections(symbol_list: List[str], release_time: datetime, duration_minutes: float, 
                               save_path: str, start_collect_before_release_sec: int = 30):
-    """Run collection for all channels concurrently"""
+    """Run collection for all channels and symbols concurrently"""
     # List all channel attributes from the class
     channels = [
         Kucoin_save_ws_data.CHANNEL_TICKER,
-        Kucoin_save_ws_data.CHANNEL_LEVEL2,
+        # Kucoin_save_ws_data.CHANNEL_LEVEL2,
         Kucoin_save_ws_data.CHANNEL_MATCH,
         Kucoin_save_ws_data.CHANNEL_DEPTH5,
-        Kucoin_save_ws_data.CHANNEL_SNAPSHOT,
-        Kucoin_save_ws_data.CHANNEL_LEVEL1
+        # Kucoin_save_ws_data.CHANNEL_SNAPSHOT,
+        # Kucoin_save_ws_data.CHANNEL_LEVEL1
     ]
 
     tasks = []
     ws_instances = []
-    for channel in channels:
-        ws = Kucoin_save_ws_data(
-            symbol=symbol,
-            release_time=release_time,
-            duration_minutes=duration_minutes,
-            saving_path=save_path,
-            channel=channel,
-            pre_release_seconds=start_collect_before_release_sec
-        )
-        ws_instances.append(ws)
-        try:
-            # Start the websocket connection
-            websocket_task = asyncio.create_task(ws.start_websocket())
-            # Process and save data
-            data_task = asyncio.create_task(ws.process_for_saving())
-            # Wait for both tasks to complete
-            tasks.append(asyncio.gather(websocket_task, data_task))
-        except Exception as e:
-            logger.error(f"Error in collection process for channel {channel}: {e}")
+    
+    # Nested loops to create instances for each symbol and channel
+    for symbol in symbol_list:
+        for channel in channels:
+            ws = Kucoin_save_ws_data(
+                symbol=symbol,
+                release_time=release_time,
+                duration_minutes=duration_minutes,
+                saving_path=save_path,
+                channel=channel,
+                pre_release_seconds=start_collect_before_release_sec
+            )
+            ws_instances.append(ws)
+            try:
+                # Start the websocket connection
+                websocket_task = asyncio.create_task(ws.start_websocket())
+                # Process and save data
+                data_task = asyncio.create_task(ws.process_for_saving())
+                # Wait for both tasks to complete
+                tasks.append(asyncio.gather(websocket_task, data_task))
+            except Exception as e:
+                logger.error(f"Error in collection process for symbol {symbol}, channel {channel}: {e}")
     
     # Run all tasks concurrently
     await asyncio.gather(*tasks)
-
 
 
 #########################

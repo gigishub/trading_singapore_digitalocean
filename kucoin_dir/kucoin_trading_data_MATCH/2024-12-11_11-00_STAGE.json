@@ -1,0 +1,225 @@
+{
+    "trading_session": {
+        "start_time": "2024-12-11T10:59:30.018401",
+        "symbol": "STAGE-USDT",
+        "end_time": "2024-12-11T11:00:12.988465"
+    },
+    "trade_performance": {
+        "symbol": "STAGE-USDT",
+        "total_trades": 0,
+        "buy_trades": 0,
+        "sell_trades": 0,
+        "total_volume": 0,
+        "USDT_buy": 0,
+        "USDT_sell": 0,
+        "total_profit_loss": 0,
+        "profit_loss_percentage": 0
+    },
+    "buy_orders": {
+        "trigger_data": {
+            "price": "0.00125",
+            "side": "buy",
+            "time_received": "11:00:00.127",
+            "makerOrderId": "67596aed3ecf4300079cc808"
+        },
+        "orders_sent": [
+            {
+                "success": true,
+                "execution_time": 0.19999,
+                "limit_buy_price": "0.001269",
+                "orderId": "675970b03ecf430007bf43eb",
+                "clientOid": "08c53b44-763d-4120-94c2-53dc7c60409f",
+                "order_sent_time": "11:00:00.129",
+                "order_received_time": "11:00:00.329",
+                "currency_pair": "STAGE-USDT",
+                "order_size": "1010",
+                "side": "buy"
+            },
+            {
+                "success": true,
+                "execution_time": 0.19803,
+                "limit_buy_price": "0.001288",
+                "orderId": "675970b03ecf430007bf43ec",
+                "clientOid": "8873d84b-0a57-48e3-8d70-ec6e69a81888",
+                "order_sent_time": "11:00:00.130",
+                "order_received_time": "11:00:00.328",
+                "currency_pair": "STAGE-USDT",
+                "order_size": "1010",
+                "side": "buy"
+            },
+            {
+                "success": false,
+                "message": "Symbol STAGE-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.001306",
+                "order_sent_time": "11:00:00.131",
+                "order_received_time": "11:00:00.304",
+                "currency_pair": "STAGE-USDT",
+                "order_size": "1010"
+            },
+            {
+                "success": false,
+                "message": "Symbol STAGE-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.001325",
+                "order_sent_time": "11:00:00.131",
+                "order_received_time": "11:00:00.300",
+                "currency_pair": "STAGE-USDT",
+                "order_size": "1010"
+            },
+            {
+                "success": false,
+                "message": "Symbol STAGE-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.001344",
+                "order_sent_time": "11:00:00.132",
+                "order_received_time": "11:00:00.314",
+                "currency_pair": "STAGE-USDT",
+                "order_size": "1010"
+            },
+            {
+                "success": false,
+                "message": "Symbol STAGE-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.001363",
+                "order_sent_time": "11:00:00.132",
+                "order_received_time": "11:00:00.314",
+                "currency_pair": "STAGE-USDT",
+                "order_size": "1010"
+            }
+        ],
+        "filled_orders": []
+    },
+    "sell_orders": {
+        "trigger_data": {
+            "price": "0.004601",
+            "side": "sell",
+            "time_received": "11:00:04.408",
+            "makerOrderId": "675970b33ecf430007bf57b9"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.004693",
+                "order_sent_time": "11:00:04.410",
+                "order_received_time": "11:00:04.548",
+                "currency_pair": "STAGE-USDT",
+                "order_size": "505"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.004693",
+                "order_sent_time": "11:00:04.412",
+                "order_received_time": "11:00:04.550",
+                "currency_pair": "STAGE-USDT",
+                "order_size": "505"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.004693",
+                "order_sent_time": "11:00:04.413",
+                "order_received_time": "11:00:04.534",
+                "currency_pair": "STAGE-USDT",
+                "order_size": "505"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.004693",
+                "order_sent_time": "11:00:04.413",
+                "order_received_time": "11:00:04.532",
+                "currency_pair": "STAGE-USDT",
+                "order_size": "505"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.004693",
+                "order_sent_time": "11:00:04.414",
+                "order_received_time": "11:00:04.546",
+                "currency_pair": "STAGE-USDT",
+                "order_size": "505"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.004693",
+                "order_sent_time": "11:00:04.416",
+                "order_received_time": "11:00:04.571",
+                "currency_pair": "STAGE-USDT",
+                "order_size": "505"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.004693",
+                "order_sent_time": "11:00:04.416",
+                "order_received_time": "11:00:04.577",
+                "currency_pair": "STAGE-USDT",
+                "order_size": "505"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.004693",
+                "order_sent_time": "11:00:04.417",
+                "order_received_time": "11:00:04.559",
+                "currency_pair": "STAGE-USDT",
+                "order_size": "505"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.004693",
+                "order_sent_time": "11:00:04.418",
+                "order_received_time": "11:00:04.578",
+                "currency_pair": "STAGE-USDT",
+                "order_size": "505"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.004693",
+                "order_sent_time": "11:00:04.419",
+                "order_received_time": "11:00:04.548",
+                "currency_pair": "STAGE-USDT",
+                "order_size": "505"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.004693",
+                "order_sent_time": "11:00:04.420",
+                "order_received_time": "11:00:04.562",
+                "currency_pair": "STAGE-USDT",
+                "order_size": "505"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.004693",
+                "order_sent_time": "11:00:04.420",
+                "order_received_time": "11:00:04.577",
+                "currency_pair": "STAGE-USDT",
+                "order_size": "505"
+            }
+        ],
+        "filled_orders": []
+    },
+    "error": "'makerOrderId'"
+}

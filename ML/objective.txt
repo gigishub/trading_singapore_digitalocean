@@ -1,0 +1,90 @@
+Objective:
+We want to build a simple reinforcement learning (RL) agent to predict whether the cryptocurrency market is trending up, down, or sideways. The agent will make buy, sell, or hold decisions based on a set of technical indicators (like moving averages, RSI, volume). The goal is to train an RL model using historical price data and then evaluate the model's performance on unseen data.
+
+Requirements:
+Environment Setup:
+
+The RL environment will be created using OpenAI Gym.
+The state will consist of historical price data, moving averages, RSI, and volume.
+The action space will consist of three actions: Buy, Sell, Hold.
+Custom Gym Environment:
+
+The environment should inherit from gym.Env.
+The state should include the following indicators: price, moving averages, RSI, and volume.
+The action space should allow three actions: Buy, Sell, and Hold.
+The reward should be based on the profit or loss from a trade.
+RL Algorithm:
+
+Use Stable-Baselines3 and the PPO algorithm for training the RL agent.
+Train the agent on historical data.
+Reward Function:
+
+The reward function should be based on the agent's profit or loss from its actions.
+The agent will receive positive rewards for profitable trades and negative rewards for losing trades.
+Backtesting:
+
+Once the agent is trained, it should be tested on unseen historical data.
+Implement a simple backtesting framework to evaluate the performance of the agent.
+Code Structure:
+Custom Gym Environment (CryptoTradingEnv):
+
+Define the state space and action space.
+Implement the reset() method to initialize the environment.
+Implement the step() method to take actions (buy, sell, hold), move to the next state, and return rewards.
+Training the RL Agent:
+
+Use Stable-Baselines3 with PPO for training.
+Train the model on the custom environment using historical data.
+Evaluation:
+
+Implement a testing procedure to evaluate how well the trained agent performs on unseen data.
+Track the agent’s performance in terms of profit or loss.
+
+
+
+
+
+
+Clarifications and Suggestions:
+
+
+
+
+1. **Data Source**: 
+I am getting data straight from an exchange no need to focus on that 
+
+2. **Technical Indicators**:
+   - For moving averages, do you want to use simple moving averages (SMA) or exponential moving averages (EMA)?
+   - Are there specific time periods you're interested in for these indicators? (e.g., 50-day, 200-day moving averages)
+   - For RSI, what's the standard period you want to use? (typically 14 days)
+EMA short( 20) and EMA long(100) and RSI 14 candles is good 
+3. **Risk Management**:
+Lets use 1 ATR as fixed sl and tp
+
+4. **Environment Complexity**:
+   - Do you want to simulate transaction fees? NO
+   - Should we include slippage in the trading simulation? NO
+   - Will you need support for margin trading or just spot trading? no nee to focus on that for now.
+
+5. **Data Preprocessing**:
+   - How will you handle missing data? Don’t know just do what you think is best 
+   - Do you want to implement normalization of features? Yes 
+   - What time frame are you considering? (daily, hourly, minute-level data) 1 minute 
+
+6. **Performance Metrics**:
+   - Beyond profit/loss, are you interested in additional metrics like:
+Only the following for now 
+     * Win/loss ratio
+     * Number of trades
+
+7. **Training Considerations**: how does that impact?  I want it as simple as possible for now just to get an idea if I want to go further or not.
+   - What's your computational budget for training?
+   - Do you have a specific training duration or number of episodes in mind?
+   - Will you use GPU acceleration?
+
+Proposed Libraries:
+- Data Collection: `yfinance` or `ccxt` / no need to implement I will do that 
+- Technical Indicators: `ta-lib` or `pandas-ta`  / use pandas-ta
+- Machine Learning: `stable-baselines3`, `gymnasium` (updated version of gym) / yes 
+- Data Manipulation: `pandas`, `numpy` / yes 
+- Visualization: `matplotlib`, `plotly` /yes

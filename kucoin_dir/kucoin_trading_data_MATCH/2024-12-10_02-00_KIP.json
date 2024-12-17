@@ -1,0 +1,227 @@
+{
+    "trading_session": {
+        "start_time": "2024-12-10T01:59:30.039087",
+        "symbol": "KIP-USDT",
+        "end_time": "2024-12-10T02:00:41.153310"
+    },
+    "trade_performance": {
+        "symbol": "KIP-USDT",
+        "total_trades": 0,
+        "buy_trades": 0,
+        "sell_trades": 0,
+        "total_volume": 0,
+        "USDT_buy": 0,
+        "USDT_sell": 0,
+        "total_profit_loss": 0,
+        "profit_loss_percentage": 0
+    },
+    "buy_orders": {
+        "trigger_data": {
+            "price": "0.003",
+            "side": "buy",
+            "time_received": "02:00:00.127",
+            "makerOrderId": "67576c3bff2a9e00075c6ff3"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Symbol KIP-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.003045",
+                "order_sent_time": "02:00:00.130",
+                "order_received_time": "02:00:00.271",
+                "currency_pair": "KIP-USDT",
+                "order_size": "1010"
+            },
+            {
+                "success": true,
+                "execution_time": 0.22942,
+                "limit_buy_price": "0.00309",
+                "orderId": "6757a0a0716ab300071a0427",
+                "clientOid": "40d67bd7-c98b-4a5c-ba27-c819b306d0ee",
+                "order_sent_time": "02:00:00.131",
+                "order_received_time": "02:00:00.360",
+                "currency_pair": "KIP-USDT",
+                "order_size": "1010",
+                "side": "buy"
+            },
+            {
+                "success": true,
+                "execution_time": 0.17444,
+                "limit_buy_price": "0.003135",
+                "orderId": "6757a0a0ecb8b20007d6a440",
+                "clientOid": "761e62d4-7926-4f81-9458-70a955e49249",
+                "order_sent_time": "02:00:00.132",
+                "order_received_time": "02:00:00.306",
+                "currency_pair": "KIP-USDT",
+                "order_size": "1010",
+                "side": "buy"
+            },
+            {
+                "success": false,
+                "message": "Symbol KIP-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.00318",
+                "order_sent_time": "02:00:00.132",
+                "order_received_time": "02:00:00.279",
+                "currency_pair": "KIP-USDT",
+                "order_size": "1010"
+            },
+            {
+                "success": true,
+                "execution_time": 0.17311,
+                "limit_buy_price": "0.003225",
+                "orderId": "6757a0a041bdfd0007c7c0bb",
+                "clientOid": "4868af88-b9dd-4770-9a22-4c4ff29378b1",
+                "order_sent_time": "02:00:00.133",
+                "order_received_time": "02:00:00.306",
+                "currency_pair": "KIP-USDT",
+                "order_size": "1010",
+                "side": "buy"
+            },
+            {
+                "success": false,
+                "message": "Symbol KIP-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.00327",
+                "order_sent_time": "02:00:00.133",
+                "order_received_time": "02:00:00.259",
+                "currency_pair": "KIP-USDT",
+                "order_size": "1010"
+            }
+        ],
+        "filled_orders": []
+    },
+    "sell_orders": {
+        "trigger_data": {
+            "price": "0.016201",
+            "side": "sell",
+            "time_received": "02:00:28.469",
+            "makerOrderId": "6757a0bbff2a9e00073c22b4"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.01653",
+                "order_sent_time": "02:00:28.473",
+                "order_received_time": "02:00:28.659",
+                "currency_pair": "KIP-USDT",
+                "order_size": "110"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.01653",
+                "order_sent_time": "02:00:28.474",
+                "order_received_time": "02:00:28.670",
+                "currency_pair": "KIP-USDT",
+                "order_size": "110"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.01653",
+                "order_sent_time": "02:00:28.475",
+                "order_received_time": "02:00:28.658",
+                "currency_pair": "KIP-USDT",
+                "order_size": "110"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.01653",
+                "order_sent_time": "02:00:28.476",
+                "order_received_time": "02:00:28.671",
+                "currency_pair": "KIP-USDT",
+                "order_size": "110"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.01653",
+                "order_sent_time": "02:00:28.476",
+                "order_received_time": "02:00:28.658",
+                "currency_pair": "KIP-USDT",
+                "order_size": "110"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.01653",
+                "order_sent_time": "02:00:28.477",
+                "order_received_time": "02:00:28.668",
+                "currency_pair": "KIP-USDT",
+                "order_size": "110"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.01653",
+                "order_sent_time": "02:00:28.477",
+                "order_received_time": "02:00:28.660",
+                "currency_pair": "KIP-USDT",
+                "order_size": "110"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.01653",
+                "order_sent_time": "02:00:28.478",
+                "order_received_time": "02:00:28.657",
+                "currency_pair": "KIP-USDT",
+                "order_size": "110"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.01653",
+                "order_sent_time": "02:00:28.479",
+                "order_received_time": "02:00:28.672",
+                "currency_pair": "KIP-USDT",
+                "order_size": "110"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.01653",
+                "order_sent_time": "02:00:28.479",
+                "order_received_time": "02:00:28.646",
+                "currency_pair": "KIP-USDT",
+                "order_size": "110"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.01653",
+                "order_sent_time": "02:00:28.480",
+                "order_received_time": "02:00:28.666",
+                "currency_pair": "KIP-USDT",
+                "order_size": "110"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.01653",
+                "order_sent_time": "02:00:28.480",
+                "order_received_time": "02:00:28.702",
+                "currency_pair": "KIP-USDT",
+                "order_size": "110"
+            }
+        ],
+        "filled_orders": []
+    },
+    "error": "'makerOrderId'"
+}

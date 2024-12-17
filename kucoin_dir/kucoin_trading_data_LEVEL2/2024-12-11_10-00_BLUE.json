@@ -1,0 +1,73 @@
+{
+    "buy_orders": {
+        "trigger_data": {
+            "changes": {
+                "asks": [
+                    [
+                        "0.28105",
+                        "0",
+                        "2002"
+                    ],
+                    [
+                        "0.28737",
+                        "0",
+                        "2003"
+                    ],
+                    [
+                        "0.29",
+                        "23299.3",
+                        "2004"
+                    ]
+                ],
+                "bids": []
+            },
+            "sequenceEnd": 2004,
+            "sequenceStart": 2002,
+            "symbol": "BLUE-USDT",
+            "time": 1733911200054,
+            "time_received": "10:00:00.129"
+        },
+        "orders_sent": [
+            {
+                "success": true,
+                "execution_time": 0.18022,
+                "limit_buy_price": "0.2987",
+                "orderId": "675962a0fd80ce000788ab13",
+                "clientOid": "292fafcd-1859-48f6-98df-77c35af1f1fc",
+                "order_sent_time": "10:00:00.132",
+                "order_received_time": "10:00:00.312",
+                "currency_pair": "BLUE-USDT",
+                "order_size": "11",
+                "side": "buy"
+            },
+            {
+                "success": true,
+                "execution_time": 0.19556,
+                "limit_buy_price": "0.3074",
+                "orderId": "675962a0fe36bf00072ba776",
+                "clientOid": "7642a748-4ff0-4c36-b5b3-0330f26f2c74",
+                "order_sent_time": "10:00:00.133",
+                "order_received_time": "10:00:00.328",
+                "currency_pair": "BLUE-USDT",
+                "order_size": "11",
+                "side": "buy"
+            },
+            {
+                "success": false,
+                "message": "Symbol BLUE-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.3161",
+                "order_sent_time": "10:00:00.133",
+                "order_received_time": "10:00:00.284",
+                "currency_pair": "BLUE-USDT",
+                "order_size": "11"
+            }
+        ]
+    },
+    "sell_orders": {},
+    "trading_session": {
+        "start_time": "2024-12-11T09:59:30.034977",
+        "symbol": "BLUE-USDT",
+        "end_time": "2024-12-11T10:00:05.562691"
+    }
+}

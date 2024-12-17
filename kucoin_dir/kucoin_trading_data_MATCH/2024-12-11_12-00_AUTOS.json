@@ -1,0 +1,227 @@
+{
+    "trading_session": {
+        "start_time": "2024-12-11T11:59:30.083302",
+        "symbol": "AUTOS-USDT",
+        "end_time": "2024-12-11T12:00:19.662061"
+    },
+    "trade_performance": {
+        "symbol": "AUTOS-USDT",
+        "total_trades": 0,
+        "buy_trades": 0,
+        "sell_trades": 0,
+        "total_volume": 0,
+        "USDT_buy": 0,
+        "USDT_sell": 0,
+        "total_profit_loss": 0,
+        "profit_loss_percentage": 0
+    },
+    "buy_orders": {
+        "trigger_data": {
+            "price": "0.09",
+            "side": "buy",
+            "time_received": "12:00:00.064",
+            "makerOrderId": "67597b631e1c9e0007f0d0a9"
+        },
+        "orders_sent": [
+            {
+                "success": true,
+                "execution_time": 0.18637,
+                "limit_buy_price": "0.0913",
+                "orderId": "67597ec01e1c9e0007056ddd",
+                "clientOid": "fd4dedfb-2e95-4c64-aa2c-2c7f7f5fcbd1",
+                "order_sent_time": "12:00:00.079",
+                "order_received_time": "12:00:00.265",
+                "currency_pair": "AUTOS-USDT",
+                "order_size": "11",
+                "side": "buy"
+            },
+            {
+                "success": false,
+                "message": "Symbol AUTOS-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.0927",
+                "order_sent_time": "12:00:00.079",
+                "order_received_time": "12:00:00.202",
+                "currency_pair": "AUTOS-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Symbol AUTOS-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.094",
+                "order_sent_time": "12:00:00.080",
+                "order_received_time": "12:00:00.218",
+                "currency_pair": "AUTOS-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": true,
+                "execution_time": 0.17058,
+                "limit_buy_price": "0.0954",
+                "orderId": "67597ec01e1c9e0007056ddc",
+                "clientOid": "b5c52cf7-02ea-4235-8fb9-a6bc4769382b",
+                "order_sent_time": "12:00:00.080",
+                "order_received_time": "12:00:00.251",
+                "currency_pair": "AUTOS-USDT",
+                "order_size": "11",
+                "side": "buy"
+            },
+            {
+                "success": true,
+                "execution_time": 0.18918,
+                "limit_buy_price": "0.0967",
+                "orderId": "67597ec0ff2a9e0007c5d224",
+                "clientOid": "77cf6ac8-ef33-4d22-9ec5-c5b870b4681c",
+                "order_sent_time": "12:00:00.081",
+                "order_received_time": "12:00:00.270",
+                "currency_pair": "AUTOS-USDT",
+                "order_size": "11",
+                "side": "buy"
+            },
+            {
+                "success": false,
+                "message": "Symbol AUTOS-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.0981",
+                "order_sent_time": "12:00:00.081",
+                "order_received_time": "12:00:00.221",
+                "currency_pair": "AUTOS-USDT",
+                "order_size": "11"
+            }
+        ],
+        "filled_orders": []
+    },
+    "sell_orders": {
+        "trigger_data": {
+            "price": "0.10962",
+            "side": "sell",
+            "time_received": "12:00:06.948",
+            "makerOrderId": "67597ec641bdfd0007529c35"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.1118",
+                "order_sent_time": "12:00:06.949",
+                "order_received_time": "12:00:07.082",
+                "currency_pair": "AUTOS-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.1118",
+                "order_sent_time": "12:00:06.950",
+                "order_received_time": "12:00:07.082",
+                "currency_pair": "AUTOS-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.1118",
+                "order_sent_time": "12:00:06.951",
+                "order_received_time": "12:00:07.070",
+                "currency_pair": "AUTOS-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.1118",
+                "order_sent_time": "12:00:06.952",
+                "order_received_time": "12:00:07.087",
+                "currency_pair": "AUTOS-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.1118",
+                "order_sent_time": "12:00:06.953",
+                "order_received_time": "12:00:07.065",
+                "currency_pair": "AUTOS-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.1118",
+                "order_sent_time": "12:00:06.953",
+                "order_received_time": "12:00:07.077",
+                "currency_pair": "AUTOS-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.1118",
+                "order_sent_time": "12:00:06.955",
+                "order_received_time": "12:00:07.121",
+                "currency_pair": "AUTOS-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.1118",
+                "order_sent_time": "12:00:06.955",
+                "order_received_time": "12:00:07.117",
+                "currency_pair": "AUTOS-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.1118",
+                "order_sent_time": "12:00:06.956",
+                "order_received_time": "12:00:07.117",
+                "currency_pair": "AUTOS-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.1118",
+                "order_sent_time": "12:00:06.957",
+                "order_received_time": "12:00:07.111",
+                "currency_pair": "AUTOS-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.1118",
+                "order_sent_time": "12:00:06.957",
+                "order_received_time": "12:00:07.131",
+                "currency_pair": "AUTOS-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.1118",
+                "order_sent_time": "12:00:06.958",
+                "order_received_time": "12:00:07.106",
+                "currency_pair": "AUTOS-USDT",
+                "order_size": "11"
+            }
+        ],
+        "filled_orders": []
+    },
+    "error": "'makerOrderId'"
+}

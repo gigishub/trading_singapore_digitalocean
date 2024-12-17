@@ -1,0 +1,61 @@
+{
+    "buy_orders": {
+        "trigger_data": {
+            "changes": {
+                "asks": [
+                    [
+                        "0.4",
+                        "1250",
+                        "63"
+                    ]
+                ],
+                "bids": []
+            },
+            "sequenceEnd": 63,
+            "sequenceStart": 63,
+            "symbol": "MOVE-USDT",
+            "time": 1733745600123,
+            "time_received": "12:00:00.161"
+        },
+        "orders_sent": [
+            {
+                "success": true,
+                "execution_time": 0.20627,
+                "limit_buy_price": "0.412",
+                "orderId": "6756dbc0a398ab0007a973f8",
+                "clientOid": "6e6b478f-84d2-43d5-a6c9-f1949ca906eb",
+                "order_sent_time": "12:00:00.161",
+                "order_received_time": "12:00:00.367",
+                "currency_pair": "MOVE-USDT",
+                "order_size": "11",
+                "side": "buy"
+            },
+            {
+                "success": false,
+                "message": "Symbol MOVE-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.424",
+                "order_sent_time": "12:00:00.163",
+                "order_received_time": "12:00:00.322",
+                "currency_pair": "MOVE-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Symbol MOVE-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.436",
+                "order_sent_time": "12:00:00.163",
+                "order_received_time": "12:00:00.317",
+                "currency_pair": "MOVE-USDT",
+                "order_size": "11"
+            }
+        ]
+    },
+    "sell_orders": {},
+    "trading_session": {
+        "start_time": "2024-12-09T11:59:30.100307",
+        "symbol": "MOVE-USDT",
+        "end_time": "2024-12-09T12:00:05.517982"
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "buy_orders": {
+        "trigger_data": {
+            "changes": {
+                "asks": [
+                    [
+                        "0.03008",
+                        "102622",
+                        "1054"
+                    ]
+                ],
+                "bids": []
+            },
+            "sequenceEnd": 1054,
+            "sequenceStart": 1054,
+            "symbol": "MOZ-USDT",
+            "time": 1733824800015,
+            "time_received": "10:00:00.052"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Symbol MOZ-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.03098",
+                "order_sent_time": "10:00:00.052",
+                "order_received_time": "10:00:00.201",
+                "currency_pair": "MOZ-USDT",
+                "order_size": "110"
+            },
+            {
+                "success": false,
+                "message": "Symbol MOZ-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.03188",
+                "order_sent_time": "10:00:00.054",
+                "order_received_time": "10:00:00.199",
+                "currency_pair": "MOZ-USDT",
+                "order_size": "110"
+            },
+            {
+                "success": true,
+                "execution_time": 0.21203,
+                "limit_buy_price": "0.03279",
+                "orderId": "67581120e775000007e8f1aa",
+                "clientOid": "e71cbc7c-2e2b-44c2-ac2c-90ed18a21bb3",
+                "order_sent_time": "10:00:00.055",
+                "order_received_time": "10:00:00.267",
+                "currency_pair": "MOZ-USDT",
+                "order_size": "110",
+                "side": "buy"
+            }
+        ]
+    },
+    "sell_orders": {},
+    "trading_session": {
+        "start_time": "2024-12-10T09:59:30.001984",
+        "symbol": "MOZ-USDT",
+        "end_time": "2024-12-10T10:00:05.390887"
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "buy_orders": {
+        "trigger_data": {
+            "changes": {
+                "asks": [
+                    [
+                        "0.09",
+                        "0",
+                        "1399"
+                    ],
+                    [
+                        "0.0918",
+                        "0",
+                        "1400"
+                    ],
+                    [
+                        "0.0936",
+                        "953",
+                        "1401"
+                    ]
+                ],
+                "bids": []
+            },
+            "sequenceEnd": 1401,
+            "sequenceStart": 1399,
+            "symbol": "AUTOS-USDT",
+            "time": 1733918400009,
+            "time_received": "12:00:00.051"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Symbol AUTOS-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.0964",
+                "order_sent_time": "12:00:00.051",
+                "order_received_time": "12:00:00.203",
+                "currency_pair": "AUTOS-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": true,
+                "execution_time": 0.18089,
+                "limit_buy_price": "0.0992",
+                "orderId": "67597ec0a398ab00074a9b33",
+                "clientOid": "225900ac-b30f-48c5-8346-9d436040fb53",
+                "order_sent_time": "12:00:00.053",
+                "order_received_time": "12:00:00.233",
+                "currency_pair": "AUTOS-USDT",
+                "order_size": "11",
+                "side": "buy"
+            },
+            {
+                "success": false,
+                "message": "Symbol AUTOS-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.102",
+                "order_sent_time": "12:00:00.053",
+                "order_received_time": "12:00:00.201",
+                "currency_pair": "AUTOS-USDT",
+                "order_size": "11"
+            }
+        ]
+    },
+    "sell_orders": {},
+    "trading_session": {
+        "start_time": "2024-12-11T11:59:30.083123",
+        "symbol": "AUTOS-USDT",
+        "end_time": "2024-12-11T12:00:05.393138"
+    }
+}

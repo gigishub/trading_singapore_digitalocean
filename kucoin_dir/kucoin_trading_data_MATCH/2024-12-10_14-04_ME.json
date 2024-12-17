@@ -1,0 +1,11 @@
+{
+    "trading_session": {
+        "start_time": "2024-12-10T13:59:30.100985",
+        "symbol": "ME-USDT",
+        "end_time": "2024-12-10T14:04:30.101710"
+    },
+    "trade_performance": {},
+    "buy_orders": {},
+    "sell_orders": {},
+    "error": "cannot unpack non-iterable NoneType object"
+}

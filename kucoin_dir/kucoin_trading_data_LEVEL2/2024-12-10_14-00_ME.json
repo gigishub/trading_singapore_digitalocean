@@ -1,0 +1,9 @@
+{
+    "buy_orders": {},
+    "sell_orders": {},
+    "trading_session": {
+        "start_time": "2024-12-10T13:59:30.100813",
+        "symbol": "ME-USDT",
+        "end_time": "2024-12-10T14:00:00.444529"
+    }
+}

@@ -36,7 +36,7 @@ async def main():
         logger.debug("Starting script")
         testing = False  
         directory = '/root/trading_systems/kucoin_dir/new_pair_data_kucoin'
-        duration_to_run = 20  # time in minutes
+        duration_to_run = 60  # time in minutes
         start_collect_before_release_sec = 30  # Start collecting data before release time
 
         async def execution(new_pair_dict):
@@ -126,7 +126,8 @@ async def main():
             release_date_time = release_date_time.replace(microsecond=0)
             test_pair_dict = {
                 "pair": basecoin,
-                "date_time_string": release_date_time.isoformat()
+                "date_time_string": release_date_time.isoformat(),
+                "tag": "initial_listing"
             }
             await execution(test_pair_dict)
 

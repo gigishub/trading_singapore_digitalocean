@@ -1,0 +1,229 @@
+{
+    "trading_session": {
+        "start_time": "2024-12-11T09:59:30.035141",
+        "symbol": "BLUE-USDT",
+        "end_time": "2024-12-11T10:00:18.911024"
+    },
+    "trade_performance": {
+        "symbol": "BLUE-USDT",
+        "total_trades": 2,
+        "buy_trades": 2,
+        "sell_trades": 0,
+        "total_volume": 22.0,
+        "USDT_buy": 6.6671,
+        "USDT_sell": 0,
+        "total_profit_loss": 0,
+        "profit_loss_percentage": 0
+    },
+    "buy_orders": {
+        "trigger_data": {
+            "price": "0.24947",
+            "side": "buy",
+            "time_received": "10:00:00.072",
+            "makerOrderId": "675940f7f517900007f87451"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Symbol BLUE-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.2532",
+                "order_sent_time": "10:00:00.074",
+                "order_received_time": "10:00:00.227",
+                "currency_pair": "BLUE-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": true,
+                "execution_time": 0.24476,
+                "limit_buy_price": "0.257",
+                "orderId": "675962a02e6b3a000747471c",
+                "clientOid": "be2c391d-6a31-41cb-ab54-3537cd2763e1",
+                "order_sent_time": "10:00:00.075",
+                "order_received_time": "10:00:00.320",
+                "currency_pair": "BLUE-USDT",
+                "order_size": "11",
+                "side": "buy"
+            },
+            {
+                "success": true,
+                "execution_time": 0.19853,
+                "limit_buy_price": "0.2607",
+                "orderId": "675962a01ed0d80007fdd5fb",
+                "clientOid": "b291b7ac-defc-40f6-a149-ca22e62c2872",
+                "order_sent_time": "10:00:00.075",
+                "order_received_time": "10:00:00.274",
+                "currency_pair": "BLUE-USDT",
+                "order_size": "11",
+                "side": "buy"
+            },
+            {
+                "success": true,
+                "execution_time": 0.20037,
+                "limit_buy_price": "0.2644",
+                "orderId": "675962a0f517900007e2c15d",
+                "clientOid": "e6cc2e8f-d436-4e36-955f-fe9a941efe9f",
+                "order_sent_time": "10:00:00.076",
+                "order_received_time": "10:00:00.277",
+                "currency_pair": "BLUE-USDT",
+                "order_size": "11",
+                "side": "buy"
+            },
+            {
+                "success": false,
+                "message": "Symbol BLUE-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.2682",
+                "order_sent_time": "10:00:00.077",
+                "order_received_time": "10:00:00.228",
+                "currency_pair": "BLUE-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": true,
+                "execution_time": 0.19272,
+                "limit_buy_price": "0.2719",
+                "orderId": "675962a03bb37e00077da9cc",
+                "clientOid": "8841b16c-614e-404b-b2c5-4c89c28d5b7a",
+                "order_sent_time": "10:00:00.077",
+                "order_received_time": "10:00:00.270",
+                "currency_pair": "BLUE-USDT",
+                "order_size": "11",
+                "side": "buy"
+            }
+        ],
+        "filled_orders": []
+    },
+    "sell_orders": {
+        "trigger_data": {
+            "price": "0.33364",
+            "side": "sell",
+            "time_received": "10:00:01.956",
+            "makerOrderId": "675962a1b1d2ab000792be8a"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.3403",
+                "order_sent_time": "10:00:01.958",
+                "order_received_time": "10:00:02.086",
+                "currency_pair": "BLUE-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.3403",
+                "order_sent_time": "10:00:01.960",
+                "order_received_time": "10:00:02.108",
+                "currency_pair": "BLUE-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.3403",
+                "order_sent_time": "10:00:01.962",
+                "order_received_time": "10:00:02.091",
+                "currency_pair": "BLUE-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.3403",
+                "order_sent_time": "10:00:01.963",
+                "order_received_time": "10:00:02.110",
+                "currency_pair": "BLUE-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.3403",
+                "order_sent_time": "10:00:01.964",
+                "order_received_time": "10:00:02.077",
+                "currency_pair": "BLUE-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.3403",
+                "order_sent_time": "10:00:01.967",
+                "order_received_time": "10:00:02.109",
+                "currency_pair": "BLUE-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.3403",
+                "order_sent_time": "10:00:01.968",
+                "order_received_time": "10:00:02.130",
+                "currency_pair": "BLUE-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.3403",
+                "order_sent_time": "10:00:01.970",
+                "order_received_time": "10:00:02.116",
+                "currency_pair": "BLUE-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.3403",
+                "order_sent_time": "10:00:01.971",
+                "order_received_time": "10:00:02.115",
+                "currency_pair": "BLUE-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.3403",
+                "order_sent_time": "10:00:01.971",
+                "order_received_time": "10:00:02.137",
+                "currency_pair": "BLUE-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.3403",
+                "order_sent_time": "10:00:01.972",
+                "order_received_time": "10:00:02.135",
+                "currency_pair": "BLUE-USDT",
+                "order_size": "11"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.3403",
+                "order_sent_time": "10:00:01.973",
+                "order_received_time": "10:00:02.131",
+                "currency_pair": "BLUE-USDT",
+                "order_size": "11"
+            }
+        ],
+        "filled_orders": []
+    },
+    "error": "'makerOrderId'"
+}

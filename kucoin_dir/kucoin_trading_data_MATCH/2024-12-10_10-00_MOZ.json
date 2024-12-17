@@ -1,0 +1,229 @@
+{
+    "trading_session": {
+        "start_time": "2024-12-10T09:59:30.002174",
+        "symbol": "MOZ-USDT",
+        "end_time": "2024-12-10T10:00:29.257061"
+    },
+    "trade_performance": {
+        "symbol": "MOZ-USDT",
+        "total_trades": 0,
+        "buy_trades": 0,
+        "sell_trades": 0,
+        "total_volume": 0,
+        "USDT_buy": 0,
+        "USDT_sell": 0,
+        "total_profit_loss": 0,
+        "profit_loss_percentage": 0
+    },
+    "buy_orders": {
+        "trigger_data": {
+            "price": "0.03008",
+            "side": "buy",
+            "time_received": "10:00:00.078",
+            "makerOrderId": "675806f5aef36e00072d7257"
+        },
+        "orders_sent": [
+            {
+                "success": true,
+                "execution_time": 0.18458,
+                "limit_buy_price": "0.03053",
+                "orderId": "67581120e775000007e8f1a9",
+                "clientOid": "bc93b775-6433-4810-b14c-6f3b409916d4",
+                "order_sent_time": "10:00:00.080",
+                "order_received_time": "10:00:00.265",
+                "currency_pair": "MOZ-USDT",
+                "order_size": "110",
+                "side": "buy"
+            },
+            {
+                "success": true,
+                "execution_time": 0.29955,
+                "limit_buy_price": "0.03098",
+                "orderId": "675811203ecf43000733b896",
+                "clientOid": "a3ae1ccb-5550-4881-aa06-b83c39b9b33e",
+                "order_sent_time": "10:00:00.081",
+                "order_received_time": "10:00:00.380",
+                "currency_pair": "MOZ-USDT",
+                "order_size": "110",
+                "side": "buy"
+            },
+            {
+                "success": true,
+                "execution_time": 0.21948,
+                "limit_buy_price": "0.03143",
+                "orderId": "67581120716ab30007c1ec93",
+                "clientOid": "45f2e7a0-9be3-4181-9780-f69a476c4e0d",
+                "order_sent_time": "10:00:00.081",
+                "order_received_time": "10:00:00.301",
+                "currency_pair": "MOZ-USDT",
+                "order_size": "110",
+                "side": "buy"
+            },
+            {
+                "success": true,
+                "execution_time": 0.18342,
+                "limit_buy_price": "0.03188",
+                "orderId": "675811203ecf43000733b622",
+                "clientOid": "ee370622-a043-43a8-aa44-5e9acedb2b53",
+                "order_sent_time": "10:00:00.082",
+                "order_received_time": "10:00:00.266",
+                "currency_pair": "MOZ-USDT",
+                "order_size": "110",
+                "side": "buy"
+            },
+            {
+                "success": false,
+                "message": "Symbol MOZ-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.03234",
+                "order_sent_time": "10:00:00.083",
+                "order_received_time": "10:00:00.216",
+                "currency_pair": "MOZ-USDT",
+                "order_size": "110"
+            },
+            {
+                "success": false,
+                "message": "Symbol MOZ-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.03279",
+                "order_sent_time": "10:00:00.083",
+                "order_received_time": "10:00:00.244",
+                "currency_pair": "MOZ-USDT",
+                "order_size": "110"
+            }
+        ],
+        "filled_orders": []
+    },
+    "sell_orders": {
+        "trigger_data": {
+            "price": "0.05",
+            "side": "sell",
+            "time_received": "10:00:12.161",
+            "makerOrderId": "675811242e6b3a0007109f52"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.051",
+                "order_sent_time": "10:00:12.164",
+                "order_received_time": "10:00:12.297",
+                "currency_pair": "MOZ-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.051",
+                "order_sent_time": "10:00:12.165",
+                "order_received_time": "10:00:12.299",
+                "currency_pair": "MOZ-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.051",
+                "order_sent_time": "10:00:12.166",
+                "order_received_time": "10:00:12.266",
+                "currency_pair": "MOZ-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.051",
+                "order_sent_time": "10:00:12.166",
+                "order_received_time": "10:00:12.292",
+                "currency_pair": "MOZ-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.051",
+                "order_sent_time": "10:00:12.167",
+                "order_received_time": "10:00:12.329",
+                "currency_pair": "MOZ-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.051",
+                "order_sent_time": "10:00:12.168",
+                "order_received_time": "10:00:12.295",
+                "currency_pair": "MOZ-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.051",
+                "order_sent_time": "10:00:12.168",
+                "order_received_time": "10:00:12.328",
+                "currency_pair": "MOZ-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.051",
+                "order_sent_time": "10:00:12.169",
+                "order_received_time": "10:00:12.338",
+                "currency_pair": "MOZ-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.051",
+                "order_sent_time": "10:00:12.169",
+                "order_received_time": "10:00:12.343",
+                "currency_pair": "MOZ-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.051",
+                "order_sent_time": "10:00:12.170",
+                "order_received_time": "10:00:12.333",
+                "currency_pair": "MOZ-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.051",
+                "order_sent_time": "10:00:12.170",
+                "order_received_time": "10:00:12.350",
+                "currency_pair": "MOZ-USDT",
+                "order_size": "55"
+            },
+            {
+                "success": false,
+                "message": "Balance insufficient!",
+                "code": "200004",
+                "limit_sell_price": "0.051",
+                "order_sent_time": "10:00:12.171",
+                "order_received_time": "10:00:12.358",
+                "currency_pair": "MOZ-USDT",
+                "order_size": "55"
+            }
+        ],
+        "filled_orders": []
+    },
+    "error": "'makerOrderId'"
+}

@@ -1,0 +1,73 @@
+# Initialize the trading system
+Initialize variables:
+    EMAs = [EMA1, EMA2, EMA3, EMA4, EMA5, EMA6]  # 6 EMAs with increasing periods
+    RSI_period = [14]  # Adjust the RSI period as needed
+    trailing_tp_percentage = 0.05  # Example trailing TP percentage
+    current_position = None  # None, "long", or "short"
+    entry_price = 0.0
+    trailing_tp_price = 0.0
+    stop_loss_price = 0.0
+
+# Define utility functions
+Function calculate_emas(data):
+    # Calculate 6 EMAs
+    Return [EMA(data, period) for period in EMA_periods]
+
+Function calculate_rsi(data):
+    # Calculate RSI based on the period
+    Return RSI(data, RSI_period)
+
+Function all_emas_up(EMAs):
+    # Check if each EMA is greater than the next lower-level EMA
+    Return all(EMAs[i] > EMAs[i + 1] for i in range(len(EMAs) - 1))
+
+Function all_emas_down(EMAs):
+    # Check if each EMA is less than the next higher-level EMA
+    Return all(EMAs[i] < EMAs[i + 1] for i in range(len(EMAs) - 1))
+
+# Main trading logic
+For each new candle:
+    prices = get_prices()  # Fetch latest price data
+    EMAs = calculate_emas(prices)
+    RSI = calculate_rsi(prices)
+
+    # Long entry condition
+    If all_emas_up(EMAs) AND RSI > 70 AND current_position != "long":
+        current_position = "long"
+        entry_price = prices[-1]  # Current price
+        trailing_tp_price = entry_price * (1 + trailing_tp_percentage)
+        stop_loss_price = min(EMAs[:2])  # SL at 2 EMA crossover
+
+    # Short entry condition
+    If all_emas_down(EMAs) AND RSI < 30 AND current_position != "short":
+        current_position = "short"
+        entry_price = prices[-1]  # Current price
+        trailing_tp_price = entry_price * (1 - trailing_tp_percentage)
+        stop_loss_price = max(EMAs[:2])  # SL at 2 EMA crossover
+
+    # Manage trailing TP for long positions
+    If current_position == "long":
+        If prices[-1] > trailing_tp_price:
+            trailing_tp_price = prices[-1] * (1 + trailing_tp_percentage)
+        
+        If EMAs[1] < EMAs[0]:  # 2 EMAs cross downwards
+            close_position("long")  # Exit the trade
+            current_position = None
+
+    # Manage trailing TP for short positions
+    If current_position == "short":
+        If prices[-1] < trailing_tp_price:
+            trailing_tp_price = prices[-1] * (1 - trailing_tp_percentage)
+        
+        If EMAs[1] > EMAs[0]:  # 2 EMAs cross upwards
+            close_position("short")  # Exit the trade
+            current_position = None
+
+# Define functions to close position
+Function close_position(position_type):
+    If position_type == "long":
+        # Close long trade
+        execute_market_order("SELL")
+    Else If position_type == "short":
+        # Close short trade
+        execute_market_order("BUY")

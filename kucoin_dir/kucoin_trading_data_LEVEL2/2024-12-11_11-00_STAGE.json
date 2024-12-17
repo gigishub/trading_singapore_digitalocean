@@ -1,0 +1,64 @@
+{
+    "buy_orders": {
+        "trigger_data": {
+            "changes": {
+                "asks": [
+                    [
+                        "0.00375",
+                        "0",
+                        "261"
+                    ],
+                    [
+                        "0.003812",
+                        "12399",
+                        "262"
+                    ]
+                ],
+                "bids": []
+            },
+            "sequenceEnd": 262,
+            "sequenceStart": 261,
+            "symbol": "STAGE-USDT",
+            "time": 1733914800090,
+            "time_received": "11:00:00.133"
+        },
+        "orders_sent": [
+            {
+                "success": false,
+                "message": "Symbol STAGE-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.003926",
+                "order_sent_time": "11:00:00.133",
+                "order_received_time": "11:00:00.303",
+                "currency_pair": "STAGE-USDT",
+                "order_size": "1010"
+            },
+            {
+                "success": false,
+                "message": "Symbol STAGE-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.004041",
+                "order_sent_time": "11:00:00.134",
+                "order_received_time": "11:00:00.301",
+                "currency_pair": "STAGE-USDT",
+                "order_size": "1010"
+            },
+            {
+                "success": false,
+                "message": "Symbol STAGE-USDT cant be traded",
+                "code": "600203",
+                "limit_buy_price": "0.004155",
+                "order_sent_time": "11:00:00.135",
+                "order_received_time": "11:00:00.364",
+                "currency_pair": "STAGE-USDT",
+                "order_size": "1010"
+            }
+        ]
+    },
+    "sell_orders": {},
+    "trading_session": {
+        "start_time": "2024-12-11T10:59:30.018229",
+        "symbol": "STAGE-USDT",
+        "end_time": "2024-12-11T11:00:05.367906"
+    }
+}
