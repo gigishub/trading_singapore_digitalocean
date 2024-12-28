@@ -1,0 +1,3401 @@
+basic module¶
+Indicators built with IndicatorFactory.
+
+You can access all the indicators either by vbt.* or vbt.indicators.*.
+
+import pandas as pd
+import vectorbt as vbt
+
+# vectorbt.indicators.basic.MA
+vbt.MA.run(pd.Series([1, 2, 3]), [2, 3]).ma
+
+
+
+
+
+The advantage of these indicators over TA-Lib's is that they work primarily on 2-dimensional arrays and utilize caching, which makes them faster for matrices with huge number of columns. They also have plotting methods.
+
+Run for the examples below:
+
+import vectorbt as vbt
+from datetime import datetime
+
+start = '2019-03-01 UTC'  # crypto is in UTC
+end = '2019-09-01 UTC'
+cols = ['Open', 'High', 'Low', 'Close', 'Volume']
+ohlcv = vbt.YFData.download("BTC-USD", start=start, end=end).get(cols)
+ohlcv
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ohlcv.vbt.ohlcv.plot()
+
+ATR class¶
+ATR(
+    wrapper,
+    input_list,
+    input_mapper,
+    in_output_list,
+    output_list,
+    param_list,
+    mapper_list,
+    short_name,
+    level_names
+)
+Average True Range (ATR).
+
+The indicator provide an indication of the degree of price volatility. Strong moves, in either direction, are often accompanied by large ranges, or large True Ranges.
+
+See Average True Range - ATR.
+
+Note
+
+Uses Simple MA and Exponential MA as compared to Wilder.
+
+Superclasses
+
+AttrResolver
+Configured
+Documented
+IndexingBase
+IndicatorBase
+PandasIndexer
+Pickleable
+PlotsBuilderMixin
+StatsBuilderMixin
+Wrapping
+vectorbt.indicators.basic.ParamIndexer
+Inherited members
+
+AttrResolver.deep_getattr()
+AttrResolver.post_resolve_attr()
+AttrResolver.pre_resolve_attr()
+AttrResolver.resolve_attr()
+Configured.copy()
+Configured.dumps()
+Configured.loads()
+Configured.replace()
+Configured.to_doc()
+Configured.update_config()
+IndicatorBase.config
+IndicatorBase.iloc
+IndicatorBase.in_output_names
+IndicatorBase.indexing_func()
+IndicatorBase.indexing_kwargs
+IndicatorBase.input_names
+IndicatorBase.level_names
+IndicatorBase.loc
+IndicatorBase.output_flags
+IndicatorBase.output_names
+IndicatorBase.param_names
+IndicatorBase.plots_defaults
+IndicatorBase.self_aliases
+IndicatorBase.short_name
+IndicatorBase.stats_defaults
+IndicatorBase.wrapper
+IndicatorBase.writeable_attrs
+PandasIndexer.xs()
+Pickleable.load()
+Pickleable.save()
+PlotsBuilderMixin.build_subplots_doc()
+PlotsBuilderMixin.override_subplots_doc()
+PlotsBuilderMixin.plots()
+StatsBuilderMixin.build_metrics_doc()
+StatsBuilderMixin.override_metrics_doc()
+StatsBuilderMixin.stats()
+Wrapping.regroup()
+Wrapping.resolve_self()
+Wrapping.select_one()
+Wrapping.select_one_from_obj()
+Subclasses
+
+vectorbt.indicators.basic._ATR
+apply_func method¶
+ATR.apply_func(
+    high,
+    low,
+    close,
+    window,
+    ewm,
+    adjust,
+    tr,
+    cache_dict
+)
+Apply function for ATR.
+
+atr property¶
+Output array.
+
+atr_above method¶
+ATR.atr_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where atr is above other.
+
+See combine_objs().
+
+atr_below method¶
+ATR.atr_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where atr is below other.
+
+See combine_objs().
+
+atr_crossed_above method¶
+ATR.atr_crossed_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where atr is crossed_above other.
+
+See combine_objs().
+
+atr_crossed_below method¶
+ATR.atr_crossed_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where atr is crossed_below other.
+
+See combine_objs().
+
+atr_equal method¶
+ATR.atr_equal(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where atr is equal other.
+
+See combine_objs().
+
+atr_stats method¶
+ATR.atr_stats(
+    *args,
+    **kwargs
+)
+Stats of atr as generic.
+
+close method¶
+Input array.
+
+close_above method¶
+ATR.close_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is above other.
+
+See combine_objs().
+
+close_below method¶
+ATR.close_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is below other.
+
+See combine_objs().
+
+close_crossed_above method¶
+ATR.close_crossed_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is crossed_above other.
+
+See combine_objs().
+
+close_crossed_below method¶
+ATR.close_crossed_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is crossed_below other.
+
+See combine_objs().
+
+close_equal method¶
+ATR.close_equal(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is equal other.
+
+See combine_objs().
+
+close_stats method¶
+ATR.close_stats(
+    *args,
+    **kwargs
+)
+Stats of close as generic.
+
+custom_func method¶
+IndicatorFactory.from_apply_func.<locals>.custom_func(
+    input_list,
+    in_output_list,
+    param_list,
+    *args,
+    input_shape=None,
+    col=None,
+    flex_2d=None,
+    return_cache=False,
+    use_cache=None,
+    use_ray=False,
+    **_kwargs
+)
+Custom function that forwards inputs and parameters to apply_func.
+
+ewm_list property¶
+List of ewm values.
+
+high method¶
+Input array.
+
+high_above method¶
+ATR.high_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where high is above other.
+
+See combine_objs().
+
+high_below method¶
+ATR.high_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where high is below other.
+
+See combine_objs().
+
+high_crossed_above method¶
+ATR.high_crossed_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where high is crossed_above other.
+
+See combine_objs().
+
+high_crossed_below method¶
+ATR.high_crossed_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where high is crossed_below other.
+
+See combine_objs().
+
+high_equal method¶
+ATR.high_equal(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where high is equal other.
+
+See combine_objs().
+
+high_stats method¶
+ATR.high_stats(
+    *args,
+    **kwargs
+)
+Stats of high as generic.
+
+low method¶
+Input array.
+
+low_above method¶
+ATR.low_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where low is above other.
+
+See combine_objs().
+
+low_below method¶
+ATR.low_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where low is below other.
+
+See combine_objs().
+
+low_crossed_above method¶
+ATR.low_crossed_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where low is crossed_above other.
+
+See combine_objs().
+
+low_crossed_below method¶
+ATR.low_crossed_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where low is crossed_below other.
+
+See combine_objs().
+
+low_equal method¶
+ATR.low_equal(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where low is equal other.
+
+See combine_objs().
+
+low_stats method¶
+ATR.low_stats(
+    *args,
+    **kwargs
+)
+Stats of low as generic.
+
+plot method¶
+_ATR.plot(
+    column=None,
+    tr_trace_kwargs=None,
+    atr_trace_kwargs=None,
+    add_trace_kwargs=None,
+    fig=None,
+    **layout_kwargs
+)
+Plot ATR.tr and ATR.atr.
+
+Args
+
+column : str
+Name of the column to plot.
+tr_trace_kwargs : dict
+Keyword arguments passed to plotly.graph_objects.Scatter for ATR.tr.
+atr_trace_kwargs : dict
+Keyword arguments passed to plotly.graph_objects.Scatter for ATR.atr.
+add_trace_kwargs : dict
+Keyword arguments passed to add_trace.
+fig : Figure or FigureWidget
+Figure to add traces to.
+**layout_kwargs
+Keyword arguments for layout.
+Usage
+
+vbt.ATR.run(ohlcv['High'], ohlcv['Low'], ohlcv['Close'], 10).plot()
+
+
+run class method¶
+ATR.run(
+    high,
+    low,
+    close,
+    window=Default(14),
+    ewm=Default(True),
+    short_name='atr',
+    hide_params=None,
+    hide_default=True,
+    **kwargs
+)
+Run ATR indicator.
+
+Inputs: high, low, close
+Parameters: window, ewm
+Outputs: tr, atr
+Pass a list of parameter names as hide_params to hide their column levels. Set hide_default to False to show the column levels of the parameters with a default value.
+
+Other keyword arguments are passed to run_pipeline().
+
+run_combs class method¶
+ATR.run_combs(
+    high,
+    low,
+    close,
+    window=Default(14),
+    ewm=Default(True),
+    r=2,
+    param_product=False,
+    comb_func=itertools.combinations,
+    run_unique=True,
+    short_names=None,
+    hide_params=None,
+    hide_default=True,
+    **kwargs
+)
+Create a combination of multiple ATR indicators using function comb_func.
+
+Inputs: high, low, close
+Parameters: window, ewm
+Outputs: tr, atr
+comb_func must accept an iterable of parameter tuples and r. Also accepts all combinatoric iterators from itertools such as itertools.combinations. Pass r to specify how many indicators to run. Pass short_names to specify the short name for each indicator. Set run_unique to True to first compute raw outputs for all parameters, and then use them to build each indicator (faster).
+
+Other keyword arguments are passed to ATR.run().
+
+tr property¶
+Output array.
+
+tr_above method¶
+ATR.tr_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where tr is above other.
+
+See combine_objs().
+
+tr_below method¶
+ATR.tr_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where tr is below other.
+
+See combine_objs().
+
+tr_crossed_above method¶
+ATR.tr_crossed_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where tr is crossed_above other.
+
+See combine_objs().
+
+tr_crossed_below method¶
+ATR.tr_crossed_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where tr is crossed_below other.
+
+See combine_objs().
+
+tr_equal method¶
+ATR.tr_equal(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where tr is equal other.
+
+See combine_objs().
+
+tr_stats method¶
+ATR.tr_stats(
+    *args,
+    **kwargs
+)
+Stats of tr as generic.
+
+window_list property¶
+List of window values.
+
+BBANDS class¶
+BBANDS(
+    wrapper,
+    input_list,
+    input_mapper,
+    in_output_list,
+    output_list,
+    param_list,
+    mapper_list,
+    short_name,
+    level_names
+)
+Bollinger Bands (BBANDS).
+
+A Bollinger Band® is a technical analysis tool defined by a set of lines plotted two standard deviations (positively and negatively) away from a simple moving average (SMA) of the security's price, but can be adjusted to user preferences.
+
+See Bollinger Band®.
+
+Superclasses
+
+AttrResolver
+Configured
+Documented
+IndexingBase
+IndicatorBase
+PandasIndexer
+Pickleable
+PlotsBuilderMixin
+StatsBuilderMixin
+Wrapping
+vectorbt.indicators.basic.ParamIndexer
+Inherited members
+
+AttrResolver.deep_getattr()
+AttrResolver.post_resolve_attr()
+AttrResolver.pre_resolve_attr()
+AttrResolver.resolve_attr()
+Configured.copy()
+Configured.dumps()
+Configured.loads()
+Configured.replace()
+Configured.to_doc()
+Configured.update_config()
+IndicatorBase.config
+IndicatorBase.iloc
+IndicatorBase.in_output_names
+IndicatorBase.indexing_func()
+IndicatorBase.indexing_kwargs
+IndicatorBase.input_names
+IndicatorBase.level_names
+IndicatorBase.loc
+IndicatorBase.output_flags
+IndicatorBase.output_names
+IndicatorBase.param_names
+IndicatorBase.plots_defaults
+IndicatorBase.self_aliases
+IndicatorBase.short_name
+IndicatorBase.stats_defaults
+IndicatorBase.wrapper
+IndicatorBase.writeable_attrs
+PandasIndexer.xs()
+Pickleable.load()
+Pickleable.save()
+PlotsBuilderMixin.build_subplots_doc()
+PlotsBuilderMixin.override_subplots_doc()
+PlotsBuilderMixin.plots()
+StatsBuilderMixin.build_metrics_doc()
+StatsBuilderMixin.override_metrics_doc()
+StatsBuilderMixin.stats()
+Wrapping.regroup()
+Wrapping.resolve_self()
+Wrapping.select_one()
+Wrapping.select_one_from_obj()
+Subclasses
+
+vectorbt.indicators.basic._BBANDS
+alpha_list property¶
+List of alpha values.
+
+apply_func method¶
+BBANDS.apply_func(
+    close,
+    window,
+    ewm,
+    alpha,
+    adjust,
+    ddof,
+    ma_cache_dict,
+    mstd_cache_dict
+)
+Apply function for BBANDS.
+
+bandwidth method¶
+Custom property.
+
+bandwidth_above method¶
+BBANDS.bandwidth_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where bandwidth is above other.
+
+See combine_objs().
+
+bandwidth_below method¶
+BBANDS.bandwidth_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where bandwidth is below other.
+
+See combine_objs().
+
+bandwidth_crossed_above method¶
+BBANDS.bandwidth_crossed_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where bandwidth is crossed_above other.
+
+See combine_objs().
+
+bandwidth_crossed_below method¶
+BBANDS.bandwidth_crossed_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where bandwidth is crossed_below other.
+
+See combine_objs().
+
+bandwidth_equal method¶
+BBANDS.bandwidth_equal(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where bandwidth is equal other.
+
+See combine_objs().
+
+bandwidth_stats method¶
+BBANDS.bandwidth_stats(
+    *args,
+    **kwargs
+)
+Stats of bandwidth as generic.
+
+close method¶
+Input array.
+
+close_above method¶
+BBANDS.close_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is above other.
+
+See combine_objs().
+
+close_below method¶
+BBANDS.close_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is below other.
+
+See combine_objs().
+
+close_crossed_above method¶
+BBANDS.close_crossed_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is crossed_above other.
+
+See combine_objs().
+
+close_crossed_below method¶
+BBANDS.close_crossed_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is crossed_below other.
+
+See combine_objs().
+
+close_equal method¶
+BBANDS.close_equal(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is equal other.
+
+See combine_objs().
+
+close_stats method¶
+BBANDS.close_stats(
+    *args,
+    **kwargs
+)
+Stats of close as generic.
+
+custom_func method¶
+IndicatorFactory.from_apply_func.<locals>.custom_func(
+    input_list,
+    in_output_list,
+    param_list,
+    *args,
+    input_shape=None,
+    col=None,
+    flex_2d=None,
+    return_cache=False,
+    use_cache=None,
+    use_ray=False,
+    **_kwargs
+)
+Custom function that forwards inputs and parameters to apply_func.
+
+ewm_list property¶
+List of ewm values.
+
+lower property¶
+Output array.
+
+lower_above method¶
+BBANDS.lower_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where lower is above other.
+
+See combine_objs().
+
+lower_below method¶
+BBANDS.lower_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where lower is below other.
+
+See combine_objs().
+
+lower_crossed_above method¶
+BBANDS.lower_crossed_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where lower is crossed_above other.
+
+See combine_objs().
+
+lower_crossed_below method¶
+BBANDS.lower_crossed_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where lower is crossed_below other.
+
+See combine_objs().
+
+lower_equal method¶
+BBANDS.lower_equal(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where lower is equal other.
+
+See combine_objs().
+
+lower_stats method¶
+BBANDS.lower_stats(
+    *args,
+    **kwargs
+)
+Stats of lower as generic.
+
+middle property¶
+Output array.
+
+middle_above method¶
+BBANDS.middle_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where middle is above other.
+
+See combine_objs().
+
+middle_below method¶
+BBANDS.middle_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where middle is below other.
+
+See combine_objs().
+
+middle_crossed_above method¶
+BBANDS.middle_crossed_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where middle is crossed_above other.
+
+See combine_objs().
+
+middle_crossed_below method¶
+BBANDS.middle_crossed_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where middle is crossed_below other.
+
+See combine_objs().
+
+middle_equal method¶
+BBANDS.middle_equal(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where middle is equal other.
+
+See combine_objs().
+
+middle_stats method¶
+BBANDS.middle_stats(
+    *args,
+    **kwargs
+)
+Stats of middle as generic.
+
+percent_b method¶
+Custom property.
+
+percent_b_above method¶
+BBANDS.percent_b_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where percent_b is above other.
+
+See combine_objs().
+
+percent_b_below method¶
+BBANDS.percent_b_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where percent_b is below other.
+
+See combine_objs().
+
+percent_b_crossed_above method¶
+BBANDS.percent_b_crossed_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where percent_b is crossed_above other.
+
+See combine_objs().
+
+percent_b_crossed_below method¶
+BBANDS.percent_b_crossed_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where percent_b is crossed_below other.
+
+See combine_objs().
+
+percent_b_equal method¶
+BBANDS.percent_b_equal(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where percent_b is equal other.
+
+See combine_objs().
+
+percent_b_stats method¶
+BBANDS.percent_b_stats(
+    *args,
+    **kwargs
+)
+Stats of percent_b as generic.
+
+plot method¶
+_BBANDS.plot(
+    column=None,
+    plot_close=True,
+    close_trace_kwargs=None,
+    middle_trace_kwargs=None,
+    upper_trace_kwargs=None,
+    lower_trace_kwargs=None,
+    add_trace_kwargs=None,
+    fig=None,
+    **layout_kwargs
+)
+Plot BBANDS.middle, BBANDS.upper and BBANDS.lower against BBANDS.close.
+
+Args
+
+column : str
+Name of the column to plot.
+plot_close : bool
+Whether to plot MA.close.
+close_trace_kwargs : dict
+Keyword arguments passed to plotly.graph_objects.Scatter for BBANDS.close.
+middle_trace_kwargs : dict
+Keyword arguments passed to plotly.graph_objects.Scatter for BBANDS.middle.
+upper_trace_kwargs : dict
+Keyword arguments passed to plotly.graph_objects.Scatter for BBANDS.upper.
+lower_trace_kwargs : dict
+Keyword arguments passed to plotly.graph_objects.Scatter for BBANDS.lower.
+add_trace_kwargs : dict
+Keyword arguments passed to add_trace.
+fig : Figure or FigureWidget
+Figure to add traces to.
+**layout_kwargs
+Keyword arguments for layout.
+Usage
+
+vbt.BBANDS.run(ohlcv['Close']).plot()
+
+
+run class method¶
+BBANDS.run(
+    close,
+    window=Default(20),
+    ewm=Default(False),
+    alpha=Default(2),
+    short_name='bb',
+    hide_params=None,
+    hide_default=True,
+    **kwargs
+)
+Run BBANDS indicator.
+
+Inputs: close
+Parameters: window, ewm, alpha
+Outputs: middle, upper, lower
+Pass a list of parameter names as hide_params to hide their column levels. Set hide_default to False to show the column levels of the parameters with a default value.
+
+Other keyword arguments are passed to run_pipeline().
+
+run_combs class method¶
+BBANDS.run_combs(
+    close,
+    window=Default(20),
+    ewm=Default(False),
+    alpha=Default(2),
+    r=2,
+    param_product=False,
+    comb_func=itertools.combinations,
+    run_unique=True,
+    short_names=None,
+    hide_params=None,
+    hide_default=True,
+    **kwargs
+)
+Create a combination of multiple BBANDS indicators using function comb_func.
+
+Inputs: close
+Parameters: window, ewm, alpha
+Outputs: middle, upper, lower
+comb_func must accept an iterable of parameter tuples and r. Also accepts all combinatoric iterators from itertools such as itertools.combinations. Pass r to specify how many indicators to run. Pass short_names to specify the short name for each indicator. Set run_unique to True to first compute raw outputs for all parameters, and then use them to build each indicator (faster).
+
+Other keyword arguments are passed to BBANDS.run().
+
+upper property¶
+Output array.
+
+upper_above method¶
+BBANDS.upper_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where upper is above other.
+
+See combine_objs().
+
+upper_below method¶
+BBANDS.upper_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where upper is below other.
+
+See combine_objs().
+
+upper_crossed_above method¶
+BBANDS.upper_crossed_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where upper is crossed_above other.
+
+See combine_objs().
+
+upper_crossed_below method¶
+BBANDS.upper_crossed_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where upper is crossed_below other.
+
+See combine_objs().
+
+upper_equal method¶
+BBANDS.upper_equal(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where upper is equal other.
+
+See combine_objs().
+
+upper_stats method¶
+BBANDS.upper_stats(
+    *args,
+    **kwargs
+)
+Stats of upper as generic.
+
+window_list property¶
+List of window values.
+
+MA class¶
+MA(
+    wrapper,
+    input_list,
+    input_mapper,
+    in_output_list,
+    output_list,
+    param_list,
+    mapper_list,
+    short_name,
+    level_names
+)
+Moving Average (MA).
+
+A moving average is a widely used indicator in technical analysis that helps smooth out price action by filtering out the “noise” from random short-term price fluctuations.
+
+See Moving Average (MA).
+
+Superclasses
+
+AttrResolver
+Configured
+Documented
+IndexingBase
+IndicatorBase
+PandasIndexer
+Pickleable
+PlotsBuilderMixin
+StatsBuilderMixin
+Wrapping
+vectorbt.indicators.basic.ParamIndexer
+Inherited members
+
+AttrResolver.deep_getattr()
+AttrResolver.post_resolve_attr()
+AttrResolver.pre_resolve_attr()
+AttrResolver.resolve_attr()
+Configured.copy()
+Configured.dumps()
+Configured.loads()
+Configured.replace()
+Configured.to_doc()
+Configured.update_config()
+IndicatorBase.config
+IndicatorBase.iloc
+IndicatorBase.in_output_names
+IndicatorBase.indexing_func()
+IndicatorBase.indexing_kwargs
+IndicatorBase.input_names
+IndicatorBase.level_names
+IndicatorBase.loc
+IndicatorBase.output_flags
+IndicatorBase.output_names
+IndicatorBase.param_names
+IndicatorBase.plots_defaults
+IndicatorBase.self_aliases
+IndicatorBase.short_name
+IndicatorBase.stats_defaults
+IndicatorBase.wrapper
+IndicatorBase.writeable_attrs
+PandasIndexer.xs()
+Pickleable.load()
+Pickleable.save()
+PlotsBuilderMixin.build_subplots_doc()
+PlotsBuilderMixin.override_subplots_doc()
+PlotsBuilderMixin.plots()
+StatsBuilderMixin.build_metrics_doc()
+StatsBuilderMixin.override_metrics_doc()
+StatsBuilderMixin.stats()
+Wrapping.regroup()
+Wrapping.resolve_self()
+Wrapping.select_one()
+Wrapping.select_one_from_obj()
+Subclasses
+
+vectorbt.indicators.basic._MA
+apply_func method¶
+MA.apply_func(
+    close,
+    window,
+    ewm,
+    adjust,
+    cache_dict
+)
+Apply function for MA.
+
+close method¶
+Input array.
+
+close_above method¶
+MA.close_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is above other.
+
+See combine_objs().
+
+close_below method¶
+MA.close_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is below other.
+
+See combine_objs().
+
+close_crossed_above method¶
+MA.close_crossed_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is crossed_above other.
+
+See combine_objs().
+
+close_crossed_below method¶
+MA.close_crossed_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is crossed_below other.
+
+See combine_objs().
+
+close_equal method¶
+MA.close_equal(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is equal other.
+
+See combine_objs().
+
+close_stats method¶
+MA.close_stats(
+    *args,
+    **kwargs
+)
+Stats of close as generic.
+
+custom_func method¶
+IndicatorFactory.from_apply_func.<locals>.custom_func(
+    input_list,
+    in_output_list,
+    param_list,
+    *args,
+    input_shape=None,
+    col=None,
+    flex_2d=None,
+    return_cache=False,
+    use_cache=None,
+    use_ray=False,
+    **_kwargs
+)
+Custom function that forwards inputs and parameters to apply_func.
+
+ewm_list property¶
+List of ewm values.
+
+ma property¶
+Output array.
+
+ma_above method¶
+MA.ma_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where ma is above other.
+
+See combine_objs().
+
+ma_below method¶
+MA.ma_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where ma is below other.
+
+See combine_objs().
+
+ma_crossed_above method¶
+MA.ma_crossed_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where ma is crossed_above other.
+
+See combine_objs().
+
+ma_crossed_below method¶
+MA.ma_crossed_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where ma is crossed_below other.
+
+See combine_objs().
+
+ma_equal method¶
+MA.ma_equal(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where ma is equal other.
+
+See combine_objs().
+
+ma_stats method¶
+MA.ma_stats(
+    *args,
+    **kwargs
+)
+Stats of ma as generic.
+
+plot method¶
+_MA.plot(
+    column=None,
+    plot_close=True,
+    close_trace_kwargs=None,
+    ma_trace_kwargs=None,
+    add_trace_kwargs=None,
+    fig=None,
+    **layout_kwargs
+)
+Plot MA.ma against MA.close.
+
+Args
+
+column : str
+Name of the column to plot.
+plot_close : bool
+Whether to plot MA.close.
+close_trace_kwargs : dict
+Keyword arguments passed to plotly.graph_objects.Scatter for MA.close.
+ma_trace_kwargs : dict
+Keyword arguments passed to plotly.graph_objects.Scatter for MA.ma.
+add_trace_kwargs : dict
+Keyword arguments passed to add_trace.
+fig : Figure or FigureWidget
+Figure to add traces to.
+**layout_kwargs
+Keyword arguments for layout.
+Usage
+
+vbt.MA.run(ohlcv['Close'], 10).plot()
+
+
+run class method¶
+MA.run(
+    close,
+    window,
+    ewm=Default(False),
+    short_name='ma',
+    hide_params=None,
+    hide_default=True,
+    **kwargs
+)
+Run MA indicator.
+
+Inputs: close
+Parameters: window, ewm
+Outputs: ma
+Pass a list of parameter names as hide_params to hide their column levels. Set hide_default to False to show the column levels of the parameters with a default value.
+
+Other keyword arguments are passed to run_pipeline().
+
+run_combs class method¶
+MA.run_combs(
+    close,
+    window,
+    ewm=Default(False),
+    r=2,
+    param_product=False,
+    comb_func=itertools.combinations,
+    run_unique=True,
+    short_names=None,
+    hide_params=None,
+    hide_default=True,
+    **kwargs
+)
+Create a combination of multiple MA indicators using function comb_func.
+
+Inputs: close
+Parameters: window, ewm
+Outputs: ma
+comb_func must accept an iterable of parameter tuples and r. Also accepts all combinatoric iterators from itertools such as itertools.combinations. Pass r to specify how many indicators to run. Pass short_names to specify the short name for each indicator. Set run_unique to True to first compute raw outputs for all parameters, and then use them to build each indicator (faster).
+
+Other keyword arguments are passed to MA.run().
+
+window_list property¶
+List of window values.
+
+MACD class¶
+MACD(
+    wrapper,
+    input_list,
+    input_mapper,
+    in_output_list,
+    output_list,
+    param_list,
+    mapper_list,
+    short_name,
+    level_names
+)
+Moving Average Convergence Divergence (MACD).
+
+Is a trend-following momentum indicator that shows the relationship between two moving averages of prices.
+
+See Moving Average Convergence Divergence – MACD.
+
+Superclasses
+
+AttrResolver
+Configured
+Documented
+IndexingBase
+IndicatorBase
+PandasIndexer
+Pickleable
+PlotsBuilderMixin
+StatsBuilderMixin
+Wrapping
+vectorbt.indicators.basic.ParamIndexer
+Inherited members
+
+AttrResolver.deep_getattr()
+AttrResolver.post_resolve_attr()
+AttrResolver.pre_resolve_attr()
+AttrResolver.resolve_attr()
+Configured.copy()
+Configured.dumps()
+Configured.loads()
+Configured.replace()
+Configured.to_doc()
+Configured.update_config()
+IndicatorBase.config
+IndicatorBase.iloc
+IndicatorBase.in_output_names
+IndicatorBase.indexing_func()
+IndicatorBase.indexing_kwargs
+IndicatorBase.input_names
+IndicatorBase.level_names
+IndicatorBase.loc
+IndicatorBase.output_flags
+IndicatorBase.output_names
+IndicatorBase.param_names
+IndicatorBase.plots_defaults
+IndicatorBase.self_aliases
+IndicatorBase.short_name
+IndicatorBase.stats_defaults
+IndicatorBase.wrapper
+IndicatorBase.writeable_attrs
+PandasIndexer.xs()
+Pickleable.load()
+Pickleable.save()
+PlotsBuilderMixin.build_subplots_doc()
+PlotsBuilderMixin.override_subplots_doc()
+PlotsBuilderMixin.plots()
+StatsBuilderMixin.build_metrics_doc()
+StatsBuilderMixin.override_metrics_doc()
+StatsBuilderMixin.stats()
+Wrapping.regroup()
+Wrapping.resolve_self()
+Wrapping.select_one()
+Wrapping.select_one_from_obj()
+Subclasses
+
+vectorbt.indicators.basic._MACD
+apply_func method¶
+MACD.apply_func(
+    close,
+    fast_window,
+    slow_window,
+    signal_window,
+    macd_ewm,
+    signal_ewm,
+    adjust,
+    cache_dict
+)
+Apply function for MACD.
+
+close method¶
+Input array.
+
+close_above method¶
+MACD.close_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is above other.
+
+See combine_objs().
+
+close_below method¶
+MACD.close_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is below other.
+
+See combine_objs().
+
+close_crossed_above method¶
+MACD.close_crossed_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is crossed_above other.
+
+See combine_objs().
+
+close_crossed_below method¶
+MACD.close_crossed_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is crossed_below other.
+
+See combine_objs().
+
+close_equal method¶
+MACD.close_equal(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is equal other.
+
+See combine_objs().
+
+close_stats method¶
+MACD.close_stats(
+    *args,
+    **kwargs
+)
+Stats of close as generic.
+
+custom_func method¶
+IndicatorFactory.from_apply_func.<locals>.custom_func(
+    input_list,
+    in_output_list,
+    param_list,
+    *args,
+    input_shape=None,
+    col=None,
+    flex_2d=None,
+    return_cache=False,
+    use_cache=None,
+    use_ray=False,
+    **_kwargs
+)
+Custom function that forwards inputs and parameters to apply_func.
+
+fast_window_list property¶
+List of fast_window values.
+
+hist method¶
+Custom property.
+
+hist_above method¶
+MACD.hist_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where hist is above other.
+
+See combine_objs().
+
+hist_below method¶
+MACD.hist_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where hist is below other.
+
+See combine_objs().
+
+hist_crossed_above method¶
+MACD.hist_crossed_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where hist is crossed_above other.
+
+See combine_objs().
+
+hist_crossed_below method¶
+MACD.hist_crossed_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where hist is crossed_below other.
+
+See combine_objs().
+
+hist_equal method¶
+MACD.hist_equal(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where hist is equal other.
+
+See combine_objs().
+
+hist_stats method¶
+MACD.hist_stats(
+    *args,
+    **kwargs
+)
+Stats of hist as generic.
+
+macd property¶
+Output array.
+
+macd_above method¶
+MACD.macd_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where macd is above other.
+
+See combine_objs().
+
+macd_below method¶
+MACD.macd_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where macd is below other.
+
+See combine_objs().
+
+macd_crossed_above method¶
+MACD.macd_crossed_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where macd is crossed_above other.
+
+See combine_objs().
+
+macd_crossed_below method¶
+MACD.macd_crossed_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where macd is crossed_below other.
+
+See combine_objs().
+
+macd_equal method¶
+MACD.macd_equal(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where macd is equal other.
+
+See combine_objs().
+
+macd_ewm_list property¶
+List of macd_ewm values.
+
+macd_stats method¶
+MACD.macd_stats(
+    *args,
+    **kwargs
+)
+Stats of macd as generic.
+
+plot method¶
+_MACD.plot(
+    column=None,
+    macd_trace_kwargs=None,
+    signal_trace_kwargs=None,
+    hist_trace_kwargs=None,
+    add_trace_kwargs=None,
+    fig=None,
+    **layout_kwargs
+)
+Plot MACD.macd, MACD.signal and MACD.hist.
+
+Args
+
+column : str
+Name of the column to plot.
+macd_trace_kwargs : dict
+Keyword arguments passed to plotly.graph_objects.Scatter for MACD.macd.
+signal_trace_kwargs : dict
+Keyword arguments passed to plotly.graph_objects.Scatter for MACD.signal.
+hist_trace_kwargs : dict
+Keyword arguments passed to plotly.graph_objects.Bar for MACD.hist.
+add_trace_kwargs : dict
+Keyword arguments passed to add_trace.
+fig : Figure or FigureWidget
+Figure to add traces to.
+**layout_kwargs
+Keyword arguments for layout.
+Usage
+
+vbt.MACD.run(ohlcv['Close']).plot()
+
+
+run class method¶
+MACD.run(
+    close,
+    fast_window=Default(12),
+    slow_window=Default(26),
+    signal_window=Default(9),
+    macd_ewm=Default(False),
+    signal_ewm=Default(False),
+    short_name='macd',
+    hide_params=None,
+    hide_default=True,
+    **kwargs
+)
+Run MACD indicator.
+
+Inputs: close
+Parameters: fast_window, slow_window, signal_window, macd_ewm, signal_ewm
+Outputs: macd, signal
+Pass a list of parameter names as hide_params to hide their column levels. Set hide_default to False to show the column levels of the parameters with a default value.
+
+Other keyword arguments are passed to run_pipeline().
+
+run_combs class method¶
+MACD.run_combs(
+    close,
+    fast_window=Default(12),
+    slow_window=Default(26),
+    signal_window=Default(9),
+    macd_ewm=Default(False),
+    signal_ewm=Default(False),
+    r=2,
+    param_product=False,
+    comb_func=itertools.combinations,
+    run_unique=True,
+    short_names=None,
+    hide_params=None,
+    hide_default=True,
+    **kwargs
+)
+Create a combination of multiple MACD indicators using function comb_func.
+
+Inputs: close
+Parameters: fast_window, slow_window, signal_window, macd_ewm, signal_ewm
+Outputs: macd, signal
+comb_func must accept an iterable of parameter tuples and r. Also accepts all combinatoric iterators from itertools such as itertools.combinations. Pass r to specify how many indicators to run. Pass short_names to specify the short name for each indicator. Set run_unique to True to first compute raw outputs for all parameters, and then use them to build each indicator (faster).
+
+Other keyword arguments are passed to MACD.run().
+
+signal property¶
+Output array.
+
+signal_above method¶
+MACD.signal_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where signal is above other.
+
+See combine_objs().
+
+signal_below method¶
+MACD.signal_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where signal is below other.
+
+See combine_objs().
+
+signal_crossed_above method¶
+MACD.signal_crossed_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where signal is crossed_above other.
+
+See combine_objs().
+
+signal_crossed_below method¶
+MACD.signal_crossed_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where signal is crossed_below other.
+
+See combine_objs().
+
+signal_equal method¶
+MACD.signal_equal(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where signal is equal other.
+
+See combine_objs().
+
+signal_ewm_list property¶
+List of signal_ewm values.
+
+signal_stats method¶
+MACD.signal_stats(
+    *args,
+    **kwargs
+)
+Stats of signal as generic.
+
+signal_window_list property¶
+List of signal_window values.
+
+slow_window_list property¶
+List of slow_window values.
+
+MSTD class¶
+MSTD(
+    wrapper,
+    input_list,
+    input_mapper,
+    in_output_list,
+    output_list,
+    param_list,
+    mapper_list,
+    short_name,
+    level_names
+)
+Moving Standard Deviation (MSTD).
+
+Standard deviation is an indicator that measures the size of an assets recent price moves in order to predict how volatile the price may be in the future.
+
+Superclasses
+
+AttrResolver
+Configured
+Documented
+IndexingBase
+IndicatorBase
+PandasIndexer
+Pickleable
+PlotsBuilderMixin
+StatsBuilderMixin
+Wrapping
+vectorbt.indicators.basic.ParamIndexer
+Inherited members
+
+AttrResolver.deep_getattr()
+AttrResolver.post_resolve_attr()
+AttrResolver.pre_resolve_attr()
+AttrResolver.resolve_attr()
+Configured.copy()
+Configured.dumps()
+Configured.loads()
+Configured.replace()
+Configured.to_doc()
+Configured.update_config()
+IndicatorBase.config
+IndicatorBase.iloc
+IndicatorBase.in_output_names
+IndicatorBase.indexing_func()
+IndicatorBase.indexing_kwargs
+IndicatorBase.input_names
+IndicatorBase.level_names
+IndicatorBase.loc
+IndicatorBase.output_flags
+IndicatorBase.output_names
+IndicatorBase.param_names
+IndicatorBase.plots_defaults
+IndicatorBase.self_aliases
+IndicatorBase.short_name
+IndicatorBase.stats_defaults
+IndicatorBase.wrapper
+IndicatorBase.writeable_attrs
+PandasIndexer.xs()
+Pickleable.load()
+Pickleable.save()
+PlotsBuilderMixin.build_subplots_doc()
+PlotsBuilderMixin.override_subplots_doc()
+PlotsBuilderMixin.plots()
+StatsBuilderMixin.build_metrics_doc()
+StatsBuilderMixin.override_metrics_doc()
+StatsBuilderMixin.stats()
+Wrapping.regroup()
+Wrapping.resolve_self()
+Wrapping.select_one()
+Wrapping.select_one_from_obj()
+Subclasses
+
+vectorbt.indicators.basic._MSTD
+apply_func method¶
+MSTD.apply_func(
+    close,
+    window,
+    ewm,
+    adjust,
+    ddof,
+    cache_dict
+)
+Apply function for MSTD.
+
+close method¶
+Input array.
+
+close_above method¶
+MSTD.close_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is above other.
+
+See combine_objs().
+
+close_below method¶
+MSTD.close_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is below other.
+
+See combine_objs().
+
+close_crossed_above method¶
+MSTD.close_crossed_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is crossed_above other.
+
+See combine_objs().
+
+close_crossed_below method¶
+MSTD.close_crossed_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is crossed_below other.
+
+See combine_objs().
+
+close_equal method¶
+MSTD.close_equal(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is equal other.
+
+See combine_objs().
+
+close_stats method¶
+MSTD.close_stats(
+    *args,
+    **kwargs
+)
+Stats of close as generic.
+
+custom_func method¶
+IndicatorFactory.from_apply_func.<locals>.custom_func(
+    input_list,
+    in_output_list,
+    param_list,
+    *args,
+    input_shape=None,
+    col=None,
+    flex_2d=None,
+    return_cache=False,
+    use_cache=None,
+    use_ray=False,
+    **_kwargs
+)
+Custom function that forwards inputs and parameters to apply_func.
+
+ewm_list property¶
+List of ewm values.
+
+mstd property¶
+Output array.
+
+mstd_above method¶
+MSTD.mstd_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where mstd is above other.
+
+See combine_objs().
+
+mstd_below method¶
+MSTD.mstd_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where mstd is below other.
+
+See combine_objs().
+
+mstd_crossed_above method¶
+MSTD.mstd_crossed_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where mstd is crossed_above other.
+
+See combine_objs().
+
+mstd_crossed_below method¶
+MSTD.mstd_crossed_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where mstd is crossed_below other.
+
+See combine_objs().
+
+mstd_equal method¶
+MSTD.mstd_equal(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where mstd is equal other.
+
+See combine_objs().
+
+mstd_stats method¶
+MSTD.mstd_stats(
+    *args,
+    **kwargs
+)
+Stats of mstd as generic.
+
+plot method¶
+_MSTD.plot(
+    column=None,
+    mstd_trace_kwargs=None,
+    add_trace_kwargs=None,
+    fig=None,
+    **layout_kwargs
+)
+Plot MSTD.mstd.
+
+Args
+
+column : str
+Name of the column to plot.
+mstd_trace_kwargs : dict
+Keyword arguments passed to plotly.graph_objects.Scatter for MSTD.mstd.
+add_trace_kwargs : dict
+Keyword arguments passed to add_trace.
+fig : Figure or FigureWidget
+Figure to add traces to.
+**layout_kwargs
+Keyword arguments for layout.
+Usage
+
+vbt.MSTD.run(ohlcv['Close'], 10).plot()
+
+
+run class method¶
+MSTD.run(
+    close,
+    window,
+    ewm=Default(False),
+    short_name='mstd',
+    hide_params=None,
+    hide_default=True,
+    **kwargs
+)
+Run MSTD indicator.
+
+Inputs: close
+Parameters: window, ewm
+Outputs: mstd
+Pass a list of parameter names as hide_params to hide their column levels. Set hide_default to False to show the column levels of the parameters with a default value.
+
+Other keyword arguments are passed to run_pipeline().
+
+run_combs class method¶
+MSTD.run_combs(
+    close,
+    window,
+    ewm=Default(False),
+    r=2,
+    param_product=False,
+    comb_func=itertools.combinations,
+    run_unique=True,
+    short_names=None,
+    hide_params=None,
+    hide_default=True,
+    **kwargs
+)
+Create a combination of multiple MSTD indicators using function comb_func.
+
+Inputs: close
+Parameters: window, ewm
+Outputs: mstd
+comb_func must accept an iterable of parameter tuples and r. Also accepts all combinatoric iterators from itertools such as itertools.combinations. Pass r to specify how many indicators to run. Pass short_names to specify the short name for each indicator. Set run_unique to True to first compute raw outputs for all parameters, and then use them to build each indicator (faster).
+
+Other keyword arguments are passed to MSTD.run().
+
+window_list property¶
+List of window values.
+
+OBV class¶
+OBV(
+    wrapper,
+    input_list,
+    input_mapper,
+    in_output_list,
+    output_list,
+    param_list,
+    mapper_list,
+    short_name,
+    level_names
+)
+On-balance volume (OBV).
+
+It relates price and volume in the stock market. OBV is based on a cumulative total volume.
+
+See On-Balance Volume (OBV).
+
+Superclasses
+
+AttrResolver
+Configured
+Documented
+IndexingBase
+IndicatorBase
+PandasIndexer
+Pickleable
+PlotsBuilderMixin
+StatsBuilderMixin
+Wrapping
+vectorbt.indicators.basic.ParamIndexer
+Inherited members
+
+AttrResolver.deep_getattr()
+AttrResolver.post_resolve_attr()
+AttrResolver.pre_resolve_attr()
+AttrResolver.resolve_attr()
+Configured.copy()
+Configured.dumps()
+Configured.loads()
+Configured.replace()
+Configured.to_doc()
+Configured.update_config()
+IndicatorBase.config
+IndicatorBase.iloc
+IndicatorBase.in_output_names
+IndicatorBase.indexing_func()
+IndicatorBase.indexing_kwargs
+IndicatorBase.input_names
+IndicatorBase.level_names
+IndicatorBase.loc
+IndicatorBase.output_flags
+IndicatorBase.output_names
+IndicatorBase.param_names
+IndicatorBase.plots_defaults
+IndicatorBase.run_combs()
+IndicatorBase.self_aliases
+IndicatorBase.short_name
+IndicatorBase.stats_defaults
+IndicatorBase.wrapper
+IndicatorBase.writeable_attrs
+PandasIndexer.xs()
+Pickleable.load()
+Pickleable.save()
+PlotsBuilderMixin.build_subplots_doc()
+PlotsBuilderMixin.override_subplots_doc()
+PlotsBuilderMixin.plots()
+StatsBuilderMixin.build_metrics_doc()
+StatsBuilderMixin.override_metrics_doc()
+StatsBuilderMixin.stats()
+Wrapping.regroup()
+Wrapping.resolve_self()
+Wrapping.select_one()
+Wrapping.select_one_from_obj()
+Subclasses
+
+vectorbt.indicators.basic._OBV
+close method¶
+Input array.
+
+close_above method¶
+OBV.close_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is above other.
+
+See combine_objs().
+
+close_below method¶
+OBV.close_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is below other.
+
+See combine_objs().
+
+close_crossed_above method¶
+OBV.close_crossed_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is crossed_above other.
+
+See combine_objs().
+
+close_crossed_below method¶
+OBV.close_crossed_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is crossed_below other.
+
+See combine_objs().
+
+close_equal method¶
+OBV.close_equal(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is equal other.
+
+See combine_objs().
+
+close_stats method¶
+OBV.close_stats(
+    *args,
+    **kwargs
+)
+Stats of close as generic.
+
+custom_func method¶
+OBV.custom_func(
+    close,
+    volume_ts
+)
+Custom calculation function for OBV.
+
+obv property¶
+Output array.
+
+obv_above method¶
+OBV.obv_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where obv is above other.
+
+See combine_objs().
+
+obv_below method¶
+OBV.obv_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where obv is below other.
+
+See combine_objs().
+
+obv_crossed_above method¶
+OBV.obv_crossed_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where obv is crossed_above other.
+
+See combine_objs().
+
+obv_crossed_below method¶
+OBV.obv_crossed_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where obv is crossed_below other.
+
+See combine_objs().
+
+obv_equal method¶
+OBV.obv_equal(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where obv is equal other.
+
+See combine_objs().
+
+obv_stats method¶
+OBV.obv_stats(
+    *args,
+    **kwargs
+)
+Stats of obv as generic.
+
+plot method¶
+_OBV.plot(
+    column=None,
+    obv_trace_kwargs=None,
+    add_trace_kwargs=None,
+    fig=None,
+    **layout_kwargs
+)
+Plot OBV.obv.
+
+Args
+
+column : str
+Name of the column to plot.
+obv_trace_kwargs : dict
+Keyword arguments passed to plotly.graph_objects.Scatter for OBV.obv.
+add_trace_kwargs : dict
+Keyword arguments passed to add_trace.
+fig : Figure or FigureWidget
+Figure to add traces to.
+**layout_kwargs
+Keyword arguments for layout.
+Usage
+
+>>> vbt.OBV.run(ohlcv['Close'], ohlcv['Volume']).plot()
+
+
+run class method¶
+OBV.run(
+    close,
+    volume,
+    short_name='obv',
+    hide_params=None,
+    hide_default=True,
+    **kwargs
+)
+Run OBV indicator.
+
+Inputs: close, volume
+Outputs: obv
+Pass a list of parameter names as hide_params to hide their column levels. Set hide_default to False to show the column levels of the parameters with a default value.
+
+Other keyword arguments are passed to run_pipeline().
+
+volume method¶
+Input array.
+
+volume_above method¶
+OBV.volume_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where volume is above other.
+
+See combine_objs().
+
+volume_below method¶
+OBV.volume_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where volume is below other.
+
+See combine_objs().
+
+volume_crossed_above method¶
+OBV.volume_crossed_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where volume is crossed_above other.
+
+See combine_objs().
+
+volume_crossed_below method¶
+OBV.volume_crossed_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where volume is crossed_below other.
+
+See combine_objs().
+
+volume_equal method¶
+OBV.volume_equal(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where volume is equal other.
+
+See combine_objs().
+
+volume_stats method¶
+OBV.volume_stats(
+    *args,
+    **kwargs
+)
+Stats of volume as generic.
+
+RSI class¶
+RSI(
+    wrapper,
+    input_list,
+    input_mapper,
+    in_output_list,
+    output_list,
+    param_list,
+    mapper_list,
+    short_name,
+    level_names
+)
+Relative Strength Index (RSI).
+
+Compares the magnitude of recent gains and losses over a specified time period to measure speed and change of price movements of a security. It is primarily used to attempt to identify overbought or oversold conditions in the trading of an asset.
+
+See Relative Strength Index (RSI).
+
+Superclasses
+
+AttrResolver
+Configured
+Documented
+IndexingBase
+IndicatorBase
+PandasIndexer
+Pickleable
+PlotsBuilderMixin
+StatsBuilderMixin
+Wrapping
+vectorbt.indicators.basic.ParamIndexer
+Inherited members
+
+AttrResolver.deep_getattr()
+AttrResolver.post_resolve_attr()
+AttrResolver.pre_resolve_attr()
+AttrResolver.resolve_attr()
+Configured.copy()
+Configured.dumps()
+Configured.loads()
+Configured.replace()
+Configured.to_doc()
+Configured.update_config()
+IndicatorBase.config
+IndicatorBase.iloc
+IndicatorBase.in_output_names
+IndicatorBase.indexing_func()
+IndicatorBase.indexing_kwargs
+IndicatorBase.input_names
+IndicatorBase.level_names
+IndicatorBase.loc
+IndicatorBase.output_flags
+IndicatorBase.output_names
+IndicatorBase.param_names
+IndicatorBase.plots_defaults
+IndicatorBase.self_aliases
+IndicatorBase.short_name
+IndicatorBase.stats_defaults
+IndicatorBase.wrapper
+IndicatorBase.writeable_attrs
+PandasIndexer.xs()
+Pickleable.load()
+Pickleable.save()
+PlotsBuilderMixin.build_subplots_doc()
+PlotsBuilderMixin.override_subplots_doc()
+PlotsBuilderMixin.plots()
+StatsBuilderMixin.build_metrics_doc()
+StatsBuilderMixin.override_metrics_doc()
+StatsBuilderMixin.stats()
+Wrapping.regroup()
+Wrapping.resolve_self()
+Wrapping.select_one()
+Wrapping.select_one_from_obj()
+Subclasses
+
+vectorbt.indicators.basic._RSI
+apply_func method¶
+RSI.apply_func(
+    close,
+    window,
+    ewm,
+    adjust,
+    cache_dict
+)
+Apply function for RSI.
+
+close method¶
+Input array.
+
+close_above method¶
+RSI.close_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is above other.
+
+See combine_objs().
+
+close_below method¶
+RSI.close_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is below other.
+
+See combine_objs().
+
+close_crossed_above method¶
+RSI.close_crossed_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is crossed_above other.
+
+See combine_objs().
+
+close_crossed_below method¶
+RSI.close_crossed_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is crossed_below other.
+
+See combine_objs().
+
+close_equal method¶
+RSI.close_equal(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is equal other.
+
+See combine_objs().
+
+close_stats method¶
+RSI.close_stats(
+    *args,
+    **kwargs
+)
+Stats of close as generic.
+
+custom_func method¶
+IndicatorFactory.from_apply_func.<locals>.custom_func(
+    input_list,
+    in_output_list,
+    param_list,
+    *args,
+    input_shape=None,
+    col=None,
+    flex_2d=None,
+    return_cache=False,
+    use_cache=None,
+    use_ray=False,
+    **_kwargs
+)
+Custom function that forwards inputs and parameters to apply_func.
+
+ewm_list property¶
+List of ewm values.
+
+plot method¶
+_RSI.plot(
+    column=None,
+    levels=(30, 70),
+    rsi_trace_kwargs=None,
+    add_trace_kwargs=None,
+    xref='x',
+    yref='y',
+    fig=None,
+    **layout_kwargs
+)
+Plot RSI.rsi.
+
+Args
+
+column : str
+Name of the column to plot.
+levels : tuple
+Two extremes: bottom and top.
+rsi_trace_kwargs : dict
+Keyword arguments passed to plotly.graph_objects.Scatter for RSI.rsi.
+add_trace_kwargs : dict
+Keyword arguments passed to add_trace.
+xref : str
+X coordinate axis.
+yref : str
+Y coordinate axis.
+fig : Figure or FigureWidget
+Figure to add traces to.
+**layout_kwargs
+Keyword arguments for layout.
+Usage
+
+vbt.RSI.run(ohlcv['Close']).plot()
+
+
+rsi property¶
+Output array.
+
+rsi_above method¶
+RSI.rsi_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where rsi is above other.
+
+See combine_objs().
+
+rsi_below method¶
+RSI.rsi_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where rsi is below other.
+
+See combine_objs().
+
+rsi_crossed_above method¶
+RSI.rsi_crossed_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where rsi is crossed_above other.
+
+See combine_objs().
+
+rsi_crossed_below method¶
+RSI.rsi_crossed_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where rsi is crossed_below other.
+
+See combine_objs().
+
+rsi_equal method¶
+RSI.rsi_equal(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where rsi is equal other.
+
+See combine_objs().
+
+rsi_stats method¶
+RSI.rsi_stats(
+    *args,
+    **kwargs
+)
+Stats of rsi as generic.
+
+run class method¶
+RSI.run(
+    close,
+    window=Default(14),
+    ewm=Default(False),
+    short_name='rsi',
+    hide_params=None,
+    hide_default=True,
+    **kwargs
+)
+Run RSI indicator.
+
+Inputs: close
+Parameters: window, ewm
+Outputs: rsi
+Pass a list of parameter names as hide_params to hide their column levels. Set hide_default to False to show the column levels of the parameters with a default value.
+
+Other keyword arguments are passed to run_pipeline().
+
+run_combs class method¶
+RSI.run_combs(
+    close,
+    window=Default(14),
+    ewm=Default(False),
+    r=2,
+    param_product=False,
+    comb_func=itertools.combinations,
+    run_unique=True,
+    short_names=None,
+    hide_params=None,
+    hide_default=True,
+    **kwargs
+)
+Create a combination of multiple RSI indicators using function comb_func.
+
+Inputs: close
+Parameters: window, ewm
+Outputs: rsi
+comb_func must accept an iterable of parameter tuples and r. Also accepts all combinatoric iterators from itertools such as itertools.combinations. Pass r to specify how many indicators to run. Pass short_names to specify the short name for each indicator. Set run_unique to True to first compute raw outputs for all parameters, and then use them to build each indicator (faster).
+
+Other keyword arguments are passed to RSI.run().
+
+window_list property¶
+List of window values.
+
+STOCH class¶
+STOCH(
+    wrapper,
+    input_list,
+    input_mapper,
+    in_output_list,
+    output_list,
+    param_list,
+    mapper_list,
+    short_name,
+    level_names
+)
+Stochastic Oscillator (STOCH).
+
+A stochastic oscillator is a momentum indicator comparing a particular closing price of a security to a range of its prices over a certain period of time. It is used to generate overbought and oversold trading signals, utilizing a 0-100 bounded range of values.
+
+See Stochastic Oscillator.
+
+Superclasses
+
+AttrResolver
+Configured
+Documented
+IndexingBase
+IndicatorBase
+PandasIndexer
+Pickleable
+PlotsBuilderMixin
+StatsBuilderMixin
+Wrapping
+vectorbt.indicators.basic.ParamIndexer
+Inherited members
+
+AttrResolver.deep_getattr()
+AttrResolver.post_resolve_attr()
+AttrResolver.pre_resolve_attr()
+AttrResolver.resolve_attr()
+Configured.copy()
+Configured.dumps()
+Configured.loads()
+Configured.replace()
+Configured.to_doc()
+Configured.update_config()
+IndicatorBase.config
+IndicatorBase.iloc
+IndicatorBase.in_output_names
+IndicatorBase.indexing_func()
+IndicatorBase.indexing_kwargs
+IndicatorBase.input_names
+IndicatorBase.level_names
+IndicatorBase.loc
+IndicatorBase.output_flags
+IndicatorBase.output_names
+IndicatorBase.param_names
+IndicatorBase.plots_defaults
+IndicatorBase.self_aliases
+IndicatorBase.short_name
+IndicatorBase.stats_defaults
+IndicatorBase.wrapper
+IndicatorBase.writeable_attrs
+PandasIndexer.xs()
+Pickleable.load()
+Pickleable.save()
+PlotsBuilderMixin.build_subplots_doc()
+PlotsBuilderMixin.override_subplots_doc()
+PlotsBuilderMixin.plots()
+StatsBuilderMixin.build_metrics_doc()
+StatsBuilderMixin.override_metrics_doc()
+StatsBuilderMixin.stats()
+Wrapping.regroup()
+Wrapping.resolve_self()
+Wrapping.select_one()
+Wrapping.select_one_from_obj()
+Subclasses
+
+vectorbt.indicators.basic._STOCH
+apply_func method¶
+STOCH.apply_func(
+    high,
+    low,
+    close,
+    k_window,
+    d_window,
+    d_ewm,
+    adjust,
+    cache_dict
+)
+Apply function for STOCH.
+
+close method¶
+Input array.
+
+close_above method¶
+STOCH.close_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is above other.
+
+See combine_objs().
+
+close_below method¶
+STOCH.close_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is below other.
+
+See combine_objs().
+
+close_crossed_above method¶
+STOCH.close_crossed_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is crossed_above other.
+
+See combine_objs().
+
+close_crossed_below method¶
+STOCH.close_crossed_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is crossed_below other.
+
+See combine_objs().
+
+close_equal method¶
+STOCH.close_equal(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where close is equal other.
+
+See combine_objs().
+
+close_stats method¶
+STOCH.close_stats(
+    *args,
+    **kwargs
+)
+Stats of close as generic.
+
+custom_func method¶
+IndicatorFactory.from_apply_func.<locals>.custom_func(
+    input_list,
+    in_output_list,
+    param_list,
+    *args,
+    input_shape=None,
+    col=None,
+    flex_2d=None,
+    return_cache=False,
+    use_cache=None,
+    use_ray=False,
+    **_kwargs
+)
+Custom function that forwards inputs and parameters to apply_func.
+
+d_ewm_list property¶
+List of d_ewm values.
+
+d_window_list property¶
+List of d_window values.
+
+high method¶
+Input array.
+
+high_above method¶
+STOCH.high_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where high is above other.
+
+See combine_objs().
+
+high_below method¶
+STOCH.high_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where high is below other.
+
+See combine_objs().
+
+high_crossed_above method¶
+STOCH.high_crossed_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where high is crossed_above other.
+
+See combine_objs().
+
+high_crossed_below method¶
+STOCH.high_crossed_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where high is crossed_below other.
+
+See combine_objs().
+
+high_equal method¶
+STOCH.high_equal(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where high is equal other.
+
+See combine_objs().
+
+high_stats method¶
+STOCH.high_stats(
+    *args,
+    **kwargs
+)
+Stats of high as generic.
+
+k_window_list property¶
+List of k_window values.
+
+low method¶
+Input array.
+
+low_above method¶
+STOCH.low_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where low is above other.
+
+See combine_objs().
+
+low_below method¶
+STOCH.low_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where low is below other.
+
+See combine_objs().
+
+low_crossed_above method¶
+STOCH.low_crossed_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where low is crossed_above other.
+
+See combine_objs().
+
+low_crossed_below method¶
+STOCH.low_crossed_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where low is crossed_below other.
+
+See combine_objs().
+
+low_equal method¶
+STOCH.low_equal(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where low is equal other.
+
+See combine_objs().
+
+low_stats method¶
+STOCH.low_stats(
+    *args,
+    **kwargs
+)
+Stats of low as generic.
+
+percent_d property¶
+Output array.
+
+percent_d_above method¶
+STOCH.percent_d_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where percent_d is above other.
+
+See combine_objs().
+
+percent_d_below method¶
+STOCH.percent_d_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where percent_d is below other.
+
+See combine_objs().
+
+percent_d_crossed_above method¶
+STOCH.percent_d_crossed_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where percent_d is crossed_above other.
+
+See combine_objs().
+
+percent_d_crossed_below method¶
+STOCH.percent_d_crossed_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where percent_d is crossed_below other.
+
+See combine_objs().
+
+percent_d_equal method¶
+STOCH.percent_d_equal(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where percent_d is equal other.
+
+See combine_objs().
+
+percent_d_stats method¶
+STOCH.percent_d_stats(
+    *args,
+    **kwargs
+)
+Stats of percent_d as generic.
+
+percent_k property¶
+Output array.
+
+percent_k_above method¶
+STOCH.percent_k_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where percent_k is above other.
+
+See combine_objs().
+
+percent_k_below method¶
+STOCH.percent_k_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where percent_k is below other.
+
+See combine_objs().
+
+percent_k_crossed_above method¶
+STOCH.percent_k_crossed_above(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where percent_k is crossed_above other.
+
+See combine_objs().
+
+percent_k_crossed_below method¶
+STOCH.percent_k_crossed_below(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where percent_k is crossed_below other.
+
+See combine_objs().
+
+percent_k_equal method¶
+STOCH.percent_k_equal(
+    other,
+    level_name=None,
+    allow_multiple=True,
+    **kwargs
+)
+Return True for each element where percent_k is equal other.
+
+See combine_objs().
+
+percent_k_stats method¶
+STOCH.percent_k_stats(
+    *args,
+    **kwargs
+)
+Stats of percent_k as generic.
+
+plot method¶
+_STOCH.plot(
+    column=None,
+    levels=(30, 70),
+    percent_k_trace_kwargs=None,
+    percent_d_trace_kwargs=None,
+    shape_kwargs=None,
+    add_trace_kwargs=None,
+    xref='x',
+    yref='y',
+    fig=None,
+    **layout_kwargs
+)
+Plot STOCH.percent_k and STOCH.percent_d.
+
+Args
+
+column : str
+Name of the column to plot.
+levels : tuple
+Two extremes: bottom and top.
+percent_k_trace_kwargs : dict
+Keyword arguments passed to plotly.graph_objects.Scatter for STOCH.percent_k.
+percent_d_trace_kwargs : dict
+Keyword arguments passed to plotly.graph_objects.Scatter for STOCH.percent_d.
+shape_kwargs : dict
+Keyword arguments passed to Figure or FigureWidget.add_shape for zone between levels.
+add_trace_kwargs : dict
+Keyword arguments passed to add_trace.
+xref : str
+X coordinate axis.
+yref : str
+Y coordinate axis.
+fig : Figure or FigureWidget
+Figure to add traces to.
+**layout_kwargs
+Keyword arguments for layout.
+Usage
+
+vbt.STOCH.run(ohlcv['High'], ohlcv['Low'], ohlcv['Close']).plot()
+
+
+run class method¶
+STOCH.run(
+    high,
+    low,
+    close,
+    k_window=Default(14),
+    d_window=Default(3),
+    d_ewm=Default(False),
+    short_name='stoch',
+    hide_params=None,
+    hide_default=True,
+    **kwargs
+)
+Run STOCH indicator.
+
+Inputs: high, low, close
+Parameters: k_window, d_window, d_ewm
+Outputs: percent_k, percent_d
+Pass a list of parameter names as hide_params to hide their column levels. Set hide_default to False to show the column levels of the parameters with a default value.
+
+Other keyword arguments are passed to run_pipeline().
+
+run_combs class method¶
+STOCH.run_combs(
+    high,
+    low,
+    close,
+    k_window=Default(14),
+    d_window=Default(3),
+    d_ewm=Default(False),
+    r=2,
+    param_product=False,
+    comb_func=itertools.combinations,
+    run_unique=True,
+    short_names=None,
+    hide_params=None,
+    hide_default=True,
+    **kwargs
+)
+Create a combination of multiple STOCH indicators using function comb_func.
+
+Inputs: high, low, close
+Parameters: k_window, d_window, d_ewm
+Outputs: percent_k, percent_d
+comb_func must accept an iterable of parameter tuples and r. Also accepts all combinatoric iterators from itertools such as itertools.combinations. Pass r to specify how many indicators to run. Pass short_names to specify the short name for each indicator. Set run_unique to True to first compute raw outputs for all parameters, and then use them to build each indicator (faster).
+
+Other keyword arguments are passed to STOCH.run().

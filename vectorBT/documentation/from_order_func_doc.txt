@@ -1,0 +1,483 @@
+from_order_func class method¶
+Portfolio.from_order_func(
+    close,
+    order_func_nb,
+    *order_args,
+    flexible=None,
+    init_cash=None,
+    cash_sharing=None,
+    call_seq=None,
+    segment_mask=None,
+    call_pre_segment=None,
+    call_post_segment=None,
+    pre_sim_func_nb=no_pre_func_nb,
+    pre_sim_args=(),
+    post_sim_func_nb=no_post_func_nb,
+    post_sim_args=(),
+    pre_group_func_nb=no_pre_func_nb,
+    pre_group_args=(),
+    post_group_func_nb=no_post_func_nb,
+    post_group_args=(),
+    pre_row_func_nb=no_pre_func_nb,
+    pre_row_args=(),
+    post_row_func_nb=no_post_func_nb,
+    post_row_args=(),
+    pre_segment_func_nb=no_pre_func_nb,
+    pre_segment_args=(),
+    post_segment_func_nb=no_post_func_nb,
+    post_segment_args=(),
+    post_order_func_nb=no_post_func_nb,
+    post_order_args=(),
+    ffill_val_price=None,
+    update_value=None,
+    fill_pos_record=None,
+    row_wise=None,
+    use_numba=None,
+    max_orders=None,
+    max_logs=None,
+    seed=None,
+    group_by=None,
+    broadcast_named_args=None,
+    broadcast_kwargs=None,
+    template_mapping=None,
+    wrapper_kwargs=None,
+    freq=None,
+    attach_call_seq=None,
+    **kwargs
+)
+Build portfolio from a custom order function.
+
+Hint
+
+See simulate_nb() for illustrations and argument definitions.
+
+For more details on individual simulation functions:
+
+not row_wise and not flexible: See simulate_nb()
+not row_wise and flexible: See flex_simulate_nb()
+row_wise and not flexible: See simulate_row_wise_nb()
+row_wise and flexible: See flex_simulate_row_wise_nb()
+Args
+
+close : array_like
+Last asset price at each time step. Will broadcast to target_shape.
+
+Used for calculating unrealized PnL and portfolio value.
+
+order_func_nb : callable
+Order generation function.
+*order_args
+Arguments passed to order_func_nb.
+flexible : bool
+Whether to simulate using a flexible order function.
+
+This lifts the limit of one order per tick and symbol.
+
+init_cash : InitCashMode, float or array_like of float
+Initial capital.
+
+See init_cash in Portfolio.from_orders().
+
+cash_sharing : bool
+Whether to share cash within the same group.
+
+If group_by is None, group_by becomes True to form a single group with cash sharing.
+
+call_seq : CallSeqType or array_like
+Default sequence of calls per row and group.
+
+Use CallSeqType to select a sequence type.
+Set to array to specify custom sequence. Will not broadcast.
+Note
+
+CallSeqType.Auto should be implemented manually. Use sort_call_seq_nb() or sort_call_seq_out_nb() in pre_segment_func_nb.
+
+segment_mask : int or array_like of bool
+Mask of whether a particular segment should be executed.
+
+Supplying an integer will activate every n-th row. Supplying a boolean or an array of boolean will broadcast to the number of rows and groups.
+
+Does not broadcast together with close and broadcast_named_args, only against the final shape.
+
+call_pre_segment : bool
+Whether to call pre_segment_func_nb regardless of segment_mask.
+call_post_segment : bool
+Whether to call post_segment_func_nb regardless of segment_mask.
+pre_sim_func_nb : callable
+Function called before simulation. Defaults to no_pre_func_nb().
+pre_sim_args : tuple
+Packed arguments passed to pre_sim_func_nb. Defaults to ().
+post_sim_func_nb : callable
+Function called after simulation. Defaults to no_post_func_nb().
+post_sim_args : tuple
+Packed arguments passed to post_sim_func_nb. Defaults to ().
+pre_group_func_nb : callable
+Function called before each group. Defaults to no_pre_func_nb().
+
+Called only if row_wise is False.
+
+pre_group_args : tuple
+Packed arguments passed to pre_group_func_nb. Defaults to ().
+post_group_func_nb : callable
+Function called after each group. Defaults to no_post_func_nb().
+
+Called only if row_wise is False.
+
+post_group_args : tuple
+Packed arguments passed to post_group_func_nb. Defaults to ().
+pre_row_func_nb : callable
+Function called before each row. Defaults to no_pre_func_nb().
+
+Called only if row_wise is True.
+
+pre_row_args : tuple
+Packed arguments passed to pre_row_func_nb. Defaults to ().
+post_row_func_nb : callable
+Function called after each row. Defaults to no_post_func_nb().
+
+Called only if row_wise is True.
+
+post_row_args : tuple
+Packed arguments passed to post_row_func_nb. Defaults to ().
+pre_segment_func_nb : callable
+Function called before each segment. Defaults to no_pre_func_nb().
+pre_segment_args : tuple
+Packed arguments passed to pre_segment_func_nb. Defaults to ().
+post_segment_func_nb : callable
+Function called after each segment. Defaults to no_post_func_nb().
+post_segment_args : tuple
+Packed arguments passed to post_segment_func_nb. Defaults to ().
+post_order_func_nb : callable
+Callback that is called after the order has been processed.
+post_order_args : tuple
+Packed arguments passed to post_order_func_nb. Defaults to ().
+ffill_val_price : bool
+Whether to track valuation price only if it's known.
+
+Otherwise, unknown close will lead to NaN in valuation price at the next timestamp.
+
+update_value : bool
+Whether to update group value after each filled order.
+fill_pos_record : bool
+Whether to fill position record.
+
+Disable this to make simulation a bit faster for simple use cases.
+
+row_wise : bool
+Whether to iterate over rows rather than columns/groups.
+use_numba : bool
+Whether to run the main simulation function using Numba.
+
+Note
+
+Disabling it does not disable Numba for other functions. If neccessary, you should ensure that every other function does not uses Numba as well. You can do this by using the py_func attribute of that function. Or, you could disable Numba globally by doing os.environ['NUMBA_DISABLE_JIT'] = '1'.
+
+max_orders : int
+Size of the order records array. Defaults to the number of elements in the broadcasted shape.
+
+Set to a lower number if you run out of memory.
+
+max_logs : int
+Size of the log records array. Defaults to the number of elements in the broadcasted shape.
+
+Set to a lower number if you run out of memory.
+
+seed : int
+See Portfolio.from_orders().
+group_by : any
+See Portfolio.from_orders().
+broadcast_named_args : dict
+See Portfolio.from_signals().
+broadcast_kwargs : dict
+See Portfolio.from_orders().
+template_mapping : mapping
+See Portfolio.from_signals().
+wrapper_kwargs : dict
+See Portfolio.from_orders().
+freq : any
+See Portfolio.from_orders().
+attach_call_seq : bool
+See Portfolio.from_orders().
+**kwargs
+Keyword arguments passed to the __init__ method.
+For defaults, see portfolio in settings.
+
+Note
+
+All passed functions should be Numba-compiled if Numba is enabled.
+
+Also see notes on Portfolio.from_orders().
+
+Note
+
+In contrast to other methods, the valuation price is previous close instead of the order price since the price of an order is unknown before the call (which is more realistic by the way). You can still override the valuation price in pre_segment_func_nb.
+
+Usage
+
+Buy 10 units each tick using closing price:
+@njit
+def order_func_nb(c, size):
+    return nb.order_nb(size=size)
+
+close = pd.Series([1, 2, 3, 4, 5])
+pf = vbt.Portfolio.from_order_func(close, order_func_nb, 10)
+
+pf.assets()
+
+
+
+
+
+
+pf.cash()
+
+
+
+
+
+
+Reverse each position by first closing it. Keep state of last position to determine which position to open next (just as an example, there are easier ways to do this):
+@njit
+def pre_group_func_nb(c):
+    last_pos_state = np.array([-1])
+    return (last_pos_state,)
+
+@njit
+def order_func_nb(c, last_pos_state):
+    if c.position_now != 0:
+        return nb.close_position_nb()
+
+    if last_pos_state[0] == 1:
+        size = -np.inf  # open short
+        last_pos_state[0] = -1
+    else:
+        size = np.inf  # open long
+        last_pos_state[0] = 1
+    return nb.order_nb(size=size)
+
+pf = vbt.Portfolio.from_order_func(
+    close,
+    order_func_nb,
+    pre_group_func_nb=pre_group_func_nb
+)
+
+pf.assets()
+
+
+
+
+
+
+pf.cash()
+
+
+
+
+
+
+Equal-weighted portfolio as in the example under simulate_nb():
+@njit
+def pre_group_func_nb(c):
+    order_value_out = np.empty(c.group_len, dtype=np.float_)
+    return (order_value_out,)
+
+@njit
+def pre_segment_func_nb(c, order_value_out, size, price, size_type, direction):
+    for col in range(c.from_col, c.to_col):
+        c.last_val_price[col] = nb.get_col_elem_nb(c, col, price)
+    nb.sort_call_seq_nb(c, size, size_type, direction, order_value_out)
+    return ()
+
+@njit
+def order_func_nb(c, size, price, size_type, direction, fees, fixed_fees, slippage):
+    return nb.order_nb(
+        size=nb.get_elem_nb(c, size),
+        price=nb.get_elem_nb(c, price),
+        size_type=nb.get_elem_nb(c, size_type),
+        direction=nb.get_elem_nb(c, direction),
+        fees=nb.get_elem_nb(c, fees),
+        fixed_fees=nb.get_elem_nb(c, fixed_fees),
+        slippage=nb.get_elem_nb(c, slippage)
+    )
+
+np.random.seed(42)
+close = np.random.uniform(1, 10, size=(5, 3))
+size_template = vbt.RepEval('np.asarray(1 / group_lens[0])')
+
+pf = vbt.Portfolio.from_order_func(
+    close,
+    order_func_nb,
+    size_template,  # order_args as *args
+    vbt.Rep('price'),
+    vbt.Rep('size_type'),
+    vbt.Rep('direction'),
+    vbt.Rep('fees'),
+    vbt.Rep('fixed_fees'),
+    vbt.Rep('slippage'),
+    segment_mask=2,  # rebalance every second tick
+    pre_group_func_nb=pre_group_func_nb,
+    pre_segment_func_nb=pre_segment_func_nb,
+    pre_segment_args=(
+        size_template,
+        vbt.Rep('price'),
+        vbt.Rep('size_type'),
+        vbt.Rep('direction')
+    ),
+    broadcast_named_args=dict(  # broadcast against each other
+        price=close,
+        size_type=SizeType.TargetPercent,
+        direction=Direction.LongOnly,
+        fees=0.001,
+        fixed_fees=1.,
+        slippage=0.001
+    ),
+    template_mapping=dict(np=np),  # required by size_template
+    cash_sharing=True, group_by=True,  # one group with cash sharing
+)
+
+pf.asset_value(group_by=False).vbt.plot()
+
+
+Templates are a very powerful tool to prepare any custom arguments after they are broadcast and before they are passed to the simulation function. In the example above, we use broadcast_named_args to broadcast some arguments against each other and templates to pass those objects to callbacks. Additionally, we used an evaluation template to compute the size based on the number of assets in each group.
+
+You may ask: why should we bother using broadcasting and templates if we could just pass size=1/3? Because of flexibility those features provide: we can now pass whatever parameter combinations we want and it will work flawlessly. For example, to create two groups of equally-allocated positions, we need to change only two parameters:
+
+close = np.random.uniform(1, 10, size=(5, 6))  # 6 columns instead of 3
+group_by = ['g1', 'g1', 'g1', 'g2', 'g2', 'g2']  # 2 groups instead of 1
+
+pf['g1'].asset_value(group_by=False).vbt.plot()
+pf['g2'].asset_value(group_by=False).vbt.plot()
+
+
+
+
+Combine multiple exit conditions. Exit early if the price hits some threshold before an actual exit:
+@njit
+def pre_sim_func_nb(c):
+    # We need to define stop price per column once
+    stop_price = np.full(c.target_shape[1], np.nan, dtype=np.float_)
+    return (stop_price,)
+
+@njit
+def order_func_nb(c, stop_price, entries, exits, size):
+    # Select info related to this order
+    entry_now = nb.get_elem_nb(c, entries)
+    exit_now = nb.get_elem_nb(c, exits)
+    size_now = nb.get_elem_nb(c, size)
+    price_now = nb.get_elem_nb(c, c.close)
+    stop_price_now = stop_price[c.col]
+
+    # Our logic
+    if entry_now:
+        if c.position_now == 0:
+            return nb.order_nb(
+                size=size_now,
+                price=price_now,
+                direction=Direction.LongOnly)
+    elif exit_now or price_now >= stop_price_now:
+        if c.position_now > 0:
+            return nb.order_nb(
+                size=-size_now,
+                price=price_now,
+                direction=Direction.LongOnly)
+    return NoOrder
+
+@njit
+def post_order_func_nb(c, stop_price, stop):
+    # Same broadcasting as for size
+    stop_now = nb.get_elem_nb(c, stop)
+
+    if c.order_result.status == OrderStatus.Filled:
+        if c.order_result.side == OrderSide.Buy:
+            # Position entered: Set stop condition
+            stop_price[c.col] = (1 + stop_now) * c.order_result.price
+        else:
+            # Position exited: Remove stop condition
+            stop_price[c.col] = np.nan
+
+def simulate(close, entries, exits, size, threshold):
+    return vbt.Portfolio.from_order_func(
+        close,
+        order_func_nb,
+        vbt.Rep('entries'), vbt.Rep('exits'), vbt.Rep('size'),  # order_args
+        pre_sim_func_nb=pre_sim_func_nb,
+        post_order_func_nb=post_order_func_nb,
+        post_order_args=(vbt.Rep('threshold'),),
+        broadcast_named_args=dict(  # broadcast against each other
+            entries=entries,
+            exits=exits,
+            size=size,
+            threshold=threshold
+        )
+    )
+
+close = pd.Series([10, 11, 12, 13, 14])
+entries = pd.Series([True, True, False, False, False])
+exits = pd.Series([False, False, False, True, True])
+simulate(close, entries, exits, np.inf, 0.1).asset_flow()
+
+
+
+
+
+
+
+simulate(close, entries, exits, np.inf, 0.2).asset_flow()
+
+
+
+
+
+
+
+simulate(close, entries, exits, np.nan).asset_flow()
+
+
+
+
+
+
+The reason why stop of 10% does not result in an order at the second time step is because it comes at the same time as entry, so it must wait until no entry is present. This can be changed by replacing the statement "elif" with "if", which would execute an exit regardless if an entry is present (similar to using ConflictMode.Opposite in Portfolio.from_signals()).
+
+We can also test the parameter combinations above all at once (thanks to broadcasting):
+
+size = pd.DataFrame(
+    [[0.1, 0.2, np.nan]],
+    columns=pd.Index(['0.1', '0.2', 'nan'], name='size')
+)
+simulate(close, entries, exits, np.inf, size).asset_flow()
+
+
+
+
+
+
+Let's illustrate how to generate multiple orders per symbol and bar. For each bar, buy at open and sell at close:
+@njit
+def flex_order_func_nb(c, open, size):
+    if c.call_idx == 0:
+        return c.from_col, nb.order_nb(size=size, price=open[c.i, c.from_col])
+    if c.call_idx == 1:
+        return c.from_col, nb.close_position_nb(price=c.close[c.i, c.from_col])
+    return -1, NoOrder
+
+open = pd.DataFrame({'a': [1, 2, 3], 'b': [4, 5, 6]})
+close = pd.DataFrame({'a': [2, 3, 4], 'b': [3, 4, 5]})
+size = 1
+pf = vbt.Portfolio.from_order_func(
+    close,
+    flex_order_func_nb,
+    to_2d_array(open), size,
+    flexible=True, max_orders=close.shape[0] * close.shape[1] * 2)
+
+pf.orders.records_readable
+
+
+
+
+
+
+Warning
+
+Each bar is effectively a black box - we don't know how the price moves inside. Since trades must come in an order that replicates that of the real world, the only reliable pieces of information are the opening and the closing price.
+
